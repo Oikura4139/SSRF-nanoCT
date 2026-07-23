@@ -1,0 +1,1929 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "figure_plan": {
+    "paper_id": "doi:10.3788/aos202242.2334001",
+    "figures": [
+      {
+        "id": "Fig 4",
+        "caption": "TXM system independently developed by SSRF",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+          "width": 659,
+          "height": 605,
+          "size_bytes": 578645,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.102452,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.752947,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 49,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "system",
+              "independently",
+              "developed",
+              "ssrf"
+            ],
+            "snippet": "e W / mm 55 Maximum accepted divergence of capillary φ2 /mrad 6. 2 图4 上海同步辐射光源自主研制的TXM 系统 Fig. 4 TXM system independently developed by SSRF",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_02.jpeg",
+                "width": 1728,
+                "height": 497,
+                "size_bytes": 228091
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_03.jpeg",
+                "width": 956,
+                "height": 708,
+                "size_bytes": 411890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_3.png",
+                "width": 1423,
+                "height": 569,
+                "size_bytes": 229887,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207775,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.538781,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_table_2.png",
+                "width": 1425,
+                "height": 792,
+                "size_bytes": 788465,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.289628,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.266345,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+                "width": 659,
+                "height": 605,
+                "size_bytes": 578645,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.102452,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.752947,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "system",
+              "independently",
+              "developed",
+              "ssrf"
+            ],
+            "snippet": "ndenser. The experimental endstation adopts a self-designed and integrated full-field TXM system, and the mono-capillary condenser, the TXM mechanical system, and the nano-CT control and",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 1,
+            "matched_terms": [
+              "ssrf"
+            ],
+            "snippet": "T 等 ［7-8］。国内北京同步 辐射装置（BSRF）已建成30 nm 空间分辨率的TXM 装置，北京高能同步辐射（HEPS）正在建设专用TXM 线站 ［9］。 上海同步辐射光源（SSRF）纳米三维成像线站将 瞄准纳米材料 ［10-11］、生命科学 ［12］、新能源 ［13-14］和新一代 信息技术等领域中的前沿科学问题和国家战略需求， 发挥该线站纳米分辨三维结构表",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_02.jpeg",
+                "width": 956,
+                "height": 531,
+                "size_bytes": 155418
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+                "width": 1423,
+                "height": 839,
+                "size_bytes": 444267,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.30639,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.234414,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Three test results of rocking curve at energy of 8 keV",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+          "width": 1174,
+          "height": 405,
+          "size_bytes": 123212,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.122151,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.657567,
+            "paragraph_text_chars": 120,
+            "table_body_rows": 0,
+            "caption_text_chars": 61,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "three",
+              "test",
+              "rocking",
+              "curve",
+              "energy"
+            ],
+            "snippet": "10 -4 1. 84×10 -4 1. 82×10 -4 Average of ΔE/E （1. 83±0. 01）×10 -4 图6 8 keV 能量处摇摆曲线的三次测量结果 Fig. 6 Three test results of rocking curve at energy of 8 keV",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_02.jpeg",
+                "width": 1728,
+                "height": 508,
+                "size_bytes": 200299
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_03.jpeg",
+                "width": 1728,
+                "height": 408,
+                "size_bytes": 217656
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_5.png",
+                "width": 1423,
+                "height": 653,
+                "size_bytes": 229801,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.238766,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.477966,
+                  "paragraph_text_chars": 92,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 87,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_table_3.png",
+                "width": 853,
+                "height": 275,
+                "size_bytes": 26219,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.060362,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+                "width": 1174,
+                "height": 405,
+                "size_bytes": 123212,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122151,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.657567,
+                  "paragraph_text_chars": 120,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "test",
+              "energy"
+            ],
+            "snippet": "d in many research fields owing to its various strengths, such as in-suit non-destructive three-dimensional (3D) imaging with a nanoscale spatial resolution. 3D nano image beamline, a p",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "test",
+              "energy"
+            ],
+            "snippet": "d Physics Letters, 2009, 95(5): 053108. [7] Liu X Y, Ronne A, Yu L C, et al. Formation of three- dimensional bicontinuous structures via molten salt dealloying studied in real-time by i",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_007_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Design goals of 3D nano image beamline at SSRF",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_table1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png",
+          "width": 1432,
+          "height": 617,
+          "size_bytes": 201707,
+          "label": "Table1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.226951,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 426,
+            "table_body_rows": 0,
+            "caption_text_chars": 53,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "design",
+              "goals",
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "X 射线光学；透射X 射线显微镜；同步辐射；单毛细管聚焦镜；自主研发 中图分类号 O434. 11 文献标志码 A DOI： 10.3788/AOS202242.2334001 Design, Development and Commissioning of 3D Nano Image Beamline at Shanghai Synchrotron Radiatio",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "design",
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "ansmission X-ray microscope; synchrotron radiation; mono-capillary condenser; independent design 1 引 言 随着同步辐射光源和X 射线成像光学元件的发 展，X 射线显微成像技术得到了进一步发展 ［1-3］。例如， 在空间分辨率方面，硬X 射线波段的同步辐射纳米成 像已经实现",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_02.jpeg",
+                "width": 956,
+                "height": 531,
+                "size_bytes": 155418
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+                "width": 1423,
+                "height": 839,
+                "size_bytes": 444267,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.30639,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.234414,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "design",
+              "goals",
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "聚焦在旋转椭 球镜的另一焦点F'处（样品点处）。在光轴上放置光 阑，形成照明样品的空心聚焦光锥，聚焦后形成环状光 表1 上海同步辐射光源纳米三维成像光束线站设计指标 Table1 Design goals of 3D nano image beamline at SSRF Component Beamline Endstation Index Energy range",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_02.jpeg",
+                "width": 1728,
+                "height": 304,
+                "size_bytes": 165594
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_table1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png",
+                "width": 1432,
+                "height": 617,
+                "size_bytes": 201707,
+                "label": "Table1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.226951,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 426,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+                "width": 1174,
+                "height": 336,
+                "size_bytes": 169254,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.10143,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.59148,
+                  "paragraph_text_chars": 186,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Parameter of ellipsoidal capillary",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_table_2.png",
+          "width": 1425,
+          "height": 792,
+          "size_bytes": 788465,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.289628,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.266345,
+            "paragraph_text_chars": 380,
+            "table_body_rows": 7,
+            "caption_text_chars": 42,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "parameter",
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "镜原理示意图 ［15］ Fig. 3 Schematic diagram of rotating ellipsoidal capillary [15] 表2 椭球聚焦镜的物理参数 Table 2 Parameter of ellipsoidal capillary Model ABS25-8 Length of ellipsoidal capillary L /mm 10",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_02.jpeg",
+                "width": 1728,
+                "height": 497,
+                "size_bytes": 228091
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_03.jpeg",
+                "width": 956,
+                "height": 708,
+                "size_bytes": 411890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_3.png",
+                "width": 1423,
+                "height": 569,
+                "size_bytes": 229887,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207775,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.538781,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_table_2.png",
+                "width": 1425,
+                "height": 792,
+                "size_bytes": 788465,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.289628,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.266345,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+                "width": 659,
+                "height": 605,
+                "size_bytes": 578645,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.102452,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.752947,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "J]. 光学学报, 2017, 37(10): 1034002. Tao F, Wang Y D, Ren Y Q, et al. Design and detection of ellipsoidal mono-capillary for X-ray nano- imaging[J]. Acta Optica Sinica, 2017, 37(10): 1034002. [16",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_007_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "capillary"
+            ],
+            "snippet": "ntal endstation adopts a self-designed and integrated full-field TXM system, and the mono-capillary condenser, the TXM mechanical system, and the nano-CT control and data acquisition softwa",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Three test results of energy resolution",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_table_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_table_3.png",
+          "width": 853,
+          "height": 275,
+          "size_bytes": 26219,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.060362,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 47,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "three",
+              "test",
+              "energy",
+              "resolution"
+            ],
+            "snippet": "spectra. (a) XANES spectrum of Ti K-edge; (b) XANES spectrum of Au L1-edge 表3 能量分辨率三次测试结果 Table 3 Three test results of energy resolution Test No. 1 2 3 Peak position /μrad 188. 64 187. 8",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_02.jpeg",
+                "width": 1728,
+                "height": 508,
+                "size_bytes": 200299
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_03.jpeg",
+                "width": 1728,
+                "height": 408,
+                "size_bytes": 217656
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_5.png",
+                "width": 1423,
+                "height": 653,
+                "size_bytes": 229801,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.238766,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.477966,
+                  "paragraph_text_chars": 92,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 87,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_table_3.png",
+                "width": 853,
+                "height": 275,
+                "size_bytes": 26219,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.060362,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+                "width": 1174,
+                "height": 405,
+                "size_bytes": 123212,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122151,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.657567,
+                  "paragraph_text_chars": 120,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "test",
+              "energy",
+              "resolution"
+            ],
+            "snippet": "d in many research fields owing to its various strengths, such as in-suit non-destructive three-dimensional (3D) imaging with a nanoscale spatial resolution. 3D nano image beamline, a p",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "test",
+              "energy",
+              "resolution"
+            ],
+            "snippet": "d Physics Letters, 2009, 95(5): 053108. [7] Liu X Y, Ronne A, Yu L C, et al. Formation of three- dimensional bicontinuous structures via molten salt dealloying studied in real-time by i",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_007_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Overall layout of 3D nano image beamline at SSRF",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+          "width": 1423,
+          "height": 839,
+          "size_bytes": 444267,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.30639,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.234414,
+            "paragraph_text_chars": 622,
+            "table_body_rows": 0,
+            "caption_text_chars": 55,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "overall",
+              "layout",
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "析了样品处光斑的通量、光 斑尺寸、能量分辨率、主要部件的传输特性和热负载分 布。计算中考虑了反射镜面形误差、单色器第一晶体 的变形等因素。 图1 纳米三维成像光束线总体布局示意图 Fig. 1 Overall layout of 3D nano image beamline at SSRF",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_02.jpeg",
+                "width": 956,
+                "height": 531,
+                "size_bytes": 155418
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+                "width": 1423,
+                "height": 839,
+                "size_bytes": 444267,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.30639,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.234414,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "34. 11 文献标志码 A DOI： 10.3788/AOS202242.2334001 Design, Development and Commissioning of 3D Nano Image Beamline at Shanghai Synchrotron Radiation Facility Tao Fen 1, Zhang Ling 1, Su Bo",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "品点处）。在光轴上放置光 阑，形成照明样品的空心聚焦光锥，聚焦后形成环状光 表1 上海同步辐射光源纳米三维成像光束线站设计指标 Table1 Design goals of 3D nano image beamline at SSRF Component Beamline Endstation Index Energy range /keV Energy resol",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_02.jpeg",
+                "width": 1728,
+                "height": 304,
+                "size_bytes": 165594
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_table1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png",
+                "width": 1432,
+                "height": 617,
+                "size_bytes": 201707,
+                "label": "Table1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.226951,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 426,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+                "width": 1174,
+                "height": 336,
+                "size_bytes": 169254,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.10143,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.59148,
+                  "paragraph_text_chars": 186,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic diagram of 3D nano image beamline endstation at SSRF",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+          "width": 1174,
+          "height": 336,
+          "size_bytes": 169254,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.10143,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.59148,
+            "paragraph_text_chars": 186,
+            "table_body_rows": 0,
+            "caption_text_chars": 69,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "schematic",
+              "diagram",
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "n·s -1） Spatial resolution@8 keV（TXM） /nm Value 5-14 5. 0×10 -4 5×10 9 20 图2 纳米三维成像实验站原理图 Fig. 2 Schematic diagram of 3D nano image beamline endstation at SSRF",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_02.jpeg",
+                "width": 1728,
+                "height": 304,
+                "size_bytes": 165594
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_table1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png",
+                "width": 1432,
+                "height": 617,
+                "size_bytes": 201707,
+                "label": "Table1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.226951,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 426,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+                "width": 1174,
+                "height": 336,
+                "size_bytes": 169254,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.10143,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.59148,
+                  "paragraph_text_chars": 186,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "34. 11 文献标志码 A DOI： 10.3788/AOS202242.2334001 Design, Development and Commissioning of 3D Nano Image Beamline at Shanghai Synchrotron Radiation Facility Tao Fen 1, Zhang Ling 1, Su Bo",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "nano",
+              "image",
+              "beamline"
+            ],
+            "snippet": "传输特性和热负载分 布。计算中考虑了反射镜面形误差、单色器第一晶体 的变形等因素。 图1 纳米三维成像光束线总体布局示意图 Fig. 1 Overall layout of 3D nano image beamline at SSRF",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_02.jpeg",
+                "width": 956,
+                "height": 531,
+                "size_bytes": 155418
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+                "width": 1423,
+                "height": 839,
+                "size_bytes": 444267,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.30639,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.234414,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Schematic diagram of rotating ellipsoidal capillary",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_3.png",
+          "width": 1423,
+          "height": 569,
+          "size_bytes": 229887,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.207775,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.538781,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 58,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "schematic",
+              "diagram",
+              "rotating",
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "NES)谱测 试结果如图5 所示。Ti 元素的K 吸收边能量理论值为 4966. 4 eV，测得的Ti 元素的K 边吸收谱如图5（a）所 图3 旋转椭球聚焦镜原理示意图 ［15］ Fig. 3 Schematic diagram of rotating ellipsoidal capillary [15] 表2 椭球聚焦镜的物理参数 Table 2 Parameter",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_02.jpeg",
+                "width": 1728,
+                "height": 497,
+                "size_bytes": 228091
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_img_03.jpeg",
+                "width": 956,
+                "height": 708,
+                "size_bytes": 411890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_3.png",
+                "width": 1423,
+                "height": 569,
+                "size_bytes": 229887,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207775,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.538781,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_table_2.png",
+                "width": 1425,
+                "height": 792,
+                "size_bytes": 788465,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.289628,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.266345,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+                "width": 659,
+                "height": 605,
+                "size_bytes": 578645,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.102452,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.752947,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "schematic",
+              "diagram"
+            ],
+            "snippet": "Spatial resolution@8 keV（TXM） /nm Value 5-14 5. 0×10 -4 5×10 9 20 图2 纳米三维成像实验站原理图 Fig. 2 Schematic diagram of 3D nano image beamline endstation at SSRF",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_img_02.jpeg",
+                "width": 1728,
+                "height": 304,
+                "size_bytes": 165594
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_table1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png",
+                "width": 1432,
+                "height": 617,
+                "size_bytes": 201707,
+                "label": "Table1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.226951,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 426,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+                "width": 1174,
+                "height": 336,
+                "size_bytes": 169254,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.10143,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.59148,
+                  "paragraph_text_chars": 186,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "J]. 光学学报, 2017, 37(10): 1034002. Tao F, Wang Y D, Ren Y Q, et al. Design and detection of ellipsoidal mono-capillary for X-ray nano- imaging[J]. Acta Optica Sinica, 2017, 37(10): 1034002. [16",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_007_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "XANES spectra. (a) XANES spectrum of Ti K-edge; (b) XANES spectrum of Au L1-edge",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_5.png",
+          "width": 1423,
+          "height": 653,
+          "size_bytes": 229801,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.238766,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.477966,
+            "paragraph_text_chars": 92,
+            "table_body_rows": 0,
+            "caption_text_chars": 87,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "xanes",
+              "spectra",
+              "spectrum",
+              "k-edge",
+              "edge"
+            ],
+            "snippet": "荷量；η 为电离室的效率，其表达式为 图5 XANES 谱线。 （a） Ti 元素标准样品K 边XANES 谱测试曲线； （b） Au 元素标准样品L1 边XANES 谱测试曲线 Fig. 5 XANES spectra. (a) XANES spectrum of Ti K-edge; (b) XANES spectrum of Au L1-edge 表3 能量分辨率",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_02.jpeg",
+                "width": 1728,
+                "height": 508,
+                "size_bytes": 200299
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_img_03.jpeg",
+                "width": 1728,
+                "height": 408,
+                "size_bytes": 217656
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_5.png",
+                "width": 1423,
+                "height": 653,
+                "size_bytes": 229801,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.238766,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.477966,
+                  "paragraph_text_chars": 92,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 87,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_table_3.png",
+                "width": 853,
+                "height": 275,
+                "size_bytes": 26219,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.060362,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+                "width": 1174,
+                "height": 405,
+                "size_bytes": 123212,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122151,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.657567,
+                  "paragraph_text_chars": 120,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 61,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "xanes",
+              "spectra"
+            ],
+            "snippet": "弯铁光源并实现20 nm 分辨率成像的光束 线站。 上海同步辐射光源纳米三维成像线站主要实验方 法为TXM 和纳米CT，具有三维成像分析的优势。同 时，TXM、纳米CT 与XRF、XANES 方法进行结合，具 有元素分析优势。该线站于2022 年对用户开放使用， 其成像技术将会被应用到更加广阔的科研领域中，并 推动相关科研工作的进步。 致谢 该光束线安装和调试过程得到",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_img_02.jpeg",
+                "width": 2008,
+                "height": 578,
+                "size_bytes": 672358
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_fig_fig_7.png",
+                "width": 1423,
+                "height": 1273,
+                "size_bytes": 959324,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.46511,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.314616,
+                  "paragraph_text_chars": 253,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 130,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "edge"
+            ],
+            "snippet": "the Shanghai Synchrotron Radiation Facility (SSRF) phase-II project, focuses on cutting- edge scientific problems and national strategic needs. The main experimental methods are TXM a",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image result and power spectral density curve of start bar. (a) Image result of start bar; (b) power spectral density curve",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_fig_fig_7.png",
+          "width": 1423,
+          "height": 1273,
+          "size_bytes": 959324,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.46511,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.314616,
+            "paragraph_text_chars": 253,
+            "table_body_rows": 0,
+            "caption_text_chars": 130,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "image",
+              "power",
+              "spectral",
+              "density",
+              "curve"
+            ],
+            "snippet": "(15): 1534002. [3] 骆钧尧, 郭智, 黄浩, 等. 多层膜光栅衍射效率的同步 图7 星条靶成像结果和功率谱分析曲线。 （a）星条靶成像图； （b）功率谱分析曲线 Fig. 7 Image result and power spectral density curve of start bar. (a) Image result of start bar",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_img_02.jpeg",
+                "width": 2008,
+                "height": 578,
+                "size_bytes": 672358
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_fig_fig_7.png",
+                "width": 1423,
+                "height": 1273,
+                "size_bytes": 959324,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.46511,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.314616,
+                  "paragraph_text_chars": 253,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 130,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "1 文献标志码 A DOI： 10.3788/AOS202242.2334001 Design, Development and Commissioning of 3D Nano Image Beamline at Shanghai Synchrotron Radiation Facility Tao Fen 1, Zhang Ling 1, Su Bo 2,3, G",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_001_img_01.jpeg",
+                "width": 2103,
+                "height": 237,
+                "size_bytes": 366541
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "热负载分 布。计算中考虑了反射镜面形误差、单色器第一晶体 的变形等因素。 图1 纳米三维成像光束线总体布局示意图 Fig. 1 Overall layout of 3D nano image beamline at SSRF",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_01.jpeg",
+                "width": 2101,
+                "height": 58,
+                "size_bytes": 37239
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_img_02.jpeg",
+                "width": 956,
+                "height": 531,
+                "size_bytes": 155418
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png",
+                "width": 1423,
+                "height": 839,
+                "size_bytes": 444267,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.30639,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.234414,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "图 1",
+        "caption": "纳米三维成像光束线总体布局示意图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 2",
+        "caption": "纳米三维成像实验站原理图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      }
+    ]
+  }
+}

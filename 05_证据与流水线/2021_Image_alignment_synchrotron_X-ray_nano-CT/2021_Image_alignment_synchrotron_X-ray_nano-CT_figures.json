@@ -1,0 +1,2788 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "figure_plan": {
+    "paper_id": "doi:10.7498/aps.70.20210156",
+    "figures": [
+      {
+        "id": "Fig 11",
+        "caption": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_11.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+          "width": 1253,
+          "height": 838,
+          "size_bytes": 375235,
+          "label": "Fig. 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.271995,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.481274,
+            "paragraph_text_chars": 179,
+            "table_body_rows": 0,
+            "caption_text_chars": 128,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "schematics",
+              "iterative",
+              "projection",
+              "image",
+              "registration"
+            ],
+            "snippet": "(SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig. 11. Schematics of the iterative projection image registration workflow for nanoscale X-ray t",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_01.jpeg",
+                "width": 649,
+                "height": 366,
+                "size_bytes": 28711
+              },
+              {
+                "filename": "page_009_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_02.png",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 1987
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_03.jpeg",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 35950
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+                "width": 1253,
+                "height": 838,
+                "size_bytes": 375235,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271995,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.481274,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+                "width": 1317,
+                "height": 713,
+                "size_bytes": 624022,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243245,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449441,
+                  "paragraph_text_chars": 98,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 331,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "projection",
+              "image",
+              "registration"
+            ],
+            "snippet": "2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "projection",
+              "image"
+            ],
+            "snippet": "及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3] Fig. 1. Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move- ment at each project",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_01.png",
+                "width": 226,
+                "height": 224,
+                "size_bytes": 20199
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_02.jpeg",
+                "width": 11,
+                "height": 188,
+                "size_bytes": 810
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_03.jpeg",
+                "width": 265,
+                "height": 229,
+                "size_bytes": 6820
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+                "width": 1317,
+                "height": 919,
+                "size_bytes": 408993,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.313301,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.343678,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 15",
+        "caption": "Workflow of the proposed jitter correction[39].",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_15.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+          "width": 1276,
+          "height": 596,
+          "size_bytes": 272671,
+          "label": "Fig. 15",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.197037,
+            "visual_rect_count": 7,
+            "visual_body_ratio": 0.653167,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 56,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Fig. 14"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 15",
+              "workflow",
+              "proposed",
+              "jitter",
+              "correction"
+            ],
+            "snippet": "ion Corrected CT slice Aligned projection Reconstruction Alignment 图 15 GMs 抖动校正法的流程图[39] Fig. 15. Workflow of the proposed jitter correction[39]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_01.jpeg",
+                "width": 413,
+                "height": 326,
+                "size_bytes": 15846
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_02.jpeg",
+                "width": 965,
+                "height": 707,
+                "size_bytes": 76843
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_03.jpeg",
+                "width": 393,
+                "height": 285,
+                "size_bytes": 3119
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+                "width": 1317,
+                "height": 732,
+                "size_bytes": 245373,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249525,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.337291,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 381,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_14.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+                "width": 977,
+                "height": 874,
+                "size_bytes": 545675,
+                "label": "Fig. 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.221,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.880258,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 93,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+                "width": 1276,
+                "height": 596,
+                "size_bytes": 272671,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.197037,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 0.653167,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 56,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 14"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "proposed",
+              "jitter",
+              "correction"
+            ],
+            "snippet": "ter correction, corrected by a re-projection-based method, by manual alignment and by the proposed GM method). 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-10",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 1,
+            "matched_terms": [
+              "workflow"
+            ],
+            "snippet": "1 纳米级投影图像迭代配准重建流程图[37] Fig. 11. Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37]. (a) (b) (c) (d) (e) (f) 图 12 配准后页岩投影",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_01.jpeg",
+                "width": 649,
+                "height": 366,
+                "size_bytes": 28711
+              },
+              {
+                "filename": "page_009_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_02.png",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 1987
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_03.jpeg",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 35950
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+                "width": 1253,
+                "height": 838,
+                "size_bytes": 375235,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271995,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.481274,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+                "width": 1317,
+                "height": 713,
+                "size_bytes": 624022,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243245,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449441,
+                  "paragraph_text_chars": 98,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 331,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 18",
+        "caption": "The framework of the proposed similarity-steered CNN regression for deformable image registration[46].",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_012_fig_fig_18.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_fig_fig_18.png",
+          "width": 1103,
+          "height": 645,
+          "size_bytes": 370007,
+          "label": "Fig. 18",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.18429,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.574891,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 111,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 12,
+            "score": 8,
+            "matched_terms": [
+              "fig. 18",
+              "framework",
+              "proposed",
+              "similarity-steered",
+              "regression",
+              "deformable"
+            ],
+            "snippet": "从数据中提取的多尺度核 需要训练的卷积核 Part A：数据驱动网略 Part B：深度回归网络 [d, d, d] 图 18 基于线索感知深度学习网络的图像配准[46] Fig. 18. The framework of the proposed similarity-steered CNN regression for deformable image reg",
+            "images": [
+              {
+                "filename": "page_012_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_img_01.jpeg",
+                "width": 590,
+                "height": 390,
+                "size_bytes": 35679
+              },
+              {
+                "filename": "page_012_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_img_02.jpeg",
+                "width": 295,
+                "height": 285,
+                "size_bytes": 5465
+              },
+              {
+                "filename": "page_012_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_img_03.jpeg",
+                "width": 294,
+                "height": 276,
+                "size_bytes": 7130
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_fig_17.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_fig_fig_17.png",
+                "width": 1337,
+                "height": 657,
+                "size_bytes": 293178,
+                "label": "Fig. 17",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227393,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.455883,
+                  "paragraph_text_chars": 136,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 389,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_012_fig_fig_18.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_fig_fig_18.png",
+                "width": 1103,
+                "height": 645,
+                "size_bytes": 370007,
+                "label": "Fig. 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.18429,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.574891,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 111,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 1,
+            "matched_terms": [
+              "proposed"
+            ],
+            "snippet": "igned projection Reconstruction Alignment 图 15 GMs 抖动校正法的流程图[39] Fig. 15. Workflow of the proposed jitter correction[39]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-9",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_01.jpeg",
+                "width": 413,
+                "height": 326,
+                "size_bytes": 15846
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_02.jpeg",
+                "width": 965,
+                "height": 707,
+                "size_bytes": 76843
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_03.jpeg",
+                "width": 393,
+                "height": 285,
+                "size_bytes": 3119
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+                "width": 1317,
+                "height": 732,
+                "size_bytes": 245373,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249525,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.337291,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 381,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_14.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+                "width": 977,
+                "height": 874,
+                "size_bytes": 545675,
+                "label": "Fig. 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.221,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.880258,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 93,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+                "width": 1276,
+                "height": 596,
+                "size_bytes": 272671,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.197037,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 0.653167,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 56,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 14"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 1,
+            "matched_terms": [
+              "proposed"
+            ],
+            "snippet": "ter correction, corrected by a re-projection-based method, by manual alignment and by the proposed GM method). 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-10",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 21",
+        "caption": "Outline of using GAN as a preprocessing step be-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_fig_21.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_014_fig_fig_21.png",
+          "width": 611,
+          "height": 832,
+          "size_bytes": 293374,
+          "label": "Fig. 21",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.131633,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.626104,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 85,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "fig. 21",
+              "outline",
+              "using",
+              "preprocessing",
+              "step"
+            ],
+            "snippet": "d generated optical image Generated optical image Optical image 图 21 GAN 配准前特征点预处理流程图[54] Fig. 21. Outline of using GAN as a preprocessing step be- fore keypoint matching[54]. 物 理 学 报 Act",
+            "images": [
+              {
+                "filename": "page_014_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_014_img_01.jpeg",
+                "width": 354,
+                "height": 505,
+                "size_bytes": 24270
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_fig_21.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_014_fig_fig_21.png",
+                "width": 611,
+                "height": 832,
+                "size_bytes": 293374,
+                "label": "Fig. 21",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.131633,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.626104,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 85,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 1,
+            "matched_terms": [
+              "preprocessing"
+            ],
+            "snippet": "法进行测试, 如图9 所示的实验结 果证明该方法在保证亚像素级精度配准的前提下, 有效避免了用户交互过程, 实现了快速、高鲁棒性 的全自动投影数据配准与重建. Loading & preprocessing Cross-correlation prealignment Common line vertical alignment Conventional tomography Yes",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_img_01.jpeg",
+                "width": 354,
+                "height": 318,
+                "size_bytes": 16605
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_img_02.png",
+                "width": 526,
+                "height": 163,
+                "size_bytes": 6424
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_7.png",
+                "width": 593,
+                "height": 546,
+                "size_bytes": 253570,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083947,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.618842,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_8.png",
+                "width": 809,
+                "height": 370,
+                "size_bytes": 57011,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.077509,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.642798,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 1,
+            "matched_terms": [
+              "using"
+            ],
+            "snippet": "行是x–z 平面中的重构切片) Fig. 16. Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of row 1, displayed in the x–y plane.",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Classification overview map of image registration algorithms.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_4.png",
+          "width": 1321,
+          "height": 924,
+          "size_bytes": 1231475,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.315972,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.849022,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 69,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "classification",
+              "image",
+              "registration",
+              "algorithms"
+            ],
+            "snippet": "接层 池化层 卷积层 输入层 监督学习 无监督学习 训练 模拟数据 模拟+ 真实数据 DVF Ground truth ReLu层 粘性流体模型 图 4 图像配准算法分类概述导图 Fig. 4. Classification overview map of image registration algorithms. Model transfer Feature det",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_img_01.jpeg",
+                "width": 826,
+                "height": 355,
+                "size_bytes": 25733
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_img_02.jpeg",
+                "width": 974,
+                "height": 598,
+                "size_bytes": 88513
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_4.png",
+                "width": 1321,
+                "height": 924,
+                "size_bytes": 1231475,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.315972,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.849022,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_5.png",
+                "width": 1124,
+                "height": 598,
+                "size_bytes": 307150,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.174149,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.775243,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "image",
+              "registration",
+              "algorithms"
+            ],
+            "snippet": "ction)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment) 等 多种配准算法的特定使用序列以克服单个配准算 法的短板, 提供最佳的自动配准性能, 如图10— 图12 所示. 首先, 利用RP 法计算旋转中心与投影 中",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "image",
+              "registration"
+            ],
+            "snippet": "0 2000 1500 1000 500 0 1980 1988 1996 Year 2004 2012 2020 Total number of publications in image registration 100 90 80 70 60 50 40 30 20 10 0 2010 2012 2014 Year 2016 2018 2020 Percenta",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_004_img_01.jpeg",
+                "width": 182,
+                "height": 224,
+                "size_bytes": 5444
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_004_img_02.jpeg",
+                "width": 280,
+                "height": 245,
+                "size_bytes": 6621
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_004_img_03.jpeg",
+                "width": 340,
+                "height": 206,
+                "size_bytes": 8851
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_004_fig_fig_2.png",
+                "width": 1317,
+                "height": 434,
+                "size_bytes": 351161,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.148076,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.515451,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_004_fig_fig_3.png",
+                "width": 1317,
+                "height": 531,
+                "size_bytes": 108143,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.181033,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.413674,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 227,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37].",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_10.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+          "width": 1244,
+          "height": 791,
+          "size_bytes": 609685,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.254712,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.639146,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 128,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "evaluation",
+              "precision",
+              "robustness",
+              "different",
+              "image"
+            ],
+            "snippet": "r Noise Blur Noise Blur With noise CM PC SIFT D D IAR 图 10 评估具有不同缺陷的不同图像配准算法的精度和鲁棒性[37] Fig. 10. Evaluation of the precision and the robustness of different image registration algorithm",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 2,
+            "matched_terms": [
+              "different",
+              "image"
+            ],
+            "snippet": "ig. 13. Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root- mean-square error of the in-plane rotational error correction",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_01.jpeg",
+                "width": 413,
+                "height": 326,
+                "size_bytes": 15846
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_02.jpeg",
+                "width": 965,
+                "height": 707,
+                "size_bytes": 76843
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_03.jpeg",
+                "width": 393,
+                "height": 285,
+                "size_bytes": 3119
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+                "width": 1317,
+                "height": 732,
+                "size_bytes": 245373,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249525,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.337291,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 381,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_14.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+                "width": 977,
+                "height": 874,
+                "size_bytes": 545675,
+                "label": "Fig. 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.221,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.880258,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 93,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+                "width": 1276,
+                "height": 596,
+                "size_bytes": 272671,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.197037,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 0.653167,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 56,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 14"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "同步辐射纳米CT图像配准方法研究 苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔 Image alignment for synchrotron radiation based X-ray nano-CT Su Bo Tao Fen Li Ke Du Guo-Hao Zh",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_001_img_01.png",
+                "width": 4018,
+                "height": 575,
+                "size_bytes": 82907
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 13",
+        "caption": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_13.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+          "width": 1317,
+          "height": 732,
+          "size_bytes": 245373,
+          "label": "Fig. 13",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.249525,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 0.337291,
+            "paragraph_text_chars": 99,
+            "table_body_rows": 0,
+            "caption_text_chars": 381,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 13",
+              "performance",
+              "ji-faproma",
+              "evaluated",
+              "comparing",
+              "alignment"
+            ],
+            "snippet": "proma 算法不同噪声水平下的配准精度对比[38] (a) 投影内旋转误差的平均根方差; (b) 投影垂直误差和水平误差 的平均根方差; (c) 配准后面对不同噪声时的重建质量 Fig. 13. Performance of the JI-Faproma evaluated by comparing the alignment accuracy under differ",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_01.jpeg",
+                "width": 413,
+                "height": 326,
+                "size_bytes": 15846
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_02.jpeg",
+                "width": 965,
+                "height": 707,
+                "size_bytes": 76843
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_03.jpeg",
+                "width": 393,
+                "height": 285,
+                "size_bytes": 3119
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+                "width": 1317,
+                "height": 732,
+                "size_bytes": 245373,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249525,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.337291,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 381,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_14.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+                "width": 977,
+                "height": 874,
+                "size_bytes": 545675,
+                "label": "Fig. 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.221,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.880258,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 93,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+                "width": 1276,
+                "height": 596,
+                "size_bytes": 272671,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.197037,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 0.653167,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 56,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 14"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "alignment"
+            ],
+            "snippet": "同步辐射纳米CT图像配准方法研究 苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔 Image alignment for synchrotron radiation based X-ray nano-CT Su Bo Tao Fen Li Ke Du Guo-Hao Zhang Ling L",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_001_img_01.png",
+                "width": 4018,
+                "height": 575,
+                "size_bytes": 82907
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 1,
+            "matched_terms": [
+              "alignment"
+            ],
+            "snippet": "准算法的 研究进入高速发展阶段. 本文使用多个关键词在多 个数据库调研了图像配准相关研究的文章发表情 况, 总结了图像配准算法的发展趋势. 关键词包括 不限于图像配准(image alignment, image registra- tion)、深度学习(deep learning)、CT(computer tom- ography)、卷积神经网络(convolutional",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_01.png",
+                "width": 226,
+                "height": 224,
+                "size_bytes": 20199
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_02.jpeg",
+                "width": 11,
+                "height": 188,
+                "size_bytes": 810
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_03.jpeg",
+                "width": 265,
+                "height": 229,
+                "size_bytes": 6820
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+                "width": 1317,
+                "height": 919,
+                "size_bytes": 408993,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.313301,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.343678,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 14",
+        "caption": "Ji-Faproma algorithm convergence under different noise level of raw projections[38].",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_14.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+          "width": 977,
+          "height": 874,
+          "size_bytes": 545675,
+          "label": "Fig. 14",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.221,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.880258,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 93,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 14",
+              "ji-faproma",
+              "algorithm",
+              "convergence",
+              "under",
+              "different"
+            ],
+            "snippet": "50 100 Iteration number of single layer JIRRM 150 200 图 14 Ji-Faproma 算法在不同噪声水平下的收敛情况[38] Fig. 14. Ji-Faproma algorithm convergence under different noise level of raw projections[38]. TXM",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_01.jpeg",
+                "width": 413,
+                "height": 326,
+                "size_bytes": 15846
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_02.jpeg",
+                "width": 965,
+                "height": 707,
+                "size_bytes": 76843
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_img_03.jpeg",
+                "width": 393,
+                "height": 285,
+                "size_bytes": 3119
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+                "width": 1317,
+                "height": 732,
+                "size_bytes": 245373,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249525,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.337291,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 381,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_14.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+                "width": 977,
+                "height": 874,
+                "size_bytes": 545675,
+                "label": "Fig. 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.221,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.880258,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 93,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png",
+                "width": 1276,
+                "height": 596,
+                "size_bytes": 272671,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.197037,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 0.653167,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 56,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 14"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 2,
+            "matched_terms": [
+              "algorithm",
+              "different"
+            ],
+            "snippet": "] Fig. 10. Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 1607",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "algorithm"
+            ],
+            "snippet": "他文章 Articles you may be interested in 基于深度学习压缩感知与复合混沌系统的通用图像加密算法 General image encryption algorithm based on deep learning compressed sensing and compound chaotic system 物理学报. 2020, 69(24):",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_001_img_01.png",
+                "width": 4018,
+                "height": 575,
+                "size_bytes": 82907
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Retina-like sampling mode of FREAK algorithm[31].",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_7.png",
+          "width": 593,
+          "height": 546,
+          "size_bytes": 253570,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.083947,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.618842,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 57,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "retina-like",
+              "sampling",
+              "mode",
+              "freak",
+              "algorithm"
+            ],
+            "snippet": "算子、 Sobel 算子、Prewitt 算子等[33], 计算效率等详见参 考文献[31, 32]. 核心区 过渡区 稀疏区 图 7 FREAK 算法的类视网膜取样模式[31] Fig. 7. Retina-like sampling mode of FREAK algorithm[31]. 在上述基于区域或特征的图像配准算法中: 1) 互相关与傅里叶变换等算法采用图",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_img_01.jpeg",
+                "width": 354,
+                "height": 318,
+                "size_bytes": 16605
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_img_02.png",
+                "width": 526,
+                "height": 163,
+                "size_bytes": 6424
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_7.png",
+                "width": 593,
+                "height": 546,
+                "size_bytes": 253570,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083947,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.618842,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_8.png",
+                "width": 809,
+                "height": 370,
+                "size_bytes": 57011,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.077509,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.642798,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "sampling",
+              "mode",
+              "algorithm"
+            ],
+            "snippet": "ansfer Feature detection and description Feature matching (optimization strategy) Image resampling Model transformation and estimation Literation Or Or 图 5 图像配准的常规流程图 Fig. 5. General flow",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_img_01.jpeg",
+                "width": 826,
+                "height": 355,
+                "size_bytes": 25733
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_img_02.jpeg",
+                "width": 974,
+                "height": 598,
+                "size_bytes": 88513
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_4.png",
+                "width": 1321,
+                "height": 924,
+                "size_bytes": 1231475,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.315972,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.849022,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 69,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_5.png",
+                "width": 1124,
+                "height": 598,
+                "size_bytes": 307150,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.174149,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.775243,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "mode",
+              "algorithm"
+            ],
+            "snippet": "型和形态学操作的多谱段图像增强算法 Multispectral image enhancement based on illuminance-reflection imaging model and morphology operation 物理学报. 2018, 67(21): 210701 https://doi.org/10.7498/aps.67.20181",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_001_img_01.png",
+                "width": 4018,
+                "height": 575,
+                "size_bytes": 82907
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+          "width": 1317,
+          "height": 919,
+          "size_bytes": 408993,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.313301,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 0.343678,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 232,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "sinogram",
+              "graph",
+              "synthesized",
+              "misalignment",
+              "projection"
+            ],
+            "snippet": "60 100 160 180 140 120 80 (b) 图 1 失准投影合成的Sinogram 图及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3] Fig. 1. Sinogram graph synthesized by misalignment projection: (a) With translation errors inclu",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_01.png",
+                "width": 226,
+                "height": 224,
+                "size_bytes": 20199
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_02.jpeg",
+                "width": 11,
+                "height": 188,
+                "size_bytes": 810
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_img_03.jpeg",
+                "width": 265,
+                "height": 229,
+                "size_bytes": 6820
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+                "width": 1317,
+                "height": 919,
+                "size_bytes": 408993,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.313301,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.343678,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 232,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 7,
+            "matched_terms": [
+              "fig. 1",
+              "graph",
+              "projection"
+            ],
+            "snippet": "(SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig. 11. Schematics of the iterative projection image registration workflow for nanoscale X-ray",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_01.jpeg",
+                "width": 649,
+                "height": 366,
+                "size_bytes": 28711
+              },
+              {
+                "filename": "page_009_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_02.png",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 1987
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_03.jpeg",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 35950
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+                "width": 1253,
+                "height": 838,
+                "size_bytes": 375235,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271995,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.481274,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+                "width": 1317,
+                "height": 713,
+                "size_bytes": 624022,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243245,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449441,
+                  "paragraph_text_chars": 98,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 331,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 7,
+            "matched_terms": [
+              "fig. 1",
+              "sinogram",
+              "projection"
+            ],
+            "snippet": "列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第 3 行是从x–z 平面重建的切片, 在y 方向上均匀间隔了50 个像素; 第4 行是x–z 平面中的重构切片) Fig. 16. Sinograms (top row) and reconstructed slices of a chlorella cell using different method",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 12",
+        "caption": "Reconstructed slices through the center of the shale sample without alignment (a) and with manual (b) or automatic (c)",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_12.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+          "width": 1317,
+          "height": 713,
+          "size_bytes": 624022,
+          "label": "Fig. 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.243245,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.449441,
+            "paragraph_text_chars": 98,
+            "table_body_rows": 0,
+            "caption_text_chars": 331,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 12",
+              "reconstructed",
+              "slices",
+              "through",
+              "center",
+              "shale"
+            ],
+            "snippet": "岩投影重建切片对比: (a) 原始数据, (b) 手动配准, (c) 自动配准; 重投影后页岩投影数据对比: (d) 实验数据, (e) 手动重投影, (f) 自动重投影[37] Fig. 12. Reconstructed slices through the center of the shale sample without alignment (a) and wi",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_01.jpeg",
+                "width": 649,
+                "height": 366,
+                "size_bytes": 28711
+              },
+              {
+                "filename": "page_009_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_02.png",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 1987
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_03.jpeg",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 35950
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+                "width": 1253,
+                "height": 838,
+                "size_bytes": 375235,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271995,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.481274,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+                "width": 1317,
+                "height": 713,
+                "size_bytes": 624022,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243245,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449441,
+                  "paragraph_text_chars": 98,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 331,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 2,
+            "matched_terms": [
+              "reconstructed",
+              "slices"
+            ],
+            "snippet": "3 行是从x–z 平面重建的切片, 在y 方向上均匀间隔了50 个像素; 第4 行是x–z 平面中的重构切片) Fig. 16. Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of ro",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 1,
+            "matched_terms": [
+              "center"
+            ],
+            "snippet": "2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment)",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 16",
+        "caption": "Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_fig_16.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+          "width": 1317,
+          "height": 1166,
+          "size_bytes": 1464391,
+          "label": "Fig. 16",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.397298,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.577182,
+            "paragraph_text_chars": 123,
+            "table_body_rows": 0,
+            "caption_text_chars": 379,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "fig. 16",
+              "sinograms",
+              "reconstructed",
+              "slices",
+              "chlorella",
+              "cell"
+            ],
+            "snippet": "列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第 3 行是从x–z 平面重建的切片, 在y 方向上均匀间隔了50 个像素; 第4 行是x–z 平面中的重构切片) Fig. 16. Sinograms (top row) and reconstructed slices of a chlorella cell using different methods",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_img_01.jpeg",
+                "width": 594,
+                "height": 590,
+                "size_bytes": 70193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+                "width": 1317,
+                "height": 1166,
+                "size_bytes": 1464391,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.577182,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 379,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 2,
+            "matched_terms": [
+              "reconstructed",
+              "slices"
+            ],
+            "snippet": "抖动值以进行图像校正, 有效保留了 CT 投影数据的精细结构, 与手动标记法相比具有 更好的空间分辨率和衬度, 相比于添加金颗粒特 征(手动标记法), 该方法极大节省了实验成本. Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data regist",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_01.jpeg",
+                "width": 649,
+                "height": 366,
+                "size_bytes": 28711
+              },
+              {
+                "filename": "page_009_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_02.png",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 1987
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_img_03.jpeg",
+                "width": 709,
+                "height": 714,
+                "size_bytes": 35950
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+                "width": 1253,
+                "height": 838,
+                "size_bytes": 375235,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271995,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.481274,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+                "width": 1317,
+                "height": 713,
+                "size_bytes": 624022,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243245,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449441,
+                  "paragraph_text_chars": 98,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 331,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 1,
+            "matched_terms": [
+              "cell"
+            ],
+            "snippet": "e- construction quality for the full resolution dataset). Blurred 6 mm (a) (b) Noise CM Excellent Satisfied Fair Failed PC SIFT IAR Blur Noise Blur Noise Blur Noise Blur With noise CM",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_01.jpeg",
+                "width": 814,
+                "height": 574,
+                "size_bytes": 40577
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_img_02.jpeg",
+                "width": 1033,
+                "height": 472,
+                "size_bytes": 102408
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_9.png",
+                "width": 1317,
+                "height": 689,
+                "size_bytes": 778934,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.234938,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.449005,
+                  "paragraph_text_chars": 166,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+                "width": 1244,
+                "height": 791,
+                "size_bytes": 609685,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254712,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.639146,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

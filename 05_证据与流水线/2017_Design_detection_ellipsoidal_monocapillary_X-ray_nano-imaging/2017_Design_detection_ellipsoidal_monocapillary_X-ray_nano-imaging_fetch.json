@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "title": "X射线纳米成像单毛细管椭球镜的设计与检测",
+  "pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "https://doi.org/10.3788/AOS201737.1034002",
+  "pdf_url": ""
+}

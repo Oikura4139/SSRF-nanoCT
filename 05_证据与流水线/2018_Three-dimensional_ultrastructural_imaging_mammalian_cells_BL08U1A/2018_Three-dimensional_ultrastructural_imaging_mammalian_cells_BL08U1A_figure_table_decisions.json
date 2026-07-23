@@ -1,0 +1,132 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "该图完整呈现双能STXM采集、两能量EST重建与体数据差分，是方法执行链的主图。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "method_pipeline",
+      "source_image_filename": "page_003_fig_figure_1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：完整包含双能STXM采集、两能量EST重建和体数据差分流程，目标图编号与图注匹配；无其他图体、页眉或正文污染，可独立解释。"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "该图同时展示细胞三维外形和双能切片，是结构重建与元素对比结果的直接证据。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_004_fig_figure_2.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：完整包含巨噬细胞三维表面及1189/1186 eV对应切片，图注与全部子图均保留；无跨图污染，可安全插入。"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "该图把50 nm三维切片、二维投影和同细胞XRF并列，是三维定位优于投影元素图的关键比较证据。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_figure_3.png",
+      "relative_markdown_embed": "![Figure 3](images/page_005_fig_figure_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：完整包含50 nm切片、二维投影和同细胞XRF三联比较，色标与图注清晰；无跨图污染，可安全插入。"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "两个正交方向的连续切片直接支撑核周而非核内的空间判定，适合用于讨论证据边界。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "深度分析",
+      "plan_kind": "diagnostic_result",
+      "source_image_filename": "page_006_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：完整包含核周区域两个正交方向的连续切片与标注，图注清晰；无其他图体或正文污染，可安全插入。"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "该图汇总细胞器分割、Gd三维分布和囊泡形态，是质量、体积分数与亚细胞定位结论的主证据。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_figure_5.png",
+      "relative_markdown_embed": "![Figure 5](images/page_007_fig_figure_5.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：完整包含细胞器分割、Gd三维元素图及不同吞噬囊泡示例，图注与子图完整；无跨图污染，可安全插入。"
+    }
+  ],
+  "summary": {
+    "total_items": 5,
+    "by_decision": {
+      "insert": 5,
+      "low_priority": 0,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}

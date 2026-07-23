@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+  "note_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.md",
+  "subdir": "04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A",
+  "images_dir": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images/page_003_fig_figure_1.png",
+      "relative_markdown_path": "images/page_003_fig_figure_1.png"
+    },
+    {
+      "source_id": "Figure 2",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images/page_004_fig_figure_2.png",
+      "relative_markdown_path": "images/page_004_fig_figure_2.png"
+    },
+    {
+      "source_id": "Figure 3",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images/page_005_fig_figure_3.png",
+      "relative_markdown_path": "images/page_005_fig_figure_3.png"
+    },
+    {
+      "source_id": "Figure 4",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images/page_006_fig_figure_4.png",
+      "relative_markdown_path": "images/page_006_fig_figure_4.png"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/images/page_007_fig_figure_5.png",
+      "relative_markdown_path": "images/page_007_fig_figure_5.png"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "/home/zhenyu/PaperReading/上海光源纳米CT",
+  "vault": "/home/zhenyu/PaperReading/上海光源纳米CT"
+}

@@ -1,0 +1,35 @@
+{
+  "review": "final_readability_review",
+  "status": "passed",
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "reviewed_file": "2024_Image_registration_in_situ_X-ray_nano-imaging_draft.md",
+  "checks": [
+    {
+      "name": "chinese_fluency",
+      "passed": true,
+      "finding": "摘要译文和分析正文均为自然中文，术语首次出现时给出足够语境，没有半中半英的机械翻译行。"
+    },
+    {
+      "name": "argument_flow",
+      "passed": true,
+      "finding": "结构按问题假设、两级数据、机制链、合成证据、真实证据和外推边界展开，主结论易于定位。"
+    },
+    {
+      "name": "terminology",
+      "passed": true,
+      "finding": "配准相似度、几何真值、谱学偏差、二维 XANES 与三维 CT 保持清楚区分。"
+    },
+    {
+      "name": "figure_readability",
+      "passed": true,
+      "finding": "每幅图片后紧接一行中文斜体说明，说明图的证据角色而非复述英文图题。"
+    },
+    {
+      "name": "fact_preservation",
+      "passed": true,
+      "finding": "可读性检查没有改变原始数值、方法职责、设施归属或负结果强度。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false
+}

@@ -1,0 +1,63 @@
+{
+  "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+  "authors": [
+    "Amin Guo",
+    "Jianhua Zhang",
+    "Bo He",
+    "Angdi Li",
+    "Tianxiao Sun",
+    "Weimin Li",
+    "Jian Wang",
+    "Renzhong Tai",
+    "Yan Liu",
+    "Zhen Qian",
+    "Jiadong Fan",
+    "Andrej Sali",
+    "Raymond C. Stevens",
+    "Huaidong Jiang"
+  ],
+  "year": "2022",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi": "10.1073/pnas.2202695119",
+  "paper_id": "doi:10.1073/pnas.2202695119",
+  "source_type": "local_pdf",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9371705/",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT.pdf",
+  "metadata_sources": [
+    "publisher",
+    "local_pdf",
+    "manual_identity_correction",
+    "crossref",
+    "openalex"
+  ],
+  "affiliations": [
+    "Center for Transformative Science, ShanghaiTech University, Shanghai 201210, China",
+    "School of Physical Science and Technology, ShanghaiTech University, Shanghai 201210, China",
+    "iHuman Institute, School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China",
+    "Canadian Light Source Inc., University of Saskatchewan, Saskatoon, SK S7N 2V3, Canada",
+    "Helmholtz-Zentrum Berlin für Materialien und Energie, 12489 Berlin, Germany",
+    "Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Science, Shanghai 201204, China",
+    "California Institute for Quantitative Biosciences, Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA 94158",
+    "Department of Pharmaceutical Chemistry, University of California, San Francisco, CA 94158",
+    "Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089",
+    "Bridge Institute, USC Michelson Center for Convergent Bioscience, University of Southern California, Los Angeles, CA 90089",
+    "ShanghaiTech University",
+    "Helmholtz-Zentrum Berlin für Materialien und Energie",
+    "University of Saskatchewan",
+    "Canadian Light Source (Canada)",
+    "Shanghai Advanced Research Institute",
+    "QB3",
+    "University of California, San Francisco",
+    "University of Southern California",
+    "Convergent Science (United States)"
+  ],
+  "source": "crossref",
+  "published": "2022",
+  "abstract": "Characterizing relationships between Zn 2+ , insulin, and insulin vesicles is of vital importance to the study of pancreatic beta cells. However, the precise content of Zn 2+ and the specific location of insulin inside insulin vesicles are not clear, which hinders a thorough understanding of the insulin secretion process and diseases caused by blood sugar dysregulation. Here, we demonstrated the colocalization of Zn 2+ and insulin in both single extracellular insulin vesicles and pancreatic beta cells by using an X-ray scanning coherent diffraction imaging (ptychography) technique. We also analyzed the elemental Zn 2+ and Ca 2+ contents of insulin vesicles using electron microscopy and energy dispersive spectroscopy (EDS) mapping. We found that the presence of Zn 2+ is an important characteristic that can be used to distinguish insulin vesicles from other types of vesicles in pancreatic beta cells and that the content of Zn 2+ is proportional to the size of insulin vesicles. By using dual-energy contrast X-ray microscopy and scanning transmission X-ray microscopy (STXM) image stacks, we observed that insulin accumulates in the off-center position of extracellular insulin vesicles. Furthermore, the spatial distribution of insulin vesicles and their colocalization with other organelles inside pancreatic beta cells were demonstrated using three-dimensional (3D) imaging by combining X-ray ptychography and an equally sloped tomography (EST) algorithm. This study describes a powerful method to univocally describe the location and quantitative analysis of intracellular insulin, which will be of great significance to the study of diabetes and other blood sugar diseases.",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present"
+  ],
+  "status": "ok",
+  "script": "collect_metadata.py"
+}

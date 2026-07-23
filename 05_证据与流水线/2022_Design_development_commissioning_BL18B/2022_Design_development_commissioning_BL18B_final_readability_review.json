@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "checks": {
+    "section_flow": "pass：12 个固定节按顺序排列，先定义四项验收，再解释光学链、公式、结果和证据边界。",
+    "terminology": "pass：TXM、nano-CT、FZP、PSD 的中文含义或任务角色均在首次重要出现处解释，二维/三维口径保持一致。",
+    "sentence_quality": "pass：未发现机械翻译、混合语言异常或句中断行；长段落按技术子问题拆分。",
+    "tables_and_lists": "pass：验收任务、设计—实测和局限分别使用合适的表格或列表，正文仍保留连续机制解释。",
+    "math_rendering": "pass：分辨率、能量分辨率、通量和 PSD 公式均为可渲染 TeX，符号含义与实验条件相邻。",
+    "figure_placement": "pass：三幅真实图片分别服务于机制、结果和工程架构，每幅图后紧接一行斜体图注；两个污染关键图使用规范占位。",
+    "decision_clarity": "pass：读者可快速区分设计值、模拟值、直接实测值、换算值和作者优先权声明。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

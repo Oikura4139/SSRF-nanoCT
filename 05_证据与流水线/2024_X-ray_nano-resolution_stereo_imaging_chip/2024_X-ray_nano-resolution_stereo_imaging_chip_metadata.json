@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2024_X-ray_nano-resolution_stereo_imaging_chip.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2024_X-ray_nano-resolution_stereo_imaging_chip.pdf",
+  "title": "X射线纳米分辨立体成像及其在芯片表征中的应用",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.3788/AOS240575",
+  "paper_id": "doi:10.3788/aos240575",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "authors": [
+    "刘聪 Liu Cong",
+    "王飞翔 Wang Feixiang",
+    "陶芬 Tao Fen",
+    "杜国浩 Du Guohao",
+    "张玲 Zhang Ling",
+    "汪俊 Wang Jun",
+    "邓彪 Deng Biao"
+  ],
+  "venue": "Acta Optica Sinica",
+  "source": "crossref",
+  "year": "2024",
+  "published": "2024",
+  "script": "collect_metadata.py"
+}

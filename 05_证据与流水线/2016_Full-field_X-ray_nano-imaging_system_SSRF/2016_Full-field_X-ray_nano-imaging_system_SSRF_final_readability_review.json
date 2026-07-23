@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.3788/col201614.093401",
+  "checks": {
+    "section_flow": "pass：12 个一级内容节按技能规定顺序排列，研究问题—任务—方法—结果—分析—局限形成连续叙事。",
+    "terminology": "pass：首次给出 FXNI、BOE、FZP 含义；后文术语一致，并持续区分二维分辨率与三维分辨率。",
+    "sentence_quality": "pass：未发现断裂句、机械翻译残留或不必要的英汉夹杂。",
+    "tables_and_lists": "pass：三项以上参数与证据层级使用表格；流程使用四步编号；正文没有被全篇列表化。",
+    "math_rendering": "pass：行间和行内公式使用可直接渲染的 TeX，单位与变量解释相邻。",
+    "figure_placement": "pass：每个真实图片嵌入后紧接且仅接一行斜体图注；污染图使用规范 figure callout，并置于对应机制段落。",
+    "reader_takeaway": "pass：一句话总结和易误读条目可让读者快速把原型成果与未来 nano-CT 目标分开。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

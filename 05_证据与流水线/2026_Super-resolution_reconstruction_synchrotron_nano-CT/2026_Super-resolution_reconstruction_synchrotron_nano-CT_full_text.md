@@ -1,0 +1,960 @@
+# 同步辐射纳米CT图像超分辨率重建及?其应用研究
+
+## sec:preamble preamble
+_Pages 1-6_
+
+第 49 卷 第 1 期
+2026 年 1 月
+Vol.49，No.1
+January 2026
+010101-1
+核 技 术 NUCLEAR TECHNIQUES
+www.sciengine.com/NT
+同步辐射纳米CT图像超分辨率重建及
+其应用研究
+彭真
+1 汪澳
+2 汪俊
+3 陶芬
+3 张玲
+3 杜国浩
+3 邓彪
+1（上海大学 上海 200444）
+2（上海理工大学 上海 200093）
+3（中国科学院上海高等研究院 上海光源中心 上海 201204）
+摘要 同步辐射纳米CT（Nano-Computed Tomography）技术因其能够在纳米尺度上提供高分辨率三维结构信
+息，在材料科学、能源、地质学等多个学科领域发挥着重要作用。然而，环境干扰、设备精度限制及光源强度波
+动等因素导致纳米CT图像信噪比降低、模糊和细节丢失，影响定量分析的准确性。针对这一挑战，本研究在缺
+少纳米CT数据集的情况下，提出了一种基于Transformer的图像超分辨率（Super-resolution，SR）网络，专门用于
+提高纳米CT图像的质量，还探究其对裂纹分割等后续分析任务的优化效果。该网络采用U型对称结构，融合
+了双卷积前馈网络和分组式多尺度窗口自注意力机制，以实现高效的纳米CT图像超分辨率重建。实验结果表
+明，该网络在计算效率和多个评价指标上均优于SwinIR和Real-ESRGAN模型。在裂纹分割中任务中，经该网
+络处理后的图像裂纹分割准确率达到99.3%，召回率提升了24.5%，验证了图像超分辨率重建技术在裂纹分割预
+处理中的有效性。
+关键词 纳米CT， 超分辨率， 裂纹分割， 同步辐射， 注意力机制
+中图分类号 TP391，TL99
+DOI: 10.3724/j.0253-3219.2026.hjs.49.250034
+CSTR: 32193.14.hjs.CN31-1342/TL.2026.49.250034
+Super-resolution reconstruction of synchrotron radiation nano-CT images and its applications
+PENG Zhen1 WANG Ao2 WANG Jun3 TAO Fen3 ZHANG Ling3 DU Guohao3 DENG Biao3
+1(Shanghai University, Shanghai 200444, China)
+2(University of Shanghai for Science and Technology, Shanghai 200093, China)
+3(Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China)
+Abstract [Background] Synchrotron radiation nano-computed tomography (nano-CT) is widely applied in
+materials science, energy research, and geology due to its capability to provide high-resolution three-dimensional
+structural information at the nanoscale. However, environmental interference, equipment limitations, and light source
+fluctuations often degrade image quality, leading to reduced signal-to-noise ratio, blurring, and loss of critical details,
+which severely impact quantitative analysis and segmentation accuracy for microstructures such as cracks and pores.
+While existing super-resolution (SR) techniques for natural images have significant advantages, their adaptation to
+国家重点研发计划(No.2021YFA1600700, No.2021YFA1601001)、国家自然科学基金(No.12275343)资助
+第一作者：彭真，男，2000年出生，2022年毕业于德州学院，现为硕士研究生，研究领域为CT图像处理
+通信作者：邓彪，E-mail：dengb@sari.ac.cn
+收稿日期：2025-01-21，修回日期：2025-03-19
+Supported by Development Program for Basic Research of China (No. 2021YFA1600700, No. 2021YFA1601001), National Natural Science
+Foundation of China (No.12275343)
+First author: PENG Zhen, male, born in 2000, graduated from Dezhou University in 2022, master student, focusing on CT image processing
+Corresponding author: DENG Biao, E-mail: dengb@sari.ac.cn
+Received date: 2025-01-21, revised date: 2025-03-19
+核
+技
+术 2026, 49: 010101
+010101-2
+nano-CT remains challenged by dataset scarcity and stringent reconstruction accuracy requirements. [Purpose] This
+study aims to develop a dedicated super-resolution reconstruction network for synchrotron radiation nano-CT images
+to enhance the clarity and detail restoration of low-quality CT images and investigate its efficacy in optimizing
+downstream tasks such as crack segmentation. [Methods] Firstly, a Transformer-based U-shaped symmetric network
+for SR (UTSR) was proposed, integrating a Double Convolutional Feedforward Network (DCFFN) and a Grouped
+Multi-scale Window Self-Attention (GMSA) mechanism to achieve efficient reconstruction through multi-level
+feature extraction and hierarchical processing. Then, a transfer learning strategy was adopted, leveraging natural
+image datasets for pre-training and fine-tuning the model with nano-CT data from the Shanghai Synchrotron
+Radiation Facility (SSRF) to address dataset scarcity. Finally, a Sobel edge loss function was introduced to prioritize
+texture preservation, and a two-stage training framework (general image pre-training and nano-CT fine-tuning) was
+implemented to optimize model performances in terms of Natural Image Quality Evaluator (NIQE), Learned
+Perceptual Image Patch Similarity (LPIPS), Deep Image Structure and Texture Similarity (DISTS), Peak Signal-to-
+Noise Ratio (PSNR) and Structural Similarity Index Measure (SSIM). [Results] Comparison results show that UTSR
+demonstrates superior performance on both simulated and nano-CT datasets: it achieves lower NIQE (9.38) and
+LPIPS (0.312) scores compared to SwinIR and Real-ESRGAN, alongside reduced computational complexity (45.72G
+FLOPs). When applied to crack segmentation, UTSR-processed images attain an accuracy of 99.3%, with a 24.5%
+improvement in recall and a 19.1% increase in F1 Score over original images. Ablation experiments confirm the
+effectiveness of the DCFFN module, where its combination with GMSA further reduces NIQE to 10.99.
+[Conclusions] The UTSR network effectively addresses the challenges of low-quality synchrotron radiation nano-CT
+images and scarce datasets through its innovative architecture and transfer learning strategy, providing a robust
+preprocessing solution for microstructural analysis, hence expands the application of deep learning-based super-
+resolution in scientific imaging, offering substantial academic and engineering value.
+Key words Nano-CT, Super-resolution, Crack segmentation, Synchrotron, Attention mechanism
+同步辐射纳米
+CT （Nano-Computed
+Tomography）成像是一种基于同步辐射光源的先进
+X 射线成像技术，能够在纳米尺度上提供高分辨率
+的三维结构信息
+［1‒2］。与传统CT 成像相比，同步辐
+射纳米CT能对样品的结构进行高精度成像，在材料
+科学、生命科学和地质资源等领域的微观研究中具
+有重要应用
+［3‒5］。尽管同步辐射纳米CT技术在成像
+分辨率方面已取得显著突破，但其图像质量仍受多
+种因素影响，包括设备精度限制、同步辐射光源强度
+波动、微小机械振动等。这些不利因素会导致纳米
+CT成像模糊、信噪比低、细节丢失等问题，尤其是在
+分析微小裂纹、复杂孔隙等结构时，低质量的CT 图
+像难以精确地分割裂纹，影响后续分析的准确性
+［6］。
+为提升CT图像的质量和微小裂纹的分割精度，迫切
+需要发展一种有效的纳米CT图像增强方法。
+图像超分辨率（Super-Resolution，SR）技术因其
+显著的图像增强效果逐渐受到关注。该技术可以提
+升图片分辨率、细化图像边缘、去除模糊，从而提升
+图像的清晰度和细节。自2014 年Dong 等
+［7］首次将
+卷积神经网络引入图像SR领域以来，基于深度学习
+的SR 技术取得了显著进展。其中，VDSR（Very
+Deep Super-Resolution）
+［8］和EDSR（Enhanced Deep
+Super-Resolution）
+［9］通过引入残差结构有效缓解了
+深层网络的梯度消失问题；DRCN（Deeply-
+Recursive Convolutional Network）
+［10］和DRRN（Deep
+Recursive Residual Network）
+［11］利用递归网络提升了
+特征提取能力；RCAN（Residual Channel Attention
+Network）
+［12］创新性地引入注意力机制增强了关键特
+征的表达；LapSRN（Laplacian Pyramid Super-
+Resolution Network）
+［13］和DBPN（Deep Back-
+Projection Networks）
+［14］则在上采样策略方面实现了
+重要突破。近期，基于Transformer 架构的SR 网络
+（如IPT（Image Processing Transformer）
+［15］、SwinIR
+（Swin Transformer for Image Restoration）
+［16］、HAT
+（Hybrid Attention Transformer）
+［17］、DAT（Deformable
+Attention Transformer）
+［18］等）不断推动着技术水平的
+提升。深度学习图像SR技术在CT图像领域也展现
+出良好的应用前景。2017 年Umehara 等
+［19］把图像
+SR 技术带到了医学CT 图像中，效果优于传统的插
+值算法，充分证明了深度学习图像SR方法可以很好
+地应用于CT 图像的SR 重建。接着Zhao 等
+［20］利用
+创新的方法制作数据集，使用SRGAN（Super-
+Resolution Generative Adversarial Network）模型处理
+岩石CT 图像，提升CT 图像的清晰度。Ahuja 等
+［21］
+彭真等： 同步辐射纳米CT图像超分辨率重建及其应用研究
+010101-3
+提出了专注于边缘语义的图像SR 模型，提升微米
+CT图像的分辨率。Guan等
+［22］提出了一种基于生成
+对抗网络的模型用于工业CT的伪影校正、噪声抑制
+和超分辨率重建。近年来，图像SR方法已被用于遥
+感图像、医学CT图像、红外图像等多个领域中，显示
+出其在增强图像质量方面的潜力。然而，在自然图
+像领域，许多研究已经发布了高分辨率数据集，并且
+在这些场景中图像超分辨率的效果已经非常好，目
+前关于同步辐射纳米CT 图像超分辨率领域的研究
+相对有限。由于硬件限制和机械精度等问题，获取
+高分辨率的纳米CT图像非常困难，这进一步限制了
+监督学习方法的应用。对于自然的图像超分辨率任
+务对重建精度的要求相对较低。CT图像，尤其是在
+医学诊断和工业检测中，对超分辨率重建的图像质
+量和准确性有着极高的要求。如何在这些应用中平
+衡图像的视觉质量和重建的准确性，成为一个关键
+的挑战。
+针对上述问题，本研究采用迁移学习的方法来
+克服缺乏纳米CT数据集这一限制，利用大规模自然
+图像数据集预训练模型，提取其通用特征，同时使用
+基于上海光源纳米三维成像线站采集的纳米CT 数
+据对模型进行微调，不仅缓解了数据稀缺的问题，还
+提升了模型性能。本文还提出了一种适用于纳米
+CT 图像的SR 网络UTSR（U-Net Transformer Super-
+Resolution）。并且将图像SR 技术应用于同步辐射
+纳米CT的裂纹分割研究，从图像预处理的角度提升
+裂纹分割的精度和稳定性。本研究对该方法进行了
+验证，实验结果表明，该模型在多个评估指标上均优
+于传统模型，在处理模糊CT图像方面展现了显著优
+势，有效提高裂纹分割的准确性。
+1 图像超分辨网络
+1.1 网络整体结构
+本研究提出的基于Transformer 的图像SR 网络
+结构，如图1所示。该网络采用U型对称结构，旨在
+高效执行图像超分辨率重建的恢复任务。模型由多
+个Transformer Block 组成，通过多级别的特征提取
+机制和分层的处理方式实现图像重建，每个
+Transformer Block 由两个核心模块构成：双卷积前
+馈网络（Double Convolutional Feed-Forward
+Network，DCFFN）和分组式多尺度窗口自注意力机
+制（Grouped Multi-Scale Window Self-Attention，
+GMSA）。图像SR网络的工作流程如下：首先，给定
+的低分辨率图像ILR，其尺寸为H × W，通道数为CIN，
+通过卷积层进行初步处理得到浅层特征I0，其尺寸
+仍为H × W，但通道数变为C，随后，这些浅层特征
+通过U型编码器—解码器结构进行处理，其中，多级
+编码器通过逐级下采样使特征尺寸依次减小，同时
+通道数逐级增加，最终获得尺寸为H 8 × W 8 × 8C
+特征，该特征再通过解码器，逐级恢复出高分辨率图
+像，对于特征下采样和上采样，分别采用pixel-
+unshuffle 和pixel-shuffle 算法
+［23］。同时为了减少特
+征损失，编码器通过跳过连接与解码器连接。最终
+重建后的图片分辨率是原始图像4倍。
+1.2 双卷积前馈网络
+在标准Transformer 模型中，前馈神经网络
+（Feed-Forward Network，FFN）模块位于每个
+Transformer 层的自注意力机制之后。这种结构允
+许FFN 模块在保持输入输出维度一致的同时，引入
+更多的非线性变换和特征提取能力，从而增强模型
+的表达能力。本文提出一种新颖的特征融合模块：
+双卷积前馈网络，其主要结构如图2（a）所示。该模
+块通过双路并行处理和特征重组的方式，实现对输
+入特征的高效增强。首先，输入特征通过一个全连
+接层（Fully Connected Layer，FC）进行初始变换，随
+后分为两条并行的处理路径，上分支采用深度可分
+离卷积加标准卷积的串联结构。深度可分离卷积可
+以高效提取空间特征，同时显著减少计算开销。接
+下来的普通卷积进一步整合通道间的信息，提升特
+征表达能力。下分支同样使用深度可分离卷积提取
+空间信息，与上路保持一致。但在此基础上，引入激
+活函数GELU（Gaussian Error Linear Unit），增强模
+型对复杂特征的建模能力。最后两条路径输出的内
+容相加融合。其过程定义如式（1）：
+fDCFFN = fFC(
+fGELU(
+fDConv ( fFC ( X ) ) +
+fConv(
+fDConv ( fFC ( X ) )
+(1)
+式中：fFC 表示全连接层；fDConv 表示深度卷积；fConv 表
+示普通卷积；fGELU 表示非线性激活层。总的来说，
+DCFFN 相比FFN 网络能同时学习到不同层次的特
+征表示，增强了特征提取的多样性，且使模型更加关
+注图像的局部细节。
+1.3 分组式多尺度窗口自注意力
+分组式多尺度窗口自注意力模块（GMSA）本文
+沿用了ELAN 模型
+［24］中的设置，其结构如图2（b）所
+示。一个分组式多尺度窗口自注意力模块包含多个
+窗口自注意力（Window Self-Attention，WSA）模块，
+可以通过设置不同WSA 模块的窗口大小的比例来
+灵活控制计算成本。对于给定的一个大小为H ×
+W × C 的特征XIN 输入到WSA 模块中，首先会将其
+核
+技
+术 2026, 49: 010101
+010101-4
+分成HW S 2个不重叠的窗口X，其中S是每个窗口的
+边长。之后通过三个1 × 1卷积LQ、LK、LV来得到Q、
+K和V：
+Q, K, V = LQ ( X ), LK ( X ), LV ( X )
+(2)
+之后通过得到的Q、K和V计算每个窗口的自注
+意力，其窗口自注意力公式为：
+Attention (Q,K,V ) = Soft max(
+QK T
+d )
+(3)
+将每个窗口自注意力合并得到最终结果。多个
+并行运行的WSA 模块共同构成了GMSA 结构。由
+于分组模式的作用GMSA 能够在不同的细粒度下
+处理输入数据，从而增强捕获多个空间尺度的复杂
+依赖关系的能力。
+1.4 损失函数
+自然图像训练时通常使用L1损失优化模型，这
+种损失函数会平等的对待图像中的所有区域，缺乏
+对图像边缘和纹理的关注。由于纳米CT 对细节的
+准确度要求高，因此为了使模型关注细节部分，提升
+准确度，本研究提出了sobel 损失函数，通过边缘检
+测的方式，提取出图片中的边缘信息计算损失，提升
+模型对纹理的关注度。本文使用了两种损失函数，
+分别为L1损失、Lsobel感知损失，损失的总公式如下：
+Lsobel = 
+GxHR −GxLR
++ 
+GyHR −GyLR
+(4)
+L = L1 + ηLsobel
+(5)
+式中：GxHR 表示对高分辨率图像X 方向求梯度；GxLR
+表示对低分辨率图像X 方向求梯度；同理GyHR 和
+GyLR表示对图像Y方向求梯度；L表示总损失；η表示
+对应的权重系数。
+2 实验结果与分析
+2.1 数据集制作
+目前，尚未有公开的纳米CT 数据集，且由于物
+理限制高质量的纳米CT图像难以获取。在纳米CT
+数据集稀缺的情况下，本研究的实验数据集分为两
+部分：普通图像超分辨率数据集和同步辐射纳米CT
+数据集。普通图像数据集由DIV2K
+［25］、Flickr2K
+［26］
+和OutdoorSceneTraining
+［27］构成，用于模型的预训
+练，提取其通用特征，减少对大量纳米CT 数据的需
+求。另一部分为纳米CT 图像组成的数据集。同步
+辐射纳米CT 数据的采集在上海同步辐射光源
+（BL18B）纳米三维成像光束线站完成，采用硬X 射
+线全场透射纳米显微成像系统
+［28-29］。实验样品选用
+黄膨润土和电池中的高镍三元正极材料LiNi0.8Co0.1
+Mn0.1O2（NCM811），图3（a）、
+（d）为显微镜下样品的
+照片。对于黄膨润土和NCM811 样品，入射X 射线
+图1 图像超分辨率模型UTSR的网络结构示意图
+Fig.1 Network architecture diagram of UTSR model for image super-resolution
+图2 Transformer Block内部组成结构示意图
+(a) 双卷积前馈网络结构，(b) 分组式多尺度窗口自注意力结
+构
+Fig.2 Diagram of internal structure of the Transformer Block
+(a) Double convolutional feed-forward network structure,
+(b) Grouped multi-scale window self-attention
+彭真等： 同步辐射纳米CT图像超分辨率重建及其应用研究
+010101-5
+能量分别设定为7 keV 和8.4 keV，NCM811 样品的
+曝光时间为0.8 s，单像素尺寸为46 nm，投影图采集
+尺寸为480×308；黄膨润土的曝光时间为1.5 s，单像
+素尺寸为38 nm，投影图采集尺寸为552×392。每种
+样品均采集361 张均匀分布的投影图，使用
+AduRecon软件进行三维重建
+［30］，获得样品的切片图
+像序列（图3（c、f））。其中精选3 000 张高质量图像
+构建训练集。
+为了准确模拟图像退化，所以本研究采用与
+BSRGAN （Blind
+Super-Resolution
+Generative
+Adversarial Network）
+［31］相同的退化模型，该研究引
+入了一个更为复杂且实用的退化模型，旨在更准确
+地模拟真实世界中图像退化的多样性。低质量图像
+的合成流程如图4所示。该流程首先对原始图像进
+行下采样处理，随后引入随机噪声和模糊效果，以生
+成更低质量的图像。本文对两种数据集都进行退化
+处理合成低质量的图像，进行模型训练。在模型训
+练中，本文将3 000张高质量CT图像划分为训练集、
+验证集和测试集，具体分配如下：训练集2 600张，验
+证集300张，测试集100张。为了丰富训练样本的多
+样性，随机旋转90°、180°或270°，以及随机水平翻转
+的方式进行数据增强，训练集扩增了4 倍，总共
+10 400张。
+2.2 实验设置与模型训练
+本模型的训练分为两个阶段：第一阶段为普通
+图像训练的过程；第二阶段是纳米CT 图像训练过
+程。对于模型的细节网络中Transformer Block数量
+的从1到4依次为［12，2，2，8］，GMSA模块中窗口大
+小为4×4、8×8 和16×16。其中η = 0.2，该值通过实
+验调整得到，若该值过大会致模型过于关注边缘的
+细节，从而忽略图像的全局结构和内容，降低图像质
+量。第一阶段模型使用Adam 优化器，其中
+β1 = 0.9，β2 = 0.99。模型迭代3×10
+5次，初始化学习
+率为1 × 10−4，在第｛200×10
+3，250×10
+3，450×10
+3，475×
+3｝次迭代时减半。训练用时为63 h 37 min 21 s。
+第二阶段在第一阶段基础上参数不变，使用纳米CT
+数据集进行训练，只有初始化学习率改为1 × 10-5，
+模型迭代10×10
+3次。训练用时为3 h 25 min 13 s。
+本次实验的计算机硬件环境：中央处理器（Central
+Processing Unit，CPU）型号Intel Xeon W-2245，内存
+64 GB，显卡为NVIDIA RTX 3090，24 GB 显存。编
+程语言为Python 3.9。详细实验环境及模型参数如
+表1所示。
+其中训练过程的损失函数收敛曲线如图5 所
+示，随着迭代次数的增加，模型的损失函数值稳定下
+降，0~10×10
+3次损失值迅速降低，之后的损失值稳定
+下降，直到模型训练结束。
+2.3 模拟图像超分辨率结果分析
+对于图像超分辨率任务本文选择定性分析和定
+量分析相结合，评估图像SR模型。由于缺少真实高
+图3 实验中采集到数据图片 (a) NCM811样品图片，(b) NCM811同步辐射投影图像，(c) NCM811的切片图像，(d) 黄膨润土
+样品照片，(e) 黄膨润土同步辐射投影图像，(f) 黄膨润土的切片图像
+Fig.3 Data images collected in the experiments (a) Image of the NCM811 sample, (b) NCM811 synchrotron radiation projection
+image, (c) Slice image of NCM811, (d) Image of the Huang peng bentonite sample, (e) Huang peng bentonite synchrotron radiation
+projection image, (f) Slice image of Huang peng bentonite
+图4 低质量图像合成流程图
+Fig.4 Flowchart of low-quality image synthesis
+核
+技
+术 2026, 49: 010101
+010101-6
+质量的CT图像，本文选用盲图像超分辨率模型的评
+价指标定量评估模型重建出的图片质量。这些评价
+指标包括自然图像质量评估器（Natural Image
+Quality Evaluator，NIQE）
+［32］、学习感知图像块相似度
+（Learned
+Perceptual
+Image
+Patch
+Similarity，
+LPIPS）
+［33］、深度图像结构与纹理相似性（Deep
+Image Structure and Texture Similarity，DISTS）
+［34］。
+NIQE 是一种基于自然场景统计特征的无参考图像
+质量评估指标。其使用高斯混合模型来建立自然图
+像特征的概率分布，并用该分布来评估输入图像的
+质量分数。分数越低表示图像质量越高。LPIPS使
+用预训练的深度网络（如VGG、AlexNet）来提取图
+像特征，然后计算这些特征之间的距离，以评估图像
+之间的感知相似度，分数越低表示两张图像越相似。
+DISTS 是评价两张图片相似性的指标，通过融合结
+构和纹理相似性来计算图像之间的差异，分数越低
+证明两张图片之间的差异越少。
+UTSR 模型的评估，本文选择了代表性的自然
+图像SR 网络Real-ESRGAN 和SwinIR 模型做对比，
+所有模型都是采用相同训练次数和相同的数据集进
+行训练。由于纳米CT图像质量欠佳，模型准确性评
+估面临挑战。因此，本研究采用高质量微米CT数据
+集进行测试，并使用本文提出的低质量图像生成方
+法构建微米CT低质量测试集，以验证模型的性能和
+可行性。为客观评价模型的准确度及性能，本研究
+采用峰值信噪比（Peak Signal-to-Noise Ratio，PSNR）
+和结构相似性指数（Structural Similarity Index
+Measure，SSIM）作为定量分析指标。表2为图像SR
+算法的定量比较，结果表明本研究提出的UTSR 模
+型在两项指标上均优于其他模型。与传统Bicubic
+算法相比，UTSR模型在PSNR上提升了2.85 dB，在
+SSIM 上提升了0.081。图6 展示了各模型重建图像
+的质量。结果表明，基于深度学习的超分辨率方法
+在图像重建方面显著优于传统插值方法，特别是
+UTSR 模型在边缘锐化和细节清晰度方面表现最
+佳。观察图像可知，Bicubic算法重建的图像存在明
+显模糊和噪声。Real-ESRGAN 算法在噪声抑制方
+面表现均衡，但在去模糊方面存在不足。相比之下，
+UTSR 模型能够保留更多细节信息，且与真实图像
+更为接近。
+为验证本研究模型在纳米CT 图像边缘及特征
+分割提取方面的有效性，本文还采用了模拟的低质
+量纳米CT 图像进行分析。此外，引入衬噪比
+（Contrast-to-noise ratio，CNR）和剖面图，以进一步评
+估模型性能。图7（a）展示了UTSR处理前后效果的
+对比。为保证图像尺寸一致性，便于后续对CNR的
+计算，本文采用Bicubic 插值算法对图像进行上采
+样。如图7（a）所示，UTSR 模型处理后的图像裂纹
+边缘更加清晰，噪声水平显著降低，有利于裂纹的提
+表1 模型参数及实验环境
+Table 1 Model parameters and experimental environment
+
+## sec:model Model
+_Pages 6-9_
+
+实验环境
+Experimental environment
+参数Parameter
+Transformer Block数量
+Transformer Block parameter
+GMSA模块窗口大小
+GMSA module window size
+优化器Optimizer
+初始学习率Initial learning rate
+学习率调整Learning rate scheduling
+CPU
+内存RAM
+GPU
+编程语言 Programming language
+参数值Parameter value
+[12, 2, 2, 8]
+4×4, 8×8, 16×16
+Adam
+1×10
+{200×10
+3, 250×10
+3, 450×10
+3, 475×10
+Intel Xeon W-2245
+64 GB
+NVIDIA RTX 3090, 24 GB
+Python 3.9
+图5 损失函数值随迭代次数变化
+Fig.5 Loss function variation chart with iterations
+表2 模拟图像SR算法进行定量比较
+Table 2 Quantitative comparison of image super-
+resolution algorithms using simulated images
+指标Index
+PSNR
+SSIM
+Bicubic
+31.70
+0.853
+Real-ESRGAN
+33.58
+0.908
+SwinIR
+33.94
+0.912
+UTSR
+34.55
+0.934
+彭真等： 同步辐射纳米CT图像超分辨率重建及其应用研究
+010101-7
+取。图7（b）展示了图像的CNR 分析结果。柱状图
+显示，UTSR 处理后的图像CNR 值（绿色柱状）显著
+高于未经处理的图像，这表明UTSR 模型能够有效
+提升图像的衬噪比，从而更有利于特征提取。此外，
+图7（c）的对比结果进一步证实，UTSR 模型处理后
+的图像对比度更高。综上所述，实验结果充分验证
+了本文所提出的UTSR模型的有效性。
+2.4 纳米CT图像超分辨率结果分析
+为了准确评估模型在实际图像处理中的效果，
+本研究选择了多张真实情况下的低质量纳米CT 图
+像，以验证各种算法的性能。表3 展示了不同算法
+之间的定量比较。通过对比NIQE 指标，可以看出
+模型UTSR 表现最佳，其值比Real-ESRGAN 模型低
+1.29，同时UTSR模型的LPIPS值也最低。这表明该
+模型在实现高质量图像重建的同时，在结构保持方
+图6 模拟图像SR方法进行定性比较
+Fig.6 Qualitative comparison of super-resolution methods using simulated images
+图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处理效果对比图，(b) CNR对比图，(c) 剖面图分析
+Fig.7 Validation of UTSR using simulated low-quality nano-CT images (color online)
+(a) Comparison of UTSR processing effects, (b) CNR comparison chart, (c) Profile analysis
+核
+技
+术 2026, 49: 010101
+010101-8
+面也表现突出。仅在DISTS 指标上，UTSR 模型稍
+微落后于Real-ESRGAN模型。
+图8展示的是各种算法处理低质量图片后的效
+果图。图8（a）中，从最左侧可以看到输入图片，很明
+显这些图片细节不清晰，存在着大量模糊，且边缘不
+够清晰，对于后续的研究存在影响。右侧是处理后
+的图片，可以观察到三个模型都去除了图片中的模
+糊，显露出清晰的纹理和边缘。从图8（b）可以看出
+三种模型均对图像质量做了提升，但是细节上存在
+着一些差异。对于SwinIR 模型重建的图片锐化过
+度，缺少细节。Real-ESRGAN模型虽然重建出很多
+清晰纹理，但边缘部分存在着较多模糊，关注范围只
+在中心部分。而本文提出的UTSR模型有丰富的细
+节且边缘模糊更少。
+2.5 裂纹分割的结果分析
+为探究图像超分辨率算法的实际应用，本文探
+究了图像超分辨率对于裂纹分割精度的影响。本文
+使用图像分割领域广泛使用的评价指标进行定量分
+析，包括Accuracy、Precision、Recall、F1Sorce
+［35］。
+Accuracy 表示模型正确预测的像素占总像素的
+比例。
+Accuracy =
+TP + TN
+TP + TN + FP + FN
+(6)
+Precision表示模型预测为裂纹的像素中有多少
+是真正的裂纹。
+Precision =
+TP + FP
+(7)
+Recall表示实际为裂纹的像素中有多少被模型
+正确识别为裂纹。
+Recall =
+TP + FN
+(8)
+F1Sorce 是Precision 和Recall 的调和平均数，
+F1Sorce 越高，说明模型的性能越好。F1Sorce 公
+式为：
+表3 图像SR算法进行定量比较
+Table 3 Quantitative comparison of image super-
+resolution algorithms
+方法Methods
+SwinIR
+Real_ESRGAN
+UTSR
+FLOPs(G)
+52.96
+70.74
+45.72
+NIQE
+12.38
+12.28
+10.99
+LPIPS
+0.309
+0.302
+0.295
+DISTS
+0.230 4
+0.227 0
+0.232 0
+图8 在SR任务上图像SR方法进行定性比较 (a) 土壤纳米CT图像，(b) NCM电池颗粒的纳米CT图像
+Fig.8 Qualitative comparison of SR methods on SR tasks
+(a) Nanoscale CT images of soil, (b) Nanoscale CT images of NCM battery particles
+彭真等： 同步辐射纳米CT图像超分辨率重建及其应用研究
+010101-9
+F1Score = 2 × Precision ×Recall
+Precision + Recall
+(9)
+式中：TP 为正确预测的裂纹像素数；FP 为非裂纹预
+测为裂纹的像素数；FN为裂纹预测为非裂纹的像素
+数；TN为正确预测的非裂纹像素数。
+为验证图像SR算法在纳米CT图像裂纹中的效
+果，本研究选择NCM811和黄膨润土的CT图像作为
+验证数据。裂纹分割采用基于局部自适应二值化的
+裂纹分割算法，参照对象则是通过检测算法与人工
+修正生成的高精度分割结果。基于表4的定量分析
+结果表明，将图像SR算法作为预处理步骤能显著提
+升裂纹分割的性能指标。特别是本文提出的
+UELSR模型在各项评价指标上均展现出优异性能，
+在F1Score上对比未经预处理的图像提升了19.1%，
+并且在Accuracy 上UTSR 模型位居首位。此外，本
+文还验证了图像SR算法在孔隙提取的方面的效果，
+通过表4 可以看到引入图像SR 算法后各项指标均
+略有提升。同样UTSR 在Accuracy 上表现突出，
+F1Score 的指标达到了82.8%，这充分证明了UTSR
+在微观结构特征分割任务中的有效性，特别是在平
+衡精确率和召回率方面表现出色。
+图9 和图10 是裂纹和孔隙分割后的结果，从图
+9 明显的看到未经图像SR 处理的图片只提取到少
+部分裂纹，对于较细微的裂纹检测效果有限。相比
+经过图像SR处理后的图片，可以提取到大部分的裂
+纹，只有少部分丢失。这印证了图像SR在裂纹分割
+中的优异表现。对比不同SR 算法的分割结果可以
+发现，UTSR 模型分割效果更接近于实际情况。这
+与表4中的数据相互印证。观察图10可以看出在孔
+隙分割任务中，UTSR模型同样展现出优越性，尽管
+从整体上看，各处理方式所提取的孔隙近乎相同，但
+仔细观察可发现其他处理方式所提取的孔隙存在少
+量缺失现象。通过以上研究可以证明适当的图像
+SR算法对裂纹分割有很大帮助，同时也体现了其在
+裂纹分割应用中的潜力。
+2.6 消融实验
+为验证本文提出的DCFFN模块的有效性，本文
+使用UTSR 模型中的GMSA 模块测试基准，分别搭
+配FFN 和DCFFN 做消融实验。实验采用相同的训
+练参数和实验条件。通过挑选的纳米CT 数据集做
+测试。实验结果如表5 所示，观察表中的数据可以
+发现当GMSA 与DCFFN 结合时，NIQE 得分显著降
+低至10.99，LPIPS 得分降至0.295，DISTS 得分略微
+上升至0.238，这些指标的表现明显好于GMSA 与
+FFN结合的结果。这些结果表明，DCFFN的引入显
+表4 多种图像SR算法处理后裂纹和孔隙分割的定量比较
+Table 4 Quantitative comparison of crack and pore segmentation after processing with various image SR algorithms
+
+## sec:methods Methods
+_Pages 9-10_
+
+Original
+Bicubic
+SwinIR
+Real_ESRGAN
+UTSR
+裂纹Crack
+Accuracy / %
+98.7
+99.2
+99.3
+99.2
+99.3
+Precision / %
+81.7
+95.6
+87.1
+78.5
+80.1
+Recall / %
+35.4
+41.2
+57.7
+57.3
+59.9
+F1Score / %
+49.4
+57.7
+69.4
+66.3
+68.5
+孔隙Pore
+Accuracy / %
+94.4
+96.4
+96.9
+96.5
+97.1
+Precision / %
+60.8
+89.7
+84.2
+85.1
+84.2
+Recall / %
+87.6
+66.6
+79.3
+73.5
+81.4
+F1Score / %
+71.8
+76.4
+81.7
+78.8
+82.8
+图9 多种图像SR算法处理后裂纹分割的定性比较
+Fig.9 Qualitative comparison of crack segmentation after processing with various image SR algorithms
+核
+技
+术 2026, 49: 010101
+010101-10
+著提升了模型的整体性能，同时证明了DCFFN模块
+的有效性。
+3 结语
+本研究在纳米CT数据集有限的情况下，使用迁
+移学习训练出了一种基于Transformer 的图像超分
+辨率网络UTSR，专注于同步辐射纳米CT图像的高
+效重建。通过引入双卷积前馈网络和分组式多尺度
+窗口自注意力机制，使模型更加关注图像中的细节。
+同时本文使用sobel边缘检测做损失函数，既提升了
+图像质量又确保了图像的精度问题。UTSR网络在
+低质量纳米CT 图像重建展现了显著优势。在模拟
+数据集和自制的纳米CT数据集测试结果表明，与现
+有的SR 模型（如SwinIR 和Real-ESRGAN）相比，
+UTSR网络在多项评价指标上均表现优越。具体来
+说，该模型在NIQE、LPIPS 和DISTS 等评价指标上
+均实现了更优的数值，表明其在生成清晰、自然纹理
+的图像方面具有更好的表现。本文还研究了将图像
+超分辨率算法作为预处理对裂纹分割的影响。通过
+文中的实验数据可以看出将图像SR 作为预处理步
+骤能够显著改善分割性能。UTSR处理后的图像裂
+纹分割的准确率、精确率和召回率分别达到99.3%、
+80.1%、59.9%，特别是F1 Score达到68.5%较原始图
+像提高了19.1%。这些结果验证了图像超分辨率算
+法在提升图像裂纹分割精度方面的有效性。综上所
+述，本研究从预处理的角度出发，为解决同步辐射纳
+米CT 低质量图像在后续分析中的局限性提供了新
+思路。这一成果不仅拓展了深度学习图像超分辨率
+技术的应用领域，也为微观结构特征分析提供了技
+术支持。
+作者贡献声明 彭真负责测量实验的设计及数据整
+理和分析，论文构思和撰写；汪澳、汪俊负责测量实
+验的设计及数据整理和分析；陶芬、张玲、杜国浩负
+责实验测量；邓彪负责测量方法的提出及设计、论文
+审核与编辑写作、最终版本的修订。
+
+## sec:section-3 参考文献
+_Pages 10-12_
+
+袁清习, 邓彪, 关勇, 等. 同步辐射纳米成像技术的发展
+与应用[J]. 物理, 2019, 48(4): 205–218. DOI: 10.7693/
+wl20190401.
+YUAN Qingxi, DENG Biao, GUAN Yong, et al. Novel
+developments and applications of nanoscale synchrotron
+radiation microscopy[J]. Physics, 2019, 48(4): 205–218.
+DOI: 10.7693/wl20190401.
+邢彦军, 高若阳, 张玲, 等. 基于多项式回归与线性插值
+的全场纳米谱学成像背景序列预测[J]. 核技术, 2024, 47
+(3): 030102. DOI: 10.11889/j. 0253-3219.2024. hjs. 47.
+030102.
+XING Yanjun, GAO Ruoyang, ZHANG Ling, et al.
+Background sequence prediction for TXM-XANES based
+on polynomial regression and linear interpolation[J].
+Nuclear Techniques, 2024, 47(3): 030102. DOI: 10.11889/
+j.0253-3219.2024.hjs.47.030102.
+谢红兰, 邓彪, 杜国浩, 等. 上海光源X射线成像及其在
+材料科学上的应用研究进展[J]. 失效分析与预防, 2021,
+16(1): 46–59+69. DOI: 10.3969/j.issn.1673-6214.2021.
+01.005.
+XIE Honglan, DENG Biao, DU Guohao, et al.
+Development of X-ray imaging methodology and its
+图10 多种图像SR算法处理后孔隙提取的定性比较
+Fig.10 Qualitative comparison of pore extraction after processing with various image SR algorithms
+表5 不同模块的组合对比结果
+Table 5 Comparison results of different module
+combinations
+GMSA
+FFN
+DCFFN
+NIQE
+12.44
+11.47
+10.99
+LPIPS
+0.338
+0.318
+0.295
+DISTS
+0.231
+0.250
+0.238
+彭真等： 同步辐射纳米CT图像超分辨率重建及其应用研究
+010101-11
+applications on material science at Shanghai Synchrotron
+Radiation Facility[J]. Failure Analysis and Prevention,
+2021, 16(1): 46–59+69. DOI: 10.3969/j.issn.1673-6214.
+2021.01.005.
+仇正杰, 李可, 谢红兰, 等. 20 Hz 高时空分辨X 射线单
+色光动态显微CT 研究[J]. 核技术, 2023, 46(7): 070101.
+DOI: 10.11889/j.0253-3219.2023.hjs.46.070101.
+QIU Zhengjie, LI Ke, XIE Honglan, et al. Study of 20 Hz
+high spatial-temporal resolution monochromatic X-ray
+dynamic micro-CT[J]. Nuclear Techniques, 2023, 46(7):
+070101. DOI: 10.11889/j.0253-3219.2023.hjs.46.070101.
+许明伟, 薛艳玲, 陈荣昌, 等. 基于相位衬度成像的X射
+线生物特征识别仪[J]. 核技术, 2021, 44(8): 080202.
+DOI: 10.11889/j.0253-3219.2021.hjs.44.080202.
+XU Mingwei, XUE Yanling, CHEN Rongchang, et al. A
+biometrics recognition instrument using X-ray phase
+contrast imaging for biosafety inspection[J]. Nuclear
+Techniques, 2021, 44(8): 080202. DOI: 10.11889/j.0253-
+3219.2021.hjs.44.080202.
+苏博, 陶芬, 李可, 等. 同步辐射纳米CT 图像配准方法
+研究[J]. 物理学报, 2021, 70(16): 53–67. DOI: 10.7498/
+aps.70.20210156.
+SU Bo, TAO Fen, LI Ke, et al. Image alignment for
+synchrotron radiation based X-ray nano-CT[J]. Acta
+Physica Sinica, 2021, 70(16): 53–67. DOI: 10.7498/aps.
+70.20210156.
+Dong C, Loy C C, He K M, et al. Learning a deep
+convolutional network for image super-resolution[C].
+Computer Vision – ECCV 2014. Cham: Springer
+International Publishing, 2014: 184–199. DOI: 10.1007/
+978-3-319-10593-2_13.
+Kim J, Lee J K, Lee K M. Accurate image super-
+resolution using very deep convolutional networks[C].
+Las Vegas, NV, USA: 2016 IEEE Conference on
+Computer Vision and Pattern Recognition (CVPR), 2016:
+1646–1654. DOI: 10.1109/CVPR.2016.182.
+Lim B, Son S, Kim H, et al. Enhanced deep residual
+networks for single image super-resolution[C]. Honolulu,
+HI, USA: 2017 IEEE Conference on Computer Vision
+and Pattern Recognition Workshops (CVPRW), 2017:
+1132–1140. DOI: 10.1109/CVPRW.2017.151.
+Kim J, Lee J K, Lee K M. Deeply-recursive convolutional
+network for image super-resolution[C]. Las Vegas, NV,
+USA: 2016 IEEE Conference on Computer Vision and
+Pattern Recognition (CVPR), June 27-30, 2016. IEEE,
+2016: 1637–1645. DOI: 10.1109/CVPR.2016.181.
+Tai Y, Yang J, Liu X M. Image super-resolution via deep
+recursive residual network[C]. Honolulu, HI, USA: 2017
+IEEE Conference on Computer Vision and Pattern
+Recognition (CVPR), 2017: 2790–2798. DOI: 10.1109/
+CVPR.2017.298.
+Zhang Y L, Li K P, Li K, et al. Image super-resolution
+using very deep residual channel attention networks[C].
+Cham: Springer International Publishing: Computer
+Vision – ECCV, 2018: 294–310. DOI: 10.1007/978-3-
+030-01234-2_18.
+Lai W S, Huang J B, Ahuja N, et al. Deep Laplacian
+pyramid networks for fast and accurate super-resolution
+[C]. Honolulu, HI, USA: 2017 IEEE Conference on
+Computer Vision and Pattern Recognition (CVPR), 2017:
+5835–5843. DOI: 10.1109/CVPR.2017.618.
+Haris M, Shakhnarovich G, Ukita N. Deep back-
+projection networks for super-resolution[C]. Salt Lake
+City, UT, USA: 2018 IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, June 18-23,
+2018: 1664–1673. DOI: 10.1109/CVPR.2018.00179.
+Chen H T, Wang Y H, Guo T Y, et al. Pre-trained image
+processing transformer[C]. Nashville, TN, USA: 2021
+IEEE/CVF Conference on Computer Vision and Pattern
+Recognition (CVPR), 2021: 12294 – 12305. DOI:
+10.1109/cvpr46437.2021.01212.
+Liang J Y, Cao J Z, Sun G L, et al. SwinIR: image
+restoration using swin transformer[C]. Montreal, BC,
+Canada: 2021 IEEE/CVF International Conference on
+Computer Vision Workshops (ICCVW), 2021: 1833 –
+1844. DOI: 10.1109/ICCVW54120.2021.00210.
+Chen X Y, Wang X T, Zhou J T, et al. Activating more
+pixels
+image
+super-resolution
+transformer[C].
+Vancouver, BC, Canada: 2023 IEEE/CVF Conference on
+Computer Vision and Pattern Recognition (CVPR), 2023:
+22367–22377. DOI: 10.1109/CVPR52729.2023.02142.
+Chen Z, Zhang Y L, Gu J J, et al. Dual aggregation
+transformer for image super-resolution[C]. Paris, France:
+2023 IEEE/CVF International Conference on Computer
+Vision (ICCV), 2023: 12278 – 12287. DOI: 10.1109/
+ICCV51070.2023.01131.
+Umehara K, Ota J, Ishida T. Application of super-
+resolution convolutional neural network for enhancing
+image resolution in chest CT[J]. Journal of Digital
+Imaging, 2018, 31(4): 441–450. DOI: 10.1007/s10278-
+017-0033-z.
+Zhao B C, Saxena N, Hofmann R, et al. Enhancing
+核
+技
+术 2026, 49: 010101
+010101-12
+resolution of micro-CT images of reservoir rocks using
+super resolution[J]. Computers & Geosciences, 2023,
+170: 105265. DOI: 10.1016/j.cageo.2022.105265.
+Ahuja V R, Gupta U, Rapole S R, et al. Siamese-SR: a
+Siamese super-resolution model for boosting resolution of
+digital rock images for improved petrophysical property
+estimation[J]. IEEE Transactions on Image Processing,
+2022, 31: 3479–3493. DOI: 10.1109/TIP.2022.3172211.
+Guan Y, Zhang S, Wang H W, et al. Multifunctional GAN-
+based optimization for X-ray tomography under different
+conditions[J]. Optics Express, 2024, 32(23): 40767 –
+40782. DOI: 10.1364/OE.527366.
+Shi W Z, Caballero J, Huszár F, et al. Real-time single
+image and video super-resolution using an efficient sub-
+pixel convolutional neural network[C]. Las Vegas, NV,
+USA: 2016 IEEE Conference on Computer Vision and
+Pattern Recognition (CVPR), 2016: 1874 – 1883. DOI:
+10.1109/CVPR.2016.207.
+Zhang X D, Zeng H, Guo S, et al. Efficient long-range
+attention network forImage super-resolution[C]. Cham:
+Springer Nature Switzerland: Computer Vision – ECCV,
+2022: 649–667. DOI: 10.1007/978-3-031-19790-1_39.
+Agustsson E, Timofte R. NTIRE 2017 challenge on single
+image super-resolution: dataset and study[C]. Honolulu,
+HI, USA: 2017 IEEE Conference on Computer Vision
+and Pattern Recognition Workshops (CVPRW), 2017:
+1122–1131. DOI: 10.1109/CVPRW.2017.150.
+Timofte R, Agustsson E, Van Gool L, et al. NTIRE 2017
+challengeon single image super-resolution: methodsand
+results[C]. Honolulu, HI, USA: Proceedings of the 2017
+IEEE/CVF Conferenceon Computer Visionand Pattern
+Recognition Workshops (CVPRW). IEEE, 2017: 1110 –
+1121. DOI: 10.1109/CVPRW.2017.149.
+Wang X T, Yu K, Dong C, et al. Recovering realistic
+texture in image super-resolution by deep spatial feature
+transform[C]. Salt Lake City, UT, USA: 2018 IEEE/CVF
+Conference on Computer Vision and Pattern Recognition,
+2018: 606–615. DOI: 10.1109/CVPR.2018.00070.
+Zhang L, Tao F, Wang J, et al. The 3D nanoimaging
+beamline at SSRF[J]. Nuclear Science and Techniques,
+2023, 34(12): 201. DOI: 10.1007/s41365-023-01347-4.
+Tao F, Wang J, Du G H, et al. Full-field hard X-ray nano-
+tomography
+SSRF[J].
+Journal
+Synchrotron
+Radiation, 2023, 30(Pt 4): 815 – 821. DOI: 10.1107/
+S1600577523003168.
+Zhang L, Tao F, Du G H, et al. In-house design hard X-
+ray transmission microscope at SSRF[J]. Nuclear
+Instruments and Methods in Physics Research Section A:
+Accelerators, Spectrometers, Detectors and Associated
+Equipment, 2023, 1057: 168781. DOI: 10.1016/j.
+nima.2023.168781.
+Zhang K, Liang J Y, Van Gool L, et al. Designing a
+practical degradation model for deep blind image super-
+resolution[C]. Montreal, QC, Canada: 2021 IEEE/CVF
+International Conference on Computer Vision (ICCV),
+October 10-17, 2021: 4771 – 4780. DOI: 10.1109/
+ICCV48922.2021.00475.
+Mittal A, Soundararajan R, Bovik A C. Making a
+"completely blind" image quality analyzer[J]. IEEE
+Signal Processing Letters, 2013, 20(3): 209–212. DOI:
+10.1109/LSP.2012.2227726.
+Zhang R, Isola P, Efros A A, et al. The unreasonable
+effectiveness of deep features as a perceptual metric[C].
+Salt Lake City, UT, USA: 2018 IEEE/CVF Conference on
+Computer Vision and Pattern Recognition, June 18-23,
+2018: 586–595. DOI: 10.1109/CVPR.2018.00068.
+Ding K Y, Ma K D, Wang S Q, et al. Image quality
+assessment: unifying structure and texture similarity[J].
+IEEE Transactions on Pattern Analysis and Machine
+Intelligence, 2022, 44(5): 2567 – 2581. DOI: 10.1109/
+TPAMI.2020.3045810.
+Czimmermann T, Ciuti G, Milazzo M, et al. Visual-based
+defect detection and classification approaches for
+industrial applications-a SURVEY[J]. Sensors, 2020, 20
+(5): 1459. DOI: 10.3390/s20051459.

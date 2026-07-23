@@ -1,0 +1,291 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1007/s41365-023-01347-4",
+  "decisions": [
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "(Color online) Schematic",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选只保留了页面顶部和线站布局图的一小条，主体被严重截断。",
+      "skip_reason": "manual_visual_review_severely_truncated_figure_body",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_fig_2.png",
+      "relative_markdown_embed": "![Fig 2](images/page_003_fig_fig_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "裁图仅含页眉、题注与线站示意图最上缘，绝大部分光学布局缺失，无法独立解释。"
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Brilliance and flux vs. photon energy of the bending magnet",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "(Color online) Schematic of a TXM",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Fig 4 候选左侧串入 Fig 3 的大型 TXM 实物照片，属于跨图污染。",
+      "skip_reason": "manual_visual_review_cross_figure_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_004_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "右侧 TXM 原理图及题注清晰，但左侧完整混入另一幅实物图，不能作为 Fig 4 单独插入。"
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "(Color online) TXM system: a condenser, b pinhole, c sample",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Fig 3 只剩实物照片下缘、题注和右侧正文，目标图体严重不完整。",
+      "skip_reason": "manual_visual_review_truncated_photo_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_fig_3.png",
+      "relative_markdown_embed": "![Fig 3](images/page_004_fig_fig_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "TXM 实物主体绝大部分被裁掉，候选包含右栏正文，无法辨识全部部件标注。"
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "(Color online) The workflow of nano-spectral imaging",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_fig_6.png",
+      "relative_markdown_embed": "![Fig 6](images/page_005_fig_fig_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "双能差分与逐能点 XANES 成像工作流完整，箭头、ROI、谱线和题注清晰，无污染。"
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "a Photograph of the gold particles in the capillary holder. b",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:introduction",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Figure 7b",
+      "source_id": "Figure 7b",
+      "kind": "figure",
+      "label": "Figure 7b",
+      "caption": "shows the PSD result. The cut-off frequency is",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:introduction",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Absorption contrast",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选只截取兔骨图像上部窄条，主体与下部信息严重缺失。",
+      "skip_reason": "manual_visual_review_severely_truncated_multiframe_figure",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_007_fig_fig_8.png",
+      "relative_markdown_embed": "![Fig 8](images/page_007_fig_fig_8.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_8.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "可见题注和两幅图的顶部，但主要骨结构图像被截断，不能用于稳定比较一小时间隔结果。"
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Image of the star pattern:",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:introduction",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "(Color online) Recon-",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_007_fig_fig_9.png",
+      "relative_markdown_embed": "![Fig 9](images/page_007_fig_fig_9.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_9.png"
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "(Color online) Ni element chemical phase maps for NCM622 particles: a pristine particle; b cycled cathode particle; c XANES from two",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_fig_10.png",
+      "relative_markdown_embed": "![Fig 10](images/page_008_fig_fig_10.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "原始与循环 NCM622 的 Ni 化学相位图、色标、ROI 和 XANES 谱完整，题注清晰，无污染。"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Figure 1 shows the brilliance and flux curves of",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Table 2 下方混入 2.2 节标题和大段正文，候选不是独立表格。",
+      "skip_reason": "manual_visual_review_section_heading_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_002_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_002_fig_table_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "表体四项规格完整可读，但裁图越界包含章节标题与多段线站设计正文，质量不满足插入要求。"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "The design goals of BL18B",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_002_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_002_fig_table_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png"
+    }
+  ],
+  "summary": {
+    "total_items": 13,
+    "by_decision": {
+      "insert": 2,
+      "low_priority": 1,
+      "placeholder": 3,
+      "skip": 0,
+      "visual_defect": 7
+    }
+  }
+}

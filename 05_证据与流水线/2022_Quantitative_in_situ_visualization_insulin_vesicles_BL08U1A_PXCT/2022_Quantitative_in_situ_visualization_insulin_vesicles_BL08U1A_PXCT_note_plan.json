@@ -1,0 +1,186 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "论文以软X射线ptychography、谱学双能差分和EST-PXCT为成像方法主线，并用胰岛β细胞作为应用验证；现有类型中归入方法论文最合适。",
+  "dominant_domain": "软X射线相干衍射、谱学ptychography与有限角PXCT",
+  "must_cover": [
+    "BL08U1A完成的22投影软X射线PXCT实证",
+    "二维19 nm与三维22.8/22.8/64.6 nm分辨率的严格区分",
+    "Zn L边谱学ptychography与相位到吸收KKT链路",
+    "有限角、小ROI、少投影和生物结论外推的边界"
+  ],
+  "key_numbers": [
+    "二维重建像素6.05 nm，PSD对应15.5 nm，实空间线扫约19 nm",
+    "PXCT能量700 eV，ROI约1.48×6.2×0.9 µm³",
+    "22个相位投影，角度-45°至+69.44°",
+    "探针直径3 µm、步长600 nm、线性重叠约80%、每角约400幅衍射图",
+    "三维分辨率x/y约22.8 nm、z约64.6 nm",
+    "Zn L3边20个能点，1018–1028 eV"
+  ],
+  "real_comparisons": [
+    "PSD理论频率边界、实空间10%–90%线扫与三维三方向线扫的分辨率比较",
+    "ptychography相位高对比与传统吸收STXM对低含量Zn信号的检测能力比较",
+    "三维PXCT分割得到的囊泡尺寸与二维ptychography、TEM结果比较"
+  ],
+  "central_claims": [
+    {
+      "claim": "上海光源BL08U1A完成了软X射线ptychographic X-ray computed tomography的应用级实证。",
+      "supporting_evidence": [
+        {
+          "pages": {
+            "start": 4,
+            "end": 6
+          }
+        },
+        {
+          "pages": {
+            "start": 8,
+            "end": 10
+          }
+        }
+      ],
+      "what_it_actually_proves": "论文在700 eV下对一个约1.48×6.2×0.9 µm³的细胞边缘ROI收集22个ptychography相位投影，并用EST完成三维重建。",
+      "what_it_does_not_prove": "它不证明上海光源已形成大视场、全角度、高通量或硬X射线ptycho-CT常规用户能力。"
+    },
+    {
+      "claim": "该PXCT数据在横向达到约22.8 nm、轴向约64.6 nm的三维分辨率，可分辨单个胰岛素囊泡。",
+      "supporting_evidence": [
+        {
+          "pages": {
+            "start": 5,
+            "end": 7
+          }
+        }
+      ],
+      "what_it_actually_proves": "三方向线扫给出各向异性分辨率，三维分割可见约200–600 nm尺度囊泡，并与二维ptychography和TEM尺寸大体一致。",
+      "what_it_does_not_prove": "它不等于19 nm各向同性三维分辨率；z方向较差且作者明确归因于投影角数过少。"
+    },
+    {
+      "claim": "谱学ptychography结合Kramers–Kronig变换可定位胰岛素囊泡中低含量Zn信号。",
+      "supporting_evidence": [
+        {
+          "pages": {
+            "start": 2,
+            "end": 4
+          }
+        }
+      ],
+      "what_it_actually_proves": "作者在Zn L3边跨20个能点重建相位图，转换为吸收后进行双能差分，并用随机选取边下能量作为阴性核查。",
+      "what_it_does_not_prove": "它不证明Zn含量可无偏代表所有胰岛素囊泡，也不证明对Ca的定量已经解决。"
+    }
+  ],
+  "claim_boundaries": [
+    "19 nm是二维ptychography实空间分辨率；PXCT三维结果为22.8 nm横向和64.6 nm轴向。",
+    "PXCT只覆盖细胞边缘小ROI且角度范围不完整，应称有限角、小区域概念/应用验证。",
+    "EST缓解缺失楔与插值误差，但不能恢复全部未采集方向的信息。",
+    "囊泡生物学关联来自特定细胞系、刺激条件和有限统计，不宜推成普适分泌机制。"
+  ],
+  "negative_or_limiting_results": [
+    "仅22个投影且角度为-45°至+69.44°，z分辨率降至64.6 nm。",
+    "三维ROI约1.48×6.2×0.9 µm³，远小于整个β细胞。",
+    "Zn与囊泡尺寸存在趋势，而Ca没有明显相关性；作者提出未来再用高分辨硬X方法分析Ca。",
+    "仅靠密度与形貌不能可靠区分胰岛素囊泡和其他囊泡，需要Zn等额外证据。"
+  ],
+  "mechanism_result_map": [
+    "相干衍射重叠扫描+ePIE→高信噪比相位投影与约19 nm二维分辨率。",
+    "跨Zn L3边谱学相位重建+KKT→可用于双能吸收差分的图像。",
+    "22个等倾斜角相位投影+EST→小ROI三维体和囊泡空间分布。",
+    "少角度/有限角→z方向频率覆盖不足→22.8/64.6 nm的各向异性分辨率。"
+  ],
+  "comparative_positioning": [
+    "该文纠正了“上海光源尚无三维ptycho-tomography实证”的说法：软X射线BL08U1A已有明确PXCT论文证据。",
+    "它仍属于小ROI、有限投影的应用证明，与国际成熟硬X ptycho-CT或常规用户化能力存在距离。"
+  ],
+  "reuse_takeaways": [
+    "上海光源后续ptycho-CT路线应优先补齐全角覆盖、扫描稳定性、三维FSC和端到端时间。",
+    "分辨率验收必须同时报告二维FRC/PSD、三维FSC或方向性线扫，并明确各向异性。",
+    "谱学ptychography可与BL18B硬X三维XANES形成软硬X互补，但需共同标准样和跨束线配准。"
+  ],
+  "followup_questions": [
+    "在完整角度和更多投影下，三维FSC能否稳定达到15–20 nm且保持样品完整？",
+    "从1–6 µm小ROI扩展到10–20 µm视场时，剂量和采集时间如何增长？",
+    "软X PXCT是否能形成可重复的公开用户流程，而非单次生物学实验？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "说明需要无标记、高分辨、元素敏感三维方法来定位胰岛素聚集、Zn/Ca与囊泡空间关系，以及传统荧光、EM和吸收STXM的不足。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 1,
+            "end": 2
+          }
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "区分Zn L边20能点谱学ptychography、整细胞二维相位图和BL08U1A小ROI的22角PXCT数据，并记录细胞条件、能量、扫描重叠与ROI尺度。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 2,
+            "end": 6
+          }
+        },
+        {
+          "pages": {
+            "start": 8,
+            "end": 10
+          }
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "梳理相干衍射采集、ePIE相位重建、KKT相位到吸收变换、双能差分、22个等倾斜角EST重建和Amira三维分割。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 3,
+            "end": 6
+          }
+        },
+        {
+          "section_id": "sec:materials-and-methods"
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "核对二维19 nm、三维22.8/22.8/64.6 nm、约1.48×6.2×0.9 µm³ ROI、22角度和囊泡200–600 nm尺度等结果。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 4,
+            "end": 7
+          }
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "评价相位高对比与谱学差分如何增强低Zn信号、有限角EST为何产生方向性分辨率，并界定这项实验在SSRF ptycho-CT能力谱系中的位置。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 3,
+            "end": 8
+          }
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "集中讨论小ROI、22个有限角投影、z分辨率偏低、Ca未完成定量、囊泡分类需额外证据及从应用演示到常规束线能力的差距。",
+      "evidence_sources": [
+        {
+          "pages": {
+            "start": 5,
+            "end": 8
+          }
+        }
+      ]
+    }
+  ]
+}

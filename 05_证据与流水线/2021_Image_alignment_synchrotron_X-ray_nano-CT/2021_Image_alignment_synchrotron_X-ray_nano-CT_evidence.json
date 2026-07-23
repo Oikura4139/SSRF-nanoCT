@@ -1,0 +1,1040 @@
+{
+  "status": "ok",
+  "script": "extract_evidence.py",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "title": "苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔",
+  "evidence_pack": {
+    "paper_id": "doi:10.7498/aps.70.20210156",
+    "problem_evidence": [
+      {
+        "claim": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2].",
+        "evidence": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2].",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见.",
+        "evidence": "在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动.",
+        "evidence": "在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动.",
+        "source_section": "introduction",
+        "page_hint": ""
+      }
+    ],
+    "task_evidence": [
+      {
+        "claim": "随后, 基于该 MAD 算法改进的绝对误差和算法(sum of abso- lute differences, SAD)、误差平方和算法(sum of squared differences, SSD)、平均误差平方和算法 (mean squared differences, MSD)、序贯相似性检 测算法 (sequential similarity detection algori- thm, SSDA) [9] 及绝对变换误差和算法(sum of absolute transformed difference, SATD) 等配准 算法被相继提出, 此类算法均采用图像灰度值计算 相似度进行图像配准, 计算速度、鲁棒性、精度均 有所提高, 但各有侧重.",
+        "evidence": "随后, 基于该 MAD 算法改进的绝对误差和算法(sum of abso- lute differences, SAD)、误差平方和算法(sum of squared differences, SSD)、平均误差平方和算法 (mean squared differences, MSD)、序贯相似性检 测算法 (sequential similarity detection algori- thm, SSDA) [9] 及绝对变换误差和算法(sum of absolute transformed difference, SATD) 等配准 算法被相继提出, 此类算法均采用图像灰度值计算 相似度进行图像配准, 计算速度、鲁棒性、精度均 有所提高, 但各有侧重.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "Classification overview map of image registration algorithms.",
+        "evidence": "Classification overview map of image registration algorithms.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig.",
+        "evidence": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点.",
+        "evidence": "2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root- mean-square error of the in-plane rotational error correction; (b) root-mean-square errors of the vertical and horizontal error correc- tions; (c) reconstruction quality after JI-Faproma alignment for test phantoms containing different levels of noise.",
+        "evidence": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root- mean-square error of the in-plane rotational error correction; (b) root-mean-square errors of the vertical and horizontal error correc- tions; (c) reconstruction quality after JI-Faproma alignment for test phantoms containing different levels of noise.",
+        "source_section": "task",
+        "page_hint": ""
+      }
+    ],
+    "data_evidence": [
+      {
+        "claim": "先后利用频域共线配准法、空间共线配准法、单层 Dataset 1 Dataset 2 Dataset 3 图 9 通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、 Dataset 3 在Dataset 2 基础上添加了10% 的高斯噪声.",
+        "evidence": "先后利用频域共线配准法、空间共线配准法、单层 Dataset 1 Dataset 2 Dataset 3 图 9 通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、 Dataset 3 在Dataset 2 基础上添加了10% 的高斯噪声.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down- sampling levels from 32 up to 1, and rows correspond to different synthetic datasets.",
+        "evidence": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down- sampling levels from 32 up to 1, and rows correspond to different synthetic datasets.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "Insets in the last column show detail of the re- construction quality for the full resolution dataset).",
+        "evidence": "Insets in the last column show detail of the re- construction quality for the full resolution dataset).",
+        "source_section": "data",
+        "page_hint": ""
+      }
+    ],
+    "method_evidence": [
+      {
+        "claim": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig.",
+        "evidence": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "随着计算力提升及图像处理学科 的发展, 从20 世纪80 年代起, 经典的特征匹配算 法, 如Moravec 算子[21]、Harris 角点检测算子[22]、 SIFT(scale-invariant feature transform) 法及基于 SIFT[23] 改进的PCA-SIFT[24]、SURF[25]、CSIFT[26] 等被相继提出, 不断优化图像特征提取的效率、精 度及稳定性.",
+        "evidence": "随着计算力提升及图像处理学科 的发展, 从20 世纪80 年代起, 经典的特征匹配算 法, 如Moravec 算子[21]、Harris 角点检测算子[22]、 SIFT(scale-invariant feature transform) 法及基于 SIFT[23] 改进的PCA-SIFT[24]、SURF[25]、CSIFT[26] 等被相继提出, 不断优化图像特征提取的效率、精 度及稳定性.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点.",
+        "evidence": "2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "2010 年, Calonder 等[28] 提出一种二进 制的特征点描述子 (binary robust independent elementary features, BRIEF), 该算法没有采用灰 度直方图, 极大减少了特征匹配时间.",
+        "evidence": "2010 年, Calonder 等[28] 提出一种二进 制的特征点描述子 (binary robust independent elementary features, BRIEF), 该算法没有采用灰 度直方图, 极大减少了特征匹配时间.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down- sampling levels from 32 up to 1, and rows correspond to different synthetic datasets.",
+        "evidence": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down- sampling levels from 32 up to 1, and rows correspond to different synthetic datasets.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig.",
+        "evidence": "Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig.",
+        "source_section": "method",
+        "page_hint": ""
+      }
+    ],
+    "mechanism_evidence": [
+      {
+        "claim": "Loading & preprocessing Cross-correlation prealignment Common line vertical alignment Conventional tomography Yes Postprocessing & final reconstruction Projection matching alignment 图 8 MR-PMA 配准法流程图[36] Fig.",
+        "evidence": "Loading & preprocessing Cross-correlation prealignment Common line vertical alignment Conventional tomography Yes Postprocessing & final reconstruction Projection matching alignment 图 8 MR-PMA 配准法流程图[36] Fig.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "16 (2021) 160704 160704-6 2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment) 等 多种配准算法的特定使用序列以克服单个配准算 法的短板, 提供最佳的自动配准性能, 如图10— 图12 所示.",
+        "evidence": "16 (2021) 160704 160704-6 2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment) 等 多种配准算法的特定使用序列以克服单个配准算 法的短板, 提供最佳的自动配准性能, 如图10— 图12 所示.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig.",
+        "evidence": "Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+        "evidence": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Panel (d) is the experimentally measured projection image.",
+        "evidence": "Panel (d) is the experimentally measured projection image.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Ji-Faproma algorithm convergence under different noise level of raw projections[38].",
+        "evidence": "Ji-Faproma algorithm convergence under different noise level of raw projections[38].",
+        "source_section": "method",
+        "page_hint": ""
+      }
+    ],
+    "results_evidence": [],
+    "ablation_evidence": [],
+    "limitations_evidence": [],
+    "equation_candidates": [],
+    "reference_candidates": [
+      {
+        "raw_text": "Yuan Q X, Deng B, Guan Y, Zhang K, Liu Y J 2019 Physics",
+        "display_text": "Yuan Q X, Deng B, Guan Y, Zhang K, Liu Y J 2019 Physics",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "48 205 (in Chinese) [袁清习, 邓彪, 关勇, 张凯, 刘宜晋 2019 物",
+        "display_text": "48 205 (in Chinese) [袁清习, 邓彪, 关勇, 张凯, 刘宜晋 2019 物",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Y, Tao F, Zhang L, Xiao T Q 2020 Nucl. Sci. Tech. 31 102",
+        "display_text": "Y, Tao F, Zhang L, Xiao T Q 2020 Nucl. Sci. Tech. 31 102",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Jun K, Yoon S 2017 Sci. Rep. 7 41218",
+        "display_text": "Jun K, Yoon S 2017 Sci. Rep. 7 41218",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Cheng J Y, Zhang X Z, Tai R Z 2013 Nucl. Tech. 36 1 (in",
+        "display_text": "Cheng J Y, Zhang X Z, Tai R Z 2013 Nucl. Tech. 36 1 (in",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Chinese) [程甲一, 张祥志, 邰仁忠 2013 核技术 36 1]",
+        "display_text": "Chinese) [程甲一, 张祥志, 邰仁忠 2013 核技术 36 1]",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "M, Pluim J P W 2016 Med. Image Anal. 33 140",
+        "display_text": "M, Pluim J P W 2016 Med. Image Anal. 33 140",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Maintz J A, Viergever M A 1998 Med. Image Anal. 2 1",
+        "display_text": "Maintz J A, Viergever M A 1998 Med. Image Anal. 2 1",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Leese J A, Novak C S, Clark B B 1922 J. Appl. Meteorol. 10",
+        "display_text": "Leese J A, Novak C S, Clark B B 1922 J. Appl. Meteorol. 10",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704",
+        "display_text": "物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704",
+        "page_hint": "p. 14",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Barnea D I, Silverman H F 2009 IEEE Transact. Comput.",
+        "display_text": "Barnea D I, Silverman H F 2009 IEEE Transact. Comput.",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Pratt W K 1974 IEEE Trans. Aes. 10 353",
+        "display_text": "Pratt W K 1974 IEEE Trans. Aes. 10 353",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Guckenberger R 1982 Ultramicroscopy 9 167",
+        "display_text": "Guckenberger R 1982 Ultramicroscopy 9 167",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Lewis J P 1995 Circuits, Syst. Sig. Process. 82 144",
+        "display_text": "Lewis J P 1995 Circuits, Syst. Sig. Process. 82 144",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Yoo J C, Han T H 2009 Circuits, Syst. Sig. Process. 28 819",
+        "display_text": "Yoo J C, Han T H 2009 Circuits, Syst. Sig. Process. 28 819",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Viola P, Wells W M 1995 Fifth International Conference on",
+        "display_text": "Viola P, Wells W M 1995 Fifth International Conference on",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "1995 p16",
+        "display_text": "1995 p16",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Li Q, Zhou G Z, Xiao T Q 2016 Acta Optica Sin. 36 108 (in",
+        "display_text": "Li Q, Zhou G Z, Xiao T Q 2016 Acta Optica Sin. 36 108 (in",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Chinese) [李巧, 周光照, 肖体乔 2016 光学学报 36 108]",
+        "display_text": "Chinese) [李巧, 周光照, 肖体乔 2016 光学学报 36 108]",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "Holland, John H 1973 SIAM J. Comput. 2 88",
+        "display_text": "Holland, John H 1973 SIAM J. Comput. 2 88",
+        "page_hint": "p. 15",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "图 1",
+        "caption": "失准投影合成的Sinogram 图及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3]"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move-"
+      },
+      {
+        "id": "图 2",
+        "caption": "在线机械校准 (a) 激光干涉仪[4]; (b) 激光干涉仪记录旋转目标偏移轨迹[4]; (c) 上海光源软X 光谱学显微实验站样品台[5]"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Online mechanical calibration: (a) Laser interferometer[4]; (b) laser interferometer records the deviation trajectory of the ro-"
+      },
+      {
+        "id": "图 3",
+        "caption": "图像配准领域文章发表情况 (a) 近30 年图像配准论文发表情况; (b) 近10 年深度学习图像配准论文增长趋势"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Publication of papers in the field of image registration: (a) Publication of research papers on image registration in the past"
+      },
+      {
+        "id": "图 4",
+        "caption": "图像配准算法分类概述导图"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Classification overview map of image registration algorithms."
+      },
+      {
+        "id": "图 5",
+        "caption": "图像配准的常规流程图"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "General flow chart of image registration."
+      },
+      {
+        "id": "图 6",
+        "caption": "基于傅里叶变换的图像配准流程图"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Flow chart of image registration based on Fourier transform."
+      },
+      {
+        "id": "图 7",
+        "caption": "FREAK 算法的类视网膜取样模式[31]"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Retina-like sampling mode of FREAK algorithm[31]."
+      },
+      {
+        "id": "图 8",
+        "caption": "MR-PMA 配准法流程图[36]"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Flow chart of MR-PMA image alignment[36]."
+      },
+      {
+        "id": "图 12",
+        "caption": "配准后页岩投影重建切片对比: (a) 原始数据, (b) 手动配准, (c) 自动配准; 重投影后页岩投影数据对比: (d) 实验数据,"
+      },
+      {
+        "id": "图 9",
+        "caption": "通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down-"
+      },
+      {
+        "id": "图 10",
+        "caption": "评估具有不同缺陷的不同图像配准算法的精度和鲁棒性[37]"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37]."
+      },
+      {
+        "id": "图 11",
+        "caption": "纳米级投影图像迭代配准重建流程图[37]"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37]."
+      },
+      {
+        "id": "Fig 12",
+        "caption": "Reconstructed slices through the center of the shale sample without alignment (a) and with manual (b) or automatic (c)"
+      },
+      {
+        "id": "图 13",
+        "caption": "Ji-Faproma 算法不同噪声水平下的配准精度对比[38] (a) 投影内旋转误差的平均根方差; (b) 投影垂直误差和水平误差"
+      },
+      {
+        "id": "Fig 13",
+        "caption": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root-"
+      },
+      {
+        "id": "图 14",
+        "caption": "Ji-Faproma 算法在不同噪声水平下的收敛情况[38]"
+      },
+      {
+        "id": "Fig 14",
+        "caption": "Ji-Faproma algorithm convergence under different noise level of raw projections[38]."
+      },
+      {
+        "id": "图 15",
+        "caption": "GMs 抖动校正法的流程图[39]"
+      },
+      {
+        "id": "Fig 15",
+        "caption": "Workflow of the proposed jitter correction[39]."
+      },
+      {
+        "id": "图 16",
+        "caption": "采用不同矫正方法的重构结果[39] (图中: a 列—d 列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第"
+      },
+      {
+        "id": "Fig 16",
+        "caption": "Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of"
+      },
+      {
+        "id": "图 17",
+        "caption": "深度学习研究论文发表情况统计 (a) 2014 年至2020 年多种深度学习模式图像配准论文发表数量统计; (b) 2014 年至"
+      },
+      {
+        "id": "Fig 17",
+        "caption": "A survey of the publication of deep learning research papers: (a) Number of published image registration papers based on"
+      },
+      {
+        "id": "图 18",
+        "caption": "基于线索感知深度学习网络的图像配准[46]"
+      },
+      {
+        "id": "Fig 18",
+        "caption": "The framework of the proposed similarity-steered CNN regression for deformable image registration[46]."
+      },
+      {
+        "id": "图 19",
+        "caption": "基于GAN 研究的论文发表情况"
+      },
+      {
+        "id": "Fig 19",
+        "caption": "Number of papers published related to GAN re-"
+      },
+      {
+        "id": "图 20",
+        "caption": "基于GAN 的医学图像配准流程图[52] (a) 生成器 (b) 鉴别器"
+      },
+      {
+        "id": "Fig 20",
+        "caption": "Flow chart of medical image registration based on GAN[52]: (a) Generator network; (b) discriminator network."
+      },
+      {
+        "id": "图 21",
+        "caption": "GAN 配准前特征点预处理流程图[54]"
+      },
+      {
+        "id": "Fig 21",
+        "caption": "Outline of using GAN as a preprocessing step be-"
+      }
+    ],
+    "table_captions": [],
+    "sections": [
+      {
+        "name": "preamble",
+        "length": 2191,
+        "preview": "同步辐射纳米CT图像配准方法研究 苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔 Image alignment for synchrotron radiation based X-ray nano-CT Su Bo Tao Fen Li Ke Du Guo-Hao Zhang Ling Li Zhong-Liang Deng Biao Xie Hong-Lan Xiao Ti-Qiao 引用信息 Citation: Acta Physica Sinica, 7"
+      },
+      {
+        "name": "introduction",
+        "length": 6036,
+        "preview": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI"
+      },
+      {
+        "name": "method",
+        "length": 13603,
+        "preview": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig. 5. General flow chart of image registration. 物 理 学 报 Acta Phys. Sin. Vol. 70, "
+      }
+    ],
+    "section_texts": {
+      "preamble": "同步辐射纳米CT图像配准方法研究 苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔 Image alignment for synchrotron radiation based X-ray nano-CT Su Bo Tao Fen Li Ke Du Guo-Hao Zhang Ling Li Zhong-Liang Deng Biao Xie Hong-Lan Xiao Ti-Qiao 引用信息 Citation: Acta Physica Sinica, 70, 160704 (2021) DOI: 10.7498/aps.70.20210156 在线阅读 View online: https://doi.org/10.7498/aps.70.20210156 当期内容 View table of contents: http://wulixb.iphy.ac.cn 您可能感兴趣的其他文章 Articles you may be interested in 基于深度学习压缩感知与复合混沌系统的通用图像加密算法 General image encryption algorithm based on deep learning compressed sensing and compound chaotic system 物理学报. 2020, 69(24): 240502 https://doi.org/10.7498/aps.69.20201019 基于深度学习的联合变换相关器光学图像加密系统去噪方法 In depth learning based method of denoising joint transform correlator optical image encryption system 物理学报. 2020, 69(24): 244204 https://doi.org/10.7498/aps.69.20200805 基于深度学习的相位截断傅里叶变换非对称加密系统攻击方法 Attacking asymmetric cryptosystem based on phase truncated Fourier fransform by deep learning 物理学报. 2021, 70(14): 144202 https://doi.org/10.7498/aps.70.20202075 基于YOLOv3框架的高分辨电镜图像原子峰位置检测 Detection of intensity peaks in high-resolution transmission electron microscopy image based on YOLOv3 物理学报. 2021, 70(7): 076803 https://doi.org/10.7498/aps.70.20201502 基于图像内容视觉感知的图像质量客观评价方法 Objective assessment method of image quality based on visual perception of image content 物理学报. 2018, 67(10): 108702 https://doi.org/10.7498/aps.67.20180168 基于光照-反射成像模型和形态学操作的多谱段图像增强算法 Multispectral image enhancement based on illuminance-reflection imaging model and morphology operation 物理学报. 2018, 67(21): 210701 https://doi.org/10.7498/aps.67.20181288 同步辐射纳米CT 图像配准方法研究* 苏博1)2)3) 陶芬3) 李可3) 杜国浩3) 张玲3) 李中亮1)2)3) 邓彪1)2)3)† 谢红兰3) 肖体乔3) 1) (中国科学院上海应用物理研究所, 上海 201800) 2) (中国科学院大学, 北京 100049) 3) (中国科学院上海高等研究院上海光源中心, 上海 201204) (2021 年1 月22 日收到; 2021 年3 月11 日收到修改稿) 基于同步辐射的X 射线纳米成像技术是无损研究物质内部纳米尺度结构的强大工具, 本文总结了图像 配准技术在纳米CT 成像领域的研究和应用, 并根据发展阶段进行分类分析. 首先, 通过统计近年以来图像 配准文献的发表情况, 分析并预测纳米尺度图像配准的未来研究方向. 其次, 基于图像经典配准算法理论, 详 细介绍了图像配准算法在纳米成像领域最有效的前沿应用. 最后, 介绍了基于深度学习的图像配准方法的前 沿研究, 并讨论深度学习在纳米分辨图像配准领域的适用性及发展潜能, 根据纳米尺度图像数据的特点及各 种深度学习网络模型的特性, 展望了同步辐射纳米尺度图像配准技术的未来研究方向及挑战. 关键词：图像配准, 图像对齐, 纳米成像, 深度学习 PACS：07.85.Tt 41.60.Ap 42.30.Wb DOI: 10.7498/aps.70.20210156",
+      "introduction": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2]. 在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见. 在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动. 由于机械不稳定性、机械精度、辐射热 膨胀、射线强度波动及探测器响应不一致等因素影 响, 会造成样品位置偏移、旋转中心偏移、投影衬 度不均等误差. 这些误差对低分辨CT 成像影响不 大, 甚至可视情况忽略不计, 但在纳米级分辨的纳 米CT 上就被放大到明显可见, 导致投影数据失 准, 严重影响样品的重建质量甚至无法正确重建. 如图1 示例, 为失准投影数据合成的Sinogram 图 (a) 和对应的重构图像(b), 由于位置偏移误差、射 线能量波动等原因, Sinogram 图上存在曲线不光 滑、明显截断痕迹及衬度不均等问题. 因此在图像 重构之前, 必须解决图像失准的问题. 目前, 解决纳米尺度图像失准的方法按工作原 理可分为两类: 一类是通过硬件, 提高机械稳定性 或在线机械校准的方法; 一类是通过软件, 在图像 后处理中进行图像配准. * 国家重点研发计划(批准号: 2017YFA0206004, 2017YFA0206002) 和国家自然科学基金(批准号: 11775297, U1932205) 资助的课题. † 通信作者. E-mail: dengbiao@zjlab.org.cn © 2021 中国物理学会 Chinese Physical Society http://wulixb.iphy.ac.cn 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-1 现代纳米成像装置上通常采取使用高刚度材 料、调频防止器件共振及添加隔离垫等措施尽量减 小样品扫描过程中发生振动, 也可以利用激光干涉 仪等装置在线校正扫描过程中的跳动误差[4], 如图2 所示. 但是, 在长时间的纳米CT 全角度扫描中, 保持旋转轴和样品稳定转动, 将旋转样品的抖动偏 移量控制在几十纳米内仍是机械控制领域的技术 瓶颈之一, 尚不能达到三维重构的纳米级精度要 求. 针对该问题, 上海光源的程甲一等[5] 利用可见 光显微镜记录样品转动过程中的漂移轨迹, 采用配 准算法预测样品的漂移规律, 再利用机械手段在 线自动校正由转动产生的样品漂移, 将漂移控制 在1 µm 精度内, 如图2(c) 所示.. 虽然该方法的鲁 棒性、外推性及精度仍需提高, 但这种硬件与软件 结合的配准方法可为在线配准研究拓宽思路. 图像配准是将来自不同时间、角度、景深或探 测器的不同图片数据集转换到同一坐标系下的方 法, 广泛应用在计算机视觉、医学成像、遥感卫星、 自动控制、材料科学等领域. 图像配准算法自20 世纪60 年代发展至今, 并没有统一的分类标准. 根据图像数据获取方式的不同, 可分为单模态图像 配准、多模态图像配准; 根据提取图像信息的不同, 可分为基于区域的图像配准、基于特征的图像配准; 根据空间变换性质, 可分为刚体变换配准(旋转、 缩放、平移等)、非刚体变换配准(径向基函数、物 理连续模型、大变换模型); 根据人机交互性, 可分 为全自动配准、半自动配准、人工配准等. 随着计算能力的提高, 作为图像处理与计算机 视觉等领域的共同热门课题—图像配准算法的 研究进入高速发展阶段. 本文使用多个关键词在多 个数据库调研了图像配准相关研究的文章发表情 况, 总结了图像配准算法的发展趋势. 关键词包括 不限于图像配准(image alignment, image registra- tion)、深度学习(deep learning)、CT(computer tom- ography)、卷积神经网络(convolutional neural network, CNN)、生成对抗网络(generative adver- sarial network, GAN)、互相关(cross correlation)、 互信息(mutual information) 等, 搜索引擎使用谷 歌学术、超星发现、Web of Science 等, 数据库包 括Scopus 文摘索引数据库(荷)、SCI 科学引文 索引(美)、EI 工程索引(美)、PubMed/Medline 收 录、统计源期刊(中信所)、中文核心期刊(北大)、 CSCD 中国科学引文库(中国科学院) 等. 如图3(a) 所示, 图像配准研究从20 世纪90 年代开始发展, -100 -200 Parallel sensor position '/pixels Parallel rotation angle /(O) -400 -300 80 100 120 140 160 180 (a) -100 -200 Parallel sensor position '/pixels Parallel rotation angle /(O) -400 -300 80 100 120 140 160 180 (b) 图 1 失准投影合成的Sinogram 图及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3] Fig. 1. Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move- ment at each projection; (b) when the X-ray density of projection is changed during the beam time[3]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-2 在20 世纪迎来高速发展阶段, 各种经典算法相继 被提出. 如图3(b) 所示, 近年来, 图像配准的相关 研究虽然逐渐递减, 但基于深度学习的图像配准研 究逐年增加. 到2020 年为止, 基于深度学习的图 像配准研究预计达到全年图像配准相关文献发表 总量的1/4, 逐渐成为该领域的主流方法之一. 本文针对同步辐射X 射线纳米尺度图像配准 的研究方向, 根据图像配准算法的研究阶段分别介 绍: 经典图像配准理论与算法、纳米尺度图像配准 前沿应用研究及图像配准算法前沿研究. 依据工作 原理、交互方式、数据类型等方面, 详细阐述每类 配准算法的原理、适用场景及优化方向, 并简洁的 对每种算法的贡献及未来适用性进行总结, 本文概 述导图如图4 所示. 2 图像配准理论与算法 常规图像配准工作流程主要包括: 模型变换, 特征检测及描述, 寻优策略选择并建立映射关系, 图像重采样或变换等, 如图5 所示. 其中, 核心步 骤为特征的检测描述与匹配, 图像配准算法根据检 测特征信息算法的不同, 可分为基于区域的图像配 准与基于特征的图像配准两大类. 2.1 基于区域的图像配准算法 基于区域的图像配准算法是利用图片的强度 信息等来构建特征空间的方法, 典型方法有: 互相 关法、互信息法、傅里叶法等[6,7]. 1971 年, Leese 等[8] 在模式识别算法的基础上 提出一种基于图像灰度的平均绝对差配准算法 (mean absolute differences, MAD). 随后, 基于该 MAD 算法改进的绝对误差和算法(sum of abso- lute differences, SAD)、误差平方和算法(sum of squared differences, SSD)、平均误差平方和算法 (mean squared differences, MSD)、序贯相似性检 测算法 (sequential similarity detection algori- thm, SSDA) [9] 及绝对变换误差和算法(sum of absolute transformed difference, SATD) 等配准 算法被相继提出, 此类算法均采用图像灰度值计算 相似度进行图像配准, 计算速度、鲁棒性、精度均 有所提高, 但各有侧重. 1974 年, Pratt[10] 在灰度值 (c) Slide table Turntable Sample holder X-ray Sample (b) 120O 60O 240O 300O 180O (a) 图 2 在线机械校准 (a) 激光干涉仪[4]; (b) 激光干涉仪记录旋转目标偏移轨迹[4]; (c) 上海光源软X 光谱学显微实验站样品台[5] Fig. 2. Online mechanical calibration: (a) Laser interferometer[4]; (b) laser interferometer records the deviation trajectory of the ro- tating target[4]; (c) SSRF soft X spectroscopy microscope experimental station sample stage[5]. Journal papers Conference papers Thesis Patents Year Total number of publications in image registration Year Percentage of publications in DL-based image registration/% (b) (a) Non-DL based image registration DL-based image registration 图 3 图像配准领域文章发表情况 (a) 近30 年图像配准论文发表情况; (b) 近10 年深度学习图像配准论文增长趋势 Fig. 3. Publication of papers in the field of image registration: (a) Publication of research papers on image registration in the past 30 years; (b) percentage of papers on deep learning image registration in the past 10 years. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-3 配准算法的基础上提出互相关图像配准法, 并通过 计算机仿真结果证明. 1982 年, 在图像点互相关法 的基础上, Guckenberger[11] 证明了通过互相关函 数在线性连续物体图像配准中是有效的. 随后, 归 一化互相关(normalize cross-correlation, NCC) 及快速归一化互相关(fast normalize cross-corre- lation, FNCC) 等算法被相继提出, 进一步地提高 了配准精度及速度[12,13]. 1995 年, Paul 等[14] 提出互信息配准法, 引用 热力学中熵的概念来表达两幅图像之间信息的不 确定程度. 互信息配准法适用于多模态配准, 如医 学影像配准、双能CT 投影配准[15] 等. 随着寻优算 法的发展, 从20 世纪90 年代开始, 遗传算法[16]、 粒子群算法[17]、蚁群算法[18] 等寻优算法相继被用 于提高互相关、互信息等图像配准算法的速度. 傅里叶变换图像配准法通过傅里叶变换将图 像数据由空域变换到频域, 采用相位相关技术进行 计算匹配, 具有速度快、精度高等优势[19]. 基于傅 点特征检测描述算子 边缘特征检测算子 模型变换 寻优策略 遗传算法 蚁群算法 模拟退火算法 Powell算法 提取特征 特征匹配 模型变换估计 重采样 目标 亚像素级精度 互相关算法 粗配准 精配准 频域共 线配准 单层迭代重建 与重投影 空间共 线配准 常规断层成像 共线垂直 配准 投影匹配配准 后处理与重建 CDI TXM SIFT pix2pix GAN pix2pixHD 鉴别网络 (Discriminator) 生成网络 (Generator) CycleGAN IAIR 高速度 高鲁棒性 基于特征的图像配准 纳米尺度应用研究 生成对抗网络配准 其他方法 卷积神经网络配准 基于区域的图像配准 平均绝对差 法(MAD) 误差平和法 (SSD) 互相关法 (CC) 归一化互相关法 (NCC) 互信息法 (MI) 绝对误差和 (SAD) 平均误差平方和法 (MSD) 序贯相似性检测算法 (SSDA) 傅里叶变换图像配准 相位 相关技术 图像配准常规步骤 图像 配准 Canny算子 Sobel算子 Prewitt算子 ORB BRISK CSIFT SURF PCA-SIFT Moravec Harris SIFT SUSAN FAST BRIEF 人工特征 及提取 鉴 别 打 分 区域变换 模态变换 合成人 工图像 循环神经网络模型(RNN) 自动编码解码模(AE) 强化学习(RL) 光流场模型 弹性模型 全链接层 池化层 卷积层 输入层 监督学习 无监督学习 训练 模拟数据 模拟+ 真实数据 DVF Ground truth ReLu层 粘性流体模型 图 4 图像配准算法分类概述导图 Fig. 4. Classification overview map of image registration algorithms.",
+      "method": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig. 5. General flow chart of image registration. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-4 里叶变换的图像配准常规流程如图6 所示. 傅里叶 变换针对平移、灰度变化、旋转及缩放的图像具有 尺度不变性, 利用整幅图像的灰度信息进行配准, 精度较高. 然而, 针对旋转角度、缩放尺度及位移 偏差较大或非线性畸变等图像鲁棒性不高, 对噪声 也较为敏感. 2.2 基于特征的图像配准算法 基于特征的图像配准算法根据图像中的可识 别特征进行图像匹配. 根据特征提取方式及人机交 互性等, 可分为手动选取法和自动检测法; 根据特 征属性, 可分为人工特征(又称外部特征) 法和自 然特征(又称内部特征) 法. 特征手动选取法是具有配准功能的三维重构 软件的常用功能, 如斯坦福大学的纳米CT 重构软 件TXM wizard 等[20]. 实际情况下, 由于光通量过 低或不稳定等原因, 导致CT 投影数据衬度低及信 噪比低, 图像自然特征不明显, 手动选取特征变得 尤为困难. 20 世纪90 年代, 有研究人员在样品 中添加人工特征物—金颗粒, 人工特征在样品 投影中衬度高且易于检测, 有效降低了配准计算 的复杂度, 节省了大量时间. 但人工特征法也因 样品制备困难、周期长及价格昂贵等缺点受到 限制. 自动特征提取是指通过算法自动检测图像的 自然特征并加以描述的方法, 如: 点特征、线特征、 中心特征、区域重心等, 将其作为图像配准算法的 特征进行匹配. 上述特征应是图像中不受偏移、旋 转及缩放等变化影响的目标, 可称之为不变描述 符. 因此, 基于特征的图像配准算法的本质是不变 描述符的利用, 该不变描述符应满足条件有: 不变 性、唯一性、稳定性及独立性. 但是, 实际使用过程 中并不能同时满足所有条件, 可按照使用需求适当 权衡取舍, 实现最优特征选取. 特征检测描述方法的优劣决定了图像配准计 算的效率和精度. 随着计算力提升及图像处理学科 的发展, 从20 世纪80 年代起, 经典的特征匹配算 法, 如Moravec 算子[21]、Harris 角点检测算子[22]、 SIFT(scale-invariant feature transform) 法及基于 SIFT[23] 改进的PCA-SIFT[24]、SURF[25]、CSIFT[26] 等被相继提出, 不断优化图像特征提取的效率、精 度及稳定性. 2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点. 2010 年, Calonder 等[28] 提出一种二进 制的特征点描述子 (binary robust independent elementary features, BRIEF), 该算法没有采用灰 度直方图, 极大减少了特征匹配时间. 然而, BRIEF 仅是特征点描述子, 还需FAST, Harris, SIFT 等 算法检测特征点. 2011 年, Rublee 等[29] 结合FAST 特征点检测法和BRIEF 特征点描述法提出ORB (oriented brief) 特征点检测描述法, 不仅优化了 BRIEF 的噪声敏感问题, 还兼具旋转不变性. 同 年, Leutenegger 等[30] 提出一种二进制特征检测描 述算法BRISK, 利用FAST 进行特征点检测, 构 造图像金字塔多尺度表达使其具有尺度不变性, 特 征点描述采用高斯滤波及局部梯度计算使其具有 Fourier transfer Inverse Fourier transform Movement offset calculation transformation estimation Mutual energy spectrum 图 6 基于傅里叶变换的图像配准流程图 Fig. 6. Flow chart of image registration based on Fourier transform. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-5 旋转不变性. 2012 年, Alahi 等[31] 在BRISK 算法 的基础上提出FREAK 算法, 在兼具尺度不变性、 旋转不变性及噪声不敏感性的基础上, FREAK 法 采用与BRISK 的均匀采样法不同的视网膜拓扑采 样法(如图7 所示), 核心区域处理高精度图像信 息, 过度区域及稀疏区域处理低精度图像信息, 使 鲁棒性大幅提高. 另外, 常见的边缘提取算子有 LOG (laplace of Gaussian) 算子[32]、Robert 算子、 Sobel 算子、Prewitt 算子等[33], 计算效率等详见参 考文献[31, 32]. 核心区 过渡区 稀疏区 图 7 FREAK 算法的类视网膜取样模式[31] Fig. 7. Retina-like sampling mode of FREAK algorithm[31]. 在上述基于区域或特征的图像配准算法中: 1) 互相关与傅里叶变换等算法采用图像全局 信息, 虽然针对图像噪声、大尺度偏移及旋转等影 响的鲁棒性不高, 但是兼顾了图像配准的效率及精 度, 很适用于图像信息偏差不大, 高配准精度要求 的图像; 2) 基于特征的配准算法则对旋转、偏移等图 像具有高鲁棒性, 通常采用点特征法进行匹配, 比 较点特征检测描述算子的效率可知, ORB 算法最 快, 其次为FREAK, BRISK, SURF 及SIFT 等, 但若进行模糊程度较高的图像配准时, BRISK 算 法的性能表现最为出色; 3) 互信息图像配准算法和特征匹配配准算法 均适用于多模态配准. 3 纳米尺度图像配准的应用研究 在过去几十年里, 数种图像配准算法被应用 到X 射线断层成像技术中. 每种算法都各有优缺 点, 阻碍了它们在X 射线纳米成像高精度配准中 的广泛应用. 例如, 基于互相关的图像配准算法虽 然计算速度快, 但是邻角度投影的亚像素级误差会 不断累加, 难以解决复杂的几何变换问题; 基于特 征的图像配准算法, 自动检测计算复杂, 人工标记 制样困难等. 近年来, 纳米尺度图像配准的发展主要以高精 度、高速度、高鲁棒性为目标. 瑞士保罗谢勒研究 所(Paul Scherrer Institute, PSI) 的研究人员针对 纳米相干衍射成像的投影数据展开了一系列配准 研究. 2008 年, Guizar-Sicairos 等[34] 提出了3 种 基于互相关及离散傅里叶变换的亚像素级精度配 准算法, 与常规快速傅里叶变换方法相比, 有效减 少了内存需求, 计算效率得到极大提高. 2017 年, Gürsoy 等[35] 针对纳米尺度成像技术提出一种基 于迭代重投影技术的快速高精度图像配准技术. 2019 年, Odstrcil 等[36] 针对相干衍射相位成像, 利 用的投影数据的吸收及相移信息提出一种联合配 准算法. 该方法按照算法优势将互相关配准法、共 线垂直配准法、投影匹配法等配准算法分为预配 准(即粗配准) 和精配准两部分进行全自动配准研 究, 算法流程如图8 所示. 该篇文章用模拟数据实 验对联合配准算法进行测试, 如图9 所示的实验结 果证明该方法在保证亚像素级精度配准的前提下, 有效避免了用户交互过程, 实现了快速、高鲁棒性 的全自动投影数据配准与重建. Loading & preprocessing Cross-correlation prealignment Common line vertical alignment Conventional tomography Yes Postprocessing & final reconstruction Projection matching alignment 图 8 MR-PMA 配准法流程图[36] Fig. 8. Flow chart of MR-PMA image alignment[36]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-6 2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment) 等 多种配准算法的特定使用序列以克服单个配准算 法的短板, 提供最佳的自动配准性能, 如图10— 图12 所示. 首先, 利用RP 法计算旋转中心与投影 中心的相对偏移量, 但是对于随机振动误差无效. 因此, 采用精度较低、计算速度快的CM 法作为粗 配准步骤校正随机振动误差. 其次, 采用兼顾精度 与计算速度的相位相关法进一步提高配准精度. 最 后, 采用SIFT 法和IAIR 法(对低信噪比的投影 鲁棒性不高) 进行最终偏移及旋转误差校正, 以达 到最佳配准精度. 根据电池电极颗粒纳米CT 数据 的实验结果证明, 该方法对纳米尺度图像有效配 准, 实现高精度三维重建[37]. 2020 年, 中国台湾光源的Wang 等[38] 针对纳 米成像投影数据提出一种无标记全自动配准算法. 先后利用频域共线配准法、空间共线配准法、单层 Dataset 1 Dataset 2 Dataset 3 图 9 通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、 Dataset 3 在Dataset 2 基础上添加了10% 的高斯噪声. 分别对每个数据集进行32—1 的降采样法配准, 最后一列的插图显示了全 分辨率数据集的重建质量) Fig. 9. FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down- sampling levels from 32 up to 1, and rows correspond to different synthetic datasets. Insets in the last column show detail of the re- construction quality for the full resolution dataset). Blurred 6 mm (a) (b) Noise Excellent Satisfied Fair Failed SIFT IAR Blur Noise Blur Noise Blur Noise Blur With noise SIFT IAR 图 10 评估具有不同缺陷的不同图像配准算法的精度和鲁棒性[37] Fig. 10. Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-7 迭代重建与重投影法来处理投影面内旋转误差、垂 直误差、水平误差. 如图13 和图14 所示, 实验结 果表明, 这种联合配准算法有效降低了经典配准算 法的计算复杂度, 提高了高精度配准的收敛速度, 总处理时间最多可减少4 个数量级. 此外, 中国科学院高能物理所的Wang 等[39] 针对纳米分辨全场成像扫描过程中样品抖动的问 题, 提出了一种基于GMs(geometric moments) 的 校正样品抖动的配准算法, 如图15 和图16 所示. 实验表明, 该方法通过测量和拟合的GMs 差异来 估算样品抖动值以进行图像校正, 有效保留了 CT 投影数据的精细结构, 与手动标记法相比具有 更好的空间分辨率和衬度, 相比于添加金颗粒特 征(手动标记法), 该方法极大节省了实验成本. Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig. 11. Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37]. (a) (b) (c) (d) (e) (f) 图 12 配准后页岩投影重建切片对比: (a) 原始数据, (b) 手动配准, (c) 自动配准; 重投影后页岩投影数据对比: (d) 实验数据, (e) 手动重投影, (f) 自动重投影[37] Fig. 12. Reconstructed slices through the center of the shale sample without alignment (a) and with manual (b) or automatic (c) alignment. Panel (d) is the experimentally measured projection image. Panels (e) and (f) are the numerically reprojected images, calculated from the manual and auto-aligned 3D matrixes, respectively[37]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-8 (c) Raw data 10% 20% 20% (kernel) In-plane rotational error Noise level/% 0.05 0.10 RMSE/(O) 0.15 (a) Vertical alignment error Horizontal alignment error 20 20 (kernel) Noise level/% 0.5 1.0 RMSE/pixel 1.5 (b) 图 13 Ji-Faproma 算法不同噪声水平下的配准精度对比[38] (a) 投影内旋转误差的平均根方差; (b) 投影垂直误差和水平误差 的平均根方差; (c) 配准后面对不同噪声时的重建质量 Fig. 13. Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root- mean-square error of the in-plane rotational error correction; (b) root-mean-square errors of the vertical and horizontal error correc- tions; (c) reconstruction quality after JI-Faproma alignment for test phantoms containing different levels of noise. Noise level=0 Noise level=5% Noise level=10% Noise level=20% Iteration=0 Iteration=15 Iteration=0 Iteration=15 Iteration=0 Iteration=15 Iteration=0 Iteration=15 Horizontal alignment RMSE/pixel Iteration number of single layer JIRRM 图 14 Ji-Faproma 算法在不同噪声水平下的收敛情况[38] Fig. 14. Ji-Faproma algorithm convergence under different noise level of raw projections[38]. TXM image Segmented projection Segmentation Corrected CT slice Aligned projection Reconstruction Alignment 图 15 GMs 抖动校正法的流程图[39] Fig. 15. Workflow of the proposed jitter correction[39]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-9 由上述研究可以看出, 由多种经典算法组合而 成的粗配准-精配准—联合配准算法模式是纳米 尺度图像配准的有效处理方法之一, 达到了亚像素 级精度、高鲁棒性、高速度的研究目标. 随着各种 新特征检测描述方法的不断提出, 通过以经典配准 重构算法与新特征检测描述算子结合使用的方式, 联合配准算法的性能仍有进一步提高的潜力. 4 基于深度学习的图像配准算法 深度学习的概念由Hinton 等于2006 年提出, 是基于机器学习多层神经网络的应用研究, 目的是 建立模拟人脑分析过程进行学习的方法[40]. 近年 来, 随着深度学习各项技术的快速发展, 陆续在多 个领域的人工智能应用上取得成功, 例如: 在计算 机视觉和模式识别中, CNN 能够有效实现图像识 别, GAN 显著提高了图像翻译, 图像编辑, 图像修 复和图像融合等任务的性能等. 此外, 还有循环神 经网络(recurrent neural network, RNN)、自动编 码神经网络(auto-encoder, AE) 及强化学习(reinfor- cement learning, RL) 等方法广泛应用于各个领 域. 图像配准作为图像处理、机器学习、计算机视 觉等领域的交叉热门研究课题, 现有的图像配准研 究趋势被深度学习的研究模式打破, 当前图像配准 的前沿研究大多涉及深度学习. 自 2014 年起, 基于深度学习的图像配准研究 的会议论文和期刊论文发表数量迅速增加. 如图17 所示, 基于CNN 的图像配准研究增量最多, 增速 最快, 目前已占比约为深度学习图像配准研究总数 量的55%; 同时, 基于GAN 图像配准的研究趋势 也逐年增加, 增速迅速提升, 目前已经占比约13%; 基于自动编码神经网络与强化学习的图像配准 研究增量较少, 分别占比约6% 和7%. 必须指出, Without correction Manual Re-projection 图 16 采用不同矫正方法的重构结果[39] (图中: a 列—d 列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第 3 行是从x–z 平面重建的切片, 在y 方向上均匀间隔了50 个像素; 第4 行是x–z 平面中的重构切片) Fig. 16. Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of row 1, displayed in the x–y plane. Row 3: reconstructed slices in the x–z plane. Columns from (a) to (d) are results of TXM without jitter correction, corrected by a re-projection-based method, by manual alignment and by the proposed GM method). 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-10 上述方法并不是相互代替, 而是常常采用联合使用 的方式进行图像配准. 总体来看, 基于无监督的深 度学习研究数量过半, 这是因为监督学习方法需要 从大量特征中选择最优的特征空间, 往往还需要用 到人工特征进行训练, 并且该方法还需要与预测估 计值具有参照关系的目标数据(ground truth) 进 行训练[41−43]. 但是, 由纳米成像技术获得的图像数 据通常没有目标数据, 目标数据的计算过程不仅耗 费人力, 并且易受到人为主观因素的影响, 极大影 响了图像配准的准确性. 因此, 本文将根据纳米成 像数据的特点及难点展开基于多种深度学习模式 的前沿研究介绍. 2012 年, 由Krizhevsky 等[44] 采用的深层CNN 由输入层、卷积层、ReLu 层、池化层和全连接层组 成. 深层CNN 具有的正则化多层感知器、卷积滤 波和算子使其具有卓越的图像提取能力, 是当前 深度学习图像配准使用最广泛的网络结构模型. Cao 等[45] 基于深层CNN 配准方法提出了线索感 知深度回归网络, 建立从输入图像到输出形变场的 非线性映射模型, 实现准确有效的非线性形变配 准. 该研究通过基于关键点的均衡化采样方法在训 练数据中采集足够的训练样本来训练CNN 模型, 方法流程如图18 所示. 经实验证明, 训练结果可 扩展至多样数据集进行配准, 具有高鲁棒性. 针对深度学习图像配准的监督学习缺少目标 数据的问题, 有研究者使用模拟数据进行基于监督 (c) Unsupervise 53% Supervise 47% CNN 63% (b) GAN 13% RNN Other CNN GAN RNN Year Number of publications in DL image alignment (a) 图 17 深度学习研究论文发表情况统计 (a) 2014 年至2020 年多种深度学习模式图像配准论文发表数量统计; (b) 2014 年至 2020 年多种深度学习模式的图像配准文章百分比图; (c) 2014 年至2020 年无监督与监督深度学习图像配论文发表百分比图 Fig. 17. A survey of the publication of deep learning research papers: (a) Number of published image registration papers based on multiple deep learning methods since 2014; (b) percentage of image registration papers based on multiple deep learning methods since 2014; (c) The percentage of published image registration papers based on unsupervised and supervised deep learning since 2014. 输入： 待配准图像对 输出： 稠密变形场 线索感知 深度回归网络 数据驱动卷积 通道池化 多尺度 相似形图 尺度自适应 相似形图 卷积层+池化层+全连接层 辅助 线索 从数据中提取的多尺度核 需要训练的卷积核 Part A：数据驱动网略 Part B：深度回归网络 [d, d, d] 图 18 基于线索感知深度学习网络的图像配准[46] Fig. 18. The framework of the proposed similarity-steered CNN regression for deformable image registration[46]. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-11 学习的图像配准训练, 训练结果对真实数据的固定 噪声极其敏感, 图像配准的准确性同样难以保证. Krebs 等[47] 通过大量模拟图像数据与少量真 实图像数据混合使用的方式解决无目标数据问题. Rohé等[48] 使用全局信息和结构信息代替强度信息 对部分区域进行与配准, 以增加计算速度并避免陷 入局部最优化. 随后, 将配准后的偏移信息作为目 标数据进行监督训练, 测试数据的结果表明模型的 精度、鲁棒性、速度均有所提高. Wu 等[49] 采用卷积结构的多层自动编码网络 对脑部图像数据进行无监督的深度学习图像配准, 卷积结构有效降低了多层自动编码网络(即贪婪算 法) 的复杂度, 训练后的模型对测试数据具有一定 的鲁棒性, 为深度学习图像配准应用的提供了思 路. Fang 等[50] 提出了一种快速无监督学习的全连 接卷积网络, 直接进行输入图像数据的密度偏移矢 量场(dense displacement vector field, DVF) 的估 计学习训练, 并不需要目标数据进行标定. 经使用 公开CT 数据集测试表明, 该方法可以在保持与常 规CNN 训练模型同等精度下, 速度明显提高. 2014 年, GAN 由Goodfellow 等[51] 提出, 迅 速在各领域展开了大量研究, 相关研究文章发表数 量如图19 所示. GAN 由两个竞争网络组成, 分别 为生成器和鉴别器. 生成器从低维空间合成模拟真 实数据的人工数据对鉴别器进行区分训练, 通过对 鉴别器的惩罚机制实现准确预测真实数据, 图20 为基于GAN 的医学图像配准流程示例[52]. Mahapatra 等[53] 通过训练GAN 生成配准图 像和相应的形变场提出一种无监督自适应的 GAN 深度学习框架. 通过实验证明, 训练模型可以适用 于不同类型的图像配准, 基于域自适应的配准方法 比采用大量数据训练配准法的性能更佳. Toriya 等[54] 针对低信噪比的卫星遥感图像特征不明显等 问题, 采用基于GAN 的pix2pix 模型生成明显特 征点的光学图像作为匹配之前的预处理步骤, 再 用SIFT 等算法进行匹配, 如图21 所示. 该方法验 证了低信噪比图像特征点强化后的特征匹配能力, 所提出的深度学习特征预处理与基于特征配准算 法的结合模式也契合了纳米CT 图像数据的特点, 如将pix2pix 模型拓展为CycleGAN[55] 模型以解 决纳米图像数据无目标数据等问题, 为未来配准工 作提供了新思路. Year Total number of paper 图 19 基于GAN 研究的论文发表情况 Fig. 19. Number of papers published related to GAN re- search. 3个卷积层 RDB部分 全局特征融合 全局残差学习 反卷积和重建 Conv- MR CT Conv- Conv- RDB 1 RDB  RDB 9 Concat 1T1 conv Conv- Conv transposed  ReLU Conv transposed  Conv- ReLU (a) 相对真实性 或 相对虚假性 Conv- Conv- ReLU ReLU Conv- ReLU Conv- ReLU Conv- ReLU Sigmoid (b) 图 20 基于GAN 的医学图像配准流程图[52] (a) 生成器 (b) 鉴别器 Fig. 20. Flow chart of medical image registration based on GAN[52]: (a) Generator network; (b) discriminator network. 物 理 学 报 Acta Phys. Sin. Vol. 70, No. 16 (2021) 160704 160704-12 截止目前, 采用深度学习框架处理纳米尺度图 像配准的研究还较少, 但必须指出: 1) 无监督的深度学习方法不受目标数据的限 制, 完全依靠原始数据进行训练, 无需人工特征标记; 2) 深度学习可用于特征匹配前预处理步骤, 有效强化低信噪比图像的自然特征. 因此, 上述方法均可外推至具有低信噪比、相 邻旋转角度间连续偏移等特点的纳米CT 图像数 据集的配准研究中, 尤其是基于GAN 模型作为特 征强化的配准预方式. 按照现有深度学习框架快速 搭建, 无需人工交互即能完成纳米尺度图像配准, 但要达到亚像素级精度、高速度及高鲁棒性的目标 还需进一步研究及验证. 5 结论与展望 图像配准技术是解决纳米尺度图像数据失准 问题的有效方法. 本文以图像配准经典算法的发展 过程为铺垫, 详细介绍了瑞士保罗谢勒研究所、美 国阿贡实验室、美国斯坦福大学、中国科学院高能 物理研究所、中国科学技术大学、中国台湾光源、 中国上海光源等先进成像研究机构关于纳米级别 图像的配准研究进展. 总结了当前的研究目标为开 发亚像素级精度、高速度及高鲁棒性的配准方法, 并根据前沿文献的调研情况指出目前纳米成像领 域中最行之有效的图像配准模式—联合配准算 法模式, 及预测未来研究趋势为深度学习与图像配 准算法的结合模式. 本文通过从近年来发表的特征提取描述研究 中筛选出适用于纳米尺度图像配准的特征提取描 述算子, 为联合算法的进一步优化提供了重要参 考. 可以预见, 随着不断有新特征检测算子提出, 与经典配准重构算法的组合应用也逐渐多样化, 联 合配准算法的性能即具有巨大的提升空间. 基于深度学习的研究改变了图像配准算法的 发展趋势. CNN 和GAN 等深度学习网络具有的 卓越的图像提取能力在纳米成像投影配准研究中 有巨大的应用潜力. 不仅可以直接用于图像配准, 还可以优化图像配准的预处理步骤. 同时, 本文也 指出了深度学习在纳米CT 图像配准研究中面临 的挑战: 1) 纳米CT 数据没有真实目标值(Ground Truth) 进行训练; 2) 深度学习训练模型的配准精度尚未优于联 合配准等算法; 3) 深度学习作为图像配准算法的预处理步骤, 强化自然特征; 4) 保证及验证配准图像的真实性. 上述挑战对基于深度学习的纳米级别图像配 准的未来研究方向具有一定的指导意义. 随着深度 学习框架的发展及GPU 计算能力的提升, 深度学 习具有极大潜力成为纳米成像领域图像配准的 核心方法之一, 大大推动同步辐射纳米成像技术的 发展."
+    },
+    "candidate_chunks": {
+      "abstract": [],
+      "introduction": [
+        {
+          "text": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2]. 在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动. 由于机械不稳定性、机械精度、辐射热 膨胀、射线强度波动及探测器响应不一致等因素影 响, 会造成样品位置偏移、旋转中心偏移、投影衬 度不均等误差.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "这些误差对低分辨CT 成像影响不 大, 甚至可视情况忽略不计, 但在纳米级分辨的纳 米CT 上就被放大到明显可见, 导致投影数据失 准, 严重影响样品的重建质量甚至无法正确重建. 如图1 示例, 为失准投影数据合成的Sinogram 图 (a) 和对应的重构图像(b), 由于位置偏移误差、射 线能量波动等原因, Sinogram 图上存在曲线不光 滑、明显截断痕迹及衬度不均等问题.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "因此在图像 重构之前, 必须解决图像失准的问题. 目前, 解决纳米尺度图像失准的方法按工作原 理可分为两类: 一类是通过硬件, 提高机械稳定性 或在线机械校准的方法; 一类是通过软件, 在图像 后处理中进行图像配准.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "* 国家重点研发计划(批准号: 2017YFA0206004, 2017YFA0206002) 和国家自然科学基金(批准号: 11775297, U1932205) 资助的课题. † 通信作者.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "E-mail: dengbiao@zjlab.org.cn © 2021 中国物理学会 Chinese Physical Society http://wulixb.iphy.ac.cn 物 理 学 报 Acta Phys. Sin.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Vol. 70, No.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "16 (2021) 160704 160704-1 现代纳米成像装置上通常采取使用高刚度材 料、调频防止器件共振及添加隔离垫等措施尽量减 小样品扫描过程中发生振动, 也可以利用激光干涉 仪等装置在线校正扫描过程中的跳动误差[4], 如图2 所示. 但是, 在长时间的纳米CT 全角度扫描中, 保持旋转轴和样品稳定转动, 将旋转样品的抖动偏 移量控制在几十纳米内仍是机械控制领域的技术 瓶颈之一, 尚不能达到三维重构的纳米级精度要 求.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "针对该问题, 上海光源的程甲一等[5] 利用可见 光显微镜记录样品转动过程中的漂移轨迹, 采用配 准算法预测样品的漂移规律, 再利用机械手段在 线自动校正由转动产生的样品漂移, 将漂移控制 在1 µm 精度内, 如图2(c) 所示.. 虽然该方法的鲁 棒性、外推性及精度仍需提高, 但这种硬件与软件 结合的配准方法可为在线配准研究拓宽思路.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "图像配准是将来自不同时间、角度、景深或探 测器的不同图片数据集转换到同一坐标系下的方 法, 广泛应用在计算机视觉、医学成像、遥感卫星、 自动控制、材料科学等领域. 图像配准算法自20 世纪60 年代发展至今, 并没有统一的分类标准.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "根据图像数据获取方式的不同, 可分为单模态图像 配准、多模态图像配准; 根据提取图像信息的不同, 可分为基于区域的图像配准、基于特征的图像配准; 根据空间变换性质, 可分为刚体变换配准(旋转、 缩放、平移等)、非刚体变换配准(径向基函数、物 理连续模型、大变换模型); 根据人机交互性, 可分 为全自动配准、半自动配准、人工配准等. 随着计算能力的提高, 作为图像处理与计算机 视觉等领域的共同热门课题—图像配准算法的 研究进入高速发展阶段.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "本文使用多个关键词在多 个数据库调研了图像配准相关研究的文章发表情 况, 总结了图像配准算法的发展趋势. 关键词包括 不限于图像配准(image alignment, image registra- tion)、深度学习(deep learning)、CT(computer tom- ography)、卷积神经网络(convolutional neural network, CNN)、生成对抗网络(generative adver- sarial network, GAN)、互相关(cross correlation)、 互信息(mutual information) 等, 搜索引擎使用谷 歌学术、超星发现、Web of Science 等, 数据库包 括Scopus 文摘索引数据库(荷)、SCI 科学引文 索引(美)、EI 工程索引(美)、PubMed/Medline 收 录、统计源期刊(中信所)、中文核心期刊(北大)、 CSCD 中国科学引文库(中国科学院) 等.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        }
+      ],
+      "method": [
+        {
+          "text": "transfer Feature detection and description Feature matching (optimization strategy) Image resampling transformation and estimation Literation 图 5 图像配准的常规流程图 Fig. 5.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "General flow chart of image registration. 物 理 学 报 Acta Phys.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "Sin. Vol.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "70, No. 16 (2021) 160704 160704-4 里叶变换的图像配准常规流程如图6 所示.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "傅里叶 变换针对平移、灰度变化、旋转及缩放的图像具有 尺度不变性, 利用整幅图像的灰度信息进行配准, 精度较高. 然而, 针对旋转角度、缩放尺度及位移 偏差较大或非线性畸变等图像鲁棒性不高, 对噪声 也较为敏感.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "2.2 基于特征的图像配准算法 基于特征的图像配准算法根据图像中的可识 别特征进行图像匹配. 根据特征提取方式及人机交 互性等, 可分为手动选取法和自动检测法; 根据特 征属性, 可分为人工特征(又称外部特征) 法和自 然特征(又称内部特征) 法.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "特征手动选取法是具有配准功能的三维重构 软件的常用功能, 如斯坦福大学的纳米CT 重构软 件TXM wizard 等[20]. 实际情况下, 由于光通量过 低或不稳定等原因, 导致CT 投影数据衬度低及信 噪比低, 图像自然特征不明显, 手动选取特征变得 尤为困难.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "20 世纪90 年代, 有研究人员在样品 中添加人工特征物—金颗粒, 人工特征在样品 投影中衬度高且易于检测, 有效降低了配准计算 的复杂度, 节省了大量时间. 但人工特征法也因 样品制备困难、周期长及价格昂贵等缺点受到 限制.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "自动特征提取是指通过算法自动检测图像的 自然特征并加以描述的方法, 如: 点特征、线特征、 中心特征、区域重心等, 将其作为图像配准算法的 特征进行匹配. 上述特征应是图像中不受偏移、旋 转及缩放等变化影响的目标, 可称之为不变描述 符.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "因此, 基于特征的图像配准算法的本质是不变 描述符的利用, 该不变描述符应满足条件有: 不变 性、唯一性、稳定性及独立性. 但是, 实际使用过程 中并不能同时满足所有条件, 可按照使用需求适当 权衡取舍, 实现最优特征选取.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "特征检测描述方法的优劣决定了图像配准计 算的效率和精度. 随着计算力提升及图像处理学科 的发展, 从20 世纪80 年代起, 经典的特征匹配算 法, 如Moravec 算子[21]、Harris 角点检测算子[22]、 SIFT(scale-invariant feature transform) 法及基于 SIFT[23] 改进的PCA-SIFT[24]、SURF[25]、CSIFT[26] 等被相继提出, 不断优化图像特征提取的效率、精 度及稳定性.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "2006 年, Rosten 等[27] 提出一种快速 检测特征点的算法 (features from accelerated seg- ment detection, FAST), 原理是若某像素与其周 围邻域内足够多的像素点相差较大, 则该像素便可 能为角点. 2010 年, Calonder 等[28] 提出一种二进 制的特征点描述子 (binary robust independent elementary features, BRIEF), 该算法没有采用灰 度直方图, 极大减少了特征匹配时间.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        }
+      ],
+      "experiment": [],
+      "conclusion": [],
+      "data": [
+        {
+          "text": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2]. 在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动. 由于机械不稳定性、机械精度、辐射热 膨胀、射线强度波动及探测器响应不一致等因素影 响, 会造成样品位置偏移、旋转中心偏移、投影衬 度不均等误差.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "这些误差对低分辨CT 成像影响不 大, 甚至可视情况忽略不计, 但在纳米级分辨的纳 米CT 上就被放大到明显可见, 导致投影数据失 准, 严重影响样品的重建质量甚至无法正确重建. 如图1 示例, 为失准投影数据合成的Sinogram 图 (a) 和对应的重构图像(b), 由于位置偏移误差、射 线能量波动等原因, Sinogram 图上存在曲线不光 滑、明显截断痕迹及衬度不均等问题.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "因此在图像 重构之前, 必须解决图像失准的问题. 目前, 解决纳米尺度图像失准的方法按工作原 理可分为两类: 一类是通过硬件, 提高机械稳定性 或在线机械校准的方法; 一类是通过软件, 在图像 后处理中进行图像配准.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "* 国家重点研发计划(批准号: 2017YFA0206004, 2017YFA0206002) 和国家自然科学基金(批准号: 11775297, U1932205) 资助的课题. † 通信作者.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "E-mail: dengbiao@zjlab.org.cn © 2021 中国物理学会 Chinese Physical Society http://wulixb.iphy.ac.cn 物 理 学 报 Acta Phys. Sin.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Vol. 70, No.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "16 (2021) 160704 160704-1 现代纳米成像装置上通常采取使用高刚度材 料、调频防止器件共振及添加隔离垫等措施尽量减 小样品扫描过程中发生振动, 也可以利用激光干涉 仪等装置在线校正扫描过程中的跳动误差[4], 如图2 所示. 但是, 在长时间的纳米CT 全角度扫描中, 保持旋转轴和样品稳定转动, 将旋转样品的抖动偏 移量控制在几十纳米内仍是机械控制领域的技术 瓶颈之一, 尚不能达到三维重构的纳米级精度要 求.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "针对该问题, 上海光源的程甲一等[5] 利用可见 光显微镜记录样品转动过程中的漂移轨迹, 采用配 准算法预测样品的漂移规律, 再利用机械手段在 线自动校正由转动产生的样品漂移, 将漂移控制 在1 µm 精度内, 如图2(c) 所示.. 虽然该方法的鲁 棒性、外推性及精度仍需提高, 但这种硬件与软件 结合的配准方法可为在线配准研究拓宽思路.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "图像配准是将来自不同时间、角度、景深或探 测器的不同图片数据集转换到同一坐标系下的方 法, 广泛应用在计算机视觉、医学成像、遥感卫星、 自动控制、材料科学等领域. 图像配准算法自20 世纪60 年代发展至今, 并没有统一的分类标准.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "根据图像数据获取方式的不同, 可分为单模态图像 配准、多模态图像配准; 根据提取图像信息的不同, 可分为基于区域的图像配准、基于特征的图像配准; 根据空间变换性质, 可分为刚体变换配准(旋转、 缩放、平移等)、非刚体变换配准(径向基函数、物 理连续模型、大变换模型); 根据人机交互性, 可分 为全自动配准、半自动配准、人工配准等. 随着计算能力的提高, 作为图像处理与计算机 视觉等领域的共同热门课题—图像配准算法的 研究进入高速发展阶段.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "本文使用多个关键词在多 个数据库调研了图像配准相关研究的文章发表情 况, 总结了图像配准算法的发展趋势. 关键词包括 不限于图像配准(image alignment, image registra- tion)、深度学习(deep learning)、CT(computer tom- ography)、卷积神经网络(convolutional neural network, CNN)、生成对抗网络(generative adver- sarial network, GAN)、互相关(cross correlation)、 互信息(mutual information) 等, 搜索引擎使用谷 歌学术、超星发现、Web of Science 等, 数据库包 括Scopus 文摘索引数据库(荷)、SCI 科学引文 索引(美)、EI 工程索引(美)、PubMed/Medline 收 录、统计源期刊(中信所)、中文核心期刊(北大)、 CSCD 中国科学引文库(中国科学院) 等.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        }
+      ],
+      "general": [
+        {
+          "text": "基于同步辐射的X 射线纳米成像是无损研究 物质内部纳米尺度结构的重要技术, 主要包括: 全 场透射X 射线显微镜(transmission X-ray micros- cope, TXM)、纳米断层成像(nano computer tomo- graphy, Nano-CT)、纳米探针扫描成像(X-ray nanoprobe)、相干衍射成像(coherence diffraction imaging, CDI) 和几何放大投影成像(projection imaging, PI) 等, 空间分辨率可高达几十纳米甚至 几纳米, 近年来发展迅速, 已广泛地在材料科学、化 学催化、生命科学、环境科学等多个领域深度应用[1,2]. 在纳米级分辨率下, 机械、环境等的不稳定性 也变得显而易见.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "在CT 扫描成像过程中, 假设投 影数据只有已知旋转角度的变化, 没有其他任意方 向的移动. 由于机械不稳定性、机械精度、辐射热 膨胀、射线强度波动及探测器响应不一致等因素影 响, 会造成样品位置偏移、旋转中心偏移、投影衬 度不均等误差.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "这些误差对低分辨CT 成像影响不 大, 甚至可视情况忽略不计, 但在纳米级分辨的纳 米CT 上就被放大到明显可见, 导致投影数据失 准, 严重影响样品的重建质量甚至无法正确重建. 如图1 示例, 为失准投影数据合成的Sinogram 图 (a) 和对应的重构图像(b), 由于位置偏移误差、射 线能量波动等原因, Sinogram 图上存在曲线不光 滑、明显截断痕迹及衬度不均等问题.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "因此在图像 重构之前, 必须解决图像失准的问题. 目前, 解决纳米尺度图像失准的方法按工作原 理可分为两类: 一类是通过硬件, 提高机械稳定性 或在线机械校准的方法; 一类是通过软件, 在图像 后处理中进行图像配准.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "* 国家重点研发计划(批准号: 2017YFA0206004, 2017YFA0206002) 和国家自然科学基金(批准号: 11775297, U1932205) 资助的课题. † 通信作者.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "E-mail: dengbiao@zjlab.org.cn © 2021 中国物理学会 Chinese Physical Society http://wulixb.iphy.ac.cn 物 理 学 报 Acta Phys. Sin.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Vol. 70, No.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "16 (2021) 160704 160704-1 现代纳米成像装置上通常采取使用高刚度材 料、调频防止器件共振及添加隔离垫等措施尽量减 小样品扫描过程中发生振动, 也可以利用激光干涉 仪等装置在线校正扫描过程中的跳动误差[4], 如图2 所示. 但是, 在长时间的纳米CT 全角度扫描中, 保持旋转轴和样品稳定转动, 将旋转样品的抖动偏 移量控制在几十纳米内仍是机械控制领域的技术 瓶颈之一, 尚不能达到三维重构的纳米级精度要 求.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "针对该问题, 上海光源的程甲一等[5] 利用可见 光显微镜记录样品转动过程中的漂移轨迹, 采用配 准算法预测样品的漂移规律, 再利用机械手段在 线自动校正由转动产生的样品漂移, 将漂移控制 在1 µm 精度内, 如图2(c) 所示.. 虽然该方法的鲁 棒性、外推性及精度仍需提高, 但这种硬件与软件 结合的配准方法可为在线配准研究拓宽思路.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "图像配准是将来自不同时间、角度、景深或探 测器的不同图片数据集转换到同一坐标系下的方 法, 广泛应用在计算机视觉、医学成像、遥感卫星、 自动控制、材料科学等领域. 图像配准算法自20 世纪60 年代发展至今, 并没有统一的分类标准.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "根据图像数据获取方式的不同, 可分为单模态图像 配准、多模态图像配准; 根据提取图像信息的不同, 可分为基于区域的图像配准、基于特征的图像配准; 根据空间变换性质, 可分为刚体变换配准(旋转、 缩放、平移等)、非刚体变换配准(径向基函数、物 理连续模型、大变换模型); 根据人机交互性, 可分 为全自动配准、半自动配准、人工配准等. 随着计算能力的提高, 作为图像处理与计算机 视觉等领域的共同热门课题—图像配准算法的 研究进入高速发展阶段.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "本文使用多个关键词在多 个数据库调研了图像配准相关研究的文章发表情 况, 总结了图像配准算法的发展趋势. 关键词包括 不限于图像配准(image alignment, image registra- tion)、深度学习(deep learning)、CT(computer tom- ography)、卷积神经网络(convolutional neural network, CNN)、生成对抗网络(generative adver- sarial network, GAN)、互相关(cross correlation)、 互信息(mutual information) 等, 搜索引擎使用谷 歌学术、超星发现、Web of Science 等, 数据库包 括Scopus 文摘索引数据库(荷)、SCI 科学引文 索引(美)、EI 工程索引(美)、PubMed/Medline 收 录、统计源期刊(中信所)、中文核心期刊(北大)、 CSCD 中国科学引文库(中国科学院) 等.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        }
+      ]
+    },
+    "language_hint": "mixed",
+    "section_sources": {
+      "abstract": "abstract",
+      "introduction": "introduction",
+      "method": "method",
+      "experiment": "",
+      "conclusion": "",
+      "data": "mixed"
+    },
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "introduction",
+        "method"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "method"
+      ],
+      "missing_core_sections": [
+        "experiment"
+      ],
+      "section_text_chars": {
+        "preamble": 2191,
+        "introduction": 6036,
+        "method": 13603
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 16,
+      "text_max_pages": 32,
+      "text_pages_scanned": 16,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 14,
+      "section_stop_reason": "references",
+      "section_stop_page": 14
+    },
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "appendix_evidence": {
+      "ablation": [],
+      "implementation_details": [],
+      "dataset_details": [],
+      "extra_results": [],
+      "qualitative_examples": []
+    },
+    "quotes": [],
+    "extraction_failures": [],
+    "evidence_quality": "medium"
+  },
+  "summary": {
+    "paper_type": "AI_method",
+    "paper_type_rationale": "The paper is best treated as a method-focused technical paper.",
+    "datasets": [
+      "Dataset",
+      "PMA",
+      "Dataset2",
+      "FBP",
+      "MR-PMA",
+      "Columns",
+      "Insets"
+    ],
+    "metrics": [],
+    "mechanism_signals": [
+      "Loading & preprocessing Cross-correlation prealignment Common line vertical alignment Conventional tomography Yes Postprocessing & final reconstruction Projection matching alignment 图 8 MR-PMA 配准法流程图[36] Fig.",
+      "16 (2021) 160704 160704-6 2018 年, 斯坦福大学同步辐射光源及东华大 学的Yu 等[37] 通过评估不同配准算法的特性, 并 提出一个联合RP (reverse projection)、CM (center of mass), PC (phase correlation), SIFT, IAIR (intensity-based automatic image alignment) 等 多种配准算法的特定使用序列以克服单个配准算 法的短板, 提供最佳的自动配准性能, 如图10— 图12 所示.",
+      "Reconstructed 2D slice Reconstructed 3D volume Reprojection FBP/ART/MLEM reconstruction Raw data registered to the reprojections Raw data  mm (1) Reverse projection (RP) (2) Center of mass (CM) (3) Phase correlation (PC) (4) Scale invariant feature transform (SIFT) (5) Intensity-based automatic image registration (IAIR) 图 11 纳米级投影图像迭代配准重建流程图[37] Fig.",
+      "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+      "Panel (d) is the experimentally measured projection image.",
+      "Ji-Faproma algorithm convergence under different noise level of raw projections[38]."
+    ],
+    "ablation_signals": [],
+    "equation_candidates": [],
+    "section_keys": [
+      "preamble",
+      "introduction",
+      "method"
+    ],
+    "language_hint": "mixed",
+    "section_coverage_status": "partial",
+    "fallback_sections": [],
+    "pdf_coverage": {
+      "total_pages": 16,
+      "text_max_pages": 32,
+      "text_pages_scanned": 16,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 14,
+      "section_stop_reason": "references",
+      "section_stop_page": 14
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "pdf_used": true,
+    "candidate_chunk_sections": [
+      "data",
+      "general",
+      "introduction",
+      "method"
+    ]
+  }
+}

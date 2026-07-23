@@ -1,0 +1,35 @@
+{
+  "review": "final_readability_review",
+  "status": "passed",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "reviewed_file": "2021_Image_alignment_synchrotron_X-ray_nano-CT_draft.md",
+  "checks": [
+    {
+      "name": "chinese_fluency",
+      "passed": true,
+      "finding": "全文为自然中文，数据库、算法和网络缩写按需保留，没有混合语言长句或机械断行。"
+    },
+    {
+      "name": "reader_orientation",
+      "passed": true,
+      "finding": "开头先说明综述属性，正文再按问题、证据范围、方法谱系、上海工作、外部工作和批判性分析展开，归属和证据等级易查。"
+    },
+    {
+      "name": "comparison_readability",
+      "passed": true,
+      "finding": "外部成果集中在一张归属—结果—不可外推表中，避免读者误把跨机构证据当作 SSRF 自有指标。"
+    },
+    {
+      "name": "figure_readability",
+      "passed": true,
+      "finding": "8 幅图片后均紧接中文斜体说明；来自通用、遥感或外部同步辐射工作的图均明确标注证据来源性质。"
+    },
+    {
+      "name": "fact_preservation",
+      "passed": true,
+      "finding": "终读没有改变原文数字和历史判断；不确定的参考文献题名已避免猜测，仅保留论文可核实的作者、年份、期刊和卷页。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false
+}

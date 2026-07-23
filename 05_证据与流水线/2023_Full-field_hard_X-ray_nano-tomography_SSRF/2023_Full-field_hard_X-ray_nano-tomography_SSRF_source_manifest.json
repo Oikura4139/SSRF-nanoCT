@@ -1,0 +1,218 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1107/s1600577523003168",
+  "title": "Full-field hard X-ray nano-tomography at SSRF",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2023_Full-field_hard_X-ray_nano-tomography_SSRF/2023_Full-field_hard_X-ray_nano-tomography_SSRF_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2023_Full-field_hard_X-ray_nano-tomography_SSRF/2023_Full-field_hard_X-ray_nano-tomography_SSRF_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2023_Full-field_hard_X-ray_nano-tomography_SSRF.pdf",
+    "total_pages": 7,
+    "text_pages_extracted": 7,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 7,
+    "text_max_pages": null,
+    "text_pages_extracted": 7,
+    "text_pages_scanned": 7,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 7
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1769,
+      "text_hash_sha256": "1a095ee8549c0c530fc64b62da12c05af556b282cfef23d1ffa0879401058e2f"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 6,
+      "char_count": 19850,
+      "text_hash_sha256": "74fedb7429129cb3f7c51dd0de2148af3423a624b1c238132030d01764bf3ae1"
+    },
+    {
+      "section_id": "sec:conclusions",
+      "kind": "conclusion",
+      "title": "5. Conclusions",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 1185,
+      "text_hash_sha256": "f265691d21a02bb5de07e8d5b986f3d8e34d1977fc1e055444fe749a773d26a4"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 6,
+      "page_end": 7,
+      "char_count": 727,
+      "text_hash_sha256": "9731104aafd537a8f8155901aba5dd1f7d5bf40f0852405aeb24acf9a3310918"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 2657,
+      "text_hash_sha256": "33ad1b35706d1143ff2e5154537e965bc7d24c2dc4fcb221a28101d0df3af3a9"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3524,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4174,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4775,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3335,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3345,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4279,
+      "section_ids": [
+        "sec:introduction",
+        "sec:conclusions",
+        "sec:acknowledgements"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2801,
+      "section_ids": [
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 2",
+        "caption": "Photograph of the TXM endstation at SSRF BL18B, with the mounting of the sample shown in the",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "General schematic of the layout of beamline BL18B at SSRF.",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Design drawing of the two resolution targets and the corresponding SEM images of the Siemens star pattern. (a) 30 nm finest features from ZEISS;",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Results of the Siemens star pattern tests for the different resolution modes. (a–c) Results for high-resolution mode. (a) Siemens star pattern with 30 nm",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "High- and low-Z reference sample nano-imaging by the two resolution modes. (a–c) Image of a high-Z material – gold particles. (a) A 2D slice of the gold",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Image of an NCM622 battery in high-resolution mode at 8 keV. (a) A 2D slice of a 10 mm-diameter particle of the charged NCM622 material.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:introduction"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "length fFZP = 20.2 mm @ 8 keV) and 40 nm (fFZP = 25.8 mm @",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "zone width of \u0002r = 25 nm and diameter of 125 mm (with a",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "other gold FZP with outmost zone width of \u0002r = 40 nm,",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 6
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "88c184104feeb4c496c1b3a984cd46c70f47e1669d92e60e2b810f50349b4e1c"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2019_Three-dimensional_focal_stack_imaging_STXM.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2019_Three-dimensional_focal_stack_imaging_STXM.pdf",
+  "title": "Three-dimensional focal stack imaging in",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "doi": "10.1364/OE.27.007787",
+  "paper_id": "doi:10.1364/oe.27.007787",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "first_page_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

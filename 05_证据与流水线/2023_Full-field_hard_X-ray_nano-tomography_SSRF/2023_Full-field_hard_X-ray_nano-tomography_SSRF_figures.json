@@ -1,0 +1,1107 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.1107/s1600577523003168",
+  "figure_plan": {
+    "paper_id": "doi:10.1107/s1600577523003168",
+    "figures": [
+      {
+        "id": "Figure 4",
+        "caption": "Results of the Siemens star pattern tests for the different resolution modes. (a–c) Results for high-resolution mode. (a) Siemens star pattern with 30 nm",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_004_fig_figure_4.png",
+          "width": 1466,
+          "height": 1121,
+          "size_bytes": 1045727,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.440493,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.812613,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 774,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "siemens",
+              "star",
+              "pattern",
+              "tests",
+              "different"
+            ],
+            "snippet": "r medium mode and the absorption for the \u0003600 nm-thick gold Siemens star pattern was 52%. Fig. 4(a) shows an absorption contrast image taken at 8 keV of the Siemens star pattern with exp",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 1385,
+                "height": 887,
+                "size_bytes": 97931
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_004_fig_figure_4.png",
+                "width": 1466,
+                "height": 1121,
+                "size_bytes": 1045727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.440493,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.812613,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 774,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "siemens",
+              "star",
+              "pattern",
+              "tests",
+              "different"
+            ],
+            "snippet": "e detector are utilized to improve the signal-to- noise ratio of the image. 3.1. Standard Siemens star pattern Imaging systems require precise measurement of their spatial resolution, ima",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1385,
+                "height": 411,
+                "size_bytes": 56411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+                "width": 1466,
+                "height": 526,
+                "size_bytes": 587115,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206945,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.801396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 188,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "siemens",
+              "star",
+              "pattern",
+              "different"
+            ],
+            "snippet": "dium resolution mode, a sub-70 nm spatial resolution could be used. At the same time, the Siemens star pattern images were acquired by both TXM [Figs. 4(a)–4(d)] and SEM [Figs. 3(a)–3(b)]",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 1385,
+                "height": 868,
+                "size_bytes": 80727
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_fig_figure_5.png",
+                "width": 1466,
+                "height": 1051,
+                "size_bytes": 1064478,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.413205,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.8477,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 541,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "General schematic of the layout of beamline BL18B at SSRF.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_1.png",
+          "width": 967,
+          "height": 450,
+          "size_bytes": 121434,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.116582,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.915109,
+            "paragraph_text_chars": 828,
+            "table_body_rows": 0,
+            "caption_text_chars": 67,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "general",
+              "schematic",
+              "layout",
+              "beamline",
+              "ssrf"
+            ],
+            "snippet": "net (BM) (3.5 GeV, 1.27 T, 300 mA). The primary layout of TXM optics at BL18B is shown in Fig. 1. Along the incident X-ray path, beamline BL18B includes a parabolic cylinder mirror (M1),",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 618,
+                "size_bytes": 30198
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_02.jpeg",
+                "width": 1385,
+                "height": 787,
+                "size_bytes": 81490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_1.png",
+                "width": 967,
+                "height": 450,
+                "size_bytes": 121434,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.116582,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.915109,
+                  "paragraph_text_chars": 828,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_2.png",
+                "width": 967,
+                "height": 655,
+                "size_bytes": 683147,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.169893,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.799659,
+                  "paragraph_text_chars": 1151,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "beamline",
+              "ssrf"
+            ],
+            "snippet": "beamlines J. Synchrotron Rad. (2023). 30, 815–821 https://doi.org/10.1107/S1600577523003168 815 Re",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_01.jpeg",
+                "width": 897,
+                "height": 347,
+                "size_bytes": 24592
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_02.jpeg",
+                "width": 1272,
+                "height": 895,
+                "size_bytes": 94053
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "beamline",
+              "ssrf"
+            ],
+            "snippet": "n microscopy (SEM) images of the Siemens star patterns are shown in Fig. 3. The 30 nm and beamlines J. Synchrotron Rad. (2023). 30, 815–821 Fen Tao et al. \u0004 Full-field hard X-ray nano-tomo",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1385,
+                "height": 411,
+                "size_bytes": 56411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+                "width": 1466,
+                "height": 526,
+                "size_bytes": 587115,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206945,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.801396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 188,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Photograph of the TXM endstation at SSRF BL18B, with the mounting of the sample shown in the",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_2.png",
+          "width": 967,
+          "height": 655,
+          "size_bytes": 683147,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.169893,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.799659,
+            "paragraph_text_chars": 1151,
+            "table_body_rows": 0,
+            "caption_text_chars": 122,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "photograph",
+              "endstation",
+              "ssrf",
+              "mounting",
+              "sample"
+            ],
+            "snippet": "hen measured by the water-cooled sCMOS 2048 \u0002 2048 pixel detector (Andor, ZYLA 4.2 Plus). Fig. 2 shows a photograph of the TXM endstation at BL18B of SSRF. The path of the X-rays through",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 618,
+                "size_bytes": 30198
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_02.jpeg",
+                "width": 1385,
+                "height": 787,
+                "size_bytes": 81490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_1.png",
+                "width": 967,
+                "height": 450,
+                "size_bytes": 121434,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.116582,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.915109,
+                  "paragraph_text_chars": 828,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_2.png",
+                "width": 967,
+                "height": 655,
+                "size_bytes": 683147,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.169893,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.799659,
+                  "paragraph_text_chars": 1151,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "ssrf",
+              "mounting",
+              "sample"
+            ],
+            "snippet": "ual sample can be realized. Mounting of the sample is shown in the bottom-right corner of Fig. 2. 3. TXM spatial resolution There are two kinds of resolution mode at SSRF BL18B: high- re",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1385,
+                "height": 411,
+                "size_bytes": 56411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+                "width": 1466,
+                "height": 526,
+                "size_bytes": 587115,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206945,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.801396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 188,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "endstation",
+              "ssrf",
+              "sample"
+            ],
+            "snippet": "cializes in both spatial resolution and exposure time in a high level of balance. The TXM endstation of BL18B has been commissioned and the micro- scope has the capability of generating 2D i",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_01.jpeg",
+                "width": 897,
+                "height": 347,
+                "size_bytes": 24592
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_02.jpeg",
+                "width": 1272,
+                "height": 895,
+                "size_bytes": 94053
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Design drawing of the two resolution targets and the corresponding SEM images of the Siemens star pattern. (a) 30 nm finest features from ZEISS;",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+          "width": 1466,
+          "height": 526,
+          "size_bytes": 587115,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.206945,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.801396,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 188,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "design",
+              "drawing",
+              "resolution",
+              "targets",
+              "corresponding"
+            ],
+            "snippet": ". The scanning electron microscopy (SEM) images of the Siemens star patterns are shown in Fig. 3. The 30 nm and beamlines J. Synchrotron Rad. (2023). 30, 815–821 Fen Tao et al. \u0004 Full-fi",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1385,
+                "height": 411,
+                "size_bytes": 56411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+                "width": 1466,
+                "height": 526,
+                "size_bytes": 587115,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.206945,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.801396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 188,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "design",
+              "resolution"
+            ],
+            "snippet": "100084, People’s Republic of China. *Correspondence e-mail: dengb@sari.ac.cn An in-house designed transmission X-ray microscopy (TXM) instrument has been developed and commissioned at b",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_01.jpeg",
+                "width": 897,
+                "height": 347,
+                "size_bytes": 24592
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_02.jpeg",
+                "width": 1272,
+                "height": 895,
+                "size_bytes": 94053
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "design",
+              "resolution"
+            ],
+            "snippet": "onto to the X-ray imaging detector system. An ellipsoidal mono-capillary- based in-house design is used as the condenser to focus the beam onto the sample (Tao et al., 2017). The conden",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 618,
+                "size_bytes": 30198
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_02.jpeg",
+                "width": 1385,
+                "height": 787,
+                "size_bytes": 81490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_1.png",
+                "width": 967,
+                "height": 450,
+                "size_bytes": 121434,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.116582,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.915109,
+                  "paragraph_text_chars": 828,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_2.png",
+                "width": 967,
+                "height": 655,
+                "size_bytes": 683147,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.169893,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.799659,
+                  "paragraph_text_chars": 1151,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "High- and low-Z reference sample nano-imaging by the two resolution modes. (a–c) Image of a high-Z material – gold particles. (a) A 2D slice of the gold",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_fig_figure_5.png",
+          "width": 1466,
+          "height": 1051,
+          "size_bytes": 1064478,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.413205,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.8477,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 541,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "high-",
+              "low-z",
+              "reference",
+              "sample",
+              "nano-imaging"
+            ],
+            "snippet": "t 20 mm \u0002 20 mm, and a typical reconstructed slice for the gold particles is presented in Fig. 5(a). Fig. 5(b) shows gold particles of different sizes reconstructed using the Avizo Fire",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 1385,
+                "height": 868,
+                "size_bytes": 80727
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_fig_figure_5.png",
+                "width": 1466,
+                "height": 1051,
+                "size_bytes": 1064478,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.413205,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.8477,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 541,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "high-",
+              "low-z",
+              "sample"
+            ],
+            "snippet": "were obtained with an expo- sure time of 5 s. A slice of several SiO2 powders is shown in Fig. 5(d) and the wall of the glass tube was also able to be distinguished clearly. Such results",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_img_01.jpeg",
+                "width": 1385,
+                "height": 507,
+                "size_bytes": 65187
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_fig_figure_6.png",
+                "width": 1466,
+                "height": 565,
+                "size_bytes": 782277,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.222125,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.700675,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 225,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "high-",
+              "low-z",
+              "sample",
+              "nano-imaging"
+            ],
+            "snippet": "m spatial resolution in TXM. There are two kinds of resolution mode: one based on using a high- resolution-based scintillator-lens-coupled camera, and the other on using a medium-resolu",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_01.jpeg",
+                "width": 897,
+                "height": 347,
+                "size_bytes": 24592
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_02.jpeg",
+                "width": 1272,
+                "height": 895,
+                "size_bytes": 94053
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Image of an NCM622 battery in high-resolution mode at 8 keV. (a) A 2D slice of a 10 mm-diameter particle of the charged NCM622 material.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_fig_figure_6.png",
+          "width": 1466,
+          "height": 565,
+          "size_bytes": 782277,
+          "label": "Figure 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.222125,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.700675,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 225,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "image",
+              "battery",
+              "high-resolution",
+              "mode",
+              "slice"
+            ],
+            "snippet": "ed according to the pixel sizes. The yellow arrows show the limited length of the pore in Fig. 6(b). With the help of the Avizo software, the 3D conﬁguration of the particle as well as t",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_img_01.jpeg",
+                "width": 1385,
+                "height": 507,
+                "size_bytes": 65187
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_fig_figure_6.png",
+                "width": 1466,
+                "height": 565,
+                "size_bytes": 782277,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.222125,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.700675,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 225,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "image",
+              "battery",
+              "high-resolution",
+              "mode"
+            ],
+            "snippet": "n of BL18B has been commissioned and the micro- scope has the capability of generating 2D images with sub- ISSN 1600-5775 Published under a CC BY 4.0 licence",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_01.jpeg",
+                "width": 897,
+                "height": 347,
+                "size_bytes": 24592
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_02.jpeg",
+                "width": 1272,
+                "height": 895,
+                "size_bytes": 94053
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "image",
+              "battery",
+              "high-resolution",
+              "mode"
+            ],
+            "snippet": "e selected in accordance with the desired resolution. To evaluate the 3D resolu- tion and image quality of nano-tomo- graphy with both resolution modes, we conducted nano-tomography exp",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 618,
+                "size_bytes": 30198
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_img_02.jpeg",
+                "width": 1385,
+                "height": 787,
+                "size_bytes": 81490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_1.png",
+                "width": 967,
+                "height": 450,
+                "size_bytes": 121434,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.116582,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.915109,
+                  "paragraph_text_chars": 828,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 67,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_002_fig_figure_2.png",
+                "width": 967,
+                "height": 655,
+                "size_bytes": 683147,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.169893,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.799659,
+                  "paragraph_text_chars": 1151,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

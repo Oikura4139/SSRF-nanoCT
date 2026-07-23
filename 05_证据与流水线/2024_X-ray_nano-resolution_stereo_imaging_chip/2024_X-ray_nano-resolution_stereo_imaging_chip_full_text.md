@@ -1,0 +1,682 @@
+# X射线纳米分辨立体成像及其在芯片表征中的应用
+
+## sec:preamble preamble
+_Pages 1-1_
+
+1334002-1
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+X 射线纳米分辨立体成像及其在芯片表征中的应用
+刘聪
+1，2， 王飞翔
+2*， 陶芬
+2， 杜国浩
+2， 张玲
+2， 汪俊
+2， 邓彪
+2**
+1上海大学微电子学院，上海 200444；
+2中国科学院上海高等研究院上海光源中心，上海 201204
+
+## sec:section 摘要
+_Pages 1-8_
+
+在芯片制造技术持续发展的背景下，对纳米量级检测的需求也随之急剧增加。然而，传统的光学、电镜和X 射线
+检测技术都存在一定的局限性。本文提出了一种快速、无损、纳米分辨的立体成像技术，该技术基于上海光源纳米三维
+成像线站（BL18B）的透射X 射线显微镜（TXM），结合双目立体视觉原理构建了X 射线纳米分辨立体成像系统，通过归一
+化互相关（NCC）匹配算法获得了标准样品分辨率靶的线条宽度、长度及深度等信息。仿真结果和分辨靶实验所得深度
+信息与实际深度之间的归一化标准差分别为1.441×10
+-2和8.11×10
+-4，验证了该方法获取样品深度信息的准确性。同
+时利用该方法实现了对芯片样品的精确检测，为芯片检测提供了一种新型纳米分辨无损解决方案。
+关键词
+X 射线立体成像；透射X 射线显微镜；纳米尺度分辨；芯片检测
+中图分类号
+TG115.22+1.5
+文献标志码
+DOI： 10.3788/AOS240575
+1 引
+言
+在芯片制造领域，随着制程技术的不断进步，芯片
+的特征尺寸已经达到纳米量级。在芯片生产制造过程
+中，材料、环境、工艺参数等因素的微小变化都可能导
+致芯片出现缺陷。因此，高效且精确的芯片缺陷检测
+技术对于保障产品的质量和可靠性发挥着至关重要的
+作用
+［1］。目前，常见的缺陷检测技术包括光学检测、电
+子显微镜检测、X 射线检测、红外检测以及超声波检测
+等。电子显微镜检测通过电子束与样品表面的相互作
+用来获取样品的详细信息，其制样复杂或无法探测样
+品内部的缺陷
+［2-3］。红外检测技术检测灵敏度受到加
+热和冷却方式的影响，对样品的分辨率较差，无法准确
+测定缺陷的形状、大小和位置
+［4］。超声波检测技术能
+够有效测量缺陷的纵向深度分布，但存在一定检测盲
+区，对缺陷的显示不够直观
+［5］。
+随着同步辐射装置的蓬勃发展，X 射线显微成像
+技术已经成为一种有力的检测手段
+［6-9］。传统的X 射
+线二维检测技术无法提供样品的深度信息，而X 射
+线计算机断层扫描（CT）成像通过获取物体各个角
+度的投影图像进行三维重建
+［10-12］，但对于扁平型样品
+（如芯片等），在特定角度下的X 射线无法透过样品，
+导致重构失败。近年来，X 射线CT 技术延伸出叠层
+X 射线计算机断层扫描（PXCT）和X 射线激发发光
+断层成像（XLCT），PXCT 实现了对集成电路的微观
+三维成像，但耗费时间过长
+［13-15］；锥束XLCT 缩短了
+数据采集时间，但图像重建质量较低
+［16］，限制了这些
+技术的应用范围。立体成像技术基于双目视差原理
+可以实时探测相机视野内样品的立体影像，是三维
+信息以深度形式的体现，具有一定的空间立体分辨
+能力
+［17］。如在医学成像领域，基于立体成像技术实
+现内窥镜下的相关手术，对患者体内器官结构精确
+定位，减少对患者体内血管、神经的损伤
+［18］。但目前
+该技术的应用大量集中于可见光成像领域，该技术
+与X 射线纳米成像方法的结合，值得进一步挖掘和
+探索。本文在上海光源（SSRF）的X 射线纳米三维
+成像线站（BL18B）上建立了X 射线纳米立体成像方
+法，通过二维投影图像与立体视觉技术相结合，并利
+用视差原理提取了样品的深度信息，实现了样品的
+三维重构。
+本文首先通过模拟实验，对一螺旋状的线性物体
+进行基于灰度值的匹配获得其视差图，与二维投影图
+相结合，重构出样品的三维图像，然后通过与模拟物体
+三维信息的对比分析，验证所提出算法的有效性。进
+一步将该方法应用于标准分辨靶的三维成像，成功地
+重建其具有纳米分辨的宽度、长度及深度信息。将该
+技术应用于芯片检测，实现了对芯片内部微米量级缺
+陷的尺寸及深度的准确获取，展现出该方法在芯片检
+测上的巨大潜力。
+收稿日期：2024-01-26；修回日期：2024-03-05；录用日期：2024-03-18；网络首发日期：2024-04-12
+基金项目：国家重点研发计划（2021YFA1601001）、国家自然科学基金（U1932205， 12275343）
+通信作者：
+*wangfx@sari.ac.cn；
+**dengb@sari.ac.cn
+1334002-2
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+2 X 射线纳米分辨立体成像方法
+2.1 实验装置
+上海光源BL18B 的示意图如图1 所示，主要包括
+束流阻挡器、单毛细管椭球聚焦镜、针孔、旋转台、波带
+片、成像探测器等。该系统的工作原理如下：首先从光
+源发射出的X 射线部分被束流阻挡器拦截，以降低直
+射光束对成像系统的干扰。经束流阻挡器的X 射线通
+过单毛细管椭球聚焦镜进行高效聚焦，透过针孔后在
+旋转台上会聚。当X 射线穿透样品后，通过菲涅耳波
+带片的作用，将纳米尺度信息放大到微米量级，最后被
+分辨率为微米量级的成像探测器捕获。旋转台能三维
+（x-y-z 轴）平移和精确旋转，从多个角度获取样品的投
+影图像。
+上海光源BL18B 能够提供高分辨率、高对比度的
+成像能力。该线站已于2022 年完成建设并对用户开
+放，单色光能量范围为5~14 keV，最高空间分辨率可
+达20 nm
+［19-22］，可为纳米材料、生物医学、新能源等领域
+提供强有力的技术支持。本文采用的波带片直径
+为100 μm，最外环宽度为40 nm，针对的能量在
+8.1~9 keV，主要对镍铜等金属进行检测。能量为
+8.2 keV 时，波带片焦距为26.45 mm，像距设定为
+3464.5 mm 时，物距为26.65 mm，此时系统的放大比为
+130 倍，探测器的单像素尺寸为6.5 μm，实验时像素点
+的有效尺寸为50 nm，可对2 个像素大小的特征进行区
+分，实现纳米成像。
+2.2 实验原理
+本文采用的双目立体视觉技术基于视差原理，通
+过成像装置从不同视角捕获被测物体的两幅图像，计
+算图像中对应点之间的位置偏差，提取物体的三维几
+何信息
+［23］。视差原理基于两个成像传感器的成像平面
+与物体间所形成的三角几何关系，在已知两个成像传
+感器间的相对位置参数的前提下，测定出物体在两传
+感器共同视野中的三维尺寸及空间特征点的三维坐
+标。本文将两束夹角为θ 的X 射线记录同一物体的两
+幅投影图像，如图2 所示，等效于单束X 射线照射后，
+将样品旋转θ 角度来获得另一幅投影图像
+［24］，如图3 所
+示。基于这两幅图像，利用视差原理恢复样品的深度
+信息，实现样品的三维重构，并应用于缺陷检测。
+为实现上述目标，构建一个纳米立体成像系统，该
+系统包括以下四个关键步骤：
+1） 数据采集。特定样品的外形会限制X 射线在
+某些角度的穿透，导致采样不成功。故选取X 射线能
+穿透样品的角度来获取两幅投影图像，这两幅图像的
+图1 纳米三维成像系统原理图
+Fig. 1 Schematic diagram of nano tree-dimensional (3D) imaging system
+图2 两束X 射线记录同一物体两幅投影的示意图
+Fig. 2 Schematic diagram of two X-ray beams recording two
+projections of the same object
+图3 从X 射线立体图像中获取样品深度信息的坐标系示意图
+Fig. 3 Schematic diagram of coordinate system for obtaining
+sample depth information from X-ray stereo image
+1334002-3
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+夹角定义为样品的旋转角度θ；
+2） 图像处理。对探测器捕获的图像进行预处理，
+包括背景消减、噪声移除和图像锐化等操作，降低背景
+噪声的干扰并增强图像的清晰度；
+3） 灰度匹配。确定特征点在左右视图中的匹配
+坐标，计算出双目投影的视差值。为精确提取样品的
+深度信息，对左右视图中的特征点匹配是至关重要的。
+目前，诸多研究者已经对立体视觉系统中的图像匹配
+技术进行了广泛研究，并且基于算法的性质，将其分类
+为局部匹配算法和全局匹配算法。鉴于全局算法在大
+多数情况下具有较高的运算量以及较大的内存开
+销
+［25］，本文采用局部算法进行图像处理。此算法将左
+视图中的一个像素点区域（3*3）与右视图中同一水平
+线上的相同大小区域进行灰度匹配，并采用归一化互
+相关系数来衡量像素点间的灰度相似度，其归一化互
+相关系数为
+N cc ( p，d )=
+( x，y )∈W p
+[ I1 ( x，y )- Iˉ
+1 ( px，py ) ] [ I2 ( x + d，y )- Iˉ
+2 ( px + d，py ) ]
+( x，y )∈W p
+[ I1 ( x，y )- Iˉ
+1 ( px，py ) ]
+2 ∑
+( x，y )∈W p
+[ I2 ( x + d，y )- Iˉ
+2 ( px + d，py ) ]
+2 ，
+（1）
+式中：W p 是区域子集；I1 ( x，y ) 为原始图像的像素
+值；Iˉ
+1 ( px，py ) 为原始图像的窗口内像素均值；
+I2 ( x + d，y ) 为原始图像在目标图像上对应点位置
+在x 方向上偏移d 后的像素值；Iˉ
+2 ( px + d，py ) 为目
+标图像的匹配窗口像素均值；N cc ( p，d ) 的取值范围
+为［-1， 1］，其值越大，表明相关性越强。通过选
+择相关性最强的点对作为匹配点，并计算其横坐标
+的差值来确定该点的视差。遍历左图的每个像素
+点，可得到完整的视差图，其具体流程如图4
+所示。
+4） 三维重建。基于样品在旋转θ 角度前后所得
+的两幅投影图像，利用每个像素点的视差值，结合深
+度信息公式，计算出该点的深度值。如图3 所示的坐
+标系中，X 射线沿y 轴方向照射至探测器，而z 轴垂直
+于x-y 平面，是样品的旋转轴。样品特征点在左视图
+的坐标( x 1，y1 )与其在右视图的坐标( x 2，y2 )之间的关
+系满足：
+( )
+cos θ
+sin θ
+-sin θ
+cos θ ( )
+y1 。
+（2）
+已知旋转角度θ，利用双目立体视觉原理可以计算出
+样品的深度信息y1，由式（2）可得
+y1 =
+sin θ + x1 tan ( )
+2 ，
+（3）
+式中，视差d = x2 - x1，将这些深度信息与二维图像中
+的像素点结合，实现对目标物体的三维重建。
+基于上述四个关键步骤，本文立体成像算法总结
+为：根据样品形状以及感兴趣区域等特征选择合适的
+立体成像视角，确定双目投影角度差，并对双目图像进
+行预处理，降低背景噪声的干扰并增强图像的清晰度。
+采用归一化互相关（NCC）系数计算像素点间的灰度
+图4 立体重建算法流程图
+Fig. 4 Flow chart of stereo reconstruction algorithm
+1334002-4
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+相似度用于双目投影的特征匹配，基于匹配结果获得
+双目视差图。根据本文中的双目投影几何关系以及深
+度信息重构公式计算投影图像中像素的深度值，完成
+立体重建。
+2.3 模拟仿真
+立体成像样品的深度信息准确性是至关重要的，
+从两幅图像匹配后获得的视差值必须具有高精度。由
+于全局算法计算复杂且耗时较长，而局部算法计算简
+单，计算量比全局匹配算法更小，能进行图像实时处
+理，满足三维重构的需求。目前，局部匹配算法中基于
+灰度的匹配方法得到广泛应用，如平均绝对差（MAD）
+算法，该算法通过计算灰度值差异的绝对值求和后平
+均，以此计算相似度，由于其较小的计算量和较高的匹
+配准确性而被广泛采用。李子印等
+［26］提出一种基于自
+适应步长选择的NCC 匹配算法，在保证匹配精度的同
+时缩短匹配时间，有效提升了匹配速度。在基于特征
+的匹配方法中，周东尧等
+［27］提出了一种融合全局特征
+和局部特征的图像检索算法，对尺度不变特征转换
+（SIFT）算法进行优化。陈永等
+［28］提出了一种改进加
+速非线性扩散算法的高铁接触网图像特征匹配方法，
+有效提高了匹配精度和算法的运行效率。本文实验选
+用基于灰度匹配的NCC 局部算法进行模拟仿真。
+为评估X 射线纳米立体成像技术对深度变化的敏
+感性，选择一个在深度方向上具有连续变化的螺旋丝
+作为模拟实验对象，采用基于NCC 的算法进行灰度匹
+配，对两幅呈一定夹角的模拟图像进行三维重构。实
+验模拟一个直径为100 个像素点的螺旋丝，其深度随
+高度变化，如图5 所示为模拟螺旋丝旋转前后的模拟
+图像及其俯视图。
+经NCC 算法进行图像匹配后得到视差图像，其灰
+度值表示对应像素点之间的水平坐标差，即视差d。
+将视差值代入深度公式计算出每个像素点的深度值，
+生成深度图像，如图6 所示。为评估算法的深度恢复
+性能，选取若干特征点进行观察。发现最小深度为
+23，最大深度为125，最大深度差值为102，这与螺旋丝
+预期的最大深度变化100 相符；螺旋丝最左侧上下两
+端点的深度分别为73 和74，这与二维俯视图中端点的
+连续性相吻合，证明NCC 算法在深度恢复方面的有效
+性。为精确地分析该算法的深度恢复准确性，如图7
+所示，将NCC 算法得到的深度图像与模拟螺旋丝的标
+准深度图像进行对比分析。结果表明，恢复深度值与
+标准深度值的归一化标准差仅为1.441×10
+-2，深度恢
+复误差极小。NCC 算法得到的深度分布曲线与标准
+深度分布曲线也高度吻合，验证NCC 算法恢复的深度
+信息不仅与真实深度相似，而且准确度高。预期在后
+续的实验中，使用NCC 算法进行图像匹配将能够获得
+可靠的结果。
+3 实验及结果
+3.1 分辨靶立体重建
+在上海光源BL18B 纳米三维成像线站，利用X
+射线纳米立体成像方法对纳米量级分辨靶材开展三
+维重构验证实验。实验中使用的分辨率靶线条厚度
+为600 nm，实验时X 射线能量为8.2 keV，曝光时间为
+800 ms。在采集样品的双目投影图像中，分辨靶被垂
+直于光束线放置，并通过控制转台使样品在水平面内
+旋转，采集角度范围为±15°。通过对所有观察角度的
+投影图像重构分析，筛选出最佳的重建夹角。在选择
+一对具有θ 角度差的双目投影图像时，投影图像是关
+图6 NCC 算法所得深度图像
+Fig. 6 Depth image obtained by NCC algorithm
+图5 模拟螺旋丝图像。
+（a）初始采集投影图；
+（b）旋转θ 后采集
+投影图；
+（c）俯视图
+Fig. 5 Simulated spiral images. (a) Initial acquisition projection;
+(b) acquisition projection after rotating θ; (c) top view
+图7 NCC 算法所得深度与真实深度的对比
+Fig. 7 Comparison between depth obtained by NCC algorithm
+and real depth
+1334002-5
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+于X 射线垂直入射靶面方向对称的，如图8（a）和8（b）
+所示，是采集分辨靶的双目投影图像。截取部分图像
+进行基于NCC 算法的灰度匹配，得到该角度差下的分
+辨靶视差图像，如图8（c）所示。
+为评估不同观测角度下的视差图像恢复效果，
+对比分析在16°、18°、20°、22°和24°的投影角度差下得
+到的视差图像与对应的标准视差图，表1 为不同角度
+差所得到的视差图像与标准视差图之间的数据分析
+结果。表中“Standard pixel point”指需要恢复深度信
+息的像素点，
+“Recovered pixel point”指经过NCC 算
+法匹配后得到的像素点，
+“Recovery rate”为恢复像素
+点/标准像素点。“Squared difference from standard
+parallax”指匹配所得的视差值与标准视差值之间的
+误差，其量化过程采用OpenCV 库中的TM_
+SQDIFF_NORMED（归一化平方差）函数用于计算，
+得到的误差值越小，表明恢复的视差值与实际视差
+值越为接近。分析结果表明，在16°~24°的双目图像
+角度差范围内，角度差为20°时，NCC 算法匹配得到
+的恢复率最高，且其与标准视差的平方差相对较小，
+表明在此角度下恢复的深度误差较低。尽管夹角为
+18°时的双目影像恢复的视差图像具有最小的深度误
+差，但其恢复率最低。所以夹角为20°时的视差图像
+与标准图像的相似度最高，恢复的视差图像精度
+最高。
+如图8 所示，分辨靶中心圆占据20 个像素点，其
+实际直径为1 μm，这与BL18B 中分辨模式下的空间
+分辨率（每像素50 nm）相符。经灰度匹配后，得到20°
+夹角下分辨靶的视差图像，并由深度公式计算出深度
+图像。在左视图中，分辨靶相对于光路呈倾斜放置，
+因此恢复出的深度图像也显示为倾斜状态，左侧较低
+而右侧较高，如图9（a）所示。每个靶条与基底的实际
+深度均匀，减除背景深度后，实际沟槽深度为600 nm
+左右。如图9（b）和9（c）所展示的，重构的三维视图清
+晰地显示分辨靶表面的连续性以及沟槽中的断裂特
+征，这些重构结果与扫描电子显微镜（SEM）图像的结
+果相一致，深度信息也与实际情况吻合，验证了三维重
+构效果的准确性。
+3.2 芯片检测
+为验证X 射线纳米立体成像对芯片检测的能力，
+利用该方法对硅基芯片样品进行检测。芯片样品通过
+转台进行水平旋转，角度范围为±23°。实验时X 射线
+能量为8.3 keV，曝光时间为2 s。实验中采集的芯片
+样品X 射线投影数据如图10 所示。
+由于芯片样品同分辨靶具有类似的外形（扁平
+状），采用分辨靶验证实验得到的最佳重构夹角为20°，
+对芯片样品上的特定结构进行三维重构实验，获得该
+结构的视差图以及深度图，如图11（a）和11（b）所示，
+尺寸为10450 nm（长）×9500 nm（宽）×6100 nm（高）。
+如图11（b）和11（c）所示，观察到该结构内部含有一条
+宽600 nm 的类沟道结构，周围伴随着一些微小的杂
+图8 分辨靶图像。
+（a） -10°投影图像；
+（b） +10°投影图像；
+（c）视差图
+Fig. 8 Resolution target images. (a) -10° projection image; (b) +10° projection image; (c) parallax map
+表1 基于NCC 算法的分辨靶深度恢复数据分析
+Table 1 Resolution target depth recovery data analysis based on NCC algorithm
+Projection angle
+difference /（°）
+Standard pixel point
+Recovered pixel point
+Recovery rate /%
+76.46
+75.91
+79.23
+79.09
+78.37
+Squared difference from
+standard parallax /10
+8.13
+8.01
+8.11
+8.31
+8.20
+1334002-6
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+质；整体的三维视图呈现为一个表面粗糙、形状不规则
+的样貌。
+本文提出的X 射线纳米立体成像技术不仅能识别
+出芯片上的特征结构，还能对特征结构的尺寸及部分
+结构进行精确测量，证明该技术在芯片缺陷检测领域
+的巨大潜力，为未来芯片质量控制提供了一种有效的
+检测手段。
+4 总结与展望
+本文基于双目立体视觉原理，在上海光源BL18B
+建立了一种X 射线纳米分辨立体成像方法。将X 射线
+立体成像技术与纳米成像系统相结合，通过采集两个
+角度的图像，实现样品的深度估计与三维重建，减少三
+维表征所需的实验时间，有效克服传统芯片缺陷检测
+方法的局限性。通过标准分辨率靶的验证及在芯片样
+品上的应用，证明其在图像和深度恢复上较传统技术
+有显著提升。在分辨率靶和硅基芯片样品上进行相关
+实验，成功地重构600 nm 厚的分辨率靶，并对具有一
+定宽度的沟道等缺陷进行深度信息检测，在芯片样品
+上检测出几微米厚的不规则特征结构。相较于纳米
+CT 成像，本文提出的X 射线纳米立体成像技术适用
+范围更广泛，对样品尺寸的限制较小，且大幅减少数据
+采集时间，降低辐射损伤，为三维动态成像提供潜力。
+随着半导体检测需求的不断增长，该技术在芯片缺陷
+检测和纳米立体成像领域具有巨大的应用前景。
+本文采用的局部算法需要计算大量窗口之间的相
+关系数，较其他局部算法运行速度较慢；在遇到弱纹理
+区域时易造成误匹配或漏匹配，对噪声的抵抗性较差。
+图11 芯片样品重构结果。
+（a）视差图；
+（b）深度图；
+（c）三维视图
+Fig. 11 Chip sample reconstruction results. (a) Parallax map; (b) depth map; (c) 3D view
+图9 分辨靶重构结果。
+（a）深度图；
+（b）三维视图；
+（c） SEM 图像
+Fig. 9 Resolution target reconstruction results. (a) Depth map; (b) 3D view; (c) SEM image
+图10 芯片图像。
+（a）光学显微镜下的芯片样品；
+（b） -10°投影图像；
+（c） +10°投影图像
+Fig. 10 Chip images. (a) Chip samples under optical microscope; (b) -10° projection image; (c) +10° projection image
+1334002-7
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+本文成像系统的视场较小，只有十几个微米大小，对
+于较大的物体需要多次进行局部立体成像。未来研
+究将重点放在提升深度分辨率和优化匹配算法上。
+当前使用的局部灰度匹配方法在处理高分辨率目标
+时会引入误差，特别是处理尺寸较小的特征时。算法
+的改进将有助于提高对细小特征的识别能力，并进一
+步提高重构图像的质量。对于最佳视差图像夹角的
+研究，将系统地考虑不同厚度和复杂度样品的最佳条
+件，并通过实验验证。这将涉及到大量的实验设计和
+数据分析，以确保找到最佳的成像参数。在寻找不同
+样本的最佳视差图像夹角时，尝试多角度图像融合技
+术，用于获得更准确和高质量的三维图像。同时采用
+更高级的图像处理技术，如机器学习和深度学习方
+法，来改进特征匹配和图像融合过程，以实现更精确
+的三维成像。
+参
+考
+文
+献
+[1]
+王新宇, 蒋三新. 芯片缺陷检测综述[J]. 现代制造技术与装备,
+2022, 58(5): 94-98.
+Wang X Y, Jiang S X. Overview of chip defect detection[J].
+Modern Manufacturing Technology and Equipment, 2022, 58
+(5): 94-98.
+[2]
+Servanton G, Clement L, Lepinay K, et al. Advanced TEM
+characterization for the development of 28‒14 nm nodes based on
+fully-depleted silicon-on-insulator technology[J]. Journal of
+Physics: Conference Series, 2013, 471(1): 012026.
+[3]
+Li Z T, Liu D M, Cai Y D, et al. Multi-scale quantitative
+characterization of 3-D pore-fracture networks in bituminous and
+anthracite coals using FIB-SEM tomography and X-ray μ-CT[J].
+Fuel, 2017, 209: 43-53.
+[4]
+沈功田, 王尊祥. 红外检测技术的研究与发展现状[J]. 无损检
+测, 2020, 42(4): 1-9, 14.
+Shen G T, Wang Z X. Progress of infrared testing technology
+[J]. Nondestructive Testing, 2020, 42(4): 1-9, 14.
+[5]
+张鹏辉, 赵扬, 李鹏, 等. 超声成像检测技术研究进展综述[J].
+激光与光电子学进展, 2022, 59(2): 0200003.
+Zhang P H, Zhao Y, Li P, et al. Research progress in ultrasonic
+imaging detection technology[J]. Laser & Optoelectronics
+Progress, 2022, 59(2): 0200003.
+[6]
+吕寒玉, 邹晶, 赵金涛, 等. 纳米计算机断层扫描成像技术进
+展综述[J]. 激光与光电子学进展, 2020, 57(14): 140001.
+Lü H Y, Zou J, Zhao J T, et al. Review on development of
+nano-computed tomography imaging technology[J]. Laser &
+Optoelectronics Progress, 2020, 57(14): 140001.
+[7]
+谢红兰, 邓彪, 杜国浩, 等. 上海光源X 射线成像及其在材料
+科学上的应用研究进展[J]. 失效分析与预防, 2021, 16(1): 46-
+59, 69.
+Xie H L, Deng B, Du G H, et al. Development of X-ray
+imaging methodology and its applications on material science at
+Shanghai synchrotron radiation facility[J]. Failure Analysis and
+Prevention, 2021, 16(1): 46-59, 69.
+[8]
+袁清习, 邓彪, 关勇, 等. 同步辐射纳米成像技术的发展与应
+用[J]. 物理, 2019, 48(4): 205-218.
+Yuan Q X, Deng B, Guan Y, et al. Novel developments and
+applications of nanoscale synchrotron radiation microscopy[J].
+Physics, 2019, 48(4): 205-218.
+[9]
+Li M, Yao T, Yang Z H, et al. Designing a toroidal crystal for
+monochromatic X-ray imaging of a laser-produced He-like
+plasma[J]. High Power Laser Science and Engineering, 2022,
+10: e37.
+[10]
+Cnudde V, Boone M N. High-resolution X-ray computed
+tomography in geosciences: a review of the current technology
+and applications[J]. Earth Science Reviews, 2013, 123: 1-17.
+[11]
+Merkle A P, Gelb J. The ascent of 3D X-ray microscopy in the
+laboratory[J]. Microscopy Today, 2013, 21(2): 10-15.
+[12]
+Li K, Deng B, Zhang H P, et al. Comprehensive
+characterization of TSV etching performance with phase-contrast
+X-ray microtomography[J]. Journal of Synchrotron Radiation,
+2020, 27(4): 1023-1032.
+[13]
+Pfeiffer F. X-ray ptychography[J]. Nature Photonics, 2018, 12:
+9-17.
+[14]
+Holler M, Odstrcil M, Guizar-Sicairos M, et al. Three-
+dimensional imaging of integrated circuits with macro- to
+nanoscale zoom[J]. Nature Electronics, 2019, 2: 464-470.
+[15]
+Holler M, Odstrčil M, Guizar-Sicairos M, et al. LamNI-an
+instrument for X-ray scanning microscopy in laminography
+geometry[J]. Journal of Synchrotron Radiation, 2020, 27:
+730-736.
+[16]
+韩景灏, 贾梦宇, 周仲兴, 等. 采用光子计数测量的高灵敏度
+锥束XLCT[J]. 中国激光, 2024, 51(3): 0307102.
+Han J H, Jia M Y, Zhou Z X, et al. High-sensitivity cone-beam
+XLCT using photon counting measurements[J]. Chinese Journal
+of Lasers, 2024, 51(3): 0307102.
+[17]
+王飞翔, 陈忠奉, 尹晓宇, 等. 基于X 射线体视成像实现高温
+合金熔体凝固三维显微结构的原位观测[J/OL]. 金属学报:
+1-10[2024-01-27].
+http: ∥kns. cnki. net/kcms/detail/21.1139.
+TG.20231129.1652.008.html.
+Wang F X, Chen Z X, Yi X Y, et al. In situ observation of
+three-dimensional microstructure of superalloy melt solidification
+based on X-ray stereo imaging[J/OL]. Acta Metallurgica Sinica:
+1-10[2024-01-27].
+http: ∥kns. cnki. net/kcms/detail/21.1139.
+TG.20231129.1652.008.html.
+[18]
+Bae S Y, Korniski R J, Shearn M, et al. 4-mm-diameter three-
+dimensional imaging endoscope with steerable camera for
+minimally
+invasive
+surgery
+(3-D-MARVEL)
+[J].
+Neurophotonics, 2017, 4(1): 011008.
+[19]
+Tao F, Wang J, Du G H, et al. Full-field hard X-ray nano-
+tomography at SSRF[J]. Journal of Synchrotron Radiation,
+2023, 30(4): 815-821.
+[20]
+Zhang L, Tao F, Wang J, et al. The 3D nanoimaging beamline
+at SSRF[J]. Nuclear Science and Techniques, 2023, 34
+(12): 201.
+[21]
+Zhang L, Tao F, Du G H, et al. In-house design hard X-ray
+transmission microscope at SSRF[J]. Nuclear Instruments and
+Methods in Physics Research A, 2023, 1057: 168781.
+[22]
+Su B, Gao R Y, Tao F, et al. Dual U-Net based feature map
+algorithm for automatic projection alignment of synchrotron nano
+-CT[J]. Nuclear Instruments and Methods in Physics Research
+A, 2022, 1040: 167242.
+[23]
+Shang Z D, Blumensath T. Stereo X-ray tomography[J]. IEEE
+Transactions on Nuclear Science, 2023, 70(7): 1436-1443.
+[24]
+Hoshino M, Uesugi K, Pearson J, et al. Development of an X-
+ray real-time stereo imaging technique using synchrotron
+radiation[J]. Journal of Synchrotron Radiation, 2011, 18(4):
+569-574.
+[25]
+Zare M, Ghasemi M, Zahedi A, et al. A global best-guided
+firefly algorithm for engineering problems[J]. Journal of Bionic
+Engineering, 2023, 20(5): 2359-2388.
+[26]
+李子印, 许斌, 陈立峰. 基于自适应步长选择的NCC 图像匹配
+算法[J]. 光电工程, 2013, 40(10): 77-84, 89.
+Li Z Y, Xu B, Chen L F. Normalized cross correlation image
+matching algorithm based on adaptive step size[J]. Opto-
+Electronic Engineering, 2013, 40(10): 77-84, 89.
+[27]
+周东尧, 伍岳庆, 姚宇. 基于全局特征和尺度不变特征转换特
+征融合的医学图像检索[J]. 计算机应用, 2015, 35(4): 1097-
+1100, 1105.
+Zhou D Y, Wu Y Q, Yao Y. Retrieval of medical images based
+1334002-8
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+on fusion of global feature and scale-invariant feature transform
+feature[J]. Journal of Computer Applications, 2015, 35(4): 1097-
+1100, 1105.
+[28]
+陈永, 王镇, 卢晨涛. 改进AKAZE 算法的高铁接触网图像特
+征匹配方法[J]. 激光与光电子学进展, 2022, 59(10): 1010007.
+Chen Y, Wang Z, Lu C T. Image feature matching method of
+high-speed railway catenary with improved AKAZE algorithm
+[J]. Laser & Optoelectronics Progress, 2022, 59(10): 1010007.
+X-Ray Nano-Resolution Stereo Imaging and Its Application in Chip
+Characterization
+Liu Cong
+1,2, Wang Feixiang
+2*, Tao Fen
+2, Du Guohao
+2, Zhang Ling
+2, Wang Jun
+2, Deng Biao
+2**
+1School of Microelectronics, Shanghai University, Shanghai 200444, China;
+2Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences,
+Shanghai 201204, China
+
+## sec:abstract Abstract
+_Pages 8-9_
+
+Objective With the development of chip manufacturing technology, the demand for nanoscale detection has also
+increased dramatically. However, traditional optical, electronic microscopy and X-ray detection technologies have their
+limitations such as insufficient resolution, causing sample damage, and the poor detection of internal structure, which have
+narrowed the applications of traditional technologies in nanoscale detection. We establish a new X-ray nano three-
+dimensional (3D) imaging method on the X-ray nano 3D imaging line station (BL18B) of Shanghai Synchrotron Radiation
+Facility (SSRF). It can obtain the depth information that the traditional X-ray two-dimensional (2D) detection technology
+cannot gain, avoid the limitation of X-ray computer tomography (CT) technology on the sample, and reduce the time spent
+on reconstruction. The technology is applied to chip detection to acuqire the accurate size and depth of the micron-level
+defects inside the chip, showing the great potential of this method in chip detection.
+Methods The binocular stereo vision technology is based on the parallax principle. Two images of the object under test
+are captured from different perspectives by the imaging device, and the position deviation between the corresponding points
+in the images is calculated to extract the 3D geometric information of the object. The two projection images of the same
+object are obtained by two X-rays with an angle of θ, which is equivalent to using the single X-ray irradiation and the
+rotation of the sample by θ to obtain another projection image. Based on the two images, the depth information of the
+sample is restored using the parallax principle in binocular stereo vision to realize 3D reconstruction of the sample which is
+applied to defect detection. The experimental steps include selecting an appropriate stereo imaging perspective according to
+the shape of the sample and the characteristics of the region of interest, determining the binocular projection angle
+difference, and preprocessing the binocular image to reduce the interference of background noise and enhance image clarity.
+The normalized cross-correlation (NCC) coefficient is utilized to calculate the gray similarity between pixel points for the
+feature matching of binocular projection, the result of which is used to obtain binocular parallax maps. The depth value of
+the pixel in the projection image is calculated according to the geometric relationship of binocular projection and the depth
+information reconstruction formula in this paper, so as to complete 3D reconstruction.
+Results and Discussions The NCC algorithm is used to simulate a spiral wire with continuous changes in the depth
+direction. The experimental results show that the depths of the two leftmost endpoints of the spiral wire are 73 and 74,
+which are consistent with the continuity of the endpoints in the 2D top view. The expected maximum depth difference is
+100, which is also consistent with the real simulation situation (Fig. 5), proving the effectiveness of the NCC algorithm in
+depth recovery. The depth distribution curve obtained by the algorithm is also highly consistent with the standard curve
+(Fig. 6). The normalized standard deviation between the restored depth value and the standard one is only 1.441×10
+-2,
+with minimal depth recovery error, which verifies that the depth information recovered by the NCC algorithm is similar to
+the real depth and highly accurate. Subsequent 3D reconstruction verification experiments are carried out on the nano-
+resolution target. The results show that the disparity image with an included angle of 20° has the highest similarity with the
+standard image with a normalized standard deviation of 8.11×10
+-4. Given the recovery rate, the accuracy of the restored
+disparity image is the highest (Table 1). Lastly, a silicon chip sample is detected, and a 600-nm channel-like structure is
+observed inside the structure, accompanied by tiny impurities. The overall 3D view shows a rough surface with an irregular
+1334002-9
+研究论文
+第 44 卷 第 13 期/2024 年 7 月/光学学报
+shape [Figs. 10(b) and 10(c)]. It proves that this technology has great potential in chip defect detection, thus providing an
+effective detection method for chip quality control in the future.
+Conclusions Based on the principle of binocular stereo vision, an X-ray nano-resolution stereo imaging method is
+established at Shanghai Light Source Nano-3D Imaging Line Station. By combining X-ray stereo imaging technology with
+nano imaging system, we realize the depth estimation and 3D reconstruction of the sample by collecting images from two
+angles, reducing the experimental time required for 3D characterization and removing the limitations of traditional chip
+defect detection methods. The line width, length, and depth of the standard sample resolution target are obtained through
+this method. Simulation and experimental results show that this method can obtain the accurate depth information of the
+sample. Moreover, this method can accurately detect the chip sample, which provides a new nano-resolution non-
+destructive solution for chip detection and has a huge application prospect in chip defect detection and nano-stereo imaging.
+Future research will focus on improving the depth resolution and optimizing the matching algorithm to improve the quality
+of the reconstructed image. Also, more advanced image processing technologies such as machine learning and deep
+learning methods will be adopted to improve feature matching and image fusion for more accurate 3D imaging.
+Key words
+X-ray stereo imaging; transmission X-ray microscope; nanoscale resolution; chip detection

@@ -1,0 +1,416 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "title": "第 42 卷 第 23 期/2022 年 12 月/光学学报",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Design_development_commissioning_BL18B/2022_Design_development_commissioning_BL18B_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Design_development_commissioning_BL18B/2022_Design_development_commissioning_BL18B_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2022_Design_development_commissioning_BL18B.pdf",
+    "total_pages": 7,
+    "text_pages_extracted": 7,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 7,
+    "text_max_pages": null,
+    "text_pages_extracted": 7,
+    "text_pages_scanned": 7,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 208,
+      "text_hash_sha256": "19d87213f93affbbe3ce2c38dfd17062a1096f693463e134214c573807e763f3"
+    },
+    {
+      "section_id": "sec:section",
+      "kind": "abstract",
+      "title": "摘要",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1014,
+      "text_hash_sha256": "f29644d57ef463b39ce169063d82bdfa9ab5919cfa4fe30ea96655e4b5101cb2"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 1703,
+      "text_hash_sha256": "c019909e31785e6ff090a1a7432dd42d41c6bfe3b4479c2df555cec88aef6c8d"
+    },
+    {
+      "section_id": "sec:section-2",
+      "kind": "introduction",
+      "title": "1 引 言",
+      "page_start": 2,
+      "page_end": 4,
+      "char_count": 5241,
+      "text_hash_sha256": "e39e9e5991ddbcf79bf240c05f30652b6b0290fc2d3192cf2140f5e0ec081a1a"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 4,
+      "page_end": 6,
+      "char_count": 2883,
+      "text_hash_sha256": "2d68a9397452e65ba223ce099b0f7b31ac795667eb99edcf916cd2229f750a9a"
+    },
+    {
+      "section_id": "sec:section-3",
+      "kind": "conclusion",
+      "title": "5 结 论",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 217,
+      "text_hash_sha256": "c5576506d5a8849463dd42887980a8b14078a003df0728b92b2bae73201584d8"
+    },
+    {
+      "section_id": "sec:section-4",
+      "kind": "acknowledgments",
+      "title": "致谢",
+      "page_start": 6,
+      "page_end": 7,
+      "char_count": 3869,
+      "text_hash_sha256": "eb92cdf82477b060910c47aba887364f6830490b713b84beb73717753a30ff12"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2776,
+      "section_ids": [
+        "sec:preamble",
+        "sec:section",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 2146,
+      "section_ids": [
+        "sec:abstract",
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 2062,
+      "section_ids": [
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 1526,
+      "section_ids": [
+        "sec:section-2",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1523,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2096,
+      "section_ids": [
+        "sec:model",
+        "sec:section-3",
+        "sec:section-4"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3120,
+      "section_ids": [
+        "sec:section-4"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 1",
+        "caption": "纳米三维成像光束线总体布局示意图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Overall layout of 3D nano image beamline at SSRF",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "图 3",
+        "caption": "是椭球聚焦镜的光学原理示意图。X 射线次",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "图 2",
+        "caption": "纳米三维成像实验站原理图",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic diagram of 3D nano image beamline endstation at SSRF",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "图 3",
+        "caption": "旋转椭球聚焦镜原理示意图",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Schematic diagram of rotating ellipsoidal capillary",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "图 4",
+        "caption": "上海同步辐射光源自主研制的TXM 系统",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "TXM system independently developed by SSRF",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "图 5",
+        "caption": "XANES 谱线。",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "XANES spectra. (a) XANES spectrum of Ti K-edge; (b) XANES spectrum of Au L1-edge",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 6",
+        "caption": "8 keV 能量处摇摆曲线的三次测量结果",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Three test results of rocking curve at energy of 8 keV",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 7",
+        "caption": "星条靶成像结果和功率谱分析曲线。",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image result and power spectral density curve of start bar. (a) Image result of start bar; (b) power spectral density curve",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      }
+    ],
+    "tables": [
+      {
+        "id": "表 1",
+        "caption": "上海同步辐射光源纳米三维成像光束线站设计指标",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Design goals of 3D nano image beamline at SSRF",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "表 2",
+        "caption": "椭球聚焦镜的物理参数",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Parameter of ellipsoidal capillary",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section-2"
+      },
+      {
+        "id": "表 3",
+        "caption": "能量分辨率三次测试结果",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Three test results of energy resolution",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "δ = 1. 22 ⋅Δr。",
+      "section_id": "sec:section-2",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "δ = 0. 61 ⋅Δr。",
+      "section_id": "sec:section-2",
+      "page_start": 2,
+      "page_end": 4
+    },
+    {
+      "text": "E = (",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "2 ⋅cot θ ≈Δθ ⋅cot θ，（3）",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "N = I0ε0",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "η = 1 - exp( - μx)，",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "N 1 =",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "= 1. 09 × 10",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "N 2 = (300 I) ⋅N 1，",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    },
+    {
+      "text": "强度下的光通量的值为N 2=1. 64×10",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 6
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "mixed",
+  "text_hash_sha256": "fcaa366ccc99daddffbe06c87eb2f7e97ff46423d5b5081ec17f495c05198ab4"
+}

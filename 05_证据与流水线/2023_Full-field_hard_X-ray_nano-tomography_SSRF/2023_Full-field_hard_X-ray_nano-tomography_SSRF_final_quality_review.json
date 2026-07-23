@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.1107/s1600577523003168",
+  "reviewed_artifacts": [
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_source_manifest.json",
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_full_text.md",
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_note_plan.json",
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_figure_table_decisions.json",
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_draft.md",
+    "2023_Full-field_hard_X-ray_nano-tomography_SSRF_note_lint.json"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：标题、八位作者、三家机构、卷页和 DOI 与 PDF 首页一致。",
+    "abstract_fidelity": "pass：忠实保留双模式、高/低 Z 样品与作者的亚 50–100 纳米三维声明，没有在摘要翻译中插入后见评价。",
+    "resolution_taxonomy": "pass：二维 RPSD 分辨率、物方有效像素、可见三维结构和未独立验收的三维分辨率四层口径全程分离。",
+    "protocol_grounding": "pass：Au、SiO2、NCM622 的能量、像素、180 投影、曝光及金颗粒 20 分钟总时间均与正文一致；中分辨 0.3 秒能力值未误写为 SiO2 实验条件。",
+    "3d_evidence_boundary": "pass：承认三维切片/渲染和 0.8 微米孔洞足以证明 nano-CT 演示成立，同时指出缺 FSC/3D-MTF。",
+    "sem_boundary": "pass：SEM 被准确描述为同批样品的定性形貌对照，而非同一颗粒逐体素真值。",
+    "battery_quantification": "pass：1.9/75.4 立方微米和 2.5% 计算闭合，并保留单颗粒、阈值敏感性和不确定度边界。",
+    "analytical_inference": "pass：角度采样公式明确标为经典粗略量级检查，同时说明对象尺寸、稀疏性和算法会改变要求。",
+    "figure_evidence": "pass：Figure 3–6 均已逐幅人工打开，面板与题注完整且无污染，四幅均与正文分析位置匹配。"
+  },
+  "edits_made": [
+    "删除当前源文件无法核实的 Jiang 2020 参考文献题名，仅保留可核对书目信息。",
+    "将 FSC、3D-MTF 和 CNR 补充为中文全称，提升术语透明度。",
+    "将剂量缺口写成证据字段缺失，避免用空泛声明替代具体限制。"
+  ],
+  "remaining_known_risks": [
+    "论文没有给出断层重建算法、配准和正则化参数，无法完全复现实验重建链。",
+    "正文和图注对 NCM622 颗粒直径的描述可能存在不一致；笔记仅称微米级单颗粒，未强行选定直径。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

@@ -1,0 +1,59 @@
+{
+  "review": "final_quality_review",
+  "status": "passed",
+  "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+  "reviewed_file": "2026_Super-resolution_reconstruction_synchrotron_nano-CT_draft.md",
+  "checks": [
+    {
+      "name": "identity_and_scope",
+      "passed": true,
+      "finding": "题名中的抽取乱码已纠正，作者、机构、期刊和 DOI 已核对；全文将 UTSR 定位为图像域后处理，不宣称束线物理分辨率提高。"
+    },
+    {
+      "name": "abstract_fidelity",
+      "passed": true,
+      "finding": "忠实摘要节仅保留原摘要的背景、方法和作者报告结果；摘要与表格的数值冲突作为独立分析放在关键结果，而未混入摘要译文。"
+    },
+    {
+      "name": "data_and_split",
+      "passed": true,
+      "finding": "黄膨润土与 NCM811 的能量、曝光、有效像素、图像尺寸、361 投影以及 3000/2600/300/100 切片口径均已记录；样品级隔离未说明和相邻切片泄漏被列为核心风险。"
+    },
+    {
+      "name": "method_chain",
+      "passed": true,
+      "finding": "四步机制含明确输入、操作和输出，覆盖自然图预训练、多尺度编码、BL18B 微调、四倍解码与三层评价；Sobel 权重和两阶段训练时间可追踪。"
+    },
+    {
+      "name": "metric_reconciliation",
+      "passed": true,
+      "finding": "模拟 PSNR/SSIM、真实表 3 指标、裂纹/孔隙全指标和消融数据逐项核对；英文摘要 9.38/0.312 与表 3 的 10.99/0.295 冲突被明确披露并以条件更具体的表格为主。"
+    },
+    {
+      "name": "negative_and_tradeoff_results",
+      "passed": true,
+      "finding": "UTSR 的 DISTS 劣于两基线、裂纹 Precision 与 F1 并非最佳、孔隙原图 Recall 更高以及消融 DISTS 权衡均被保留；24.5 与 19.1 被正确写为百分点。"
+    },
+    {
+      "name": "scientific_validity_boundary",
+      "passed": true,
+      "finding": "笔记区分人工退化全参考指标、真实感知指标和下游分割三层证据，并说明没有配对高分辨物理真值、边缘损失可能产生伪结构。"
+    },
+    {
+      "name": "figures",
+      "passed": true,
+      "finding": "全部候选经人工视觉核验；Table 3 为干净完整表体并选用，Table 1/2/4/5 因截断、正文污染或相邻标题污染拒绝，最终插入 7 图加 1 表。"
+    },
+    {
+      "name": "reproducibility",
+      "passed": true,
+      "finding": "记录第一阶段总迭代与 450k/475k 衰减节点不相容，避免把存在歧义的训练日程写成可无条件复现。"
+    }
+  ],
+  "edits_made": true,
+  "lint_rerun_required": false,
+  "final_lint": {
+    "all_required_gates_passed": true,
+    "warnings": []
+  }
+}

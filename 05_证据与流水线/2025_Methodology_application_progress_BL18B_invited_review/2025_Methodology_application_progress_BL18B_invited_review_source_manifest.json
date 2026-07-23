@@ -1,0 +1,698 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3788/lop251906",
+  "title": "上海光源纳米三维成像线站方法学及?应用研究进展（特邀）",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2025_Methodology_application_progress_BL18B_invited_review/2025_Methodology_application_progress_BL18B_invited_review_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2025_Methodology_application_progress_BL18B_invited_review/2025_Methodology_application_progress_BL18B_invited_review_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2025_Methodology_application_progress_BL18B_invited_review.pdf",
+    "total_pages": 17,
+    "text_pages_extracted": 17,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 17,
+    "text_max_pages": null,
+    "text_pages_extracted": 17,
+    "text_pages_scanned": 17,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 205,
+      "text_hash_sha256": "9ca2896056b9f2d753986aabf4161ce0a07c722c8172c74f2311db69bde66a82"
+    },
+    {
+      "section_id": "sec:section",
+      "kind": "abstract",
+      "title": "摘要",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 965,
+      "text_hash_sha256": "da9ced353c91efbeff451d4b50f87824707c53bbb40c0d2bf69cdab2c56e4cf5"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 4,
+      "char_count": 6302,
+      "text_hash_sha256": "494d225e690d10cb48ae17bad94b3d2fc9edf99c66675bd39c795fac0399d8d1"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 4,
+      "page_end": 16,
+      "char_count": 17365,
+      "text_hash_sha256": "7b2d491cc31a52d143dc2270d3347b88431fc9b3dee2d148b38dc87ab0f8f557"
+    },
+    {
+      "section_id": "sec:section-2",
+      "kind": "acknowledgments",
+      "title": "致谢",
+      "page_start": 16,
+      "page_end": 17,
+      "char_count": 6471,
+      "text_hash_sha256": "161a85833abc2a8fa98b7c1b064b12b54bbc05bba55271a2cb26cc75d7992d50"
+    },
+    {
+      "section_id": "sec:materials",
+      "kind": "method",
+      "title": "Materials",
+      "page_start": 17,
+      "page_end": 17,
+      "char_count": 3007,
+      "text_hash_sha256": "a8282f0265fadca8f02627ea5953771e6d8d03e64e245f8906b7b1a706aa4427"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2858,
+      "section_ids": [
+        "sec:preamble",
+        "sec:section",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 1854,
+      "section_ids": [
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1606,
+      "section_ids": [
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 1563,
+      "section_ids": [
+        "sec:abstract",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1489,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 1513,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2120,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 1108,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 1621,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 497,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 1706,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 2059,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 1458,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 1173,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 1737,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 4462,
+      "section_ids": [
+        "sec:model",
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 5596,
+      "section_ids": [
+        "sec:section-2",
+        "sec:materials"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 1",
+        "caption": "BL18B 的总体布局图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Schematic of the BL18B layout",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "图 2",
+        "caption": "纳米三维成像线站BL18B 的实验空间布局图",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Experimental hutch layout of the 3D nano-imaging beamline BL18B",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "图 3",
+        "caption": "单毛细管椭球聚焦镜及振动装置",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Mono-capillary ellipsoidal condenser and vibration device",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "图 4",
+        "caption": "基于EPICS 的控制与数据采集系统。",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "EPICS-based control and data acquisition system. (a) Interface for various motors; (b) interface and functions of the control and",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 5",
+        "caption": "不同成像方法协同框架图",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Synergistic framework diagram of different imaging methods",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 6",
+        "caption": "TXM 在不同分辨率模式下的分辨率靶透射成像结果",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Transmission imaging results of TXM at different resolution modes",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 7",
+        "caption": "两种分辨率模式下的高/低原子序数标准样品纳米成像结果",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Nanoscale imaging results of high/low atomic number standard samples in two resolution modes[17]. (a) 2D slice image of high",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 8",
+        "caption": "TXM-XANES 获得的NCM811 颗粒的Ni 元素的化学状态图分布图",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Ni chemical state map distributions of NCM811 particles obtained using TXM-XANES. (a) XZ plane; (b) YZ plane; (c) the",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 9",
+        "caption": "NCM811 颗粒的3D Ni 氧化态分布",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "3D Ni oxidation state distributions of the NCM811 particle",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 10",
+        "caption": "Cu 组KES-CT 切片灰度分析",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Grayscale analysis of KES-CT slices in Cu group",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 12",
+        "caption": "双U-Net 纳米CT 自动配准方法流程图",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 12",
+        "caption": "Flow chart of dual U-Net based automatic nano-CT alignment method",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 11",
+        "caption": "Ni 组KES-CT 切片灰度分析",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "Grayscale analysis of KES-CT slices in Ni group",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 13",
+        "caption": "XANES 配准方法示意图",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 13",
+        "caption": "Schematic diagrams of the XANES registration method",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 14",
+        "caption": "S-MXene 和S-SBM 薄膜表征",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 14",
+        "caption": "Characterization of S-MXene and S-SBM films",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 16",
+        "caption": "改性前后电池正极颗粒表征",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 16",
+        "caption": "Characterization of cathode particles before and after modification",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 15",
+        "caption": "不同电池中阴极颗粒的原位Ni 元素谱学TXM 成像",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 15",
+        "caption": "In situ Ni spectroscopic TXM imaging of cathode particles in different batteries",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 17",
+        "caption": "LMLE 和HMLE 结构和孔隙的CT 重建图像",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 17",
+        "caption": "CT reconstruction images of the skeletal and porous structures of LMLE and HMLE",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 18",
+        "caption": "LMLE 和HMLE 中Co 元素的谱学成像分析",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 18",
+        "caption": "Spectroscopic imaging analysis of Co element in LMLE and HMLE",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 19",
+        "caption": "Al-5Li 和Al-5Li@HTPB 粉末表征",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 19",
+        "caption": "Characterization of Al-5Li and Al-5Li@HTPB powders",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:model"
+      }
+    ],
+    "tables": [
+      {
+        "id": "表 1",
+        "caption": "国际主流TXM 线站关键参数对比",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Key parameters of international TXM beamlines",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "表 2",
+        "caption": "BL18B 线站主要技术指标",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Main technical parameters of BL18B",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "表 3",
+        "caption": "所示。",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "表 3",
+        "caption": "两种椭球聚焦镜的物理参数",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Table 3",
+        "caption": "The parameter of ellipsoidal capillary",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "表 4",
+        "caption": "两种X 射线成像探测器的参数",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Specifications of the two X-ray imaging detectors",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:abstract"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "种分辨率模式：高分辨模式（空间分辨率<20 nm）和",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 16
+    },
+    {
+      "text": "中分辨模式（空间分辨率<70 nm）。图6（a）高分",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 16
+    },
+    {
+      "text": "差值高度线性相关（R²>0.98），这证明了该模型的普适",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 16
+    },
+    {
+      "text": "米级元素定量成像（误差<3%），突破传统定性局限，为",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 16
+    },
+    {
+      "text": "［33，35-36］在高压（>4.5 V）下氧化稳定",
+      "section_id": "sec:model",
+      "page_start": 4,
+      "page_end": 16
+    },
+    {
+      "text": "ccopyright. com. cn/publicInquiry. html? type=softList&",
+      "section_id": "sec:section-2",
+      "page_start": 16,
+      "page_end": 17
+    },
+    {
+      "text": "registerNumber=2022SR1004270&keyWord=%E7%BA%",
+      "section_id": "sec:section-2",
+      "page_start": 16,
+      "page_end": 17
+    },
+    {
+      "text": "publicityType=ALL&registerDateType=ALL.",
+      "section_id": "sec:section-2",
+      "page_start": 16,
+      "page_end": 17
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "mixed",
+  "text_hash_sha256": "b1f39b9225ac544f7fdccf9ead567ded17cb23e56b78ca49e6d2f90154981601"
+}

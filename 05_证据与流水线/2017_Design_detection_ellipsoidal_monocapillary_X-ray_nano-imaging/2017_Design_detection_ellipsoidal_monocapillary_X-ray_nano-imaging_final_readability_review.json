@@ -1,0 +1,35 @@
+{
+  "review": "final_readability_review",
+  "status": "passed",
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "reviewed_file": "2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_draft.md",
+  "checks": [
+    {
+      "name": "chinese_fluency",
+      "passed": true,
+      "finding": "全文为自然中文，句式和术语统一，摘要翻译没有机械直译痕迹。"
+    },
+    {
+      "name": "reader_orientation",
+      "passed": true,
+      "finding": "先给出工作边界，再解释设计对象、机制链、定量结果和误读风险；读者无需在不同章节间反复回查关键结论。"
+    },
+    {
+      "name": "terminology_and_units",
+      "passed": true,
+      "finding": "焦斑、像素、空间分辨率、数值孔径、发散角和工作距离保持区分，数值与单位格式一致。"
+    },
+    {
+      "name": "figure_placeholders",
+      "passed": true,
+      "finding": "三个占位均说明建议位置、放置原因和当前状态，不打断论证，也不会被误认作已插入图片。"
+    },
+    {
+      "name": "fact_preservation",
+      "passed": true,
+      "finding": "可读性润色未改变作者原始事实、数值和结论强度。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false
+}

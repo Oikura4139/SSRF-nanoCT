@@ -1,0 +1,2990 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+  "figure_plan": {
+    "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Network architecture diagram of UTSR model for image super-resolution",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_1.png",
+          "width": 1243,
+          "height": 653,
+          "size_bytes": 185171,
+          "label": "Fig.1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.205072,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.823322,
+            "paragraph_text_chars": 99,
+            "table_body_rows": 0,
+            "caption_text_chars": 75,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "network",
+              "architecture",
+              "diagram",
+              "utsr",
+              "model"
+            ],
+            "snippet": "0.1O2（NCM811），图3（a）、 （d）为显微镜下样品的 照片。对于黄膨润土和NCM811 样品，入射X 射线 图1 图像超分辨率模型UTSR的网络结构示意图 Fig.1 Network architecture diagram of UTSR model for image super-resolution 图2 Transformer Block内部组成结构示",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_01.jpeg",
+                "width": 1832,
+                "height": 822,
+                "size_bytes": 126960
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_02.jpeg",
+                "width": 743,
+                "height": 496,
+                "size_bytes": 33912
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_1.png",
+                "width": 1243,
+                "height": 653,
+                "size_bytes": 185171,
+                "label": "Fig.1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.205072,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.823322,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 75,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_2.png",
+                "width": 651,
+                "height": 489,
+                "size_bytes": 82282,
+                "label": "Fig.2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.080384,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.514368,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "utsr",
+              "model"
+            ],
+            "snippet": "像 之间的感知相似度，分数越低表示两张图像越相似。 DISTS 是评价两张图片相似性的指标，通过融合结 构和纹理相似性来计算图像之间的差异，分数越低 证明两张图片之间的差异越少。 UTSR 模型的评估，本文选择了代表性的自然 图像SR 网络Real-ESRGAN 和SwinIR 模型做对比， 所有模型都是采用相同训练次数和相同的数据集进 行训练。由于纳米CT图像质量",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "network"
+            ],
+            "snippet": "0 张高质量图像 构建训练集。 为了准确模拟图像退化，所以本研究采用与 BSRGAN （Blind Super-Resolution Generative Adversarial Network） ［31］相同的退化模型，该研究引 入了一个更为复杂且实用的退化模型，旨在更准确 地模拟真实世界中图像退化的多样性。低质量图像 的合成流程如图4所示。该流程首先对原始图像进 行下",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_01.jpeg",
+                "width": 1233,
+                "height": 715,
+                "size_bytes": 112702
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_02.jpeg",
+                "width": 947,
+                "height": 331,
+                "size_bytes": 30114
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_3.png",
+                "width": 1350,
+                "height": 610,
+                "size_bytes": 389166,
+                "label": "Fig.3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.208039,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.475452,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_4.png",
+                "width": 653,
+                "height": 326,
+                "size_bytes": 76197,
+                "label": "Fig.4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.053864,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.653457,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Qualitative comparison of pore extraction after processing with various image SR algorithms",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_10.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_fig_10.png",
+          "width": 1282,
+          "height": 538,
+          "size_bytes": 262715,
+          "label": "Fig.10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.174035,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.789615,
+            "paragraph_text_chars": 123,
+            "table_body_rows": 0,
+            "caption_text_chars": 98,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "pore",
+              "after"
+            ],
+            "snippet": ".6 66.6 79.3 73.5 81.4 F1Score / % 71.8 76.4 81.7 78.8 82.8 图9 多种图像SR算法处理后裂纹分割的定性比较 Fig.9 Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_img_01.jpeg",
+                "width": 1868,
+                "height": 641,
+                "size_bytes": 122147
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+                "width": 1379,
+                "height": 664,
+                "size_bytes": 209362,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.231428,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+                "width": 1267,
+                "height": 533,
+                "size_bytes": 207242,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.170507,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.787761,
+                  "paragraph_text_chars": 124,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "pore",
+              "extraction",
+              "after"
+            ],
+            "snippet": ", et al. Development of X-ray imaging methodology and its 图10 多种图像SR算法处理后孔隙提取的定性比较 Fig.10 Qualitative comparison of pore extraction after processing with various image SR algorithms 表5 不同模块的组",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_img_01.jpeg",
+                "width": 1890,
+                "height": 648,
+                "size_bytes": 193976
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_fig_10.png",
+                "width": 1282,
+                "height": 538,
+                "size_bytes": 262715,
+                "label": "Fig.10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.174035,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.789615,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 98,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_table_5.png",
+                "width": 639,
+                "height": 340,
+                "size_bytes": 30407,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.054961,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "qualitative",
+              "comparison"
+            ],
+            "snippet": "al-ESRGAN 模型低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Qualitative comparison of super-resolution methods using simulated images",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+          "width": 861,
+          "height": 739,
+          "size_bytes": 349086,
+          "label": "Fig.6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.160838,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.825263,
+            "paragraph_text_chars": 97,
+            "table_body_rows": 0,
+            "caption_text_chars": 79,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "super-resolution",
+              "methods",
+              "using"
+            ],
+            "snippet": "al-ESRGAN 模型低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "methods"
+            ],
+            "snippet": "DISTS 0.230 4 0.227 0 0.232 0 图8 在SR任务上图像SR方法进行定性比较 (a) 土壤纳米CT图像，(b) NCM电池颗粒的纳米CT图像 Fig.8 Qualitative comparison of SR methods on SR tasks (a) Nanoscale CT images of soil, (b) Nanoscale CT im",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_img_01.jpeg",
+                "width": 1588,
+                "height": 1267,
+                "size_bytes": 347957
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+                "width": 637,
+                "height": 252,
+                "size_bytes": 35430,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040645,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+                "width": 1080,
+                "height": 975,
+                "size_bytes": 884518,
+                "label": "Fig.8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.265866,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.848148,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "methods"
+            ],
+            "snippet": ".6 66.6 79.3 73.5 81.4 F1Score / % 71.8 76.4 81.7 78.8 82.8 图9 多种图像SR算法处理后裂纹分割的定性比较 Fig.9 Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_img_01.jpeg",
+                "width": 1868,
+                "height": 641,
+                "size_bytes": 122147
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+                "width": 1379,
+                "height": 664,
+                "size_bytes": 209362,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.231428,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+                "width": 1267,
+                "height": 533,
+                "size_bytes": 207242,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.170507,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.787761,
+                  "paragraph_text_chars": 124,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Qualitative comparison of SR methods on SR tasks",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_8.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+          "width": 1080,
+          "height": 975,
+          "size_bytes": 884518,
+          "label": "Fig.8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.265866,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.848148,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 136,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "methods"
+            ],
+            "snippet": "al-ESRGAN 模型低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "methods",
+              "tasks"
+            ],
+            "snippet": "DISTS 0.230 4 0.227 0 0.232 0 图8 在SR任务上图像SR方法进行定性比较 (a) 土壤纳米CT图像，(b) NCM电池颗粒的纳米CT图像 Fig.8 Qualitative comparison of SR methods on SR tasks (a) Nanoscale CT images of soil, (b) Nanoscale CT im",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_img_01.jpeg",
+                "width": 1588,
+                "height": 1267,
+                "size_bytes": 347957
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+                "width": 637,
+                "height": 252,
+                "size_bytes": 35430,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040645,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+                "width": 1080,
+                "height": 975,
+                "size_bytes": 884518,
+                "label": "Fig.8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.265866,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.848148,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "methods"
+            ],
+            "snippet": ".6 66.6 79.3 73.5 81.4 F1Score / % 71.8 76.4 81.7 78.8 82.8 图9 多种图像SR算法处理后裂纹分割的定性比较 Fig.9 Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_img_01.jpeg",
+                "width": 1868,
+                "height": 641,
+                "size_bytes": 122147
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+                "width": 1379,
+                "height": 664,
+                "size_bytes": 209362,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.231428,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+                "width": 1267,
+                "height": 533,
+                "size_bytes": 207242,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.170507,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.787761,
+                  "paragraph_text_chars": 124,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_9.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+          "width": 1267,
+          "height": 533,
+          "size_bytes": 207242,
+          "label": "Fig.9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.170507,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.787761,
+            "paragraph_text_chars": 124,
+            "table_body_rows": 0,
+            "caption_text_chars": 100,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "crack",
+              "segmentation",
+              "after"
+            ],
+            "snippet": ".6 66.6 79.3 73.5 81.4 F1Score / % 71.8 76.4 81.7 78.8 82.8 图9 多种图像SR算法处理后裂纹分割的定性比较 Fig.9 Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_img_01.jpeg",
+                "width": 1868,
+                "height": 641,
+                "size_bytes": 122147
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+                "width": 1379,
+                "height": 664,
+                "size_bytes": 209362,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.231428,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+                "width": 1267,
+                "height": 533,
+                "size_bytes": 207242,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.170507,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.787761,
+                  "paragraph_text_chars": 124,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "qualitative",
+              "comparison",
+              "after"
+            ],
+            "snippet": ", et al. Development of X-ray imaging methodology and its 图10 多种图像SR算法处理后孔隙提取的定性比较 Fig.10 Qualitative comparison of pore extraction after processing with various image SR algorithms 表5 不同模块的组",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_img_01.jpeg",
+                "width": 1890,
+                "height": 648,
+                "size_bytes": 193976
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_fig_10.png",
+                "width": 1282,
+                "height": 538,
+                "size_bytes": 262715,
+                "label": "Fig.10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.174035,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.789615,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 98,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_table_5.png",
+                "width": 639,
+                "height": 340,
+                "size_bytes": 30407,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.054961,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "qualitative",
+              "comparison"
+            ],
+            "snippet": "al-ESRGAN 模型低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Model parameters and experimental environment",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+          "width": 1173,
+          "height": 527,
+          "size_bytes": 86223,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.156083,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 10,
+            "caption_text_chars": 53,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "model",
+              "parameters",
+              "experimental",
+              "environment"
+            ],
+            "snippet": "算，本文采用Bicubic 插值算法对图像进行上采 样。如图7（a）所示，UTSR 模型处理后的图像裂纹 边缘更加清晰，噪声水平显著降低，有利于裂纹的提 表1 模型参数及实验环境 Table 1 Model parameters and experimental environment 模型 Model 实验环境 Experimental environment 参数Pa",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "model"
+            ],
+            "snippet": "于黄膨润土和NCM811 样品，入射X 射线 图1 图像超分辨率模型UTSR的网络结构示意图 Fig.1 Network architecture diagram of UTSR model for image super-resolution 图2 Transformer Block内部组成结构示意图 (a) 双卷积前馈网络结构，(b) 分组式多尺度窗口自注意力结",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_01.jpeg",
+                "width": 1832,
+                "height": 822,
+                "size_bytes": 126960
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_02.jpeg",
+                "width": 743,
+                "height": 496,
+                "size_bytes": 33912
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_1.png",
+                "width": 1243,
+                "height": 653,
+                "size_bytes": 185171,
+                "label": "Fig.1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.205072,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.823322,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 75,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_2.png",
+                "width": 651,
+                "height": 489,
+                "size_bytes": 82282,
+                "label": "Fig.2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.080384,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.514368,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Quantitative comparison of image super-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+          "width": 698,
+          "height": 569,
+          "size_bytes": 117509,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.100242,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 233,
+            "table_body_rows": 3,
+            "caption_text_chars": 47,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "quantitative",
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "3.9 图5 损失函数值随迭代次数变化 Fig.5 Loss function variation chart with iterations 表2 模拟图像SR算法进行定量比较 Table 2 Quantitative comparison of image super- resolution algorithms using simulated images 指标In",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "rce 是Precision 和Recall 的调和平均数， F1Sorce 越高，说明模型的性能越好。F1Sorce 公 式为： 表3 图像SR算法进行定量比较 Table 3 Quantitative comparison of image super- resolution algorithms 方法Methods SwinIR Real_ESRGAN UTSR FLOPs(",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_img_01.jpeg",
+                "width": 1588,
+                "height": 1267,
+                "size_bytes": 347957
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+                "width": 637,
+                "height": 252,
+                "size_bytes": 35430,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040645,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+                "width": 1080,
+                "height": 975,
+                "size_bytes": 884518,
+                "label": "Fig.8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.265866,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.848148,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Quantitative comparison of image super-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+          "width": 637,
+          "height": 252,
+          "size_bytes": 35430,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.040645,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 47,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "quantitative",
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "(8) F1Sorce 是Precision 和Recall 的调和平均数， F1Sorce 越高，说明模型的性能越好。F1Sorce 公 式为： 表3 图像SR算法进行定量比较 Table 3 Quantitative comparison of image super- resolution algorithms 方法Methods SwinIR Real_ESRGA",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_img_01.jpeg",
+                "width": 1588,
+                "height": 1267,
+                "size_bytes": 347957
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+                "width": 637,
+                "height": 252,
+                "size_bytes": 35430,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040645,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+                "width": 1080,
+                "height": 975,
+                "size_bytes": 884518,
+                "label": "Fig.8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.265866,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.848148,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "失函数值随迭代次数变化 Fig.5 Loss function variation chart with iterations 表2 模拟图像SR算法进行定量比较 Table 2 Quantitative comparison of image super- resolution algorithms using simulated images 指标Index PSNR SSIM",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "image",
+              "super-"
+            ],
+            "snippet": "低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Quantitative comparison of crack and pore segmentation after processing with various image SR algorithms",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+          "width": 1379,
+          "height": 664,
+          "size_bytes": 209362,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.231428,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 460,
+            "table_body_rows": 7,
+            "caption_text_chars": 112,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "quantitative",
+              "comparison",
+              "crack",
+              "pore",
+              "segmentation"
+            ],
+            "snippet": "ISTS 得分略微 上升至0.238，这些指标的表现明显好于GMSA 与 FFN结合的结果。这些结果表明，DCFFN的引入显 表4 多种图像SR算法处理后裂纹和孔隙分割的定量比较 Table 4 Quantitative comparison of crack and pore segmentation after processing with various imag",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_img_01.jpeg",
+                "width": 1868,
+                "height": 641,
+                "size_bytes": 122147
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_table_4.png",
+                "width": 1379,
+                "height": 664,
+                "size_bytes": 209362,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.231428,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 460,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 112,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_009_fig_fig_9.png",
+                "width": 1267,
+                "height": 533,
+                "size_bytes": 207242,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.170507,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.787761,
+                  "paragraph_text_chars": 124,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "quantitative",
+              "comparison"
+            ],
+            "snippet": "失函数值随迭代次数变化 Fig.5 Loss function variation chart with iterations 表2 模拟图像SR算法进行定量比较 Table 2 Quantitative comparison of image super- resolution algorithms using simulated images 指标Index PSNR SSIM",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 2,
+            "matched_terms": [
+              "quantitative",
+              "comparison"
+            ],
+            "snippet": "rce 是Precision 和Recall 的调和平均数， F1Sorce 越高，说明模型的性能越好。F1Sorce 公 式为： 表3 图像SR算法进行定量比较 Table 3 Quantitative comparison of image super- resolution algorithms 方法Methods SwinIR Real_ESRGAN UTSR FLOPs(",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_img_01.jpeg",
+                "width": 1588,
+                "height": 1267,
+                "size_bytes": 347957
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_table_3.png",
+                "width": 637,
+                "height": 252,
+                "size_bytes": 35430,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.040645,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_008_fig_fig_8.png",
+                "width": 1080,
+                "height": 975,
+                "size_bytes": 884518,
+                "label": "Fig.8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.265866,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.848148,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Comparison results of different module",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_table_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_table_5.png",
+          "width": 639,
+          "height": 340,
+          "size_bytes": 30407,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.054961,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 46,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "comparison",
+              "different",
+              "module"
+            ],
+            "snippet": "rison of pore extraction after processing with various image SR algorithms 表5 不同模块的组合对比结果 Table 5 Comparison results of different module combinations GMSA 􀳫 􀳫 􀳫 FFN × 􀳫 × DCFFN × × 􀳫 NIQE",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_img_01.jpeg",
+                "width": 1890,
+                "height": 648,
+                "size_bytes": 193976
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_fig_10.png",
+                "width": 1282,
+                "height": 538,
+                "size_bytes": 262715,
+                "label": "Fig.10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.174035,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.789615,
+                  "paragraph_text_chars": 123,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 98,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_010_fig_table_5.png",
+                "width": 639,
+                "height": 340,
+                "size_bytes": 30407,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.054961,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "comparison",
+              "module"
+            ],
+            "snippet": "ig.5 Loss function variation chart with iterations 表2 模拟图像SR算法进行定量比较 Table 2 Quantitative comparison of image super- resolution algorithms using simulated images 指标Index PSNR SSIM Bicubic 31",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 1,
+            "matched_terms": [
+              "comparison"
+            ],
+            "snippet": "低 1.29，同时UTSR模型的LPIPS值也最低。这表明该 模型在实现高质量图像重建的同时，在结构保持方 图6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Diagram of internal structure of the Transformer Block",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_2.png",
+          "width": 651,
+          "height": 489,
+          "size_bytes": 82282,
+          "label": "Fig.2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.080384,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.514368,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 60,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "diagram",
+              "internal",
+              "structure",
+              "transformer",
+              "block"
+            ],
+            "snippet": "（d）为显微镜下样品的 照片。对于黄膨润土和NCM811 样品，入射X 射线 图1 图像超分辨率模型UTSR的网络结构示意图 Fig.1 Network architecture diagram of UTSR model for image super-resolution 图2 Transformer Block内部组成结构示意图 (a) 双卷积前馈网络结构，(b)",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_01.jpeg",
+                "width": 1832,
+                "height": 822,
+                "size_bytes": 126960
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_img_02.jpeg",
+                "width": 743,
+                "height": 496,
+                "size_bytes": 33912
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_1.png",
+                "width": 1243,
+                "height": 653,
+                "size_bytes": 185171,
+                "label": "Fig.1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.205072,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.823322,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 75,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_004_fig_fig_2.png",
+                "width": 651,
+                "height": 489,
+                "size_bytes": 82282,
+                "label": "Fig.2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.080384,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.514368,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "structure",
+              "transformer",
+              "block"
+            ],
+            "snippet": "习感知图像块相似度 （Learned Perceptual Image Patch Similarity， LPIPS） ［33］、深度图像结构与纹理相似性（Deep Image Structure and Texture Similarity，DISTS） ［34］。 NIQE 是一种基于自然场景统计特征的无参考图像 质量评估指标。其使用高斯混合模型来建立自然图 像特征的概",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 2,
+            "matched_terms": [
+              "transformer",
+              "block"
+            ],
+            "snippet": "扩增了4 倍，总共 10 400张。 2.2 实验设置与模型训练 本模型的训练分为两个阶段：第一阶段为普通 图像训练的过程；第二阶段是纳米CT 图像训练过 程。对于模型的细节网络中Transformer Block数量 的从1到4依次为［12，2，2，8］，GMSA模块中窗口大 小为4×4、8×8 和16×16。其中η = 0.2，该值通过实 验调整得到，若该值过大会致模型过于关",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_01.jpeg",
+                "width": 1233,
+                "height": 715,
+                "size_bytes": 112702
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_02.jpeg",
+                "width": 947,
+                "height": 331,
+                "size_bytes": 30114
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_3.png",
+                "width": 1350,
+                "height": 610,
+                "size_bytes": 389166,
+                "label": "Fig.3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.208039,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.475452,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_4.png",
+                "width": 653,
+                "height": 326,
+                "size_bytes": 76197,
+                "label": "Fig.4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.053864,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.653457,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Data images collected in the experiments (a) Image of the NCM811 sample, (b) NCM811 synchrotron radiation projection",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_3.png",
+          "width": 1350,
+          "height": 610,
+          "size_bytes": 389166,
+          "label": "Fig.3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.208039,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.475452,
+            "paragraph_text_chars": 284,
+            "table_body_rows": 0,
+            "caption_text_chars": 122,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "data",
+              "images",
+              "collected",
+              "experiments",
+              "image"
+            ],
+            "snippet": "品图片，(b) NCM811同步辐射投影图像，(c) NCM811的切片图像，(d) 黄膨润土 样品照片，(e) 黄膨润土同步辐射投影图像，(f) 黄膨润土的切片图像 Fig.3 Data images collected in the experiments (a) Image of the NCM811 sample, (b) NCM811 synchrotro",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_01.jpeg",
+                "width": 1233,
+                "height": 715,
+                "size_bytes": 112702
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_img_02.jpeg",
+                "width": 947,
+                "height": 331,
+                "size_bytes": 30114
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_3.png",
+                "width": 1350,
+                "height": 610,
+                "size_bytes": 389166,
+                "label": "Fig.3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.208039,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.475452,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_005_fig_fig_4.png",
+                "width": 653,
+                "height": 326,
+                "size_bytes": 76197,
+                "label": "Fig.4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.053864,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.653457,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "images",
+              "image"
+            ],
+            "snippet": "量比较 Table 2 Quantitative comparison of image super- resolution algorithms using simulated images 指标Index PSNR SSIM Bicubic 31.70 0.853 Real-ESRGAN 33.58 0.908 SwinIR 33.94 0.912 UTSR 34.",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_img_01.jpeg",
+                "width": 940,
+                "height": 505,
+                "size_bytes": 30698
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_1.png",
+                "width": 1173,
+                "height": 527,
+                "size_bytes": 86223,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156083,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_fig_5.png",
+                "width": 649,
+                "height": 442,
+                "size_bytes": 44567,
+                "label": "Fig.5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.072505,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.735178,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_006_fig_table_2.png",
+                "width": 698,
+                "height": 569,
+                "size_bytes": 117509,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.100242,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 233,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "images",
+              "image"
+            ],
+            "snippet": "6 模拟图像SR方法进行定性比较 Fig.6 Qualitative comparison of super-resolution methods using simulated images 图7 模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处理效果对比图，(b) CNR对比图，(c) 剖面图分析 Fig.7 Validation of UTS",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_01.jpeg",
+                "width": 1239,
+                "height": 955,
+                "size_bytes": 137925
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_img_02.jpeg",
+                "width": 1556,
+                "height": 970,
+                "size_bytes": 161400
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_6.png",
+                "width": 861,
+                "height": 739,
+                "size_bytes": 349086,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160838,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.825263,
+                  "paragraph_text_chars": 97,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 79,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/同步辐射纳米CT图像超分辨率重建及其应用研究/images/page_007_fig_fig_7.png",
+                "width": 1059,
+                "height": 777,
+                "size_bytes": 403777,
+                "label": "Fig.7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.207808,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.814484,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.3788/col201614.093401",
+  "reviewed_artifacts": [
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_source_manifest.json",
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_full_text.md",
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_note_plan.json",
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_figure_table_decisions.json",
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_draft.md",
+    "2016_Full-field_X-ray_nano-imaging_system_SSRF_note_lint.json"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：标题以 PDF 首页为准，纠正了元数据中的 untitled；作者、机构、日期、期刊和 DOI 与正文一致。",
+    "abstract_fidelity": "pass：逐句覆盖原摘要的背景、20 纳米前沿、用户需求、系统设计、8–10 千电子伏能区及 100 纳米/50 微米结论，没有混入正文评价。",
+    "claim_grounding": "pass：100 纳米、50 微米视场、0.76/0.28 对比度、60 秒曝光和器件参数均可在全文定位。",
+    "claim_boundaries": "pass：明确区分二维实测、43–50 纳米设计潜力、未来 EST nano-CT 与二期 20 纳米线站目标。",
+    "mechanism_depth": "pass：四步机制链解释 BOE 整形、空心锥照明、FZP/Zernike 放大及远端探测，并给出三条相关公式。",
+    "limitations_and_negative_evidence": "pass：覆盖单靶标、缺三维、长曝光、稳定性、相衬未验收及有效像素参数复核缺口。",
+    "figure_evidence": "pass：仅插入三幅人工确认无污染的图；Fig. 3 因跨图污染改为明确占位。",
+    "citation_integrity": "pass：删除了未由当前证据文件确认的参考文献标题，仅保留论文可核对的书目信息。"
+  },
+  "edits_made": [
+    "将 Fig. 3 从 insert 降级为 visual_defect，并记录人工视觉观察。",
+    "删除 AIP 会议参考文献中未经当前源文件核实的题名，避免过度补全。"
+  ],
+  "remaining_known_risks": [
+    "论文自身给出的 6.5 微米像素、122 倍倍率与约 43 纳米有效像素之间存在参数不闭合；笔记已将其标为需标定复核，而未替作者消解。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

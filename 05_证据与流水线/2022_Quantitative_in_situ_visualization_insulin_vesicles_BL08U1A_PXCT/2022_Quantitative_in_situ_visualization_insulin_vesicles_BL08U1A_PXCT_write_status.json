@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.1073/pnas.2202695119",
+  "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+  "note_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT.md",
+  "subdir": "04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT",
+  "images_dir": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images",
+  "materialized_figures": [
+    {
+      "source_id": "Fig 2",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_004_fig_fig_2.png",
+      "relative_markdown_path": "images/page_004_fig_fig_2.png"
+    },
+    {
+      "source_id": "Fig 3",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_fig_fig_3.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_005_fig_fig_3.png",
+      "relative_markdown_path": "images/page_005_fig_fig_3.png"
+    },
+    {
+      "source_id": "Fig 4",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_006_fig_fig_4.png",
+      "relative_markdown_path": "images/page_006_fig_fig_4.png"
+    },
+    {
+      "source_id": "Fig 5",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_fig_fig_5.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_007_fig_fig_5.png",
+      "relative_markdown_path": "images/page_007_fig_fig_5.png"
+    },
+    {
+      "source_id": "Fig 6",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_fig_fig_6.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_008_fig_fig_6.png",
+      "relative_markdown_path": "images/page_008_fig_fig_6.png"
+    },
+    {
+      "source_id": "Fig 7",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_009_fig_fig_7.png",
+      "relative_markdown_path": "images/page_009_fig_fig_7.png"
+    },
+    {
+      "source_id": "Fig 8",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/images/page_009_fig_fig_8.png",
+      "relative_markdown_path": "images/page_009_fig_fig_8.png"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "/home/zhenyu/PaperReading/上海光源纳米CT",
+  "vault": "/home/zhenyu/PaperReading/上海光源纳米CT"
+}

@@ -1,0 +1,1626 @@
+{
+  "status": "ok",
+  "script": "build_synthesis_bundle.py",
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "title": "X射线纳米成像单毛细管椭球镜的设计与检测",
+  "metadata": {
+    "title": "X射线纳米成像单毛细管椭球镜的设计与检测",
+    "translated_title": "Design and Detection of Ellipsoidal Mono-Capillary for X-Ray Nano-Imaging",
+    "authors": [
+      "陶 芬 Tao Fen",
+      "王玉丹 Wang Yudan",
+      "任玉琦 Ren Yuqi",
+      "丰丙刚 Feng Binggang",
+      "佟亚军 Tong Yajun",
+      "杜国浩 Du Guohao",
+      "邓 彪 Deng Biao",
+      "孙天希 Sun Tianxi",
+      "谢红兰 Xie Honglan",
+      "肖体乔 Xiao Tiqiao"
+    ],
+    "affiliations": [
+      "中国科学院上海应用物理研究所",
+      "中国科学院大学",
+      "北京师范大学"
+    ],
+    "year": "2017",
+    "venue": "光学学报 / Acta Optica Sinica",
+    "doi": "10.3788/AOS201737.1034002",
+    "source_url": "https://doi.org/10.3788/AOS201737.1034002",
+    "abstract": "",
+    "arxiv_id": "",
+    "zotero_key": "",
+    "metadata_sources": [
+      "seed_record",
+      "crossref",
+      "openalex"
+    ],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present"
+    ]
+  },
+  "evidence_quality": "medium",
+  "coverage": {
+    "language_hint": "mixed",
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "introduction",
+        "conclusion"
+      ],
+      "core_sections_found": [
+        "introduction"
+      ],
+      "missing_core_sections": [
+        "method",
+        "experiment"
+      ],
+      "section_text_chars": {
+        "preamble": 1799,
+        "introduction": 5194,
+        "conclusion": 3910
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 8,
+      "text_max_pages": 32,
+      "text_pages_scanned": 8,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "source_coverage": {
+      "total_pages": 8,
+      "text_max_pages": null,
+      "text_pages_extracted": 8,
+      "text_pages_scanned": 8,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    },
+    "source_manifest": {
+      "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_raw_sections.jsonl",
+      "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_full_text.md",
+      "section_count": 3,
+      "page_count": 8,
+      "text_hash_sha256": "6a12915a03728613188431b25318b118e5335b791a50cc33e23201fa0b543900"
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "extraction_failures": [],
+    "asset_coverage": {
+      "total_pages": 8,
+      "asset_max_pages": 40,
+      "asset_pages_scanned": 8,
+      "truncated_due_to_asset_page_limit": false
+    },
+    "figure_quality_summary": {
+      "usable": 2,
+      "review": 0,
+      "reject": 0,
+      "unknown": 0
+    },
+    "truncation_warnings": [],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present"
+    ]
+  },
+  "source_manifest": {
+    "paper_id": "doi:10.3788/aos201737.1034002",
+    "title": "X射线纳米成像单毛细管椭球镜的设计与检测",
+    "source_kind": "pdf_text",
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_full_text.md",
+    "pdf": {
+      "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging.pdf",
+      "total_pages": 8,
+      "text_pages_extracted": 8,
+      "text_max_pages": null,
+      "text_truncated": false
+    },
+    "coverage": {
+      "total_pages": 8,
+      "text_max_pages": null,
+      "text_pages_extracted": 8,
+      "text_pages_scanned": 8,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    }
+  },
+  "source_index": {
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_full_text.md",
+    "sections": [
+      {
+        "section_id": "sec:preamble",
+        "kind": "preamble",
+        "title": "preamble",
+        "page_start": 1,
+        "page_end": 1,
+        "char_count": 1799,
+        "text_hash_sha256": "857d121ff7b6059b34b9d887d08ecfec447198787f85bb8fa3813ada7f658e45"
+      },
+      {
+        "section_id": "sec:section",
+        "kind": "introduction",
+        "title": "１ 引 言",
+        "page_start": 1,
+        "page_end": 7,
+        "char_count": 5194,
+        "text_hash_sha256": "b985481b8330547cd2e092d5b64fe994bad62b68137d826af63ba75e573bb65f"
+      },
+      {
+        "section_id": "sec:section-2",
+        "kind": "conclusion",
+        "title": "４ 结 论",
+        "page_start": 7,
+        "page_end": 8,
+        "char_count": 3910,
+        "text_hash_sha256": "6105e18a6fcad18aeaf23c01a90186d4964dea294ee5870bfdc692cdad9b5cb5"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "char_count": 2129,
+        "section_ids": [
+          "sec:preamble",
+          "sec:section"
+        ]
+      },
+      {
+        "page": 2,
+        "char_count": 1362,
+        "section_ids": [
+          "sec:section"
+        ]
+      },
+      {
+        "page": 3,
+        "char_count": 1286,
+        "section_ids": [
+          "sec:section"
+        ]
+      },
+      {
+        "page": 4,
+        "char_count": 507,
+        "section_ids": [
+          "sec:section"
+        ]
+      },
+      {
+        "page": 5,
+        "char_count": 944,
+        "section_ids": [
+          "sec:section"
+        ]
+      },
+      {
+        "page": 6,
+        "char_count": 849,
+        "section_ids": [
+          "sec:section"
+        ]
+      },
+      {
+        "page": 7,
+        "char_count": 3158,
+        "section_ids": [
+          "sec:section",
+          "sec:section-2"
+        ]
+      },
+      {
+        "page": 8,
+        "char_count": 765,
+        "section_ids": [
+          "sec:section-2"
+        ]
+      }
+    ],
+    "captions": {
+      "figures": [
+        {
+          "id": "图 １",
+          "caption": "上海光源成像线站(BL１３W１)TXM 示意图",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ３",
+          "caption": "研制的椭球镜照片",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ４",
+          "caption": "椭球镜的光学测试结果",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ５",
+          "caption": "椭球镜X 射线测试原理示意图",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ６",
+          "caption": "距离焦点(a)５５cm、(b)１００cm 处以及(c)焦点处聚焦光斑的形状及三维光强分布图",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ７",
+          "caption": "外环发散角的拟合曲线",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ８",
+          "caption": "TXM 成像实验装置图",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "图 ９",
+          "caption": "TXM 成像结果.(a)整体成像图;(b)在５００nm 分辨率附近的靶射线强度分布",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:section"
+        }
+      ],
+      "tables": [
+        {
+          "id": "表 １",
+          "caption": "椭球镜的参数",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "Table １",
+          "caption": "ParametersofellipsoidalmonoＧcapillary",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "表 ２",
+          "caption": "波带片参数",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:section"
+        },
+        {
+          "id": "Table ２",
+          "caption": "Parametersofzoneplate",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:section"
+        }
+      ]
+    },
+    "math_index": [
+      {
+        "text": "θ/２)≈sin(",
+        "section_id": "sec:section",
+        "page_start": 1,
+        "page_end": 7
+      },
+      {
+        "text": "θ/２)≈θ/２＝Δ",
+        "section_id": "sec:section",
+        "page_start": 1,
+        "page_end": 7
+      }
+    ],
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "language_hint": "mixed",
+    "text_hash_sha256": "6a12915a03728613188431b25318b118e5335b791a50cc33e23201fa0b543900"
+  },
+  "references": {
+    "candidates": []
+  },
+  "figure_plan": {
+    "paper_id": "doi:10.3788/aos201737.1034002",
+    "figures": [
+      {
+        "id": "Table １",
+        "caption": "ParametersofellipsoidalmonoＧcapillary",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_table.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_fig_table.png",
+          "width": 1360,
+          "height": 1207,
+          "size_bytes": 528801,
+          "label": "Table１",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.442777,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.371913,
+            "paragraph_text_chars": 332,
+            "table_body_rows": 0,
+            "caption_text_chars": 44,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "parametersofellipsoidalmono",
+              "capillary"
+            ],
+            "snippet": "长半轴a＝１７m,光源点垂直发散角为０． ０１２mrad,即α１＝０． ０１２mrad/２＝０． ００６mrad.设 计的椭球镜参数如表１所示. 表１ 椭球镜的参数 Table１ ParametersofellipsoidalmonoＧcapillary Parameter Value Parameter Value XＧrayenergyE /keV ９ LengthL/mm １０５． ７ Entryradi",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_img_01.jpeg",
+                "width": 4016,
+                "height": 1370,
+                "size_bytes": 1014388
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_table.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_fig_table.png",
+                "width": 1360,
+                "height": 1207,
+                "size_bytes": 528801,
+                "label": "Table１",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.442777,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.371913,
+                  "paragraph_text_chars": 332,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "capillary"
+            ],
+            "snippet": "光 学 学 报 图３ 研制的椭球镜照片 Fig敭３ PictureofdevelopedellipsoidalmonoＧcapillary 图４ 椭球镜的光学测试结果 Fig敭４ OpticaltestingresultforanellipsoidalmonoＧcapillary 和高分辨X 射线成像探测器检测椭球镜",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_01.jpeg",
+                "width": 4016,
+                "height": 945,
+                "size_bytes": 727983
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_02.jpeg",
+                "width": 4016,
+                "height": 1228,
+                "size_bytes": 1082510
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_03.jpeg",
+                "width": 4016,
+                "height": 1890,
+                "size_bytes": 1268037
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table ２",
+        "caption": "Parametersofzoneplate",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_fig_table.png",
+          "width": 1360,
+          "height": 1206,
+          "size_bytes": 546974,
+          "label": "Table２",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.442481,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.532539,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 28,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "parametersofzoneplate"
+            ],
+            "snippet": "imagingpicture b intensityprofileoftargetradialnearresolutionratioof５００nm 表２ 波带片参数 Table２ Parametersofzoneplate Fresnelzone plate Diameter/μm Outermostzone width/nm Zone material Structure height/nm Fo",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_01.jpeg",
+                "width": 4016,
+                "height": 1063,
+                "size_bytes": 443524
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_02.jpeg",
+                "width": 4016,
+                "height": 945,
+                "size_bytes": 813820
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_03.jpeg",
+                "width": 4016,
+                "height": 1063,
+                "size_bytes": 895387
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_fig_table.png",
+                "width": 1360,
+                "height": 1206,
+                "size_bytes": 546974,
+                "label": "Table２",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.442481,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.532539,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 28,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "图 １",
+        "caption": "上海光源成像线站(BL１３W１)TXM 示意图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ３",
+        "caption": "研制的椭球镜照片",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ４",
+        "caption": "椭球镜的光学测试结果",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ５",
+        "caption": "椭球镜X 射线测试原理示意图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ６",
+        "caption": "距离焦点(a)５５cm、(b)１００cm 处以及(c)焦点处聚焦光斑的形状及三维光强分布图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ７",
+        "caption": "外环发散角的拟合曲线",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ８",
+        "caption": "TXM 成像实验装置图",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "图 ９",
+        "caption": "TXM 成像结果.(a)整体成像图;(b)在５００nm 分辨率附近的靶射线强度分布",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "表 １",
+        "caption": "椭球镜的参数",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      },
+      {
+        "id": "表 ２",
+        "caption": "波带片参数",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [],
+        "candidate_status": "no_match_found",
+        "matching_strategy": "no-match-found"
+      }
+    ]
+  },
+  "figure_table_manifest": {
+    "decisions_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_figure_table_decisions.json",
+    "decisions": [
+      {
+        "item_id": "figure:图 １",
+        "source_id": "图 １",
+        "kind": "figure",
+        "label": "图 １",
+        "caption": "上海光源成像线站(BL１３W１)TXM 示意图",
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ３",
+        "source_id": "图 ３",
+        "kind": "figure",
+        "label": "图 ３",
+        "caption": "研制的椭球镜照片",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ４",
+        "source_id": "图 ４",
+        "kind": "figure",
+        "label": "图 ４",
+        "caption": "椭球镜的光学测试结果",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ５",
+        "source_id": "图 ５",
+        "kind": "figure",
+        "label": "图 ５",
+        "caption": "椭球镜X 射线测试原理示意图",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ６",
+        "source_id": "图 ６",
+        "kind": "figure",
+        "label": "图 ６",
+        "caption": "距离焦点(a)５５cm、(b)１００cm 处以及(c)焦点处聚焦光斑的形状及三维光强分布图",
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ７",
+        "source_id": "图 ７",
+        "kind": "figure",
+        "label": "图 ７",
+        "caption": "外环发散角的拟合曲线",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ８",
+        "source_id": "图 ８",
+        "kind": "figure",
+        "label": "图 ８",
+        "caption": "TXM 成像实验装置图",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "figure:图 ９",
+        "source_id": "图 ９",
+        "kind": "figure",
+        "label": "图 ９",
+        "caption": "TXM 成像结果.(a)整体成像图;(b)在５００nm 分辨率附近的靶射线强度分布",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "table:表 １",
+        "source_id": "表 １",
+        "kind": "table",
+        "label": "表 １",
+        "caption": "椭球镜的参数",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "table:Table １",
+        "source_id": "Table １",
+        "kind": "table",
+        "label": "Table １",
+        "caption": "ParametersofellipsoidalmonoＧcapillary",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section",
+        "decision": "insert",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "table_result",
+        "source_image_filename": "page_003_fig_table.png",
+        "relative_markdown_embed": "![Table １](images/page_003_fig_table.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_fig_table.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "table:表 ２",
+        "source_id": "表 ２",
+        "kind": "table",
+        "label": "表 ２",
+        "caption": "波带片参数",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section",
+        "decision": "placeholder",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "asset_candidate_missing",
+        "visual_quality_status": "",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure"
+      },
+      {
+        "item_id": "table:Table ２",
+        "source_id": "Table ２",
+        "kind": "table",
+        "label": "Table ２",
+        "caption": "Parametersofzoneplate",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section",
+        "decision": "insert",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "table_result",
+        "source_image_filename": "page_006_fig_table.png",
+        "relative_markdown_embed": "![Table ２](images/page_006_fig_table.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_fig_table.png",
+        "materialization_status": "pending"
+      }
+    ],
+    "caption_counts": {
+      "figures": 8,
+      "tables": 4
+    },
+    "planned_items": 12,
+    "requires_full_decision_table": true
+  },
+  "pdf_assets": {
+    "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测",
+    "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images",
+    "page_assets": [
+      {
+        "page_number": 1,
+        "searchable_text_chars": 2129,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "第３７卷 第１０期 光 学 学 报 Vol．３７,No．１０ ２０１７年１０月 ACTAOPTICASINICA October,２０１７ X 射线纳米成像单毛细管椭球镜的设计与检测 陶 芬１,２,王玉丹１,任玉琦１,丰丙刚１,佟亚军１,杜国浩１,邓 彪１,２,孙天希３,谢红兰１,肖体乔１ １中国科学院上海应用物理研究所,上海２０１２０４; ２中国科学院大学,北京１０００４９; ３北京师范大学,北京１００８７５ 摘要 设计并成功研制了单毛细管椭球镜,并通过光学及X 射线方法测"
+      },
+      {
+        "page_number": 2,
+        "searchable_text_chars": 1362,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "光 学 学 报 镜是TXM 的核心部件,具有２个功能:１)将次级光源点的X 射线会聚到样品点,以提高样品点处的光通量 密度;２)根据成像系统的要求,聚焦镜出射光的数值孔径应与波带片环状照明的数值孔径一致.目前应用 于全场纳米成像装置上的聚焦镜主要有复合折射透镜[７Ｇ９]、光束整形器[１０Ｇ１１]和椭球聚焦镜[１２Ｇ１３].复合折射透 镜具有立体接收角大的优点,但是它制备困难,效率相对较低,且焦距对能量敏感.光束整形器的衍射效率 低(１％~１０％),且有带宽限制,这限制了它在T"
+      },
+      {
+        "page_number": 3,
+        "searchable_text_chars": 1286,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "光 学 学 报 ２ 椭球镜的光学原理示意图 Fig敭２ OpticalprincipleschematicofellipsoidalmonoＧcapillary L ＝q１cosφ１－q２cosφ２. (５) 由图２可知,工作距离W 、入口半径H 、出口半径h 分别为 W ＝q２cosφ２, (６) H ＝q１sinφ１, (７) h＝q２sinφ２. (８) TXM 成像要求椭球镜出射光的数值孔径与波带片的数值孔径相匹配.根据实践经验[１５],椭球镜提供 的空心光锥约为照明"
+      },
+      {
+        "page_number": 4,
+        "searchable_text_chars": 507,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 3,
+        "text_preview": "光 学 学 报 图３ 研制的椭球镜照片 Fig敭３ PictureofdevelopedellipsoidalmonoＧcapillary 图４ 椭球镜的光学测试结果 Fig敭４ OpticaltestingresultforanellipsoidalmonoＧcapillary 和高分辨X 射线成像探测器检测椭球镜的性能,包括聚焦光斑的焦斑尺寸、均匀度及椭球镜后不同位置处 的环带照明光斑尺寸,从而计算发散角.测试原理图如图５所示,光束挡光器放置在椭球镜的前端,探测器 上得到"
+      },
+      {
+        "page_number": 5,
+        "searchable_text_chars": 944,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "光 学 学 报 图６是在距离焦点５５cm 和１００cm 处以及在焦点处聚焦光斑的形状及三维光强分布.图６(a)是椭球 镜在距离焦点５５cm 处的近场成像,图６(b)是距离焦点１００cm 处的远场成像,图６(c)是距离聚焦镜出口 １４． ９cm 处,通过测量光斑的半峰全宽(FWHM)得到的４０μm×４０μm 的焦点光斑,焦深为６． ０mm.实际 工作距离为１５５mm,满足椭球镜工作距离约为１６０． ７mm 的设计要求. 图６ 距离焦点(a)５５cm、(b)１００cm 处以及(c"
+      },
+      {
+        "page_number": 6,
+        "searchable_text_chars": 849,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 3,
+        "text_preview": "光 学 学 报 图７ 外环发散角的拟合曲线 Fig敭７ Fittedcurveofdivergenceangleofoutsidering 图８ TXM 成像实验装置图 Fig敭８ Pictureofexperimentalsetup 的样品台上.探测器放置在距波带片约６０cm 处. 在椭球镜前端约３cm 处放置了直径为２００μm 的光束挡光器,用来遮挡直通光,从而提高系统的信噪 比.同时在椭球镜的后端大约１２cm 处放置直径为７０μm 的针孔,其作用是用来遮挡杂散光.样品放"
+      },
+      {
+        "page_number": 7,
+        "searchable_text_chars": 3158,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "光 学 学 报 ４ 结 论 针对TXM 成像用最外环带宽为７０nm 的波带片,设计并成功拉制了与之匹配的单毛细管椭球镜.光 学检测结果表明,该椭球镜具有较高的质量,面形误差达到了１５μrad;X 射线检测到聚焦光斑尺寸为 ４０μm,最大发射角为１． ７５mrad,工作距离为１６０． ９mm,满足了设计指标的要求.基于该椭球镜在上海光 源成像线站成功搭建了TXM 成像系统,并实现了纳米成像,表明研制的椭球镜可满足纳米成像的需求. 虽然基于自行研制的椭球聚焦镜初步实现了TXM 成"
+      },
+      {
+        "page_number": 8,
+        "searchable_text_chars": 765,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "光 学 学 报 synchrotronradiationfacility J 敭ActaOpticaSinica ２０１４ ３４ １ ０１００００１敭 肖体乔 谢红兰 邓彪 等敭上海光源X 射线成像及其应用研究进展 J 敭光学学报 ２０１４ ３４ １ ０１００００１敭 １９ TengYuepeng SunTianxi LiuZhiguo etal敭NewtypemonocapillaryXＧrayopticaldevice J 敭ActaOpticaSinica ２０１０ ３"
+      }
+    ],
+    "image_assets": [
+      {
+        "page_number": 2,
+        "image_index": 1,
+        "xref": 16,
+        "filename": "page_002_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_002_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1063,
+        "colorspace": 4,
+        "size_bytes": 507547,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 1,
+        "xref": 21,
+        "filename": "page_003_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1370,
+        "colorspace": 4,
+        "size_bytes": 1014388,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 1,
+        "xref": 27,
+        "filename": "page_004_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 945,
+        "colorspace": 4,
+        "size_bytes": 727983,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 2,
+        "xref": 29,
+        "filename": "page_004_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1228,
+        "colorspace": 4,
+        "size_bytes": 1082510,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 3,
+        "xref": 31,
+        "filename": "page_004_img_03.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_004_img_03.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1890,
+        "colorspace": 4,
+        "size_bytes": 1268037,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 5,
+        "image_index": 1,
+        "xref": 36,
+        "filename": "page_005_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_005_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 3071,
+        "colorspace": 4,
+        "size_bytes": 3047421,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 1,
+        "xref": 41,
+        "filename": "page_006_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1063,
+        "colorspace": 4,
+        "size_bytes": 443524,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 2,
+        "xref": 43,
+        "filename": "page_006_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 945,
+        "colorspace": 4,
+        "size_bytes": 813820,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 3,
+        "xref": 45,
+        "filename": "page_006_img_03.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_img_03.jpeg",
+        "ext": "jpeg",
+        "width": 4016,
+        "height": 1063,
+        "colorspace": 4,
+        "size_bytes": 895387,
+        "extraction_level": "xref"
+      }
+    ],
+    "figure_assets": [
+      {
+        "filename": "page_003_fig_table.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_fig_table.png",
+        "page_number": 3,
+        "label": "Table１",
+        "kind": "figure",
+        "caption_text": "Table１ ParametersofellipsoidalmonoＧcapillary",
+        "width": 1360,
+        "height": 1207,
+        "size_bytes": 528801,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.442777,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.371913,
+          "paragraph_text_chars": 332,
+          "table_body_rows": 0,
+          "caption_text_chars": 44,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_006_fig_table.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_fig_table.png",
+        "page_number": 6,
+        "label": "Table２",
+        "kind": "figure",
+        "caption_text": "Table２ Parametersofzoneplate",
+        "width": 1360,
+        "height": 1206,
+        "size_bytes": 546974,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.442481,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.532539,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 28,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      }
+    ],
+    "ocr_available": false
+  },
+  "writing_contract": {
+    "language": "zh-CN",
+    "contract_role": "manifest_quality_contract",
+    "canonical_source": "SKILL.md defines the workflow; scripts/contracts.py defines machine-checkable contract data.",
+    "must_include_sections": [
+      "核心信息",
+      "原文摘要翻译",
+      "创新点",
+      "一句话总结",
+      "研究问题",
+      "数据与任务定义",
+      "方法主线",
+      "关键结果",
+      "深度分析",
+      "局限",
+      "我的笔记",
+      "引用"
+    ],
+    "note_plan_contract": {
+      "required_fields": [
+        "paper_type",
+        "paper_type_rationale",
+        "dominant_domain",
+        "must_cover",
+        "key_numbers",
+        "real_comparisons",
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions",
+        "section_plan"
+      ],
+      "artifact_preference": "short_json_planning_file",
+      "grounding_field": "section_plan[*].evidence_sources",
+      "analysis_coverage_field": "central_claims[*]"
+    },
+    "paper_type_selection": {
+      "source_of_truth": "note_plan.paper_type",
+      "suggested_paper_type_role": "none",
+      "allowed_paper_types": [
+        "AI_method",
+        "benchmark_or_dataset",
+        "clinical_or_psychology_empirical",
+        "humanities_or_social_science",
+        "survey_or_review"
+      ]
+    },
+    "contracts_by_paper_type": {
+      "AI_method": {
+        "paper_type": "AI_method",
+        "reader_lens": "面向能复现方法机制的技术读者",
+        "section_focus": [
+          "问题设置",
+          "方法机制",
+          "训练/推理流程",
+          "关键公式",
+          "比较基线",
+          "消融与失败边界"
+        ],
+        "required_checks": [
+          "需要说明机制流程、关键公式、实验设计、消融含义和失败边界。"
+        ],
+        "formula_rules": [
+          "仅保留理解方法必需的 1 到 3 个关键公式，并解释其工程含义。"
+        ],
+        "avoid_rules": [
+          "不要把非 AI_method 论文强行改写成模型架构。"
+        ],
+        "boundary_questions": [
+          "核心机制的收益由哪个实验或消融支撑，而不是只由主结果暗示？",
+          "哪些比较只能证明在当前数据、基线、算力或协议下有效，不能外推到通用场景？",
+          "论文是否给出失败、退化、不稳定或成本上升的证据；如果没有，结论边界是什么？"
+        ],
+        "section_semantics": {
+          "研究问题": "方法要解决的具体技术问题和现有方法短板。",
+          "数据与任务定义": "数据集、输入输出、评测任务和实验设置。",
+          "方法主线": "模型、算法、训练或推理机制。",
+          "关键结果": "主结果、强基线、消融和关键数字。",
+          "深度分析": "方法为什么有效、何处脆弱、复现和扩展代价。"
+        },
+        "recommended_subsections": {
+          "方法主线": [
+            "机制流程",
+            "模型结构",
+            "训练目标",
+            "推理与采样链路",
+            "关键实现细节"
+          ],
+          "关键结果": [
+            "主结果与强基线",
+            "消融到底说明了什么",
+            "失败或不稳定设置"
+          ],
+          "深度分析": [
+            "为什么有效",
+            "复杂度与扩展性",
+            "复现注意点"
+          ]
+        },
+        "mechanism_flow_contract": {
+          "apply_when_paper_type_in": [
+            "AI_method"
+          ],
+          "required_step_count": "3_to_4",
+          "required_step_fields": [
+            "input",
+            "operation",
+            "output_destination"
+          ]
+        }
+      },
+      "benchmark_or_dataset": {
+        "paper_type": "benchmark_or_dataset",
+        "reader_lens": "面向要判断 benchmark/dataset 可用性和偏差边界的研究者",
+        "section_focus": [
+          "任务拆分",
+          "数据来源与构建流程",
+          "标注协议",
+          "评测指标",
+          "覆盖范围与偏差",
+          "样本统计与数据开放限制"
+        ],
+        "required_checks": [
+          "需要说明数据来源、构建/标注流程、评测指标、基线表现、样本统计、数据开放或隐私限制和适用边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心评测指标、采样规则或划分定义。"
+        ],
+        "avoid_rules": [
+          "不要把数据构建流程写成模型 pipeline。"
+        ],
+        "boundary_questions": [
+          "这个 benchmark/dataset 实际测量的构念是什么，哪些能力只是间接近似？",
+          "任务、标签、采样、过滤或评测协议会引入哪些覆盖缺口或偏差？",
+          "基线结果证明了评测集有区分度，还是只证明某类模型适应该协议？",
+          "样本时长、语料长度、人口统计、类别分布、数据可访问性或隐私限制如何影响复现和外推？"
+        ],
+        "section_semantics": {
+          "研究问题": "这个 benchmark/dataset 想补足的评测或数据缺口。",
+          "数据与任务定义": "数据来源、任务拆分、标签/题目定义、样本范围。",
+          "方法主线": "数据构建、筛选、标注和评测协议，不写成模型 pipeline。",
+          "关键结果": "基线表现、难度分布、覆盖范围和偏差。",
+          "深度分析": "它真正测到了什么，以及不能代表什么。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "数据来源",
+            "任务拆分",
+            "标注/筛选协议"
+          ],
+          "方法主线": [
+            "构建流程",
+            "评测协议",
+            "Baseline 设置"
+          ],
+          "关键结果": [
+            "基线表现",
+            "难度分布",
+            "覆盖与偏差"
+          ],
+          "深度分析": [
+            "benchmark 真正测到了什么",
+            "适用边界"
+          ]
+        }
+      },
+      "clinical_or_psychology_empirical": {
+        "paper_type": "clinical_or_psychology_empirical",
+        "reader_lens": "面向关注临床/心理学样本、变量关系和外推边界的研究读者",
+        "section_focus": [
+          "样本来源",
+          "纳排标准",
+          "变量或量表",
+          "分析管线",
+          "效应量与不确定性",
+          "样本统计、伦理和数据可访问性"
+        ],
+        "required_checks": [
+          "需要区分相关、预测、组间差异和因果解释，说明样本统计、伦理/隐私约束与外推边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心统计模型、效应量、置信区间或量表定义。"
+        ],
+        "avoid_rules": [
+          "不要把相关性、预测性能或组间差异写成未经证明的因果结论。"
+        ],
+        "boundary_questions": [
+          "样本来源、纳排标准、测量工具和标注流程如何限制外推？",
+          "结果支持相关、预测、组间差异还是因果解释；不要越过论文设计能证明的范围。",
+          "临床或心理学意义是否依赖未观测混杂、量表阈值、文本/语音缺失或场景约束？",
+          "样本构成、数据缺失、隐私限制或材料不可公开会怎样限制复现与再分析？"
+        ],
+        "section_semantics": {
+          "研究问题": "临床、心理学或行为科学中的研究问题、假设或变量关系。",
+          "数据与任务定义": "样本来源、纳排标准、变量/量表、测量方式。",
+          "方法主线": "研究设计、分组、测量流程和统计分析路径。",
+          "关键结果": "主要效应、相关性、组间差异、不确定性或显著性。",
+          "深度分析": "结果解释、因果边界、临床/心理学意义和外推限制。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "样本与纳排标准",
+            "变量与量表",
+            "测量流程"
+          ],
+          "方法主线": [
+            "研究设计",
+            "分析模型",
+            "主要比较"
+          ],
+          "关键结果": [
+            "主要效应",
+            "不确定性与显著性",
+            "临床或心理学解释"
+          ],
+          "深度分析": [
+            "因果解释边界",
+            "外推限制"
+          ]
+        }
+      },
+      "humanities_or_social_science": {
+        "paper_type": "humanities_or_social_science",
+        "reader_lens": "面向关注理论框架、材料解释和论证结构的研究读者",
+        "section_focus": [
+          "研究对象",
+          "材料来源",
+          "理论框架",
+          "论证路径",
+          "概念贡献",
+          "解释边界"
+        ],
+        "required_checks": [
+          "需要区分作者论证、材料证据、规范性判断和实验事实。"
+        ],
+        "formula_rules": [
+          "通常不强行保留公式；仅保留核心形式化定义或编码规则。"
+        ],
+        "avoid_rules": [
+          "不要把规范性判断、文本解释或案例分析写成实验事实。"
+        ],
+        "boundary_questions": [
+          "作者的解释依赖哪些材料、案例或理论前提？",
+          "是否存在同样能解释材料的替代解释，论文如何排除或没有排除？",
+          "哪些结论是概念贡献或规范性判断，而不是可直接当作经验事实？"
+        ],
+        "section_semantics": {
+          "研究问题": "作者要解释的社会、文化、历史、制度或理论问题。",
+          "数据与任务定义": "材料、案例、文本、访谈、档案或语料范围，不写成 ML task。",
+          "方法主线": "理论框架、概念区分和论证路径。",
+          "关键结果": "核心解释性发现、概念贡献或对既有观点的修正。",
+          "深度分析": "论证强度、材料边界、解释替代性和可迁移性。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "材料范围",
+            "选择标准",
+            "案例或语料边界"
+          ],
+          "方法主线": [
+            "理论框架",
+            "概念区分",
+            "论证路径"
+          ],
+          "关键结果": [
+            "核心解释性发现",
+            "概念贡献"
+          ],
+          "深度分析": [
+            "论证强度",
+            "替代解释",
+            "材料边界"
+          ]
+        }
+      },
+      "survey_or_review": {
+        "paper_type": "survey_or_review",
+        "reader_lens": "面向需要梳理综述脉络、分类体系和证据边界的研究读者",
+        "section_focus": [
+          "综述范围",
+          "纳入排除标准",
+          "主题分类",
+          "方法谱系",
+          "共识与分歧",
+          "开放问题"
+        ],
+        "required_checks": [
+          "需要说明综述范围、文献选择、分类体系、共识分歧和开放问题。"
+        ],
+        "formula_rules": [
+          "仅保留分类轴、纳入排除准则、证据汇总规则或 meta-analysis 统计量。"
+        ],
+        "avoid_rules": [
+          "不要把综述中的代表性结论写成作者自己完成的单项实验结果。"
+        ],
+        "boundary_questions": [
+          "检索范围、纳入排除标准或分类轴会遗漏哪些研究路线？",
+          "综述给出的是领域共识、作者分类，还是尚未解决的分歧？",
+          "哪些趋势结论来自覆盖范围内的文献分布，不能直接当作技术成熟度判断？"
+        ],
+        "section_semantics": {
+          "研究问题": "综述试图整理的领域问题、争议或知识缺口。",
+          "数据与任务定义": "纳入文献范围、检索/筛选标准和综述对象。",
+          "方法主线": "分类体系、综述组织方式和证据综合逻辑，不写成单篇方法架构。",
+          "关键结果": "领域共识、分歧、趋势、代表性方向和开放问题。",
+          "深度分析": "综述覆盖的盲区、分类体系的解释力和未来研究机会。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "综述范围",
+            "纳入/排除标准",
+            "文献覆盖"
+          ],
+          "方法主线": [
+            "分类体系",
+            "方法谱系",
+            "证据组织方式"
+          ],
+          "关键结果": [
+            "代表性方向",
+            "共识与分歧",
+            "开放问题"
+          ],
+          "深度分析": [
+            "分类体系的局限",
+            "未覆盖区域",
+            "后续研究机会"
+          ]
+        }
+      }
+    },
+    "grounding_contract": {
+      "source_of_truth": "source_manifest",
+      "accepted_reference_forms": [
+        "section_id",
+        "pages"
+      ],
+      "required_sections": [
+        "研究问题",
+        "数据与任务定义",
+        "方法主线",
+        "关键结果",
+        "深度分析",
+        "局限"
+      ],
+      "note_plan_depth_requirements": {
+        "required_section_focus_min_chars": 20,
+        "required_section_focus_fields": [
+          "focus",
+          "reading_goal",
+          "purpose"
+        ],
+        "generic_focus_phrases": [
+          "use the raw source to explain",
+          "paper-specific role of",
+          "explain the paper-specific role",
+          "explain this section",
+          "summarize this section"
+        ]
+      },
+      "reject_old_references": [
+        "synthesis_bundle.evidence",
+        "bundle.evidence",
+        "synthesis_bundle.candidate_chunks",
+        "synthesis_bundle.section_texts",
+        "synthesis_bundle.summary",
+        "bundle.candidate_chunks",
+        "bundle.section_texts",
+        "bundle.summary"
+      ],
+      "lint_command": "scripts/lint_grounding.py --note-plan ... --source-manifest ... --bundle-json ..."
+    },
+    "figure_table_contract": {
+      "placeholder_first": true,
+      "visual_quality_gate": "fail_closed",
+      "decision_table_required": true,
+      "decision_values": [
+        "insert",
+        "placeholder",
+        "low_priority",
+        "visual_defect",
+        "skip"
+      ],
+      "usable_insert_candidate": {
+        "kinds": [
+          "figure",
+          "table"
+        ],
+        "visual_quality_status": "usable_candidate",
+        "requires_source_image_path": true
+      },
+      "allowed_usable_placeholder_reasons": [
+        "visual_defect",
+        "materialization_blocked"
+      ],
+      "manual_visual_review_required_statuses": [
+        "usable_candidate",
+        "needs_visual_quality_check",
+        "review"
+      ],
+      "automatic_fail_closed_visual_statuses": [
+        "reject_visual_quality",
+        "asset_candidate_missing"
+      ],
+      "manual_review_claim_requires_image_inspection": true
+    },
+    "analysis_coverage_contract": {
+      "central_claim_fields": [
+        "claim",
+        "supporting_evidence",
+        "what_it_actually_proves",
+        "what_it_does_not_prove"
+      ],
+      "required_plan_fields": [
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions"
+      ],
+      "final_quality_review_checks": [
+        "central_claims_are_supported_by_raw_sections_or_pages",
+        "key_experimental_settings_and_numbers_are_present",
+        "mechanisms_or_protocol_choices_are_mapped_to_results",
+        "comparisons_explain_positioning_against_alternatives",
+        "discussion_or_limitation_claims_are_explained_mechanistically",
+        "proven_claims_are_separated_from_unproven_or_unvalidated_claims",
+        "research_or_engineering_takeaways_are_specific_and_reusable",
+        "followup_questions_are_specific_to_replication_or_extension"
+      ]
+    }
+  }
+}

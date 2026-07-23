@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.1007/s41365-023-01347-4",
+  "reviewed_artifacts": [
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_source_manifest.json",
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_full_text.md",
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_note_plan.json",
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_figure_table_decisions.json",
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_draft.md",
+    "2023_The_3D_nanoimaging_beamline_at_SSRF_note_lint.json"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：题名、九位作者、在线日期、期刊卷文号、DOI 与开放数据 DOI 均和原文一致。",
+    "abstract_fidelity": "pass：忠实覆盖 TXM 背景、BL18B 自研系统、5–14 千电子伏、20 纳米及三类性能介绍，没有混入正文评价。",
+    "platform_scope": "pass：光源/光学、终端、EPICS 控制、自动配准、AduRecon、TXM-Wizard 和开放数据六层能力均有证据。",
+    "metric_boundaries": "pass：20 纳米限定为二维 Siemens 星 PSD；30 纳米/像素限定为 NCM622 CT 采样；三维分辨率未被虚构。",
+    "spectroscopy_boundary": "pass：8.2–8.6 千电子伏图被解释为相对 Ni K 边空间差异，不等同绝对价态；价态标准和误差列为缺口。",
+    "radiation_damage_boundary": "pass：兔骨一小时结果被限定为肉眼可见形貌的定性观察，不扩展为生物样品无损伤结论。",
+    "comparative_novelty": "pass：与 2022 调试和同年 JSR 三维论文去重，新增价值被定位为整站、多模态、控制软件和开放数据。",
+    "future_gap_grounding": "pass：束斑位置反馈和 FZP 角度电机直接来自作者结论，并转化为可量化验收建议。",
+    "figure_evidence": "pass：7 个自动 insert 候选逐幅人工打开后只保留 Fig. 6、Fig. 10；另外 5 个因严重截断、跨图或正文污染降级。"
+  },
+  "edits_made": [
+    "将 Fig. 2、Fig. 3、Fig. 4、Fig. 8、Table 2 从 insert 降级为 visual_defect 并记录人工观察。",
+    "将接受角和光学元件位置改为中文单位与全称，消除不必要的中英混排。",
+    "显式保留 2022 与 2023 两篇论文能量分辨率设计口径 5e-4 与 2e-4 的来源差异。"
+  ],
+  "remaining_known_risks": [
+    "本文未提供 30 纳米/像素 CT 的独立三维分辨率或剂量。",
+    "开放数据的原始暗场、平场、运动日志和处理参数完整度需要在后续复现时单独审计。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

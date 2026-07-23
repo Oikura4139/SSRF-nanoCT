@@ -1,0 +1,234 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.pdf",
+    "total_pages": 9,
+    "text_pages_extracted": 9,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 9,
+    "text_max_pages": null,
+    "text_pages_extracted": 9,
+    "text_pages_scanned": 9,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2855,
+      "text_hash_sha256": "c230c7e18e48a90994eb4e8ca73398f9749a3761ba3c48c5877e1529983664ba"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 7,
+      "char_count": 25805,
+      "text_hash_sha256": "33951cd8fb6064a424978754f8cdd76ac12f2ed79e3c0d9d512e481f5b8e01a5"
+    },
+    {
+      "section_id": "sec:approach",
+      "kind": "method",
+      "title": "approach,",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 76,
+      "text_hash_sha256": "debc6627b54bd7e5cdc84fc5d1598d701e7278d515c13584275c982dfe5a774e"
+    },
+    {
+      "section_id": "sec:data",
+      "kind": "data",
+      "title": "data",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 1168,
+      "text_hash_sha256": "132be0673cc0c6c7a93419be797d792b158033750dd27cdc0d36a7683152db0e"
+    },
+    {
+      "section_id": "sec:approach-2",
+      "kind": "method",
+      "title": "approach",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 199,
+      "text_hash_sha256": "580d0ec412ff9bfef10a9398b438d69a02f9df59aebb0c0f9faac911b289d638"
+    },
+    {
+      "section_id": "sec:conclusions",
+      "kind": "conclusion",
+      "title": "4. Conclusions",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 2172,
+      "text_hash_sha256": "08594dda14b28aa034f43cca94c73c01b051521f24b8845f8aefb9e022910160"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 611,
+      "text_hash_sha256": "903808bdadf6c07b4612712692342e9cfd0d930befa36bc3042114cfb6fea009"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 7845,
+      "text_hash_sha256": "a7a99ff9f76ef24818de90c57f0dec57dc7d6a30a227a2b8f6fba59938a42d6d"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4041,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 6414,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4779,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4189,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4989,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4182,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2604,
+      "section_ids": [
+        "sec:introduction",
+        "sec:approach",
+        "sec:data",
+        "sec:approach-2",
+        "sec:conclusions"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 6555,
+      "section_ids": [
+        "sec:conclusions",
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3091,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:introduction"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "befc3f16a9bf6e577dee8ef16a05f63bd47a1816b65d5dc632940e015ba08609"
+}

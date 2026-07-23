@@ -1,0 +1,258 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "在可选类型中最接近系统/实验方法论文：论文以双分辨率 TXM 模式和三类样品的 nano-CT 演示验证 BL18B 的三维成像能力。",
+  "dominant_domain": "同步辐射全场硬 X 射线 nano-CT 与双模式 TXM",
+  "must_cover": [
+    "高分辨率与中分辨率两套 FZP—探测器模式",
+    "二维 Siemens star 分辨率、视场、曝光和有效像素的联合验证",
+    "高 Z 金颗粒、低 Z SiO2 与 NCM622 的三维实验协议",
+    "速度—分辨率—低能效率之间的工程权衡",
+    "二维 19.6/60.9 nm、体素/像素尺寸和三维分辨率声明的严格区分"
+  ],
+  "key_numbers": [
+    "BL18B 弯铁源 3.5 GeV、1.27 T、300 mA，工作能区 5–14 keV",
+    "高分辨模式使用 25 nm 外环宽 FZP，解调像素约 6–13 nm；中分辨模式使用 40 nm FZP，解调像素约 30 nm",
+    "二维分辨率：高分辨模式 8 keV、30 s 曝光、RPSD 得 19.6 nm；中分辨模式 5.2 keV、10 s 曝光、RPSD 得 60.9 nm",
+    "视场宽度约为高分辨 13 μm、中分辨 20 μm",
+    "高分辨常规投影曝光 3–10 s、完整 CT 至少 20–30 min；中分辨 8 keV 可达 0.3 s/投影、完整 CT 约 1–2 min，快逾 10 倍",
+    "金颗粒 CT：8 keV、10 nm 像素、180 幅/0–180°/1°步进、5 s/幅、总采集约 20 min",
+    "SiO2 CT：5.2 keV、29 nm 像素、180 幅、5 s/幅，并观察到约 0.8 μm 内部孔洞",
+    "NCM622：180 幅、5 s/幅；裂纹体积 1.9 μm³、颗粒体积 75.4 μm³、孔隙率 2.5%"
+  ],
+  "real_comparisons": [
+    "高分辨模式以更小有效像素和 19.6 nm 二维结果换取较小视场、较长曝光和至少 20–30 min CT；中分辨模式以 60.9 nm 二维结果换取 1–2 min CT 与低能低 Z 可用性",
+    "金颗粒高 Z 样品在 8 keV 提供 33%–70% 估算吸收，SiO2 低 Z 样品在 5.2 keV 约 13% 吸收，验证两种材料条件",
+    "nano-CT 重建与同批样品 SEM 形貌作定性一致性比较，而非同一颗粒、同一坐标的三维定量配准"
+  ],
+  "central_claims": [
+    {
+      "claim": "BL18B 的双模式 TXM 分别实现了约 19.6 nm 和 60.9 nm 的二维吸收成像分辨率。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            3,
+            4
+          ]
+        }
+      ],
+      "what_it_actually_proves": "两种 Siemens star、不同能量与 RPSD 截止频率给出了清晰的二维分辨率证据，并同时报告视场和曝光。",
+      "what_it_does_not_prove": "这些二维靶标结果不直接证明重建体具有相同数值的各向同性三维分辨率。"
+    },
+    {
+      "claim": "两套模式能够对高 Z 和低 Z 微米颗粒开展无损三维 nano-CT。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "what_it_actually_proves": "金颗粒和 SiO2 的 180 角度投影被重建为切片和三维体，形貌与 SEM 观察定性一致，低 Z 样品还显示内部孔洞。",
+      "what_it_does_not_prove": "论文没有使用 FSC、3D MTF 或标准三维结构给出 sub-50–100 nm 的独立三维分辨率验收，也没有同一颗粒的配准式 SEM 对照。"
+    },
+    {
+      "claim": "BL18B nano-CT 可定量揭示电池二次颗粒内部裂纹网络。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            5,
+            6
+          ]
+        }
+      ],
+      "what_it_actually_proves": "NCM622 重建显示从中心向外分叉的裂纹，并按阈值分割估算了裂纹体积和 2.5% 孔隙率。",
+      "what_it_does_not_prove": "单颗粒示例不能建立循环退化的统计规律，阈值敏感性、测量不确定度和外部定量基准均未报告。"
+    }
+  ],
+  "claim_boundaries": [
+    "19.6 nm 与 60.9 nm 是二维 TXM 分辨率；10 nm 和 29–30 nm 是解调像素尺寸；两者都不能替代三维分辨率。",
+    "摘要的 sub-50 nm to 100 nm 3D 表述缺少独立 3D 分辨率方法，最终笔记应按演示能力而非严格计量结果表述。",
+    "中分辨模式 0.3 s/幅和 1–2 min CT 是能力描述；本文 SiO2 实验实际采用 5 s/幅，不能混写。",
+    "SEM 对照为同批样品形貌一致性，不是同一体数据的逐体素真值。",
+    "NCM622 单颗粒定量不支持对材料体系寿命或普遍裂纹机制的统计外推。"
+  ],
+  "negative_or_limiting_results": [
+    "高分辨模式完整 CT 至少 20–30 min，时间分辨率和剂量代价明显。",
+    "高分辨透镜耦合探测器在 5–6 keV 受空气衰减和效率限制，论文明确称低能成像不可行。",
+    "仅 180 幅等角投影用于细像素三维重建，未分析角度欠采样、缺失频率或重建偏差。",
+    "没有 3D 分辨率计量、重复扫描、稳定性、辐射损伤和分割不确定度。",
+    "论文没有消融或同条件算法比较，无法分离硬件模式、配准和重建软件各自对质量的贡献。"
+  ],
+  "mechanism_result_map": [
+    "25 nm FZP、透镜耦合闪烁体和 6–13 nm 解调像素扩大高空间频率采样，对应 19.6 nm 二维结果，但牺牲探测效率和扫描速度。",
+    "40 nm FZP 与直接光纤耦合 X-ray sCMOS 提高低能效率并把 8 keV 曝光降至 0.3 s，对应 1–2 min 的中分辨快速 CT 能力。",
+    "5.2 keV 提高 SiO2 的吸收对比，加上高效率中分辨探测链，使约 13% 吸收的低 Z 颗粒无需额外相衬算法仍可重建。",
+    "旋转投影、自动配准/重建和灰度阈值分割把 NCM622 内部低密度裂纹转化为三维孔隙网络及体积分数。"
+  ],
+  "comparative_positioning": [
+    "相较 2022 年工程调试论文，本研究首次把 BL18B 从二维指标验收推进到高/低 Z 参考样品和电池颗粒的三维应用演示。",
+    "双模式不是单纯的高低档配置，而是把极限分辨率与低能效率、视场、时间分辨率分成两条可切换工作点。",
+    "与文中引用的一分钟 nano-tomography 路线相比，BL18B 中分辨模式达到同量级 1–2 min，本文高分辨模式仍为 20–30 min 级。"
+  ],
+  "reuse_takeaways": [
+    "nano-CT 性能表必须同时报告 2D 分辨率、3D 分辨率、像素、FOV、投影数、曝光、总时间、能量和样品吸收。",
+    "高/中分辨双模式可按科学问题选择，而不应把最高二维分辨率作为所有实验的默认配置。",
+    "三维裂纹定量需增加分割阈值敏感性、重复性和材料统计样本，才能从展示走向计量。"
+  ],
+  "followup_questions": [
+    "高分辨和中分辨模式用同一三维标准样品测得的 FSC/3D MTF 分辨率分别是多少？",
+    "180 幅投影对 10 nm 像素和 13 μm 视场是否满足角度采样定理，增加投影数会怎样改变裂纹体积？",
+    "在相同剂量预算下，两种模式的 CNR、三维分辨率和总时间 Pareto 前沿如何？",
+    "低 Z 样品加入 Zernike 相衬或相位恢复后，是否能在更高能量或更低剂量下保持重建质量？",
+    "NCM622 裂纹孔隙率对重建算法、环伪影处理和灰度阈值的置信区间是多少？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "weight": "high",
+      "subsections": [
+        "二维验收到三维应用",
+        "分辨率与时间效率的双模式折中"
+      ],
+      "focus": "解释 BL18B 如何从 20 nm 二维指标走向真实 nano-CT，同时用两种探测链解决极限分辨率与低能快速成像的冲突。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "weight": "high",
+      "subsections": [
+        "二维分辨靶",
+        "高低 Z 三维参考样品",
+        "电池裂纹任务"
+      ],
+      "focus": "区分 Siemens star 二维计量、金和 SiO2 三维可靠性演示，以及 NCM622 裂纹分割三个不同任务及其评价证据。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "page_range": {
+            "start": 3,
+            "end": 6
+          }
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "weight": "high",
+      "subsections": [
+        "机制流程",
+        "双 FZP—探测器工作点",
+        "投影采集与三维重建",
+        "裂纹分割"
+      ],
+      "focus": "按照明、样品旋转、FZP 放大、双探测器采集、投影对齐、重建和分割说明完整链路及模式切换逻辑。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "page_range": {
+            "start": 1,
+            "end": 6
+          }
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "weight": "high",
+      "subsections": [
+        "二维分辨率与视场",
+        "三维参考样品",
+        "NCM622 裂纹定量"
+      ],
+      "focus": "用表格联合呈现能量、FZP、像素、二维分辨率、FOV、曝光和 CT 时间，并单列三维证据的计量边界。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "section_id": "sec:conclusions"
+        },
+        {
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "weight": "high",
+      "subsections": [
+        "为什么双模式有效",
+        "速度—分辨率—低能效率 Pareto",
+        "容易被误读的三类分辨率"
+      ],
+      "focus": "解释探测器效率和 FZP 外环宽怎样产生结果差异，并严格拆开二维分辨率、像素尺寸和未独立测量的三维分辨率。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "section_id": "sec:conclusions"
+        },
+        {
+          "pages": [
+            2,
+            3,
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "weight": "high",
+      "subsections": [
+        "三维计量缺口",
+        "角度采样与剂量",
+        "单颗粒统计边界"
+      ],
+      "focus": "指出 180 投影、无 FSC/3D MTF、低能高分辨不可用、长扫描和单颗粒阈值分割造成的结论边界。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "section_id": "sec:conclusions"
+        },
+        {
+          "pages": [
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    }
+  ]
+}

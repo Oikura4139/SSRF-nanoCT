@@ -1,0 +1,866 @@
+# Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells
+
+## sec:preamble preamble
+_Pages 1-1_
+
+research papers
+IUCrJ (2018). 5, 141–149
+https://doi.org/10.1107/S2052252517017912
+IUCrJ
+ISSN 2052-2525
+NEUTRONjSYNCHROTRON
+Received 10 October 2017
+Accepted 15 December 2017
+Edited by K. Moffat, University of Chicago, USA
+Keywords: cellular imaging; X-ray tomography;
+equally sloped tomography; dual-energy
+contrast; computed tomography; nanoscience;
+X-ray microscopy; imaging; structure
+determination.
+Supporting information: this article has
+supporting information at www.iucrj.org
+Three-dimensional ultrastructural imaging reveals
+the nanoscale architecture of mammalian cells
+Shengkun Yao,a,b Jiadong Fan,a Zhiyun Chen,c Yunbing Zong,d Jianhua Zhang,a,d
+Zhibin Sun,a,d Lijuan Zhang,e Renzhong Tai,e Zhi Liu,a Chunying Chenc and
+Huaidong Jianga,b,d*
+aSchool of Physical Science and Technology, ShanghaiTech University, 393 Middle Huaxia Road, Pudong,
+Shanghai 201210, People’s Republic of China, biHuman Institute, ShanghaiTech University, 393 Middle Huaxia Road,
+Pudong, Shanghai 201210, People’s Republic of China, cCAS Key Laboratory for Biomedical Effects of Nanomaterials and
+Nanosafety, National Center for Nanoscience and Technology of China, No. 11 ZhongGuanCun BeiYiTiao,
+Beijing 100190, People’s Republic of China, dState Key Laboratory of Crystal Materials, Shandong University,
+27 Shanda Nanlu, Jinan, Shandong 250100, People’s Republic of China, and eShanghai Synchrotron Radiation Facility,
+Shanghai Institute of Applied Physics, Chinese Academy of Science, 239 Zhangheng Road, Pudong New District,
+Shanghai 201204, People’s Republic of China. *Correspondence e-mail: jianghd@shanghaitech.edu.cn
+Knowledge of the interactions between nanomaterials and large-size mamma-
+lian cells, including cellular uptake, intracellular localization and translocation,
+has greatly advanced nanomedicine and nanotoxicology. Imaging techniques
+that can locate nanomaterials within the structures of intact large-size cells at
+nanoscale resolution play crucial roles in acquiring this knowledge. Here, the
+quantitative imaging of intracellular nanomaterials in three dimensions was
+performed by combining dual-energy contrast X-ray microscopy and an
+iterative tomographic algorithm termed equally sloped tomography (EST).
+Macrophages with a size of 20 mm that had been exposed to the potential
+antitumour agent [Gd@C82(OH)22]n were investigated. Large numbers of
+nanoparticles (NPs) aggregated within the cell and were mainly located in
+phagosomes. No NPs were observed in the nucleus. Imaging of the
+nanomedicine within whole cells advanced the understanding of the high-
+efficiency antitumour activity and the low toxicity of this agent. This imaging
+technique can be used to probe nanomaterials within intact large-size cells at
+nanometre resolution uniformly in three dimensions and may greatly benefit the
+fields of nanomedicine and nanotoxicology.
+
+## sec:introduction 1. Introduction
+_Pages 1-7_
+
+Nanotechnology has dramatically increased the intentional
+and unintentional exposure of humans to nanomaterials,
+which generate various biological effects. Some nanomaterials
+exhibit diagnostic and therapeutic effects for certain diseases
+in medical applications, whereas others can cause possible
+adverse effects (Chauhan & Jain, 2013; Colvin, 2003; Ober-
+do¨rster et al., 2005). These diverse effects are determined
+by the interactions between nanomaterials and biological
+systems, particularly at the subcellular level, including cellular
+uptake, intracellular localization and translocation (Cheng
+et al., 2013; Chou et al., 2011; Iversen et al., 2011). Imaging
+techniques that can visualize nanomaterials within whole cells
+at nanometre resolution now play a crucial role in nano-
+medicine and nanotoxicology.
+Electron microscopy has become the most commonly used
+technique for cellular studies to date because of its excellent
+resolving power. However, the tedious sample-preparation
+and mechanical slicing procedures make the nondestructive
+imaging of intact cells challenging (Medalia et al., 2002;
+McIntosh et al., 2005; Leis et al., 2009). Optical microscopy
+facilitates the imaging of cells in a more rapid and simple
+manner, can be used to obtain videos of living cells and can
+achieve exquisite detail and molecular specificity via the use of
+fluorescent labelling technologies. However, the complete
+cellular context cannot be elucidated (Stephens & Allan, 2003;
+Dean & Palmer, 2014; Ntziachristos, 2010; Jia et al., 2014;
+Huang et al., 2009; Hell, 2003; Betzig et al., 2006). Thus,
+important gaps exist between optical and electron microscopic
+techniques in terms of their spatial resolution, sample thick-
+ness, labelling requirements, contrast mechanism and quanti-
+tative capability. Several X-ray imaging approaches have
+made important contributions towards bridging this gap,
+including zone plate-based and lens-less X-ray microscopy
+(Kirz et al., 2009; Larabell & Nugent, 2010; Le Gros et al., 2005;
+Leis et al., 2009; Pe´rez-Berna´ et al., 2016; Conesa et al., 2016;
+Varsano et al., 2016). Dual-energy X-ray microscopy is a
+promising choice to explore the interactions between nano-
+materials and cells, and can achieve quantitative nondestruc-
+tive three-dimensional imaging of both cellular structures and
+nanomaterials at nanometre resolution simultaneously.
+Dual-energy contrast X-ray microscopy is based on the
+abrupt change in the absorption when the energy of the
+incident X-rays changes from just below the absorption edge
+of a specific element to above it (Fig. 1). The observed
+differences between images collected at the two energies
+reflect the locations of element-specific nanomaterials (Zhang
+et al., 2010; Rarback et al., 1987). This method has been widely
+applied to many fields to investigate biological materials
+(Wang et al., 2015; Conesa et al., 2016; Chen et al., 2014),
+organic materials (Johansson et al., 2007; Hitchcock et al.,
+2008), energy materials (Nelson et al., 2011; Liu et al., 2014;
+Kao et al., 2013; Andrews & Weckhuysen, 2013) and clinical
+medical applications (Houk et al., 1979; Lewis, 1997). This
+method can simultaneously image the ultrastructures of cells
+and intracellular nanomaterials, and thus can be used to
+investigate the interactions
+between nanomaterials and
+biological systems. However, its applications for cellular
+imaging are limited by the sensitivity of biological specimens
+to irradiation and the robustness of the tomographic algo-
+rithms. In particular, the nanometre-resolution imaging of
+large-size mammalian cells is quite difficult because of sample
+preparation, the field of view of image techniques and the
+missing wedge problem in tomographic reconstruction.
+We applied dual-energy contrast X-ray microscopy to
+explore the intracellular localization of nanomaterials in
+whole large-size mammalian cells. By combining scanning
+transmission X-ray microscopy (STXM) and a Fourier-based
+iterative
+tomographic
+algorithm
+termed
+equally
+sloped
+tomography (EST), we investigated the quantitative three-
+dimensional subcellular distribution of Gd@C82(OH)22 within
+a macrophage. Gd@C82(OH)22 is a promising antitumour
+agent that exhibits high-efficiency antitumour activities and
+low toxicity in vitro and in vivo (Meng, Wang et al., 2010; Meng
+et al., 2013; Li et al., 2012; Chen et al., 2005). The exact anti-
+tumour mechanism is not clear, although the antitumour
+activity is known to result from tumour microenvironment
+regulation instead of direct cytotoxicity to tumour cells (Yin et
+al., 2008, 2009; Wang et al., 2006; Meng, Xing et al., 2010; Meng
+et al., 2012; Liu et al., 2009; Liang et al., 2010). Macrophages
+play key roles in the microenvironment because of their
+diverse functions. They are crucial components of the innate
+immune system and are engaged in host defence activities,
+including the removal of dead cells and pathogens by phago-
+cytosis, the secretion of cytokines and other factors, and the
+modulation of adaptive immunity by presenting antigens to
+lymphocytes (Weissleder et al., 2014). Meanwhile, tumour-
+associated macrophages exert stimulating effects on tumour
+growth by establishing tumour stroma conditions (Ruffell et
+al., 2012; Qian & Pollard, 2010). Thus, by investigating the
+subcellular distribution of this nanomedicine, we hope to
+improve our understanding of the antitumour activities of this
+agent.
+2. Experimental
+2.1. Sample preparation
+For the in vitro experiments, mouse peritoneal macrophages
+were incubated and treated with Gd@C82(OH)22 nanoparticles
+(NPs; 50 mM) on 100 nm carbon membranes for 3 h. The cells
+were fixed in cold 70% ethanol for 40 min and then gradually
+dehydrated in 85% ethanol for 15 min, 95% ethanol for
+10 min and 100% ethanol for 10 min (Chen et al., 2014). Well
+isolated macrophages were then selected by light microscopy
+and used for experiments.
+2.2. Data acquisition
+The experiment was mainly performed on the Soft X-ray
+Spectromicroscopy Beamline (BL08U1A) at the Shanghai
+Synchrotron Radiation Facility (SSRF; Zhang et al., 2015). The
+schematic layout of the STXM is presented in Fig. 1(a).
+Monochromatic X-rays were focused with a Fresnel zone plate
+(FZP) with an outer zone width of 30 nm. After an order-
+sorting aperture (OSA), a 50 nm focal spot was achieved. The
+X-ray transmission of the sample was then detected using a
+photomultiplier tube. A two-dimensional image was formed
+after a raster scan of the full sample.
+The macrophages grown on the carbon membrane were
+scanned through the focal plane perpendicular to the beam
+direction with a 50 nm step size and a 5 ms dwell time. After
+one projection had been obtained, the sample stage was
+rotated. For tomographic reconstruction, projections were
+measured at 46 equally sloped angles over a range of 79.4.
+The missing wedge caused by the interference of the stage
+holder with the incident X-rays was limited to 20. Equally
+sloped angles were chosen so that EST could be used. The
+energies were determined based on the total electron yield
+(TEY) signals (i.e. 1189 and 1186 eV; Supplementary Fig. S2).
+Two data sets were measured above and below the Gd M2
+edge (Supplementary Figs. S3 and S4). The sample was re-
+focused after the stage had been rotated and the energy
+changed. The total radiation dose delivered to the macro-
+phage was minimized to 4.43  106 Gy, and little structural
+change was observed during the experiment. To assess the
+research papers
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+IUCrJ (2018). 5, 141–149
+effect of radiation damage, two projections were taken at 0
+before and after full data sets had been acquired. The two
+projections were in good agreement, indicating that there was
+no detectable radiation damage to the macrophage (Supple-
+mentary Fig. S5).
+XRF mapping of the same macrophage was performed on
+the Hard X-ray Micro-Focus Beamline (BL15U) at SSRF (Qiu
+et al., 2011). A focal spot with a size of 200 nm and an energy
+of 8 keV was raster-scanned through the macrophage using a
+200 nm step size, and the two-dimensional distribution of
+gadolinium (Gd) was determined.
+2.3. Tomographic reconstruction
+EST is an iterative method that is based on the pseudo-
+polar fast Fourier transform (PPFFT; Averbuch, Coifman,
+Donoho, Israeli & Shkolnisky, 2008; Averbuch, Coifman,
+Donoho, Israeli, Shkolnisky et al., 2008) and the oversampling
+method (Miao et al., 2005; Jiang et al., 2010). Instead of
+acquiring projections with constant angular increments, as in
+conventional tomography, projections obtained using the EST
+method are acquired using equally sloped increments. With
+PPFFT, projections with equally sloped increments are utilized
+to make mathematically exact three-dimensional reconstruc-
+tions. When a limited number of projections are obtained
+using iteration between real space and Fourier space, recon-
+structions that are more precise than those produced by
+conventional tomography can be generated (Yao et al., 2016).
+In real space, the negative density and density outside support
+are pushed to zero. In reciprocal space, Fourier coefficients
+with both magnitudes and phases, which are obtained from
+reconstructed projections, are updated at each iteration,
+whereas the other Fourier coefficients remain unchanged. The
+iteration is monitored by an error metric defined as the
+difference between the calculated Fourier coefficients and
+those obtained experimentally, and the algorithm is termi-
+nated when a maximum number of iterations is reached.
+Before tomographic reconstruction, the projections were
+aligned to a common tilt axis. The tilt axes had an arbitrary
+shift along the x and y axes in the experiment, where y is the
+tilt axis and z is the beam direction. The shift was corrected
+using the centre-of-mass method, which has been tested
+experimentally. The aligned projections were then recon-
+structed using the EST method (Miao et al., 2005; Scott et al.,
+2012; Zhao et al., 2012; Jiang et al., 2010). In our reconstruc-
+tions, we terminated the algorithm after 300 iterations, when
+the error function stabilized. The tomographic quality was
+verified by comparing the experimental and calculated
+projections (Supplementary Fig. S6), and three-dimensional
+structure information was collected at 75–80 nm resolution
+(Supplementary Figs. S7 and S8).
+2.4. Dual-energy contrast X-ray microscopy
+When the energy of the incident X-rays changes from just
+below the absorption edge of a specific element to above it,
+the attenuation of the X-rays varies dramatically. This abrupt
+change is used in the dual-energy contrast-imaging method to
+obtain a quantitative distribution of the specific element. In
+this method, two images are acquired at the same tilt angles at
+E1 and E2, where E1 and E2 represent the energies below and
+above the absorption edge of a specific element. Differences
+between the two images contribute to confirming the presence
+of specific element, and the absorption of other elements can
+be neglected because the change in the photon energy is small.
+(i) TEY, which detects the electric current caused by
+secondary electrons, was used to measure the X-ray absorp-
+tion edge spectra of gadolinium (Gd), and the energies just
+below and above the absorption edge were determined.
+(ii) Tomographic data acquisition was performed by STXM
+at the two selected energies.
+(iii) The data sets were reconstructed separately with the
+EST algorithm.
+(iv) Mapping of the intracellular nanomaterials was
+achieved by calculating the difference in the reconstructed
+three-dimensional volume after calibrating the position.
+(v) The threshold was determined based on the intensity
+histogram (Supplementary Fig. S9) and was verified by the
+two-dimensional distribution of Gd obtained based on a two-
+research papers
+IUCrJ (2018). 5, 141–149
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+Figure 1
+Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption
+edge of a specific element, (b) the projections were reconstructed by the EST algorithm separately (scale bar 4.0 mm) and (c) the quantitative three-
+dimensional distribution of the specific element was calculated based on the abrupt change in the absorption (scale bar 2.0 mm).
+dimensional projection from the calculated three-dimensional
+Gd distribution (Supplementary Fig. S10).
+2.5. Organelle segmentation and three-dimensional volume
+rendering
+The
+reconstructed
+three-dimensional
+images
+were
+segmented manually and visualized using the Amira software
+package. The organelles in a cell have characteristic linear
+absorption coefficients because of the differences in their
+chemical compositions (McDermott et al., 2012; Le Gros et al.,
+2005; Larabell & Nugent, 2010). This property was used to
+segment three-dimensional images into subvolume regions
+that had similar linear absorption coefficients. The segmented
+regions
+were
+then
+identified
+based
+the
+organelle
+morphologies, which were evaluated by other methods, such as
+light and electron microscopy techniques. To study the trans-
+port of NPs in the vacuoles, we focused on the segmentation of
+different types of vacuoles. Three types of vacuoles with
+specific densities and sizes were segmented and identified.
+3. Results and discussion
+3.1. Three-dimensional ultrastructure of the macrophage
+A well isolated macrophage that had been treated with
+Gd@C82(OH)22 and grown on a carbon membrane was
+selected using a light microscope (Supplementary Fig. S1). The
+three-dimensional structure of the cell was obtained by
+combining dual-energy STXM and the EST algorithm. The
+tomographic images show that the macrophage, which had
+overall dimensions of 18.1  15.5  3 mm, exhibited
+distinctive features such as an irregular shape, a rough surface
+and branching pseudopods (Fig. 2a), which coincide with the
+optical image.
+In addition to the morphological analysis, which had higher
+resolution than the optical imaging, the internal structures of
+the macrophage were visualized by virtual sectioning into
+50 nm thick slices. The colour in the slices represents different
+linear absorption coefficients: red corresponds to high values,
+yellow to medium values and blue to low values. Figs. 2(b) and
+2(c) present two slices perpendicular to the beam direction at
+the two energies (i.e. 1189 and 1186 eV), and vacuoles with
+low linear absorption coefficients can clearly be observed.
+These vacuoles were distributed in the cytoplasm and had
+volumes of 1.7–6.3 mm3. Moreover, large numbers of dense
+round particles (i.e. primary lysosomes) with high linear
+absorption coefficients were evident, and their diameters were
+in the range 200–400 nm. The characteristic structures agree
+with previous results obtained via optical and electron
+microscopy (Papadimitriou & Ashman, 1989), indicating that
+the macrophage is in the active state. The state of the
+macrophage
+was
+further
+confirmed
+the
+ability
+Gd@C82(OH)22 to induce primary mouse macrophages to
+produce significant numbers of pro-inflammatory cytokines
+(Supplementary Table S1). The intracellular distribution of
+[Gd@C82(OH)22]n
+could
+distinguished
+qualitatively
+according to the differences in the linear absorption coeffi-
+cient between the two slices (Figs. 2d and 2e, arrows). To
+quantitatively analyze the three-dimensional distributions of
+the nanomaterials, calculations based on the abrupt change in
+the absorption at the two energies were performed.
+3.2. Three-dimensional intracellular distribution of
+[Gd@C82(OH)22]n
+The
+three-dimensional
+intracellular
+distribution
+[Gd@C82(OH)22]n was determined and virtually quantitated
+slice by slice. Fig. 3(a) displays a 50 nm thick slice in which
+research papers
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+IUCrJ (2018). 5, 141–149
+Figure 2
+Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as
+pseudopods, rough surfaces and flat shapes. These features indicate that the immune cell was in a highly active state. The same slices at 1189 eV (b) and
+1186 eV (c) perpendicular to the beam direction reveal the subcellular structures, such as low-density vacuoles. Enlarged regions of the rectangle at
+1189 eV (d) and 1186 eV (e) show differences in absorption because of the presence of [Gd@C82(OH)22]n. The scale bar in (b) and (c) is 2.0 mm and that
+in (d) and (e) is 0.5 mm.
+[Gd@C82(OH)22]n is aggregated in the macrophages and
+exhibits a characteristic distribution. Compared with the two-
+dimensional projected distribution (Fig. 3b), the problems
+with ambiguity resulting from the overlap of structures along
+the beam direction were solved. To verify the exact locations
+of the nanoparticles (NPs) in the nuclear regions, the rectan-
+gular region in Fig. 3(b) was analyzed, slice by slice, in two
+perpendicular directions (Fig. 4). A cluster of NPs was found
+on the surface of the nucleus and was distributed into one
+large and four small vacuoles, in which the density and
+distribution of [Gd@C82(OH)22]n were different. This macro-
+phage was also subjected to hard X-ray fluorescence (XRF)
+microscopy to compare its effectiveness with that of dual-
+energy contrast microscopy (Fig. 3c). Although the general
+distribution of [Gd@C82(OH)22]n could be approximated, the
+distribution was indistinguishable in some regions, especially
+near the nucleus, because of the limited resolution and self-
+absorption of the XRF signals.
+3.3. Quantitative observation of the ultrastructures of the
+macrophage and nanomaterial distributions simultaneously
+Three-dimensional
+images
+the
+macrophage
+were
+segmented based on differences in the linear absorption
+coefficient and specific morphology (Figs. 5a and 5b).
+[Gd@C82(OH)22]n was taken up effectively by the macrophage
+and redistributed at the subcellular level. Fig. 5(c) presents the
+distribution of [Gd@C82(OH)22]n in the cell. Large numbers of
+aggregated NPs were distributed in the cytoplasm. The total
+mass of NPs was 1.2  1010 g, and the volume ratio of NPs
+to the macrophage was 29%. The nanomaterials were
+distributed only in phagocytic vesicles, and no NPs were
+observed in other organelles, including the nucleus. Phagocytic
+vesicles have different volumes and densities (Fig. 5b), and the
+distributions of the nanomaterials in these vesicles also varied
+(Fig. 5e). Small vesicles tended to stick together and become
+larger ones. As the volume size increased, the density of the
+vesicles decreased and NPs distributed around the membrane.
+[Gd@C82(OH)22]n was exclusively observed within cyto-
+plasmic vesicles. Highly agglomerated particles were primarily
+located in the vesicle periphery and formed ring-shaped
+structures. The redistribution of NPs into different vesicles
+and the changes in the volume size and density of phagocytic
+vesicles may imply the rearrangement and fusion of vesicles
+and NPs in the vesicles of macrophages at the subcellular
+level.
+Gd@C82(OH)22,
+endohedral
+hydroxylated
+metallo-
+fullerene, is a promising antitumour agent that has highly
+efficient antitumour activities and low toxicity both in vitro
+and in vivo (Chen et al., 2005; Meng et al., 2013; Meng, Wang et
+al., 2010; Li et al., 2012). Previous studies mainly focused on
+the interaction between the NPs and individual organisms as
+well as the distribution of the NPs in different organs (Meng et
+al., 2012, 2013; Li et al., 2012; Zhang et al., 2011; Meng, Wang et
+al., 2010; Liang et al., 2010; Yin et al., 2008, 2009; Liu et al.,
+2009; Wang et al., 2006; Chen et al., 2005). The interaction
+between NPs and cells at the subcellular level is substantially
+more important for understanding the antitumour mechanism.
+better
+understand
+the
+antitumour
+mechanisms
+[Gd@C82(OH)22]n on the subcellular scale, the quantitative
+three-dimensional distribution of the NPs in macrophages was
+investigated by combining dual-energy STXM and the EST
+algorithm. Here, characteristic structures were observed, such
+as pseudopods and large vacuoles, thus indicating that
+[Gd@C82(OH)22]n may be an immune potentiator that initiates
+the
+immune
+activities
+macrophages.
+Moreover,
+the
+distinctive properties of the NPs facilitate their uptake by
+macrophages. Gd@C82(OH)22 is water-soluble and tends to
+aggregate into clusters because of the modification of the
+hydroxyl groups on the fullerene cage (Meng et al., 2013).
+Their biocompatibility is also improved as the outer surface of
+the NPs is usually surrounded by water molecules because of
+hydrogen bonding. The specific structures and surface prop-
+erties of the NPs and the immune stimulation of the macro-
+phage may contribute to the high efficiency for cell uptake.
+Large amount of nanoparticles are easily incorporated into
+research papers
+IUCrJ (2018). 5, 141–149
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+Figure 3
+Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of
+[Gd@C82(OH)22]n in a projection perpendicular to the beam direction. (c) XRF of the same cell mapping Gd. The exact three-dimensional location of
+[Gd@C82(OH)22]n can be determined in (a). Furthermore, the high spatial resolution in (a) avoids the ambiguity in (c), which is caused by the low spatial
+resolution and self-absorption of fluorescence signals (scale bar 2.0 mm).
+the cell, which suggest high efficiency of the nanomedicine.
+Additionally, the low toxicity of [Gd@C82(OH)22]n relative to
+conventional
+chemotherapy
+also
+makes
+this
+species
+promising biomedical candidate. The toxicity of NPs is closely
+related to their subcellular distribution. [Gd@C82(OH)22]n was
+taken up by the macrophage and mainly located in phago-
+somes, not in the nucleus. This specific distribution in organ-
+elles that are relatively less important for the activities of the
+cell, to some extent, suggest low toxicity of the potential
+nanomedicine.
+Dual-energy contrast X-ray microscopy shows obvious
+advantages
+for
+investigating
+intracellular
+nanomaterials.
+Firstly, its relatively high three-dimensional uniform resolu-
+tion enables studies of large-size cells at the subcellular
+level. As shown in Fig. 3, the subcellular distribution of
+[Gd@C82(OH)22]n
+was
+clearly
+revealed
+dual-energy
+contrast STXM, whereas that determined by XRF remained
+ambiguous. Although scanning XRF microprobes have been
+used to generate two-dimensional projected elemental distri-
+butions with resolutions below 60 nm (Zhao et al., 2014; de
+Jonge & Vogt, 2010), the three-dimensional resolution is
+limited to 400 nm (de Jonge et al., 2010). The limited reso-
+lution of XRF makes investigating the subcellular distribution
+of trace elements difficult. In our experiment, the ultimate
+resolution of the three-dimensional STXM reconstruction was
+limited by the size of the focal spot. By minimizing the spot
+size, a much higher resolution can be achieved. Moreover,
+the missing wedge problem was eliminated by using an
+iterative tomographic algorithm (Supplementary Fig. S7).
+Secondly, obtaining the three-dimensional distribution of
+[Gd@C82(OH)22]n was much easier. Although three-dimen-
+sional elemental mapping could be achieved by combining
+XRF and tomography, acquiring data and correcting for the
+self-absorption were difficult. Thirdly, the radiation damage
+resulting from the experiment was limited by the combination
+of STXM and EST. The total time required for data acquisi-
+tion was the primary limitation of this method. However, this
+time was mainly composed of user actions because of the
+manual nature of this prototype setup. Indeed, a substantial
+amount of time was wasted on re-focusing the setup when the
+energy and angle were changed. The time required could be
+significantly decreased by developing an automated focusing
+system. X-rays are suited to investigating trace elements in
+whole biological systems, such as unsectioned cells (Uchida et
+al., 2009; Schneider et al., 2010), because of the higher pene-
+tration of X-rays compared with electrons or visible light
+sources. Combining X-ray microscopy and spectroscopy
+makes the imaging of intracellular nanomaterials possible with
+high spatial and chemical resolution, which would greatly
+benefit the field of nanoscience.
+In this study, we demonstrated the quantitative imaging of
+intracellular nanomaterials in three dimensions on the
+nanoscale by dual-energy contrast X-ray tomography. The
+intracellular
+distribution
+nanomaterials
+was
+further
+confirmed by using X-ray fluorescence microscopy. This work
+shows the advantages of the multiple-model approach,
+research papers
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+IUCrJ (2018). 5, 141–149
+Figure 4
+Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region
+distinguished by sectioning in two orthogonal directions, where the z direction is the beam direction. (a) Successive slices along the z direction. The
+change in the linear absorption coefficient was used to determine the exact position of the nanomaterials, and lysosomes containing nanoparticles stick
+together and remain on the surface of the nucleus. The interfaces of the nucleus and vacuoles with nanomaterials are shown by black arrows. (b) Slices
+along the x direction at five positions (I, II, III, IV and V), as shown in (a). In I, II and V cracks are obvious (red arrows), indicating that the
+nanomaterials are located on the surface of the nucleus (scale bar 1.0 mm).
+indicating
+the
+trend
+and
+the
+future of X-ray imaging. By using
+the
+multiple-model
+
+## sec:approach approach,
+_Pages 7-7_
+
+each modality contributes unique
+information
+the
+specimen.
+The
+complementary
+
+## sec:data data
+_Pages 7-7_
+
+are
+combined and consequently yield
+a more complete picture of the
+specimen. Here, STXM was used
+to image cells and intracellular
+nanomaterials. In this modality,
+image contrast is generated by
+the differential attenuation of
+specimen illumination by the cell
+contents. The dual-energy scan
+can provide elemental specificity.
+In addition, the phase-contrast
+mode in a standard STXM setup
+has recently been developed in
+different ways, such as through
+the use of a pixelated detector
+(Liu et al., 2013). The phase-
+contrast mode will take advan-
+tage of the shift in X-ray phase
+on transmission of the sample and
+be helpful for visualizing the
+subcellular
+structures
+and
+achieving high-quality imaging.
+Furthermore, with the develop-
+ment
+synchrotron-radiation
+facilities, optical components and
+imaging methodologies, scanning
+hard X-ray fluorescence micro-
+scopy is gradually solving limita-
+tions such as the time-consuming
+data acquisition and low spatial
+resolution, showing the advan-
+tages in mapping multi-elemental
+content distributions in single
+cells
+down
+trace
+amounts
+(Smith et al., 2014; Liu et al., 2016;
+Deng et al., 2015). Therefore,
+the
+multiple-model
+
+## sec:approach-2 approach
+_Pages 7-7_
+
+combining different techniques
+will
+provide
+quantitative
+and
+qualitative information on the
+density
+distribution
+and
+ele-
+mental contents of interest in the
+context of the ultrastructures of
+samples.
+
+## sec:conclusions 4. Conclusions
+_Pages 7-8_
+
+summary,
+this
+work
+quantitative
+three-dimensional
+intracellular imaging of nano-
+materials has been demonstrated.
+research papers
+IUCrJ (2018). 5, 141–149
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+Figure 5
+The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage
+showing [Gd@C82(OH)22]n (dark red), nucleus (brown) and different types of lysosomes (yellow). (b)
+Organelle segmentation based on differences in the linear absorption and specific morphology. (c) Three-
+dimensional distribution of [Gd@C82(OH)22]n, showing that the NPs aggregate and exhibit a characteristic
+distribution in the cell. (d) Enlarged view of the nucleus in three dimensions showing that the NPs were
+distributed in four separated lysosomes on the surface of the nucleus. (e) Three different types of lysosomes
+were distinguished based on the density and distribution of [Gd@C82(OH)22]n, which may reflect the
+intracellular transportation of the nanomaterials.
+[Gd@C82(OH)22]n was highly taken up by macrophages and
+was mainly distributed in lysosomes. The subcellular distri-
+bution of this nanomedicine advanced our understanding of
+the corresponding antitumour activities. The results confirmed
+the utility of dual-energy contrast X-ray microscopy for
+studying the interactions between nanomaterials and large-
+size mammalian cells. The advantages of this technique
+include the high-resolution three-dimensional subcellular
+location of nanomaterials within intact cells and simple
+sample-preparation procedures without the need for labelling.
+Moreover, element-specific nanomaterials could be distin-
+guished when images were acquired at the corresponding
+absorption edge. Although the resolution was limited to 75–
+80 nm in our experiment, nanometre resolution could be
+achieved with the development of light sources and optical
+elements. Dual-energy contrast X-ray microscopy could
+simultaneously reveal both the structures of cells and the
+subcellular distributions of nanomaterials at nanometre
+resolution. We anticipate that this method will have broad
+applications in nanomedicine and nanotoxicology.
+
+## sec:acknowledgements Acknowledgements
+_Pages 8-8_
+
+We thank Professor John Miao, Professor Adam P. Hitchcock
+and Dr Xiangzhi Zhang for stimulating discussions and the
+staff of BL08U and BL15U at the Shanghai Synchrotron
+Radiation Facility for their assistance with data acquisition.
+Use of the RIKEN beamline (BL29XUL) at SPring-8 was
+supported
+the
+Japan
+Radiation
+Research
+Institute
+(proposal No. 2014A1270).
+Funding information
+The following funding is acknowledged: the National Natural
+Science Foundation of China (grant No. 31430031; grant No.
+11425520; grant No. 11290165); the Major State Basic
+Research
+Development
+Program
+China
+(grant
+No.
+2014CB910401).
+
+## sec:references References
+_Pages 8-9_
+
+Andrews, J. C. & Weckhuysen, B. M. (2013). Chemphyschem, 14,
+3655–3666.
+Averbuch, A., Coifman, R. R., Donoho, D. L., Israeli, M. &
+Shkolnisky, Y. (2008). SIAM J. Sci. Comput. 30, 764–784.
+Averbuch, A., Coifman, R. R., Donoho, D. L., Israeli, M., Shkolnisky,
+Y. & Sedelnikov, I. (2008). SIAM J. Sci. Comput. 30, 785–803.
+Betzig, E., Patterson, G. H., Sougrat, R., Lindwasser, O. W., Olenych,
+S., Bonifacino, J. S., Davidson, M. W., Lippincott-Schwartz, J. &
+Hess, H. F. (2006). Science, 313, 1642–1645.
+Chauhan, V. P. & Jain, R. K. (2013). Nat. Mater. 12, 958–962.
+Chen, C. et al. (2005). Nano Lett. 5, 2050–2057.
+Chen, Z. Y., Liu, Y., Sun, B. Y., Li, H., Dong, J. Q., Zhang, L. J., Wang,
+L. M., Wang, P., Zhao, Y. L. & Chen, C. Y. (2014). Small, 10, 2362–
+2372.
+Cheng, L.-C., Jiang, X., Wang, J., Chen, C. & Liu, R.-S. (2013).
+Nanoscale, 5, 3547–3569.
+Chou, L. Y., Ming, K. & Chan, W. C. (2011). Chem. Soc. Rev. 40, 233–
+245.
+Colvin, V. L. (2003). Nat. Biotechnol. 21, 1166–1170.
+Conesa, J. J., Oto´n, J., Chiappi, M., Carazo, J. M., Pereiro, E., Chicho´n,
+F. J. & Carrascosa, J. L. (2016). Sci. Rep. 6, 22354.
+Dean, K. M. & Palmer, A. E. (2014). Nat. Chem. Biol. 10, 512–523.
+Deng, J., Vine, D. J., Chen, S., Nashed, Y. S., Jin, Q., Phillips, N. W.,
+Peterka, T., Ross, R., Vogt, S. & Jacobsen, C. J. (2015). Proc. Natl
+Acad. Sci. USA, 112, 2314–2319.
+Hell, S. W. (2003). Nat. Biotechnol. 21, 1347–1355.
+Hitchcock, A. P., Johansson, G. A., Mitchell, G. E., Keefe, M. H. &
+Tyliszcak, T. (2008). Appl. Phys. A, 92, 447–452.
+Houk, T. L., Kruger, R. A., Mistretta, C. A., Riederer, S. J., Shaw,
+C. G., Lancaster, J. C. & Flemming, D. C. (1979). Invest. Radiol. 14,
+270–278.
+Huang, B., Bates, M. & Zhuang, X. (2009). Annu. Rev. Biochem. 78,
+993–1016.
+Iversen, T. G., Skotland, T. & Sandvig, K. (2011). Nano Today, 6, 176–
+185.
+Jia, S., Vaughan, J. C. & Zhuang, X. (2014). Nat. Photonics, 8, 302–
+306.
+Jiang, H., Song, C., Chen, C.-C., Xu, R., Raines, K. S., Fahimian, B. P.,
+Lu, C.-H., Lee, T.-K., Nakashima, A., Urano, J., Ishikawa, T.,
+Tamanoi, F. & Miao, J. (2010). Proc. Natl Acad. Sci. USA, 107,
+11234–11239.
+Johansson, G. A., Tyliszczak, T., Mitchell, G. E., Keefe, M. H. &
+Hitchcock, A. P. (2007). J. Synchrotron Rad. 14, 395–402.
+Jonge, M. D. de, Holzner, C., Baines, S. B., Twining, B. S., Ignatyev, K.,
+Diaz, J., Howard, D. L., Legnini, D., Miceli, A., McNulty, I.,
+Jacobsen, C. J. & Vogt, S. (2010). Proc. Natl Acad. Sci. USA, 107,
+15676–15680.
+Jonge, M. D. de & Vogt, S. (2010). Curr. Opin. Struct. Biol. 20, 606–
+614.
+Kao, T. L., Shi, C. Y., Wang, J., Mao, W. L., Liu, Y. & Yang, W. (2013).
+Microsc. Res. Tech. 76, 1112–1117.
+Kirz, J., Jacobsen, C. & Howells, M. (2009). Q. Rev. Biophys. 28, 33.
+Larabell, C. A. & Nugent, K. A. (2010). Curr. Opin. Struct. Biol. 20,
+623–631.
+Le Gros, M. A., McDermott, G. & Larabell, C. A. (2005). Curr. Opin.
+Struct. Biol. 15, 593–600.
+Leis, A., Rockel, B., Andrees, L. & Baumeister, W. (2009). Trends
+Biochem. Sci. 34, 60–70.
+Lewis, R. (1997). Phys. Med. Biol. 42, 1213–1243.
+Li, Y., Tian, Y. & Nie, G. (2012). Sci. China Life Sci. 55, 884–890.
+Liang, X.-J. et al. (2010). Proc. Natl Acad. Sci. USA, 107, 7449–7454.
+Liu, Y., Jiao, F., Qiu, Y., Li, W., Lao, F., Zhou, G., Sun, B., Xing, G.,
+Dong, J., Zhao, Y., Chai, Z. & Chen, C. (2009). Biomaterials, 30,
+3934–3945.
+Liu, Y., Meirer, F., Krest, C. M., Webb, S. & Weckhuysen, B. M.
+(2016). Nat. Commun. 7, 12634.
+Liu, Y., Nelson, J., Holzner, C., Andrews, J. C. & Pianetta, P. (2013). J.
+Phys. D Appl. Phys. 46, 494001.
+Liu, Y., Wang, J., Azuma, M., Mao, W. L. & Yang, W. (2014). Appl.
+Phys. Lett. 104, 043108.
+McDermott, G., Fox, D. M., Epperly, L., Wetzler, M., Barron, A. E.,
+Le Gros, M. A. & Larabell, C. A. (2012). Bioessays, 34, 320–327.
+McIntosh, R., Nicastro, D. & Mastronarde, D. (2005). Trends Cell
+Biol. 15, 43–51.
+Medalia, O., Weber, I., Frangakis, A. S., Nicastro, D., Gerisch, G. &
+Baumeister, W. (2002). Science, 298, 1209–1213.
+Meng, J., Liang, X., Chen, X. & Zhao, Y. (2013). Integr. Biol. (Camb.),
+5, 43–47.
+Meng, J., Wang, D.-L., Wang, P. C., Jia, L., Chen, C. & Liang, X.-J.
+(2010). J. Nanosci. Nanotechnol. 10, 8610–8616.
+Meng, H. et al. (2012). Nanomedicine, 8, 136–146.
+Meng, H., Xing, G. et al. (2010). ACS Nano, 4, 2773–2783.
+Miao, J., Fo¨rster, F. & Levi, O. (2005). Phys. Rev. B, 72, 052103.
+Nelson, G. J., Harris, W. M., Izzo, J. R., Grew, K. N., Chiu, W. K. S.,
+Chu, Y. S., Yi, J., Andrews, J. C., Liu, Y. & Pianetta, P. (2011). Appl.
+Phys. Lett. 98, 173109.
+Ntziachristos, V. (2010). Nat. Methods, 7, 603–614.
+Oberdo¨rster, G., Oberdo¨rster, E. & Oberdo¨rster, J. (2005). Environ.
+Health Perspect. 113, 823–839.
+research papers
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells
+IUCrJ (2018). 5, 141–149
+Papadimitriou, J. M. & Ashman, R. B. (1989). Ultrastruct. Pathol. 13,
+343–372.
+Pe´rez-Berna´, A. J., Rodrı´guez, M. J., Chicho´n, F. J., Friesland, M. F.,
+Sorrentino, A., Carrascosa, J. L., Pereiro, E. & Gastaminza, P.
+(2016). ACS Nano, 10, 6597–6611.
+Qian, B.-Z. & Pollard, J. W. (2010). Cell, 141, 39–51.
+Qiu, J., Deng, B., Yang, Q., Yan, F., Li, A. & Yu, X. (2011). Nucl.
+Instrum. Methods Phys. Res. B, 269, 2662–2666.
+Rarback, H., Cinotti, F., Jacobsen, C., Kenney, J. M., Kirz, J. & Rosser,
+R. (1987). Biol. Trace Elem. Res. 13, 103–113.
+Ruffell, B., Affara, N. I. & Coussens, L. M. (2012). Trends Immunol.
+33, 119–126.
+Schneider, G., Guttmann, P., Heim, S., Rehbein, S., Mueller, F.,
+Nagashima, K., Heymann, J. B., Mu¨ller, W. G. & McNally, J. G.
+(2010). Nat. Methods, 7, 985–987.
+Scott, M. C., Chen, C.-C., Mecklenburg, M., Zhu, C., Xu, R., Ercius, P.,
+Dahmen, U., Regan, B. C. & Miao, J. (2012). Nature (London), 483,
+444–447.
+Smith, E. A., McDermott, G., Do, M., Leung, K., Panning, B., Le
+Gros, M. A. & Larabell, C. A. (2014). Biophys. J. 107, 1988–
+1996.
+Stephens, D. J. & Allan, V. J. (2003). Science, 300, 82–86.
+Uchida, M., McDermott, G., Wetzler, M., Le Gros, M. A., Myllys, M.,
+Knoechel, C., Barron, A. E. & Larabell, C. A. (2009). Proc. Natl
+Acad. Sci. USA, 106, 19375–19380.
+Varsano, N., Dadosh, T., Kapishnikov, S., Pereiro, E., Shimoni, E., Jin,
+X., Kruth, H. S., Leiserowitz, L. & Addadi, L. (2016). J. Am. Chem.
+Soc. 138, 14931–14940.
+Wang, J. et al. (2006). Biochem. Pharmacol. 71, 872–881.
+Wang, L., Zhang, T., Li, P., Huang, W., Tang, J., Wang, P., Liu, J., Yuan,
+Q., Bai, R., Li, B., Zhang, K., Zhao, Y. & Chen, C. (2015). ACS
+Nano, 9, 6532–6547.
+Weissleder, R., Nahrendorf, M. & Pittet, M. J. (2014). Nat. Mater. 13,
+125–138.
+Yao, S. K., Fan, J. D., Zong, Y. B., He, Y., Zhou, G. Z., Sun, Z. B.,
+Zhang, J. H., Huang, Q. J., Xiao, T. Q. & Jiang, H. D. (2016). Appl.
+Phys. Lett. 108, 123702.
+Yin, J.-J., Lao, F., Fu, P. P., Wamer, W. G., Zhao, Y., Wang, P. C., Qiu,
+Y., Sun, B., Xing, G., Dong, J., Liang, X.-J. & Chen, C. (2009).
+Biomaterials, 30, 611–621.
+Yin, J.-J., Lao, F., Meng, J., Fu, P. P., Zhao, Y., Xing, G., Gao, X., Sun,
+B., Wang, P. C., Chen, C. & Liang, X.-J. (2008). Mol. Pharmacol. 74,
+1132–1140.
+Zhang, W., Sun, B., Zhang, L., Zhao, B., Nie, G. & Zhao, Y. (2011).
+Nanoscale, 3, 2636–2641.
+Zhang, L.-J., Xu, Z.-J., Zhang, X.-Z., Yu, H.-N., Zou, Y., Guo, Z.,
+Zhen, X.-J., Cao, J.-F., Meng, X.-Y., Li, J.-Q., Chen, Z.-H., Wang, Y.
+& Tai, R.-Z. (2015). Nucl. Sci. Tech. 26, 040101.
+Zhang, X. Z., Xu, Z. J., Tai, R. Z., Zhen, X. J., Wang, Y., Guo, Z., Yan,
+R., Chang, R., Wang, B., Li, M., Zhao, J. & Gao, F. (2010). J.
+Synchrotron Rad. 17, 804–809.
+Zhao, Y., Brun, E., Coan, P., Huang, Z., Sztro´kay, A., Diemoz, P. C.,
+Liebhardt, S., Mittone, A., Gasilov, S., Miao, J. & Bravin, A. (2012).
+Proc. Natl Acad. Sci. USA, 109, 18290–18294.
+Zhao, F.-J., Moore, K. L., Lombi, E. & Zhu, Y.-G. (2014). Trends Plant
+Sci. 19, 183–192.
+research papers
+IUCrJ (2018). 5, 141–149
+Shengkun Yao et al.
+ Three-dimensional ultrastructural imaging of mammalian cells

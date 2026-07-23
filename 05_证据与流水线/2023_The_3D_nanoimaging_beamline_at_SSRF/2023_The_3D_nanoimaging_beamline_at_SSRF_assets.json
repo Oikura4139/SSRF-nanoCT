@@ -1,0 +1,612 @@
+{
+  "status": "ok",
+  "script": "extract_pdf_assets.py",
+  "paper_id": "doi:10.1007/s41365-023-01347-4",
+  "pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2023_The_3D_nanoimaging_beamline_at_SSRF.pdf",
+  "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF",
+  "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images",
+  "page_assets": [
+    {
+      "page_number": 1,
+      "searchable_text_chars": 3995,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 0,
+      "figure_count": 0,
+      "page_text": "Vol.:(0123456789) 1 3 Nuclear Science and Techniques (2023) 34:201 https://doi.org/10.1007/s41365-023-01347-4 The 3D nanoimaging beamline at SSRF Ling Zhang1 · Fen Tao1 · Jun Wang1 · Ruo‑Yang Gao1 · Bo Su1 · Guo‑Hao Du1 · Ai‑Guo Li1 · Ti‑Qiao Xiao1 · Biao Deng1 Received: 21 August 2023 / Revised: 13 November 2023 / Accepted: 14 November 2023 / Published online: 12 December 2023 © The Author(s), under exclusive licence to China Science Publishing & Media Ltd. (Science Press), Shanghai Institute of Applied Physics, the Chinese Academy of Sciences, Chinese Nuclear Society 2023 Abstract Full-field transmission X-ray microscopy (TXM) is a powerful non-destructive three-dimensional (3D) imaging method with a nanoscale spatial resolution that has been used in most synchrotron facilities worldwide. An in-house-designed TXM sys- tem was constructed at the BL18B 3D nanoimaging beamline at the Shanghai Synchrotron Radiation Facility. The beamline operates from 5 to 14 keV and enables 20 nm spatial resolution imaging. The characterization details of the beamline are described in this paper. The performances in terms of spatial resolution, nano-CT, and nano-spectral imaging of the TXM beamline are also presented in this article. Keywords Transmission X-ray microscopy (TXM) · Nano-CT · Synchrotron radiation 1 Introduction Full-field transmission X-ray microscopy (TXM) is one of the most powerful tools for observing the internal structures of objects at the nanometer scale. Utilizing the high through- put and energy tunability of synchrotron X-rays, TXM offers a number of unique advantages, such as high penetration and spatial resolution, making it superior to other imaging techniques (scanning electron microscopy, atomic force microscopy, etc.) in testing thick samples [1–3]. Aimed at providing advanced nanostructure characteriza- tion and research methods for users in the fields of materials, energy, environment, etc., the Shanghai Synchrotron Radia- tion Facility (SSRF) planned to design and manufacture a TXM device. Table 1 shows the design objectives of this beamline. In December 2021, the X-ray 3D nanoimaging beamline (BL18B) was completed. Based on TXM, this beamline can provide complementary and unique capabili- ties to current microscopy research methods for studying crucial scientific problems, such as the structural and prop- erty changes of lithium battery materials in the charge–dis- charge cycle, relationship between micro- and nanoscale pores, and reservoirs of shale gas [4–14]. This beamline covers an energy range of 5–14 keV and achieves a spatial resolution of 20 nm. The main research methods for this beamline include TXM, nano-CT, and nano-spectral imag- ing. The characterization and experimental methods are presented herein, including some initial operational results. 2 \u0007The beamline The overall design of the beamline is formulated according to the scientific goals of the beamline and user requirements. Key considerations include the photon flux, energy resolu- tion, and matching of the phase space. The photon flux is a key factor in determining the data quality and time resolution of imaging experiments. There- fore, maximizing the photon flux at the sample while ensur- ing energy resolution and phase-space matching is the basic principle of beamline design. Considering the insertion device resources in the SSRF and phase space for the TXM, a bending magnet was selected for this beamline. In cases where light sources, monochromator crystals, and con- densers have been selected, the main consideration is the This work was supported by the National Key Research and Development Program of China (Nos. 2021YFA1600703, 2021YFF0701202, and 2021YFA1601001) and the National Natural Science Foundation of China (Nos. 12275343 and U1932205). * Ai‑Guo Li liag@sari.ac.cn * Biao Deng dengb@sari.ac.cn 1 Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China",
+      "text_preview": "Vol.:(0123456789) 1 3 Nuclear Science and Techniques (2023) 34:201 https://doi.org/10.1007/s41365-023-01347-4 The 3D nanoimaging beamline at SSRF Ling Zhang1 · Fen Tao1 · Jun Wang1 · Ruo‑Yang Gao1 · Bo Su1 · Guo‑Hao Du1 · Ai‑Guo Li1 · Ti‑Qi"
+    },
+    {
+      "page_number": 2,
+      "searchable_text_chars": 4134,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 0,
+      "figure_count": 3,
+      "page_text": "L. Zhang et al. 1 3 201 Page 2 of 9 transmission efficiency of the beamline optics. The main factors affecting the photon flux include the receiving angle of the beamline, coating reflecting surfaces of the mirrors, angle of incidence of the beam on the mirrors, and the recep- tion efficiency of the condenser. Zone plate (ZP) imaging systems require monochromatic incident light sources to satisfy Δλ/λ ≤ 1/N [15], where Δλ is the illumination radiation spectral width, λ is the inci- dent X-ray wavelength, and N is the zone number. Spectral imaging technology combining TXM and XANES requires an energy resolution higher than 2 × ­10–4. The main factors that affect the energy resolution include the Darwin width of the double-crystal monochromator (DCM) crystal, vertical divergence angle of the incident beam on the first crystal of the DCM, and heating deformation of the first DCM crystal. Additionally, the slope errors for the mirrors and DCM must be minimized. According to the characteristics of beam propagation in the ZP imaging microscope, the overall optical path was divided into two segments. The first segment is the beamline system from the light source to the secondary light source. In this section, the horizontal and vertical phase spaces propa- gate independently and approximate the conservation. The second segment is the ZP imaging system from a secondary light source to the detector. This segment is an axisymmetric optical system, and the phase space is approximately con- served within a radius perpendicular to the optical axis. An important task in optical design is to assemble the beam into the desired shape according to the principle of conservation of the phase space and deliver it to the sample. 2.1 \u0007Light source BL18B is a bending magnet (BM) beamline with 1.27-T magnetic field strength. To ensure that the X-ray beam reaching the TXM end station is of the desired width and angle in both the horizontal and vertical planes, the angular acceptance of this beamline is set to 0.4 mrad × 0.22 mrad. The specifications of the BL18B light source are listed in Table 2. Figure 1 shows the brilliance and flux curves of the SSRF BM sources. The estimated source brilliance is 6.48 × ­1015 phs/s/0.1%bw/mm2/mrad2 at 8 keV, with a total flux of 1.19 × ­1013 phs/s/0.1%bw. 2.2 \u0007 Beamline optical design Figure 2 shows the overall layout of the beamline. There are two major hutches: an optical hutch and an experimental hutch. As shown in the figure, the beamline houses a col- limating mirror (CM), DCM, and toroidal mirror (TM) for pre-focusing. The CM was located 20.2 m downstream of the source. After the CM, the Si(111) DCM was placed at 23 m downstream of the source. After the DCM, the verti- cally collimated beam passed through the TM, which was located 26 m from the source, and was then focused onto a slit located 39 m from the source. This slit was located at the experimental station and was the secondary source aperture (SSA). 2.2.1 \u0007Mirrors The vertical CM is the first optical component of the beam- line. It receives white-beam radiation from the source and provides parallel illumination in the vertical plane for DCM. It has three functions: to reduce the power of the incident beam to the DCM, reject higher-order harmonics from the BM spectrum, and collimate the incident X-rays well below the Darwin width of the Si(111) DCM. CM was realized by bending a plane mirror, and the incident beam is colli- mated and reflected upward. To ensure an adequate level of Table 1 The design goals of BL18B Parameters Value Energy range (keV) 5–14 Energy resolution (ΔE/E) 2 × ­10–4 Flux at sample (8 keV@300 mA) (phs/s) 1.3 × ­1010 Spatial resolution (TXM@8 keV) (nm) 20 Table 2 Specifications of BL18B Light source Parameter Specifications Source Bending-magnet Energy (GeV) 3.5 Magnetic field (T) 1.27 Current (mA) 300 0.1 1 10 100 1E8 1E10 1E12 1E14 1E16 1E8 1E10 1E12 1E14 1E16 Flux (phs/s/0.1% BW) Brilliance (phs/s/0.1% BW/mrad 2/mm 2) Energy (keV) Flux Brilliance Fig. 1 Brilliance and flux vs. photon energy of the bending magnet with acceptance angle 0.4 mrad(H) × 0.22 mrad(V)",
+      "text_preview": "L. Zhang et al. 1 3 201 Page 2 of 9 transmission efficiency of the beamline optics. The main factors affecting the photon flux include the receiving angle of the beamline, coating reflecting surfaces of the mirrors, angle of incidence of th"
+    },
+    {
+      "page_number": 3,
+      "searchable_text_chars": 4149,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 1,
+      "figure_count": 1,
+      "page_text": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 3 of 9 201 power reduction to the DCM and effective harmonic rejec- tion required for the X-ray microscopy experiments, an Rh coating was used for the CM reflective surface. Water cool- ing is sufficient to solve the power reduction problem. The CM operates at a fixed 4.4 mrad incidence angle, leading to a cut-off energy of approximately 15 keV. According to the vertical receiving angle of the light source (0.22 mrad) and 4.4 mrad grazing incidence angle, the optically active length of the CM was 1000 mm. To minimize the diffusion of the focusing beam at SSA and maintain the reflectivity of the mirror at higher than 95%, the surface roughness of CM should be higher than 3 Å. The root mean square (RMS) slope error of the CM is required to be less than 0.8 μrad along the meridional direction (including the mechanical error 0.6 μrad and gravity and deformation error 0.2 μrad), and the RMS slope error along the arc direction is required to be less than 5 μrad. The TM was realized by gently bending the cylindrical mirror to the required shape. It collected a monochromatic beam and delivered both horizontal and vertical foci to the SSA. The beams received by the TM are parallel in the vertical direction and divergent in the horizontal direction. Therefore, the incident beam is reflected downwards and is focused to 100 μm (H) × 290 μm (V) (full width at half maxi- mum @8 keV) at the SSA position. As the TM was placed behind the DCM, it had no cooling requirements. The coat- ing, grazing incidence angle, surface roughness, RMS slope error, and optically active length of the TM were identical to those of the CM. 2.2.2 \u0007Double‑crystal monochromator The DCM was placed horizontally between the two mir- rors. The beam was collimated in the vertical plane before and after passing through the monochromator. Two major technical concerns for the DCM are: to achieve an angular stability of the diffracted beam of 0.5 μrad or higher and to minimize the thermally induced slope error on the first crystal. The DCM was equipped with standard Si(111) dou- ble-plane crystals to provide adjustable energy within the range of 4–15 keV and a high energy resolution higher than 2 × ­10–4, which meets the requirements of the ZP objective in TXM. The DCM is a domestic monochromator adopting a common design used in the SSRF. The two crystals have an (n–n) achromatic arrangement. During the energy scan, the position and direction of the outgoing beam were maintained constant, and the height offset between the incident and out- going beams was 25 mm. The main axis of Bragg rotation was located in the first crystal. As DCM performs Bragg rotation, the second crystal moves in the direction normal to the crystal surface [16]. The thermal deformation of the first monochromator crystal reduced the flux, energy resolu- tion, beam size at the SSA, and matching efficiency of the condenser in the TXM end station. The thermally induced RMS slope errors along the arc and meridional directions must be less than 5 μrad. According to the calculated results, the power absorbed on the first crystal can be comfortably managed by water cooling. 3 \u0007TXM end station The experimental hutch houses the SSA, detector system for the beam intensity, and TXM system. The beam detec- tor system comprised two ion chambers located down- stream of the SSA to monitor the incident flux. Figure 3 shows a photograph of the TXM system comprising a monocapillary condenser, pinhole, objective ZP, sample station, and two X-ray imaging detectors. The condenser, located approximately 2 m from the SSA, was a single- bounce ellipsoidal glass monocapillary. The BL18B adopts an in-house-designed monocapillary as condenser [17, 18]. The monocapillary condenser provided hollow-cone illu- mination to match the numerical aperture of the ZP, with a beam stop attached to its upstream end. For beamlines at third-generation synchrotron radiation sources, the beam Fig. 2 (Color online) Schematic of the beamline layout BM White beam slit Si(111) DCM TM SSA Condenser ZP Sample Detector Optical hutch CM Experimental hutch",
+      "text_preview": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 3 of 9 201 power reduction to the DCM and effective harmonic rejec- tion required for the X-ray microscopy experiments, an Rh coating was used for the CM reflective surface. Water cool- ing is s"
+    },
+    {
+      "page_number": 4,
+      "searchable_text_chars": 4173,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 3,
+      "figure_count": 2,
+      "page_text": "L. Zhang et al. 1 3 201 Page 4 of 9 emittance in the vertical plane is typically lower than the required microscope acceptance. This mismatch causes some sample areas to be illuminated or the beam angle to be insufficient to fill the objective lens. To overcome this problem, a shaker was installed under the condenser chamber to perform fast scanning and to expand the illumi- nation angle of the sample to match the numerical aperture of the ZP. A pinhole upstream of the sample was employed to block the direct light that was not focused by the monocapillary condenser. It was positioned on a motorized stage between the condenser exit and sample. Pinholes with diameters of 100 and 150 μm were mounted on a single holder. The sample stage comprises a high-precision xyz motor and an air-bearing rotation stage. The sample holder was placed on a breadboard mounted on a sample stage. The microscope objective ZP produces a magnified image of the sample. The image resolution was determined using the outermost zone width of the ZP. For TXM imag- ing in BL18B, two sets of ZPs with an outermost zone width of 25/40 nm, diameter of 125/150 µm, and Ir thick- ness > 0.7/0.9 µm (XRnanotech, Switzerland) were used. The BL18B has two sets of X-ray imaging detectors for high- and medium-resolution imaging. The high-resolution detector is a scintillator-coupled optical microscope with 2×, 4× and 10× optical magnification lenses and a water- cooled 16-bit 2048 × 2048 camera (Zyla 4.2 PLUS sCMOS, Andor, Oxford Instruments, UK) with 6.5 μm square pix- els. It was installed on a linear track with a travel range of 1.3 m along the beam direction, providing greater flexibil- ity in the distance between the ZP and detector. The other detector with 2048 × 2048 pixels and 6.5 μm/pixel (12849- 1111U, HAMAMATSU, Japan) was fixed at the back end of the hutch. The two detectors can be switched according to experimental requirements. An in-line telescope was placed on the optical platform for sample positioning. Vacuum tubes were placed between the ZP and detector to minimize the attenuation of X-rays in the air. Each component of the TXM system was mounted on a highly stable marble optical platform with the relative posi- tion of each component fixed. To minimize the effects of acoustic vibrations, airflow, and temperature changes on the experiment, a Plexiglas enclosure was placed on the plat- form. The enclosure has sliding doors to facilitate operations such as changing the samples. 3.1 \u0007Imaging technologies The primary imaging technologies of this beamline include TXM, nano-CT and nano-spectral imaging. Nano-CT is a non-destructive imaging protocol used to generate high-res- olution 3D images comprising two-dimensional (2D) projec- tions or \"slices\" of micrometer-scale samples. Nano-spec- tral imaging is a technique that combines TXM with X-ray absorption near-edge structure (TXM-XANES) to detect 2D and 3D chemical phase transformations in mesoscale volumes at the nanoscale [19, 20]. It is worth mentioning that the combination of CT and spectral imaging can enable joint characterization of the morphology and chemical states of the sample, which makes it possible to better study the material properties. 3.1.1 \u0007TXM Figure 4 shows the schematic of a TXM. A monocapillary condenser delivers a focused beam onto an object (sample). A pinhole cleans the beam and blocks the direct light not focused by the capillary. A ZP magnifies and images the sample onto a detector. TXM with nanoscale resolution can meet the micron-level field of view and nanoscale resolution. Based on two detectors, the BL18B beamline TXM method has two resolution modes, high- and medium-reso- lution modes, which can realize sub-20 nm and sub-70 nm spatial resolution [21]. 3.1.2 \u0007Nano‑CT Nano-CT is a useful method for studying the fine structure of materials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution detector, f medium-resolution detec- tor. Other components are: g in-line telescope, h vacuum pipes Fig. 4 (Color online) Schematic of a TXM",
+      "text_preview": "L. Zhang et al. 1 3 201 Page 4 of 9 emittance in the vertical plane is typically lower than the required microscope acceptance. This mismatch causes some sample areas to be illuminated or the beam angle to be insufficient to fill the object"
+    },
+    {
+      "page_number": 5,
+      "searchable_text_chars": 4104,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 2,
+      "figure_count": 2,
+      "page_text": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 5 of 9 201 nanoscale resolved TXM samples are smaller and require finer preparation. Therefore, they should be prepared care- fully. For ZP-based TXM CT imaging, the thickness of the sample should be less than the depth of focus (DOF), which is defined by DOF = ± λ/2 (NA)2 = ± 2Δr2/λ, where λ is the incident X-ray wavelength, NA is the ZP lens numerical aperture, and Δr is the outermost zone width of the ZP [22]. When a portion of the sample was outside the DOF, the ZP could not focus the out-of-range portion. For the BL18B, suitably sized powder samples were gen- tly blown onto stretched glass capillaries. The bulk sample was cut to the appropriate size and firmly fixed on the tip of a needle using a focused ion beam (FIB) or other fine sample preparation methods. Since the sample size was in the micron range, an offline light microscope was used to roughly examine the sample preparation. Figure 5 shows a photograph of the gold particles in the stretched glass capil- lary and their 2D projection. The capillary tube or needle was firmly clamped to the center of the sample holder, and remained stable during the CT experiments. The CT results of BL18B were processed using a com- pletely in-house designed automatic projection alignment algorithm [23] and in-house designed reconstruction soft- ware, AduRecon. This automatic projection alignment algo- rithm is based on generated feature maps, and improves the fidelity of 3D nano-CT reconstruction models. The reconstruction software introduces several technologies for nanoimaging data processing, such as data jitter calibration, phase recovery, and ring artifact cancelation, which provide a strong guarantee of obtaining accurate experimental data. 3.1.3 \u0007Nano‑spectral imaging Nano-spectral imaging can be classified into dual-energy and TXM-XANES imaging. This concept is illustrated in Fig. 6. Dual-energy imaging records projection images at two different energy points: before and after the X-ray absorption edge of the target element. The target element showed a significantly higher absorption edge jump than the other elements in the absorption edge energy region. After the differential calculation of the two images, the enhanced portion of the image displayed the distribution of the target element in the sample. Dual-energy imaging combined with CT technology can be used to obtain the 3D distribution of the target element in a sample. In a typical XANES experiment, the sample is placed in the middle of two ion chambers, which are used to record the beam intensity during the energy scanning of the mono- chromator. The absorption coefficients of the target elements were obtained by recording the number of photons in both ion chambers. Accordingly, during XANES imaging, the number of photons that did not pass through the sample was recorded by the imaging detector. When the monochromator performed energy scanning, it recorded a stack of images to calculate the absorption coefficient of the target element. To extract the absorption spectrum, the stack image underwent a series of steps. The main processing steps for 2D XANES imaging are as follows. (1) Average projection and reference images. An average number of images can reduce the impact of vibrations on the data and increase the signal-to-noise ratio. (2) Reference correction to projection images. (3) Magnification correction and alignment of the lower- energy projection images. The focal length of the ZP varied linearly with the X-ray energy. During the exper- iment, the ZP was required to move continuously to maintain its focus at different energies. The projected images at different magnifications were recorded using the detector. Therefore, the image size must match the subtraction of the difference maps. Once the image processing was completed, an absorption spectrum was generated for each pixel within the region of Fig. 5 a Photograph of the gold particles in the capillary holder. b The two-dimensional projection image of (a) Fig.6 (Color online) The workflow of nano-spectral imaging",
+      "text_preview": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 5 of 9 201 nanoscale resolved TXM samples are smaller and require finer preparation. Therefore, they should be prepared care- fully. For ZP-based TXM CT imaging, the thickness of the sample shou"
+    },
+    {
+      "page_number": 6,
+      "searchable_text_chars": 4226,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 1,
+      "figure_count": 0,
+      "page_text": "L. Zhang et al. 1 3 201 Page 6 of 9 interest (ROI). After normalizing the spectra, the position of the absorbed edge energy of the target element was deter- mined. The offset of the normalized absorption spectrum was used to characterize the relative valence state changes of the elements. XANES imaging combined with CT technol- ogy can be used to obtain 3D valence distribution informa- tion of the target element in the sample. The BL18B uses the \"TXM-Wizard\" software package to perform magnifi- cation and misalignment corrections, reference corrections, normalization, and a series of data manipulations on the XANES stack data [24, 25]. 3.2 \u0007Control and data acquisition system The control and data acquisition of BL18B were performed using EPICS and a self-designed software [26]. EPICS is a suite of open-source software tools, libraries, and appli- cations. It provides a standard distributed control system architecture, communication protocol, runtime database, and software tools and supports a wide range of I/O devices. The in-house-designed software communicates with the EPICS system, realizing motion control of each motor in the experimental station. Instead of using vendor-supplied software, the self-designed software integrates the control of all the important beamline equipment, realizing automatic data collection in TXM, CT, spectral imaging, and other experimental modes. For TXM and dual-energy imaging, the experimental procedure involved shooting at selected energies. For the CT experiments, the sample was placed at the center of rotation, the experimental energy was selected according to the sample situation; images of the sample projections were captured at different angles. In the XANES experiment, the user can set the energy scanning range and steps in the software interface. As the focal length of the ZP is a func- tion of the incident X-ray energy, the user must capture two clear images at different energies. The software calculates the ZP coordinates corresponding to each energy point based on the ZP positions in the two images, range of scanning energy, and step size required for the experiment. Therefore, during the XANES imaging process, the ZP was moved to keep the sample in focus while the monochromator rotated. Subsequently, the sample was moved in and out to enable the acquisition of the projection with and without the sample under the current energy. For three-dimensional XANES, the program mode collected the CT data at each energy point. 4 \u0007VI. Commissioning results 4.1 \u0007TXM A standard Siemens star pattern (Carl Zeiss, German) with the smallest feature size of 30 nm was used for the TXM test in the high-resolution mode. Figure 7a shows an absorp- tion contrast image captured at 8 keV with an exposure time of 30 s. To quantify the spatial resolution of TXM, power spectral density (PSD) analysis was performed on the image data. A 2D Fourier transform was applied to the TXM pro- jection image to calculate the PSD. The 2D power spectral intensity was then integrated over the azimuthal direction (that is, along the circle) at a fixed radial frequency [27–29]. Figure 7b shows the PSD result. The cut-off frequency is 25 μm−1, corresponding to a period of 40 nm, that is, a spa- tial resolution of 20 nm [30]. We used a piece of dehydrated rabbit bone to test the radiation damage to the biological samples at low energy. Figure 8 shows absorption contrast images of the sample obtained at 5.5 keV, one hour apart. The flux at the sam- ple position was tested using an ionization chamber with a pair of 10-mm long electrodes (IC Plus 10; Oxford, UK). The ionizing current was measured using a high-sensitivity picoammeter (Keithley 6485; Tektronix, USA). The X-ray beam intensities were evaluated using the following equation N = I0휀0 eE ∕(1 −e−휇x) , where N is the beam intensity, I0 is the measured ionization current, ε0 is the gas ionization energy, e is the electron charge, E is the energy of incident X-ray, x is the electrode length, and μ is the absorption coefficient Fig. 7 Image of the star pattern: a absorption contrast image and b PSD analysis of (a) 0 0 1 0 1 10 4 10 5 10 6 Frequency( m -1) Power Spectral Density (a.u.) 20nm 25 (a) (b)",
+      "text_preview": "L. Zhang et al. 1 3 201 Page 6 of 9 interest (ROI). After normalizing the spectra, the position of the absorbed edge energy of the target element was deter- mined. The offset of the normalized absorption spectrum was used to characterize th"
+    },
+    {
+      "page_number": 7,
+      "searchable_text_chars": 2475,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 2,
+      "figure_count": 2,
+      "page_text": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 7 of 9 201 of the filling gas. The number of photons in the sample was approximately 1.26 × ­1010 photons/s. Comparing the two images, the sample showed no obvious signs of irradiation damage after one hour of irradiation. 4.2 \u0007Nano‑CT Ni-rich ­LiNi1−x−yCoxMnyO2 (NCM) is a commercially avail- able cathodic material. It has several advantages, such as structural stability, low cost, and good cycling performance, etc. [31, 32]. Owing to its high nickel content, high perfor- mance, and high capacity, ­LiNi0.6Co0.2Mn0.2O2 (NCM622), a typical high-energy cathode, has emerged as an ideal material for automotive applications [33]. In the nano-CT experiment, a 50×-cycled NCM622 particle was imaged, and the 3D image was reconstructed. The projections were obtained using an absorption contrast of 8.6 keV. The com- plete tomography dataset was collected for approximately 6 min with 180 projections (1 s exposure time per projec- tion). The tomography datasets were reconstructed using the AduRecon software. 3D reconstruction was performed using the Avizo® Fire software. It has been reported that in long-cycle, high-rate charg- ing and discharging processes, a series of battery capac- ity attenuation and battery performance degradation phe- nomena occur. Correspondingly, during the early stages of the charge and discharge processes, microcracks and radial cracking were observed near the centers of the particles. With an increase in the voltage or cycle time, significant radial cracking inside the particles can be observed [31, 32]. A reconstructed 3D image of the NCM622 particle and its slices are shown in Fig. 9. The reconstruction results clearly show that the 50×-cycled particle had several cracks inside in an extended state. The CT images had a resolution of 30 nm/pixel. 4.3 \u00072D TXM‑XANES XANES imaging is suitable for investigating battery materi- als. It correlates mesoscale to nanoscale chemical changes within the secondary particles of the battery electrode, which can reveal the interaction of nano- and micron-scale factors of the macroscopic behavior of battery materials [34]. Pristine and 50×-cycled NCM622 particles were used to test the performance of the 2D TXM-XANES method. The Fig. 8 Absorption contrast images of dehydrated rabbit bone: a the first image; b the last image taken one hour later Fig.9 (Color online) Recon- structed 3D image (a) and 2D slice (b) of the cycled NCM622 particle",
+      "text_preview": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 7 of 9 201 of the filling gas. The number of photons in the sample was approximately 1.26 × ­1010 photons/s. Comparing the two images, the sample showed no obvious signs of irradiation damage af"
+    },
+    {
+      "page_number": 8,
+      "searchable_text_chars": 4554,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 2,
+      "figure_count": 1,
+      "page_text": "L. Zhang et al. 1 3 201 Page 8 of 9 target element is Ni and the experimental energy range is from 8.2 to 8.6 keV. The data were processed to obtain the XANES spectra for each pixel in the ROI. Figure 10 shows the pseudocolor 2D XANES chemical phase maps of Ni within the two particles. The distribution of the absorbed edge energy of the pristine particles is relatively homoge- neous, whereas for the cycled particles, the energy of the absorbing edge is lower in the inner region than that in the outer region. The difference in the Ni-ion K-edge absorption energy between the two NCM622 particles is obvious. Fig- ure 10c shows the Ni K-edge XANES spectra of the central portion of Fig. 10a, b. The difference between the absorp- tion edges of the two particles is also evident in the spectral line plot. The TXM-XANES imaging method works well for chemical characterization of battery particles in different charging states. 5 \u0007Summary and conclusion A new in-house designed TXM system was constructed for the SSRF. Herein, we present the characterization of this beamline as well as the commissioning results of TXM, marker-less nano-CT, and TXM-XANES imaging. The beamline will undergo future updates; for instance, the X-ray beam position feedback and correction system will be upgraded for a more stable spot position. Moreover, an angle adjustment motor will be introduced for ZP for better alignment, providing an advanced experimental platform for nanostructure characterization in related disciplines. Acknowledgements The authors also wish to acknowledge their col- leagues from the Department of Beamline Engineering at the SSR for their assistance during the construction of the BL18B beamline. Author contributions All authors contributed to the study concep- tion and design. Material preparation, data collection, and analysis were performed by Ling Zhang, Fen Tao, Jun Wang, Ruo-Yang Gao, Bo Su, Guo-Hao Du, Ai-Guo Li, Ti-Qiao Xiao, and Biao Deng. The first draft of the manuscript was written by Ling Zhang, and all authors commented on previous versions of the manuscript. All authors read and approved the final manuscript. Availability of data and materials The data that support the findings of this study are openly available in Science Data Bank at https://​www.​ doi.​org/​10.​57760/​scien​cedb.​13606 and https://​cstr.​cn/​31253.​11.​scien​ cedb.​13606. Declaration Conflict of interest The authors declare that they have no competing interests. References 1. M.Y. Ge, D.S. Coburn, E. Nazaretski et al., One-minute nano- tomography using hard X-ray full-field transmission microscope. Appl. Phys. Lett. 113, 083109 (2018). https://​doi.​org/​10.​1063/1.​ 50483​78 2. S.S. Lee, I.H. Kwon, J.Y. Kim et al., Early commissioning results for spectroscopic X-ray nano-imaging beamline BL 7C sXNI at PLS-II. J. Synchrotron Rad. 24, 1276–1282 (2017). https://​doi.​ org/​10.​1107/​S1600​57751​70139​72 3. S. Wang, K. Zhang, W. Huang et al., Zone plate-based full-field transmission X-ray microscopy beamline design at nearly diffrac- tion-limited synchrotron radiation facility. Nucl. Inst. Methods Phys. Res. A 993, 165089 (2021). https://​doi.​org/​10.​1016/j.​nima.​ 2021.​165089 4. F.F. Yang, Y.J. Liu, S.K. Martha et al., Nanoscale morphological and chemical changes of high voltage lithium−manganese rich NMC composite cathodes with cycling. Nano Lett. 14, 4334–4341 (2014). https://​doi.​org/​10.​1021/​nl502​090z 5. S. Bauer, L.D. Biasi, S. Glatthaar et al., In operando study of the high voltage spinel cathode material ­LiNi0.5Mn1.5O4 using two dimensional full-field spectroscopic imaging of Ni and Mn. Phys. Chem. Chem. Phys. 17, 16388–16397 (2015). https://​doi.​org/​10.​ 1039/​C5CP0​2075A 6. X.L. Tang, Z.X. Jiang, S. Jiang et al., Heterogeneous nanoporos- ity of the Silurian Longmaxi Formation shale gas reservoir in the Sichuan Basin using the QEMSCAN, FIB-SEM, and nano-CT methods. Mar. Pet. Geol. 78, 99–109 (2016). https://​doi.​org/​10.​ 1016/j.​marpe​tgeo.​2016.​09.​010 7. Y.F. Sun, Y.X. Zhao, L. Yuan et al., Quantifying nano-pore het- erogeneity and anisotropy in gas shale by synchrotron radiation nano-CT. Micropor. Mesopor. Mat. 258, 8–16 (2018). https://​doi.​ org/​10.​1016/j.​micro​meso.​2017.​08.​049 8300 8350 8400 8450 8500 0.0 0.5 1.0 1.5 8341.8 8342.4 0.8 0.9 Energy(eV) Normalized Absorption Cycled NCM622 Pristine NCM622 (a) (b) (c) Fig. 10 (Color online) Ni element chemical phase maps for NCM622 particles: a pristine particle; b cycled cathode particle; c XANES from two ROIs in (a) and (b)",
+      "text_preview": "L. Zhang et al. 1 3 201 Page 8 of 9 target element is Ni and the experimental energy range is from 8.2 to 8.6 keV. The data were processed to obtain the XANES spectra for each pixel in the ROI. Figure 10 shows the pseudocolor 2D XANES chemi"
+    },
+    {
+      "page_number": 9,
+      "searchable_text_chars": 6273,
+      "text_extraction_method": "text",
+      "ocr_used": false,
+      "image_count": 0,
+      "figure_count": 0,
+      "page_text": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 9 of 9 201 8. A. Ronne, L. He, D. Dolzhnikov et al., Revealing 3D morpho- logical and chemical evolution mechanisms of metals in molten salt by multimodal microscopy. ACS Appl. Mater. Interfaces 12, 17321–17333 (2020). https://​doi.​org/​10.​1021/​acsami.​9b190​99 9. J.K. Lee, P. Kim, K. Krause et al., Designing catalyst layer morphology for high-performance water electrolysis using syn- chrotron X-ray nanotomography. Cell Rep. Phys. Sci. 4, 101232 (2023). https://​doi.​org/​10.​1016/j.​xcrp.​2022.​101232 10. J.C. Andrews, F. Meirer, Y.J. Liu et al., Transmission X-ray microscopy for full-field nano-imaging of biomaterials. Microsc. Res. Tech. 74, 671–681 (2011). https://​doi.​org/​10.​1002/​jemt.​ 20907 11. P. Liu, D. Yen, B.S. Vishnugopi et al., Influence of potassium metal-support interactions on dendrite growth. Angew. Chem. Int. Ed. 62, e2023009 (2023). https://​doi.​org/​10.​1002/​anie.​20230​0943 12. P.F. Sun, B. Deng, Q. Yang et al., An accelerated OSEM recon- struction algorithm using an accelerating factor for X-ray fluores- cence tomography. Nucl. Tech. 38, 060201 (2015). https://​doi.​org/​ 10.​11889/j.​0253-​3219.​2015.​hjs.​38.​060201. (in Chinese) 13. M.W. Xu, Y.L. Xue, R.C. Chen et al., A biometrics recognition instrument using X-ray phase contrast imaging for biosafety inspection. Nucl. Tech. 44, 080202 (2021). https://​doi.​org/​10.​ 11889/j.​0253-​3219.​2021.​hjs.​44.​080202. (in Chinese) 14. Z.J. Qiu, K. Li, H.L. Xie et al., Study of 20 Hz high spatial-tem- poral resolution monochromatic X-ray dynamic micro-CT. Nucl. Tech. 46, 070101 (2023). https://​doi.​org/​10.​11889/j.​0253-​3219.​ 2023.​hjs.​46.​070101. (in Chinese) 15. J. Kirz, D. Attwood, X-ray data booklet. Section 4.4 ZONE PLATES (2009) 16. W.Z. Zhang, J.C. Tang, S.S. Wang et al., The protein complex crystallography beamline (BL19U1) at the Shanghai synchrotron radiation facility. Nucl. Sci. Tech. 30, 170 (2019). https://​doi.​org/​ 10.​1007/​s41365-​019-​0683-2 17. F. Tao, Y.D. Wang, Y.Q. Ren et al., Design and detection of ellip- soidal mono-capillary for X-ray nano-imaging. Acta Opt. Sin. 37, 1034002 (2017). https://​doi.​org/​10.​3788/​AOS20​1737.​10340​02. (in Chinese) 18. F. Tao, B. Feng, B. Deng et al., Micro X-ray fluorescence imag- ing based on ellipsoidal single-bounce mono-capillary. Spectros. Spect. Anal. 40, 2011–2015 (2020). https://​doi.​org/​10.​3964/j.​issn.​ 1000-​0593(2020)​07-​2011-​05. (in Chinese) 19. F. Meirer, J. Cabana, Y.J. Liu et al., Three-dimensional imaging of chemical phase transformations at the nanoscale with full-field transmission X-ray microscopy. J. Synchrotron Rad. 18, 773–781 (2011). https://​doi.​org/​10.​1107/​S0909​04951​10193​64 20. Y. Kim, J. Lim, Exploring spectroscopic X-ray nano-imaging with Zernike phase contrast enhancement. Sci. Rep. 12, 2894 (2022). https://​doi.​org/​10.​1038/​s41598-​022-​06827-y 21. F. Tao, J. Wang, G.H. Du et al., Full-field hard X-ray nano-tomog- raphy at SSRF. J. Synchrotron Rad. 30, 815–821 (2023). https://​ doi.​org/​10.​1107/​S1600​57752​30031​68 22. F. Li, Y. Guan, Y. Xiong et al., Method for extending the depth of focus in X-ray microscopy. Opt. Express 25, 7657–7667 (2017). https://​doi.​org/​10.​1364/​OE.​25.​007657 23. B. Su, R.Y. Gao, T. Fen et al., Dual U-Net based feature map algo- rithm for automatic projection alignment of synchrotron nano-CT. Nucl. Inst. Methods Phys. Res. A 1040, 167242 (2022). https://​ doi.​org/​10.​1016/j.​nima.​2022.​167242 24. Y.J. Liu, F. Meirer, J.Y. Wang et al., 3D elemental sensitive imaging using transmission X-ray microscopy. Anal. Bio- anal. Chem. 404, 1297–1301 (2012). https://​doi.​org/​10.​1007/​ s00216-​012-​5818-9 25. Y.J. Liu, F. Meirer, P.A. Williams, TXM-Wizard: a program for advanced data collection and evaluation in full-field transmis- sion X-ray microscopy. J. Synchrotron Rad. 19, 281–287 (2012). https://​doi.​org/​10.​1107/​S0909​04951​10491​44 26. SSRFDA System V1.0, National Copyright Administra- tion of the People’s Republic of China. (Registration number: 2022SR1004270) 27. S. Vogt, G. Schneider, A. Steuernagel et al., X-Ray microscopic studies of the drosophila dosage compensation complex. J. Struct. Biol. 132, 123–132 (2000). https://​doi.​org/​10.​1006/​jsbi.​2000.​4277 28. T.Y. Chen, Y.T. Chen, C.L. Wang et al., Full-field microimaging with 8 keV X-rays achieves a spatial resolutions better than 20 nm. Opt. Express 19, 19919–19924 (2011). https://​doi.​org/​10.​1364/​ OE.​19.​019919 29. J. Wang, Y.K. Chen, Q. Yuan et al., Automated markerless full field hard X-ray microscopic tomography at sub-50nm 3-dimen- sion spatial resolution. Appl. Phys. Lett. 100, 143107 (2012). https://​doi.​org/​10.​1063/1.​37015​79 30. Q.X. Yuan, K. Zhang, Y. Hong et al., A 30 nm-resolution hard X-ray microscope with X-ray fluorescence mapping capability at BSRF. J. Synchrotron Rad. 19, 1021–1028 (2012). https://​doi.​org/​ 10.​1107/​S0909​04951​20328​52 31. Y.F. Su, Q.Y. Zhang, L. Chen et al., Stress accumulation in Ni-rich layered oxide cathodes: Origin, impact, and resolution. J. Energy Chem. 65, 236–253 (2022). https://​doi.​org/​10.​1016/j.​jechem.​ 2021.​05.​048 32. P.C. Tsai, B. Wen, M. Wolfman et al., Single-particle measure- ments of electrochemical kinetics in NMC and NCA cathodes for Li-ion batteries. Energy Environ. Sci. 11, 860–871 (2018). https://​ doi.​org/​10.​1039/​c8ee0​0001h 33. A. Jetybayeva, N. Schön, J. Oh et al., Unraveling the state of charge-dependent electronic and ionic structure—property rela- tionships in NCM622 cells by multiscale characterization. ACS Energy Lett. 5, 1731–1742 (2022). https://​doi.​org/​10.​1021/​ acsaem.​1c031​73 34. J. Chen, Y. Yang, Y. Tang et al., Constructing a thin disordered self-protective layer on the ­LiNiO2 primary particles against oxy- gen release. Adv. Funct. Mater. 33, 2211515 (2023). https://​doi.​ org/​10.​1002/​adfm.​20221​1515 Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.",
+      "text_preview": "The 3D nanoimaging beamline at SSRF﻿ 1 3 Page 9 of 9 201 8. A. Ronne, L. He, D. Dolzhnikov et al., Revealing 3D morpho- logical and chemical evolution mechanisms of metals in molten salt by multimodal microscopy. ACS Appl. Mater. Interfaces"
+    }
+  ],
+  "image_assets": [
+    {
+      "page_number": 3,
+      "image_index": 1,
+      "xref": 28,
+      "filename": "page_003_img_01.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+      "ext": "jpeg",
+      "width": 1411,
+      "height": 676,
+      "colorspace": 3,
+      "size_bytes": 35477,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 4,
+      "image_index": 1,
+      "xref": 43,
+      "filename": "page_004_img_01.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+      "ext": "jpeg",
+      "width": 969,
+      "height": 544,
+      "colorspace": 3,
+      "size_bytes": 92897,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 4,
+      "image_index": 2,
+      "xref": 44,
+      "filename": "page_004_img_02.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+      "ext": "jpeg",
+      "width": 423,
+      "height": 225,
+      "colorspace": 3,
+      "size_bytes": 25197,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 4,
+      "image_index": 3,
+      "xref": 46,
+      "filename": "page_004_img_03.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+      "ext": "jpeg",
+      "width": 969,
+      "height": 311,
+      "colorspace": 3,
+      "size_bytes": 23159,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 5,
+      "image_index": 1,
+      "xref": 56,
+      "filename": "page_005_img_01.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+      "ext": "jpeg",
+      "width": 969,
+      "height": 541,
+      "colorspace": 3,
+      "size_bytes": 47604,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 5,
+      "image_index": 2,
+      "xref": 58,
+      "filename": "page_005_img_02.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+      "ext": "jpeg",
+      "width": 969,
+      "height": 679,
+      "colorspace": 3,
+      "size_bytes": 93890,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 6,
+      "image_index": 1,
+      "xref": 100,
+      "filename": "page_006_img_01.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_006_img_01.png",
+      "ext": "png",
+      "width": 635,
+      "height": 621,
+      "colorspace": 1,
+      "size_bytes": 163403,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 7,
+      "image_index": 1,
+      "xref": 113,
+      "filename": "page_007_img_01.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_01.jpeg",
+      "ext": "jpeg",
+      "width": 1500,
+      "height": 668,
+      "colorspace": 1,
+      "size_bytes": 71438,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 7,
+      "image_index": 2,
+      "xref": 115,
+      "filename": "page_007_img_02.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_02.jpeg",
+      "ext": "jpeg",
+      "width": 1500,
+      "height": 665,
+      "colorspace": 3,
+      "size_bytes": 62938,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 8,
+      "image_index": 1,
+      "xref": 146,
+      "filename": "page_008_img_01.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_01.jpeg",
+      "ext": "jpeg",
+      "width": 1056,
+      "height": 460,
+      "colorspace": 3,
+      "size_bytes": 110852,
+      "extraction_level": "xref"
+    },
+    {
+      "page_number": 8,
+      "image_index": 2,
+      "xref": 147,
+      "filename": "page_008_img_02.jpeg",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_02.jpeg",
+      "ext": "jpeg",
+      "width": 102,
+      "height": 467,
+      "colorspace": 3,
+      "size_bytes": 10729,
+      "extraction_level": "xref"
+    }
+  ],
+  "figure_assets": [
+    {
+      "page_number": 2,
+      "label": "Table 1",
+      "kind": "table",
+      "caption_text": "Table 1 The design goals of BL18B",
+      "filename": "page_002_fig_table_1.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+      "ext": "png",
+      "width": 1653,
+      "height": 206,
+      "bbox_pt": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        74.26179504394531
+      ],
+      "size_bytes": 16363,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "reject",
+        "quality_reason_codes": [
+          "table_body_missing",
+          "multiple_caption_regions_suspected"
+        ],
+        "page_coverage_ratio": 0.093899,
+        "visual_rect_count": 0,
+        "visual_body_ratio": 0.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 33,
+        "other_caption_count": 1,
+        "other_caption_labels": [
+          "Table 2"
+        ]
+      }
+    },
+    {
+      "page_number": 2,
+      "label": "Table 2",
+      "kind": "table",
+      "caption_text": "Table 2 Specifications of BL18B Light source",
+      "filename": "page_002_fig_table_2.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+      "ext": "png",
+      "width": 701,
+      "height": 700,
+      "bbox_pt": [
+        300.1416931152344,
+        49.435543060302734,
+        552.771484375,
+        301.7728271484375
+      ],
+      "size_bytes": 88084,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.135408,
+        "visual_rect_count": 0,
+        "visual_body_ratio": 0.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 4,
+        "caption_text_chars": 44,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 2,
+      "label": "Table 2",
+      "kind": "table",
+      "caption_text": "Table 2. Figure 1 shows the brilliance and flux curves of the SSRF BM sources. The estimated source brilliance is 6.48 × ­1015 phs/s/0.1%bw/mm2/mrad2 at 8 keV, with a total flux of 1.19 × ­1013 phs/s/0.1%bw.",
+      "filename": "page_002_fig_table_2_2.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2_2.png",
+      "ext": "png",
+      "width": 1392,
+      "height": 556,
+      "bbox_pt": [
+        47.02330017089844,
+        525.1160278320312,
+        548.2520141601562,
+        725.4378051757812
+      ],
+      "size_bytes": 208099,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "reject",
+        "quality_reason_codes": [
+          "table_body_missing",
+          "table_text_contamination_suspected",
+          "multiple_caption_regions_suspected"
+        ],
+        "page_coverage_ratio": 0.213276,
+        "visual_rect_count": 19,
+        "visual_body_ratio": 1.0,
+        "paragraph_text_chars": 1316,
+        "table_body_rows": 0,
+        "caption_text_chars": 207,
+        "other_caption_count": 1,
+        "other_caption_labels": [
+          "Fig. 1"
+        ]
+      }
+    },
+    {
+      "page_number": 3,
+      "label": "Fig. 2",
+      "kind": "figure",
+      "caption_text": "Fig. 2 (Color online) Schematic of the beamline layout BM",
+      "filename": "page_003_fig_fig_2.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+      "ext": "png",
+      "width": 1653,
+      "height": 234,
+      "bbox_pt": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        84.25776672363281
+      ],
+      "size_bytes": 30003,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.106539,
+        "visual_rect_count": 3,
+        "visual_body_ratio": 0.383527,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 57,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 4,
+      "label": "Fig. 4",
+      "kind": "figure",
+      "caption_text": "Fig. 4 (Color online) Schematic of a TXM",
+      "filename": "page_004_fig_fig_4.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+      "ext": "png",
+      "width": 1392,
+      "height": 311,
+      "bbox_pt": [
+        47.02399826049805,
+        53.743316650390625,
+        548.2520141601562,
+        165.9097442626953
+      ],
+      "size_bytes": 522474,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.11942,
+        "visual_rect_count": 8,
+        "visual_body_ratio": 1.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 40,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 4,
+      "label": "Fig. 3",
+      "kind": "figure",
+      "caption_text": "Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution detector, f medium-resolution detec- tor. Other components are: g in-line telescope, h vacuum pipes",
+      "filename": "page_004_fig_fig_3.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+      "ext": "png",
+      "width": 1653,
+      "height": 229,
+      "bbox_pt": [
+        0.0,
+        159.9097442626953,
+        595.2760009765625,
+        242.3822479248047
+      ],
+      "size_bytes": 173084,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.104281,
+        "visual_rect_count": 2,
+        "visual_body_ratio": 0.272966,
+        "paragraph_text_chars": 380,
+        "table_body_rows": 0,
+        "caption_text_chars": 198,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 5,
+      "label": "Fig.6",
+      "kind": "figure",
+      "caption_text": "Fig.6 (Color online) The workflow of nano-spectral imaging",
+      "filename": "page_005_fig_fig_6.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+      "ext": "png",
+      "width": 683,
+      "height": 556,
+      "bbox_pt": [
+        302.1416931152344,
+        53.755828857421875,
+        548.2520141601562,
+        254.1098175048828
+      ],
+      "size_bytes": 250229,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.104739,
+        "visual_rect_count": 2,
+        "visual_body_ratio": 1.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 58,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 5,
+      "label": "Fig. 6",
+      "kind": "figure",
+      "caption_text": "Fig. 6. Dual-energy imaging records projection images at two different energy points: before and after the X-ray absorption edge of the target element. The target element",
+      "filename": "page_005_fig_fig_6_2.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+      "ext": "png",
+      "width": 701,
+      "height": 279,
+      "bbox_pt": [
+        45.023590087890625,
+        437.015869140625,
+        297.71673583984375,
+        537.73583984375
+      ],
+      "size_bytes": 39415,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "reject",
+        "quality_reason_codes": [
+          "low_visual_body_ratio"
+        ],
+        "page_coverage_ratio": 0.054061,
+        "visual_rect_count": 0,
+        "visual_body_ratio": 0.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 170,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 7,
+      "label": "Fig. 8",
+      "kind": "figure",
+      "caption_text": "Fig. 8 Absorption contrast images of dehydrated rabbit bone: a the first image; b the last image taken one hour later",
+      "filename": "page_007_fig_fig_8.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_8.png",
+      "ext": "png",
+      "width": 1653,
+      "height": 289,
+      "bbox_pt": [
+        0.0,
+        0.0,
+        595.2760009765625,
+        104.24971008300781
+      ],
+      "size_bytes": 146130,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.131817,
+        "visual_rect_count": 2,
+        "visual_body_ratio": 0.539429,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 117,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    },
+    {
+      "page_number": 7,
+      "label": "Fig.9",
+      "kind": "figure",
+      "caption_text": "Fig.9 (Color online) Recon- structed 3D image (a) and 2D slice (b) of the cycled NCM622 particle",
+      "filename": "page_007_fig_fig_9.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_9.png",
+      "ext": "png",
+      "width": 1392,
+      "height": 1524,
+      "bbox_pt": [
+        47.02360153198242,
+        53.75581359863281,
+        548.2520141601562,
+        602.4718017578125
+      ],
+      "size_bytes": 726217,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "reject",
+        "quality_reason_codes": [
+          "multiple_caption_regions_suspected"
+        ],
+        "page_coverage_ratio": 0.584201,
+        "visual_rect_count": 4,
+        "visual_body_ratio": 0.541413,
+        "paragraph_text_chars": 2168,
+        "table_body_rows": 0,
+        "caption_text_chars": 96,
+        "other_caption_count": 1,
+        "other_caption_labels": [
+          "Fig. 8"
+        ]
+      }
+    },
+    {
+      "page_number": 8,
+      "label": "Fig. 10",
+      "kind": "figure",
+      "caption_text": "Fig. 10 (Color online) Ni element chemical phase maps for NCM622 particles: a pristine particle; b cycled cathode particle; c XANES from two ROIs in (a) and (b)",
+      "filename": "page_008_fig_fig_10.png",
+      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+      "ext": "png",
+      "width": 1398,
+      "height": 444,
+      "bbox_pt": [
+        47.01507568359375,
+        53.62413787841797,
+        550.3729248046875,
+        213.66722106933594
+      ],
+      "size_bytes": 438987,
+      "extraction_level": "figure",
+      "quality_signals": {
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.171117,
+        "visual_rect_count": 13,
+        "visual_body_ratio": 1.0,
+        "paragraph_text_chars": 0,
+        "table_body_rows": 0,
+        "caption_text_chars": 160,
+        "other_caption_count": 0,
+        "other_caption_labels": []
+      }
+    }
+  ],
+  "asset_coverage": {
+    "total_pages": 9,
+    "asset_max_pages": 40,
+    "asset_pages_scanned": 9,
+    "truncated_due_to_asset_page_limit": false
+  },
+  "ocr_available": false
+}

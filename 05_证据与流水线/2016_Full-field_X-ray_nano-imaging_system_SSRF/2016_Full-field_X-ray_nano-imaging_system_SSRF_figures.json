@@ -1,0 +1,1618 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.3788/col201614.093401",
+  "figure_plan": {
+    "paper_id": "doi:10.3788/col201614.093401",
+    "figures": [
+      {
+        "id": "Fig 4",
+        "caption": "Schematic layout of the image magnification system.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+          "width": 697,
+          "height": 408,
+          "size_bytes": 128606,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.076206,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.760975,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 59,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "schematic",
+              "layout",
+              "image",
+              "magnification",
+              "system"
+            ],
+            "snippet": "al resolution of the microscope is 43 nm, which also matches the beam shaper. As shown in Fig. 4, in order to improve the imaging con- trast, a phase plate with Zernike phase dots is ins",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "schematic",
+              "layout",
+              "image",
+              "magnification",
+              "system"
+            ],
+            "snippet": "d Zernike phase contrast, with the optimized energy set to 10 keV. Shown in Fig. 1 is the schematic layout of a microscope at the SSRF BL13W1 beamline. The full-field nanoscope installed at",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "image",
+              "system"
+            ],
+            "snippet": "l resolution of 100 nm and an FOV of 50 μm × 50 μm can be achieved by the microscope. The image of the Siemen star shows that the contrast inside the FOV is isotropic and high enough fo",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Sample illumination system: (a) focused spot of beam",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+          "width": 705,
+          "height": 752,
+          "size_bytes": 219699,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.14203,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.724384,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 197,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "sample",
+              "illumination",
+              "system",
+              "focused",
+              "spot"
+            ],
+            "snippet": "incident on the beam shaper is approximately 2.0 × 1010 phs∕s∕mm2 at 10 keV. As shown in Fig. 6(a), a square-shaped flat-top illumi- nation is produced by the beam shaper at its focal p",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "sample",
+              "illumination",
+              "system",
+              "focused",
+              "spot"
+            ],
+            "snippet": "Chen, H. Xie, B. Deng, G. Du, H. Jiang, and T. Xiao, Chin. Opt. Lett. 12, 123401 (2014). Fig. 6. Sample illumination system: (a) focused spot of beam shaper and its three-dimensional in",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "sample",
+              "illumination",
+              "system"
+            ],
+            "snippet": "of x ray slits acts as an adjustable order- sorting aperture to keep out stray light. The sample is mounted on a high-precision rotation stage and can be adjusted along three directions.",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Schematic layout of the full-field microscope at the SSRF",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+          "width": 1347,
+          "height": 480,
+          "size_bytes": 341451,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.172951,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.610315,
+            "paragraph_text_chars": 396,
+            "table_body_rows": 0,
+            "caption_text_chars": 82,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Fig. 2"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "schematic",
+              "layout",
+              "full-field",
+              "microscope",
+              "ssrf"
+            ],
+            "snippet": "on contrast and Zernike phase contrast, with the optimized energy set to 10 keV. Shown in Fig. 1 is the schematic layout of a microscope at the SSRF BL13W1 beamline. The full-field nanos",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "schematic",
+              "layout",
+              "microscope"
+            ],
+            "snippet": "ucture of sample Δr, and (c) inclined incidence with fine structure of sample Δr. Fig. 4. Schematic layout of the image magnification system. Fig. 5. Picture for the experimental setup: (a)",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "full-field",
+              "microscope",
+              "ssrf"
+            ],
+            "snippet": "a higher reso- lution should be used by making the objective lens work in the 2× mode. A full-field x ray microscope is designed and constructed at the SSRF BL13W1 beamline. The test result",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Beam shaper compared with FZP.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "beam",
+              "shaper",
+              "compared"
+            ],
+            "snippet": "a flat-top illumina- tion from every sector. The schematic of the beam shaper is shown in Fig. 2, with that of a standard FZP given for comparison. The first diffraction of every subfiel",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "beam",
+              "shaper"
+            ],
+            "snippet": "beam is inclined an angle of θ to the optical axis of the imaging system. Only in this way can",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "beam",
+              "shaper"
+            ],
+            "snippet": "the 2× mode. A full-field x ray microscope is designed and constructed at the SSRF BL13W1 beamline. The test result by a stan- dard Siemen star shows that a spatial resolution of 100 n",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Three kinds of sample illumination modes: (a) normal in-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+          "width": 1430,
+          "height": 367,
+          "size_bytes": 493490,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.140558,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.685857,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 223,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "three",
+              "sample",
+              "illumination"
+            ],
+            "snippet": "What is more, the spatial resolution of the zone plate can also be improved, as shown in Fig. 3. As shown in Fig. 3(a), the fine structure of the sample is 2Δr, and the spatial frequenc",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "three",
+              "kinds",
+              "sample",
+              "illumination",
+              "modes"
+            ],
+            "snippet": "ig. 7(d), it can be seen that a contrast of 0.28 is attained at the resolution of 100 nm. Fig. 3. Three kinds of sample illumination modes: (a) normal in- cidence with fine structure of",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "sample",
+              "illumination"
+            ],
+            "snippet": "magnet is to be built, as included in the SSRF phase-II project. The beamline aims at the three-dimensional imaging of the nanoscale inner struc- tures. The photon energy range is 5–14",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Picture for the experimental setup: (a) the overall micro-",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "picture",
+              "experimental",
+              "setup",
+              "overall",
+              "micro-"
+            ],
+            "snippet": "to a light spot downstream from the zone plate. The picture of the microscope is shown in Fig. 5, where 1 denotes the central stop, 2 the condenser (beam shaper), 3 the order-sorting ape",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "overall"
+            ],
+            "snippet": "intensity profile. Fig. 7. Image of the Siemens star by the developed microscope: (a) the overall image of the target, (b) the intensity profile of the radial bar at the 500 nm zone, (c)",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image of the Siemens star by the developed microscope:",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+          "width": 705,
+          "height": 770,
+          "size_bytes": 357413,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.145298,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.683035,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 283,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "image",
+              "siemens",
+              "star",
+              "developed",
+              "microscope"
+            ],
+            "snippet": "r the developed micro- scope. The exposure time for a single projection is 60 s. Shown in Fig. 7 is the image of the Siemens star by the microscope. In Fig. 7(a), structures in the whole",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_01.jpeg",
+                "width": 1033,
+                "height": 298,
+                "size_bytes": 21132
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_02.jpeg",
+                "width": 1000,
+                "height": 488,
+                "size_bytes": 46151
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_img_03.jpeg",
+                "width": 1048,
+                "height": 548,
+                "size_bytes": 70600
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+                "width": 1430,
+                "height": 367,
+                "size_bytes": 493490,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140558,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.685857,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 223,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+                "width": 697,
+                "height": 408,
+                "size_bytes": 128606,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076206,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.760975,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "image",
+              "siemens",
+              "star",
+              "developed",
+              "microscope"
+            ],
+            "snippet": "ile, and (b) hollow spot after the beam stop and its three-dimensional intensity profile. Fig. 7. Image of the Siemens star by the developed microscope: (a) the overall image of the targ",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_01.jpeg",
+                "width": 1030,
+                "height": 894,
+                "size_bytes": 67035
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_img_02.jpeg",
+                "width": 986,
+                "height": 847,
+                "size_bytes": 102330
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+                "width": 705,
+                "height": 752,
+                "size_bytes": 219699,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14203,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.724384,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 197,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+                "width": 705,
+                "height": 770,
+                "size_bytes": 357413,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.145298,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.683035,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 283,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "image",
+              "microscope"
+            ],
+            "snippet": "μm. Similar to other microscopes in the world, a Fresnel zone plate (FZP) is used for the image magnification system. The designed microscope can operate at both the absorption contrast",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_01.jpeg",
+                "width": 1000,
+                "height": 442,
+                "size_bytes": 48679
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_img_02.jpeg",
+                "width": 750,
+                "height": 595,
+                "size_bytes": 45830
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png",
+                "width": 1347,
+                "height": 480,
+                "size_bytes": 341451,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.172951,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.610315,
+                  "paragraph_text_chars": 396,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

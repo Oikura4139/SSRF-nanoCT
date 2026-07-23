@@ -1,0 +1,62 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "title": "同步辐射纳米CT图像配准方法研究",
+  "note_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/2021_Image_alignment_synchrotron_X-ray_nano-CT.md",
+  "subdir": "04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT",
+  "images_dir": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images",
+  "materialized_figures": [
+    {
+      "source_id": "Fig 1",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_003_fig_fig_1.png",
+      "relative_markdown_path": "images/page_003_fig_fig_1.png"
+    },
+    {
+      "source_id": "Fig 4",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_4.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_005_fig_fig_4.png",
+      "relative_markdown_path": "images/page_005_fig_fig_4.png"
+    },
+    {
+      "source_id": "Fig 7",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_7.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_007_fig_fig_7.png",
+      "relative_markdown_path": "images/page_007_fig_fig_7.png"
+    },
+    {
+      "source_id": "Fig 10",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_008_fig_fig_10.png",
+      "relative_markdown_path": "images/page_008_fig_fig_10.png"
+    },
+    {
+      "source_id": "Fig 12",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_009_fig_fig_12.png",
+      "relative_markdown_path": "images/page_009_fig_fig_12.png"
+    },
+    {
+      "source_id": "Fig 13",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_010_fig_fig_13.png",
+      "relative_markdown_path": "images/page_010_fig_fig_13.png"
+    },
+    {
+      "source_id": "Fig 18",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_fig_fig_18.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_012_fig_fig_18.png",
+      "relative_markdown_path": "images/page_012_fig_fig_18.png"
+    },
+    {
+      "source_id": "Fig 21",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_014_fig_fig_21.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2021_Image_alignment_synchrotron_X-ray_nano-CT/images/page_014_fig_fig_21.png",
+      "relative_markdown_path": "images/page_014_fig_fig_21.png"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "/home/zhenyu/PaperReading/上海光源纳米CT",
+  "vault": "/home/zhenyu/PaperReading/上海光源纳米CT"
+}

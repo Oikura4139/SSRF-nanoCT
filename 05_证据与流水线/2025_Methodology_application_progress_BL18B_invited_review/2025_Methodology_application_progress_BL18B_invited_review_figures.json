@@ -1,0 +1,2119 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.3788/lop251906",
+  "figure_plan": {
+    "paper_id": "doi:10.3788/lop251906",
+    "figures": [
+      {
+        "id": "Fig 4",
+        "caption": "EPICS-based control and data acquisition system. (a) Interface for various motors; (b) interface and functions of the control and",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_005_fig_fig_4.png",
+          "width": 1429,
+          "height": 1885,
+          "size_bytes": 1007686,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.691643,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.263379,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 136,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "epics-based",
+              "control",
+              "data",
+              "acquisition",
+              "system"
+            ],
+            "snippet": "、定量双能减影成像 等多种成像方法。图5 为不同成像方法协同框架图。 图4 基于EPICS 的控制与数据采集系统。 （a）各类电机控制界面； （b）控制与数据采集软件界面及其功能 Fig. 4 EPICS-based control and data acquisition system. (a) Interface for various motors; (b) in",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_005_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_005_img_02.jpeg",
+                "width": 691,
+                "height": 531,
+                "size_bytes": 217509
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_005_fig_fig_4.png",
+                "width": 1429,
+                "height": 1885,
+                "size_bytes": 1007686,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.691643,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.263379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 136,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "control",
+              "data",
+              "acquisition",
+              "system"
+            ],
+            "snippet": "denser, high-stability mechanical systems, high efficiency X-ray detectors and customized control/data acquisition software. The beamline supports multimodal imaging capabilities, includi",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 17,
+            "score": 3,
+            "matched_terms": [
+              "control",
+              "data",
+              "system"
+            ],
+            "snippet": "of Scientific Instruments, 2025, 96(5): 053702. [24] Experimental Physics and Industrial Control System (EPICS) Version 7[EB/OL]. [2025-08-09]. https://epics- controls.org/. [25] Meirer",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_017_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Synergistic framework diagram of different imaging methods",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_5.png",
+          "width": 1423,
+          "height": 618,
+          "size_bytes": 295728,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.225837,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.528491,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 65,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "synergistic",
+              "framework",
+              "diagram",
+              "different",
+              "imaging"
+            ],
+            "snippet": "空间分辨率对应的系统焦深为23 μm，因此 样品直径需控制在20 μm 以内以满足成像需求。针对 不同形态的样品，本线站提供两种专用制备方案：1）对 图5 不同成像方法协同框架图 Fig. 5 Synergistic framework diagram of different imaging methods 图6 TXM 在不同分辨率模式下的分辨率靶透射成像结果 ［1",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_02.jpeg",
+                "width": 707,
+                "height": 325,
+                "size_bytes": 59682
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_03.jpeg",
+                "width": 768,
+                "height": 451,
+                "size_bytes": 124876
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_5.png",
+                "width": 1423,
+                "height": 618,
+                "size_bytes": 295728,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.225837,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.528491,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 65,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_6.png",
+                "width": 1233,
+                "height": 807,
+                "size_bytes": 633570,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.255545,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.61767,
+                  "paragraph_text_chars": 132,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 72,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 13,
+            "score": 2,
+            "matched_terms": [
+              "different",
+              "imaging"
+            ],
+            "snippet": "c）液体电池中不同电压下富镍阴极的镍浓度 Fig. 15 In situ Ni spectroscopic TXM imaging of cathode particles in different batteries [37]. (a) In situ Ni spectroscopic TXM imaging of cathode particles at differen",
+            "images": [
+              {
+                "filename": "page_013_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_013_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_013_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_013_img_02.jpeg",
+                "width": 739,
+                "height": 227,
+                "size_bytes": 100041
+              },
+              {
+                "filename": "page_013_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_013_img_03.jpeg",
+                "width": 632,
+                "height": 599,
+                "size_bytes": 190334
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_fig_15.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_013_fig_fig_15.png",
+                "width": 1423,
+                "height": 1362,
+                "size_bytes": 1030225,
+                "label": "Fig. 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.497713,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.376443,
+                  "paragraph_text_chars": 130,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 88,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_013_fig_fig_16.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_013_fig_fig_16.png",
+                "width": 1214,
+                "height": 472,
+                "size_bytes": 351953,
+                "label": "Fig. 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.147253,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.519493,
+                  "paragraph_text_chars": 130,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 75,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "imaging"
+            ],
+            "snippet": "1 文献标志码 A DOI： 10.3788/LOP251906 Progress in Methodologies and Applications of the 3D Nanoimaging Beamline at Shanghai Synchrotron Radiation Facility (Invited) Tao Fen 1,2,3, Zhang Ling 2",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Transmission imaging results of TXM at different resolution modes",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_6.png",
+          "width": 1233,
+          "height": 807,
+          "size_bytes": 633570,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.255545,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.61767,
+            "paragraph_text_chars": 132,
+            "table_body_rows": 0,
+            "caption_text_chars": 72,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "transmission",
+              "imaging",
+              "different",
+              "resolution",
+              "modes"
+            ],
+            "snippet": "度分析； （d）中分辨模式的吸收衬度成像， 可清晰分辨70 nm 分辨率靶的线宽结构； （e）图6（d）中L2 区域的强度分布曲线； （f）基于图6（d）的星形图案功率谱密度分析 Fig. 6 Transmission imaging results of TXM at different resolution modes [17]. (a) The absorptio",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_02.jpeg",
+                "width": 707,
+                "height": 325,
+                "size_bytes": 59682
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_img_03.jpeg",
+                "width": 768,
+                "height": 451,
+                "size_bytes": 124876
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_5.png",
+                "width": 1423,
+                "height": 618,
+                "size_bytes": 295728,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.225837,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.528491,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 65,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_6.png",
+                "width": 1233,
+                "height": 807,
+                "size_bytes": 633570,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.255545,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.61767,
+                  "paragraph_text_chars": 132,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 72,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "transmission",
+              "imaging",
+              "resolution"
+            ],
+            "snippet": "anghai synchrotron radiation facility (SSRF) is an in-house-designed dedicated full-field transmission X-ray microscopy (TXM) system in China. It is also the world’s first hard X-ray imaging b",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "imaging",
+              "resolution",
+              "modes"
+            ],
+            "snippet": "对比图像； （d）低原子序数材料（SiO₂粉末）二维切片图像； （e）局部区域三维 结构渲染图； （f）同批次SiO₂粉末扫描电子显微镜对比图像 Fig. 7 Nanoscale imaging results of high/low atomic number standard samples in two resolution modes[17]. (a) 2D sl",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_img_02.jpeg",
+                "width": 735,
+                "height": 413,
+                "size_bytes": 94507
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_fig_fig_7.png",
+                "width": 1429,
+                "height": 1366,
+                "size_bytes": 944501,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.501502,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.305327,
+                  "paragraph_text_chars": 121,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Nanoscale imaging results of high/low atomic number standard samples in two resolution modes[17]. (a) 2D slice image of high",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_fig_fig_7.png",
+          "width": 1429,
+          "height": 1366,
+          "size_bytes": 944501,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.501502,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.305327,
+            "paragraph_text_chars": 121,
+            "table_body_rows": 0,
+            "caption_text_chars": 131,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "nanoscale",
+              "imaging",
+              "high",
+              "atomic",
+              "number"
+            ],
+            "snippet": "（c）同批次金颗粒扫描电子显微镜对比图像； （d）低原子序数材料（SiO₂粉末）二维切片图像； （e）局部区域三维 结构渲染图； （f）同批次SiO₂粉末扫描电子显微镜对比图像 Fig. 7 Nanoscale imaging results of high/low atomic number standard samples in two resolution mo",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_img_02.jpeg",
+                "width": 735,
+                "height": 413,
+                "size_bytes": 94507
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_fig_fig_7.png",
+                "width": 1429,
+                "height": 1366,
+                "size_bytes": 944501,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.501502,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.305327,
+                  "paragraph_text_chars": 121,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "nanoscale",
+              "imaging",
+              "high"
+            ],
+            "snippet": "ly recognized research achievements. As a crucial national platform for synchrotron-based nanoscale characterization, the 3D nano-imaging beamline provides essential technical capabilities",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 16,
+            "score": 3,
+            "matched_terms": [
+              "nanoscale",
+              "imaging",
+              "number"
+            ],
+            "snippet": "eedings, 2011, 1365(1): 357-360. [7] Andrews J C, Almeida E, van der Meulen M C H, et al. Nanoscale X-ray microscopic imaging of mammalian mineralized tissue[J]. Microscopy and Microanalysi",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_016_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Key parameters of international TXM beamlines",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_table_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_1.png",
+          "width": 1432,
+          "height": 465,
+          "size_bytes": 139547,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.171142,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 7,
+            "caption_text_chars": 53,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "parameters",
+              "international",
+              "beamlines"
+            ],
+            "snippet": "成像的相空间需求，经白 光狭缝后，光束线接收角为0.4 mrad×0.22 mrad。线站 科学目标为纳米材料结构研究，根据波带片加工工艺 表1 国际主流TXM 线站关键参数对比 Table 1 Key parameters of international TXM beamlines Beamline Light source type Energy range /ke",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_02.jpeg",
+                "width": 768,
+                "height": 231,
+                "size_bytes": 74539
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_1.png",
+                "width": 1432,
+                "height": 465,
+                "size_bytes": 139547,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171142,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_2.png",
+                "width": 1432,
+                "height": 506,
+                "size_bytes": 143187,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.186029,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_fig_1.png",
+                "width": 1045,
+                "height": 441,
+                "size_bytes": 245026,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.118512,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.682555,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 36,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "international"
+            ],
+            "snippet": "luding energy materials, semiconductor devices, and optical components, yielding numerous internationally recognized research achievements. As a crucial national platform for synchrotron-based",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Main technical parameters of BL18B",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_table_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_2.png",
+          "width": 1432,
+          "height": 506,
+          "size_bytes": 143187,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.186029,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 7,
+            "caption_text_chars": 42,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Table 1"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "main",
+              "technical",
+              "parameters"
+            ],
+            "snippet": "ler 5‒14 30 BSRF4W1A Wiggler 6‒10 30 SSRFBL18B Bending magnet 5‒14 19.9 表2 BL18B 线站主要技术指标 Table 2 Main technical parameters of BL18B Subsystem Beamline End station Specification Energy ra",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_02.jpeg",
+                "width": 768,
+                "height": 231,
+                "size_bytes": 74539
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_1.png",
+                "width": 1432,
+                "height": 465,
+                "size_bytes": 139547,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171142,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_2.png",
+                "width": 1432,
+                "height": 506,
+                "size_bytes": 143187,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.186029,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_fig_1.png",
+                "width": 1045,
+                "height": 441,
+                "size_bytes": 245026,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.118512,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.682555,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 36,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "technical"
+            ],
+            "snippet": "hrotron-based nanoscale characterization, the 3D nano-imaging beamline provides essential technical capabilities for cutting-edge scientific research. Key words X-ray imaging; synchrotron r",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "The parameter of ellipsoidal capillary",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_3.png",
+          "width": 1433,
+          "height": 662,
+          "size_bytes": 218327,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.243732,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 6,
+            "caption_text_chars": 46,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "parameter",
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "主要用于线站准直过程中大视 场下快速成像以及中等分辨率TXM 实验。探测器与 波带片之间的光路上布置真空管道以减少空气对X 射线的吸收。 表3 两种椭球聚焦镜的物理参数 ［13］ Table 3 The parameter of ellipsoidal capillary [13] No. ABS25‒8 ABS40‒7 Length of ellipsoidal cap",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_img_02.jpeg",
+                "width": 709,
+                "height": 583,
+                "size_bytes": 183684
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_fig_3.png",
+                "width": 1423,
+                "height": 962,
+                "size_bytes": 1059406,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.351517,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.57763,
+                  "paragraph_text_chars": 116,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 64,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_3.png",
+                "width": 1433,
+                "height": 662,
+                "size_bytes": 218327,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243732,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_4.png",
+                "width": 1433,
+                "height": 708,
+                "size_bytes": 226785,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260483,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "toroidal focusing mirror. The experimental station is equipped with an in-house designed ellipsoidal mono-capillary condenser, high-stability mechanical systems, high efficiency X-ray detect",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 16,
+            "score": 2,
+            "matched_terms": [
+              "ellipsoidal",
+              "capillary"
+            ],
+            "snippet": "J]. 光学学报, 2017, 37(10): 1034002. Tao F, Wang Y D, Ren Y Q, et al. Design and detection of ellipsoidal mono-capillary for X-ray nano- imaging[J]. Acta Optica Sinica, 2017, 37(10): 1034002. [15",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_016_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Specifications of the two X-ray imaging detectors",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_4.png",
+          "width": 1433,
+          "height": 708,
+          "size_bytes": 226785,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.260483,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 5,
+            "caption_text_chars": 57,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Table 3"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "specifications",
+              "x-ray",
+              "imaging",
+              "detectors"
+            ],
+            "snippet": "orption contrast images of the star pattern without and with the shaker 表4 两种X 射线成像探测器的参数 Table 4 Specifications of the two X-ray imaging detectors Parameter Model Pixel array /（pixel×pix",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_img_02.jpeg",
+                "width": 709,
+                "height": 583,
+                "size_bytes": 183684
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_fig_3.png",
+                "width": 1423,
+                "height": 962,
+                "size_bytes": 1059406,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.351517,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.57763,
+                  "paragraph_text_chars": 116,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 64,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_3.png",
+                "width": 1433,
+                "height": 662,
+                "size_bytes": 218327,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.243732,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_table_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_4.png",
+                "width": 1433,
+                "height": 708,
+                "size_bytes": 226785,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260483,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "x-ray",
+              "imaging",
+              "detectors"
+            ],
+            "snippet": "otron radiation facility (SSRF) is an in-house-designed dedicated full-field transmission X-ray microscopy (TXM) system in China. It is also the world’s first hard X-ray imaging beamlin",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_001_img_01.jpeg",
+                "width": 1051,
+                "height": 124,
+                "size_bytes": 77385
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 16,
+            "score": 3,
+            "matched_terms": [
+              "x-ray",
+              "imaging",
+              "detectors"
+            ],
+            "snippet": "考 文 献 [1] Ge M Y, Coburn D S, Nazaretski E, et al. One-minute nano-tomography using hard X-ray full-field transmission microscope[J]. Applied Physics Letters, 2018, 113(8): 083109. [2]",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_016_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Schematic of the BL18B layout",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_fig_1.png",
+          "width": 1045,
+          "height": 441,
+          "size_bytes": 245026,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.118512,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.682555,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 36,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 7,
+            "matched_terms": [
+              "fig. 1",
+              "schematic",
+              "layout"
+            ],
+            "snippet": "−4 5×10 9 20 Test result 4.966‒14.353 2.0×10 −4 1.96×10 10 19.5±0.1 图1 BL18B 的总体布局图 ［11］ Fig. 1 Schematic of the BL18B layout [11]",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_img_02.jpeg",
+                "width": 768,
+                "height": 231,
+                "size_bytes": 74539
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_1.png",
+                "width": 1432,
+                "height": 465,
+                "size_bytes": 139547,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171142,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 53,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_2.png",
+                "width": 1432,
+                "height": 506,
+                "size_bytes": 143187,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.186029,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_fig_1.png",
+                "width": 1045,
+                "height": 441,
+                "size_bytes": 245026,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.118512,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.682555,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 36,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 6,
+            "matched_terms": [
+              "fig. 1",
+              "schematic"
+            ],
+            "snippet": "cleGAN 的前向生成器和 优化的双U-Net 结构； （c）配准后图像数据集； （d）配准前重构结果； （e）配准后重构结果； （f）配准前局部区域； （g）配准后局部 区域 Fig. 13 Schematic diagrams of the XANES registration method [32]. (a) Original image data; (b) d",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_011_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_img_02.jpeg",
+                "width": 715,
+                "height": 567,
+                "size_bytes": 214798
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_fig_fig_13.png",
+                "width": 1423,
+                "height": 1954,
+                "size_bytes": 1583673,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.714094,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.279213,
+                  "paragraph_text_chars": 118,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 5,
+            "matched_terms": [
+              "fig. 1"
+            ],
+            "snippet": "［19］。 （a） Cu； （b） CuO； （c） CuSO4； （d） CuCl2·2H2O； （e）归一化灰度频率分布及高斯拟合； （f）归 一化LAC 差值与灰度线性拟合 Fig. 10 Grayscale analysis of KES-CT slices in Cu group [19]. (a) Cu; (b) CuO; (c) CuSO4; (d) Cu",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_02.jpeg",
+                "width": 945,
+                "height": 600,
+                "size_bytes": 118195
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_fig_fig_10.png",
+                "width": 1423,
+                "height": 1687,
+                "size_bytes": 802834,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.61661,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.442948,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Grayscale analysis of KES-CT slices in Cu group",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_10.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_fig_fig_10.png",
+          "width": 1423,
+          "height": 1687,
+          "size_bytes": 802834,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.61661,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.442948,
+            "paragraph_text_chars": 99,
+            "table_body_rows": 0,
+            "caption_text_chars": 55,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "grayscale",
+              "analysis",
+              "kes-ct",
+              "slices",
+              "group"
+            ],
+            "snippet": "［19］。 （a） Cu； （b） CuO； （c） CuSO4； （d） CuCl2·2H2O； （e）归一化灰度频率分布及高斯拟合； （f）归 一化LAC 差值与灰度线性拟合 Fig. 10 Grayscale analysis of KES-CT slices in Cu group [19]. (a) Cu; (b) CuO; (c) CuSO4; (d) CuC",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_02.jpeg",
+                "width": 945,
+                "height": 600,
+                "size_bytes": 118195
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_fig_fig_10.png",
+                "width": 1423,
+                "height": 1687,
+                "size_bytes": 802834,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.61661,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.442948,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "grayscale",
+              "analysis",
+              "kes-ct",
+              "slices",
+              "group"
+            ],
+            "snippet": "。 （a） Ni； （b） NiO； （c） Ni2O3； （d） NCM811； （e）归一化灰度频率分布及高斯拟合； （f）归一化 LAC 差值与灰度线性拟合 Fig. 11 Grayscale analysis of KES-CT slices in Ni group [19]. (a) Ni; (b) NiO; (c) Ni2O3; (d) NCM811; (e) f",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_02.jpeg",
+                "width": 621,
+                "height": 649,
+                "size_bytes": 133508
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_03.jpeg",
+                "width": 945,
+                "height": 626,
+                "size_bytes": 143315
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_11.png",
+                "width": 1423,
+                "height": 1056,
+                "size_bytes": 545950,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.385997,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.737322,
+                  "paragraph_text_chars": 95,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_12.png",
+                "width": 853,
+                "height": 999,
+                "size_bytes": 607409,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.218834,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.840295,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 2,
+            "matched_terms": [
+              "grayscale",
+              "analysis"
+            ],
+            "snippet": "2012, 19(2): 281-287. [28] Ju X L, Deng B, Li K, et al. Calibrating the linearity between grayscale and element content for X-ray KES imaging of alloys[J]. Nuclear Science and Techniques, 2",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_017_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "Grayscale analysis of KES-CT slices in Ni group",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_11.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_11.png",
+          "width": 1423,
+          "height": 1056,
+          "size_bytes": 545950,
+          "label": "Fig. 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.385997,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.737322,
+            "paragraph_text_chars": 95,
+            "table_body_rows": 0,
+            "caption_text_chars": 55,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "grayscale",
+              "analysis",
+              "kes-ct",
+              "slices",
+              "group"
+            ],
+            "snippet": "度分析 ［19］。 （a） Ni； （b） NiO； （c） Ni2O3； （d） NCM811； （e）归一化灰度频率分布及高斯拟合； （f）归一化 LAC 差值与灰度线性拟合 Fig. 11 Grayscale analysis of KES-CT slices in Ni group [19]. (a) Ni; (b) NiO; (c) Ni2O3; (d) NCM",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_02.jpeg",
+                "width": 621,
+                "height": 649,
+                "size_bytes": 133508
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_03.jpeg",
+                "width": 945,
+                "height": 626,
+                "size_bytes": 143315
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_11.png",
+                "width": 1423,
+                "height": 1056,
+                "size_bytes": 545950,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.385997,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.737322,
+                  "paragraph_text_chars": 95,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_12.png",
+                "width": 853,
+                "height": 999,
+                "size_bytes": 607409,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.218834,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.840295,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "grayscale",
+              "analysis",
+              "kes-ct",
+              "slices",
+              "group"
+            ],
+            "snippet": "） Cu； （b） CuO； （c） CuSO4； （d） CuCl2·2H2O； （e）归一化灰度频率分布及高斯拟合； （f）归 一化LAC 差值与灰度线性拟合 Fig. 10 Grayscale analysis of KES-CT slices in Cu group [19]. (a) Cu; (b) CuO; (c) CuSO4; (d) CuCl2·2H2O; (",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_img_02.jpeg",
+                "width": 945,
+                "height": 600,
+                "size_bytes": 118195
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_fig_fig_10.png",
+                "width": 1423,
+                "height": 1687,
+                "size_bytes": 802834,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.61661,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.442948,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 2,
+            "matched_terms": [
+              "grayscale",
+              "analysis"
+            ],
+            "snippet": "2012, 19(2): 281-287. [28] Ju X L, Deng B, Li K, et al. Calibrating the linearity between grayscale and element content for X-ray KES imaging of alloys[J]. Nuclear Science and Techniques, 2",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_017_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 12",
+        "caption": "Flow chart of dual U-Net based automatic nano-CT alignment method",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_12.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_12.png",
+          "width": 853,
+          "height": 999,
+          "size_bytes": 607409,
+          "label": "Fig. 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.218834,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.840295,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 73,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 12",
+              "flow",
+              "chart",
+              "dual",
+              "u-net",
+              "based"
+            ],
+            "snippet": "2434013-10 特邀综述 第 62 卷第 24 期/2025 年 12 月/激光与光电子学进展 图12 双U-Net 纳米CT 自动配准方法流程图 ［15］ Fig. 12 Flow chart of dual U-Net based automatic nano-CT alignment method [15] 图11 Ni 组KES-CT 切片灰",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_02.jpeg",
+                "width": 621,
+                "height": 649,
+                "size_bytes": 133508
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_img_03.jpeg",
+                "width": 945,
+                "height": 626,
+                "size_bytes": 143315
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_11.png",
+                "width": 1423,
+                "height": 1056,
+                "size_bytes": 545950,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.385997,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.737322,
+                  "paragraph_text_chars": 95,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 55,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_fig_12.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_12.png",
+                "width": 853,
+                "height": 999,
+                "size_bytes": 607409,
+                "label": "Fig. 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.218834,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.840295,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "dual",
+              "u-net",
+              "based"
+            ],
+            "snippet": "ication and segmentation method, comprising a CycleGAN forward generator and an optimized dual U-Net structure; (c) registered image dataset; (d) reconstruction result before registrat",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              },
+              {
+                "filename": "page_011_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_img_02.jpeg",
+                "width": 715,
+                "height": 567,
+                "size_bytes": 214798
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_13.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_011_fig_fig_13.png",
+                "width": 1423,
+                "height": 1954,
+                "size_bytes": 1583673,
+                "label": "Fig. 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.714094,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.279213,
+                  "paragraph_text_chars": 118,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 16,
+            "score": 3,
+            "matched_terms": [
+              "dual",
+              "u-net",
+              "based"
+            ],
+            "snippet": "imaging[J]. Acta Optica Sinica, 2017, 37(10): 1034002. [15] Su B, Gao R Y, Tao F, et al. Dual U-Net based feature map algorithm for automatic projection alignment of synchrotron nano-",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_016_img_01.jpeg",
+                "width": 1051,
+                "height": 31,
+                "size_bytes": 7409
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "在可选类型中最接近仪器/系统方法论文：文章系统描述 BL18B 光源、光学、TXM 终端、控制采集、nano-CT 与纳米谱学流程并给出调试结果。",
+  "dominant_domain": "同步辐射三维纳米成像光束线、nano-CT 与 TXM-XANES",
+  "must_cover": [
+    "弯铁源到次级光源再到 TXM 的相空间与光学链",
+    "单毛细管 shaker、FZP、双探测器和高稳定平台",
+    "AduRecon、自动投影配准与 EPICS 数据采集",
+    "TXM、marker-less nano-CT 与 2D TXM-XANES 三类能力",
+    "20 nm 二维指标、30 nm/pixel CT 和化学态成像之间的计量边界",
+    "作者明确提出的束斑反馈与 FZP 角度调节升级缺口"
+  ],
+  "key_numbers": [
+    "弯铁源 3.5 GeV、1.27 T，接收角 0.4 mrad × 0.22 mrad；8 keV 估算源通量 1.19×10^13 ph/s/0.1%bw",
+    "工作能区 5–14 keV，设计能量分辨率 2×10^-4，样品点设计通量 1.3×10^10 ph/s",
+    "CM/DCM/TM 分别距光源约 20.2/23/26 m，TM 聚焦至 39 m 次级光源狭缝",
+    "FZP 外环宽 25/40 nm、直径 125/150 μm；两套探测器均为 2048×2048、6.5 μm 像素",
+    "Siemens star 在 8 keV、30 s 曝光下 PSD 截止 25 μm^-1，对应 20 nm 二维分辨率",
+    "5.5 keV 样品点通量约 1.26×10^10 photons/s，脱水兔骨连续照射一小时前后未见明显变化",
+    "NCM622 nano-CT：8.6 keV、180 幅、1 s/幅、完整数据约 6 min，重建图像 30 nm/pixel",
+    "2D TXM-XANES 对原始和 50 次循环 NCM622 在 8.2–8.6 keV 扫描，显示 Ni K 边空间差异"
+  ],
+  "real_comparisons": [
+    "设计样品通量 1.3×10^10 ph/s 与 5.5 keV 实测约 1.26×10^10 ph/s 量级一致，但能量条件不同，不能视为严格同条件验收",
+    "原始 NCM622 的 Ni 吸收边分布较均匀，50 次循环颗粒内区吸收边低于外区，体现谱学成像对空间非均匀性的能力",
+    "相较 2022 调试论文，本篇把线站描述扩展到自动控制、marker-less CT、XANES 数据流和开放数据；相较同年 JSR 论文，本篇更偏整站与多模态能力"
+  ],
+  "central_claims": [
+    {
+      "claim": "BL18B 已形成从弯铁光源、相空间整形到自研 TXM 终端和统一控制采集的完整三维纳米成像光束线。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ]
+        }
+      ],
+      "what_it_actually_proves": "文章给出主要元件位置、镜面与单色器要求、终端组件、EPICS 控制和各实验模式的数据采集流程，构成完整系统描述。",
+      "what_it_does_not_prove": "“in-house designed”不表示所有器件国产；FZP、探测器和多类运动部件仍来自外部供应商，文章也未给出整站可靠性统计。"
+    },
+    {
+      "claim": "该线站能够在约 6 min 内完成 marker-less NCM622 nano-CT 并重建内部裂纹。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            5,
+            7
+          ]
+        }
+      ],
+      "what_it_actually_proves": "180 幅、1 s 曝光的 8.6 keV 数据经自主配准和 AduRecon 处理得到三维体及裂纹切片，证明流程可运行。",
+      "what_it_does_not_prove": "30 nm/pixel 是采样尺寸而非经 FSC/MTF 证明的 30 nm 三维分辨率；6 min 也未分解曝光、运动和参考图开销。"
+    },
+    {
+      "claim": "BL18B 的 TXM-XANES 能映射电池颗粒中 Ni 化学态的空间非均匀性。",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "what_it_actually_proves": "8.2–8.6 keV 图像堆栈经过倍率、配准、参考和归一化处理，产生逐像素 XANES 与 Ni K 边伪彩分布，并区分原始/循环颗粒。",
+      "what_it_does_not_prove": "没有独立价态标准、定量误差或三维谱学结果，故不能把伪彩边位直接等同为绝对 Ni 价态计量。"
+    }
+  ],
+  "claim_boundaries": [
+    "20 nm 是 8 keV Siemens star 的二维 TXM 结果，nano-CT 示例报告的是 30 nm/pixel，不是 20 或 30 nm 三维分辨率。",
+    "兔骨一小时前后无明显变化是定性图像观察，不能证明所有生物样品在相同通量下无辐射损伤。",
+    "marker-less 描述的是不使用外加标记的投影配准流程，不等于无需所有校准或人工质量控制。",
+    "2D XANES 只展示相对吸收边空间差异，未给出绝对价态、配位或误差传播。",
+    "本文同时复述同团队既有 20 nm 和 nano-CT 结果，新增价值主要是整站、多模态工作流与开放数据的综合描述。"
+  ],
+  "negative_or_limiting_results": [
+    "作者明确计划升级 X 射线束斑位置反馈与校正系统，并增加 FZP 角度电机，说明束斑稳定与物镜对准仍是已知工程短板。",
+    "nano-CT 只报告 180 投影与 30 nm/pixel，没有 3D 分辨率、剂量、重复性和不确定度。",
+    "兔骨辐射损伤只凭两幅图定性判断，缺少剂量、统计与功能性损伤指标。",
+    "TXM-XANES 没有标准物质校准、绝对价态误差或能量漂移不确定度。",
+    "论文没有把 AduRecon/自动配准与替代算法做同数据集定量对比。"
+  ],
+  "mechanism_result_map": [
+    "CM 抑制热负载和高次谐波并垂直准直，DCM 提供 2×10^-4 级单色性，TM 将光束聚到 SSA；这一链路为 FZP 与 XANES 能量扫描提供相空间和能量基础。",
+    "单毛细管将 SSA 成像到样品并提供空心光锥，shaker 扩展不足的照明角以填满 FZP 数值孔径，对应更完整的视场照明。",
+    "气浮旋转、自动特征图配准、抖动校正、相位恢复和环伪影抑制接力处理 180 幅投影，对应 marker-less CT 重建。",
+    "XANES 扫描时根据两个清晰能点插值 FZP 位置，逐能量同步移动物镜并采样/参考图，再由 TXM-Wizard 做倍率和配准校正，对应逐像素吸收谱。",
+    "统一 EPICS/自研界面把 TXM、CT、双能和谱学模式编排为可重复采集流程，是平台从设备集合走向用户实验系统的关键。"
+  ],
+  "comparative_positioning": [
+    "2022 论文回答“线站指标是否达标”，本篇回答“光束线、终端、软件和三种实验模式如何作为一体化用户平台工作”。",
+    "同年 JSR nano-CT 论文提供更细的双模式和高低 Z 三维数据，本篇新增 6 min NCM622 流程、2D XANES、控制系统和开放数据。",
+    "相较仅依赖 TXM-Wizard 的传统谱学后处理，BL18B 的系统特点是把能量—FZP 联动和参考图采集纳入控制层，但并未提出全新的光谱反演算法。"
+  ],
+  "reuse_takeaways": [
+    "光束线能力应按光源/光学、终端、控制、重建、谱学标定和数据开放六层拆解验收。",
+    "报告 CT 像素时必须同时给出经独立方法测得的 3D 分辨率，避免将采样间隔当作真实分辨率。",
+    "谱学成像自动化的核心不仅是图像配准，还包括能量扫描时焦距变化、参考图和束斑漂移的同步控制。",
+    "作者在结论中点名的反馈和角度电机升级可直接转化为短期工程任务。"
+  ],
+  "followup_questions": [
+    "6 min CT 中曝光、旋转稳定、参考图和软件开销分别占多少，能否在保持 3D 分辨率下进一步压缩？",
+    "30 nm/pixel NCM622 数据用 FSC 或已知结构测得的三维分辨率和方向各向异性是多少？",
+    "束斑位置反馈升级前后的投影漂移、配准残差和 XANES 边位误差能降低多少？",
+    "兔骨样品的一小时吸收剂量是多少，是否存在图像不可见但化学/力学可测的辐射损伤？",
+    "Ni K 边伪彩分布与标准价态或独立光谱拟合之间的绝对误差如何校准？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "weight": "high",
+      "subsections": [
+        "整站一体化问题",
+        "结构与化学态联合表征"
+      ],
+      "focus": "解释 BL18B 不只追求单一 20 nm 指标，而是要把 CT、谱学、控制、重建和用户操作整合成可复用平台。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:abstract"
+        },
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            1,
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "weight": "high",
+      "subsections": [
+        "TXM 靶标与兔骨",
+        "NCM622 nano-CT",
+        "原始/循环颗粒 XANES"
+      ],
+      "focus": "分别定义二维分辨率、辐射稳定性观察、三维裂纹重建和化学态映射任务，避免把不同证据合并为一个性能数字。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "page_range": {
+            "start": 6,
+            "end": 8
+          }
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "weight": "high",
+      "subsections": [
+        "机制流程",
+        "光束线与终端相空间",
+        "自动 CT 数据链",
+        "XANES 能量—焦距联动"
+      ],
+      "focus": "从弯铁、CM/DCM/TM、SSA、单毛细管、样品和 FZP 到探测器，再延伸到 EPICS、AduRecon 与 TXM-Wizard 的完整信息流。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "page_range": {
+            "start": 1,
+            "end": 6
+          }
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "weight": "high",
+      "subsections": [
+        "20 nm 二维 TXM",
+        "6 min marker-less CT",
+        "Ni K 边空间分布"
+      ],
+      "focus": "保留 20 nm、1.26×10^10 ph/s、180 幅/6 min/30 nm pixel 与 8.2–8.6 keV 等关键条件，并标注各自能证明的层级。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "weight": "high",
+      "subsections": [
+        "平台贡献而非单项纪录",
+        "像素、二维和三维分辨率",
+        "控制层对谱学可靠性的作用"
+      ],
+      "focus": "评价一体化平台和多模态数据链的真正贡献，解释为何控制与配准决定谱学可信度，并防止把像素写成三维分辨率。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "weight": "high",
+      "subsections": [
+        "缺少三维计量与误差",
+        "辐射损伤证据薄弱",
+        "束斑与 FZP 稳定性升级"
+      ],
+      "focus": "用作者明确提出的反馈和角度电机升级，以及缺失的 3D 分辨率、剂量和价态标准，界定平台当前证据边界。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction"
+        },
+        {
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1073/pnas.2202695119",
+  "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT.pdf",
+    "total_pages": 10,
+    "text_pages_extracted": 10,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 10,
+    "text_max_pages": null,
+    "text_pages_extracted": 10,
+    "text_pages_scanned": 10,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 2,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 9591,
+      "text_hash_sha256": "1c4220ae178b6af938458a6e4973eea2afd4d6bee8018480a64a351208909df5"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 2279,
+      "text_hash_sha256": "02e6998972d96ef90412910661fd6f5c52270acba007827fdd4e49e95b63ae2d"
+    },
+    {
+      "section_id": "sec:appendix-fig-s2-a-and-b-zn-signal-and-ca-signal-were-obvious",
+      "kind": "appendix",
+      "title": "Appendix, Fig. S2 A and B); Zn signal and Ca signal were obvious",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 1093,
+      "text_hash_sha256": "52e470feea9d9d3694a16ce08635e1b65f0274d86e100222863951b457b6226e"
+    },
+    {
+      "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+      "kind": "appendix",
+      "title": "Appendix, Fig. S3). As shown in Fig. 2D, a large proportion of",
+      "page_start": 2,
+      "page_end": 4,
+      "char_count": 5893,
+      "text_hash_sha256": "17e6d14fd48b9becec888ad21a0aba6f0153e4a673e5f080508f3417ba4ed06c"
+    },
+    {
+      "section_id": "sec:appendix-fig-s4-no-obvious-abrupt-change-in-absorption-was",
+      "kind": "appendix",
+      "title": "Appendix, Fig. S4, no obvious abrupt change in absorption was",
+      "page_start": 4,
+      "page_end": 4,
+      "char_count": 20,
+      "text_hash_sha256": "34cb96c89e0a18d8188e6e42b36c3f43822d8a07f941ddd788220d45574186c3"
+    },
+    {
+      "section_id": "sec:results-2",
+      "kind": "experiment",
+      "title": "results",
+      "page_start": 4,
+      "page_end": 4,
+      "char_count": 15,
+      "text_hash_sha256": "5bedca4911270bfe0507d8a340b646686c1d432157e5c9632e532a8726535117"
+    },
+    {
+      "section_id": "sec:analysis",
+      "kind": "experiment",
+      "title": "analysis",
+      "page_start": 4,
+      "page_end": 6,
+      "char_count": 10494,
+      "text_hash_sha256": "dddb688f52fcbe94f269503397870338e60d8b50ae3b5647fd7d9f688a2137d3"
+    },
+    {
+      "section_id": "sec:discussion",
+      "kind": "conclusion",
+      "title": "Discussion",
+      "page_start": 6,
+      "page_end": 8,
+      "char_count": 4399,
+      "text_hash_sha256": "9d4bb452c331da571b06b377d37459e588241a92df98aadc48364ae8c475bb76"
+    },
+    {
+      "section_id": "sec:materials-and-methods",
+      "kind": "method",
+      "title": "Materials and Methods",
+      "page_start": 8,
+      "page_end": 10,
+      "char_count": 10107,
+      "text_hash_sha256": "8bb4d686b2517d680d51a42c9d916d8fe1a03897705f2d1243bd58101d254731"
+    },
+    {
+      "section_id": "sec:acknowledgments-we-acknowledge-the-staff-at-the-cls-101d-1-sm",
+      "kind": "acknowledgments",
+      "title": "ACKNOWLEDGMENTS. We acknowledge the staff at the CLS 101D-1 SM",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 9523,
+      "text_hash_sha256": "50ad519d01d55fe8553b94e0cbf5d3f84916d1e2feac7ff68c43a421e20423e2"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 6563,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 7779,
+      "section_ids": [
+        "sec:preamble",
+        "sec:results",
+        "sec:appendix-fig-s2-a-and-b-zn-signal-and-ca-signal-were-obvious",
+        "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3561,
+      "section_ids": [
+        "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4470,
+      "section_ids": [
+        "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+        "sec:appendix-fig-s4-no-obvious-abrupt-change-in-absorption-was",
+        "sec:results-2",
+        "sec:analysis"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4069,
+      "section_ids": [
+        "sec:analysis"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 5182,
+      "section_ids": [
+        "sec:analysis",
+        "sec:discussion"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 1756,
+      "section_ids": [
+        "sec:discussion"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 4880,
+      "section_ids": [
+        "sec:discussion",
+        "sec:materials-and-methods"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3426,
+      "section_ids": [
+        "sec:materials-and-methods"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 12019,
+      "section_ids": [
+        "sec:materials-and-methods",
+        "sec:acknowledgments-we-acknowledge-the-staff-at-the-cls-101d-1-sm"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "A and B shows scanning EM (SEM) images of insulin",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:analysis"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:analysis"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:discussion"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:discussion"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "structed projection according to the formula d = λ/2sin(θ),",
+      "section_id": "sec:analysis",
+      "page_start": 4,
+      "page_end": 6
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 2,
+    "sections": [
+      {
+        "title": "A set of STXM images (i.e., stack) was obtained using pho-",
+        "page": 2
+      },
+      {
+        "title": "a specific element to being above it (Fig. 4 A and B). The",
+        "page": 3
+      },
+      {
+        "title": "a larger proportion of the entire vesicle in other types of vesicles",
+        "page": 4
+      },
+      {
+        "title": "M. Omar-Hmeadi, O. Idevall-Hagren, Insulin granule biogenesis and exocytosis. Cell. Mol. Life Sci.",
+        "page": 10
+      },
+      {
+        "title": "P. Rorsman, E. Renstr€om, Insulin granule dynamics in pancreatic beta cells. Diabetologia 46,",
+        "page": 10
+      },
+      {
+        "title": "V. Miceli et al., In vitro imaging of β-cells using fluorescent cubic bicontinuous liquid crystalline",
+        "page": 10
+      },
+      {
+        "title": "T. Suzuki, C. Kondo, T. Kanamori, S. Inouye, Video rate bioluminescence imaging of secretory proteins in",
+        "page": 10
+      },
+      {
+        "title": "S. D. Carter et al., Distinguishing signal from autofluorescence in cryogenic correlated light and",
+        "page": 10
+      },
+      {
+        "title": "S. W. Hell et al., The 2015 super-resolution microscopy roadmap. J. Phys. D Appl. Phys. 48,",
+        "page": 10
+      },
+      {
+        "title": "C. A. Larabell, K. A. Nugent, Imaging cellular architecture with X-rays. Curr. Opin. Struct. Biol. 20,",
+        "page": 10
+      },
+      {
+        "title": "G. McDermott, M. A. Le Gros, C. G. Knoechel, M. Uchida, C. A. Larabell, Soft X-ray tomography and",
+        "page": 10
+      },
+      {
+        "title": "A. Bergeron, L. Pucci, P. Bezzi, R. Regazzi, Analysis of synaptic-like microvesicle exocytosis of B-cells",
+        "page": 10
+      },
+      {
+        "title": "J. R. van Weering et al., Automated analysis of secretory vesicle distribution at the ultrastructural",
+        "page": 10
+      },
+      {
+        "title": "K. G. Slepchenko, N. A. Daniels, A. Guo, Y. V. Li, Autocrine effect of Zn2+ on the glucose-stimulated",
+        "page": 10
+      },
+      {
+        "title": "P. D. Zalewski et al., Video image analysis of labile zinc in viable pancreatic islet cells using a",
+        "page": 10
+      },
+      {
+        "title": "A. B. Chausmer, Zinc, insulin and diabetes. J. Am. Coll. Nutr. 17, 109–115 (1998).",
+        "page": 10
+      },
+      {
+        "title": "Y. Xu, Y. Yan, D. Seeman, L. Sun, P. L. Dubin, Multimerization and aggregation of native-state",
+        "page": 10
+      },
+      {
+        "title": "D. Li et al., Imaging dynamic insulin release using a fluorescent zinc indicator for monitoring",
+        "page": 10
+      },
+      {
+        "title": "T. M. Laue, W. F. Stafford III, Modern applications of analytical ultracentrifugation. Annu. Rev.",
+        "page": 10
+      },
+      {
+        "title": "C. Ebel, Analytical ultracentrifugation for the study of biological macromolecules. Prog. Coll. Pol.",
+        "page": 10
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Fig 1",
+        "caption": "A and B shows scanning EM (SEM) images of insulin",
+        "page_hint": "p.2"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+        "page_hint": "p.3"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+        "page_hint": "p.4"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+        "page_hint": "p.5"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+        "page_hint": "p.6"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+        "page_hint": "p.7"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+        "page_hint": "p.8"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+        "page_hint": "p.9"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+        "page_hint": "p.9"
+      }
+    ],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "cf2542bd99652d73aa65ea0c8dabde63a640786f463f74efefc384f23ae9529e"
+}

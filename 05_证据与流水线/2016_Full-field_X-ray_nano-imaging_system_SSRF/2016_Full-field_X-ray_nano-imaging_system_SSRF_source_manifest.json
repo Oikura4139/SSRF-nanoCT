@@ -1,0 +1,164 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3788/col201614.093401",
+  "title": "untitled",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2016_Full-field_X-ray_nano-imaging_system_SSRF/2016_Full-field_X-ray_nano-imaging_system_SSRF_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2016_Full-field_X-ray_nano-imaging_system_SSRF/2016_Full-field_X-ray_nano-imaging_system_SSRF_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2016_Full-field_X-ray_nano-imaging_system_SSRF.pdf",
+    "total_pages": 5,
+    "text_pages_extracted": 5,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 5,
+    "text_max_pages": null,
+    "text_pages_extracted": 5,
+    "text_pages_scanned": 5,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 4
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 4,
+      "char_count": 16306,
+      "text_hash_sha256": "3121c16493b4441f328e94027468ac2c22cfca0818b21011874b7db31588063f"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 4,
+      "page_end": 5,
+      "char_count": 4070,
+      "text_hash_sha256": "ed4597d9c045af844c278a3aa46573aa4cf0b192e77841fd24fc9b5dcc2a41f8"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 5113,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4802,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4433,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3997,
+      "section_ids": [
+        "sec:preamble",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 2047,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Schematic layout of the full-field microscope at the SSRF",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Beam shaper compared with FZP.",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Three kinds of sample illumination modes: (a) normal in-",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Schematic layout of the image magnification system.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Picture for the experimental setup: (a) the overall micro-",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Sample illumination system: (a) focused spot of beam",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image of the Siemens star by the developed microscope:",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "a904b1b0407dde9d1daebec609670de3f63ff47a801ac271f5fd065d0f4b545e"
+}

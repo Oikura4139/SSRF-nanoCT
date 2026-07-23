@@ -1,0 +1,54 @@
+{
+  "review": "final_quality_review",
+  "status": "passed",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "reviewed_file": "2021_Image_alignment_synchrotron_X-ray_nano-CT_draft.md",
+  "checks": [
+    {
+      "name": "identity_and_paper_type",
+      "passed": true,
+      "finding": "从 PDF 首页纠正了被误抽取为作者串的题名；作者、机构、期刊、文章号和 DOI 已核对，论文被准确标为叙述性综述。"
+    },
+    {
+      "name": "abstract_fidelity",
+      "passed": true,
+      "finding": "摘要节仅忠实归纳原摘要的综述范围、经典算法、特征算子与深度学习展望，没有混入后续批判性判断。"
+    },
+    {
+      "name": "taxonomy_and_mechanism",
+      "passed": true,
+      "finding": "区域法、特征法、粗到精联合与深度学习的假设边界清楚；四步机制含输入、具体操作和输出，并加入断层重建端到端验收。"
+    },
+    {
+      "name": "facility_attribution",
+      "passed": true,
+      "finding": "上海光源直接相关实证严格限定为早期软 X 射线在线校正约 1 µm；PSI、SSRL/东华大学、台湾光源和高能所结果逐条保留原归属。"
+    },
+    {
+      "name": "quantitative_boundaries",
+      "passed": true,
+      "finding": "32 倍降采样、10% 高斯噪声、最多 4 个数量级时间减少和约 55% CNN 占比均标明来自特定被引研究或不可复现的趋势统计；亚像素坐标精度未等同于物理真实性。"
+    },
+    {
+      "name": "review_limitations",
+      "passed": true,
+      "finding": "明确指出缺少完整检索策略、统一真实基准、跨论文公平比较、代码与失败率，未把综述叙述当成作者自有实验。"
+    },
+    {
+      "name": "deep_learning_boundary",
+      "passed": true,
+      "finding": "保留作者截至 2021 年的负面判断：缺少真值、模拟训练对真实固定噪声敏感、深度学习精度尚未优于联合配准，并要求结构真实性验证。"
+    },
+    {
+      "name": "figures",
+      "passed": true,
+      "finding": "全部候选经人工视觉核验；Fig 1/4/7/10/12/13/18/21 完整可用，Fig 11/14/16 因裁切缺陷、Fig 15 因污染拒绝插入。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false,
+  "final_lint": {
+    "all_required_gates_passed": true,
+    "warnings": []
+  }
+}

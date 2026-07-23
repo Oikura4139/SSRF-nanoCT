@@ -1,0 +1,2641 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.1007/s41365-023-01347-4",
+  "figure_plan": {
+    "paper_id": "doi:10.1007/s41365-023-01347-4",
+    "figures": [
+      {
+        "id": "Fig 3",
+        "caption": "(Color online) TXM system: a condenser, b pinhole, c sample",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+          "width": 1653,
+          "height": 229,
+          "size_bytes": 173084,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.104281,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.272966,
+            "paragraph_text_chars": 380,
+            "table_body_rows": 0,
+            "caption_text_chars": 198,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "color",
+              "online",
+              "system",
+              "condenser",
+              "pinhole"
+            ],
+            "snippet": "comprised two ion chambers located down- stream of the SSA to monitor the incident flux. Figure 3 shows a photograph of the TXM system comprising a monocapillary condenser, pinhole, objec",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "color",
+              "online",
+              "system",
+              "condenser",
+              "pinhole"
+            ],
+            "snippet": "e of materials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resoluti",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "system"
+            ],
+            "snippet": "rocessed to obtain the XANES spectra for each pixel in the ROI. Figure 10 shows the pseudocolor 2D XANES chemical phase maps of Ni within the two particles. The distribution of the abso",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_01.jpeg",
+                "width": 1056,
+                "height": 460,
+                "size_bytes": 110852
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_02.jpeg",
+                "width": 102,
+                "height": 467,
+                "size_bytes": 10729
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+                "width": 1398,
+                "height": 444,
+                "size_bytes": 438987,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171117,
+                  "visual_rect_count": 13,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "(Color online) The workflow of nano-spectral imaging",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+          "width": 683,
+          "height": 556,
+          "size_bytes": 250229,
+          "label": "Fig.6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.104739,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 58,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "color",
+              "online",
+              "workflow",
+              "nano-spectral",
+              "imaging"
+            ],
+            "snippet": "can be classified into dual-energy and TXM-XANES imaging. This concept is illustrated in Fig. 6. Dual-energy imaging records projection images at two different energy points: before and",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "imaging"
+            ],
+            "snippet": "am end. For beamlines at third-generation synchrotron radiation sources, the beam Fig. 2 (Color online) Schematic of the beamline layout BM White beam slit Si(111) DCM TM SSA Condenser",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "nano-spectral",
+              "imaging"
+            ],
+            "snippet": "erials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution dete",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "The design goals of BL18B",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_table_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+          "width": 1653,
+          "height": 206,
+          "size_bytes": 16363,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.093899,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 33,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Table 2"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 7,
+            "matched_terms": [
+              "table 1",
+              "design",
+              "goals"
+            ],
+            "snippet": "nd the incident beam is colli- mated and reflected upward. To ensure an adequate level of Table 1 The design goals of BL18B Parameters Value Energy range (keV) 5–14 Energy resolution (ΔE/",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+                "width": 1653,
+                "height": 206,
+                "size_bytes": 16363,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.093899,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 33,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+                "width": 701,
+                "height": 700,
+                "size_bytes": 88084,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.135408,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2_2.png",
+                "width": 1392,
+                "height": 556,
+                "size_bytes": 208099,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.213276,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 1316,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 207,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 1,
+            "matched_terms": [
+              "design"
+            ],
+            "snippet": "rements of the ZP objective in TXM. The DCM is a domestic monochromator adopting a common design used in the SSRF. The two crystals have an (n–n) achromatic arrangement. During the energ",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "design"
+            ],
+            "snippet": "the CT experiments. The CT results of BL18B were processed using a com- pletely in-house designed automatic projection alignment algorithm [23] and in-house designed reconstruction soft",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Figure 1 shows the brilliance and flux curves of",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_table_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+          "width": 701,
+          "height": 700,
+          "size_bytes": 88084,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.135408,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 44,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "brilliance",
+              "flux",
+              "curves"
+            ],
+            "snippet": "s set to 0.4 mrad × 0.22 mrad. The specifications of the BL18B light source are listed in Table 2. Figure 1 shows the brilliance and flux curves of the SSRF BM sources. The estimated sour",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+                "width": 1653,
+                "height": 206,
+                "size_bytes": 16363,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.093899,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 33,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+                "width": 701,
+                "height": 700,
+                "size_bytes": 88084,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.135408,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2_2.png",
+                "width": 1392,
+                "height": 556,
+                "size_bytes": 208099,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.213276,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 1316,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 207,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 1,
+            "matched_terms": [
+              "flux"
+            ],
+            "snippet": "stal surface [16]. The thermal deformation of the first monochromator crystal reduced the flux, energy resolu- tion, beam size at the SSA, and matching efficiency of the condenser in t",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "flux"
+            ],
+            "snippet": "8 shows absorption contrast images of the sample obtained at 5.5 keV, one hour apart. The flux at the sam- ple position was tested using an ionization chamber with a pair of 10-mm long",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_006_img_01.png",
+                "width": 635,
+                "height": 621,
+                "size_bytes": 163403
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Brilliance and flux vs. photon energy of the bending magnet",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "brilliance",
+              "flux",
+              "photon",
+              "energy",
+              "bending"
+            ],
+            "snippet": "Flux (phs/s/0.1% BW) Brilliance (phs/s/0.1% BW/mrad 2/mm 2) Energy (keV) Flux Brilliance Fig. 1 Brilliance and flux vs. photon energy of the bending magnet with acceptance angle 0.4 mra",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+                "width": 1653,
+                "height": 206,
+                "size_bytes": 16363,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.093899,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 33,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+                "width": 701,
+                "height": 700,
+                "size_bytes": 88084,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.135408,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2_2.png",
+                "width": 1392,
+                "height": 556,
+                "size_bytes": 208099,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.213276,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 1316,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 207,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 6,
+            "matched_terms": [
+              "fig. 1",
+              "energy"
+            ],
+            "snippet": "cles is obvious. Fig- ure 10c shows the Ni K-edge XANES spectra of the central portion of Fig. 10a, b. The difference between the absorp- tion edges of the two particles is also evident",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_01.jpeg",
+                "width": 1056,
+                "height": 460,
+                "size_bytes": 110852
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_02.jpeg",
+                "width": 102,
+                "height": 467,
+                "size_bytes": 10729
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+                "width": 1398,
+                "height": 444,
+                "size_bytes": 438987,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171117,
+                  "visual_rect_count": 13,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "flux",
+              "energy",
+              "bending"
+            ],
+            "snippet": "stal surface [16]. The thermal deformation of the first monochromator crystal reduced the flux, energy resolu- tion, beam size at the SSA, and matching efficiency of the condenser in t",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "(Color online) Ni element chemical phase maps for NCM622 particles: a pristine particle; b cycled cathode particle; c XANES from two",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_10.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+          "width": 1398,
+          "height": 444,
+          "size_bytes": 438987,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.171117,
+            "visual_rect_count": 13,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 160,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "color",
+              "online",
+              "element",
+              "chemical",
+              "phase"
+            ],
+            "snippet": "cles is obvious. Fig- ure 10c shows the Ni K-edge XANES spectra of the central portion of Fig. 10a, b. The difference between the absorp- tion edges of the two particles is also evident i",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_01.jpeg",
+                "width": 1056,
+                "height": 460,
+                "size_bytes": 110852
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_img_02.jpeg",
+                "width": 102,
+                "height": 467,
+                "size_bytes": 10729
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_008_fig_fig_10.png",
+                "width": 1398,
+                "height": 444,
+                "size_bytes": 438987,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171117,
+                  "visual_rect_count": 13,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "chemical",
+              "phase"
+            ],
+            "snippet": "erials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution dete",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "element",
+              "phase"
+            ],
+            "snippet": "d particles in the capillary holder. b The two-dimensional projection image of (a) Fig.6 (Color online) The workflow of nano-spectral imaging",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "(Color online) Schematic",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+          "width": 1653,
+          "height": 234,
+          "size_bytes": 30003,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.106539,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 0.383527,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 57,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "color",
+              "online",
+              "schematic"
+            ],
+            "snippet": "s upstream end. For beamlines at third-generation synchrotron radiation sources, the beam Fig. 2 (Color online) Schematic of the beamline layout BM White beam slit Si(111) DCM TM SSA Con",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 5,
+            "matched_terms": [
+              "figure 2"
+            ],
+            "snippet": "2 at 8 keV, with a total flux of 1.19 × ­1013 phs/s/0.1%bw. 2.2 \u0007 Beamline optical design Figure 2 shows the overall layout of the beamline. There are two major hutches: an optical hutch a",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_1.png",
+                "width": 1653,
+                "height": 206,
+                "size_bytes": 16363,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.093899,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 33,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_002_fig_table_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2.png",
+                "width": 701,
+                "height": 700,
+                "size_bytes": 88084,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.135408,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 44,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_002_fig_table_2_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_002_fig_table_2_2.png",
+                "width": 1392,
+                "height": 556,
+                "size_bytes": 208099,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.213276,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 1316,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 207,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "schematic"
+            ],
+            "snippet": "erials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution dete",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "(Color online) Schematic of a TXM",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+          "width": 1392,
+          "height": 311,
+          "size_bytes": 522474,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.11942,
+            "visual_rect_count": 8,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 40,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "color",
+              "online",
+              "schematic"
+            ],
+            "snippet": "f medium-resolution detec- tor. Other components are: g in-line telescope, h vacuum pipes Fig. 4 (Color online) Schematic of a TXM",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "schematic"
+            ],
+            "snippet": "am end. For beamlines at third-generation synchrotron radiation sources, the beam Fig. 2 (Color online) Schematic of the beamline layout BM White beam slit Si(111) DCM TM SSA Condenser",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 2,
+            "matched_terms": [
+              "color",
+              "online"
+            ],
+            "snippet": "d particles in the capillary holder. b The two-dimensional projection image of (a) Fig.6 (Color online) The workflow of nano-spectral imaging",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "a Photograph of the gold particles in the capillary holder. b",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "photograph",
+              "gold",
+              "particles",
+              "capillary",
+              "holder"
+            ],
+            "snippet": "g was completed, an absorption spectrum was generated for each pixel within the region of Fig. 5 a Photograph of the gold particles in the capillary holder. b The two-dimensional project",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "photograph",
+              "capillary"
+            ],
+            "snippet": "n chambers located down- stream of the SSA to monitor the incident flux. Figure 3 shows a photograph of the TXM system comprising a monocapillary condenser, pinhole, objective ZP, sample sta",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "capillary",
+              "holder"
+            ],
+            "snippet": "ream of the sample was employed to block the direct light that was not focused by the monocapillary condenser. It was positioned on a motorized stage between the condenser exit and sample.",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image of the star pattern:",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "image",
+              "star",
+              "pattern"
+            ],
+            "snippet": "energy of incident X-ray, x is the electrode length, and μ is the absorption coefficient Fig. 7 Image of the star pattern: a absorption contrast image and b PSD analysis of (a) 0 0 1 0",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_006_img_01.png",
+                "width": 635,
+                "height": 621,
+                "size_bytes": 163403
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "a breadboard mounted on a sample stage. The microscope objective ZP produces a magnified image of the sample. The image resolution was determined using the outermost zone width of the",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "ES imaging. This concept is illustrated in Fig. 6. Dual-energy imaging records projection images at two different energy points: before and after the X-ray absorption edge of the target",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_01.jpeg",
+                "width": 969,
+                "height": 541,
+                "size_bytes": 47604
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_img_02.jpeg",
+                "width": 969,
+                "height": 679,
+                "size_bytes": 93890
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6.png",
+                "width": 683,
+                "height": 556,
+                "size_bytes": 250229,
+                "label": "Fig.6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104739,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 58,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_fig_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_005_fig_fig_6_2.png",
+                "width": 701,
+                "height": 279,
+                "size_bytes": 39415,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.054061,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Absorption contrast",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_8.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_8.png",
+          "width": 1653,
+          "height": 289,
+          "size_bytes": 146130,
+          "label": "Fig. 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.131817,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.539429,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 117,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 7,
+            "matched_terms": [
+              "figure 8",
+              "absorption",
+              "contrast"
+            ],
+            "snippet": "ydrated rabbit bone to test the radiation damage to the biological samples at low energy. Figure 8 shows absorption contrast images of the sample obtained at 5.5 keV, one hour apart. The f",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_006_img_01.png",
+                "width": 635,
+                "height": 621,
+                "size_bytes": 163403
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 7,
+            "matched_terms": [
+              "fig. 8",
+              "absorption",
+              "contrast"
+            ],
+            "snippet": "cycled NCM622 particles were used to test the performance of the 2D TXM-XANES method. The Fig. 8 Absorption contrast images of dehydrated rabbit bone: a the first image; b the last image",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_01.jpeg",
+                "width": 1500,
+                "height": 668,
+                "size_bytes": 71438
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_02.jpeg",
+                "width": 1500,
+                "height": 665,
+                "size_bytes": 62938
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_8.png",
+                "width": 1653,
+                "height": 289,
+                "size_bytes": 146130,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.131817,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.539429,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 117,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_9.png",
+                "width": 1392,
+                "height": 1524,
+                "size_bytes": 726217,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.584201,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.541413,
+                  "paragraph_text_chars": 2168,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 96,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "absorption"
+            ],
+            "snippet": "ometer-scale samples. Nano-spec- tral imaging is a technique that combines TXM with X-ray absorption near-edge structure (TXM-XANES) to detect 2D and 3D chemical phase transformations in mes",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "(Color online) Recon-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_9.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_9.png",
+          "width": 1392,
+          "height": 1524,
+          "size_bytes": 726217,
+          "label": "Fig.9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.584201,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 0.541413,
+            "paragraph_text_chars": 2168,
+            "table_body_rows": 0,
+            "caption_text_chars": 96,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Fig. 8"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 9",
+              "color",
+              "online",
+              "recon-"
+            ],
+            "snippet": "ved [31, 32]. A reconstructed 3D image of the NCM622 particle and its slices are shown in Fig. 9. The reconstruction results clearly show that the 50×-cycled particle had several cracks",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_01.jpeg",
+                "width": 1500,
+                "height": 668,
+                "size_bytes": 71438
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_img_02.jpeg",
+                "width": 1500,
+                "height": 665,
+                "size_bytes": 62938
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_8.png",
+                "width": 1653,
+                "height": 289,
+                "size_bytes": 146130,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.131817,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.539429,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 117,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_007_fig_fig_9.png",
+                "width": 1392,
+                "height": 1524,
+                "size_bytes": 726217,
+                "label": "Fig.9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.584201,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.541413,
+                  "paragraph_text_chars": 2168,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 96,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Fig. 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "color",
+              "online"
+            ],
+            "snippet": "am end. For beamlines at third-generation synchrotron radiation sources, the beam Fig. 2 (Color online) Schematic of the beamline layout BM White beam slit Si(111) DCM TM SSA Condenser",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_img_01.jpeg",
+                "width": 1411,
+                "height": 676,
+                "size_bytes": 35477
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_003_fig_fig_2.png",
+                "width": 1653,
+                "height": 234,
+                "size_bytes": 30003,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106539,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.383527,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 57,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "color",
+              "online"
+            ],
+            "snippet": "erials. Unlike micron-scale resolution experiments, a b c d e f g h h X-ray X-ray Fig. 3 (Color online) TXM system: a condenser, b pinhole, c sample holder, d ZP, e high-resolution dete",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_01.jpeg",
+                "width": 969,
+                "height": 544,
+                "size_bytes": 92897
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_02.jpeg",
+                "width": 423,
+                "height": 225,
+                "size_bytes": 25197
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_img_03.jpeg",
+                "width": 969,
+                "height": 311,
+                "size_bytes": 23159
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_4.png",
+                "width": 1392,
+                "height": 311,
+                "size_bytes": 522474,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11942,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/The_3D_nanoimaging_beamline_at_SSRF/images/page_004_fig_fig_3.png",
+                "width": 1653,
+                "height": 229,
+                "size_bytes": 173084,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.104281,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.272966,
+                  "paragraph_text_chars": 380,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 198,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

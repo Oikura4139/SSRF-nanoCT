@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "title": "Image registration for in situ X-ray nano-imaging of a composite battery cathode with deformation",
+  "pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2024_Image_registration_in_situ_X-ray_nano-imaging.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2024_Image_registration_in_situ_X-ray_nano-imaging.pdf",
+  "pdf_url": ""
+}

@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.3788/lop251906",
+  "checks": {
+    "section_flow": "pass：12 个固定节依次从综述问题、证据类型、四步机制进入平台结果、成熟度分析、局限和验收任务。",
+    "review_orientation": "pass：开头即说明这是一篇平台回顾，正文持续区分综述转述、原始方法结果和用户科学案例。",
+    "terminology": "pass：TXM、nano-CT、XANES、KES-CT、FSC 和 MTF 均由相邻语境解释，算法名称没有堆叠成无说明缩写。",
+    "sentence_quality": "pass：无机械翻译、异常中英混排或断裂句；硬件、谱学和 AI 长链通过子标题与短段落拆解。",
+    "tables_and_lists": "pass：证据类型、双工作点、平台指标、用户案例和成熟度使用表格，便于比较且没有重复正文。",
+    "math_rendering": "pass：焦深和 K 边差分公式采用可渲染 TeX，变量和物理意义在相邻文本解释。",
+    "figure_placement": "pass：两幅真实图紧接单一斜体图注；三幅重要但受污染的候选以规范占位保留，并位于声明章节。",
+    "reader_takeaway": "pass：读者能够区分 BL18B 已形成的常规能力、有限验证的方法、用户合作成果和仍属规划的路线。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

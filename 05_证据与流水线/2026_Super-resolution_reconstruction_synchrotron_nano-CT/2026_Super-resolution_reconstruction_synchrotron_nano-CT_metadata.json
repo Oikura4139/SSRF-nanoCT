@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2026_Super-resolution_reconstruction_synchrotron_nano-CT.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2026_Super-resolution_reconstruction_synchrotron_nano-CT.pdf",
+  "title": "同步辐射纳米CT图像超分辨率重建及其应用研究",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.3724/j.0253-3219.2026.hjs.49.250034",
+  "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "authors": [
+    "Zhen PENG",
+    "Ao WANG",
+    "Jun WANG",
+    "Fen TAO",
+    "Ling ZHANG",
+    "Guohao DU",
+    "Biao DENG"
+  ],
+  "venue": "Nuclear Techniques",
+  "source": "crossref",
+  "year": "2026",
+  "published": "2026",
+  "pdf_url": "https://www.sciengine.com/doi/pdf/93AB5A934EAB44C78B0E1681100C2B8C",
+  "script": "collect_metadata.py"
+}

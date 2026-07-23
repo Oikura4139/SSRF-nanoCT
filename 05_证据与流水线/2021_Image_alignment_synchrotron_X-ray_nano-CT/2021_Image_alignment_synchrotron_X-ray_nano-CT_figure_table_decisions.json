@@ -1,0 +1,790 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "decisions": [
+    {
+      "item_id": "figure:图 1",
+      "source_id": "图 1",
+      "kind": "figure",
+      "label": "图 1",
+      "caption": "失准投影合成的Sinogram 图及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3]",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move-",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_003_fig_fig_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_003_fig_fig_1.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 2",
+      "source_id": "图 2",
+      "kind": "figure",
+      "label": "图 2",
+      "caption": "在线机械校准 (a) 激光干涉仪[4]; (b) 激光干涉仪记录旋转目标偏移轨迹[4]; (c) 上海光源软X 光谱学显微实验站样品台[5]",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Online mechanical calibration: (a) Laser interferometer[4]; (b) laser interferometer records the deviation trajectory of the ro-",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 3",
+      "source_id": "图 3",
+      "kind": "figure",
+      "label": "图 3",
+      "caption": "图像配准领域文章发表情况 (a) 近30 年图像配准论文发表情况; (b) 近10 年深度学习图像配准论文增长趋势",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Publication of papers in the field of image registration: (a) Publication of research papers on image registration in the past",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 4",
+      "source_id": "图 4",
+      "kind": "figure",
+      "label": "图 4",
+      "caption": "图像配准算法分类概述导图",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Classification overview map of image registration algorithms.",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "insert",
+      "reason": "人工查看候选图后确认：算法分类总览完整清晰，适合用于建立方法谱系。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_005_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_005_fig_fig_4.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 5",
+      "source_id": "图 5",
+      "kind": "figure",
+      "label": "图 5",
+      "caption": "图像配准的常规流程图",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "General flow chart of image registration.",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 6",
+      "source_id": "图 6",
+      "kind": "figure",
+      "label": "图 6",
+      "caption": "基于傅里叶变换的图像配准流程图",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Flow chart of image registration based on Fourier transform.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 7",
+      "source_id": "图 7",
+      "kind": "figure",
+      "label": "图 7",
+      "caption": "FREAK 算法的类视网膜取样模式[31]",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Retina-like sampling mode of FREAK algorithm[31].",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "人工查看候选图后确认：FREAK 类视网膜取样模式完整清晰，可用于解释特征描述。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_007_fig_fig_7.png",
+      "relative_markdown_embed": "![Fig 7](images/page_007_fig_fig_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_007_fig_fig_7.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 8",
+      "source_id": "图 8",
+      "kind": "figure",
+      "label": "图 8",
+      "caption": "MR-PMA 配准法流程图[36]",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Flow chart of MR-PMA image alignment[36].",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 12",
+      "source_id": "图 12",
+      "kind": "figure",
+      "label": "图 12",
+      "caption": "配准后页岩投影重建切片对比: (a) 原始数据, (b) 手动配准, (c) 自动配准; 重投影后页岩投影数据对比: (d) 实验数据,",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 9",
+      "source_id": "图 9",
+      "kind": "figure",
+      "label": "图 9",
+      "caption": "通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down-",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 10",
+      "source_id": "图 10",
+      "kind": "figure",
+      "label": "图 10",
+      "caption": "评估具有不同缺陷的不同图像配准算法的精度和鲁棒性[37]",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37].",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_008_fig_fig_10.png",
+      "relative_markdown_embed": "![Fig 10](images/page_008_fig_fig_10.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_008_fig_fig_10.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 11",
+      "source_id": "图 11",
+      "kind": "figure",
+      "label": "图 11",
+      "caption": "纳米级投影图像迭代配准重建流程图[37]",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 11",
+      "source_id": "Fig 11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model-3",
+      "decision": "visual_defect",
+      "reason": "人工查看候选图后确认：Fig. 11 顶部标题文字被明显裁断，不能作为完整流程图插入。",
+      "skip_reason": "manual_visual_review_top_edge_truncation",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_009_fig_fig_11.png",
+      "relative_markdown_embed": "![Fig 11](images/page_009_fig_fig_11.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_11.png",
+      "materialization_status": "not_applicable"
+    },
+    {
+      "item_id": "figure:Fig 12",
+      "source_id": "Fig 12",
+      "kind": "figure",
+      "label": "Fig 12",
+      "caption": "Reconstructed slices through the center of the shale sample without alignment (a) and with manual (b) or automatic (c)",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "人工查看候选图后确认：页岩重建与重投影对比完整清晰，适合展示自动配准的端到端效果。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_fig_12.png",
+      "relative_markdown_embed": "![Fig 12](images/page_009_fig_fig_12.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_009_fig_fig_12.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 13",
+      "source_id": "图 13",
+      "kind": "figure",
+      "label": "图 13",
+      "caption": "Ji-Faproma 算法不同噪声水平下的配准精度对比[38] (a) 投影内旋转误差的平均根方差; (b) 投影垂直误差和水平误差",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 13",
+      "source_id": "Fig 13",
+      "kind": "figure",
+      "label": "Fig 13",
+      "caption": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root-",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_fig_13.png",
+      "relative_markdown_embed": "![Fig 13](images/page_010_fig_fig_13.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_13.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 14",
+      "source_id": "图 14",
+      "kind": "figure",
+      "label": "图 14",
+      "caption": "Ji-Faproma 算法在不同噪声水平下的收敛情况[38]",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 14",
+      "source_id": "Fig 14",
+      "kind": "figure",
+      "label": "Fig 14",
+      "caption": "Ji-Faproma algorithm convergence under different noise level of raw projections[38].",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "visual_defect",
+      "reason": "人工查看候选图后确认：Fig. 14 左侧纵轴与刻度标签被严重裁切，结果图无法完整独立解释。",
+      "skip_reason": "manual_visual_review_left_axis_truncation",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_010_fig_fig_14.png",
+      "relative_markdown_embed": "![Fig 14](images/page_010_fig_fig_14.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_14.png",
+      "materialization_status": "not_applicable"
+    },
+    {
+      "item_id": "figure:图 15",
+      "source_id": "图 15",
+      "kind": "figure",
+      "label": "图 15",
+      "caption": "GMs 抖动校正法的流程图[39]",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 15",
+      "source_id": "Fig 15",
+      "kind": "figure",
+      "label": "Fig 15",
+      "caption": "Workflow of the proposed jitter correction[39].",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model-3",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_010_fig_fig_15.png",
+      "relative_markdown_embed": "![Fig 15](images/page_010_fig_fig_15.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_010_fig_fig_15.png"
+    },
+    {
+      "item_id": "figure:图 16",
+      "source_id": "图 16",
+      "kind": "figure",
+      "label": "图 16",
+      "caption": "采用不同矫正方法的重构结果[39] (图中: a 列—d 列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 16",
+      "source_id": "Fig 16",
+      "kind": "figure",
+      "label": "Fig 16",
+      "caption": "Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model-3",
+      "decision": "visual_defect",
+      "reason": "人工查看候选图后确认：Fig. 16 顶部四列方法名称被裁断，比较语义不完整。",
+      "skip_reason": "manual_visual_review_top_labels_truncated",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_011_fig_fig_16.png",
+      "relative_markdown_embed": "![Fig 16](images/page_011_fig_fig_16.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_011_fig_fig_16.png",
+      "materialization_status": "not_applicable"
+    },
+    {
+      "item_id": "figure:图 17",
+      "source_id": "图 17",
+      "kind": "figure",
+      "label": "图 17",
+      "caption": "深度学习研究论文发表情况统计 (a) 2014 年至2020 年多种深度学习模式图像配准论文发表数量统计; (b) 2014 年至",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 17",
+      "source_id": "Fig 17",
+      "kind": "figure",
+      "label": "Fig 17",
+      "caption": "A survey of the publication of deep learning research papers: (a) Number of published image registration papers based on",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 18",
+      "source_id": "图 18",
+      "kind": "figure",
+      "label": "图 18",
+      "caption": "基于线索感知深度学习网络的图像配准[46]",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 18",
+      "source_id": "Fig 18",
+      "kind": "figure",
+      "label": "Fig 18",
+      "caption": "The framework of the proposed similarity-steered CNN regression for deformable image registration[46].",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_012_fig_fig_18.png",
+      "relative_markdown_embed": "![Fig 18](images/page_012_fig_fig_18.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_012_fig_fig_18.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:图 19",
+      "source_id": "图 19",
+      "kind": "figure",
+      "label": "图 19",
+      "caption": "基于GAN 研究的论文发表情况",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 19",
+      "source_id": "Fig 19",
+      "kind": "figure",
+      "label": "Fig 19",
+      "caption": "Number of papers published related to GAN re-",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 20",
+      "source_id": "图 20",
+      "kind": "figure",
+      "label": "图 20",
+      "caption": "基于GAN 的医学图像配准流程图[52] (a) 生成器 (b) 鉴别器",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 20",
+      "source_id": "Fig 20",
+      "kind": "figure",
+      "label": "Fig 20",
+      "caption": "Flow chart of medical image registration based on GAN[52]: (a) Generator network; (b) discriminator network.",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 21",
+      "source_id": "图 21",
+      "kind": "figure",
+      "label": "图 21",
+      "caption": "GAN 配准前特征点预处理流程图[54]",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model-3",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 21",
+      "source_id": "Fig 21",
+      "kind": "figure",
+      "label": "Fig 21",
+      "caption": "Outline of using GAN as a preprocessing step be-",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model-3",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_014_fig_fig_21.png",
+      "relative_markdown_embed": "![Fig 21](images/page_014_fig_fig_21.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/苏博_陶芬_李可_杜国浩_张玲_李中亮_邓彪_谢红兰_肖体乔/images/page_014_fig_fig_21.png",
+      "materialization_status": "pending"
+    }
+  ],
+  "summary": {
+    "total_items": 42,
+    "by_decision": {
+      "insert": 8,
+      "low_priority": 30,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 4
+    }
+  }
+}

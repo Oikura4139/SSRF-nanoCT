@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.1007/s41365-023-01347-4",
+  "checks": {
+    "section_flow": "pass：12 个固定节由平台问题、四类任务、四步机制进入结果、平台定位、局限和验收建议。",
+    "terminology": "pass：CM/DCM/TM 在正文改用中文全称；FZP、EPICS、XANES、PSD、FSC 等均由上下文解释。",
+    "sentence_quality": "pass：无机械翻译、异常中英混排或断裂句；长技术链用子标题和四步流程拆解。",
+    "tables_and_lists": "pass：任务与结果层级使用表格，六层验收和后续实验使用列表，其余保留机制性连贯叙述。",
+    "math_rendering": "pass：DOF 和通量/分辨率相关表达均采用可渲染 TeX，变量和物理含义在相邻文本解释。",
+    "figure_placement": "pass：两幅真实图紧接单一斜体图注；重要截断图以规范占位保留，不设残余图桶。",
+    "reader_takeaway": "pass：读者可以区分这篇平台论文与前两篇工程调试、三维应用论文的角色。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

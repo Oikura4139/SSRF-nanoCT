@@ -1,0 +1,508 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+  "title": "同步辐射纳米CT图像超分辨率重建及?其应用研究",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2026_Super-resolution_reconstruction_synchrotron_nano-CT/2026_Super-resolution_reconstruction_synchrotron_nano-CT_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2026_Super-resolution_reconstruction_synchrotron_nano-CT/2026_Super-resolution_reconstruction_synchrotron_nano-CT_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2026_Super-resolution_reconstruction_synchrotron_nano-CT.pdf",
+    "total_pages": 12,
+    "text_pages_extracted": 12,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 12,
+    "text_max_pages": null,
+    "text_pages_extracted": 12,
+    "text_pages_scanned": 12,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 10
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 6,
+      "char_count": 13338,
+      "text_hash_sha256": "bde88d8ca2be43faeca3a4f171d61b854e17faf4e80f21c669804becec78ffd0"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 6,
+      "page_end": 9,
+      "char_count": 3826,
+      "text_hash_sha256": "002cbf77982256f5d5fd9905a530876bc22275178fe8c9b829ffa58715a49810"
+    },
+    {
+      "section_id": "sec:methods",
+      "kind": "method",
+      "title": "Methods",
+      "page_start": 9,
+      "page_end": 10,
+      "char_count": 1296,
+      "text_hash_sha256": "3eb427ea76e2eee1d9714e6c93896d8b4c5b4268a4805ce07a5659774ec0f362"
+    },
+    {
+      "section_id": "sec:section-3",
+      "kind": "references",
+      "title": "参考文献",
+      "page_start": 10,
+      "page_end": 12,
+      "char_count": 9157,
+      "text_hash_sha256": "3b2fe1271b5aaaa3331b8131bbbd6f76a8e563283b8c69d2c2a69a2e1d74ac6e"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2527,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3908,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 2267,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 1420,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1823,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2087,
+      "section_ids": [
+        "sec:preamble",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 741,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 1154,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 1760,
+      "section_ids": [
+        "sec:model",
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 1982,
+      "section_ids": [
+        "sec:methods",
+        "sec:section-3"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 4353,
+      "section_ids": [
+        "sec:section-3"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3764,
+      "section_ids": [
+        "sec:section-3"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 1",
+        "caption": "图像超分辨率模型UTSR的网络结构示意图",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Network architecture diagram of UTSR model for image super-resolution",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "图 2",
+        "caption": "Transformer Block内部组成结构示意图",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Diagram of internal structure of the Transformer Block",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "图 3",
+        "caption": "实验中采集到数据图片 (a) NCM811样品图片，(b) NCM811同步辐射投影图像，(c) NCM811的切片图像，(d) 黄膨润土",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Data images collected in the experiments (a) Image of the NCM811 sample, (b) NCM811 synchrotron radiation projection",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "图 4",
+        "caption": "低质量图像合成流程图",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Flowchart of low-quality image synthesis",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "图 5",
+        "caption": "损失函数值随迭代次数变化",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Loss function variation chart with iterations",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "图 6",
+        "caption": "模拟图像SR方法进行定性比较",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Qualitative comparison of super-resolution methods using simulated images",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 7",
+        "caption": "模拟低质量纳米CT图像验证UTSR（彩图见网络版） (a) UTSR处理效果对比图，(b) CNR对比图，(c) 剖面图分析",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Validation of UTSR using simulated low-quality nano-CT images (color online)",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 8",
+        "caption": "在SR任务上图像SR方法进行定性比较 (a) 土壤纳米CT图像，(b) NCM电池颗粒的纳米CT图像",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Qualitative comparison of SR methods on SR tasks",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 9",
+        "caption": "和图10 是裂纹和孔隙分割后的结果，从图",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Qualitative comparison of crack segmentation after processing with various image SR algorithms",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "图 10",
+        "caption": "多种图像SR算法处理后孔隙提取的定性比较",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:methods"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Qualitative comparison of pore extraction after processing with various image SR algorithms",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:methods"
+      }
+    ],
+    "tables": [
+      {
+        "id": "表 1",
+        "caption": "模型参数及实验环境",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Model parameters and experimental environment",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "表 2",
+        "caption": "模拟图像SR算法进行定量比较",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Quantitative comparison of image super-",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "表 3",
+        "caption": "图像SR算法进行定量比较",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Quantitative comparison of image super-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "表 4",
+        "caption": "多种图像SR算法处理后裂纹和孔隙分割的定量比较",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Quantitative comparison of crack and pore segmentation after processing with various image SR algorithms",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "表 5",
+        "caption": "不同模块的组合对比结果",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:methods"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Comparison results of different module",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:methods"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "fDCFFN = fFC(",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "Q, K, V = LQ ( X ), LK ( X ), LV ( X )",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "Attention (Q,K,V ) = Soft max(",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "Lsobel = ",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "L = L1 + ηLsobel",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "小为4×4、8×8 和16×16。其中η = 0.2，该值通过实",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "β1 = 0.9，β2 = 0.99。模型迭代3×10",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 6
+    },
+    {
+      "text": "Accuracy =",
+      "section_id": "sec:model",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Precision =",
+      "section_id": "sec:model",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Recall =",
+      "section_id": "sec:model",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "F1Score = 2 × Precision ×Recall",
+      "section_id": "sec:model",
+      "page_start": 6,
+      "page_end": 9
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "c87cbc9af057c77cbca6f716f05279b6ef26a5f24b9ebc5c39de723edd4a5c7e"
+}

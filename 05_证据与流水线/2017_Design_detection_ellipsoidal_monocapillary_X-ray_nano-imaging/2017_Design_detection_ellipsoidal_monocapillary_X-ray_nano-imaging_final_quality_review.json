@@ -1,0 +1,44 @@
+{
+  "review": "final_quality_review",
+  "status": "passed",
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "reviewed_file": "2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_draft.md",
+  "checks": [
+    {
+      "name": "identity_and_scope",
+      "passed": true,
+      "finding": "题名、作者、机构、期刊、年份与 DOI 已和高置信度来源核对；本文被限定为单毛细管聚光器件及二维全场显微系统验证，不外推为三维纳米 CT 成果。"
+    },
+    {
+      "name": "central_evidence_chain",
+      "passed": true,
+      "finding": "笔记从椭球几何设计、拉制与面形初检、同步辐射光学检测一直追踪到 BL13W1 测试靶成像，关键数值均附有正确物理含义。"
+    },
+    {
+      "name": "quantitative_boundaries",
+      "passed": true,
+      "finding": "40 µm 被明确标为聚光斑，59 nm 被明确标为等效像素；结论上限严格限定为清楚分辨 500 nm 测试结构，未把背景中的 20 nm、设计目标或像素采样冒充实测分辨率。"
+    },
+    {
+      "name": "mechanism_flow_manual_review",
+      "passed": true,
+      "finding": "lint 的 mechanism_flow_too_abstract 属于启发式误报：机制流程四步均明确给出输入、具体操作与输出，覆盖几何设计、器件制备、X 射线检测和系统成像，没有使用空泛的“处理—分析—得到结果”链条。"
+    },
+    {
+      "name": "figures_and_provenance",
+      "passed": true,
+      "finding": "两张自动裁剪表格均经视觉复核判定含正文或相邻图污染并拒绝插入；正文仅保留图 1、图 6、图 9 的结构化占位，没有伪造或误配图片。"
+    },
+    {
+      "name": "limitations_and_reproducibility",
+      "passed": true,
+      "finding": "已覆盖内表面计量不足、照明不均、200 s 曝光、缺少定量分辨率指标以及没有断层数据等关键局限，并给出可复现的后续验收链。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false,
+  "final_lint": {
+    "all_required_gates_passed": true,
+    "warning_reviewed": "mechanism_flow_too_abstract"
+  }
+}

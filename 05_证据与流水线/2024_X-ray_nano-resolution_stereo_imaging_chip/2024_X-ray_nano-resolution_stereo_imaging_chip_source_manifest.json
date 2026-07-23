@@ -1,0 +1,399 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3788/aos240575",
+  "title": "X射线纳米分辨立体成像及其在芯片表征中的应用",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2024_X-ray_nano-resolution_stereo_imaging_chip/2024_X-ray_nano-resolution_stereo_imaging_chip_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2024_X-ray_nano-resolution_stereo_imaging_chip/2024_X-ray_nano-resolution_stereo_imaging_chip_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2024_X-ray_nano-resolution_stereo_imaging_chip.pdf",
+    "total_pages": 9,
+    "text_pages_extracted": 9,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 9,
+    "text_max_pages": null,
+    "text_pages_extracted": 9,
+    "text_pages_scanned": 9,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 168,
+      "text_hash_sha256": "463cc44bec43bbbdf59bb4a1839223c14ee92933e1e6b13f9816468a15815248"
+    },
+    {
+      "section_id": "sec:section",
+      "kind": "abstract",
+      "title": "摘要",
+      "page_start": 1,
+      "page_end": 8,
+      "char_count": 15612,
+      "text_hash_sha256": "b8e46099b66e93a42366bbceaecbe058c109e724177915fe47a1c562f5f6ef44"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 5676,
+      "text_hash_sha256": "106abce65b4e493baa3c92b90b476aef99b74f933098472b9f3c211aea8a6213"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 1898,
+      "section_ids": [
+        "sec:preamble",
+        "sec:section"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 1406,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1410,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 1730,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1840,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 1075,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 5690,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 4887,
+      "section_ids": [
+        "sec:section",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 1628,
+      "section_ids": [
+        "sec:abstract"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 1",
+        "caption": "纳米三维成像系统原理图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Schematic diagram of nano tree-dimensional (3D) imaging system",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 2",
+        "caption": "两束X 射线记录同一物体两幅投影的示意图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic diagram of two X-ray beams recording two",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 3",
+        "caption": "从X 射线立体图像中获取样品深度信息的坐标系示意图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Schematic diagram of coordinate system for obtaining",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 4",
+        "caption": "立体重建算法流程图",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Flow chart of stereo reconstruction algorithm",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 6",
+        "caption": "NCC 算法所得深度图像",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Depth image obtained by NCC algorithm",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 5",
+        "caption": "模拟螺旋丝图像。",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Simulated spiral images. (a) Initial acquisition projection;",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 7",
+        "caption": "NCC 算法所得深度与真实深度的对比",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Comparison between depth obtained by NCC algorithm",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 8",
+        "caption": "分辨靶图像。",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Resolution target images. (a) -10° projection image; (b) +10° projection image; (c) parallax map",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 11",
+        "caption": "芯片样品重构结果。",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "Chip sample reconstruction results. (a) Parallax map; (b) depth map; (c) 3D view",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 9",
+        "caption": "分辨靶重构结果。",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Resolution target reconstruction results. (a) Depth map; (b) 3D view; (c) SEM image",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 10",
+        "caption": "芯片图像。",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Chip images. (a) Chip samples under optical microscope; (b) -10° projection image; (c) +10° projection image",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      }
+    ],
+    "tables": [
+      {
+        "id": "表 1",
+        "caption": "基于NCC 算法的分辨靶深度恢复数据分析",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Resolution target depth recovery data analysis based on NCC algorithm",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "N cc ( p，d )=",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "( x，y )∈W p",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "( x，y )∈W p",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "2 ∑",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "( x，y )∈W p",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "y1 =",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    },
+    {
+      "text": "式中，视差d = x2 - x1，将这些深度信息与二维图像中",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 8
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "3daa10bb8d329331b4dcc5a28531e8c4efcc6adc2ae2bf76bef4eaf45b053067"
+}

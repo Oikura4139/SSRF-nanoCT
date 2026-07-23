@@ -1,0 +1,10 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "doi:10.1073/pnas.2202695119",
+  "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+  "pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9371705/",
+  "pdf_url": ""
+}

@@ -1,0 +1,415 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "decisions": [
+    {
+      "item_id": "figure:图 1",
+      "source_id": "图 1",
+      "kind": "figure",
+      "label": "图 1",
+      "caption": "纳米三维成像光束线总体布局示意图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Overall layout of 3D nano image beamline at SSRF",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_002_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_002_fig_fig_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_002_fig_fig_1.png"
+    },
+    {
+      "item_id": "figure:图 3",
+      "source_id": "图 3",
+      "kind": "figure",
+      "label": "图 3",
+      "caption": "是椭球聚焦镜的光学原理示意图。X 射线次",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 2",
+      "source_id": "图 2",
+      "kind": "figure",
+      "label": "图 2",
+      "caption": "纳米三维成像实验站原理图",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section-2",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Schematic diagram of 3D nano image beamline endstation at SSRF",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section-2",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_fig_2.png",
+      "relative_markdown_embed": "![Fig 2](images/page_003_fig_fig_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "实验站原理图和中英文题注完整，光学链与部件标注清晰，无跨图或正文污染。"
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Schematic diagram of rotating ellipsoidal capillary",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section-2",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现裁图顶部混入期刊页眉和前一段正文，不能作为独立的椭球毛细管原理图插入。",
+      "skip_reason": "manual_visual_review_running_header_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_fig_3.png",
+      "relative_markdown_embed": "![Fig 3](images/page_004_fig_fig_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_3.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "目标光学示意图本体可辨，但顶部含期刊页眉及正文残留，整体裁图不满足独立插图质量。"
+    },
+    {
+      "item_id": "figure:图 4",
+      "source_id": "图 4",
+      "kind": "figure",
+      "label": "图 4",
+      "caption": "上海同步辐射光源自主研制的TXM 系统",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "TXM system independently developed by SSRF",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section-2",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_004_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "SSRF 自主研制 TXM 系统照片及题注完整清晰，无正文、页眉或相邻图污染。"
+    },
+    {
+      "item_id": "figure:图 5",
+      "source_id": "图 5",
+      "kind": "figure",
+      "label": "图 5",
+      "caption": "XANES 谱线。",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "XANES spectra. (a) XANES spectrum of Ti K-edge; (b) XANES spectrum of Au L1-edge",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现裁图顶部混入期刊页眉及大段前置正文，XANES 曲线无法作为独立整洁插图使用。",
+      "skip_reason": "manual_visual_review_running_header_and_substantial_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_fig_5.png",
+      "relative_markdown_embed": "![Fig 5](images/page_005_fig_fig_5.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_5.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Ti K 边与 Au L1 边曲线本体可辨，但顶部保留期刊页眉和多行正文，判定不可直接插入。"
+    },
+    {
+      "item_id": "figure:图 6",
+      "source_id": "图 6",
+      "kind": "figure",
+      "label": "图 6",
+      "caption": "8 keV 能量处摇摆曲线的三次测量结果",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Three test results of rocking curve at energy of 8 keV",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_fig_6.png",
+      "relative_markdown_embed": "![Fig 6](images/page_005_fig_fig_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "8 keV 三次摇摆曲线及中英文题注完整，峰形、坐标和图例清晰，无污染。"
+    },
+    {
+      "item_id": "figure:图 7",
+      "source_id": "图 7",
+      "kind": "figure",
+      "label": "图 7",
+      "caption": "星条靶成像结果和功率谱分析曲线。",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Image result and power spectral density curve of start bar. (a) Image result of start bar; (b) power spectral density curve",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现裁图上半部混入期刊页眉、公式和大段正文，星条靶与功率谱结果不是独立裁图。",
+      "skip_reason": "manual_visual_review_formula_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_006_fig_fig_7.png",
+      "relative_markdown_embed": "![Fig 7](images/page_006_fig_fig_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_006_fig_fig_7.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "目标靶图和功率谱曲线存在，但候选包含页眉、推导公式和正文，污染面积显著。"
+    },
+    {
+      "item_id": "table:表 1",
+      "source_id": "表 1",
+      "kind": "table",
+      "label": "表 1",
+      "caption": "上海同步辐射光源纳米三维成像光束线站设计指标",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Design goals of 3D nano image beamline at SSRF",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section-2",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_003_fig_table1.png",
+      "relative_markdown_embed": "![Table 1](images/page_003_fig_table1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_table1.png"
+    },
+    {
+      "item_id": "table:表 2",
+      "source_id": "表 2",
+      "kind": "table",
+      "label": "表 2",
+      "caption": "椭球聚焦镜的物理参数",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Parameter of ellipsoidal capillary",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section-2",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选除 Table 2 外还串入后续正文和 Fig 4 图体，属于跨表跨图污染。",
+      "skip_reason": "manual_visual_review_cross_table_body_and_figure_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_004_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_004_fig_table_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_table_2.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Table 2 本体可辨，但裁图向下越界，包含后续正文及 Fig 4 系统照片，不能独立使用。"
+    },
+    {
+      "item_id": "table:表 3",
+      "source_id": "表 3",
+      "kind": "table",
+      "label": "表 3",
+      "caption": "能量分辨率三次测试结果",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Three test results of energy resolution",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Table 3 只截取了部分列，缺少测试序号与峰位等关键列，题注顶部也有裁切。",
+      "skip_reason": "manual_visual_review_incomplete_table_columns_and_caption_crop",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_005_fig_table_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_table_3.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "候选表格左右列不完整，测试编号与峰位信息缺失，无法可靠复现三次能量分辨率测试。"
+    }
+  ],
+  "summary": {
+    "total_items": 20,
+    "by_decision": {
+      "insert": 3,
+      "low_priority": 8,
+      "placeholder": 2,
+      "skip": 0,
+      "visual_defect": 7
+    }
+  }
+}

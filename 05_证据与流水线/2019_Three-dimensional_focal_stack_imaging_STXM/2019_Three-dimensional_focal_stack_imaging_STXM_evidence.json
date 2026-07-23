@@ -1,0 +1,934 @@
+{
+  "status": "ok",
+  "script": "extract_evidence.py",
+  "paper_id": "doi:10.1364/oe.27.007787",
+  "title": "Three-dimensional focal stack imaging in",
+  "evidence_pack": {
+    "paper_id": "doi:10.1364/oe.27.007787",
+    "problem_evidence": [
+      {
+        "claim": "However, it is still challenging for this method to image thick samples due to high absorption at large angles.",
+        "evidence": "However, it is still challenging for this method to image thick samples due to high absorption at large angles.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+        "evidence": "However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "However, extracting the maximal Rn(x, y) for a series of axially-stacked images can only pick out the most prominent focused feature which is applicable only for samples with a single object along each OAPL.",
+        "evidence": "However, extracting the maximal Rn(x, y) for a series of axially-stacked images can only pick out the most prominent focused feature which is applicable only for samples with a single object along each OAPL.",
+        "source_section": "introduction",
+        "page_hint": ""
+      }
+    ],
+    "task_evidence": [
+      {
+        "claim": "However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+        "evidence": "However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "1(b)), marked also by a red box, z1), corresponding to a focus point to be detected by FS algorithm.",
+        "evidence": "1(b)), marked also by a red box, z1), corresponding to a focus point to be detected by FS algorithm.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "Furthermore, the 3D resolutions were estimated by picking out a slice of the reconstructed image perpendicular or parallel to the optical axis and fitting the derivatives of three line- segments across the edges of an exemplary particle on this slice (Fig.",
+        "evidence": "Furthermore, the 3D resolutions were estimated by picking out a slice of the reconstructed image perpendicular or parallel to the optical axis and fitting the derivatives of three line- segments across the edges of an exemplary particle on this slice (Fig.",
+        "source_section": "task",
+        "page_hint": ""
+      }
+    ],
+    "data_evidence": [
+      {
+        "claim": "For a series of 2D images collected at different focused depths inside the sample along the optical axis, extracting focused specimen features axially with the FS algorithm will lead to the reconstruction of a 3D structure of the specimen.",
+        "evidence": "For a series of 2D images collected at different focused depths inside the sample along the optical axis, extracting focused specimen features axially with the FS algorithm will lead to the reconstruction of a 3D structure of the specimen.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "By using the multi-slice method to model the propagation of X-rays in the sample and moving the sample along the optical axis, 61 images were collected sequentially with a 50 nm z-direction step for moving over 3 μm to ensure that each part of the sample was within the DOF in one of the 2D micrographs.",
+        "evidence": "By using the multi-slice method to model the propagation of X-rays in the sample and moving the sample along the optical axis, 61 images were collected sequentially with a 50 nm z-direction step for moving over 3 μm to ensure that each part of the sample was within the DOF in one of the 2D micrographs.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "The film was collected on a disposable petri dish with dehumidification overnight.",
+        "evidence": "The film was collected on a disposable petri dish with dehumidification overnight.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "For the focal stack imaging, 51 STXM micrographs were collected at a series of axial Vol.",
+        "evidence": "For the focal stack imaging, 51 STXM micrographs were collected at a series of axial Vol.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "Four representative STXM images of the CNF/Fe3O4 film collected at different optical - axis positions.",
+        "evidence": "Four representative STXM images of the CNF/Fe3O4 film collected at different optical - axis positions.",
+        "source_section": "data",
+        "page_hint": ""
+      }
+    ],
+    "method_evidence": [],
+    "mechanism_evidence": [],
+    "results_evidence": [
+      {
+        "claim": "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at the soft X-ray spectromicroscopy (SM) beamline of Canadian Light Source (CLS) [42].",
+        "evidence": "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at the soft X-ray spectromicroscopy (SM) beamline of Canadian Light Source (CLS) [42].",
+        "source_section": "experiment",
+        "page_hint": ""
+      },
+      {
+        "claim": "6(d)) as compared to the reconstruction by the improved one (Fig.",
+        "evidence": "6(d)) as compared to the reconstruction by the improved one (Fig.",
+        "source_section": "experiment",
+        "page_hint": ""
+      },
+      {
+        "claim": "(a-b) The reconstructed images by our improved algorithm (Visualization 3) and the previous one, respectively.",
+        "evidence": "(a-b) The reconstructed images by our improved algorithm (Visualization 3) and the previous one, respectively.",
+        "source_section": "experiment",
+        "page_hint": ""
+      },
+      {
+        "claim": "It was produced by adding 0.2g of Fe3O4 nanoparticles aqueous dispersion (particle size: about 100 nm) at 5 wt % to 50g of CNF aqueous suspension with a solids content of 0.2 wt %, then stirring this mixture for 5 hours at 580 rpm.",
+        "evidence": "It was produced by adding 0.2g of Fe3O4 nanoparticles aqueous dispersion (particle size: about 100 nm) at 5 wt % to 50g of CNF aqueous suspension with a solids content of 0.2 wt %, then stirring this mixture for 5 hours at 580 rpm.",
+        "source_section": "experiment",
+        "page_hint": ""
+      },
+      {
+        "claim": "From the 3D image reconstructed by our improved algorithm (Fig.",
+        "evidence": "From the 3D image reconstructed by our improved algorithm (Fig.",
+        "source_section": "experiment",
+        "page_hint": ""
+      },
+      {
+        "claim": "It is undoubted that the 3D imaging using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation.",
+        "evidence": "It is undoubted that the 3D imaging using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation.",
+        "source_section": "experiment",
+        "page_hint": ""
+      }
+    ],
+    "ablation_evidence": [],
+    "limitations_evidence": [
+      {
+        "claim": "The present work serves as a significant step to improve the STXM 3D imaging with high resolution and flexibility and can be hopefully further extended to complex- structure 3D imaging of dense specimens.",
+        "evidence": "The present work serves as a significant step to improve the STXM 3D imaging with high resolution and flexibility and can be hopefully further extended to complex- structure 3D imaging of dense specimens.",
+        "source_section": "conclusion",
+        "page_hint": ""
+      },
+      {
+        "claim": "Concretely, considering the opaque-disk of the FZP and the influence of an order sorting aperture, the diffraction integral formula (converted to polar coordinates) can be further specified as [44] Vol.",
+        "evidence": "Concretely, considering the opaque-disk of the FZP and the influence of an order sorting aperture, the diffraction integral formula (converted to polar coordinates) can be further specified as [44] Vol.",
+        "source_section": "conclusion",
+        "page_hint": ""
+      }
+    ],
+    "equation_candidates": [
+      {
+        "equation": "O(r)",
+        "source_section": "method",
+        "kind_hint": "complexity"
+      },
+      {
+        "equation": "rn≥T0)",
+        "source_section": "method",
+        "kind_hint": "comparison_equation"
+      },
+      {
+        "equation": "for the positions with rn ≥ Tn",
+        "source_section": "method",
+        "kind_hint": "comparison_equation"
+      }
+    ],
+    "reference_candidates": [],
+    "figure_captions": [
+      {
+        "id": "Fig 1",
+        "caption": "Illustrations of a scanning image and its corresponding beam propagation map. (a)"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic of obtaining 3D image voxel values by thresholding local variances. (a) The"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Schematic of the improved focal stack approach. (a) The improved FS algorithm flow-"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "(a) Schematic 3D representation of the sample model with randomly distributed two"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "3D reconstructed images of the sample model with two different algorithms. (a) The 3D"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Comparison between the reconstructed images by the previous algorithm and the"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Four representative STXM images of the CNF/Fe3O4 film collected at different optical -"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Resolution estimations for the reconstructed 3D image of the simulated sample model"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Estimation of the 3D resolutions for the first experimental data reconstruction (section"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "The thickness of the second experimental specimen and the analysis of the 3D spatial"
+      }
+    ],
+    "table_captions": [],
+    "sections": [
+      {
+        "name": "preamble",
+        "length": 1729,
+        "preview": "Three-dimensional focal stack imaging in scanning transmission X-ray microscopy with an improved reconstruction algorithm LIMEI MA,1,2,3 XIANGZHI ZHANG,1,2,5 ZIJIAN XU,1,2,6 ANDREAS SPÄTH,4 ZHENJIANG XING,1,2,3 TIANXIAO SUN,1,2,3 AND RENZHO"
+      },
+      {
+        "name": "introduction",
+        "length": 15742,
+        "preview": "Three dimensional (3D) microscopy is an effective tool to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical re"
+      },
+      {
+        "name": "experiment",
+        "length": 7293,
+        "preview": "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at th"
+      },
+      {
+        "name": "conclusion",
+        "length": 6783,
+        "preview": "In summary, we have presented an improved focal stack algorithm which can extract multiple focused features along each optic-axial pixel line by thresholding the normalized local variances so that it can reconstruct 3D images from soft x-ra"
+      }
+    ],
+    "section_texts": {
+      "preamble": "Three-dimensional focal stack imaging in scanning transmission X-ray microscopy with an improved reconstruction algorithm LIMEI MA,1,2,3 XIANGZHI ZHANG,1,2,5 ZIJIAN XU,1,2,6 ANDREAS SPÄTH,4 ZHENJIANG XING,1,2,3 TIANXIAO SUN,1,2,3 AND RENZHONG TAI1,2,7 1Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China 2Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China 3University of Chinese Academy of Sciences, Beijing 100049, China 4Physical Chemistry II and ICMM, Friedrich-Alexander University Erlangen-Nuremberg, Egerlandstrasse 3, 91058 Erlangen, Germany 5zhangxiangzhi@sinap.ac.cn 6xuzijian@sinap.ac.cn 7tairenzhong@sinap.ac.cn Abstract: Focal stack (FS) is an effective technique for fast 3D imaging in high-resolution scanning transmission X-ray microscopy. Its crucial issue is to assign each object within the sample to the correct position along the optical axis according to a proper focus measure. There is probably information loss with previous algorithms for FS reconstruction because the old algorithms can only detect one focused object along each optical-axial pixel line (OAPL). In this study, we present an improved FS algorithm, which utilizes an elaborately calculated threshold for normalized local variances to extract multiple focused objects in each OAPL. Simulation and experimental results show its feasibility and high efficiency for 3D imaging of high contrast, sparse samples. It is expected that our advanced approach has potential applications in 3D X-ray microscopy for more complex samples. © 2019 Optical Society of America under the terms of the OSA Open Access Publishing Agreement",
+      "introduction": "Three dimensional (3D) microscopy is an effective tool to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical reconstruction microscopy (STORM) or stimulated emission depletion (STED) microscopy [3–6]. A wider range of 3D imaging schemes have been provided by synchrotron X-ray radiation, including X-ray tomography, 3D ptychography, X-ray holography, confocal and various coherent methods or their combinations [7–14]. Scanning transmission X-ray microscopy (STXM) is capable of acquiring 2D nanoscale images based on density, elemental or spectroscopic contrast. Several approaches have been developed to extend STXM to 3D, such as nanotomography, 3D ptychography, confocal microscopy and radial profile analysis [15–20]. Tomography is currently the primary technique used to reconstruct 3D images of materials and biological specimens in STXM, recently achieving a spatial resolution of 11 nm in combination with ptychography [21]. Hitchcock et al. reported that angle-scan nanotomography is capable of investigating the spatial distributions of low density ionomers embedded within polystyrene microspheres [22]. However, it is still challenging for this method to image thick samples due to high absorption at large angles. Furthermore, realignment and refocusing after each rotation step will lower the experimental efficiency. Despite that confocal microscopy has been performed so well using visible light, especially for stained biological specimens, it is difficult to be extended to Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7787 #356232 Journal © 2019 https://doi.org/10.1364/OE.27.007787 Received 28 Dec 2018; revised 24 Jan 2019; accepted 25 Jan 2019; published 1 Mar 2019 soft X-ray regime due to the low efficiency of the available focusing optics and more importantly the extremely low soft x-ray fluorescence yields [15,23]. Focal stack (FS) method has been proposed since 1980s and recently used in synchrotron X-ray regime [24–28]. The FS method requires collecting a series of 2D microscopic images with shifting the sample to different positions along the optical axis (usually referred to as “z- direction”) so that the incident beam is focused at different depths within the sample. In STXM, it means that the sample is not only raster-scanned through the focal spot in x- and y- direction, but also in z-direction. These images with different Z-positions are then combined to get a better 2D image or form a composite volume to distinguish the 3D spatial positions of individual features. A number of FS-based studies have been carried out using light-filed cameras in the visible light regime [29,30]. A variance-based algorithm has been introduced to reconstruct gas filled microspheres and a flake of a butterfly wing by the FS scheme of STXM [31]. However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images. If the sample has two or more features along one particular OAPL, only the one with the highest absorption can be found and parts of the structural features will be lost after reconstruction. A similar approach for transmission X-ray microscope (TXM) is the extended depth of focus (DOF) method to generate fully in-focus micrographs by fusion of a series of sample images at different focal positions based on a fast discrete wavelet transform algorithm [28]. Thus, a high resolution 3D image of a complete biological cell can be obtained from tomographic reconstruction of multiple fusion images at different angles [32]. Here we present an improved FS algorithm to efficiently reconstruct the full 3D structures of thick samples based on 2D STXM micrographs. In this algorithm, a threshold calculation method is introduced to extract multiple focused features along each OAPL. We conduct a simulation and experiments for various samples with ferroferric oxide (Fe3O4) nanoparticles to verify the effectiveness of the approach we proposed. 2. Principles In STXM, if a sample is thicker than the DOF of the Fresnel zone plate (FZP), only the features within the DOF can be imaged clearly at the best level. The DOF for an FZP is given by [33] DOF (1) where Δrn represents the outermost zone width of the FZP, n is the total number of zones, λ is the wavelength of the incident light. According to the Rayleigh criterion, the lateral resolution of STXM is 1.22Δrn with a given zone plate [34]. Therefore, imaging of nanostructures with a resolution of 25 ~30 nm (routine resolution for standard STXM experiments) will result in a DOF of several hundreds of nanometers. Many test samples relevant for soft X-ray imaging can still be investigated with a thickness up to several micrometers when the transmitted signal is high enough [12,35,36]. In consequence, only parts of the specimen can be in proper focus within a specific STXM micrograph. Figure 1 illustrates this issue. The focused parts of a scanning image (Fig. 1(a)), marked with a red box) are within the DOF range of the beam propagation path (Fig. 1(b)), marked also by a red box, z1), corresponding to a focus point to be detected by FS algorithm. The particles marked with purple and blue boxes are out of focus (Fig. 1(a)), which should be at different focused z-positions (Fig. 1(b)), purple and blue frames, z2 and z3). For a series of 2D images collected at different focused depths inside the sample along the optical axis, extracting focused specimen features axially with the FS algorithm will lead to the reconstruction of a 3D structure of the specimen. Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7788 Fig. 1. Illustrations of a scanning image and its corresponding beam propagation map. (a) Schematic diagram of a scanning image by STXM. (b) The corresponding light focusing map for the three circular spots marked by boxes in (a); z1, z2, z3: focused positions of the particles marked with the same colors in (a). The local variance Rn(x, y) is often used as a focus measure in FS approach. It reflects the density gradients of the neighborhood surrounding a given pixel and enables us to choose the best focused features of each OAPL. However, extracting the maximal Rn(x, y) for a series of axially-stacked images can only pick out the most prominent focused feature which is applicable only for samples with a single object along each OAPL. Apparently, there may be information loss when a sample is complex enough that multiple features could appear along the same OAPL. The expression of local variance Rn(x, y) is as follows [31,37] ( , )) ( , ) ( , ) a j i y I x y x y I x y (2) where I is the photon intensity recorded for a certain pixel, n represents the index of the image sequence.⎯I denotes the local mean, which can be calculated from the following equation: ( , ) a j I x y I x i y (3) In addition, the size of the measured window (2a + 1) × (2a + 1) is an important factor influencing the precision of the extracted depth positions of the features. This is because the smaller the window size, the more sensitive the local measure is to the noise; the larger the window size, the smoother the edge areas of a focus map will be. In the simulation of this paper, the parameter a was set as 3; while in the reconstructions of the two experiment data sets, a was taken as 5. A larger value of a for experimental data can relieve the influence of noise which is unavoidable to experimental data. Based on the above considerations, we proposed an improving scheme for the FS algorithm by thresholding the normalized local variances rn to extract and locate multiple focused feature points (high-density featured structures) along each OAPL. As illustrated in Fig. 2(a), the peaks of rn higher than the threshold Tn (red points in Fig. 2(a)) correspond to the positions in the z-direction where sample features need to be extracted. The normalized local variance rn has the following form: max ( , ) ( , ) ( , ) x y r x y x y (4) where Rn(x,y)max is the maximal Rn along a given OAPL. The range of rn(x,y) is 0 to 1. The first step of reconstructing the 3D image cube V(x,y,z) is to calculate the threshold Tn for each OAPL. We introduce an iterative threshold method [37] to calculate Tn. This method works as Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7789 follows: (1) Start with the average of rn over an OAPL as an initial threshold T0 and the sequence of rn is divided into two parts, r1 and r2 (r1: rn<T0; r2: rn≥T0). (2) Calculate the averages of r1 and r2 respectively, obtaining u1 and u2. (3) Calculate the average of u1 and u2 as a new Tn. (4) Repeat steps (2)-(3) until Tn remains stable, then the resulting Tn is the desired threshold along this OAPL. Fig. 2. Schematic of obtaining 3D image voxel values by thresholding local variances. (a) The relationship between the normalized local variances rn along one of the OAPLs and the thresholding value Tn. The red circled points indicate the positions of the features to be extracted. (b) According to the analysis from (a), the voxel values along an OAPL are obtained as follows: for the positions with rn ≥ Tn, the voxel values are the measured 2D image intensity or optical density while for the other positions the voxel values are zero. In the next step, by extracting the peaks of rn higher than Tn along an OAPL, the focused positions of multiple structural features can be obtained on this OAPL. Then the corresponding measured image intensity (or optical density of the sample under transmission in 2D measurements, usually proportional to the sample density) values are filled in the V(x0,y0,z) at these focused positions ((x0,y0) is the lateral position of the OAPL) (Fig. 2(b)). That is to say, the voxel values are the measured image intensity at these positions of the OAPL, V(x0,y0,z) = I(x0,y0,z), where I(x,y,z) is the stacking of the measured 2D image intensity along the z-direction. On the other hand, for the positions with rn < Tn along this OAPL, the corresponding voxel values are set as zero, i.e. V(x0,y0,z) = 0 (Fig. 2(b)). After all the OAPLs of I(x,y,z) are treated in this way, the 3D image V(x,y,z) is generated. Finally, V(x,y,z) can be rendered and visualized with a common 3D software (cf. Figure 3(a) for details of the algorithm). The schematic of the FS imaging process is shown in Fig. 3(b) and the STXM experimental setup for FS is animated in a movie (Visualization 1). Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7790 Fig. 3. Schematic of the improved focal stack approach. (a) The improved FS algorithm flow- chart that details each step including the calculation of the threshold Tn for the normalized local variances. (b) The focal stack imaging process with the corresponding STXM setup (see Visualization 1). 3. Simulation In order to validate the improved FS algorithm described above, we performed a simulation for FS imaging in soft X-ray regime. In the simulation, a cubic sample model was constructed with a size of 3 × 3 × 3 μm3. It consisted of a carbon matrix with randomly distributed iron (Fe) and manganese (Mn) nanoparticles. The particle size ranged from about 100 to 600 nm and their shapes were all cubic (Fig. 4(a)). The X-ray propagation through the thick sample was modelled by the multi-slice approach [38,39] combined with the angular spectrum method of Fresnel diffraction [8,40] and finally the intensity of the exit wave was integrated and recorded (see Appendix A for details). The incident X-ray probe produced by an FZP was modeled by the Fresnel-Kirchhoff diffraction theory (see Appendix A for details). The incident X-ray flux used was 109 photons/s and its photon energy was 708 eV at the Fe L3-edge. The applied FZP had a diameter of 60 μm, a central-stop of 24-μm-radius and an Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7791 outermost zone-width (Δrn) of 10 nm. According to Eq. (1), the DOF of this focusing optics was calculated to be 230 nm. Some parameters related to the simulated sample, such as the densities ρ and absorbencies μ, were taken from an X-ray database [41]. Taking into account the DOF and ~5 times oversampling need, the step size of the sample moving in z-direction was set as 50 nm in this simulation. The scanning step size in x- and y-direction was set as 10 nm, determined by the outermost zone-width of the FZP. Therefore, the modelled sample had a volume of 300 × 300 × 60 voxels. By using the multi-slice method to model the propagation of X-rays in the sample and moving the sample along the optical axis, 61 images were collected sequentially with a 50 nm z-direction step for moving over 3 μm to ensure that each part of the sample was within the DOF in one of the 2D micrographs. Fig. 4. (a) Schematic 3D representation of the sample model with randomly distributed two kinds of elements. The green and blue cubes represent the particles of Fe and Mn, respectively. (b) The sample model with a side length of 3 μm that is thicker than the DOF, and z1, z2 and z3 are three different focused positions in the sample for 2D imaging. (c-d) Two 2D micrographs with a focal distance of 1 μm (Δz = 1 μm) between them. The marked regions demonstrated the sharp or the defocused features. The enlarged views on the left side of each graph show clear details. The 2D representation of the sample model thicker than the DOF is shown in Fig. 4(b). Figures 4(c) and 4(d) present two STXM micrographs imaged at different focused positions z1 and z2 in the sample, respectively. The colorbars on the right side of the two images represent the transmission coefficients: white corresponds to high transmission, gray to the medium values and black to low transmission. Comparing the two images, it can be seen that the cubic particle marked with a red box at the top of Fig. 4(d) is in focus, which is clearer than that in Fig. 4(c), while the one with a blue box is nearer to focus than that in Fig. 4(d). Figures 4(c) and 4(d) are 1 μm apart in the optical axial direction. The details are more obvious in the enlarged views on the left side of Figs. 4(c) and 4(d). The 3D reconstructed image by our improved algorithm (Fig. 5(a)) was in good agreement with the sample model shown in Fig. 4(a). It is animated in Visualization 2. While employing the algorithm from a previous literature [31], there were something wrong with the reconstruction. As shown in Fig. 5(b), some particles are lost and some are wrongly hollow since only one focused feature (with the highest local variance) was extracted along each OAPL in the old algorithm. The colors in the reconstructed 3D images represent the density Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7792 of the sample, which is proportional to the optical density (OD) or the absorption intensity of the sample under transmission. From the color scale, it can be seen that the calculated densities of Fe and Mn have little difference in this simulation. Fig. 5. 3D reconstructed images of the sample model with two different algorithms. (a) The 3D reconstructed image using our algorithm (see Visualization 2). (b) The 3D reconstructed image using the algorithm reported in the literature [31]. The unit of colorbar is in g/cm3. Furthermore, the 3D resolutions were estimated by picking out a slice of the reconstructed image perpendicular or parallel to the optical axis and fitting the derivatives of three line- segments across the edges of an exemplary particle on this slice (Fig. 9 in Appendix B). The full width at half maximum (FWHM) values of the Gaussian fitting curves gave the resolutions of the reconstructed 3D image as 11 nm, 14 nm and 95 nm in the x, y and z directions, respectively.",
+      "experiment": "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at the soft X-ray spectromicroscopy (SM) beamline of Canadian Light Source (CLS) [42]. 4.1 Experiment 1 The sample for the first data set was a 5-μm-diameter gas filled PVA microballoon with Fe3O4 nanoparticles on the shell. The STXM micrographs used for reconstruction have been measured at the PolLux beamline of Swiss Light Source by moving the sample with a step of 400 nm in z-direction (DOF ≈500 nm) and recording 2D images for an area of 6 × 6 μm2 and 250 × 250 pixels. We reconstructed the specimen with the previous algorithm and the improved one, respectively, for comparison, as shown in Figs. 6(a) and 6(b) (Visualization 3). From both reconstructed images, we can see that the Fe3O4 particles are generally distributed on the surface of the microballoon and there are more particles dispersed on the left semisphere than on the right one. Moreover, there are lots of large or small agglomerations of the Fe3O4 nanoparticles. However, in general, the image reconstructed by the previous algorithm (Fig. 6(b)) shows a sparser distribution of Fe3O4 particles than that by our new algorithm (Fig. 6(a)), especially in the part marked by a white circle. The color scales depict the corresponding voxel values and the larger the voxel values, the higher the absorption intensity at that position. Analyzing the enlarged half microballoons, which were obtained by Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7793 cutting the reconstructed balloons through the center, it was found that some particles were lost under the reconstruction by the previous algorithm (Fig. 6(d)) as compared to the reconstruction by the improved one (Fig. 6(c)). For example, in the green box of Fig. 6(d), an agglomerated particle is lost when compared to the same area of Fig. 6(c), and it is more obvious for the features marked by a white ellipse. Apparently, the disappearance of particles is due to the limited detection capability of the old FS algorithm. Two slices perpendicular to each other were selected to estimate the spatial resolutions with the edge profile-fitting method, giving 3D resolutions of 35 nm in the x and y dimensions and 496 nm in the z-direction (Fig. 10 in the Appendix B). Fig. 6. Comparison between the reconstructed images by the previous algorithm and the improved one. (a-b) The reconstructed images by our improved algorithm (Visualization 3) and the previous one, respectively. The part marked by a white circle in (b) has fewer particles than that in (a). (c-d) Details comparison between the two enlarged reconstructed half microballoons by the two algorithms. 4.2 Experiment 2 The test sample of the second experiment was a film consisting of cellulose nanofibrils (CNF) embedded with Fe3O4 nanoparticles (CNF/Fe3O4 film). It was produced by adding 0.2g of Fe3O4 nanoparticles aqueous dispersion (particle size: about 100 nm) at 5 wt % to 50g of CNF aqueous suspension with a solids content of 0.2 wt %, then stirring this mixture for 5 hours at 580 rpm. The film was collected on a disposable petri dish with dehumidification overnight. In the second experiment, the photon energy was 710 eV and a 20-nm-FZP with a diameter of 120 μm was used to focus the X-ray beam, which resulted in a DOF of 917 nm. Figure 11(a) in the Appendix B shows a scanning electron micrograph of the CNF/Fe3O4 film cross-section, from which the specimen thickness was estimated to be 4 μm. Agglomerations of the Fe3O4 nanoparticles can also be seen in this graph. Obviously, the film is significantly thicker than the DOF of the FZP and the whole volume cannot be simultaneously imaged clearly. For the focal stack imaging, 51 STXM micrographs were collected at a series of axial Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7794 positions by moving the specimen along the optical axis with a step of 300 nm. The 2D image size is 7 × 7 μm2 which was scanned with a step of 40 nm. The first scan was based on the position where the specimen was completely off-focus, as shown in Fig. 7(a), then it was stepped in the z-direction until the specimen position was again off-focus. Four representative STXM images are shown in Fig. 7, where Figs. 7(a) and 7(d) are two off-focus images, and Figs. 7(b) and 7(c) are partly focused micrographs within the specimen (Δzb,c = 2.7 μm). A detailed comparison between Figs. 7(b) and 7(c) shows that the particles marked with a purple box at the right side of Fig. 7(b) are clearer than that in Fig. 7(c), while the ones marked with a red box is in focus in Fig. 7(c) and should be out of focus in Fig. 7(b). Magnified views showing more details are in the respective insets. Fig. 7. Four representative STXM images of the CNF/Fe3O4 film collected at different optical - axis positions. The film is thicker than the DOF of the used FZP, and the imaged area is 7 × 7 μm2. (a) An STXM image of the specimen which is completely off-focus. (b-c) Two micrographs for the film with part of the particles are in-focus. Each graph has two magnified views of details. (d) The image of the specimen which is off-focus again. Scale bars: 1 μm. After pre-processing with normalization, de-noising and subpixel image registration for the 51 focus-stacked images, the proposed and previous FS algorithms were applied for reconstruction, respectively. The 3D reconstructed images were rendered and visualized in movie files. From the 3D image reconstructed by our improved algorithm (Fig. 8(a)), Visualization 4), we can see that all locations of the Fe3O4 particles within the specimen are obtained, and the 3D image clearly shows these nanoparticles. Most importantly, multiple particles on the same OAPL can be seen clearly in this image, while in the image retrieved by the previous algorithm (Fig. 8(b)), some particles are lost as compared to those in Fig. 8(a), indicating information loss during reconstruction. Furthermore, by picking out two slices perpendicular to each other and fitting the gradients of the profiles across the edges of an Fe3O4 particle, we estimated the 3D spatial resolutions of the FS reconstruction to be 80 nm in the x and y dimensions and 214 nm in the z dimension (Fig. 11 in the Appendix B). Additionally, the data acquisition time of the stacked images was 66 minutes, which is usually faster (at least no slower) than STXM-based nanotomography under the similar Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7795 resolution condition. More importantly, compared to the tomography method, the FS method allows a larger imaging field of view, has more flexible requirements on the sizes or shapes of samples and no need for sample rotations. It is undoubted that the 3D imaging using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation. Fig. 8. 3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction with our improved algorithm. The distribution of the Fe3O4 nanoparticles can be seen clearly (see Visualization 4). (b) The 3D image reconstructed with the reported algorithm.",
+      "conclusion": "In summary, we have presented an improved focal stack algorithm which can extract multiple focused features along each optic-axial pixel line by thresholding the normalized local variances so that it can reconstruct 3D images from soft x-ray STXM micrographs. Simulated and X-ray experimental data demonstrated the viability and validity of the new algorithm. The proposed FS approach is more reliable for the complete reconstruction of thick sparse samples with complex axial nanostructures as compared to previous FS approaches. So far the axial resolution of the approach is still limited by the relatively large DOF of the Fresnel zone plate optics. The present work serves as a significant step to improve the STXM 3D imaging with high resolution and flexibility and can be hopefully further extended to complex- structure 3D imaging of dense specimens. It is expected that the focal stack imaging, either in STXM or in other mode, will be of considerable value to both morphologic and spectral microscopy with improved quality and flexibility. Appendix A: Theory of X-ray wave propagation in objects In our simulation, the incident X-ray wave field at the sample plane was calculated based on the “Fresnel-Kirchhoff diffraction” [43], which can be approximately expressed as ( ) ( ) =  (5) where r is the displacement vector of each subwave propagation from the FZP plane to the sample rear plane, and U0(p) is the pupil function of FZP. Concretely, considering the opaque-disk of the FZP and the influence of an order sorting aperture, the diffraction integral formula (converted to polar coordinates) can be further specified as [44] Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7796 ( ) jkr jkf U r ρθ ρ (6) where f is the focal length of the FZP, E0 is the photon flux per unit area, rin is the radius of the central-stop, rzp is the radius of the FZP, J0(ν) is the Bessel function of the first kind, order zero and r = θf. The wave field U(r) will be the incident probe for the simulation. In STXM, the propagation of X-rays in thick samples can be modeled by the multi-slice approach that is widely used in electron microscopy and ptychography [8,38,39]. In this approach, a thick sample is regarded as being composed of a number of discrete slices or layers perpendicular to the incident beam. During the propagation process, the exit wave from the first layer, which is calculated as the product of the incident probe and the transmission function of the first layer, is assumed to propagate a short distance in free space to the second layer and becomes the incident probe for this layer. The multiplicative approximation is used again to estimate the exit wave from the second layer, which continues with free space propagation to the next layer, and so forth. Finally, the detector at the far field receives the wave signals and records the intensity information. The multiplicative approximation is used to calculate the exit wave of each layer. χex,j is defined as the exit wave of the j-th lateral position after the incident probe interacts with a certain layer of the sample, which can be described by , ( ) ) ( ) ex j (7) where P(r-rj) is the complex-valued incident probe centered at position rj, and O(r) is the layer transmissivity. The exit wave propagates in free space over a short effective distance z before reaching the next layer and this propagation can be described by the “angular spectrum method” of Fresnel diffraction [40] which can be expressed as: ( ) ( ) ex j (8) where ψj(r) is the incident probe of the next layer,  presents the Fourier transformation and its calculation is based on a diffraction plane. Dz denotes the Fresnel propagator in Fourier space. Its expression is given by (9) where q denotes the reciprocal coordinate. Assuming the thick sample as n slices, the propagation procedure is featured by an iterative calculation depicting the X-ray wavefront interacting with each slice in turn. After the multiply-propagating process, the diffracted intensity data set is collected as 1,2 2,3 ( ) ( ) ( ) ( ) ex j (10) where ψex,j represents the final exit wave of the thick sample, zn-1,n represents the distance between the (n-1)-th and n-th slices. Finally, this 2D diffraction intensity distribution is integrated over the exit surface of the sample cube and the resulting value is an image intensity for just one pixel of a 2D transmission image. Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7797 Appendix B: Resolution calculations for the simulation and experiment results Fig. 9. Resolution estimations for the reconstructed 3D image of the simulated sample model (section 3). (a-b) Two slices of the reconstructed image perpendicular to each other were picked out for resolution estimations. Red-solid lines are the line scans across targeted edges used for Gaussian fitting. (c-e) Blue short-dashed lines are the image intensity profiles across the edges of a particle, corresponding to the red-solid lines in (a) and (b). The black dashed-dot lines are the derivatives of the blue short-dashed lines, which are fitted by Gaussian curves (red solid lines) and the FWHMs of the Gaussians give resolutions in the x, y and z dimensions as 11 nm, 14 nm and 95 nm, respectively. Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7798 Fig. 10. Estimation of the 3D resolutions for the first experimental data reconstruction (section 4.1) with our improved algorithm. (a) Picking out two slices perpendicular to each other and selecting three line-scans across edges of a Fe3O4 particle along the x, y and z axes for resolution estimation. (b-d) Line profiles taken across the edges of an Fe3O4 particle are shown as the blue short-dashed lines. Fitting the derivative of the line profiles (black dashed-dot lines) to Gaussian curves (red solid lines), gives the spatial resolutions of 35 nm in the x and y directions and 496 nm in the z-direction. Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7799 Fig. 11. The thickness of the second experimental specimen and the analysis of the 3D spatial resolutions for its reconstructed image. (a) Scanning electron micrograph of CNF/Fe3O4 film cross-section. (b) Picking out two slices which are perpendicular to each other and cutting through an Fe3O4 particle. The edge line-profile fitting method was used to estimate the resolutions of the 3D reconstructed image. (c-d) Resolutions of 80 nm in the x- and y- dimensions were achieved by fitting the gradient of the edge line-profiles of a particle to Gaussian curves. (e) A resolution of 214 nm in the optical axis direction was obtained. Funding Ministry of Science and Technology of the People’s Republic of China (2016YFA0400902, 2017YFA0403400); National Natural Science Foundation of China (11575283, U1832154, 11875316, U1832146)."
+    },
+    "candidate_chunks": {
+      "abstract": [],
+      "introduction": [
+        {
+          "text": "Three dimensional (3D) microscopy is an effective tool to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical reconstruction microscopy (STORM) or stimulated emission depletion (STED) microscopy [3–6].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A wider range of 3D imaging schemes have been provided by synchrotron X-ray radiation, including X-ray tomography, 3D ptychography, X-ray holography, confocal and various coherent methods or their combinations [7–14]. Scanning transmission X-ray microscopy (STXM) is capable of acquiring 2D nanoscale images based on density, elemental or spectroscopic contrast.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Several approaches have been developed to extend STXM to 3D, such as nanotomography, 3D ptychography, confocal microscopy and radial profile analysis [15–20]. Tomography is currently the primary technique used to reconstruct 3D images of materials and biological specimens in STXM, recently achieving a spatial resolution of 11 nm in combination with ptychography [21].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Hitchcock et al. reported that angle-scan nanotomography is capable of investigating the spatial distributions of low density ionomers embedded within polystyrene microspheres [22].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "However, it is still challenging for this method to image thick samples due to high absorption at large angles. Furthermore, realignment and refocusing after each rotation step will lower the experimental efficiency.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Despite that confocal microscopy has been performed so well using visible light, especially for stained biological specimens, it is difficult to be extended to Vol. 27, No.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "5 | 4 Mar 2019 | OPTICS EXPRESS 7787 #356232 Journal © 2019 https://doi.org/10.1364/OE.27.007787 Received 28 Dec 2018; revised 24 Jan 2019; accepted 25 Jan 2019; published 1 Mar 2019 soft X-ray regime due to the low efficiency of the available focusing optics and more importantly the extremely low soft x-ray fluorescence yields [15,23]. Focal stack (FS) method has been proposed since 1980s and recently used in synchrotron X-ray regime [24–28].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "The FS method requires collecting a series of 2D microscopic images with shifting the sample to different positions along the optical axis (usually referred to as “z- direction”) so that the incident beam is focused at different depths within the sample. In STXM, it means that the sample is not only raster-scanned through the focal spot in x- and y- direction, but also in z-direction.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "These images with different Z-positions are then combined to get a better 2D image or form a composite volume to distinguish the 3D spatial positions of individual features. A number of FS-based studies have been carried out using light-filed cameras in the visible light regime [29,30].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A variance-based algorithm has been introduced to reconstruct gas filled microspheres and a flake of a butterfly wing by the FS scheme of STXM [31]. However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "If the sample has two or more features along one particular OAPL, only the one with the highest absorption can be found and parts of the structural features will be lost after reconstruction. A similar approach for transmission X-ray microscope (TXM) is the extended depth of focus (DOF) method to generate fully in-focus micrographs by fusion of a series of sample images at different focal positions based on a fast discrete wavelet transform algorithm [28].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Thus, a high resolution 3D image of a complete biological cell can be obtained from tomographic reconstruction of multiple fusion images at different angles [32]. Here we present an improved FS algorithm to efficiently reconstruct the full 3D structures of thick samples based on 2D STXM micrographs.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        }
+      ],
+      "method": [],
+      "experiment": [
+        {
+          "text": "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at the soft X-ray spectromicroscopy (SM) beamline of Canadian Light Source (CLS) [42]. 4.1 Experiment 1 The sample for the first data set was a 5-μm-diameter gas filled PVA microballoon with Fe3O4 nanoparticles on the shell.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "The STXM micrographs used for reconstruction have been measured at the PolLux beamline of Swiss Light Source by moving the sample with a step of 400 nm in z-direction (DOF ≈500 nm) and recording 2D images for an area of 6 × 6 μm2 and 250 × 250 pixels. We reconstructed the specimen with the previous algorithm and the improved one, respectively, for comparison, as shown in Figs.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "6(a) and 6(b) (Visualization 3). From both reconstructed images, we can see that the Fe3O4 particles are generally distributed on the surface of the microballoon and there are more particles dispersed on the left semisphere than on the right one.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "Moreover, there are lots of large or small agglomerations of the Fe3O4 nanoparticles. However, in general, the image reconstructed by the previous algorithm (Fig.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "6(b)) shows a sparser distribution of Fe3O4 particles than that by our new algorithm (Fig. 6(a)), especially in the part marked by a white circle.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "The color scales depict the corresponding voxel values and the larger the voxel values, the higher the absorption intensity at that position. Analyzing the enlarged half microballoons, which were obtained by Vol.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7793 cutting the reconstructed balloons through the center, it was found that some particles were lost under the reconstruction by the previous algorithm (Fig.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "6(d)) as compared to the reconstruction by the improved one (Fig. 6(c)).",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "For example, in the green box of Fig. 6(d), an agglomerated particle is lost when compared to the same area of Fig.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "6(c), and it is more obvious for the features marked by a white ellipse. Apparently, the disappearance of particles is due to the limited detection capability of the old FS algorithm.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "Two slices perpendicular to each other were selected to estimate the spatial resolutions with the edge profile-fitting method, giving 3D resolutions of 35 nm in the x and y dimensions and 496 nm in the z-direction (Fig. 10 in the Appendix B).",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        },
+        {
+          "text": "Fig. 6.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "experiment"
+        }
+      ],
+      "conclusion": [
+        {
+          "text": "In summary, we have presented an improved focal stack algorithm which can extract multiple focused features along each optic-axial pixel line by thresholding the normalized local variances so that it can reconstruct 3D images from soft x-ray STXM micrographs. Simulated and X-ray experimental data demonstrated the viability and validity of the new algorithm.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The proposed FS approach is more reliable for the complete reconstruction of thick sparse samples with complex axial nanostructures as compared to previous FS approaches. So far the axial resolution of the approach is still limited by the relatively large DOF of the Fresnel zone plate optics.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The present work serves as a significant step to improve the STXM 3D imaging with high resolution and flexibility and can be hopefully further extended to complex- structure 3D imaging of dense specimens. It is expected that the focal stack imaging, either in STXM or in other mode, will be of considerable value to both morphologic and spectral microscopy with improved quality and flexibility.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Appendix A: Theory of X-ray wave propagation in objects In our simulation, the incident X-ray wave field at the sample plane was calculated based on the “Fresnel-Kirchhoff diffraction” [43], which can be approximately expressed as ( ) ( ) =  (5) where r is the displacement vector of each subwave propagation from the FZP plane to the sample rear plane, and U0(p) is the pupil function of FZP. Concretely, considering the opaque-disk of the FZP and the influence of an order sorting aperture, the diffraction integr...",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "27, No. 5 | 4 Mar 2019 | OPTICS EXPRESS 7796 ( ) jkr jkf U r ρθ ρ (6) where f is the focal length of the FZP, E0 is the photon flux per unit area, rin is the radius of the central-stop, rzp is the radius of the FZP, J0(ν) is the Bessel function of the first kind, order zero and r = θf.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The wave field U(r) will be the incident probe for the simulation. In STXM, the propagation of X-rays in thick samples can be modeled by the multi-slice approach that is widely used in electron microscopy and ptychography [8,38,39].",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "In this approach, a thick sample is regarded as being composed of a number of discrete slices or layers perpendicular to the incident beam. During the propagation process, the exit wave from the first layer, which is calculated as the product of the incident probe and the transmission function of the first layer, is assumed to propagate a short distance in free space to the second layer and becomes the incident probe for this layer.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The multiplicative approximation is used again to estimate the exit wave from the second layer, which continues with free space propagation to the next layer, and so forth. Finally, the detector at the far field receives the wave signals and records the intensity information.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The multiplicative approximation is used to calculate the exit wave of each layer. χex,j is defined as the exit wave of the j-th lateral position after the incident probe interacts with a certain layer of the sample, which can be described by , ( ) ) ( ) ex j (7) where P(r-rj) is the complex-valued incident probe centered at position rj, and O(r) is the layer transmissivity.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The exit wave propagates in free space over a short effective distance z before reaching the next layer and this propagation can be described by the “angular spectrum method” of Fresnel diffraction [40] which can be expressed as: ( ) ( ) ex j (8) where ψj(r) is the incident probe of the next layer,  presents the Fourier transformation and its calculation is based on a diffraction plane. Dz denotes the Fresnel propagator in Fourier space.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Its expression is given by (9) where q denotes the reciprocal coordinate. Assuming the thick sample as n slices, the propagation procedure is featured by an iterative calculation depicting the X-ray wavefront interacting with each slice in turn.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "After the multiply-propagating process, the diffracted intensity data set is collected as 1,2 2,3 ( ) ( ) ( ) ( ) ex j (10) where ψex,j represents the final exit wave of the thick sample, zn-1,n represents the distance between the (n-1)-th and n-th slices. Finally, this 2D diffraction intensity distribution is integrated over the exit surface of the sample cube and the resulting value is an image intensity for just one pixel of a 2D transmission image.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        }
+      ],
+      "data": [
+        {
+          "text": "Three dimensional (3D) microscopy is an effective tool to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical reconstruction microscopy (STORM) or stimulated emission depletion (STED) microscopy [3–6].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "A wider range of 3D imaging schemes have been provided by synchrotron X-ray radiation, including X-ray tomography, 3D ptychography, X-ray holography, confocal and various coherent methods or their combinations [7–14]. Scanning transmission X-ray microscopy (STXM) is capable of acquiring 2D nanoscale images based on density, elemental or spectroscopic contrast.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Several approaches have been developed to extend STXM to 3D, such as nanotomography, 3D ptychography, confocal microscopy and radial profile analysis [15–20]. Tomography is currently the primary technique used to reconstruct 3D images of materials and biological specimens in STXM, recently achieving a spatial resolution of 11 nm in combination with ptychography [21].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Hitchcock et al. reported that angle-scan nanotomography is capable of investigating the spatial distributions of low density ionomers embedded within polystyrene microspheres [22].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "However, it is still challenging for this method to image thick samples due to high absorption at large angles. Furthermore, realignment and refocusing after each rotation step will lower the experimental efficiency.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Despite that confocal microscopy has been performed so well using visible light, especially for stained biological specimens, it is difficult to be extended to Vol. 27, No.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "5 | 4 Mar 2019 | OPTICS EXPRESS 7787 #356232 Journal © 2019 https://doi.org/10.1364/OE.27.007787 Received 28 Dec 2018; revised 24 Jan 2019; accepted 25 Jan 2019; published 1 Mar 2019 soft X-ray regime due to the low efficiency of the available focusing optics and more importantly the extremely low soft x-ray fluorescence yields [15,23]. Focal stack (FS) method has been proposed since 1980s and recently used in synchrotron X-ray regime [24–28].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "The FS method requires collecting a series of 2D microscopic images with shifting the sample to different positions along the optical axis (usually referred to as “z- direction”) so that the incident beam is focused at different depths within the sample. In STXM, it means that the sample is not only raster-scanned through the focal spot in x- and y- direction, but also in z-direction.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "These images with different Z-positions are then combined to get a better 2D image or form a composite volume to distinguish the 3D spatial positions of individual features. A number of FS-based studies have been carried out using light-filed cameras in the visible light regime [29,30].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "A variance-based algorithm has been introduced to reconstruct gas filled microspheres and a flake of a butterfly wing by the FS scheme of STXM [31]. However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "If the sample has two or more features along one particular OAPL, only the one with the highest absorption can be found and parts of the structural features will be lost after reconstruction. A similar approach for transmission X-ray microscope (TXM) is the extended depth of focus (DOF) method to generate fully in-focus micrographs by fusion of a series of sample images at different focal positions based on a fast discrete wavelet transform algorithm [28].",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Thus, a high resolution 3D image of a complete biological cell can be obtained from tomographic reconstruction of multiple fusion images at different angles [32]. Here we present an improved FS algorithm to efficiently reconstruct the full 3D structures of thick samples based on 2D STXM micrographs.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "mixed"
+        }
+      ],
+      "general": [
+        {
+          "text": "Three dimensional (3D) microscopy is an effective tool to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical reconstruction microscopy (STORM) or stimulated emission depletion (STED) microscopy [3–6].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "A wider range of 3D imaging schemes have been provided by synchrotron X-ray radiation, including X-ray tomography, 3D ptychography, X-ray holography, confocal and various coherent methods or their combinations [7–14]. Scanning transmission X-ray microscopy (STXM) is capable of acquiring 2D nanoscale images based on density, elemental or spectroscopic contrast.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Several approaches have been developed to extend STXM to 3D, such as nanotomography, 3D ptychography, confocal microscopy and radial profile analysis [15–20]. Tomography is currently the primary technique used to reconstruct 3D images of materials and biological specimens in STXM, recently achieving a spatial resolution of 11 nm in combination with ptychography [21].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Hitchcock et al. reported that angle-scan nanotomography is capable of investigating the spatial distributions of low density ionomers embedded within polystyrene microspheres [22].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "However, it is still challenging for this method to image thick samples due to high absorption at large angles. Furthermore, realignment and refocusing after each rotation step will lower the experimental efficiency.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Despite that confocal microscopy has been performed so well using visible light, especially for stained biological specimens, it is difficult to be extended to Vol. 27, No.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "5 | 4 Mar 2019 | OPTICS EXPRESS 7787 #356232 Journal © 2019 https://doi.org/10.1364/OE.27.007787 Received 28 Dec 2018; revised 24 Jan 2019; accepted 25 Jan 2019; published 1 Mar 2019 soft X-ray regime due to the low efficiency of the available focusing optics and more importantly the extremely low soft x-ray fluorescence yields [15,23]. Focal stack (FS) method has been proposed since 1980s and recently used in synchrotron X-ray regime [24–28].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "The FS method requires collecting a series of 2D microscopic images with shifting the sample to different positions along the optical axis (usually referred to as “z- direction”) so that the incident beam is focused at different depths within the sample. In STXM, it means that the sample is not only raster-scanned through the focal spot in x- and y- direction, but also in z-direction.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "These images with different Z-positions are then combined to get a better 2D image or form a composite volume to distinguish the 3D spatial positions of individual features. A number of FS-based studies have been carried out using light-filed cameras in the visible light regime [29,30].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "A variance-based algorithm has been introduced to reconstruct gas filled microspheres and a flake of a butterfly wing by the FS scheme of STXM [31]. However, their algorithm will only detect one optimum focused position along each optic-axial pixel line (OAPL) for a stack of images.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "If the sample has two or more features along one particular OAPL, only the one with the highest absorption can be found and parts of the structural features will be lost after reconstruction. A similar approach for transmission X-ray microscope (TXM) is the extended depth of focus (DOF) method to generate fully in-focus micrographs by fusion of a series of sample images at different focal positions based on a fast discrete wavelet transform algorithm [28].",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Thus, a high resolution 3D image of a complete biological cell can be obtained from tomographic reconstruction of multiple fusion images at different angles [32]. Here we present an improved FS algorithm to efficiently reconstruct the full 3D structures of thick samples based on 2D STXM micrographs.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        }
+      ]
+    },
+    "language_hint": "en",
+    "section_sources": {
+      "abstract": "abstract",
+      "introduction": "introduction",
+      "method": "",
+      "experiment": "experiment",
+      "conclusion": "conclusion",
+      "data": "mixed"
+    },
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "introduction",
+        "experiment",
+        "conclusion"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "experiment"
+      ],
+      "missing_core_sections": [
+        "method"
+      ],
+      "section_text_chars": {
+        "preamble": 1729,
+        "introduction": 15742,
+        "experiment": 7293,
+        "conclusion": 6783
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 16,
+      "text_max_pages": 32,
+      "text_pages_scanned": 16,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": true,
+      "appendix_start_page": 10,
+      "references_start_page": null,
+      "section_stop_reason": "acknowledgments",
+      "section_stop_page": 14
+    },
+    "appendix_index": {
+      "appendix_detected": true,
+      "start_page": 10,
+      "sections": [
+        {
+          "title": "D. Attwood, “Microscopy: nanotomography comes of age,” Nature 442(7103), 642–643 (2006).",
+          "page": 14
+        },
+        {
+          "title": "J. A. Conchello and J. W. Lichtman, “Optical sectioning microscopy,” Nat. Methods 2(12), 920–931 (2005).",
+          "page": 14
+        },
+        {
+          "title": "B. Huang, W. Wang, M. Bates, and X. Zhuang, “Three-dimensional super-resolution imaging by stochastic",
+          "page": 14
+        },
+        {
+          "title": "M. F. Juette, T. J. Gould, M. D. Lessard, M. J. Mlodzianoski, B. S. Nagpure, B. T. Bennett, S. T. Hess, and J.",
+          "page": 14
+        },
+        {
+          "title": "G. Shtengel, J. A. Galbraith, C. G. Galbraith, J. Lippincott-Schwartz, J. M. Gillette, S. Manley, R. Sougrat, C. M.",
+          "page": 14
+        },
+        {
+          "title": "J. Villanova, J. Laurencin, P. Cloetens, P. Bleuet, G. Delette, H. Suhonen, and F. Usseglio-Viretta, “3D phase",
+          "page": 15
+        },
+        {
+          "title": "L. Wang, T. Zhang, P. Li, W. Huang, J. Tang, P. Wang, J. Liu, Q. Yuan, R. Bai, B. Li, K. Zhang, Y. Zhao, and",
+          "page": 15
+        },
+        {
+          "title": "C. Chen, “Use of Synchrotron Radiation-Analytical Techniques To Reveal Chemical Origin of Silver-",
+          "page": 15
+        },
+        {
+          "title": "M. Stockmar, P. Cloetens, I. Zanette, B. Enders, M. Dierolf, F. Pfeiffer, and P. Thibault, “Near-field",
+          "page": 15
+        },
+        {
+          "title": "S. Marchesini, F. Schmithusen, M. Tegze, G. Faigel, Y. Calvayrac, M. Belakhovsky, J. Chevrier, and A. S.",
+          "page": 15
+        },
+        {
+          "title": "J. G. McNally, “Three-dimensional cellular ultrastructure resolved by X-ray microscopy,” Nat. Methods 7(12),",
+          "page": 15
+        },
+        {
+          "title": "S. R. Wu, C. C. Chien, Y. Hwu, A. Tkachuk, W. Yun, M. Feser, K. S. Liang, C. S. Yang, J. H. Je, and G.",
+          "page": 16
+        },
+        {
+          "title": "A 582, 96–99 (2007).",
+          "page": 16
+        }
+      ],
+      "figure_captions": [
+        {
+          "id": "Fig 8",
+          "caption": "3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction",
+          "page_hint": "p.10"
+        },
+        {
+          "id": "Fig 9",
+          "caption": "Resolution estimations for the reconstructed 3D image of the simulated sample model",
+          "page_hint": "p.12"
+        },
+        {
+          "id": "Fig 10",
+          "caption": "Estimation of the 3D resolutions for the first experimental data reconstruction (section",
+          "page_hint": "p.13"
+        },
+        {
+          "id": "Fig 11",
+          "caption": "The thickness of the second experimental specimen and the analysis of the 3D spatial",
+          "page_hint": "p.14"
+        }
+      ],
+      "table_captions": []
+    },
+    "appendix_evidence": {
+      "ablation": [],
+      "implementation_details": [
+        {
+          "evidence": "Nagpure, B.",
+          "source_section": "G. Shtengel, J. A. Galbraith, C. G. Galbraith, J. Lippincott-Schwartz, J. M. Gillette, S. Manley, R. Sougrat, C. M.",
+          "page_hint": "p.14",
+          "kind_hint": "implementation_details"
+        }
+      ],
+      "dataset_details": [
+        {
+          "evidence": "More importantly, compared to the tomography method, the FS method allows a larger imaging field of view, has more flexible requirements on the sizes or shapes of samples and no need for sample rotations.",
+          "source_section": "appendix",
+          "page_hint": "p.10",
+          "kind_hint": "dataset_details"
+        },
+        {
+          "evidence": "The proposed FS approach is more reliable for the complete reconstruction of thick sparse samples with complex axial nanostructures as compared to previous FS approaches.",
+          "source_section": "appendix",
+          "page_hint": "p.10",
+          "kind_hint": "dataset_details"
+        },
+        {
+          "evidence": "In STXM, the propagation of X-rays in thick samples can be modeled by the multi-slice approach that is widely used in electron microscopy and ptychography [8,38,39].",
+          "source_section": "appendix",
+          "page_hint": "p.11",
+          "kind_hint": "dataset_details"
+        },
+        {
+          "evidence": "Bewersdorf, “Three-dimensional sub-100 nm resolution fluorescence microscopy of thick samples,” Nat.",
+          "source_section": "G. Shtengel, J. A. Galbraith, C. G. Galbraith, J. Lippincott-Schwartz, J. M. Gillette, S. Manley, R. Sougrat, C. M.",
+          "page_hint": "p.14",
+          "kind_hint": "dataset_details"
+        }
+      ],
+      "extra_results": [
+        {
+          "evidence": "It is undoubted that the 3D imaging using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation.",
+          "source_section": "appendix",
+          "page_hint": "p.10",
+          "kind_hint": "extra_results"
+        },
+        {
+          "evidence": "Conclusions In summary, we have presented an improved focal stack algorithm which can extract multiple focused features along each optic-axial pixel line by thresholding the normalized local variances so that it can reconstruct 3D images from soft x-ray STXM micrographs.",
+          "source_section": "appendix",
+          "page_hint": "p.10",
+          "kind_hint": "extra_results"
+        },
+        {
+          "evidence": "The present work serves as a significant step to improve the STXM 3D imaging with high resolution and flexibility and can be hopefully further extended to complex- structure 3D imaging of dense specimens.",
+          "source_section": "appendix",
+          "page_hint": "p.10",
+          "kind_hint": "extra_results"
+        },
+        {
+          "evidence": "Finally, this 2D diffraction intensity distribution is integrated over the exit surface of the sample cube and the resulting value is an image intensity for just one pixel of a 2D transmission image.",
+          "source_section": "appendix",
+          "page_hint": "p.11",
+          "kind_hint": "extra_results"
+        },
+        {
+          "evidence": "Estimation of the 3D resolutions for the first experimental data reconstruction (section 4.1) with our improved algorithm.",
+          "source_section": "appendix",
+          "page_hint": "p.13",
+          "kind_hint": "extra_results"
+        }
+      ],
+      "qualitative_examples": [
+        {
+          "evidence": "Schmidt, Numerical Simulation of Optical Wave Propagation with Examples in MATLAB (SPIE, 2010).",
+          "source_section": "A 582, 96–99 (2007).",
+          "page_hint": "p.16",
+          "kind_hint": "qualitative_examples"
+        }
+      ]
+    },
+    "quotes": [],
+    "extraction_failures": [],
+    "evidence_quality": "medium"
+  },
+  "summary": {
+    "paper_type": "AI_method",
+    "paper_type_rationale": "The paper is best treated as a method-focused technical paper.",
+    "datasets": [],
+    "metrics": [
+      "To verify the imaging capabilities of the improved FS approach for real specimens and explore its applications, we reconstructed and analyzed the data set once used in the literature [31], and carried out another soft X-ray experiment at the soft X-ray spectromicroscopy (SM) beamline of Canadian Light Source (CLS) [42].",
+      "6(d)) as compared to the reconstruction by the improved one (Fig.",
+      "(a-b) The reconstructed images by our improved algorithm (Visualization 3) and the previous one, respectively.",
+      "It was produced by adding 0.2g of Fe3O4 nanoparticles aqueous dispersion (particle size: about 100 nm) at 5 wt % to 50g of CNF aqueous suspension with a solids content of 0.2 wt %, then stirring this mixture for 5 hours at 580 rpm.",
+      "From the 3D image reconstructed by our improved algorithm (Fig.",
+      "It is undoubted that the 3D imaging using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation."
+    ],
+    "mechanism_signals": [],
+    "ablation_signals": [],
+    "equation_candidates": [
+      {
+        "equation": "O(r)",
+        "source_section": "method",
+        "kind_hint": "complexity"
+      },
+      {
+        "equation": "rn≥T0)",
+        "source_section": "method",
+        "kind_hint": "comparison_equation"
+      },
+      {
+        "equation": "for the positions with rn ≥ Tn",
+        "source_section": "method",
+        "kind_hint": "comparison_equation"
+      }
+    ],
+    "section_keys": [
+      "preamble",
+      "introduction",
+      "experiment",
+      "conclusion"
+    ],
+    "language_hint": "en",
+    "section_coverage_status": "partial",
+    "fallback_sections": [],
+    "pdf_coverage": {
+      "total_pages": 16,
+      "text_max_pages": 32,
+      "text_pages_scanned": 16,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": true,
+      "appendix_start_page": 10,
+      "references_start_page": null,
+      "section_stop_reason": "acknowledgments",
+      "section_stop_page": 14
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 1,
+      "dataset_details": 4,
+      "extra_results": 5,
+      "qualitative_examples": 1
+    },
+    "pdf_used": true,
+    "candidate_chunk_sections": [
+      "conclusion",
+      "data",
+      "experiment",
+      "general",
+      "introduction"
+    ]
+  }
+}

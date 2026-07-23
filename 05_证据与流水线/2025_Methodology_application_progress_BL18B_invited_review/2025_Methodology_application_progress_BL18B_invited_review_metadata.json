@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2025_Methodology_application_progress_BL18B_invited_review.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2025_Methodology_application_progress_BL18B_invited_review.pdf",
+  "title": "上海光源纳米三维成像线站方法学及?应用研究进展（特邀）",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.3788/LOP251906",
+  "paper_id": "doi:10.3788/lop251906",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "authors": [
+    "陶芬 Tao Fen",
+    "张玲 Zhang Ling",
+    "汪俊 Wang Jun",
+    "杜国浩 Du GuoHao",
+    "邓彪 Deng Biao",
+    "肖体乔 Xiao TiQiao"
+  ],
+  "venue": "Laser &amp; Optoelectronics Progress",
+  "source": "crossref",
+  "year": "2025",
+  "published": "2025",
+  "pdf_url": "https://www.opticsjournal.net/Articles/GetArticlePDF/OJd028dc85e9f74fbd",
+  "script": "collect_metadata.py"
+}

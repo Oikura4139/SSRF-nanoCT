@@ -1,0 +1,3019 @@
+{
+  "status": "ok",
+  "script": "build_synthesis_bundle.py",
+  "paper_id": "doi:10.1073/pnas.2202695119",
+  "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+  "metadata": {
+    "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+    "translated_title": "",
+    "authors": [
+      "Amin Guo",
+      "Jianhua Zhang",
+      "Bo He",
+      "Angdi Li",
+      "Tianxiao Sun",
+      "Weimin Li",
+      "Jian Wang",
+      "Renzhong Tai",
+      "Yan Liu",
+      "Zhen Qian",
+      "Jiadong Fan",
+      "Andrej Sali",
+      "Raymond C. Stevens",
+      "Huaidong Jiang"
+    ],
+    "affiliations": [
+      "Center for Transformative Science, ShanghaiTech University, Shanghai 201210, China",
+      "School of Physical Science and Technology, ShanghaiTech University, Shanghai 201210, China",
+      "iHuman Institute, School of Life Science and Technology, ShanghaiTech University, Shanghai 201210, China",
+      "Canadian Light Source Inc., University of Saskatchewan, Saskatoon, SK S7N 2V3, Canada",
+      "Helmholtz-Zentrum Berlin für Materialien und Energie, 12489 Berlin, Germany",
+      "Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Science, Shanghai 201204, China",
+      "California Institute for Quantitative Biosciences, Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA 94158",
+      "Department of Pharmaceutical Chemistry, University of California, San Francisco, CA 94158",
+      "Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089",
+      "Bridge Institute, USC Michelson Center for Convergent Bioscience, University of Southern California, Los Angeles, CA 90089",
+      "ShanghaiTech University",
+      "Helmholtz-Zentrum Berlin für Materialien und Energie",
+      "University of Saskatchewan",
+      "Canadian Light Source (Canada)",
+      "Shanghai Advanced Research Institute",
+      "QB3",
+      "University of California, San Francisco",
+      "University of Southern California",
+      "Convergent Science (United States)"
+    ],
+    "year": "2022",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.2202695119",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9371705/",
+    "abstract": "Characterizing relationships between Zn 2+ , insulin, and insulin vesicles is of vital importance to the study of pancreatic beta cells. However, the precise content of Zn 2+ and the specific location of insulin inside insulin vesicles are not clear, which hinders a thorough understanding of the insulin secretion process and diseases caused by blood sugar dysregulation. Here, we demonstrated the colocalization of Zn 2+ and insulin in both single extracellular insulin vesicles and pancreatic beta cells by using an X-ray scanning coherent diffraction imaging (ptychography) technique. We also analyzed the elemental Zn 2+ and Ca 2+ contents of insulin vesicles using electron microscopy and energy dispersive spectroscopy (EDS) mapping. We found that the presence of Zn 2+ is an important characteristic that can be used to distinguish insulin vesicles from other types of vesicles in pancreatic beta cells and that the content of Zn 2+ is proportional to the size of insulin vesicles. By using dual-energy contrast X-ray microscopy and scanning transmission X-ray microscopy (STXM) image stacks, we observed that insulin accumulates in the off-center position of extracellular insulin vesicles. Furthermore, the spatial distribution of insulin vesicles and their colocalization with other organelles inside pancreatic beta cells were demonstrated using three-dimensional (3D) imaging by combining X-ray ptychography and an equally sloped tomography (EST) algorithm. This study describes a powerful method to univocally describe the location and quantitative analysis of intracellular insulin, which will be of great significance to the study of diabetes and other blood sugar diseases.",
+    "arxiv_id": "",
+    "zotero_key": "",
+    "metadata_sources": [
+      "publisher",
+      "local_pdf",
+      "manual_identity_correction",
+      "crossref",
+      "openalex"
+    ],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present"
+    ]
+  },
+  "evidence_quality": "medium",
+  "coverage": {
+    "language_hint": "en",
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "experiment",
+        "conclusion",
+        "method"
+      ],
+      "core_sections_found": [
+        "method",
+        "experiment"
+      ],
+      "missing_core_sections": [
+        "introduction"
+      ],
+      "section_text_chars": {
+        "preamble": 9591,
+        "experiment": 19989,
+        "conclusion": 4399,
+        "method": 19694
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 10,
+      "text_max_pages": 32,
+      "text_pages_scanned": 10,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": true,
+      "appendix_start_page": 2,
+      "references_start_page": null,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "source_coverage": {
+      "total_pages": 10,
+      "text_max_pages": null,
+      "text_pages_extracted": 10,
+      "text_pages_scanned": 10,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": true,
+      "appendix_start_page": 2,
+      "references_start_page": null
+    },
+    "source_manifest": {
+      "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_raw_sections.jsonl",
+      "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_full_text.md",
+      "section_count": 10,
+      "page_count": 10,
+      "text_hash_sha256": "cf2542bd99652d73aa65ea0c8dabde63a640786f463f74efefc384f23ae9529e"
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 1,
+      "dataset_details": 8,
+      "extra_results": 8,
+      "qualitative_examples": 0
+    },
+    "extraction_failures": [],
+    "asset_coverage": {
+      "total_pages": 10,
+      "asset_max_pages": 40,
+      "asset_pages_scanned": 10,
+      "truncated_due_to_asset_page_limit": false
+    },
+    "figure_quality_summary": {
+      "usable": 8,
+      "review": 0,
+      "reject": 1,
+      "unknown": 0
+    },
+    "truncation_warnings": [],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present"
+    ]
+  },
+  "source_manifest": {
+    "paper_id": "doi:10.1073/pnas.2202695119",
+    "title": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells",
+    "source_kind": "pdf_text",
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_full_text.md",
+    "pdf": {
+      "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT.pdf",
+      "total_pages": 10,
+      "text_pages_extracted": 10,
+      "text_max_pages": null,
+      "text_truncated": false
+    },
+    "coverage": {
+      "total_pages": 10,
+      "text_max_pages": null,
+      "text_pages_extracted": 10,
+      "text_pages_scanned": 10,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": true,
+      "appendix_start_page": 2,
+      "references_start_page": null
+    }
+  },
+  "source_index": {
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_full_text.md",
+    "sections": [
+      {
+        "section_id": "sec:preamble",
+        "kind": "preamble",
+        "title": "preamble",
+        "page_start": 1,
+        "page_end": 2,
+        "char_count": 9591,
+        "text_hash_sha256": "1c4220ae178b6af938458a6e4973eea2afd4d6bee8018480a64a351208909df5"
+      },
+      {
+        "section_id": "sec:results",
+        "kind": "experiment",
+        "title": "Results",
+        "page_start": 2,
+        "page_end": 2,
+        "char_count": 2279,
+        "text_hash_sha256": "02e6998972d96ef90412910661fd6f5c52270acba007827fdd4e49e95b63ae2d"
+      },
+      {
+        "section_id": "sec:appendix-fig-s2-a-and-b-zn-signal-and-ca-signal-were-obvious",
+        "kind": "appendix",
+        "title": "Appendix, Fig. S2 A and B); Zn signal and Ca signal were obvious",
+        "page_start": 2,
+        "page_end": 2,
+        "char_count": 1093,
+        "text_hash_sha256": "52e470feea9d9d3694a16ce08635e1b65f0274d86e100222863951b457b6226e"
+      },
+      {
+        "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+        "kind": "appendix",
+        "title": "Appendix, Fig. S3). As shown in Fig. 2D, a large proportion of",
+        "page_start": 2,
+        "page_end": 4,
+        "char_count": 5893,
+        "text_hash_sha256": "17e6d14fd48b9becec888ad21a0aba6f0153e4a673e5f080508f3417ba4ed06c"
+      },
+      {
+        "section_id": "sec:appendix-fig-s4-no-obvious-abrupt-change-in-absorption-was",
+        "kind": "appendix",
+        "title": "Appendix, Fig. S4, no obvious abrupt change in absorption was",
+        "page_start": 4,
+        "page_end": 4,
+        "char_count": 20,
+        "text_hash_sha256": "34cb96c89e0a18d8188e6e42b36c3f43822d8a07f941ddd788220d45574186c3"
+      },
+      {
+        "section_id": "sec:results-2",
+        "kind": "experiment",
+        "title": "results",
+        "page_start": 4,
+        "page_end": 4,
+        "char_count": 15,
+        "text_hash_sha256": "5bedca4911270bfe0507d8a340b646686c1d432157e5c9632e532a8726535117"
+      },
+      {
+        "section_id": "sec:analysis",
+        "kind": "experiment",
+        "title": "analysis",
+        "page_start": 4,
+        "page_end": 6,
+        "char_count": 10494,
+        "text_hash_sha256": "dddb688f52fcbe94f269503397870338e60d8b50ae3b5647fd7d9f688a2137d3"
+      },
+      {
+        "section_id": "sec:discussion",
+        "kind": "conclusion",
+        "title": "Discussion",
+        "page_start": 6,
+        "page_end": 8,
+        "char_count": 4399,
+        "text_hash_sha256": "9d4bb452c331da571b06b377d37459e588241a92df98aadc48364ae8c475bb76"
+      },
+      {
+        "section_id": "sec:materials-and-methods",
+        "kind": "method",
+        "title": "Materials and Methods",
+        "page_start": 8,
+        "page_end": 10,
+        "char_count": 10107,
+        "text_hash_sha256": "8bb4d686b2517d680d51a42c9d916d8fe1a03897705f2d1243bd58101d254731"
+      },
+      {
+        "section_id": "sec:acknowledgments-we-acknowledge-the-staff-at-the-cls-101d-1-sm",
+        "kind": "acknowledgments",
+        "title": "ACKNOWLEDGMENTS. We acknowledge the staff at the CLS 101D-1 SM",
+        "page_start": 10,
+        "page_end": 10,
+        "char_count": 9523,
+        "text_hash_sha256": "50ad519d01d55fe8553b94e0cbf5d3f84916d1e2feac7ff68c43a421e20423e2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "char_count": 6563,
+        "section_ids": [
+          "sec:preamble"
+        ]
+      },
+      {
+        "page": 2,
+        "char_count": 7779,
+        "section_ids": [
+          "sec:preamble",
+          "sec:results",
+          "sec:appendix-fig-s2-a-and-b-zn-signal-and-ca-signal-were-obvious",
+          "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+        ]
+      },
+      {
+        "page": 3,
+        "char_count": 3561,
+        "section_ids": [
+          "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+        ]
+      },
+      {
+        "page": 4,
+        "char_count": 4470,
+        "section_ids": [
+          "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+          "sec:appendix-fig-s4-no-obvious-abrupt-change-in-absorption-was",
+          "sec:results-2",
+          "sec:analysis"
+        ]
+      },
+      {
+        "page": 5,
+        "char_count": 4069,
+        "section_ids": [
+          "sec:analysis"
+        ]
+      },
+      {
+        "page": 6,
+        "char_count": 5182,
+        "section_ids": [
+          "sec:analysis",
+          "sec:discussion"
+        ]
+      },
+      {
+        "page": 7,
+        "char_count": 1756,
+        "section_ids": [
+          "sec:discussion"
+        ]
+      },
+      {
+        "page": 8,
+        "char_count": 4880,
+        "section_ids": [
+          "sec:discussion",
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 9,
+        "char_count": 3426,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 10,
+        "char_count": 12019,
+        "section_ids": [
+          "sec:materials-and-methods",
+          "sec:acknowledgments-we-acknowledge-the-staff-at-the-cls-101d-1-sm"
+        ]
+      }
+    ],
+    "captions": {
+      "figures": [
+        {
+          "id": "Fig 1",
+          "caption": "A and B shows scanning EM (SEM) images of insulin",
+          "page": 2,
+          "pages": [
+            2
+          ],
+          "section_id": "sec:preamble"
+        },
+        {
+          "id": "Fig 1",
+          "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+        },
+        {
+          "id": "Fig 2",
+          "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of"
+        },
+        {
+          "id": "Fig 3",
+          "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "section_id": "sec:analysis"
+        },
+        {
+          "id": "Fig 4",
+          "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:analysis"
+        },
+        {
+          "id": "Fig 5",
+          "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "section_id": "sec:discussion"
+        },
+        {
+          "id": "Fig 6",
+          "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "section_id": "sec:discussion"
+        },
+        {
+          "id": "Fig 7",
+          "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Fig 8",
+          "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:materials-and-methods"
+        }
+      ],
+      "tables": []
+    },
+    "math_index": [
+      {
+        "text": "structed projection according to the formula d = λ/2sin(θ),",
+        "section_id": "sec:analysis",
+        "page_start": 4,
+        "page_end": 6
+      }
+    ],
+    "appendix_index": {
+      "appendix_detected": true,
+      "start_page": 2,
+      "sections": [
+        {
+          "title": "A set of STXM images (i.e., stack) was obtained using pho-",
+          "page": 2
+        },
+        {
+          "title": "a specific element to being above it (Fig. 4 A and B). The",
+          "page": 3
+        },
+        {
+          "title": "a larger proportion of the entire vesicle in other types of vesicles",
+          "page": 4
+        },
+        {
+          "title": "M. Omar-Hmeadi, O. Idevall-Hagren, Insulin granule biogenesis and exocytosis. Cell. Mol. Life Sci.",
+          "page": 10
+        },
+        {
+          "title": "P. Rorsman, E. Renstr€om, Insulin granule dynamics in pancreatic beta cells. Diabetologia 46,",
+          "page": 10
+        },
+        {
+          "title": "V. Miceli et al., In vitro imaging of β-cells using fluorescent cubic bicontinuous liquid crystalline",
+          "page": 10
+        },
+        {
+          "title": "T. Suzuki, C. Kondo, T. Kanamori, S. Inouye, Video rate bioluminescence imaging of secretory proteins in",
+          "page": 10
+        },
+        {
+          "title": "S. D. Carter et al., Distinguishing signal from autofluorescence in cryogenic correlated light and",
+          "page": 10
+        },
+        {
+          "title": "S. W. Hell et al., The 2015 super-resolution microscopy roadmap. J. Phys. D Appl. Phys. 48,",
+          "page": 10
+        },
+        {
+          "title": "C. A. Larabell, K. A. Nugent, Imaging cellular architecture with X-rays. Curr. Opin. Struct. Biol. 20,",
+          "page": 10
+        },
+        {
+          "title": "G. McDermott, M. A. Le Gros, C. G. Knoechel, M. Uchida, C. A. Larabell, Soft X-ray tomography and",
+          "page": 10
+        },
+        {
+          "title": "A. Bergeron, L. Pucci, P. Bezzi, R. Regazzi, Analysis of synaptic-like microvesicle exocytosis of B-cells",
+          "page": 10
+        },
+        {
+          "title": "J. R. van Weering et al., Automated analysis of secretory vesicle distribution at the ultrastructural",
+          "page": 10
+        },
+        {
+          "title": "K. G. Slepchenko, N. A. Daniels, A. Guo, Y. V. Li, Autocrine effect of Zn2+ on the glucose-stimulated",
+          "page": 10
+        },
+        {
+          "title": "P. D. Zalewski et al., Video image analysis of labile zinc in viable pancreatic islet cells using a",
+          "page": 10
+        },
+        {
+          "title": "A. B. Chausmer, Zinc, insulin and diabetes. J. Am. Coll. Nutr. 17, 109–115 (1998).",
+          "page": 10
+        },
+        {
+          "title": "Y. Xu, Y. Yan, D. Seeman, L. Sun, P. L. Dubin, Multimerization and aggregation of native-state",
+          "page": 10
+        },
+        {
+          "title": "D. Li et al., Imaging dynamic insulin release using a fluorescent zinc indicator for monitoring",
+          "page": 10
+        },
+        {
+          "title": "T. M. Laue, W. F. Stafford III, Modern applications of analytical ultracentrifugation. Annu. Rev.",
+          "page": 10
+        },
+        {
+          "title": "C. Ebel, Analytical ultracentrifugation for the study of biological macromolecules. Prog. Coll. Pol.",
+          "page": 10
+        }
+      ],
+      "figure_captions": [
+        {
+          "id": "Fig 1",
+          "caption": "A and B shows scanning EM (SEM) images of insulin",
+          "page_hint": "p.2"
+        },
+        {
+          "id": "Fig 1",
+          "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+          "page_hint": "p.3"
+        },
+        {
+          "id": "Fig 2",
+          "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+          "page_hint": "p.4"
+        },
+        {
+          "id": "Fig 3",
+          "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+          "page_hint": "p.5"
+        },
+        {
+          "id": "Fig 4",
+          "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+          "page_hint": "p.6"
+        },
+        {
+          "id": "Fig 5",
+          "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+          "page_hint": "p.7"
+        },
+        {
+          "id": "Fig 6",
+          "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+          "page_hint": "p.8"
+        },
+        {
+          "id": "Fig 7",
+          "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+          "page_hint": "p.9"
+        },
+        {
+          "id": "Fig 8",
+          "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+          "page_hint": "p.9"
+        }
+      ],
+      "table_captions": []
+    },
+    "language_hint": "en",
+    "text_hash_sha256": "cf2542bd99652d73aa65ea0c8dabde63a640786f463f74efefc384f23ae9529e"
+  },
+  "references": {
+    "candidates": []
+  },
+  "figure_plan": {
+    "paper_id": "doi:10.1073/pnas.2202695119",
+    "figures": [
+      {
+        "id": "Fig 5",
+        "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_fig_fig_5.png",
+          "width": 1444,
+          "height": 1656,
+          "size_bytes": 1279307,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.67733,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.886498,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 546,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "comparison",
+              "insulin",
+              "vesicles",
+              "other",
+              "ptychography"
+            ],
+            "snippet": "vesicles were obtained to examine the morphological differences between them. As shown in Fig. 5 A–D, these analyses revealed that insulin vesicles have a clear membrane structure and a",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "comparison",
+              "insulin",
+              "vesicles",
+              "other",
+              "ptychography"
+            ],
+            "snippet": "2+ in beta cells, 2D whole- cell ptychography images of INS-1E cells with a resolution of Fig. 5. Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images o",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_img_01.jpeg",
+                "width": 1398,
+                "height": 1518,
+                "size_bytes": 602784
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_fig_fig_5.png",
+                "width": 1444,
+                "height": 1656,
+                "size_bytes": 1279307,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.67733,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.886498,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 546,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "insulin",
+              "vesicles",
+              "other",
+              "ptychography"
+            ],
+            "snippet": "a- tion of single elements. Pancreatic beta cells contain two types of vesicles/granules: insulin-containing, large dense-core vesicles and synaptic-like micro vesicles that resemble neur",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+          "width": 1444,
+          "height": 957,
+          "size_bytes": 1077922,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.39155,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.569892,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 539,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "segmentation",
+              "islet",
+              "cells"
+            ],
+            "snippet": "the Amira software package was used to display and segment the reconstructed beta cells (Fig. 7A). In the segmentation results, insulin vesicles are shown in yel- low and mitochondria a",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_img_01.jpeg",
+                "width": 984,
+                "height": 640,
+                "size_bytes": 161731
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+                "width": 1444,
+                "height": 781,
+                "size_bytes": 491911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.319279,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.558787,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 661,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "segmentation",
+              "analysis",
+              "islet",
+              "cells",
+              "spatial"
+            ],
+            "snippet": "were focused into small focal spots by the Fresnel zone plate. The ﬁrst-order diffracted Fig. 7. 3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicl",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_01.jpeg",
+                "width": 963,
+                "height": 819,
+                "size_bytes": 361885
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_02.jpeg",
+                "width": 963,
+                "height": 372,
+                "size_bytes": 166001
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+                "width": 1444,
+                "height": 957,
+                "size_bytes": 1077922,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.39155,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.569892,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 539,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+                "width": 1444,
+                "height": 463,
+                "size_bytes": 453773,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.18963,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.534501,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 248,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "analysis",
+              "islet",
+              "cells",
+              "spatial"
+            ],
+            "snippet": "energy dispersive spectrometry (EDS) mapping of Zn2+, respectively. As a common component analysis method, EDS can analyze the content of an element within a sample but can- not distinguis",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_8.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+          "width": 1444,
+          "height": 463,
+          "size_bytes": 453773,
+          "label": "Fig. 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.18963,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.534501,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 248,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "mapping",
+              "segmentation",
+              "ptychography"
+            ],
+            "snippet": "1 soft X-ray spectromicroscopy beamline at the Cana- dian Light Source (CLS). As shown in Fig. 8 B and C, the dis- tributions of Zn2+ and insulin vesicles were comparable in the ﬂuoresce",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_img_01.jpeg",
+                "width": 984,
+                "height": 640,
+                "size_bytes": 161731
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+                "width": 1444,
+                "height": 781,
+                "size_bytes": 491911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.319279,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.558787,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 661,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "comparison",
+              "fluorescence",
+              "mapping",
+              "segmentation",
+              "ptychography"
+            ],
+            "snippet": "ram of insulin vesicles. (E) The vesicle size was counted in the 3D segmentation results. Fig. 8. Comparison of ﬂuorescence mapping results and 3D segmentation results. (A) Ptychography",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_01.jpeg",
+                "width": 963,
+                "height": 819,
+                "size_bytes": 361885
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_02.jpeg",
+                "width": 963,
+                "height": 372,
+                "size_bytes": 166001
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+                "width": 1444,
+                "height": 957,
+                "size_bytes": 1077922,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.39155,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.569892,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 539,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+                "width": 1444,
+                "height": 463,
+                "size_bytes": 453773,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.18963,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.534501,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 248,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "mapping",
+              "ptychography"
+            ],
+            "snippet": "hy-based dual-energy contrast X-ray microscopy are provided in the supplemental material. Comparison of Insulin Vesicles and Ordinary Vesicles. The vesicles in beta cells extracted by ultrac",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+          "width": 1624,
+          "height": 236,
+          "size_bytes": 85049,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected",
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.108765,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1734,
+            "table_body_rows": 0,
+            "caption_text_chars": 169,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "element",
+              "image",
+              "insulin",
+              "vesicles"
+            ],
+            "snippet": "lin vesicles. There- fore, fraction 9 was processed to extract isolated insulin vesicles. Fig. 1 A and B shows scanning EM (SEM) images of insulin vesicles extracted from INS-1E cells an",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "element",
+              "statistics",
+              "image",
+              "insulin",
+              "vesicles"
+            ],
+            "snippet": "f the insulin vesicles indicated that the absorption edge of Zn2+ in beta cells is around Fig. 1. Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm.",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_img_01.jpeg",
+                "width": 1381,
+                "height": 1087,
+                "size_bytes": 420674
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_fig_fig_1.png",
+                "width": 1444,
+                "height": 1202,
+                "size_bytes": 814490,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.491498,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.864149,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 514,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "element",
+              "image",
+              "insulin",
+              "vesicles"
+            ],
+            "snippet": "d the plasma membrane is counted (statistical INS-1E cells include but are not limited to Fig. 1B), and the statistical results are shown in D with percentage error. Scale bar, 1 μm. The",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+          "width": 1444,
+          "height": 1130,
+          "size_bytes": 1380500,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.462191,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.531396,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 1246,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "crystallization",
+              "insulin",
+              "aggregates",
+              "distance",
+              "between"
+            ],
+            "snippet": "1E cells revealed lattice fringes of insulin crystals in a secretory vesicle. As shown in Fig. 2A, two distinct diffraction spots were observed after the Fourier transformation, and the",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "crystallization",
+              "insulin",
+              "aggregates",
+              "distance",
+              "between"
+            ],
+            "snippet": "ated Insulin Secretion. Pancreatic beta cell lines are useful models to study the complex Fig. 2. The crystallization of insulin aggregates and the distance between insulin vesicles and",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "insulin",
+              "aggregates",
+              "between"
+            ],
+            "snippet": "ce software aXis2000, and a principal component analysis–cluster analysis (PCA-CA) of the insulin vesicles was performed. First, hot spots and glitches within the STXM images were recogni",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_img_01.jpeg",
+                "width": 1381,
+                "height": 1087,
+                "size_bytes": 420674
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_fig_fig_1.png",
+                "width": 1444,
+                "height": 1202,
+                "size_bytes": 814490,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.491498,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.864149,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 514,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_fig_fig_3.png",
+          "width": 1444,
+          "height": 999,
+          "size_bytes": 651594,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.408619,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.589668,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 348,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "insulin",
+              "vesicles",
+              "based",
+              "stxm",
+              "image"
+            ],
+            "snippet": "images (i.e., stack) was obtained using pho- ton energies ranging from 1,010 to 1,090 eV (Fig. 3A). Various energy intervals were used within different energy ranges together with relati",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "insulin",
+              "vesicles",
+              "based",
+              "stxm",
+              "image"
+            ],
+            "snippet": "ted. The quantitative XAS spectra of two regions within the insulin vesicles are shown in Fig. 3 C and D. An obvious absorption peak was identiﬁed at 1,020.8 eV, which is very close to t",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_img_01.jpeg",
+                "width": 1381,
+                "height": 1087,
+                "size_bytes": 420674
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_fig_fig_1.png",
+                "width": 1444,
+                "height": 1202,
+                "size_bytes": 814490,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.491498,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.864149,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 514,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "insulin",
+              "vesicles",
+              "based",
+              "stxm",
+              "image"
+            ],
+            "snippet": "1,020.8 eV (Fig. 3 C and D). Therefore, we acquired ptychogra- phy datasets at 20 different X-ray photon ene",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+          "width": 1444,
+          "height": 781,
+          "size_bytes": 491911,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.319279,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.558787,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 661,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "distribution",
+              "insulin",
+              "aggregates",
+              "vesicle",
+              "obtained"
+            ],
+            "snippet": "changes from being just below the absorption edge of a speciﬁc element to being above it (Fig. 4 A and B). The observed differences between images collected at the two energies reﬂect th",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_img_01.jpeg",
+                "width": 1381,
+                "height": 1087,
+                "size_bytes": 420674
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_fig_fig_1.png",
+                "width": 1444,
+                "height": 1202,
+                "size_bytes": 814490,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.491498,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.864149,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 514,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "insulin",
+              "aggregates",
+              "vesicle",
+              "obtained"
+            ],
+            "snippet": "l photon energies were reconstructed and transformed into absorption projections via KKT. Fig. 4C shows a representa- tive transformed absorption projection of an insulin vesicle. Dual-e",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+                "width": 967,
+                "height": 898,
+                "size_bytes": 522722
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 1380500,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462191,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.531396,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1246,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "distribution",
+              "insulin",
+              "aggregates",
+              "vesicle",
+              "obtained"
+            ],
+            "snippet": "nal structures. EDS mapping revealed that Zn2+ content increased with the size of insulin Fig. 4. Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imagin",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_img_01.jpeg",
+                "width": 984,
+                "height": 640,
+                "size_bytes": 161731
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+                "width": 1444,
+                "height": 781,
+                "size_bytes": 491911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.319279,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.558787,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 661,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_fig_fig_6.png",
+          "width": 1444,
+          "height": 1130,
+          "size_bytes": 875658,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.462202,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.808389,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 909,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "ptychography",
+              "images",
+              "beta",
+              "cells"
+            ],
+            "snippet": "he nucleus and insulin vesicles were easily distinguished from other cellular structures (Fig. 6 A–D). Even without staining, ﬁlamentous structures at the edge of the islet beta cell wer",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_img_01.jpeg",
+                "width": 963,
+                "height": 885,
+                "size_bytes": 241375
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_fig_fig_3.png",
+                "width": 1444,
+                "height": 999,
+                "size_bytes": 651594,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.408619,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.589668,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 348,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "ptychography",
+              "images",
+              "pancreatic",
+              "beta",
+              "cells"
+            ],
+            "snippet": "ured under normal growth conditions but were switched to low glucose (2.8 mM) medium 24 h Fig. 6. 2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic be",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_img_01.jpeg",
+                "width": 1398,
+                "height": 945,
+                "size_bytes": 242050
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_fig_fig_6.png",
+                "width": 1444,
+                "height": 1130,
+                "size_bytes": 875658,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.462202,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.808389,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 909,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "ptychography",
+              "images",
+              "pancreatic",
+              "beta",
+              "cells"
+            ],
+            "snippet": "ecretory vesicles, and accurately quantify the content of Zn2+ in the insulin aggregates. Ptychography uses coherent monochromatic light to image biological samples and reconstructs the data w",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+                "width": 1624,
+                "height": 236,
+                "size_bytes": 85049,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.108765,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1734,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  },
+  "figure_table_manifest": {
+    "decisions_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT/2022_Quantitative_in_situ_visualization_insulin_vesicles_BL08U1A_PXCT_figure_table_decisions.json",
+    "decisions": [
+      {
+        "item_id": "figure:Fig 1",
+        "source_id": "Fig 1",
+        "kind": "figure",
+        "label": "Fig 1",
+        "caption": "Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm.",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+        "decision": "visual_defect",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_002_fig_fig_1.png",
+        "relative_markdown_embed": "![Fig 1](images/page_002_fig_fig_1.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png"
+      },
+      {
+        "item_id": "figure:Fig 2",
+        "source_id": "Fig 2",
+        "kind": "figure",
+        "label": "Fig 2",
+        "caption": "The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi-",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:appendix-fig-s3-as-shown-in-fig-2d-a-large-proportion-of",
+        "decision": "insert",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_004_fig_fig_2.png",
+        "relative_markdown_embed": "![Fig 2](images/page_004_fig_fig_2.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 3",
+        "source_id": "Fig 3",
+        "kind": "figure",
+        "label": "Fig 3",
+        "caption": "XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on",
+        "pages": [
+          5
+        ],
+        "section_id": "sec:analysis",
+        "decision": "insert",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_005_fig_fig_3.png",
+        "relative_markdown_embed": "![Fig 3](images/page_005_fig_fig_3.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_fig_fig_3.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 4",
+        "source_id": "Fig 4",
+        "kind": "figure",
+        "label": "Fig 4",
+        "caption": "Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia-",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:analysis",
+        "decision": "insert",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "数据与任务定义",
+        "plan_kind": "data_or_task",
+        "source_image_filename": "page_006_fig_fig_4.png",
+        "relative_markdown_embed": "![Fig 4](images/page_006_fig_fig_4.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 5",
+        "source_id": "Fig 5",
+        "kind": "figure",
+        "label": "Fig 5",
+        "caption": "Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of",
+        "pages": [
+          7
+        ],
+        "section_id": "sec:discussion",
+        "decision": "insert",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_007_fig_fig_5.png",
+        "relative_markdown_embed": "![Fig 5](images/page_007_fig_fig_5.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_fig_fig_5.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 6",
+        "source_id": "Fig 6",
+        "kind": "figure",
+        "label": "Fig 6",
+        "caption": "2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C)",
+        "pages": [
+          8
+        ],
+        "section_id": "sec:discussion",
+        "decision": "insert",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_008_fig_fig_6.png",
+        "relative_markdown_embed": "![Fig 6](images/page_008_fig_fig_6.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_fig_fig_6.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 7",
+        "source_id": "Fig 7",
+        "kind": "figure",
+        "label": "Fig 7",
+        "caption": "3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis-",
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "insert",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_009_fig_fig_7.png",
+        "relative_markdown_embed": "![Fig 7](images/page_009_fig_fig_7.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Fig 8",
+        "source_id": "Fig 8",
+        "kind": "figure",
+        "label": "Fig 8",
+        "caption": "Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence",
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "insert",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_009_fig_fig_8.png",
+        "relative_markdown_embed": "![Fig 8](images/page_009_fig_fig_8.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+        "materialization_status": "pending"
+      }
+    ],
+    "caption_counts": {
+      "figures": 9,
+      "tables": 0
+    },
+    "planned_items": 8,
+    "requires_full_decision_table": true
+  },
+  "pdf_assets": {
+    "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells",
+    "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images",
+    "page_assets": [
+      {
+        "page_number": 1,
+        "searchable_text_chars": 6563,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Quantitative, in situ visualization of intracellular insulin vesicles in pancreatic beta cells Amin Guoa,b,1, Jianhua Zhanga,b,1 , Bo Hea,b , Angdi Lic , Tianxiao Sund,e, Weimin Lic, Jian Wangd , Renzhong Taif, Yan Liuc , Zhen Qianc, Jiadon"
+      },
+      {
+        "page_number": 2,
+        "searchable_text_chars": 7779,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "synthesis, storage, and secretion. On the other hand, soft X-ray tomography enables mapping and quantiﬁcation of the distri- bution of 3D organelles with high spatial accuracy, minimal cell manipulation, and no need for ﬂuorescence probes ("
+      },
+      {
+        "page_number": 3,
+        "searchable_text_chars": 3561,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "The scanning step size of the STXM images was 130 nm. The STXM stack dataset was integrated and imported into the open-source software aXis2000, and a principal component analysis–cluster analysis (PCA-CA) of the insulin vesicles was perfor"
+      },
+      {
+        "page_number": 4,
+        "searchable_text_chars": 4470,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "1,020.8 eV (Fig. 3 C and D). Therefore, we acquired ptychogra- phy datasets at 20 different X-ray photon energies across the Zn2+ L3-edge, from 1,018 eV to 1,028 eV. With the collected ptychography dataset, the phase projections with 20.8-n"
+      },
+      {
+        "page_number": 5,
+        "searchable_text_chars": 4069,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "pathways regulating glucose-stimulated insulin secretion. These cells are glucose responsive over physiological ranges and are characterized by a substantial insulin content and robust metabolism-secretion coupling (27, 28). An increase in "
+      },
+      {
+        "page_number": 6,
+        "searchable_text_chars": 5182,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "ptychography phase projections, when collecting the ptychogra- phy datasets, we set the probe diameter to 3 μm and the scanning step to 600 nm to guarantee a high linear overlap ratio of 80%. Approximately 400 diffraction patterns were coll"
+      },
+      {
+        "page_number": 7,
+        "searchable_text_chars": 1756,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "vesicles, whereas Ca2+ content had no obvious correlation with the size of the vesicles. In addition to Zn2+, Ca2+ also plays an important role in controlling the release of insulin-secreting particles into the pancreatic interstitium. In t"
+      },
+      {
+        "page_number": 8,
+        "searchable_text_chars": 4880,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "19 nm were obtained. With 22 projections at various angles, 3D reconstruction was performed using the EST algorithm to obtain the 3D structures of pancreatic beta cells and the distri- bution of insulin vesicles in the cells. In summary, th"
+      },
+      {
+        "page_number": 9,
+        "searchable_text_chars": 3426,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "before the assay. In addition, 1 h before the experiment, the cells were cultured in glucose-free Krebs solution (0 mM glucose). Subsequently, 11.1 mM glucose was added, and 40 min later the cells were ﬁxed. Preparation of the Krebs solu- t"
+      },
+      {
+        "page_number": 10,
+        "searchable_text_chars": 12019,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "light was selected and ﬁltered to remove stray light after the focal spot passed through the order-sorting aperture. The photon energy of the light source was set to be 700 eV (corresponding wavelength is 1.77 nm). The INS-1E cells were ras"
+      }
+    ],
+    "image_assets": [
+      {
+        "page_number": 3,
+        "image_index": 1,
+        "xref": 11,
+        "filename": "page_003_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1381,
+        "height": 1087,
+        "colorspace": 3,
+        "size_bytes": 420674,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 1,
+        "xref": 17,
+        "filename": "page_004_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 967,
+        "height": 898,
+        "colorspace": 3,
+        "size_bytes": 522722,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 5,
+        "image_index": 1,
+        "xref": 26,
+        "filename": "page_005_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 963,
+        "height": 885,
+        "colorspace": 3,
+        "size_bytes": 241375,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 1,
+        "xref": 32,
+        "filename": "page_006_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 984,
+        "height": 640,
+        "colorspace": 3,
+        "size_bytes": 161731,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 7,
+        "image_index": 1,
+        "xref": 36,
+        "filename": "page_007_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1398,
+        "height": 1518,
+        "colorspace": 3,
+        "size_bytes": 602784,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 8,
+        "image_index": 1,
+        "xref": 44,
+        "filename": "page_008_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1398,
+        "height": 945,
+        "colorspace": 3,
+        "size_bytes": 242050,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 9,
+        "image_index": 1,
+        "xref": 49,
+        "filename": "page_009_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 963,
+        "height": 819,
+        "colorspace": 3,
+        "size_bytes": 361885,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 9,
+        "image_index": 2,
+        "xref": 50,
+        "filename": "page_009_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 963,
+        "height": 372,
+        "colorspace": 3,
+        "size_bytes": 166001,
+        "extraction_level": "xref"
+      }
+    ],
+    "figure_assets": [
+      {
+        "filename": "page_002_fig_fig_1.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_002_fig_fig_1.png",
+        "page_number": 2,
+        "label": "Fig. 1",
+        "kind": "figure",
+        "caption_text": "Fig. 1 A and B shows scanning EM (SEM) images of insulin vesicles extracted from INS-1E cells and the corresponding energy dispersive spectrometry (EDS) mapping of Zn2+,",
+        "width": 1624,
+        "height": 236,
+        "size_bytes": 85049,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "large_text_block_suspected",
+            "low_visual_body_ratio"
+          ],
+          "page_coverage_ratio": 0.108765,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 1734,
+          "table_body_rows": 0,
+          "caption_text_chars": 169,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_003_fig_fig_1.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_003_fig_fig_1.png",
+        "page_number": 3,
+        "label": "Fig. 1",
+        "kind": "figure",
+        "caption_text": "Fig. 1. Element statistics of Zn2+ and Ca2+. (A) SEM image of insulin vesicles. Scale bar, 2 μm. (B) EDS mapping of Zn2+ corresponding to the area in A. Scale bar, 2 μm. (C) The line scan spectrum of the two insulin vesicles marked with the red dotted line in A. (D and E) The statistical analysis results of the Zn2+ content and Ca2+ content in INS-1E cells, respectively. Standard error. (F and G) The statistical analysis results of the Zn2+ content and Ca2+ content in nonimmortalized beta cells, respectively.",
+        "width": 1444,
+        "height": 1202,
+        "size_bytes": 814490,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.491498,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.864149,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 514,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_004_fig_fig_2.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_004_fig_fig_2.png",
+        "page_number": 4,
+        "label": "Fig. 2",
+        "kind": "figure",
+        "caption_text": "Fig. 2. The crystallization of insulin aggregates and the distance between insulin vesicles and cell membrane. (A) High-resolution TEM image of insulin vesi- cle and insulin crystal (dashed box). Lattice stripes and interplanar spacing (yellow arrows in the right top image) of insulin crystals were calculated by the Fourier transform of TEM image. The right bottom image is the Fourier transform image of insulin crystal within dashed box, and the red circles are two dis- tince diffraction spots. Scale bar, 200 nm. (B) TEM image of junction of two INS-1E cells. The distance between the vesicles and the plasma membrane is counted (statistical INS-1E cells include but are not limited to Fig. 1B), and the statistical results are shown in D with percentage error. Scale bar, 1 μm. The red line shows the cell boundary, and the red arrow points to insulin vesicles. (C) TEM image of junction of two nonimmortalized beta cells. The distance between the vesicles and the plasma membrane is counted (statistical nonimmortalized beta cells include but are not limited to Fig. 1C), and the statistical results are shown in D with percentage error. Scale bar, 2 μm. The red line shows the cell boundary, and the red arrow points to insulin vesicles.",
+        "width": 1444,
+        "height": 1130,
+        "size_bytes": 1380500,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.462191,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.531396,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 1246,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_005_fig_fig_3.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_005_fig_fig_3.png",
+        "page_number": 5,
+        "label": "Fig. 3",
+        "kind": "figure",
+        "caption_text": "Fig. 3. XAS of insulin vesicles based on STXM image stacks at Zn2+ edge. (A) Schematic diagram of the quantitative XAS analysis at Zn2+ edge based on STXM stacks. Scale bar, 200 nm. (B) Schematic diagram of the location of insulin vesicles and insulin aggregations. (C and D) The quantitative XAS spectra of two regions within the insulin vesicles.",
+        "width": 1444,
+        "height": 999,
+        "size_bytes": 651594,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.408619,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.589668,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 348,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_006_fig_fig_4.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_006_fig_fig_4.png",
+        "page_number": 6,
+        "label": "Fig. 4",
+        "kind": "figure",
+        "caption_text": "Fig. 4. Distribution of insulin aggregates in the insulin vesicle obtained by dual-energy imaging technique. (A) Standard absorption edge of Zn2+. (B) Schematic dia- gram of STXM technique and a set of projections at energies below and above the Zn2+ L3-edge that were acquired by ptychography. (C) Ptychography image of insulin vesicle above the Zn2+ L3-edge. (D) Elemental distribution mapping by ptychography images of insulin vesicles obtained at energies below and above the Zn2+ L3-edge. (E) The difference between two ptychography images of insulin vesicles obtained at two energies below the Zn2+ L3-edge. Scale bar of C–E, 200 nm. a.u, arbitrary units.",
+        "width": 1444,
+        "height": 781,
+        "size_bytes": 491911,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.319279,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.558787,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 661,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_007_fig_fig_5.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_007_fig_fig_5.png",
+        "page_number": 7,
+        "label": "Fig. 5",
+        "kind": "figure",
+        "caption_text": "Fig. 5. Comparison of insulin vesicles and other vesicles. (A and B) Ptychography phase images of insulin vesicles. (C and D) Ptychography phase images of other types of vesicles. Scale bar, 200 nm. (E–H) EDS signals of Zn in the four vesicles A–D. Scale bar, 200 nm. (I–L) EDS signals of Ca in the four vesicles A–D. Scale bar, 200 nm. (M), Horizontal line scan (the white horizontal dashed line) across the center of the four vesicles. (N) The proportion of high-density area to the whole vesicle in the two types of vesicles. Percentage error.",
+        "width": 1444,
+        "height": 1656,
+        "size_bytes": 1279307,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.67733,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.886498,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 546,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_008_fig_fig_6.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_008_fig_fig_6.png",
+        "page_number": 8,
+        "label": "Fig. 6",
+        "kind": "figure",
+        "caption_text": "Fig. 6. 2D ptychography images of pancreatic beta cells. (A) Ptychography image of pancreatic beta cell without stimulation. Scale bar, 5 μm. (B and C) Enlarged images of the two boxes in A. The insulin vesicles in B and C were marked with yellow circle and red circles. Scale bar, 2 μm. (D) Ptychography image of pancreatic beta cell with stimulation (11 Mm glucose), and the insulin vesicles were marked by red arrows. Scale bar, 10 μm. (E–G) PSD curve of sample diffraction patterns shows that the resolution reaches 15.5 nm. In E, the crossover point of the two dashed red lines determined the cut-off fre- quency of the effective signal, which is indicated by the red solid line. The resolution is determined according to the standard of a 10%∼90% (30) intensity change, and the results corresponding to F and G show that the resolution is 19 nm. a.u., arbitrary units; Freq, frequency; Reso, resolution.",
+        "width": 1444,
+        "height": 1130,
+        "size_bytes": 875658,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.462202,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.808389,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 909,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_009_fig_fig_7.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_7.png",
+        "page_number": 9,
+        "label": "Fig. 7",
+        "kind": "figure",
+        "caption_text": "Fig. 7. 3D segmentation analysis of islet β cells and the spatial distribution of insulin vesicles. (A) 3D reconstruction results of part of an INS-1E cell dis- played in Amira soft package. The blue arrow indicates the direction of projection. (B) 3D volume rendering of the reconstructed islet β cells displayed in Amira. (C) The positional relationship between insulin vesicles(yellow) and mitochondria (pink). Percentage error. (D) Schematic diagram of insulin vesicles. (E) The vesicle size was counted in the 3D segmentation results.",
+        "width": 1444,
+        "height": 957,
+        "size_bytes": 1077922,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.39155,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.569892,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 539,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_009_fig_fig_8.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Quantitative_in_situ_visualization_of_intracellular_insulin_vesicles_in_pancreatic_beta_cells/images/page_009_fig_fig_8.png",
+        "page_number": 9,
+        "label": "Fig. 8",
+        "kind": "figure",
+        "caption_text": "Fig. 8. Comparison of fluorescence mapping results and 3D segmentation results. (A) Ptychography image of part of islet β cell. (B and C) Fluorescence mapping result and 3D segmentation result of the same part of the islet β cell. Scale bars, 5 μm.",
+        "width": 1444,
+        "height": 463,
+        "size_bytes": 453773,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.18963,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.534501,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 248,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      }
+    ],
+    "ocr_available": false
+  },
+  "writing_contract": {
+    "language": "zh-CN",
+    "contract_role": "manifest_quality_contract",
+    "canonical_source": "SKILL.md defines the workflow; scripts/contracts.py defines machine-checkable contract data.",
+    "must_include_sections": [
+      "核心信息",
+      "原文摘要翻译",
+      "创新点",
+      "一句话总结",
+      "研究问题",
+      "数据与任务定义",
+      "方法主线",
+      "关键结果",
+      "深度分析",
+      "局限",
+      "我的笔记",
+      "引用"
+    ],
+    "note_plan_contract": {
+      "required_fields": [
+        "paper_type",
+        "paper_type_rationale",
+        "dominant_domain",
+        "must_cover",
+        "key_numbers",
+        "real_comparisons",
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions",
+        "section_plan"
+      ],
+      "artifact_preference": "short_json_planning_file",
+      "grounding_field": "section_plan[*].evidence_sources",
+      "analysis_coverage_field": "central_claims[*]"
+    },
+    "paper_type_selection": {
+      "source_of_truth": "note_plan.paper_type",
+      "suggested_paper_type_role": "none",
+      "allowed_paper_types": [
+        "AI_method",
+        "benchmark_or_dataset",
+        "clinical_or_psychology_empirical",
+        "humanities_or_social_science",
+        "survey_or_review"
+      ]
+    },
+    "contracts_by_paper_type": {
+      "AI_method": {
+        "paper_type": "AI_method",
+        "reader_lens": "面向能复现方法机制的技术读者",
+        "section_focus": [
+          "问题设置",
+          "方法机制",
+          "训练/推理流程",
+          "关键公式",
+          "比较基线",
+          "消融与失败边界"
+        ],
+        "required_checks": [
+          "需要说明机制流程、关键公式、实验设计、消融含义和失败边界。"
+        ],
+        "formula_rules": [
+          "仅保留理解方法必需的 1 到 3 个关键公式，并解释其工程含义。"
+        ],
+        "avoid_rules": [
+          "不要把非 AI_method 论文强行改写成模型架构。"
+        ],
+        "boundary_questions": [
+          "核心机制的收益由哪个实验或消融支撑，而不是只由主结果暗示？",
+          "哪些比较只能证明在当前数据、基线、算力或协议下有效，不能外推到通用场景？",
+          "论文是否给出失败、退化、不稳定或成本上升的证据；如果没有，结论边界是什么？"
+        ],
+        "section_semantics": {
+          "研究问题": "方法要解决的具体技术问题和现有方法短板。",
+          "数据与任务定义": "数据集、输入输出、评测任务和实验设置。",
+          "方法主线": "模型、算法、训练或推理机制。",
+          "关键结果": "主结果、强基线、消融和关键数字。",
+          "深度分析": "方法为什么有效、何处脆弱、复现和扩展代价。"
+        },
+        "recommended_subsections": {
+          "方法主线": [
+            "机制流程",
+            "模型结构",
+            "训练目标",
+            "推理与采样链路",
+            "关键实现细节"
+          ],
+          "关键结果": [
+            "主结果与强基线",
+            "消融到底说明了什么",
+            "失败或不稳定设置"
+          ],
+          "深度分析": [
+            "为什么有效",
+            "复杂度与扩展性",
+            "复现注意点"
+          ]
+        },
+        "mechanism_flow_contract": {
+          "apply_when_paper_type_in": [
+            "AI_method"
+          ],
+          "required_step_count": "3_to_4",
+          "required_step_fields": [
+            "input",
+            "operation",
+            "output_destination"
+          ]
+        }
+      },
+      "benchmark_or_dataset": {
+        "paper_type": "benchmark_or_dataset",
+        "reader_lens": "面向要判断 benchmark/dataset 可用性和偏差边界的研究者",
+        "section_focus": [
+          "任务拆分",
+          "数据来源与构建流程",
+          "标注协议",
+          "评测指标",
+          "覆盖范围与偏差",
+          "样本统计与数据开放限制"
+        ],
+        "required_checks": [
+          "需要说明数据来源、构建/标注流程、评测指标、基线表现、样本统计、数据开放或隐私限制和适用边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心评测指标、采样规则或划分定义。"
+        ],
+        "avoid_rules": [
+          "不要把数据构建流程写成模型 pipeline。"
+        ],
+        "boundary_questions": [
+          "这个 benchmark/dataset 实际测量的构念是什么，哪些能力只是间接近似？",
+          "任务、标签、采样、过滤或评测协议会引入哪些覆盖缺口或偏差？",
+          "基线结果证明了评测集有区分度，还是只证明某类模型适应该协议？",
+          "样本时长、语料长度、人口统计、类别分布、数据可访问性或隐私限制如何影响复现和外推？"
+        ],
+        "section_semantics": {
+          "研究问题": "这个 benchmark/dataset 想补足的评测或数据缺口。",
+          "数据与任务定义": "数据来源、任务拆分、标签/题目定义、样本范围。",
+          "方法主线": "数据构建、筛选、标注和评测协议，不写成模型 pipeline。",
+          "关键结果": "基线表现、难度分布、覆盖范围和偏差。",
+          "深度分析": "它真正测到了什么，以及不能代表什么。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "数据来源",
+            "任务拆分",
+            "标注/筛选协议"
+          ],
+          "方法主线": [
+            "构建流程",
+            "评测协议",
+            "Baseline 设置"
+          ],
+          "关键结果": [
+            "基线表现",
+            "难度分布",
+            "覆盖与偏差"
+          ],
+          "深度分析": [
+            "benchmark 真正测到了什么",
+            "适用边界"
+          ]
+        }
+      },
+      "clinical_or_psychology_empirical": {
+        "paper_type": "clinical_or_psychology_empirical",
+        "reader_lens": "面向关注临床/心理学样本、变量关系和外推边界的研究读者",
+        "section_focus": [
+          "样本来源",
+          "纳排标准",
+          "变量或量表",
+          "分析管线",
+          "效应量与不确定性",
+          "样本统计、伦理和数据可访问性"
+        ],
+        "required_checks": [
+          "需要区分相关、预测、组间差异和因果解释，说明样本统计、伦理/隐私约束与外推边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心统计模型、效应量、置信区间或量表定义。"
+        ],
+        "avoid_rules": [
+          "不要把相关性、预测性能或组间差异写成未经证明的因果结论。"
+        ],
+        "boundary_questions": [
+          "样本来源、纳排标准、测量工具和标注流程如何限制外推？",
+          "结果支持相关、预测、组间差异还是因果解释；不要越过论文设计能证明的范围。",
+          "临床或心理学意义是否依赖未观测混杂、量表阈值、文本/语音缺失或场景约束？",
+          "样本构成、数据缺失、隐私限制或材料不可公开会怎样限制复现与再分析？"
+        ],
+        "section_semantics": {
+          "研究问题": "临床、心理学或行为科学中的研究问题、假设或变量关系。",
+          "数据与任务定义": "样本来源、纳排标准、变量/量表、测量方式。",
+          "方法主线": "研究设计、分组、测量流程和统计分析路径。",
+          "关键结果": "主要效应、相关性、组间差异、不确定性或显著性。",
+          "深度分析": "结果解释、因果边界、临床/心理学意义和外推限制。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "样本与纳排标准",
+            "变量与量表",
+            "测量流程"
+          ],
+          "方法主线": [
+            "研究设计",
+            "分析模型",
+            "主要比较"
+          ],
+          "关键结果": [
+            "主要效应",
+            "不确定性与显著性",
+            "临床或心理学解释"
+          ],
+          "深度分析": [
+            "因果解释边界",
+            "外推限制"
+          ]
+        }
+      },
+      "humanities_or_social_science": {
+        "paper_type": "humanities_or_social_science",
+        "reader_lens": "面向关注理论框架、材料解释和论证结构的研究读者",
+        "section_focus": [
+          "研究对象",
+          "材料来源",
+          "理论框架",
+          "论证路径",
+          "概念贡献",
+          "解释边界"
+        ],
+        "required_checks": [
+          "需要区分作者论证、材料证据、规范性判断和实验事实。"
+        ],
+        "formula_rules": [
+          "通常不强行保留公式；仅保留核心形式化定义或编码规则。"
+        ],
+        "avoid_rules": [
+          "不要把规范性判断、文本解释或案例分析写成实验事实。"
+        ],
+        "boundary_questions": [
+          "作者的解释依赖哪些材料、案例或理论前提？",
+          "是否存在同样能解释材料的替代解释，论文如何排除或没有排除？",
+          "哪些结论是概念贡献或规范性判断，而不是可直接当作经验事实？"
+        ],
+        "section_semantics": {
+          "研究问题": "作者要解释的社会、文化、历史、制度或理论问题。",
+          "数据与任务定义": "材料、案例、文本、访谈、档案或语料范围，不写成 ML task。",
+          "方法主线": "理论框架、概念区分和论证路径。",
+          "关键结果": "核心解释性发现、概念贡献或对既有观点的修正。",
+          "深度分析": "论证强度、材料边界、解释替代性和可迁移性。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "材料范围",
+            "选择标准",
+            "案例或语料边界"
+          ],
+          "方法主线": [
+            "理论框架",
+            "概念区分",
+            "论证路径"
+          ],
+          "关键结果": [
+            "核心解释性发现",
+            "概念贡献"
+          ],
+          "深度分析": [
+            "论证强度",
+            "替代解释",
+            "材料边界"
+          ]
+        }
+      },
+      "survey_or_review": {
+        "paper_type": "survey_or_review",
+        "reader_lens": "面向需要梳理综述脉络、分类体系和证据边界的研究读者",
+        "section_focus": [
+          "综述范围",
+          "纳入排除标准",
+          "主题分类",
+          "方法谱系",
+          "共识与分歧",
+          "开放问题"
+        ],
+        "required_checks": [
+          "需要说明综述范围、文献选择、分类体系、共识分歧和开放问题。"
+        ],
+        "formula_rules": [
+          "仅保留分类轴、纳入排除准则、证据汇总规则或 meta-analysis 统计量。"
+        ],
+        "avoid_rules": [
+          "不要把综述中的代表性结论写成作者自己完成的单项实验结果。"
+        ],
+        "boundary_questions": [
+          "检索范围、纳入排除标准或分类轴会遗漏哪些研究路线？",
+          "综述给出的是领域共识、作者分类，还是尚未解决的分歧？",
+          "哪些趋势结论来自覆盖范围内的文献分布，不能直接当作技术成熟度判断？"
+        ],
+        "section_semantics": {
+          "研究问题": "综述试图整理的领域问题、争议或知识缺口。",
+          "数据与任务定义": "纳入文献范围、检索/筛选标准和综述对象。",
+          "方法主线": "分类体系、综述组织方式和证据综合逻辑，不写成单篇方法架构。",
+          "关键结果": "领域共识、分歧、趋势、代表性方向和开放问题。",
+          "深度分析": "综述覆盖的盲区、分类体系的解释力和未来研究机会。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "综述范围",
+            "纳入/排除标准",
+            "文献覆盖"
+          ],
+          "方法主线": [
+            "分类体系",
+            "方法谱系",
+            "证据组织方式"
+          ],
+          "关键结果": [
+            "代表性方向",
+            "共识与分歧",
+            "开放问题"
+          ],
+          "深度分析": [
+            "分类体系的局限",
+            "未覆盖区域",
+            "后续研究机会"
+          ]
+        }
+      }
+    },
+    "grounding_contract": {
+      "source_of_truth": "source_manifest",
+      "accepted_reference_forms": [
+        "section_id",
+        "pages"
+      ],
+      "required_sections": [
+        "研究问题",
+        "数据与任务定义",
+        "方法主线",
+        "关键结果",
+        "深度分析",
+        "局限"
+      ],
+      "note_plan_depth_requirements": {
+        "required_section_focus_min_chars": 20,
+        "required_section_focus_fields": [
+          "focus",
+          "reading_goal",
+          "purpose"
+        ],
+        "generic_focus_phrases": [
+          "use the raw source to explain",
+          "paper-specific role of",
+          "explain the paper-specific role",
+          "explain this section",
+          "summarize this section"
+        ]
+      },
+      "reject_old_references": [
+        "synthesis_bundle.evidence",
+        "bundle.evidence",
+        "synthesis_bundle.candidate_chunks",
+        "synthesis_bundle.section_texts",
+        "synthesis_bundle.summary",
+        "bundle.candidate_chunks",
+        "bundle.section_texts",
+        "bundle.summary"
+      ],
+      "lint_command": "scripts/lint_grounding.py --note-plan ... --source-manifest ... --bundle-json ..."
+    },
+    "figure_table_contract": {
+      "placeholder_first": true,
+      "visual_quality_gate": "fail_closed",
+      "decision_table_required": true,
+      "decision_values": [
+        "insert",
+        "placeholder",
+        "low_priority",
+        "visual_defect",
+        "skip"
+      ],
+      "usable_insert_candidate": {
+        "kinds": [
+          "figure",
+          "table"
+        ],
+        "visual_quality_status": "usable_candidate",
+        "requires_source_image_path": true
+      },
+      "allowed_usable_placeholder_reasons": [
+        "visual_defect",
+        "materialization_blocked"
+      ],
+      "manual_visual_review_required_statuses": [
+        "usable_candidate",
+        "needs_visual_quality_check",
+        "review"
+      ],
+      "automatic_fail_closed_visual_statuses": [
+        "reject_visual_quality",
+        "asset_candidate_missing"
+      ],
+      "manual_review_claim_requires_image_inspection": true
+    },
+    "analysis_coverage_contract": {
+      "central_claim_fields": [
+        "claim",
+        "supporting_evidence",
+        "what_it_actually_proves",
+        "what_it_does_not_prove"
+      ],
+      "required_plan_fields": [
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions"
+      ],
+      "final_quality_review_checks": [
+        "central_claims_are_supported_by_raw_sections_or_pages",
+        "key_experimental_settings_and_numbers_are_present",
+        "mechanisms_or_protocol_choices_are_mapped_to_results",
+        "comparisons_explain_positioning_against_alternatives",
+        "discussion_or_limitation_claims_are_explained_mechanistically",
+        "proven_claims_are_separated_from_unproven_or_unvalidated_claims",
+        "research_or_engineering_takeaways_are_specific_and_reusable",
+        "followup_questions_are_specific_to_replication_or_extension"
+      ]
+    }
+  }
+}

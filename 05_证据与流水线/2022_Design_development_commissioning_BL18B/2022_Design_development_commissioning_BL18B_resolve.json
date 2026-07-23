@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2022_Design_development_commissioning_BL18B.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2022_Design_development_commissioning_BL18B.pdf",
+  "title": "第 42 卷 第 23 期/2022 年 12 月/光学学报",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "doi": "10.3788/AOS202242.2334001",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "first_page_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "ok",
+  "script": "lint_grounding.py",
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "issues": [],
+  "warnings": [],
+  "passes_grounding": true
+}

@@ -1,0 +1,166 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3788/col201614.093401",
+  "decisions": [
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic layout of the full-field microscope at the SSRF",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:preamble",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_002_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_002_fig_fig_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_002_fig_fig_1.png"
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Beam shaper compared with FZP.",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:preamble",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Three kinds of sample illumination modes: (a) normal in-",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:preamble",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选裁图右侧串入了无关的 Fig 5 实验装置照片，不能作为 Fig 3 独立插入。",
+      "skip_reason": "manual_visual_review_cross_figure_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_fig_3.png",
+      "relative_markdown_embed": "![Fig 3](images/page_003_fig_fig_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_3.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Fig 3 左侧三种照明模式本体和题注可辨，但右侧明显混入 Fig 5 的装置照片面板，判定不可直接使用。"
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Schematic layout of the image magnification system.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_003_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_003_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_003_fig_fig_4.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "完整且清晰的图像放大系统示意图，题注与图体匹配，无跨图或正文污染。"
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Picture for the experimental setup: (a) the overall micro-",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:preamble",
+      "decision": "placeholder",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task"
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Sample illumination system: (a) focused spot of beam",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_fig_6.png",
+      "relative_markdown_embed": "![Fig 6](images/page_004_fig_fig_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_6.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "聚焦光斑与空心锥形光斑二维分布完整，坐标和题注清楚，无污染。"
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Image of the Siemens star by the developed microscope:",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_fig_7.png",
+      "relative_markdown_embed": "![Fig 7](images/page_004_fig_fig_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/untitled/images/page_004_fig_fig_7.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "Siemens 星成像、局部放大和强度剖面均完整，题注清楚，无污染。"
+    }
+  ],
+  "summary": {
+    "total_items": 7,
+    "by_decision": {
+      "insert": 3,
+      "low_priority": 0,
+      "placeholder": 2,
+      "skip": 0,
+      "visual_defect": 2
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3788/aos240575",
+  "decisions": [
+    {
+      "item_id": "figure:图 1",
+      "source_id": "图 1",
+      "kind": "figure",
+      "label": "图 1",
+      "caption": "纳米三维成像系统原理图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic diagram of nano tree-dimensional (3D) imaging system",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "manual_visual_review_page_header_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_002_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_002_fig_fig_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_002_fig_fig_1.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：目标BL18B光路示意图可辨认，但裁图同时包含期刊页眉、章节标题和两栏大段正文，不是独立干净图体，拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 2",
+      "source_id": "图 2",
+      "kind": "figure",
+      "label": "图 2",
+      "caption": "两束X 射线记录同一物体两幅投影的示意图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Schematic diagram of two X-ray beams recording two",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "manual_visual_review_truncated_english_caption_fragment",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "方法主线",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_002_fig_fig_2.png",
+      "relative_markdown_embed": "![Fig 2](images/page_002_fig_fig_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_002_fig_fig_2.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：两束X射线记录同一物体投影的几何图体与中文图注完整，但底边保留被截断的英文图注半句，形成明显残片；为保持成品洁净，拒绝插入且不编辑原始PNG。"
+    },
+    {
+      "item_id": "figure:图 3",
+      "source_id": "图 3",
+      "kind": "figure",
+      "label": "图 3",
+      "caption": "从X 射线立体图像中获取样品深度信息的坐标系示意图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Schematic diagram of coordinate system for obtaining",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "manual_visual_review_truncated_english_caption_fragment",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_002_fig_fig_3.png",
+      "relative_markdown_embed": "![Fig 3](images/page_002_fig_fig_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_002_fig_fig_3.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：旋转前后坐标、视差d与角度θ的几何图体及中文图注完整，但底边保留被截断的英文图注半句；为避免残句进入笔记，拒绝插入且不编辑原始PNG。"
+    },
+    {
+      "item_id": "figure:图 4",
+      "source_id": "图 4",
+      "kind": "figure",
+      "label": "图 4",
+      "caption": "立体重建算法流程图",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Flow chart of stereo reconstruction algorithm",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "manual_visual_review_page_header_formula_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_003_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_003_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_003_fig_fig_4.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：流程图主体完整，但裁图上半部混入期刊页眉、两栏正文和完整NCC公式，占据大半画面；属于页面内容污染，拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 6",
+      "source_id": "图 6",
+      "kind": "figure",
+      "label": "图 6",
+      "caption": "NCC 算法所得深度图像",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Depth image obtained by NCC algorithm",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "manual_visual_review_page_header_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_004_fig_fig_6.png",
+      "relative_markdown_embed": "![Fig 6](images/page_004_fig_fig_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_004_fig_fig_6.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：目标螺旋丝深度图可见，但候选同时包含期刊页眉、章节标题和大段正文，不能作为独立图插入。"
+    },
+    {
+      "item_id": "figure:图 5",
+      "source_id": "图 5",
+      "kind": "figure",
+      "label": "图 5",
+      "caption": "模拟螺旋丝图像。",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Simulated spiral images. (a) Initial acquisition projection;",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "manual_visual_review_figure_body_missing_and_section_title_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_fig_5.png",
+      "relative_markdown_embed": "![Fig 5](images/page_004_fig_fig_5.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_004_fig_fig_5.png",
+      "visual_observation": "已人工打开核验：候选只含Fig. 5中英文图注及下一节标题，没有模拟螺旋丝图体，且英文图注被截断；属于图像身份缺失，拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 7",
+      "source_id": "图 7",
+      "kind": "figure",
+      "label": "图 7",
+      "caption": "NCC 算法所得深度与真实深度的对比",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Comparison between depth obtained by NCC algorithm",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "manual_visual_review_other_figure_body_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_004_fig_fig_7.png",
+      "relative_markdown_embed": "![Fig 7](images/page_004_fig_fig_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_004_fig_fig_7.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：目标Fig. 7深度曲线可见，但左半部混入正文和Fig. 5的三幅螺旋丝图体，英文图注也在底边截断；存在跨图污染，拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 8",
+      "source_id": "图 8",
+      "kind": "figure",
+      "label": "图 8",
+      "caption": "分辨靶图像。",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Resolution target images. (a) -10° projection image; (b) +10° projection image; (c) parallax map",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "manual_visual_review_page_header_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_fig_8.png",
+      "relative_markdown_embed": "![Fig 8](images/page_005_fig_fig_8.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_005_fig_fig_8.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：分辨靶双角投影和视差图完整，但裁图含期刊页眉及两栏正文，未达到独立干净图体标准，拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 11",
+      "source_id": "图 11",
+      "kind": "figure",
+      "label": "图 11",
+      "caption": "芯片样品重构结果。",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 11",
+      "source_id": "Fig 11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "Chip sample reconstruction results. (a) Parallax map; (b) depth map; (c) 3D view",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_fig_11.png",
+      "relative_markdown_embed": "![Fig 11](images/page_006_fig_fig_11.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_006_fig_fig_11.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：芯片视差图、深度图和三维视图三联图完整，尺寸与沟道标注及中英文图注清晰，无页眉、正文或其他图体污染，可安全插入。"
+    },
+    {
+      "item_id": "figure:图 9",
+      "source_id": "图 9",
+      "kind": "figure",
+      "label": "图 9",
+      "caption": "分辨靶重构结果。",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Resolution target reconstruction results. (a) Depth map; (b) 3D view; (c) SEM image",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "manual_visual_review_page_header_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_fig_9.png",
+      "relative_markdown_embed": "![Fig 9](images/page_006_fig_fig_9.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_006_fig_fig_9.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：分辨靶深度图、三维视图和SEM对照图体完整，但顶部保留整条期刊页眉；视觉门禁要求独立裁图，因此拒绝插入。"
+    },
+    {
+      "item_id": "figure:图 10",
+      "source_id": "图 10",
+      "kind": "figure",
+      "label": "图 10",
+      "caption": "芯片图像。",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Chip images. (a) Chip samples under optical microscope; (b) -10° projection image; (c) +10° projection image",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_006_fig_fig_10.png",
+      "relative_markdown_embed": "![Fig 10](images/page_006_fig_fig_10.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_006_fig_fig_10.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：芯片光学图及±10°两幅投影图、比例尺和中英文图注均完整，无页眉、正文或相邻图体污染，可安全插入。"
+    },
+    {
+      "item_id": "table:表 1",
+      "source_id": "表 1",
+      "kind": "table",
+      "label": "表 1",
+      "caption": "基于NCC 算法的分辨靶深度恢复数据分析",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Resolution target depth recovery data analysis based on NCC algorithm",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "manual_visual_review_caption_crop_and_running_prose_contamination",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_005_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_005_fig_table_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米分辨立体成像及其在芯片表征中的应用/images/page_005_fig_table_1.png",
+      "materialization_status": "pending",
+      "visual_observation": "已人工打开核验：表格数值主体可读，但顶部中文表题被裁断，底部混入两栏正文和“芯片检测”章节标题；不是独立表格裁图，拒绝插入。"
+    }
+  ],
+  "summary": {
+    "total_items": 24,
+    "by_decision": {
+      "insert": 2,
+      "low_priority": 12,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 10
+    }
+  }
+}

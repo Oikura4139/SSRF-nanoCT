@@ -1,0 +1,105 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "A schematic overview of the proposed algorithm. (a) A raw image stack of typical XANES imaging data with significant image jittering and deformation.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_003_fig_figure_1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Image_registration_for_in_situ_X_ray_nano_imaging_of_a_composite_battery_cathode_with_deformation/images/page_003_fig_figure_1.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "An illustration of the proposed algorithm. A Cycle-GAN generator is first used to identify isolated particles, leading to a set of ROI filters. A Dual U-net",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "方法主线",
+      "plan_kind": "method_detail",
+      "source_image_filename": "page_004_fig_figure_2.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Image_registration_for_in_situ_X_ray_nano_imaging_of_a_composite_battery_cathode_with_deformation/images/page_004_fig_figure_2.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Analysis of the image alignment results of a synthetic dataset. (a) The image stack with enlarged ROI to illustrate the image distortion. (b) A comparison",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_figure_3.png",
+      "relative_markdown_embed": "![Figure 3](images/page_006_fig_figure_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Image_registration_for_in_situ_X_ray_nano_imaging_of_a_composite_battery_cathode_with_deformation/images/page_006_fig_figure_3.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Alignment and analysis of operando XANES imaging of an NCM battery cathode upon charging. (a) Raw TXM images. (b) The results of ROI detection",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_007_fig_figure_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Image_registration_for_in_situ_X_ray_nano_imaging_of_a_composite_battery_cathode_with_deformation/images/page_007_fig_figure_4.png",
+      "materialization_status": "pending"
+    }
+  ],
+  "summary": {
+    "total_items": 4,
+    "by_decision": {
+      "insert": 4,
+      "low_priority": 0,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}

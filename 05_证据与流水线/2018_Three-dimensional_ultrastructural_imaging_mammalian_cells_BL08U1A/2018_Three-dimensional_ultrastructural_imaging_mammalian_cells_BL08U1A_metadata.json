@@ -1,0 +1,47 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.pdf",
+  "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex",
+    "semantic_scholar"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.1107/S2052252517017912",
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "authors": [
+    "Shengkun Yao",
+    "Jiadong Fan",
+    "Zhiyun Chen",
+    "Yunbing Zong",
+    "Jianhua Zhang",
+    "Zhibin Sun",
+    "Lijuan Zhang",
+    "Renzhong Tai",
+    "Zhi Liu",
+    "Chunying Chen",
+    "Huaidong Jiang"
+  ],
+  "venue": "IUCrJ",
+  "source": "crossref",
+  "year": "2018",
+  "published": "2018",
+  "abstract": "Knowledge of the interactions between nanomaterials and large-size mammalian cells, including cellular uptake, intracellular localization and translocation, has greatly advanced nanomedicine and nanotoxicology. Imaging techniques that can locate nanomaterials within the structures of intact large-size cells at nanoscale resolution play crucial roles in acquiring this knowledge. Here, the quantitative imaging of intracellular nanomaterials in three dimensions was performed by combining dual-energy contrast X-ray microscopy and an iterative tomographic algorithm termed equally sloped tomography (EST). Macrophages with a size of ∼20 µm that had been exposed to the potential antitumour agent [Gd@C 82 (OH) 22 ] n were investigated. Large numbers of nanoparticles (NPs) aggregated within the cell and were mainly located in phagosomes. No NPs were observed in the nucleus. Imaging of the nanomedicine within whole cells advanced the understanding of the high-efficiency antitumour activity and the low toxicity of this agent. This imaging technique can be used to probe nanomaterials within intact large-size cells at nanometre resolution uniformly in three dimensions and may greatly benefit the fields of nanomedicine and nanotoxicology.",
+  "affiliations": [
+    "ShanghaiTech University",
+    "National Center for Nanoscience and Technology",
+    "Shandong University",
+    "Shanghai Institute of Applied Physics"
+  ],
+  "pdf_url": "https://journals.iucr.org/m/issues/2018/02/00/mf5022/mf5022.pdf",
+  "script": "collect_metadata.py"
+}

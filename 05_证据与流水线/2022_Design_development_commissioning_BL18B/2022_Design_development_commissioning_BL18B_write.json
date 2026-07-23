@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "title": "上海同步辐射光源纳米三维成像线站设计、研发及调试",
+  "note_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Design_development_commissioning_BL18B/2022_Design_development_commissioning_BL18B.md",
+  "subdir": "04_深读笔记/2022_Design_development_commissioning_BL18B",
+  "images_dir": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Design_development_commissioning_BL18B/images",
+  "materialized_figures": [
+    {
+      "source_id": "Fig 2",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_003_fig_fig_2.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Design_development_commissioning_BL18B/images/page_003_fig_fig_2.png",
+      "relative_markdown_path": "images/page_003_fig_fig_2.png"
+    },
+    {
+      "source_id": "Fig 4",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_004_fig_fig_4.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Design_development_commissioning_BL18B/images/page_004_fig_fig_4.png",
+      "relative_markdown_path": "images/page_004_fig_fig_4.png"
+    },
+    {
+      "source_id": "Fig 6",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/第_42_卷_第_23_期2022_年_12_月光学学报/images/page_005_fig_fig_6.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2022_Design_development_commissioning_BL18B/images/page_005_fig_fig_6.png",
+      "relative_markdown_path": "images/page_005_fig_fig_6.png"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "/home/zhenyu/PaperReading/上海光源纳米CT",
+  "vault": "/home/zhenyu/PaperReading/上海光源纳米CT"
+}

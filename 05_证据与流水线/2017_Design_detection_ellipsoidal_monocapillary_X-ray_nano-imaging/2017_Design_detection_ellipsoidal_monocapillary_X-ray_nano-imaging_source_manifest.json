@@ -1,0 +1,254 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "title": "X射线纳米成像单毛细管椭球镜的设计与检测",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2017_Design_detection_ellipsoidal_monocapillary_X-ray_nano-imaging.pdf",
+    "total_pages": 8,
+    "text_pages_extracted": 8,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 8,
+    "text_max_pages": null,
+    "text_pages_extracted": 8,
+    "text_pages_scanned": 8,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1799,
+      "text_hash_sha256": "857d121ff7b6059b34b9d887d08ecfec447198787f85bb8fa3813ada7f658e45"
+    },
+    {
+      "section_id": "sec:section",
+      "kind": "introduction",
+      "title": "１ 引 言",
+      "page_start": 1,
+      "page_end": 7,
+      "char_count": 5194,
+      "text_hash_sha256": "b985481b8330547cd2e092d5b64fe994bad62b68137d826af63ba75e573bb65f"
+    },
+    {
+      "section_id": "sec:section-2",
+      "kind": "conclusion",
+      "title": "４ 结 论",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 3910,
+      "text_hash_sha256": "6105e18a6fcad18aeaf23c01a90186d4964dea294ee5870bfdc692cdad9b5cb5"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2129,
+      "section_ids": [
+        "sec:preamble",
+        "sec:section"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 1362,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1286,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 507,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 944,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 849,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3158,
+      "section_ids": [
+        "sec:section",
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 765,
+      "section_ids": [
+        "sec:section-2"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 １",
+        "caption": "上海光源成像线站(BL１３W１)TXM 示意图",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ３",
+        "caption": "研制的椭球镜照片",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ４",
+        "caption": "椭球镜的光学测试结果",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ５",
+        "caption": "椭球镜X 射线测试原理示意图",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ６",
+        "caption": "距离焦点(a)５５cm、(b)１００cm 处以及(c)焦点处聚焦光斑的形状及三维光强分布图",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ７",
+        "caption": "外环发散角的拟合曲线",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ８",
+        "caption": "TXM 成像实验装置图",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 ９",
+        "caption": "TXM 成像结果.(a)整体成像图;(b)在５００nm 分辨率附近的靶射线强度分布",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      }
+    ],
+    "tables": [
+      {
+        "id": "表 １",
+        "caption": "椭球镜的参数",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Table １",
+        "caption": "ParametersofellipsoidalmonoＧcapillary",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "表 ２",
+        "caption": "波带片参数",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Table ２",
+        "caption": "Parametersofzoneplate",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:section"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "θ/２)≈sin(",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "θ/２)≈θ/２＝Δ",
+      "section_id": "sec:section",
+      "page_start": 1,
+      "page_end": 7
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "mixed",
+  "text_hash_sha256": "6a12915a03728613188431b25318b118e5335b791a50cc33e23201fa0b543900"
+}

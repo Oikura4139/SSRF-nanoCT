@@ -1,0 +1,2047 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.1364/oe.27.007787",
+  "figure_plan": {
+    "paper_id": "doi:10.1364/oe.27.007787",
+    "figures": [
+      {
+        "id": "Fig 3",
+        "caption": "Schematic of the improved focal stack approach. (a) The improved FS algorithm flow-",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_fig_fig_3.png",
+          "width": 1076,
+          "height": 1442,
+          "size_bytes": 408958,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.415233,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 0.605943,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 295,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "schematic",
+              "improved",
+              "focal",
+              "stack",
+              "approach"
+            ],
+            "snippet": "Fig. 3. Schematic of the improved focal stack approach. (a) The improved FS algorithm flow- char",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_01.png",
+                "width": 920,
+                "height": 701,
+                "size_bytes": 166779
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_02.png",
+                "width": 920,
+                "height": 702,
+                "size_bytes": 128288
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_03.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_fig_fig_3.png",
+                "width": 1076,
+                "height": 1442,
+                "size_bytes": 408958,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.415233,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.605943,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 295,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 7,
+            "matched_terms": [
+              "fig. 3",
+              "schematic",
+              "stack"
+            ],
+            "snippet": "e 3(a) for details of the algorithm). The schematic of the FS imaging process is shown in Fig. 3(b) and the STXM experimental setup for FS is animated in a movie (Visualization 1). Vol.",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_img_01.png",
+                "width": 950,
+                "height": 584,
+                "size_bytes": 58762
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_fig_fig_2.png",
+                "width": 1076,
+                "height": 1047,
+                "size_bytes": 279915,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.301523,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.455823,
+                  "paragraph_text_chars": 406,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "improved",
+              "focal",
+              "stack",
+              "approach"
+            ],
+            "snippet": "Three-dimensional focal stack imaging in scanning transmission X-ray microscopy with an improved reconstruction algorithm LIMEI MA,1,2,3 XIANGZHI ZHANG,1,2,5 ZIJIAN XU,1,2,6 ANDREAS SPÄT",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_01.png",
+                "width": 110,
+                "height": 110,
+                "size_bytes": 146
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_02.png",
+                "width": 110,
+                "height": 110,
+                "size_bytes": 7351
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_03.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "3D reconstructed images of the sample model with two different algorithms. (a) The 3D",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_fig_fig_5.png",
+          "width": 1076,
+          "height": 941,
+          "size_bytes": 459354,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.270832,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.617177,
+            "paragraph_text_chars": 249,
+            "table_body_rows": 0,
+            "caption_text_chars": 274,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "reconstructed",
+              "images",
+              "sample",
+              "model",
+              "different"
+            ],
+            "snippet": "e left side of Figs. 4(c) and 4(d). The 3D reconstructed image by our improved algorithm (Fig. 5(a)) was in good agreement with the sample model shown in Fig. 4(a). It is animated in Vis",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_01.png",
+                "width": 913,
+                "height": 585,
+                "size_bytes": 175890
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+                "width": 1076,
+                "height": 1370,
+                "size_bytes": 462457,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.394513,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.507467,
+                  "paragraph_text_chars": 887,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "reconstructed",
+              "images",
+              "sample",
+              "model",
+              "different"
+            ],
+            "snippet": "een that the calculated densities of Fe and Mn have little difference in this simulation. Fig. 5. 3D reconstructed images of the sample model with two different algorithms. (a) The 3D re",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_01.png",
+                "width": 802,
+                "height": 445,
+                "size_bytes": 213811
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_fig_fig_5.png",
+                "width": 1076,
+                "height": 941,
+                "size_bytes": 459354,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.270832,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.617177,
+                  "paragraph_text_chars": 249,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "images",
+              "sample",
+              "different"
+            ],
+            "snippet": "rotron X-ray regime [24–28]. The FS method requires collecting a series of 2D microscopic images with shifting the sample to different positions along the optical axis (usually referred",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_002_img_01.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Comparison between the reconstructed images by the previous algorithm and the",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+          "width": 1076,
+          "height": 1419,
+          "size_bytes": 1001689,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.408427,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.546789,
+            "paragraph_text_chars": 769,
+            "table_body_rows": 0,
+            "caption_text_chars": 395,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "comparison",
+              "reconstructed",
+              "images",
+              "previous"
+            ],
+            "snippet": "O4 nanoparticles. However, in general, the image reconstructed by the previous algorithm (Fig. 6(b)) shows a sparser distribution of Fe3O4 particles than that by our new algorithm (Fig.",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_01.png",
+                "width": 802,
+                "height": 445,
+                "size_bytes": 213811
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_fig_fig_5.png",
+                "width": 1076,
+                "height": 941,
+                "size_bytes": 459354,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.270832,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.617177,
+                  "paragraph_text_chars": 249,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "comparison",
+              "between",
+              "reconstructed",
+              "images",
+              "previous"
+            ],
+            "snippet": "s found that some particles were lost under the reconstruction by the previous algorithm (Fig. 6(d)) as compared to the reconstruction by the improved one (Fig. 6(c)). For example, in th",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_01.jpeg",
+                "width": 822,
+                "height": 675,
+                "size_bytes": 203794
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+                "width": 1076,
+                "height": 1419,
+                "size_bytes": 1001689,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.408427,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.546789,
+                  "paragraph_text_chars": 769,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "between",
+              "reconstructed",
+              "images",
+              "previous"
+            ],
+            "snippet": "sample for 2D imaging. (c-d) Two 2D micrographs with a focal distance of 1 μm (Δz = 1 μm) between them. The marked regions demonstrated the sharp or the defocused features. The enlarged v",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_01.png",
+                "width": 913,
+                "height": 585,
+                "size_bytes": 175890
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+                "width": 1076,
+                "height": 1370,
+                "size_bytes": 462457,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.394513,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.507467,
+                  "paragraph_text_chars": 887,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_8.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_fig_fig_8.png",
+          "width": 1076,
+          "height": 952,
+          "size_bytes": 315549,
+          "label": "Fig. 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.273995,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.57416,
+            "paragraph_text_chars": 410,
+            "table_body_rows": 0,
+            "caption_text_chars": 268,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "reconstructed",
+              "image",
+              "film",
+              "algorithms",
+              "reconstruction"
+            ],
+            "snippet": "and visualized in movie files. From the 3D image reconstructed by our improved algorithm (Fig. 8(a)), Visualization 4), we can see that all locations of the Fe3O4 particles within the sp",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_01.jpeg",
+                "width": 711,
+                "height": 606,
+                "size_bytes": 170132
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_fig_fig_7.png",
+                "width": 1076,
+                "height": 1390,
+                "size_bytes": 994327,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.400225,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.469625,
+                  "paragraph_text_chars": 881,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 456,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "reconstructed",
+              "image",
+              "film",
+              "algorithms",
+              "reconstruction"
+            ],
+            "snippet": "traditional nanotomography by STXM in terms of easy operations and no need for rotation. Fig. 8. 3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction wit",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_img_01.png",
+                "width": 852,
+                "height": 416,
+                "size_bytes": 79974
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_fig_fig_8.png",
+                "width": 1076,
+                "height": 952,
+                "size_bytes": 315549,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.273995,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.57416,
+                  "paragraph_text_chars": 410,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 268,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "image",
+              "algorithms",
+              "reconstruction"
+            ],
+            "snippet": "ol to characterize the structures of objects [1,2]. The nanostructure of specimens can be imaged by optical fluorescence based super-resolution microscopy, such as 3D stochastic optical",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_01.png",
+                "width": 110,
+                "height": 110,
+                "size_bytes": 146
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_02.png",
+                "width": 110,
+                "height": 110,
+                "size_bytes": 7351
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_001_img_03.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Illustrations of a scanning image and its corresponding beam propagation map. (a)",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_fig_fig_1.png",
+          "width": 1076,
+          "height": 663,
+          "size_bytes": 218329,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.19088,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.490389,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 313,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "scanning",
+              "image",
+              "corresponding",
+              "beam"
+            ],
+            "snippet": "STXM micrograph. Figure 1 illustrates this issue. The focused parts of a scanning image (Fig. 1(a)), marked with a red box) are within the DOF range of the beam propagation path (Fig. 1",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_002_img_01.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "illustrations",
+              "scanning",
+              "image",
+              "corresponding",
+              "beam"
+            ],
+            "snippet": "Fig. 1. Illustrations of a scanning image and its corresponding beam propagation map. (a) Schema",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_01.png",
+                "width": 812,
+                "height": 406,
+                "size_bytes": 76719
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_fig_fig_1.png",
+                "width": 1076,
+                "height": 663,
+                "size_bytes": 218329,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.19088,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.490389,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "scanning",
+              "image",
+              "beam"
+            ],
+            "snippet": ", giving 3D resolutions of 35 nm in the x and y dimensions and 496 nm in the z-direction (Fig. 10 in the Appendix B). Fig. 6. Comparison between the reconstructed images by the previous",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_01.jpeg",
+                "width": 822,
+                "height": 675,
+                "size_bytes": 203794
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+                "width": 1076,
+                "height": 1419,
+                "size_bytes": 1001689,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.408427,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.546789,
+                  "paragraph_text_chars": 769,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Estimation of the 3D resolutions for the first experimental data reconstruction (section",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_013_fig_fig_10.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_013_fig_fig_10.png",
+          "width": 1076,
+          "height": 1210,
+          "size_bytes": 370492,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.34833,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.566772,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 612,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 13,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "estimation",
+              "resolutions",
+              "first",
+              "experimental",
+              "data"
+            ],
+            "snippet": "Fig. 10. Estimation of the 3D resolutions for the first experimental data reconstruction (section",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_013_img_01.png",
+                "width": 653,
+                "height": 693,
+                "size_bytes": 123781
+              },
+              {
+                "filename": "page_013_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_013_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_fig_10.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_013_fig_fig_10.png",
+                "width": 1076,
+                "height": 1210,
+                "size_bytes": 370492,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.34833,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.566772,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 612,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 6,
+            "matched_terms": [
+              "fig. 10",
+              "resolutions"
+            ],
+            "snippet": ", giving 3D resolutions of 35 nm in the x and y dimensions and 496 nm in the z-direction (Fig. 10 in the Appendix B). Fig. 6. Comparison between the reconstructed images by the previous a",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_01.jpeg",
+                "width": 822,
+                "height": 675,
+                "size_bytes": 203794
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+                "width": 1076,
+                "height": 1419,
+                "size_bytes": 1001689,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.408427,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.546789,
+                  "paragraph_text_chars": 769,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "first",
+              "experimental",
+              "data"
+            ],
+            "snippet": "here Rn(x,y)max is the maximal Rn along a given OAPL. The range of rn(x,y) is 0 to 1. The first step of reconstructing the 3D image cube V(x,y,z) is to calculate the threshold Tn for ea",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_01.png",
+                "width": 812,
+                "height": 406,
+                "size_bytes": 76719
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_fig_fig_1.png",
+                "width": 1076,
+                "height": 663,
+                "size_bytes": 218329,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.19088,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.490389,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "The thickness of the second experimental specimen and the analysis of the 3D spatial",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_fig_11.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_014_fig_fig_11.png",
+          "width": 1076,
+          "height": 1161,
+          "size_bytes": 576223,
+          "label": "Fig. 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.334374,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.6409,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 633,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "figure 11",
+              "thickness",
+              "second",
+              "specimen"
+            ],
+            "snippet": "a diameter of 120 μm was used to focus the X-ray beam, which resulted in a DOF of 917 nm. Figure 11(a) in the Appendix B shows a scanning electron micrograph of the CNF/Fe3O4 film cross-sec",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_01.jpeg",
+                "width": 822,
+                "height": 675,
+                "size_bytes": 203794
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+                "width": 1076,
+                "height": 1419,
+                "size_bytes": 1001689,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.408427,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.546789,
+                  "paragraph_text_chars": 769,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "thickness",
+              "second",
+              "experimental",
+              "specimen",
+              "analysis"
+            ],
+            "snippet": "Fig. 11. The thickness of the second experimental specimen and the analysis of the 3D spatial res",
+            "images": [
+              {
+                "filename": "page_014_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_014_img_01.jpeg",
+                "width": 831,
+                "height": 708,
+                "size_bytes": 147362
+              },
+              {
+                "filename": "page_014_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_014_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_fig_11.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_014_fig_fig_11.png",
+                "width": 1076,
+                "height": 1161,
+                "size_bytes": 576223,
+                "label": "Fig. 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.334374,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.6409,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 633,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 6,
+            "matched_terms": [
+              "fig. 11",
+              "specimen"
+            ],
+            "snippet": "he FS reconstruction to be 80 nm in the x and y dimensions and 214 nm in the z dimension (Fig. 11 in the Appendix B). Additionally, the data acquisition time of the stacked images was 66",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_01.jpeg",
+                "width": 711,
+                "height": 606,
+                "size_bytes": 170132
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_fig_fig_7.png",
+                "width": 1076,
+                "height": 1390,
+                "size_bytes": 994327,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.400225,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.469625,
+                  "paragraph_text_chars": 881,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 456,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic of obtaining 3D image voxel values by thresholding local variances. (a) The",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_fig_fig_2.png",
+          "width": 1076,
+          "height": 1047,
+          "size_bytes": 279915,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.301523,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.455823,
+            "paragraph_text_chars": 406,
+            "table_body_rows": 0,
+            "caption_text_chars": 538,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "schematic",
+              "obtaining",
+              "image",
+              "voxel",
+              "values"
+            ],
+            "snippet": "until Tn remains stable, then the resulting Tn is the desired threshold along this OAPL. Fig. 2. Schematic of obtaining 3D image voxel values by thresholding local variances. (a) The re",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_img_01.png",
+                "width": 950,
+                "height": 584,
+                "size_bytes": 58762
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_fig_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_004_fig_fig_2.png",
+                "width": 1076,
+                "height": 1047,
+                "size_bytes": 279915,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.301523,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.455823,
+                  "paragraph_text_chars": 406,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 7,
+            "matched_terms": [
+              "fig. 2",
+              "schematic",
+              "image"
+            ],
+            "snippet": "used feature points (high-density featured structures) along each OAPL. As illustrated in Fig. 2(a), the peaks of rn higher than the threshold Tn (red points in Fig. 2(a)) correspond to",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_01.png",
+                "width": 812,
+                "height": 406,
+                "size_bytes": 76719
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_fig_fig_1.png",
+                "width": 1076,
+                "height": 663,
+                "size_bytes": 218329,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.19088,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.490389,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "schematic",
+              "image",
+              "voxel",
+              "values"
+            ],
+            "snippet": "that each part of the sample was within the DOF in one of the 2D micrographs. Fig. 4. (a) Schematic 3D representation of the sample model with randomly distributed two kinds of elements. Th",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_01.png",
+                "width": 913,
+                "height": 585,
+                "size_bytes": 175890
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+                "width": 1076,
+                "height": 1370,
+                "size_bytes": 462457,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.394513,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.507467,
+                  "paragraph_text_chars": 887,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "(a) Schematic 3D representation of the sample model with randomly distributed two",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+          "width": 1076,
+          "height": 1370,
+          "size_bytes": 462457,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.394513,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.507467,
+            "paragraph_text_chars": 887,
+            "table_body_rows": 0,
+            "caption_text_chars": 569,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "schematic",
+              "sample",
+              "model",
+              "randomly"
+            ],
+            "snippet": "icles. The particle size ranged from about 100 to 600 nm and their shapes were all cubic (Fig. 4(a)). The X-ray propagation through the thick sample was modelled by the multi-slice appro",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_01.png",
+                "width": 920,
+                "height": 701,
+                "size_bytes": 166779
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_02.png",
+                "width": 920,
+                "height": 702,
+                "size_bytes": 128288
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_img_03.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_005_fig_fig_3.png",
+                "width": 1076,
+                "height": 1442,
+                "size_bytes": 408958,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.415233,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.605943,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 295,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "schematic",
+              "representation",
+              "sample",
+              "model",
+              "randomly"
+            ],
+            "snippet": "m to ensure that each part of the sample was within the DOF in one of the 2D micrographs. Fig. 4. (a) Schematic 3D representation of the sample model with randomly distributed two kinds",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_01.png",
+                "width": 913,
+                "height": 585,
+                "size_bytes": 175890
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+                "width": 1076,
+                "height": 1370,
+                "size_bytes": 462457,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.394513,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.507467,
+                  "paragraph_text_chars": 887,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "schematic",
+              "sample"
+            ],
+            "snippet": "Fig. 1. Illustrations of a scanning image and its corresponding beam propagation map. (a) Schematic diagram of a scanning image by STXM. (b) The corresponding light focusing map for the thr",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_01.png",
+                "width": 812,
+                "height": 406,
+                "size_bytes": 76719
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_003_fig_fig_1.png",
+                "width": 1076,
+                "height": 663,
+                "size_bytes": 218329,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.19088,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.490389,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 313,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Four representative STXM images of the CNF/Fe3O4 film collected at different optical -",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_fig_fig_7.png",
+          "width": 1076,
+          "height": 1390,
+          "size_bytes": 994327,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.400225,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.469625,
+            "paragraph_text_chars": 881,
+            "table_body_rows": 0,
+            "caption_text_chars": 456,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "four",
+              "representative",
+              "stxm",
+              "images",
+              "film"
+            ],
+            "snippet": "t scan was based on the position where the specimen was completely off-focus, as shown in Fig. 7(a), then it was stepped in the z-direction until the specimen position was again off-focu",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_01.jpeg",
+                "width": 711,
+                "height": 606,
+                "size_bytes": 170132
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_fig_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_009_fig_fig_7.png",
+                "width": 1076,
+                "height": 1390,
+                "size_bytes": 994327,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.400225,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.469625,
+                  "paragraph_text_chars": 881,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 456,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "stxm",
+              "images",
+              "film"
+            ],
+            "snippet": "the whole volume cannot be simultaneously imaged clearly. For the focal stack imaging, 51 STXM micrographs were collected at a series of axial Vol. 27, No. 5 | 4 Mar 2019 | OPTICS EXPR",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_01.jpeg",
+                "width": 822,
+                "height": 675,
+                "size_bytes": 203794
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_008_fig_fig_6.png",
+                "width": 1076,
+                "height": 1419,
+                "size_bytes": 1001689,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.408427,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.546789,
+                  "paragraph_text_chars": 769,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "stxm",
+              "images",
+              "film"
+            ],
+            "snippet": "using the improved FS approach is more convenient than the traditional nanotomography by STXM in terms of easy operations and no need for rotation. Fig. 8. 3D reconstructed image of t",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_img_01.png",
+                "width": 852,
+                "height": 416,
+                "size_bytes": 79974
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_010_fig_fig_8.png",
+                "width": 1076,
+                "height": 952,
+                "size_bytes": 315549,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.273995,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.57416,
+                  "paragraph_text_chars": 410,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 268,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Resolution estimations for the reconstructed 3D image of the simulated sample model",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_012_fig_fig_9.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_012_fig_fig_9.png",
+          "width": 1076,
+          "height": 1159,
+          "size_bytes": 372717,
+          "label": "Fig. 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.333554,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.545097,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 703,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 9",
+              "resolution",
+              "reconstructed",
+              "image"
+            ],
+            "snippet": "ivatives of three line- segments across the edges of an exemplary particle on this slice (Fig. 9 in Appendix B). The full width at half maximum (FWHM) values of the Gaussian fitting curv",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_01.png",
+                "width": 802,
+                "height": 445,
+                "size_bytes": 213811
+              },
+              {
+                "filename": "page_007_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_007_fig_fig_5.png",
+                "width": 1076,
+                "height": 941,
+                "size_bytes": 459354,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.270832,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.617177,
+                  "paragraph_text_chars": 249,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 12,
+            "score": 8,
+            "matched_terms": [
+              "fig. 9",
+              "resolution",
+              "estimations",
+              "reconstructed",
+              "image",
+              "simulated"
+            ],
+            "snippet": "Appendix B: Resolution calculations for the simulation and experiment results Fig. 9. Resolution estimations for the reconstructed 3D image of the simulated sample model (sec",
+            "images": [
+              {
+                "filename": "page_012_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_012_img_01.jpeg",
+                "width": 765,
+                "height": 637,
+                "size_bytes": 80811
+              },
+              {
+                "filename": "page_012_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_012_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_fig_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_012_fig_fig_9.png",
+                "width": 1076,
+                "height": 1159,
+                "size_bytes": 372717,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.333554,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.545097,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 703,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "reconstructed",
+              "image",
+              "simulated"
+            ],
+            "snippet": "ls are more obvious in the enlarged views on the left side of Figs. 4(c) and 4(d). The 3D reconstructed image by our improved algorithm (Fig. 5(a)) was in good agreement with the sample model s",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_01.png",
+                "width": 913,
+                "height": 585,
+                "size_bytes": 175890
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_img_02.jpeg",
+                "width": 1597,
+                "height": 166,
+                "size_bytes": 74155
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_focal_stack_imaging_in/images/page_006_fig_fig_4.png",
+                "width": 1076,
+                "height": 1370,
+                "size_bytes": 462457,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.394513,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.507467,
+                  "paragraph_text_chars": 887,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 569,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

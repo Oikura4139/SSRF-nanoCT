@@ -1,0 +1,478 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1364/oe.27.007787",
+  "title": "Three-dimensional focal stack imaging in",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2019_Three-dimensional_focal_stack_imaging_STXM/2019_Three-dimensional_focal_stack_imaging_STXM_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2019_Three-dimensional_focal_stack_imaging_STXM/2019_Three-dimensional_focal_stack_imaging_STXM_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/02_支撑文献PDF/2019_Three-dimensional_focal_stack_imaging_STXM.pdf",
+    "total_pages": 16,
+    "text_pages_extracted": 16,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 16,
+    "text_max_pages": null,
+    "text_pages_extracted": 16,
+    "text_pages_scanned": 16,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 10,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1729,
+      "text_hash_sha256": "e0c7fbdc35bec96441cf4a9084b19453cedfbfa33009bc905c7a7021e2a9fa3f"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 7,
+      "char_count": 15742,
+      "text_hash_sha256": "946a4aa80d592c62f212b8864ad1ee14461699f6c6b5efbe7af2a4ff73fad381"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "4. Experiments",
+      "page_start": 7,
+      "page_end": 10,
+      "char_count": 7293,
+      "text_hash_sha256": "5119248af4a5c8b7b8e093d8768d0529857278f9ca9948c4ec0f6b7269f6ac11"
+    },
+    {
+      "section_id": "sec:conclusions",
+      "kind": "conclusion",
+      "title": "5. Conclusions",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 1049,
+      "text_hash_sha256": "3932fd703af4743d1a5370755769d45b7ba89a7cfafd924d44ec25ae3f454b5d"
+    },
+    {
+      "section_id": "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects",
+      "kind": "appendix",
+      "title": "Appendix A: Theory of X-ray wave propagation in objects",
+      "page_start": 10,
+      "page_end": 12,
+      "char_count": 3350,
+      "text_hash_sha256": "e32b5442c45268ae335c18f34ae4c8baff390843cbc562b1fac8f832363e87a6"
+    },
+    {
+      "section_id": "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results",
+      "kind": "appendix",
+      "title": "Appendix B: Resolution calculations for the simulation and experiment results",
+      "page_start": 12,
+      "page_end": 14,
+      "char_count": 2248,
+      "text_hash_sha256": "add6b7a868f2788e3e55a705dcaa58c81dcb8ca219f839b2a1b78fb45fedb512"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 293,
+      "text_hash_sha256": "014f21f84d0ddc269f38a7c43fd3b8ef67bf146828f1a326f6ea15ebdbba67ca"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 14,
+      "page_end": 16,
+      "char_count": 9164,
+      "text_hash_sha256": "d39eab8a0df429655eae838e9968e1a4e77d2cc167a0fc0a0e02662c0e0fa710"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3562,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3915,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 2775,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2163,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1346,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2843,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2666,
+      "section_ids": [
+        "sec:introduction",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2315,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 2642,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2416,
+      "section_ids": [
+        "sec:experiments",
+        "sec:conclusions",
+        "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3016,
+      "section_ids": [
+        "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 831,
+      "section_ids": [
+        "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects",
+        "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 662,
+      "section_ids": [
+        "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 2168,
+      "section_ids": [
+        "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results",
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 5885,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 2290,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Illustrations of a scanning image and its corresponding beam propagation map. (a)",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Schematic of obtaining 3D image voxel values by thresholding local variances. (a) The",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Schematic of the improved focal stack approach. (a) The improved FS algorithm flow-",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "(a) Schematic 3D representation of the sample model with randomly distributed two",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "3D reconstructed images of the sample model with two different algorithms. (a) The 3D",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Comparison between the reconstructed images by the previous algorithm and the",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Four representative STXM images of the CNF/Fe3O4 film collected at different optical -",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Resolution estimations for the reconstructed 3D image of the simulated sample model",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Estimation of the 3D resolutions for the first experimental data reconstruction (section",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "The thickness of the second experimental specimen and the analysis of the 3D spatial",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:appendix-b-resolution-calculations-for-the-simulation-and-experiment-results"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "sequence of rn is divided into two parts, r1 and r2 (r1: rn<T0; r2: rn≥T0). (2) Calculate the",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "as follows: for the positions with rn ≥ Tn, the voxel values are the measured 2D image intensity",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "OAPL, V(x0,y0,z) = I(x0,y0,z), where I(x,y,z) is the stacking of the measured 2D image",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "intensity along the z-direction. On the other hand, for the positions with rn < Tn along this",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "OAPL, the corresponding voxel values are set as zero, i.e. V(x0,y0,z) = 0 (Fig. 2(b)). After all",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "with a focal distance of 1 μm (Δz = 1 μm) between them. The marked regions demonstrated",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 7
+    },
+    {
+      "text": "400 nm in z-direction (DOF ≈500 nm) and recording 2D images for an area of 6 × 6 μm2 and",
+      "section_id": "sec:experiments",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "Figs. 7(b) and 7(c) are partly focused micrographs within the specimen (Δzb,c = 2.7 μm). A",
+      "section_id": "sec:experiments",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "= ",
+      "section_id": "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects",
+      "page_start": 10,
+      "page_end": 12
+    },
+    {
+      "text": "zero and r = θf. The wave field U(r) will be the incident probe for the simulation.",
+      "section_id": "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects",
+      "page_start": 10,
+      "page_end": 12
+    },
+    {
+      "text": "where P(r-rj) is the complex-valued incident probe centered at position rj, and O(r) is the",
+      "section_id": "sec:appendix-a-theory-of-x-ray-wave-propagation-in-objects",
+      "page_start": 10,
+      "page_end": 12
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 10,
+    "sections": [
+      {
+        "title": "D. Attwood, “Microscopy: nanotomography comes of age,” Nature 442(7103), 642–643 (2006).",
+        "page": 14
+      },
+      {
+        "title": "J. A. Conchello and J. W. Lichtman, “Optical sectioning microscopy,” Nat. Methods 2(12), 920–931 (2005).",
+        "page": 14
+      },
+      {
+        "title": "B. Huang, W. Wang, M. Bates, and X. Zhuang, “Three-dimensional super-resolution imaging by stochastic",
+        "page": 14
+      },
+      {
+        "title": "M. F. Juette, T. J. Gould, M. D. Lessard, M. J. Mlodzianoski, B. S. Nagpure, B. T. Bennett, S. T. Hess, and J.",
+        "page": 14
+      },
+      {
+        "title": "G. Shtengel, J. A. Galbraith, C. G. Galbraith, J. Lippincott-Schwartz, J. M. Gillette, S. Manley, R. Sougrat, C. M.",
+        "page": 14
+      },
+      {
+        "title": "J. Villanova, J. Laurencin, P. Cloetens, P. Bleuet, G. Delette, H. Suhonen, and F. Usseglio-Viretta, “3D phase",
+        "page": 15
+      },
+      {
+        "title": "L. Wang, T. Zhang, P. Li, W. Huang, J. Tang, P. Wang, J. Liu, Q. Yuan, R. Bai, B. Li, K. Zhang, Y. Zhao, and",
+        "page": 15
+      },
+      {
+        "title": "C. Chen, “Use of Synchrotron Radiation-Analytical Techniques To Reveal Chemical Origin of Silver-",
+        "page": 15
+      },
+      {
+        "title": "M. Stockmar, P. Cloetens, I. Zanette, B. Enders, M. Dierolf, F. Pfeiffer, and P. Thibault, “Near-field",
+        "page": 15
+      },
+      {
+        "title": "S. Marchesini, F. Schmithusen, M. Tegze, G. Faigel, Y. Calvayrac, M. Belakhovsky, J. Chevrier, and A. S.",
+        "page": 15
+      },
+      {
+        "title": "J. G. McNally, “Three-dimensional cellular ultrastructure resolved by X-ray microscopy,” Nat. Methods 7(12),",
+        "page": 15
+      },
+      {
+        "title": "S. R. Wu, C. C. Chien, Y. Hwu, A. Tkachuk, W. Yun, M. Feser, K. S. Liang, C. S. Yang, J. H. Je, and G.",
+        "page": 16
+      },
+      {
+        "title": "A 582, 96–99 (2007).",
+        "page": 16
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Fig 8",
+        "caption": "3D reconstructed image of the CNF/Fe3O4 film with two algorithms. (a) Reconstruction",
+        "page_hint": "p.10"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Resolution estimations for the reconstructed 3D image of the simulated sample model",
+        "page_hint": "p.12"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Estimation of the 3D resolutions for the first experimental data reconstruction (section",
+        "page_hint": "p.13"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "The thickness of the second experimental specimen and the analysis of the 3D spatial",
+        "page_hint": "p.14"
+      }
+    ],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "84318d545a8f3d667ce78d04e9182e498f5f07e404b58d1d663dde779429de8b"
+}

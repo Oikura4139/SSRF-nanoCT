@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "doi:10.1107/s1600577523003168",
+  "title": "Full-field hard X-ray nano-tomography at SSRF",
+  "note_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/2023_Full-field_hard_X-ray_nano-tomography_SSRF.md",
+  "subdir": "04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF",
+  "images_dir": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 3",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_003_fig_figure_3.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/images/page_003_fig_figure_3.png",
+      "relative_markdown_path": "images/page_003_fig_figure_3.png"
+    },
+    {
+      "source_id": "Figure 4",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_004_fig_figure_4.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/images/page_004_fig_figure_4.png",
+      "relative_markdown_path": "images/page_004_fig_figure_4.png"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_005_fig_figure_5.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/images/page_005_fig_figure_5.png",
+      "relative_markdown_path": "images/page_005_fig_figure_5.png"
+    },
+    {
+      "source_id": "Figure 6",
+      "source_image": "/home/zhenyu/tmp/DeepPaperNote/assets/Full_field_hard_X_ray_nano_tomography_at_SSRF/images/page_006_fig_figure_6.png",
+      "dest_image_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_Full-field_hard_X-ray_nano-tomography_SSRF/images/page_006_fig_figure_6.png",
+      "relative_markdown_path": "images/page_006_fig_figure_6.png"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "/home/zhenyu/PaperReading/上海光源纳米CT",
+  "vault": "/home/zhenyu/PaperReading/上海光源纳米CT"
+}

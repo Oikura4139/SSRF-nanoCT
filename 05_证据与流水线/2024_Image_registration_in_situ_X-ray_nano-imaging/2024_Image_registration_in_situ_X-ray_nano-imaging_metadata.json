@@ -1,0 +1,48 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2024_Image_registration_in_situ_X-ray_nano-imaging.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2024_Image_registration_in_situ_X-ray_nano-imaging.pdf",
+  "title": "Image registration for in situ X-ray nano-imaging of a composite battery cathode with deformation",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.1107/S1600577524000146",
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "authors": [
+    "Bo Su",
+    "Guannan Qian",
+    "Ruoyang Gao",
+    "Fen Tao",
+    "Ling Zhang",
+    "Guohao Du",
+    "Biao Deng",
+    "Piero Pianetta",
+    "Yijin Liu"
+  ],
+  "venue": "Journal of Synchrotron Radiation",
+  "source": "crossref",
+  "year": "2024",
+  "published": "2024",
+  "abstract": "The structural and chemical evolution of battery electrodes at the nanoscale plays an important role in affecting the cell performance. Nano-resolution X-ray microscopy has been demonstrated as a powerful technique for characterizing the evolution of battery electrodes under operating conditions with sensitivity to their morphology, compositional distribution and redox heterogeneity. In real-world batteries, the electrode could deform upon battery operation, causing challenges for the image registration which is necessary for several experimental modalities, e.g. XANES imaging. To address this challenge, this work develops a deep-learning-based method for automatic particle identification and tracking. This approach was not only able to facilitate image registration with good robustness but also allowed quantification of the degree of sample deformation. The effectiveness of the method was first demonstrated using synthetic datasets with known ground truth. The method was then applied to an experimental dataset collected on an operating lithium battery cell, revealing a high degree of intra- and interparticle chemical complexity in operating batteries.",
+  "affiliations": [
+    "Chinese Academy of Sciences",
+    "SLAC National Accelerator Laboratory",
+    "Shanghai Advanced Research Institute",
+    "Stanford Synchrotron Radiation Lightsource",
+    "Shanghai Institute of Applied Physics",
+    "University of Chinese Academy of Sciences",
+    "Walker (United States)",
+    "The University of Texas at Austin"
+  ],
+  "pdf_url": "https://journals.iucr.org/s/issues/2024/02/00/mo5272/mo5272.pdf",
+  "script": "collect_metadata.py"
+}

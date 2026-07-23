@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.1107/s1600577523003168",
+  "checks": {
+    "section_flow": "pass：12 个固定节从三层任务定义进入双模式机制，再进入二维结果、三维证据与计量边界。",
+    "terminology": "pass：FZP、RPSD、FSC、3D-MTF、CNR 均有上下文或中文全称；像素、二维分辨率、三维分辨率不混用。",
+    "sentence_quality": "pass：未发现机械翻译、异常中英混排、断裂句或模糊代词。",
+    "tables_and_lists": "pass：三层任务、三类样品协议与双模式参数采用表格，复杂机制仍由连续段落解释。",
+    "math_rendering": "pass：二维截止频率、孔隙率和角度采样公式均可直接渲染，且推导边界写在公式相邻处。",
+    "figure_placement": "pass：四幅真实图各自紧跟一行斜体图注，分别服务于二维计量、校准靶、三维参考样品和电池裂纹。",
+    "reader_takeaway": "pass：一句话总结和深度分析可让读者清楚识别该论文相对 2022 工程调试的三维增量。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

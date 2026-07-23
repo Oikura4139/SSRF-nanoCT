@@ -1,0 +1,241 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3788/aos201737.1034002",
+  "decisions": [
+    {
+      "item_id": "figure:图 １",
+      "source_id": "图 １",
+      "kind": "figure",
+      "label": "图 １",
+      "caption": "上海光源成像线站(BL１３W１)TXM 示意图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ３",
+      "source_id": "图 ３",
+      "kind": "figure",
+      "label": "图 ３",
+      "caption": "研制的椭球镜照片",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ４",
+      "source_id": "图 ４",
+      "kind": "figure",
+      "label": "图 ４",
+      "caption": "椭球镜的光学测试结果",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ５",
+      "source_id": "图 ５",
+      "kind": "figure",
+      "label": "图 ５",
+      "caption": "椭球镜X 射线测试原理示意图",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ６",
+      "source_id": "图 ６",
+      "kind": "figure",
+      "label": "图 ６",
+      "caption": "距离焦点(a)５５cm、(b)１００cm 处以及(c)焦点处聚焦光斑的形状及三维光强分布图",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ７",
+      "source_id": "图 ７",
+      "kind": "figure",
+      "label": "图 ７",
+      "caption": "外环发散角的拟合曲线",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ８",
+      "source_id": "图 ８",
+      "kind": "figure",
+      "label": "图 ８",
+      "caption": "TXM 成像实验装置图",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:图 ９",
+      "source_id": "图 ９",
+      "kind": "figure",
+      "label": "图 ９",
+      "caption": "TXM 成像结果.(a)整体成像图;(b)在５００nm 分辨率附近的靶射线强度分布",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "table:表 １",
+      "source_id": "表 １",
+      "kind": "table",
+      "label": "表 １",
+      "caption": "椭球镜的参数",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "table:Table １",
+      "source_id": "Table １",
+      "kind": "table",
+      "label": "Table １",
+      "caption": "ParametersofellipsoidalmonoＧcapillary",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "人工查看候选图后确认：裁剪主体是 Fig. 2 椭球镜光路与正文，仅露出 Table 1 表头，缺少可独立阅读的完整表体。",
+      "skip_reason": "manual_visual_review_contamination_and_incomplete_table_body",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_003_fig_table.png",
+      "relative_markdown_embed": "![Table １](images/page_003_fig_table.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_003_fig_table.png",
+      "materialization_status": "not_applicable"
+    },
+    {
+      "item_id": "table:表 ２",
+      "source_id": "表 ２",
+      "kind": "table",
+      "label": "表 ２",
+      "caption": "波带片参数",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "table:Table ２",
+      "source_id": "Table ２",
+      "kind": "table",
+      "label": "Table ２",
+      "caption": "Parametersofzoneplate",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:section",
+      "decision": "visual_defect",
+      "reason": "人工查看候选图后确认：裁剪同时包含 Fig. 7、Fig. 8 与正文，只露出 Table 2 表头，属于多图污染且表体不完整。",
+      "skip_reason": "manual_visual_review_multiple_figures_and_incomplete_table_body",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_006_fig_table.png",
+      "relative_markdown_embed": "![Table ２](images/page_006_fig_table.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/X射线纳米成像单毛细管椭球镜的设计与检测/images/page_006_fig_table.png",
+      "materialization_status": "not_applicable"
+    }
+  ],
+  "summary": {
+    "total_items": 12,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 10,
+      "skip": 0,
+      "visual_defect": 2
+    }
+  }
+}

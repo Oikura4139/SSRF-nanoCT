@@ -1,0 +1,35 @@
+{
+  "review": "final_readability_review",
+  "status": "passed",
+  "paper_id": "doi:10.3724/j.0253-3219.2026.hjs.49.250034",
+  "reviewed_file": "2026_Super-resolution_reconstruction_synchrotron_nano-CT_draft.md",
+  "checks": [
+    {
+      "name": "chinese_fluency",
+      "passed": true,
+      "finding": "中文叙述自然，长句已拆分，缩写仅在指标、模型和数据集名称需要处保留。"
+    },
+    {
+      "name": "argument_flow",
+      "passed": true,
+      "finding": "忠实摘要与评论性分析已分开；随后依次给出物理边界、数据、机制、三层证据、权衡与可信度风险，读者可快速分辨论文结论和笔记判断。"
+    },
+    {
+      "name": "quantitative_readability",
+      "passed": true,
+      "finding": "核心结果以四张紧凑表格呈现，最佳值与不利结果均可直接比较，百分点口径无歧义。"
+    },
+    {
+      "name": "figure_readability",
+      "passed": true,
+      "finding": "8 个嵌入项后均紧接中文斜体说明，说明其在证据链中的角色，并对定性图加入非物理真值提醒。"
+    },
+    {
+      "name": "fact_preservation",
+      "passed": true,
+      "finding": "终读未改变论文原始数值、方法设定或结论强度；推断性风险均以条件句表达。"
+    }
+  ],
+  "edits_made": true,
+  "lint_rerun_required": false
+}

@@ -1,0 +1,2054 @@
+{
+  "status": "ok",
+  "script": "build_synthesis_bundle.py",
+  "paper_id": "doi:10.1107/s2052252517017912",
+  "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+  "metadata": {
+    "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+    "translated_title": "",
+    "authors": [
+      "Shengkun Yao",
+      "Jiadong Fan",
+      "Zhiyun Chen",
+      "Yunbing Zong",
+      "Jianhua Zhang",
+      "Zhibin Sun",
+      "Lijuan Zhang",
+      "Renzhong Tai",
+      "Zhi Liu",
+      "Chunying Chen",
+      "Huaidong Jiang"
+    ],
+    "affiliations": [
+      "ShanghaiTech University",
+      "National Center for Nanoscience and Technology",
+      "Shandong University",
+      "Shanghai Institute of Applied Physics"
+    ],
+    "year": "2018",
+    "venue": "IUCrJ",
+    "doi": "10.1107/S2052252517017912",
+    "source_url": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.pdf",
+    "abstract": "Knowledge of the interactions between nanomaterials and large-size mammalian cells, including cellular uptake, intracellular localization and translocation, has greatly advanced nanomedicine and nanotoxicology. Imaging techniques that can locate nanomaterials within the structures of intact large-size cells at nanoscale resolution play crucial roles in acquiring this knowledge. Here, the quantitative imaging of intracellular nanomaterials in three dimensions was performed by combining dual-energy contrast X-ray microscopy and an iterative tomographic algorithm termed equally sloped tomography (EST). Macrophages with a size of ∼20 µm that had been exposed to the potential antitumour agent [Gd@C 82 (OH) 22 ] n were investigated. Large numbers of nanoparticles (NPs) aggregated within the cell and were mainly located in phagosomes. No NPs were observed in the nucleus. Imaging of the nanomedicine within whole cells advanced the understanding of the high-efficiency antitumour activity and the low toxicity of this agent. This imaging technique can be used to probe nanomaterials within intact large-size cells at nanometre resolution uniformly in three dimensions and may greatly benefit the fields of nanomedicine and nanotoxicology.",
+    "arxiv_id": "",
+    "zotero_key": "",
+    "metadata_sources": [
+      "local_pdf",
+      "crossref",
+      "openalex",
+      "semantic_scholar"
+    ],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ]
+  },
+  "evidence_quality": "medium",
+  "coverage": {
+    "language_hint": "en",
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "introduction",
+        "method",
+        "data",
+        "conclusion"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "method"
+      ],
+      "missing_core_sections": [
+        "experiment"
+      ],
+      "section_text_chars": {
+        "preamble": 2855,
+        "introduction": 25805,
+        "method": 276,
+        "data": 1168,
+        "conclusion": 2172
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 9,
+      "text_max_pages": 32,
+      "text_pages_scanned": 9,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null,
+      "section_stop_reason": "acknowledgments",
+      "section_stop_page": 8
+    },
+    "source_coverage": {
+      "total_pages": 9,
+      "text_max_pages": null,
+      "text_pages_extracted": 9,
+      "text_pages_scanned": 9,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    },
+    "source_manifest": {
+      "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_raw_sections.jsonl",
+      "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_full_text.md",
+      "section_count": 8,
+      "page_count": 9,
+      "text_hash_sha256": "befc3f16a9bf6e577dee8ef16a05f63bd47a1816b65d5dc632940e015ba08609"
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "extraction_failures": [],
+    "asset_coverage": {
+      "total_pages": 9,
+      "asset_max_pages": 40,
+      "asset_pages_scanned": 9,
+      "truncated_due_to_asset_page_limit": false
+    },
+    "figure_quality_summary": {
+      "usable": 5,
+      "review": 0,
+      "reject": 0,
+      "unknown": 0
+    },
+    "truncation_warnings": [],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ]
+  },
+  "source_manifest": {
+    "paper_id": "doi:10.1107/s2052252517017912",
+    "title": "Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells",
+    "source_kind": "pdf_text",
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_full_text.md",
+    "pdf": {
+      "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A.pdf",
+      "total_pages": 9,
+      "text_pages_extracted": 9,
+      "text_max_pages": null,
+      "text_truncated": false
+    },
+    "coverage": {
+      "total_pages": 9,
+      "text_max_pages": null,
+      "text_pages_extracted": 9,
+      "text_pages_scanned": 9,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    }
+  },
+  "source_index": {
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_full_text.md",
+    "sections": [
+      {
+        "section_id": "sec:preamble",
+        "kind": "preamble",
+        "title": "preamble",
+        "page_start": 1,
+        "page_end": 1,
+        "char_count": 2855,
+        "text_hash_sha256": "c230c7e18e48a90994eb4e8ca73398f9749a3761ba3c48c5877e1529983664ba"
+      },
+      {
+        "section_id": "sec:introduction",
+        "kind": "introduction",
+        "title": "1. Introduction",
+        "page_start": 1,
+        "page_end": 7,
+        "char_count": 25805,
+        "text_hash_sha256": "33951cd8fb6064a424978754f8cdd76ac12f2ed79e3c0d9d512e481f5b8e01a5"
+      },
+      {
+        "section_id": "sec:approach",
+        "kind": "method",
+        "title": "approach,",
+        "page_start": 7,
+        "page_end": 7,
+        "char_count": 76,
+        "text_hash_sha256": "debc6627b54bd7e5cdc84fc5d1598d701e7278d515c13584275c982dfe5a774e"
+      },
+      {
+        "section_id": "sec:data",
+        "kind": "data",
+        "title": "data",
+        "page_start": 7,
+        "page_end": 7,
+        "char_count": 1168,
+        "text_hash_sha256": "132be0673cc0c6c7a93419be797d792b158033750dd27cdc0d36a7683152db0e"
+      },
+      {
+        "section_id": "sec:approach-2",
+        "kind": "method",
+        "title": "approach",
+        "page_start": 7,
+        "page_end": 7,
+        "char_count": 199,
+        "text_hash_sha256": "580d0ec412ff9bfef10a9398b438d69a02f9df59aebb0c0f9faac911b289d638"
+      },
+      {
+        "section_id": "sec:conclusions",
+        "kind": "conclusion",
+        "title": "4. Conclusions",
+        "page_start": 7,
+        "page_end": 8,
+        "char_count": 2172,
+        "text_hash_sha256": "08594dda14b28aa034f43cca94c73c01b051521f24b8845f8aefb9e022910160"
+      },
+      {
+        "section_id": "sec:acknowledgements",
+        "kind": "acknowledgments",
+        "title": "Acknowledgements",
+        "page_start": 8,
+        "page_end": 8,
+        "char_count": 611,
+        "text_hash_sha256": "903808bdadf6c07b4612712692342e9cfd0d930befa36bc3042114cfb6fea009"
+      },
+      {
+        "section_id": "sec:references",
+        "kind": "references",
+        "title": "References",
+        "page_start": 8,
+        "page_end": 9,
+        "char_count": 7845,
+        "text_hash_sha256": "a7a99ff9f76ef24818de90c57f0dec57dc7d6a30a227a2b8f6fba59938a42d6d"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "char_count": 4041,
+        "section_ids": [
+          "sec:preamble",
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 2,
+        "char_count": 6414,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 3,
+        "char_count": 4779,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 4,
+        "char_count": 4189,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 5,
+        "char_count": 4989,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 6,
+        "char_count": 4182,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 7,
+        "char_count": 2604,
+        "section_ids": [
+          "sec:introduction",
+          "sec:approach",
+          "sec:data",
+          "sec:approach-2",
+          "sec:conclusions"
+        ]
+      },
+      {
+        "page": 8,
+        "char_count": 6555,
+        "section_ids": [
+          "sec:conclusions",
+          "sec:acknowledgements",
+          "sec:references"
+        ]
+      },
+      {
+        "page": 9,
+        "char_count": 3091,
+        "section_ids": [
+          "sec:references"
+        ]
+      }
+    ],
+    "captions": {
+      "figures": [
+        {
+          "id": "Figure 1",
+          "caption": "Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:introduction"
+        },
+        {
+          "id": "Figure 2",
+          "caption": "Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:introduction"
+        },
+        {
+          "id": "Figure 3",
+          "caption": "Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "section_id": "sec:introduction"
+        },
+        {
+          "id": "Figure 4",
+          "caption": "Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:introduction"
+        },
+        {
+          "id": "Figure 5",
+          "caption": "The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "section_id": "sec:introduction"
+        }
+      ],
+      "tables": []
+    },
+    "math_index": [],
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "language_hint": "en",
+    "text_hash_sha256": "befc3f16a9bf6e577dee8ef16a05f63bd47a1816b65d5dc632940e015ba08609"
+  },
+  "references": {
+    "candidates": []
+  },
+  "figure_plan": {
+    "paper_id": "doi:10.1107/s2052252517017912",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+          "width": 1466,
+          "height": 572,
+          "size_bytes": 464760,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.22486,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.76325,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 435,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "schematic",
+              "layout",
+              "dual-energy",
+              "imaging",
+              "technique"
+            ],
+            "snippet": "49 Shengkun Yao et al. \u0006 Three-dimensional ultrastructural imaging of mammalian cells 143 Figure 1 Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were a",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_img_01.jpeg",
+                "width": 2887,
+                "height": 888,
+                "size_bytes": 172895
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+                "width": 1466,
+                "height": 572,
+                "size_bytes": 464760,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.22486,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.76325,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 435,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "dual-energy",
+              "imaging",
+              "technique"
+            ],
+            "snippet": "of Chicago, USA Keywords: cellular imaging; X-ray tomography; equally sloped tomography; dual-energy contrast; computed tomography; nanoscience; X-ray microscopy; imaging; structure determin",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_01.jpeg",
+                "width": 940,
+                "height": 1124,
+                "size_bytes": 141234
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_02.jpeg",
+                "width": 521,
+                "height": 98,
+                "size_bytes": 6970
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_03.jpeg",
+                "width": 211,
+                "height": 208,
+                "size_bytes": 27159
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "dual-energy",
+              "imaging",
+              "technique"
+            ],
+            "snippet": "lementary Fig. S1). The three-dimensional structure of the cell was obtained by combining dual-energy STXM and the EST algorithm. The tomographic images show that the macrophage, which had ov",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_img_01.jpeg",
+                "width": 2887,
+                "height": 1185,
+                "size_bytes": 232547
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+                "width": 1466,
+                "height": 769,
+                "size_bytes": 1311142,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.30221,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.757868,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 636,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+          "width": 1466,
+          "height": 769,
+          "size_bytes": 1311142,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.30221,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.757868,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 636,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "three-dimensional",
+              "structures",
+              "macrophage",
+              "isosurface",
+              "rendering"
+            ],
+            "snippet": "istinctive features such as an irregular shape, a rough surface and branching pseudopods (Fig. 2a), which coincide with the optical image. In addition to the morphological analysis, whic",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_img_01.jpeg",
+                "width": 2887,
+                "height": 1185,
+                "size_bytes": 232547
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+                "width": 1466,
+                "height": 769,
+                "size_bytes": 1311142,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.30221,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.757868,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 636,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "three-dimensional",
+              "structures",
+              "macrophage"
+            ],
+            "snippet": "ination. Supporting information: this article has supporting information at www.iucrj.org Three-dimensional ultrastructural imaging reveals the nanoscale architecture of mammalian cells Shengkun Ya",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_01.jpeg",
+                "width": 940,
+                "height": 1124,
+                "size_bytes": 141234
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_02.jpeg",
+                "width": 521,
+                "height": 98,
+                "size_bytes": 6970
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_03.jpeg",
+                "width": 211,
+                "height": 208,
+                "size_bytes": 27159
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "three-dimensional",
+              "structures",
+              "macrophage"
+            ],
+            "snippet": "on of the ultrastructures of the macrophage and nanomaterial distributions simultaneously Three-dimensional images of the macrophage were segmented based on differences in the linear absorption coe",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_img_01.jpeg",
+                "width": 2883,
+                "height": 884,
+                "size_bytes": 229239
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+                "width": 1466,
+                "height": 603,
+                "size_bytes": 958316,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.236929,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.72034,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 527,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+          "width": 1466,
+          "height": 603,
+          "size_bytes": 958316,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.236929,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.72034,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 527,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "distribution",
+              "macrophage",
+              "quantitative",
+              "thick",
+              "slice"
+            ],
+            "snippet": "distribution of [Gd@C82(OH)22]n was determined and virtually quantitated slice by slice. Fig. 3(a) displays a 50 nm thick slice in which research papers 144 Shengkun Yao et al. \u0006 Three-",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_img_01.jpeg",
+                "width": 2887,
+                "height": 1185,
+                "size_bytes": 232547
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+                "width": 1466,
+                "height": 769,
+                "size_bytes": 1311142,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.30221,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.757868,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 636,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "distribution",
+              "macrophage",
+              "quantitative",
+              "thick",
+              "slice"
+            ],
+            "snippet": "a characteristic distribution. Compared with the two- dimensional projected distribution (Fig. 3b), the problems with ambiguity resulting from the overlap of structures along the beam di",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_img_01.jpeg",
+                "width": 2883,
+                "height": 884,
+                "size_bytes": 229239
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+                "width": 1466,
+                "height": 603,
+                "size_bytes": 958316,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.236929,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.72034,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 527,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "distribution",
+              "macrophage",
+              "quantitative",
+              "slice"
+            ],
+            "snippet": "rm resolu- tion enables studies of large-size cells at the subcellular level. As shown in Fig. 3, the subcellular distribution of [Gd@C82(OH)22]n was clearly revealed by dual-energy cont",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_img_01.jpeg",
+                "width": 2033,
+                "height": 1460,
+                "size_bytes": 363163
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+                "width": 1466,
+                "height": 942,
+                "size_bytes": 1510864,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370254,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.536838,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 835,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+          "width": 1466,
+          "height": 942,
+          "size_bytes": 1510864,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.370254,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.536838,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 835,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "nanomaterials",
+              "nuclear",
+              "region"
+            ],
+            "snippet": "gular region in Fig. 3(b) was analyzed, slice by slice, in two perpendicular directions (Fig. 4). A cluster of NPs was found on the surface of the nucleus and was distributed into one l",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_img_01.jpeg",
+                "width": 2883,
+                "height": 884,
+                "size_bytes": 229239
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+                "width": 1466,
+                "height": 603,
+                "size_bytes": 958316,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.236929,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.72034,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 527,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "positional",
+              "determination",
+              "nanomaterials",
+              "nuclear",
+              "region"
+            ],
+            "snippet": ". \u0006 Three-dimensional ultrastructural imaging of mammalian cells IUCrJ (2018). 5, 141–149 Figure 4 Positional determination of nanomaterials in the nuclear region. The exact three-dimensio",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_img_01.jpeg",
+                "width": 2033,
+                "height": 1460,
+                "size_bytes": 363163
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+                "width": 1466,
+                "height": 942,
+                "size_bytes": 1510864,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370254,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.536838,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 835,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "determination",
+              "nanomaterials"
+            ],
+            "snippet": "l-energy contrast; computed tomography; nanoscience; X-ray microscopy; imaging; structure determination. Supporting information: this article has supporting information at www.iucrj.org Three-d",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_01.jpeg",
+                "width": 940,
+                "height": 1124,
+                "size_bytes": 141234
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_02.jpeg",
+                "width": 521,
+                "height": 98,
+                "size_bytes": 6970
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_03.jpeg",
+                "width": 211,
+                "height": 208,
+                "size_bytes": 27159
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_figure_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+          "width": 1038,
+          "height": 1911,
+          "size_bytes": 1432061,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.53167,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.836102,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 784,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "distribution",
+              "nanomaterials",
+              "volume"
+            ],
+            "snippet": "]n was taken up effectively by the macrophage and redistributed at the subcellular level. Fig. 5(c) presents the distribution of [Gd@C82(OH)22]n in the cell. Large numbers of aggregated",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_img_01.jpeg",
+                "width": 2883,
+                "height": 884,
+                "size_bytes": 229239
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+                "width": 1466,
+                "height": 603,
+                "size_bytes": 958316,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.236929,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.72034,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 527,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "intracellular",
+              "distribution",
+              "nanomaterials",
+              "volume",
+              "rendering"
+            ],
+            "snippet": "49 Shengkun Yao et al. \u0006 Three-dimensional ultrastructural imaging of mammalian cells 147 Figure 5 The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructe",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_img_01.jpeg",
+                "width": 2032,
+                "height": 3267,
+                "size_bytes": 433965
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+                "width": 1038,
+                "height": 1911,
+                "size_bytes": 1432061,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.53167,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.836102,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 784,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "intracellular",
+              "distribution",
+              "nanomaterials",
+              "volume"
+            ],
+            "snippet": ") The data sets were reconstructed separately with the EST algorithm. (iv) Mapping of the intracellular nanomaterials was achieved by calculating the difference in the reconstructed three-dimen",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_img_01.jpeg",
+                "width": 2887,
+                "height": 888,
+                "size_bytes": 172895
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+                "width": 1466,
+                "height": 572,
+                "size_bytes": 464760,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.22486,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.76325,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 435,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  },
+  "figure_table_manifest": {
+    "decisions_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A/2018_Three-dimensional_ultrastructural_imaging_mammalian_cells_BL08U1A_figure_table_decisions.json",
+    "decisions": [
+      {
+        "item_id": "figure:Figure 1",
+        "source_id": "Figure 1",
+        "kind": "figure",
+        "label": "Figure 1",
+        "caption": "Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction",
+        "decision": "insert",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_003_fig_figure_1.png",
+        "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Figure 2",
+        "source_id": "Figure 2",
+        "kind": "figure",
+        "label": "Figure 2",
+        "caption": "Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction",
+        "decision": "insert",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_004_fig_figure_2.png",
+        "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Figure 3",
+        "source_id": "Figure 3",
+        "kind": "figure",
+        "label": "Figure 3",
+        "caption": "Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of",
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction",
+        "decision": "insert",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "数据与任务定义",
+        "plan_kind": "data_or_task",
+        "source_image_filename": "page_005_fig_figure_3.png",
+        "relative_markdown_embed": "![Figure 3](images/page_005_fig_figure_3.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Figure 4",
+        "source_id": "Figure 4",
+        "kind": "figure",
+        "label": "Figure 4",
+        "caption": "Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:introduction",
+        "decision": "insert",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "数据与任务定义",
+        "plan_kind": "data_or_task",
+        "source_image_filename": "page_006_fig_figure_4.png",
+        "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+        "materialization_status": "pending"
+      },
+      {
+        "item_id": "figure:Figure 5",
+        "source_id": "Figure 5",
+        "kind": "figure",
+        "label": "Figure 5",
+        "caption": "The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage",
+        "pages": [
+          7
+        ],
+        "section_id": "sec:introduction",
+        "decision": "insert",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "数据与任务定义",
+        "plan_kind": "data_or_task",
+        "source_image_filename": "page_007_fig_figure_5.png",
+        "relative_markdown_embed": "![Figure 5](images/page_007_fig_figure_5.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+        "materialization_status": "pending"
+      }
+    ],
+    "caption_counts": {
+      "figures": 5,
+      "tables": 0
+    },
+    "planned_items": 5,
+    "requires_full_decision_table": true
+  },
+  "pdf_assets": {
+    "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells",
+    "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images",
+    "page_assets": [
+      {
+        "page_number": 1,
+        "searchable_text_chars": 4041,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 3,
+        "text_preview": "research papers IUCrJ (2018). 5, 141–149 https://doi.org/10.1107/S2052252517017912 141 IUCrJ ISSN 2052-2525 NEUTRONjSYNCHROTRON Received 10 October 2017 Accepted 15 December 2017 Edited by K. Moffat, University of Chicago, USA Keywords: cel"
+      },
+      {
+        "page_number": 2,
+        "searchable_text_chars": 6414,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "facilitates the imaging of cells in a more rapid and simple manner, can be used to obtain videos of living cells and can achieve exquisite detail and molecular speciﬁcity via the use of ﬂuorescent labelling technologies. However, the comple"
+      },
+      {
+        "page_number": 3,
+        "searchable_text_chars": 4779,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "effect of radiation damage, two projections were taken at 0\u0004 before and after full data sets had been acquired. The two projections were in good agreement, indicating that there was no detectable radiation damage to the macrophage (Supple- "
+      },
+      {
+        "page_number": 4,
+        "searchable_text_chars": 4189,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "dimensional projection from the calculated three-dimensional Gd distribution (Supplementary Fig. S10). 2.5. Organelle segmentation and three-dimensional volume rendering The reconstructed three-dimensional images were segmented manually and"
+      },
+      {
+        "page_number": 5,
+        "searchable_text_chars": 4989,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "[Gd@C82(OH)22]n is aggregated in the macrophages and exhibits a characteristic distribution. Compared with the two- dimensional projected distribution (Fig. 3b), the problems with ambiguity resulting from the overlap of structures along the"
+      },
+      {
+        "page_number": 6,
+        "searchable_text_chars": 4182,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "the cell, which suggest high efﬁciency of the nanomedicine. Additionally, the low toxicity of [Gd@C82(OH)22]n relative to conventional chemotherapy also makes this species a promising biomedical candidate. The toxicity of NPs is closely rel"
+      },
+      {
+        "page_number": 7,
+        "searchable_text_chars": 2604,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "indicating the trend and the future of X-ray imaging. By using the multiple-model approach, each modality contributes unique information on the specimen. The complementary data are combined and consequently yield a more complete picture of "
+      },
+      {
+        "page_number": 8,
+        "searchable_text_chars": 6555,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "[Gd@C82(OH)22]n was highly taken up by macrophages and was mainly distributed in lysosomes. The subcellular distri- bution of this nanomedicine advanced our understanding of the corresponding antitumour activities. The results conﬁrmed the "
+      },
+      {
+        "page_number": 9,
+        "searchable_text_chars": 3091,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Papadimitriou, J. M. & Ashman, R. B. (1989). Ultrastruct. Pathol. 13, 343–372. Pe´rez-Berna´, A. J., Rodrı´guez, M. J., Chicho´n, F. J., Friesland, M. F., Sorrentino, A., Carrascosa, J. L., Pereiro, E. & Gastaminza, P. (2016). ACS Nano, 10,"
+      }
+    ],
+    "image_assets": [
+      {
+        "page_number": 1,
+        "image_index": 1,
+        "xref": 228,
+        "filename": "page_001_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 940,
+        "height": 1124,
+        "colorspace": 3,
+        "size_bytes": 141234,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 2,
+        "xref": 229,
+        "filename": "page_001_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 521,
+        "height": 98,
+        "colorspace": 3,
+        "size_bytes": 6970,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 3,
+        "xref": 230,
+        "filename": "page_001_img_03.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_001_img_03.jpeg",
+        "ext": "jpeg",
+        "width": 211,
+        "height": 208,
+        "colorspace": 3,
+        "size_bytes": 27159,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 1,
+        "xref": 7,
+        "filename": "page_003_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 2887,
+        "height": 888,
+        "colorspace": 3,
+        "size_bytes": 172895,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 1,
+        "xref": 13,
+        "filename": "page_004_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 2887,
+        "height": 1185,
+        "colorspace": 3,
+        "size_bytes": 232547,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 5,
+        "image_index": 1,
+        "xref": 18,
+        "filename": "page_005_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 2883,
+        "height": 884,
+        "colorspace": 3,
+        "size_bytes": 229239,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 1,
+        "xref": 22,
+        "filename": "page_006_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 2033,
+        "height": 1460,
+        "colorspace": 3,
+        "size_bytes": 363163,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 7,
+        "image_index": 1,
+        "xref": 26,
+        "filename": "page_007_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 2032,
+        "height": 3267,
+        "colorspace": 3,
+        "size_bytes": 433965,
+        "extraction_level": "xref"
+      }
+    ],
+    "figure_assets": [
+      {
+        "filename": "page_003_fig_figure_1.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_003_fig_figure_1.png",
+        "page_number": 3,
+        "label": "Figure 1",
+        "kind": "figure",
+        "caption_text": "Figure 1 Schematic layout of the dual-energy imaging technique. (a) Two sets of projections were acquired by STXM at energies below and above the absorption edge of a specific element, (b) the projections were reconstructed by the EST algorithm separately (scale bar 4.0 mm) and (c) the quantitative three- dimensional distribution of the specific element was calculated based on the abrupt change in the absorption (scale bar 2.0 mm).",
+        "width": 1466,
+        "height": 572,
+        "size_bytes": 464760,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.22486,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.76325,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 435,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_004_fig_figure_2.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_004_fig_figure_2.png",
+        "page_number": 4,
+        "label": "Figure 2",
+        "kind": "figure",
+        "caption_text": "Figure 2 Three-dimensional structures of the macrophage. (a) The isosurface rendering at 1189 eV showing characteristic features of the macrophage, such as pseudopods, rough surfaces and flat shapes. These features indicate that the immune cell was in a highly active state. The same slices at 1189 eV (b) and 1186 eV (c) perpendicular to the beam direction reveal the subcellular structures, such as low-density vacuoles. Enlarged regions of the rectangle at 1189 eV (d) and 1186 eV (e) show differences in absorption because of the presence of [Gd@C82(OH)22]n. The scale bar in (b) and (c) is 2.0 mm and that in (d) and (e) is 0.5 mm.",
+        "width": 1466,
+        "height": 769,
+        "size_bytes": 1311142,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.30221,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.757868,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 636,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_005_fig_figure_3.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_005_fig_figure_3.png",
+        "page_number": 5,
+        "label": "Figure 3",
+        "kind": "figure",
+        "caption_text": "Figure 3 Distribution of [Gd@C82(OH)22]n in the macrophage. (a) Quantitative distribution of [Gd@C82(OH)22]n in a 50 nm thick slice. (b) Distribution of [Gd@C82(OH)22]n in a projection perpendicular to the beam direction. (c) XRF of the same cell mapping Gd. The exact three-dimensional location of [Gd@C82(OH)22]n can be determined in (a). Furthermore, the high spatial resolution in (a) avoids the ambiguity in (c), which is caused by the low spatial resolution and self-absorption of fluorescence signals (scale bar 2.0 mm).",
+        "width": 1466,
+        "height": 603,
+        "size_bytes": 958316,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.236929,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.72034,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 527,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_006_fig_figure_4.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_006_fig_figure_4.png",
+        "page_number": 6,
+        "label": "Figure 4",
+        "kind": "figure",
+        "caption_text": "Figure 4 Positional determination of nanomaterials in the nuclear region. The exact three-dimensional distribution of [Gd@C82(OH)22]n in the nuclear region distinguished by sectioning in two orthogonal directions, where the z direction is the beam direction. (a) Successive slices along the z direction. The change in the linear absorption coefficient was used to determine the exact position of the nanomaterials, and lysosomes containing nanoparticles stick together and remain on the surface of the nucleus. The interfaces of the nucleus and vacuoles with nanomaterials are shown by black arrows. (b) Slices along the x direction at five positions (I, II, III, IV and V), as shown in (a). In I, II and V cracks are obvious (red arrows), indicating that the nanomaterials are located on the surface of the nucleus (scale bar 1.0 mm).",
+        "width": 1466,
+        "height": 942,
+        "size_bytes": 1510864,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.370254,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.536838,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 835,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_007_fig_figure_5.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Three_dimensional_ultrastructural_imaging_reveals_the_nanoscale_architecture_of_mammalian_cells/images/page_007_fig_figure_5.png",
+        "page_number": 7,
+        "label": "Figure 5",
+        "kind": "figure",
+        "caption_text": "Figure 5 The intracellular distribution of nanomaterials. (a) Volume rendering of the reconstructed macrophage showing [Gd@C82(OH)22]n (dark red), nucleus (brown) and different types of lysosomes (yellow). (b) Organelle segmentation based on differences in the linear absorption and specific morphology. (c) Three- dimensional distribution of [Gd@C82(OH)22]n, showing that the NPs aggregate and exhibit a characteristic distribution in the cell. (d) Enlarged view of the nucleus in three dimensions showing that the NPs were distributed in four separated lysosomes on the surface of the nucleus. (e) Three different types of lysosomes were distinguished based on the density and distribution of [Gd@C82(OH)22]n, which may reflect the intracellular transportation of the nanomaterials.",
+        "width": 1038,
+        "height": 1911,
+        "size_bytes": 1432061,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.53167,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.836102,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 784,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      }
+    ],
+    "ocr_available": false
+  },
+  "writing_contract": {
+    "language": "zh-CN",
+    "contract_role": "manifest_quality_contract",
+    "canonical_source": "SKILL.md defines the workflow; scripts/contracts.py defines machine-checkable contract data.",
+    "must_include_sections": [
+      "核心信息",
+      "原文摘要翻译",
+      "创新点",
+      "一句话总结",
+      "研究问题",
+      "数据与任务定义",
+      "方法主线",
+      "关键结果",
+      "深度分析",
+      "局限",
+      "我的笔记",
+      "引用"
+    ],
+    "note_plan_contract": {
+      "required_fields": [
+        "paper_type",
+        "paper_type_rationale",
+        "dominant_domain",
+        "must_cover",
+        "key_numbers",
+        "real_comparisons",
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions",
+        "section_plan"
+      ],
+      "artifact_preference": "short_json_planning_file",
+      "grounding_field": "section_plan[*].evidence_sources",
+      "analysis_coverage_field": "central_claims[*]"
+    },
+    "paper_type_selection": {
+      "source_of_truth": "note_plan.paper_type",
+      "suggested_paper_type_role": "none",
+      "allowed_paper_types": [
+        "AI_method",
+        "benchmark_or_dataset",
+        "clinical_or_psychology_empirical",
+        "humanities_or_social_science",
+        "survey_or_review"
+      ]
+    },
+    "contracts_by_paper_type": {
+      "AI_method": {
+        "paper_type": "AI_method",
+        "reader_lens": "面向能复现方法机制的技术读者",
+        "section_focus": [
+          "问题设置",
+          "方法机制",
+          "训练/推理流程",
+          "关键公式",
+          "比较基线",
+          "消融与失败边界"
+        ],
+        "required_checks": [
+          "需要说明机制流程、关键公式、实验设计、消融含义和失败边界。"
+        ],
+        "formula_rules": [
+          "仅保留理解方法必需的 1 到 3 个关键公式，并解释其工程含义。"
+        ],
+        "avoid_rules": [
+          "不要把非 AI_method 论文强行改写成模型架构。"
+        ],
+        "boundary_questions": [
+          "核心机制的收益由哪个实验或消融支撑，而不是只由主结果暗示？",
+          "哪些比较只能证明在当前数据、基线、算力或协议下有效，不能外推到通用场景？",
+          "论文是否给出失败、退化、不稳定或成本上升的证据；如果没有，结论边界是什么？"
+        ],
+        "section_semantics": {
+          "研究问题": "方法要解决的具体技术问题和现有方法短板。",
+          "数据与任务定义": "数据集、输入输出、评测任务和实验设置。",
+          "方法主线": "模型、算法、训练或推理机制。",
+          "关键结果": "主结果、强基线、消融和关键数字。",
+          "深度分析": "方法为什么有效、何处脆弱、复现和扩展代价。"
+        },
+        "recommended_subsections": {
+          "方法主线": [
+            "机制流程",
+            "模型结构",
+            "训练目标",
+            "推理与采样链路",
+            "关键实现细节"
+          ],
+          "关键结果": [
+            "主结果与强基线",
+            "消融到底说明了什么",
+            "失败或不稳定设置"
+          ],
+          "深度分析": [
+            "为什么有效",
+            "复杂度与扩展性",
+            "复现注意点"
+          ]
+        },
+        "mechanism_flow_contract": {
+          "apply_when_paper_type_in": [
+            "AI_method"
+          ],
+          "required_step_count": "3_to_4",
+          "required_step_fields": [
+            "input",
+            "operation",
+            "output_destination"
+          ]
+        }
+      },
+      "benchmark_or_dataset": {
+        "paper_type": "benchmark_or_dataset",
+        "reader_lens": "面向要判断 benchmark/dataset 可用性和偏差边界的研究者",
+        "section_focus": [
+          "任务拆分",
+          "数据来源与构建流程",
+          "标注协议",
+          "评测指标",
+          "覆盖范围与偏差",
+          "样本统计与数据开放限制"
+        ],
+        "required_checks": [
+          "需要说明数据来源、构建/标注流程、评测指标、基线表现、样本统计、数据开放或隐私限制和适用边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心评测指标、采样规则或划分定义。"
+        ],
+        "avoid_rules": [
+          "不要把数据构建流程写成模型 pipeline。"
+        ],
+        "boundary_questions": [
+          "这个 benchmark/dataset 实际测量的构念是什么，哪些能力只是间接近似？",
+          "任务、标签、采样、过滤或评测协议会引入哪些覆盖缺口或偏差？",
+          "基线结果证明了评测集有区分度，还是只证明某类模型适应该协议？",
+          "样本时长、语料长度、人口统计、类别分布、数据可访问性或隐私限制如何影响复现和外推？"
+        ],
+        "section_semantics": {
+          "研究问题": "这个 benchmark/dataset 想补足的评测或数据缺口。",
+          "数据与任务定义": "数据来源、任务拆分、标签/题目定义、样本范围。",
+          "方法主线": "数据构建、筛选、标注和评测协议，不写成模型 pipeline。",
+          "关键结果": "基线表现、难度分布、覆盖范围和偏差。",
+          "深度分析": "它真正测到了什么，以及不能代表什么。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "数据来源",
+            "任务拆分",
+            "标注/筛选协议"
+          ],
+          "方法主线": [
+            "构建流程",
+            "评测协议",
+            "Baseline 设置"
+          ],
+          "关键结果": [
+            "基线表现",
+            "难度分布",
+            "覆盖与偏差"
+          ],
+          "深度分析": [
+            "benchmark 真正测到了什么",
+            "适用边界"
+          ]
+        }
+      },
+      "clinical_or_psychology_empirical": {
+        "paper_type": "clinical_or_psychology_empirical",
+        "reader_lens": "面向关注临床/心理学样本、变量关系和外推边界的研究读者",
+        "section_focus": [
+          "样本来源",
+          "纳排标准",
+          "变量或量表",
+          "分析管线",
+          "效应量与不确定性",
+          "样本统计、伦理和数据可访问性"
+        ],
+        "required_checks": [
+          "需要区分相关、预测、组间差异和因果解释，说明样本统计、伦理/隐私约束与外推边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心统计模型、效应量、置信区间或量表定义。"
+        ],
+        "avoid_rules": [
+          "不要把相关性、预测性能或组间差异写成未经证明的因果结论。"
+        ],
+        "boundary_questions": [
+          "样本来源、纳排标准、测量工具和标注流程如何限制外推？",
+          "结果支持相关、预测、组间差异还是因果解释；不要越过论文设计能证明的范围。",
+          "临床或心理学意义是否依赖未观测混杂、量表阈值、文本/语音缺失或场景约束？",
+          "样本构成、数据缺失、隐私限制或材料不可公开会怎样限制复现与再分析？"
+        ],
+        "section_semantics": {
+          "研究问题": "临床、心理学或行为科学中的研究问题、假设或变量关系。",
+          "数据与任务定义": "样本来源、纳排标准、变量/量表、测量方式。",
+          "方法主线": "研究设计、分组、测量流程和统计分析路径。",
+          "关键结果": "主要效应、相关性、组间差异、不确定性或显著性。",
+          "深度分析": "结果解释、因果边界、临床/心理学意义和外推限制。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "样本与纳排标准",
+            "变量与量表",
+            "测量流程"
+          ],
+          "方法主线": [
+            "研究设计",
+            "分析模型",
+            "主要比较"
+          ],
+          "关键结果": [
+            "主要效应",
+            "不确定性与显著性",
+            "临床或心理学解释"
+          ],
+          "深度分析": [
+            "因果解释边界",
+            "外推限制"
+          ]
+        }
+      },
+      "humanities_or_social_science": {
+        "paper_type": "humanities_or_social_science",
+        "reader_lens": "面向关注理论框架、材料解释和论证结构的研究读者",
+        "section_focus": [
+          "研究对象",
+          "材料来源",
+          "理论框架",
+          "论证路径",
+          "概念贡献",
+          "解释边界"
+        ],
+        "required_checks": [
+          "需要区分作者论证、材料证据、规范性判断和实验事实。"
+        ],
+        "formula_rules": [
+          "通常不强行保留公式；仅保留核心形式化定义或编码规则。"
+        ],
+        "avoid_rules": [
+          "不要把规范性判断、文本解释或案例分析写成实验事实。"
+        ],
+        "boundary_questions": [
+          "作者的解释依赖哪些材料、案例或理论前提？",
+          "是否存在同样能解释材料的替代解释，论文如何排除或没有排除？",
+          "哪些结论是概念贡献或规范性判断，而不是可直接当作经验事实？"
+        ],
+        "section_semantics": {
+          "研究问题": "作者要解释的社会、文化、历史、制度或理论问题。",
+          "数据与任务定义": "材料、案例、文本、访谈、档案或语料范围，不写成 ML task。",
+          "方法主线": "理论框架、概念区分和论证路径。",
+          "关键结果": "核心解释性发现、概念贡献或对既有观点的修正。",
+          "深度分析": "论证强度、材料边界、解释替代性和可迁移性。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "材料范围",
+            "选择标准",
+            "案例或语料边界"
+          ],
+          "方法主线": [
+            "理论框架",
+            "概念区分",
+            "论证路径"
+          ],
+          "关键结果": [
+            "核心解释性发现",
+            "概念贡献"
+          ],
+          "深度分析": [
+            "论证强度",
+            "替代解释",
+            "材料边界"
+          ]
+        }
+      },
+      "survey_or_review": {
+        "paper_type": "survey_or_review",
+        "reader_lens": "面向需要梳理综述脉络、分类体系和证据边界的研究读者",
+        "section_focus": [
+          "综述范围",
+          "纳入排除标准",
+          "主题分类",
+          "方法谱系",
+          "共识与分歧",
+          "开放问题"
+        ],
+        "required_checks": [
+          "需要说明综述范围、文献选择、分类体系、共识分歧和开放问题。"
+        ],
+        "formula_rules": [
+          "仅保留分类轴、纳入排除准则、证据汇总规则或 meta-analysis 统计量。"
+        ],
+        "avoid_rules": [
+          "不要把综述中的代表性结论写成作者自己完成的单项实验结果。"
+        ],
+        "boundary_questions": [
+          "检索范围、纳入排除标准或分类轴会遗漏哪些研究路线？",
+          "综述给出的是领域共识、作者分类，还是尚未解决的分歧？",
+          "哪些趋势结论来自覆盖范围内的文献分布，不能直接当作技术成熟度判断？"
+        ],
+        "section_semantics": {
+          "研究问题": "综述试图整理的领域问题、争议或知识缺口。",
+          "数据与任务定义": "纳入文献范围、检索/筛选标准和综述对象。",
+          "方法主线": "分类体系、综述组织方式和证据综合逻辑，不写成单篇方法架构。",
+          "关键结果": "领域共识、分歧、趋势、代表性方向和开放问题。",
+          "深度分析": "综述覆盖的盲区、分类体系的解释力和未来研究机会。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "综述范围",
+            "纳入/排除标准",
+            "文献覆盖"
+          ],
+          "方法主线": [
+            "分类体系",
+            "方法谱系",
+            "证据组织方式"
+          ],
+          "关键结果": [
+            "代表性方向",
+            "共识与分歧",
+            "开放问题"
+          ],
+          "深度分析": [
+            "分类体系的局限",
+            "未覆盖区域",
+            "后续研究机会"
+          ]
+        }
+      }
+    },
+    "grounding_contract": {
+      "source_of_truth": "source_manifest",
+      "accepted_reference_forms": [
+        "section_id",
+        "pages"
+      ],
+      "required_sections": [
+        "研究问题",
+        "数据与任务定义",
+        "方法主线",
+        "关键结果",
+        "深度分析",
+        "局限"
+      ],
+      "note_plan_depth_requirements": {
+        "required_section_focus_min_chars": 20,
+        "required_section_focus_fields": [
+          "focus",
+          "reading_goal",
+          "purpose"
+        ],
+        "generic_focus_phrases": [
+          "use the raw source to explain",
+          "paper-specific role of",
+          "explain the paper-specific role",
+          "explain this section",
+          "summarize this section"
+        ]
+      },
+      "reject_old_references": [
+        "synthesis_bundle.evidence",
+        "bundle.evidence",
+        "synthesis_bundle.candidate_chunks",
+        "synthesis_bundle.section_texts",
+        "synthesis_bundle.summary",
+        "bundle.candidate_chunks",
+        "bundle.section_texts",
+        "bundle.summary"
+      ],
+      "lint_command": "scripts/lint_grounding.py --note-plan ... --source-manifest ... --bundle-json ..."
+    },
+    "figure_table_contract": {
+      "placeholder_first": true,
+      "visual_quality_gate": "fail_closed",
+      "decision_table_required": true,
+      "decision_values": [
+        "insert",
+        "placeholder",
+        "low_priority",
+        "visual_defect",
+        "skip"
+      ],
+      "usable_insert_candidate": {
+        "kinds": [
+          "figure",
+          "table"
+        ],
+        "visual_quality_status": "usable_candidate",
+        "requires_source_image_path": true
+      },
+      "allowed_usable_placeholder_reasons": [
+        "visual_defect",
+        "materialization_blocked"
+      ],
+      "manual_visual_review_required_statuses": [
+        "usable_candidate",
+        "needs_visual_quality_check",
+        "review"
+      ],
+      "automatic_fail_closed_visual_statuses": [
+        "reject_visual_quality",
+        "asset_candidate_missing"
+      ],
+      "manual_review_claim_requires_image_inspection": true
+    },
+    "analysis_coverage_contract": {
+      "central_claim_fields": [
+        "claim",
+        "supporting_evidence",
+        "what_it_actually_proves",
+        "what_it_does_not_prove"
+      ],
+      "required_plan_fields": [
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions"
+      ],
+      "final_quality_review_checks": [
+        "central_claims_are_supported_by_raw_sections_or_pages",
+        "key_experimental_settings_and_numbers_are_present",
+        "mechanisms_or_protocol_choices_are_mapped_to_results",
+        "comparisons_explain_positioning_against_alternatives",
+        "discussion_or_limitation_claims_are_explained_mechanistically",
+        "proven_claims_are_separated_from_unproven_or_unvalidated_claims",
+        "research_or_engineering_takeaways_are_specific_and_reusable",
+        "followup_questions_are_specific_to_replication_or_extension"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "review": "final_quality_review",
+  "status": "passed",
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "reviewed_file": "2024_Image_registration_in_situ_X-ray_nano-imaging_draft.md",
+  "checks": [
+    {
+      "name": "identity_and_scope",
+      "passed": true,
+      "finding": "论文身份、机构、DOI 与发表信息已核对；笔记始终将工作界定为二维 TXM-XANES 非刚性配准，而不是三维纳米 CT 实验。"
+    },
+    {
+      "name": "method_chain",
+      "passed": true,
+      "finding": "四步机制明确给出输入、操作和输出，准确区分 Cycle-GAN 检出、SSIM 匹配、双重 U-Net 轮廓优化、质心配准及 XANES 重建的职责。"
+    },
+    {
+      "name": "quantitative_evidence",
+      "passed": true,
+      "finding": "6435/286 幅数据、143 能点、54 次扫描、98.32% 相似度、4.37/2.14 倍位移峰值和小于 10 s 运行时间均附有适用场景与证据边界。"
+    },
+    {
+      "name": "negative_result",
+      "passed": true,
+      "finding": "正文醒目标明作者没有观察到形变与氧化还原异质性的明显相关性，没有把潜在研究用途写成已建立的耦合机制。"
+    },
+    {
+      "name": "facility_attribution",
+      "passed": true,
+      "finding": "真实数据被表述为 SSRF BL18B 与 SSRL 6-2C 协作数据池；在论文未逐图明确归属时，没有把所有实验结果单独归于上海光源。"
+    },
+    {
+      "name": "figures_and_internal_consistency",
+      "passed": true,
+      "finding": "四幅插图均已人工确认视觉完整并与目标章节匹配；正文同时记录合成能量栈 143 与图示 140 的内部报告差异。"
+    },
+    {
+      "name": "limitations",
+      "passed": true,
+      "finding": "覆盖孤立颗粒假设、有限训练域、真实数据无真值、视场裁剪、SSIM 非谱学无偏证明及小样本问题。"
+    }
+  ],
+  "edits_made": false,
+  "lint_rerun_required": false,
+  "final_lint": {
+    "all_required_gates_passed": true,
+    "warnings": []
+  }
+}

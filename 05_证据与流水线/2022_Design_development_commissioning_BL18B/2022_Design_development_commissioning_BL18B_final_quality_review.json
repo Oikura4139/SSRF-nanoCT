@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.3788/aos202242.2334001",
+  "reviewed_artifacts": [
+    "2022_Design_development_commissioning_BL18B_source_manifest.json",
+    "2022_Design_development_commissioning_BL18B_full_text.md",
+    "2022_Design_development_commissioning_BL18B_note_plan.json",
+    "2022_Design_development_commissioning_BL18B_figure_table_decisions.json",
+    "2022_Design_development_commissioning_BL18B_draft.md",
+    "2022_Design_development_commissioning_BL18B_note_lint.json"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：以 PDF 首页中文题名和英文对应题名为准，作者、三家机构、期刊卷期和 DOI 均与原文一致。",
+    "abstract_fidelity": "pass：完整保留线站定位、实验方法、能区、20 纳米设计目标、光学布局、自研子系统、2021 调试和 2022 开放表述。",
+    "commissioning_numbers": "pass：四项设计—实测对照均与正文一致；能量分辨率保留三次平均与误差，通量保留 200 毫安实测后换算到 300 毫安的条件。",
+    "claim_boundaries": "pass：19.6 纳米被限定为 8 千电子伏、60 秒曝光的二维 PSD 指标；未外推为三维 CT 分辨率。",
+    "indigenous_development_boundary": "pass：自主研制仅覆盖论文点名的单毛细管、机械和控制采集软件；商业 Applied Nanotools 波带片被明确列出。",
+    "priority_claim_boundary": "pass：国际首条被标记为作者的优先权声明，并指出缺少统一协议的系统检索和第三方复核。",
+    "mechanism_depth": "pass：四步链路覆盖弯铁、准直/单色/聚焦、次级光源、单毛细管、样品、FZP 和探测，并解释三组验收公式。",
+    "figure_evidence": "pass：8 个自动 insert 候选逐图复核后只保留 Fig. 2、Fig. 4、Fig. 6；其余因正文污染、跨图污染或表格残缺降级。"
+  },
+  "edits_made": [
+    "将 Fig. 3、Fig. 5、Fig. 7、Table 2、Table 3 从 insert 降级为 visual_defect，并记录具体污染原因。",
+    "把研究问题列表的分号改为句号，消除疑似断句。",
+    "将深度分析中的缺失声明改写为明确证据边界，避免把局限段落替代分析内容。"
+  ],
+  "remaining_known_risks": [
+    "源 PDF 的表格文本抽取丢失若干指数；笔记采用正文叙述和公式中的完整数值交叉核对，没有照抄残缺表格。",
+    "三维能力、长期稳定性和用户开放后的运行绩效不在本文验收数据中。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

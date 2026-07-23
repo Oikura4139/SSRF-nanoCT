@@ -1,0 +1,217 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1107/s1600577524000146",
+  "title": "Image registration for in situ X-ray nano-imaging of a composite battery cathode with deformation",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2024_Image_registration_in_situ_X-ray_nano-imaging/2024_Image_registration_in_situ_X-ray_nano-imaging_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2024_Image_registration_in_situ_X-ray_nano-imaging/2024_Image_registration_in_situ_X-ray_nano-imaging_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2024_Image_registration_in_situ_X-ray_nano-imaging.pdf",
+    "total_pages": 8,
+    "text_pages_extracted": 8,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 8,
+    "text_max_pages": null,
+    "text_pages_extracted": 8,
+    "text_pages_scanned": 8,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 8
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2603,
+      "text_hash_sha256": "292091e8194621dbeff1c15bf9cbb0693d3c62176ea5de2faa123fc3c89fdff1"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 6190,
+      "text_hash_sha256": "eac890c196e3aac6e3f6aead81d1eda931d1689d6862e4030f16fbfe8b5423ee"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "2. Method",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 3474,
+      "text_hash_sha256": "6b0d58bb49da715744d005a3e2216ca50879e3852267b4e3878b06dc730066a4"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "dataset.",
+      "page_start": 3,
+      "page_end": 7,
+      "char_count": 17847,
+      "text_hash_sha256": "596a7d3f064b160ff56d7cf133bf48d1ffd59e8988b2c1ffd0aeb59c3b04cc43"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "5. Conclusion",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 3125,
+      "text_hash_sha256": "167253400a6761a01991f9d02af3923c930450a014863fe860419d2027fd8436"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 3582,
+      "text_hash_sha256": "1507456dd47985eb12b8909ea6794ebce41fb6273c9883a1def26793cbe489d4"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4041,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 6407,
+      "section_ids": [
+        "sec:introduction",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3082,
+      "section_ids": [
+        "sec:method",
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3284,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 6147,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4753,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4003,
+      "section_ids": [
+        "sec:dataset",
+        "sec:conclusion"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 5260,
+      "section_ids": [
+        "sec:conclusion",
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "A schematic overview of the proposed algorithm. (a) A raw image stack of typical XANES imaging data with significant image jittering and deformation.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "An illustration of the proposed algorithm. A Cycle-GAN generator is first used to identify isolated particles, leading to a set of ROI filters. A Dual U-net",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Analysis of the image alignment results of a synthetic dataset. (a) The image stack with enlarged ROI to illustrate the image distortion. (b) A comparison",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Alignment and analysis of operando XANES imaging of an NCM battery cathode upon charging. (a) Raw TXM images. (b) The results of ROI detection",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:dataset"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "= 1, \u0016 is the",
+      "section_id": "sec:dataset",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "DMC (dimethyl carbonate): DEC (diethyl carbonate) = 1:1:1",
+      "section_id": "sec:dataset",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "was filled in an argon-filled glovebox (O2/H2O < 0.1 p.p.m.).",
+      "section_id": "sec:dataset",
+      "page_start": 3,
+      "page_end": 7
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "d3b39752bceb87e5c68662b353116eb21a04d57737e25b36d9f447830741e2eb"
+}

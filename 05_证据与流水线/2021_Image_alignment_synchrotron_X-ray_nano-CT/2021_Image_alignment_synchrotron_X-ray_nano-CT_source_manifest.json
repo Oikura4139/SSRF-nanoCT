@@ -1,0 +1,688 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.7498/aps.70.20210156",
+  "title": "苏博 陶芬 李可 杜国浩 张玲 李中亮 邓彪 谢红兰 肖体乔",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2021_Image_alignment_synchrotron_X-ray_nano-CT/2021_Image_alignment_synchrotron_X-ray_nano-CT_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/05_证据与流水线/2021_Image_alignment_synchrotron_X-ray_nano-CT/2021_Image_alignment_synchrotron_X-ray_nano-CT_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/上海光源纳米CT/01_核心论文PDF/2021_Image_alignment_synchrotron_X-ray_nano-CT.pdf",
+    "total_pages": 16,
+    "text_pages_extracted": 16,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 16,
+    "text_max_pages": null,
+    "text_pages_extracted": 16,
+    "text_pages_scanned": 16,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 14
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 2191,
+      "text_hash_sha256": "bacc372d2b65059175d1d090c40d7f5325c5c7308a8175a32d77ba09138c35ff"
+    },
+    {
+      "section_id": "sec:section",
+      "kind": "introduction",
+      "title": "1 引 言",
+      "page_start": 2,
+      "page_end": 5,
+      "char_count": 6036,
+      "text_hash_sha256": "0efe469c9dbb8d340687d41acdb67fea2e21f0fb04e1b0f38bc6c594772e8a37"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 5,
+      "page_end": 5,
+      "char_count": 100,
+      "text_hash_sha256": "73db8f00a3606a52cab090b695908a139da48cc313f969273beb4c8e8dca1617"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 5,
+      "page_end": 6,
+      "char_count": 1733,
+      "text_hash_sha256": "ea24318b7eba5aadbbea4a7c2c1cc30fdc118d3885a88a3da3bd7898e37880d5"
+    },
+    {
+      "section_id": "sec:model-3",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 6,
+      "page_end": 14,
+      "char_count": 11768,
+      "text_hash_sha256": "efab529ce6ead462141da9b2b23626ad1a0d02cf564d770ddbc49f9c18ab1483"
+    },
+    {
+      "section_id": "sec:section-2",
+      "kind": "references",
+      "title": "参考文献",
+      "page_start": 14,
+      "page_end": 16,
+      "char_count": 7633,
+      "text_hash_sha256": "b5b6c41e1d751337a55a283eb2a0873fb664af22f7c3c1c52e30cc679ba400c9"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 16,
+      "page_end": 16,
+      "char_count": 1649,
+      "text_hash_sha256": "86efffc467d79497c5aba5d0f9ed4b433af2f1d8baa224c8bd5c72eafeecb52f"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 1599,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 1620,
+      "section_ids": [
+        "sec:preamble",
+        "sec:section"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1878,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2157,
+      "section_ids": [
+        "sec:section"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1575,
+      "section_ids": [
+        "sec:section",
+        "sec:model",
+        "sec:model-2"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 1771,
+      "section_ids": [
+        "sec:model-2",
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 1700,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 1446,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 1377,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 1356,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 1447,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 1727,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 1824,
+      "section_ids": [
+        "sec:model-3"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 2225,
+      "section_ids": [
+        "sec:model-3",
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 5895,
+      "section_ids": [
+        "sec:section-2"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 2245,
+      "section_ids": [
+        "sec:section-2",
+        "sec:abstract"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "图 1",
+        "caption": "失准投影合成的Sinogram 图及重构切片图 (a) 发生偏移误差时; (b) 发生X 射线能量变化时[3]",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Sinogram graph synthesized by misalignment projection: (a) With translation errors including vertical and horizontal move-",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 2",
+        "caption": "在线机械校准 (a) 激光干涉仪[4]; (b) 激光干涉仪记录旋转目标偏移轨迹[4]; (c) 上海光源软X 光谱学显微实验站样品台[5]",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Online mechanical calibration: (a) Laser interferometer[4]; (b) laser interferometer records the deviation trajectory of the ro-",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 3",
+        "caption": "图像配准领域文章发表情况 (a) 近30 年图像配准论文发表情况; (b) 近10 年深度学习图像配准论文增长趋势",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Publication of papers in the field of image registration: (a) Publication of research papers on image registration in the past",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 4",
+        "caption": "图像配准算法分类概述导图",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Classification overview map of image registration algorithms.",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 5",
+        "caption": "图像配准的常规流程图",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "General flow chart of image registration.",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:section"
+      },
+      {
+        "id": "图 6",
+        "caption": "基于傅里叶变换的图像配准流程图",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model-2"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Flow chart of image registration based on Fourier transform.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model-2"
+      },
+      {
+        "id": "图 7",
+        "caption": "FREAK 算法的类视网膜取样模式[31]",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Retina-like sampling mode of FREAK algorithm[31].",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 8",
+        "caption": "MR-PMA 配准法流程图[36]",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "Flow chart of MR-PMA image alignment[36].",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 12",
+        "caption": "所示. 首先, 利用RP 法计算旋转中心与投影",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 9",
+        "caption": "通过MR-PMA 方法配准的FBP 法重建质量[36] (Dataset 1 为标准数据集, Dataset2 为欠采样并包含161 个噪点的数据集、",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "FBP reconstruction quality after alignment by our MR-PMA method[36] (Columns show reconstruction at different down-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 10",
+        "caption": "评估具有不同缺陷的不同图像配准算法的精度和鲁棒性[37]",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Evaluation of the precision and the robustness of different image registration algorithms with added imperfections[37].",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 11",
+        "caption": "纳米级投影图像迭代配准重建流程图[37]",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 11",
+        "caption": "Schematics of the iterative projection image registration workflow for nanoscale X-ray tomographic reconstructions[37].",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 12",
+        "caption": "配准后页岩投影重建切片对比: (a) 原始数据, (b) 手动配准, (c) 自动配准; 重投影后页岩投影数据对比: (d) 实验数据,",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 12",
+        "caption": "Reconstructed slices through the center of the shale sample without alignment (a) and with manual (b) or automatic (c)",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 13",
+        "caption": "Ji-Faproma 算法不同噪声水平下的配准精度对比[38] (a) 投影内旋转误差的平均根方差; (b) 投影垂直误差和水平误差",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 13",
+        "caption": "Performance of the JI-Faproma evaluated by comparing the alignment accuracy under different noise levels[38]: (a) Root-",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 14",
+        "caption": "Ji-Faproma 算法在不同噪声水平下的收敛情况[38]",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 14",
+        "caption": "Ji-Faproma algorithm convergence under different noise level of raw projections[38].",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 15",
+        "caption": "GMs 抖动校正法的流程图[39]",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 15",
+        "caption": "Workflow of the proposed jitter correction[39].",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 16",
+        "caption": "采用不同矫正方法的重构结果[39] (图中: a 列—d 列分别是原始数据、手动对齐、重投影法、GMs 法的切片; 第1—第",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 16",
+        "caption": "Sinograms (top row) and reconstructed slices of a chlorella cell using different methods[39] (Row 2: reconstructed slices of",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 17",
+        "caption": "深度学习研究论文发表情况统计 (a) 2014 年至2020 年多种深度学习模式图像配准论文发表数量统计; (b) 2014 年至",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 17",
+        "caption": "A survey of the publication of deep learning research papers: (a) Number of published image registration papers based on",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 18",
+        "caption": "基于线索感知深度学习网络的图像配准[46]",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 18",
+        "caption": "The framework of the proposed similarity-steered CNN regression for deformable image registration[46].",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 19",
+        "caption": "基于GAN 研究的论文发表情况",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 19",
+        "caption": "Number of papers published related to GAN re-",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 20",
+        "caption": "基于GAN 的医学图像配准流程图[52] (a) 生成器 (b) 鉴别器",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 20",
+        "caption": "Flow chart of medical image registration based on GAN[52]: (a) Generator network; (b) discriminator network.",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "图 21",
+        "caption": "GAN 配准前特征点预处理流程图[54]",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model-3"
+      },
+      {
+        "id": "Fig 21",
+        "caption": "Outline of using GAN as a preprocessing step be-",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:model-3"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "Noise level=0",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Noise level=5%",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Noise level=10%",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Noise level=20%",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=0",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=15",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=0",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=15",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=0",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=15",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=0",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    },
+    {
+      "text": "Iteration=15",
+      "section_id": "sec:model-3",
+      "page_start": 6,
+      "page_end": 14
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "mixed",
+  "text_hash_sha256": "6b75cf2b53707a356cbfd8fcf9b9966b21d1ceaf80f66b9016c9aecaa3d83360"
+}

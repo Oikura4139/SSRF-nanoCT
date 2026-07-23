@@ -1,0 +1,380 @@
+{
+  "status": "ok",
+  "script": "extract_evidence.py",
+  "paper_id": "doi:10.3788/col201614.093401",
+  "title": "untitled",
+  "evidence_pack": {
+    "paper_id": "doi:10.3788/col201614.093401",
+    "problem_evidence": [],
+    "task_evidence": [],
+    "data_evidence": [],
+    "method_evidence": [],
+    "mechanism_evidence": [],
+    "results_evidence": [],
+    "ablation_evidence": [],
+    "limitations_evidence": [],
+    "equation_candidates": [],
+    "reference_candidates": [
+      {
+        "raw_text": "1. Y. Liu, J. C. Andrews, J. Wang, F. Meirer, P. Zhu, Z. Wu, and P.",
+        "display_text": "Y. Liu, J. C. Andrews, J. Wang, F. Meirer, P. Zhu, Z. Wu, and P.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "2. F. Meirer, J. Cabana, Y. Liu, A. Mehta, J. C. Andrews, and P.",
+        "display_text": "F. Meirer, J. Cabana, Y. Liu, A. Mehta, J. C. Andrews, and P.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "3. J. Wang, Y.-C. K. Chen, Q. Yuan, A. Tkachuk, C. Erdonmez, B. Hornberger, and M. Feser, Appl. Phys. Lett. 100, 143107 (2012).",
+        "display_text": "J. Wang, Y.-C. K. Chen, Q. Yuan, A. Tkachuk, C. Erdonmez, B. Hornberger, and M. Feser, Appl. Phys. Lett. 100, 143107 (2012).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "4. S. Wang, D. Wang, Q. Wu, K. Gao, Z. Wang, and Z. Wu, J. Synchrotron Radiat. 22, 1091 (2015).",
+        "display_text": "S. Wang, D. Wang, Q. Wu, K. Gao, Z. Wang, and Z. Wu, J. Synchrotron Radiat. 22, 1091 (2015).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "5. J. Fu, C. Li, and Z. Liu, PLoS One 10, 141682 (2015).",
+        "display_text": "J. Fu, C. Li, and Z. Liu, PLoS One 10, 141682 (2015).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "6. J. S. Cronin, Y.-C. K. Chen-Wiegart, J. Wang, and S. A. Barnett, J. Power Sources 233, 174 (2013).",
+        "display_text": "J. S. Cronin, Y.-C. K. Chen-Wiegart, J. Wang, and S. A. Barnett, J. Power Sources 233, 174 (2013).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "7. Y.-C. K. Chen-Wiegart, Z. Liu, K. T. Faber, S. A. Barnett, and J.",
+        "display_text": "Y.-C. K. Chen-Wiegart, Z. Liu, K. T. Faber, S. A. Barnett, and J.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "8. T.-Y. Chen, Y.-T. Chen, C.-L. Wang, I. M. Kempson, W.-K. Lee, Y. S. Chu, Y. Hwu, and G. Margaritondo, Opt. Express 19, 19919 (2011).",
+        "display_text": "T.-Y. Chen, Y.-T. Chen, C.-L. Wang, I. M. Kempson, W.-K. Lee, Y. S. Chu, Y. Hwu, and G. Margaritondo, Opt. Express 19, 19919 (2011).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "9. J. Vila-Comamala, Y. Pan, J. Lombardo, W. M. Harris, W. Chiu, C.",
+        "display_text": "J. Vila-Comamala, Y. Pan, J. Lombardo, W. M. Harris, W. Chiu, C.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "10. R. Chen, P. Liu, T. Xiao, and L. X. Xu, Adv. Mater. 26, 7688 (2014).",
+        "display_text": "R. Chen, P. Liu, T. Xiao, and L. X. Xu, Adv. Mater. 26, 7688 (2014).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "11. H. Xie, B. Deng, G. Du, Y. Fu, R. Chen, G. Zhou, Y. Ren, Y. Wang, Y. Xue, and G. Peng, Nucl. Sci. Tech. 2, 6 (2015).",
+        "display_text": "H. Xie, B. Deng, G. Du, Y. Fu, R. Chen, G. Zhou, Y. Ren, Y. Wang, Y. Xue, and G. Peng, Nucl. Sci. Tech. 2, 6 (2015).",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "12. H. Liu, Y. Ren, H. Guo, Y. Xue, H. Xie, T. Xiao, and X. Wu, Chin.",
+        "display_text": "H. Liu, Y. Ren, H. Guo, Y. Xue, H. Xie, T. Xiao, and X. Wu, Chin.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "13. W. Chen, Y. Wang, H. Liu, B. Deng, Y. Yang, and T. Xiao, Chin.",
+        "display_text": "W. Chen, Y. Wang, H. Liu, B. Deng, Y. Yang, and T. Xiao, Chin.",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "14. Z. Chen, H. Xie, B. Deng, G. Du, H. Jiang, and T. Xiao, Chin. Opt. shaper and its three-dimensional intensity profile, and (b) hollow spot after the beam stop and its three-dimensional intensity profile. radial bar at the 500 nm zone, (c) enlarged image of the inner part of the target, and (d) the intensity profile of the radial bar at the 100 nm zone.",
+        "display_text": "Z. Chen, H. Xie, B. Deng, G. Du, H. Jiang, and T. Xiao, Chin. Opt. shaper and its three-dimensional intensity profile, and (b) hollow spot after the beam stop and its three-dimensional intensity profile. radial bar at the 500 nm zone, (c) enlarged image of the inner part of the target, and (d) the intensity profile...",
+        "page_hint": "p. 4",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "15. Y. Ren, C. Chen, R. Chen, G. Zhou, Y. Wang, and T. Xiao, Opt.",
+        "display_text": "Y. Ren, C. Chen, R. Chen, G. Zhou, Y. Wang, and T. Xiao, Opt.",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "16. Q. Yang, B. Deng, W. Lv, F. Shen, R. Chen, Y. Wang, G. Du, F. Yan, T. Xiao, and H. Xu, J. Synchrotron Radiat. 19, 210 (2012).",
+        "display_text": "Q. Yang, B. Deng, W. Lv, F. Shen, R. Chen, Y. Wang, G. Du, F. Yan, T. Xiao, and H. Xu, J. Synchrotron Radiat. 19, 210 (2012).",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "17. B. Deng, G. Du, G. Zhou, Y. Wang, Y. Ren, R. Chen, P. Sun, H. Xie, and T. Xiao, Analyst 140, 3521 (2015).",
+        "display_text": "B. Deng, G. Du, G. Zhou, Y. Wang, Y. Ren, R. Chen, P. Sun, H. Xie, and T. Xiao, Analyst 140, 3521 (2015).",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "18. C. Xia, J. Li, Y. Cao, B. Kou, X. Xiao, K. Fezzaa, T. Xiao, and Y.",
+        "display_text": "C. Xia, J. Li, Y. Cao, B. Kou, X. Xiao, K. Fezzaa, T. Xiao, and Y.",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "19. M.-Q. Zhang, L. Zhou, Q.-F. Deng, Y.-Y. Xie, T.-Q. Xiao, Y.-Z. Cao, J.-W. Zhang, X.-M. Chen, X.-Z. Yin, and B. Xiao, Sci. Rep. 5, 14982 (2015).",
+        "display_text": "M.-Q. Zhang, L. Zhou, Q.-F. Deng, Y.-Y. Xie, T.-Q. Xiao, Y.-Z. Cao, J.-W. Zhang, X.-M. Chen, X.-Z. Yin, and B. Xiao, Sci. Rep. 5, 14982 (2015).",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      },
+      {
+        "raw_text": "20. X.-Z. Yin, L. Wu, Y. Li, T. Guo, H.-Y. Li, T.-Q. Xiao, P. York, A.",
+        "display_text": "X.-Z. Yin, L. Wu, Y. Li, T. Guo, H.-Y. Li, T.-Q. Xiao, P. York, A.",
+        "page_hint": "p. 5",
+        "doi": "",
+        "arxiv_id": "",
+        "wikilink": "",
+        "vault_target": "",
+        "match_status": "no_vault_match",
+        "match_reason": "none"
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Fig 1",
+        "caption": "Schematic layout of the full-field microscope at the SSRF"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Beam shaper compared with FZP."
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Three kinds of sample illumination modes: (a) normal in-"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Schematic layout of the image magnification system."
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Picture for the experimental setup: (a) the overall micro-"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "Sample illumination system: (a) focused spot of beam"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "Image of the Siemens star by the developed microscope:"
+      }
+    ],
+    "table_captions": [],
+    "sections": [
+      {
+        "name": "preamble",
+        "length": 16306,
+        "preview": "Full-field x ray nano-imaging system designed and constructed at SSRF Binggang Feng (丰丙刚)1,2, Biao Deng (邓彪)1,2,*, Yuqi Ren (任玉琦)1, Yudan Wang (王玉丹)1, Guohao Du (杜国浩)1, Hai Tan (谭海)1,2, Yanling Xue (薛艳玲)1, and Tiqiao Xiao (肖体乔)1,2 1Shanghai"
+      }
+    ],
+    "section_texts": {
+      "preamble": "Full-field x ray nano-imaging system designed and constructed at SSRF Binggang Feng (丰丙刚)1,2, Biao Deng (邓彪)1,2,*, Yuqi Ren (任玉琦)1, Yudan Wang (王玉丹)1, Guohao Du (杜国浩)1, Hai Tan (谭海)1,2, Yanling Xue (薛艳玲)1, and Tiqiao Xiao (肖体乔)1,2 1Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201204, China 2University of Chinese Academy of Sciences, Beijing 100049, China *Corresponding author: dengbiao@sinap.ac.cn Received June 5, 2016; accepted July 19, 2016; posted online August 30, 2016 Full-field x ray nano-imaging (FXNI) is one of the most powerful tools for in-situ, non-destructive observation of the inner structure of samples at the nanoscale. Owing to the high flux density of the third-generation synchro- tron radiation facility, great progress is achieved for FXNI and its applications. Up to now, a spatial resolution of 20 nm for FXNI is achieved. Based on the user operation experiences over the years at the Shanghai Synchrotron Radiation Facility (SSRF) x ray imaging beamline, we know lots of user experiments will rely on a large range of spatial resolutions and fields of view (FOVs). In particular, x ray microscopes with a large FOV and a moderate spatial resolution of around 100 nm have a wide range of applications in many research fields. Driven by user requirements, a dedicated FXNI system is designed and constructed at the SSRF. This microscope is based on a beam shaper and a zone plate, with the optimized working energy range set to 8–10 keV. The experimental test results by a Siemens star pattern demonstrate that a spatial resolution of 100 nm is achieved, while an FOV of 50 μm is obtained. OCIS codes: 340.6720, 340.7440, 110.0110, 220.4830. doi: 10.3788/COL201614.093401. Full-field x ray nano-imaging (FXNI) is one of the most powerful tools for in-situ, non-destructive observation of the inner structure in samples at nanoscale. Owing to the high flux density of the third-generation synchrotron radiation facility, great progress has been achieved for FXNI. The Stanford Synchrotron Radiation Light Source (SSRL)[1,2], the National Synchrotron Light Source (NSLS)[3], the National Synchrotron Radiation Research Center (NSRRC), and the Beijing Synchrotron Radiation Facility (BSRF)[4,5] have built hard x ray nano-imaging systems for nano sciences in many fields, such as material, biomedicine, energy, and so on[6,7]. Up to now, a spatial resolution of 20 nm for FXNI has been obtained[8,9]. Up to now, undue emphasis has been paid to high res- olution. The contradiction between the high resolution and large field of view (FOV) in the x ray microscope is apparent, which limits its extensive applications in many research fields. Based on the user operation experiences over the years at the Shanghai Synchrotron Radiation Facility (SSRF) x ray imaging beamline, we know lots of user experiments will rely on a large range of spatial resolution and FOV, especially x ray microscopes with a large FOV and moderate spatial resolution[10]. Driven by user requirements and challenges, an FXNI system was designed and constructed by an x ray imaging group at the SSRF. This microscope is based on a beam shaper and a zone plate, working in both the absorption contrast and Zernike phase contrast modes, with the opti- mized energy range set to 8–10 keV. In this Letter, the design, construction, and test results of a full-field x ray microscope with nanometer resolution are reported in detail. The x ray imaging beamline (BL13W1) is one of seven initial beamlines at the SSRF, a medium-energy third- generation synchrotron radiation facility. The light source is a hybrid-type wiggler, and the double crystal monochro- mator at BL13W1 provides the energy range of the beamline between 8–72.5 keV with a beam size of 45 mm × 5 mm. Since May 2009, a variety of research studies, mainly in material science and biomedicine, have been carried out at the beamline[11–21]. The development of an FXNI system will improve the spatial resolution of the beamline from microns to nanometers and expand its applications to nanosciences. The design goal of the micro- scope is a spatial resolution of 100 nm with an FOV of 50 μm × 50 μm. Usually, this kind of microscope is composed of two parts: the sample illumination system, and the image mag- nification system. There are mainly two kinds of optics employed for sample illumination; these are single-bounce monocapillary x ray optics and a beam shaper based on the diffraction of the binary optical elements (BOEs). The monocapillary optics has the advantage of high effi- ciency and disadvantage of a small spot size when it is used for third-generation synchrotron radiation with a much lower emittance. The BOE, which is purposefully de- signed, has the ability to focus a beam to desired profiles, but with lower efficiency. Given the consideration to the high-precision scanning system needed for capillary optics, a beam shaper based on the BOE is adopted for the sample COL 14(9), 093401(2016) CHINESE OPTICS LETTERS September 10, 2016 1671-7694/2016/093401(5) 093401-1 © 2016 Chinese Optics Letters illumination system in our design. For the narrow band- width illumination, the focus depth of the condenser is more than 100 μm, which is long enough for full-field nano-tomography with an FOV of 50 μm × 50 μm. Similar to other microscopes in the world, a Fresnel zone plate (FZP) is used for the image magnification system. The designed microscope can operate at both the absorption contrast and Zernike phase contrast, with the optimized energy set to 10 keV. Shown in Fig. 1 is the schematic layout of a microscope at the SSRF BL13W1 beamline. The full-field nanoscope installed at the BL13W1 beamline is approximately 9 m long. The beam shaper is installed 33 m downstream from the source. A set of x ray slits acts as an adjustable order- sorting aperture to keep out stray light. The sample is mounted on a high-precision rotation stage and can be adjusted along three directions. The detector is mounted at 6.5–7.0 m from the zone plate (objective lens) to achieve a high enough magnification ratio. In order to improve the flux density at the sample, a focusing optical element is usually used for the illumina- tion system of a full-field x ray microscope. The focusing optics are designed to match the horizontal and vertical acceptance of the microscope to the emittance of the incident x ray beam. In general, there are two main merits of using a beam shaper based on the BOE as the focusing optics. One of the advantages is that we can get flat-top illumination and avoid stray light, while the flux density at the sample plane is meanwhile increased. The other is that the BOE-based beam shaper can be carefully de- signed to match the square active area of the x ray detec- tor. As a result, high brightness and uniform illumination can be achieved by using such a beam shaper[22]. In fact, the analysis of the beam shaper is similar to that of a stan- dard FZP, According to the formula[23] δ ¼ 1.22ΔRn; (1) where δ is the imaging resolution, and ΔRn is the outer- most zone width. In our design, the imaging resolution δ is 100 nm. Accordingly, the theoretical value of ΔRn should be less than 81.9 nm. In our system, the value of ΔRn is selected to be 70 nm, which is manufactured by Paul Scherrer Institut (PSI)[24–27]. The height of the gold structures in the beam shaper is 1000 nm; it is fabricated by electroplating into a polyimide mold. This leads to an aspect ratio of 13 and ensures about 8% diffraction effi- ciency of the BOE condenser. The beam shaper collects 1.8 mm × 1.8 mm of the x ray beam and creates a sample illumination of 50 μm × 50 μm at a distance of f condenser ¼ 1459 mm downstream. The underlying idea of the beam shaper condenser is to divide a conventional FZP into sectors, keeping the local spatial frequency within each sector constant. Each sub- field consists of a linear grating with a constant line orientation and period, both corresponding to the local orientation and period of the structures of the FZP. As a result, at the focal plane, we can get a flat-top illumina- tion from every sector. The schematic of the beam shaper is shown in Fig. 2, with that of a standard FZP given for comparison. The first diffraction of every subfield will form exactly with a coinciding square illumination in its focal plane, and the illuminated area is equal to the size of each subfield. We adopt a gold zone plate as the objective lens, with a zone height of 1 μm and a diameter of 100 μm. The focal length of the lens is f lens ¼ 56.5 mm. Compared with the x ray beam transmitted through the imaging system, the diffracted beam is much weaker. Considering the factor, if the zone plate is perpendicular to the incident beam, the transmitted x ray beam will be straight through the sample and go directly to the bottom of this imaging detector. It will cause a high imaging background, and the signal-to-noise ratio is deteriorated accordingly. However, this effect can be eliminated by changing the sample illuminating mode. What is more, the spatial resolution of the zone plate can also be improved, as shown in Fig. 3. As shown in Fig. 3(a), the fine structure of the sample is 2Δr, and the spatial frequency of the sample is 2Δr, which is correspondent to the maximum diffraction angle of θ. With normal incidence, the zone plate is designed to collect the spatial frequency up to 2Δr. In Fig. 3(b), the spatial frequency of the sample is increased to 1 Δr. Still with normal incidence, the same zone plate can no longer collect x rays with spatial frequency in the range of 2Δr ∼1 Δr. In Fig. 3(c), with so-called oblique incidence, the incident Fig. 1. Schematic layout of the full-field microscope at the SSRF BL13W1 beamline. Fig. 2. Beam shaper compared with FZP. COL 14(9), 093401(2016) CHINESE OPTICS LETTERS September 10, 2016 093401-2 beam is inclined an angle of θ to the optical axis of the imaging system. Only in this way can the same zone plate collect all the x rays at a spatial frequency up to Δr. As a result, the sample illuminating system of the beam shaper introduced in the preceding paragraph works in the oblique incidence mode with a hollow cone beam incident on the sample, in which a central stop of gold is adopted to prevent x rays from going straight through the beam shaper. The size of the central stop is 1.3 mm × 1.3 mm. According to the above analysis, for an objective zone plate with an outermost zone width of 70 nm, δ ¼ 0.61ΔRn, the designed spatial resolution of the microscope is 43 nm, which also matches the beam shaper. As shown in Fig. 4, in order to improve the imaging con- trast, a phase plate with Zernike phase dots is inserted at the back focal plane of the zone plate. A phase shift of π∕2 is introduced among the focused x rays downstream of the zone plate to decode the phase contrast of the samples. The depth of the dots (etched into silicon) is 6.34 μm, the period of the dots is 1.935 μm, and the width of the dots is 600 nm, which corresponds to a phase shift of π∕2. The effect of this dot array, which is specially designed to match the light field of the BOE condenser’s illumination in the Fourier space, is similar to that of a general phase ring. As we know, the BOE condenser’s individual structural element corresponds to a light spot downstream from the zone plate. The picture of the microscope is shown in Fig. 5, where 1 denotes the central stop, 2 the condenser (beam shaper), 3 the order-sorting aperture, 4 the nano-imaging box, 5 the helium gas pipeline, 6 the detector (6.5 μm/pixel), 7 the sample station, 8 the zone plate, and 9 the phase dots array. The sample is mounted on a high-precision rotation stage with an x, y-centering device, which is from Sanying Precision Instruments Ltd. The sample stage can be adjusted in four dimensions. The zone plate and the phase dots array are fixed on two stages and can be adjusted along three directions separately. The central stop was installed to prevent transmitted x rays from arriving at the detector and improve the imaging contrast. A pipe filled with helium gas was placed in the x ray path between the Zernike phase dots and the detector to reduce the absorption of air. The x ray detector was 6900 mm downstream from the zone plate, which is a Hamamatsu Flash 4.0 detector equipped with an AA50 objective lens. The pixel size of the detector is 6.5 μm × 6.5 μm. A magnification factor of M ¼ 122 can be realized by this setup. According to the parameters of the wiggler source at the BL13W1 beamline, the estimated photon flux density incident on the beam shaper is approximately 2.0 × 1010 phs∕s∕mm2 at 10 keV. As shown in Fig. 6(a), a square-shaped flat-top illumi- nation is produced by the beam shaper at its focal plane. With the help of the central stop before the beam shaper, the hollow spot is generated, and its intensity distribution along the optical path is shown in Fig. 6(b). A Siemens star with the smallest structure width of 100 nm is taken as the test sample for the developed micro- scope. The exposure time for a single projection is 60 s. Shown in Fig. 7 is the image of the Siemens star by the microscope. In Fig. 7(a), structures in the whole field of the Siemens star could be resolved correctly and isotropi- cally as a whole, in an FOV of 50 μm × 50 μm. The inten- sity profile in Fig. 7(b) shows that a high contrast of 0.76 could be achieved at a resolution of 500 nm. Figure 7(c) is the magnified image of Fig. 7(a), from which the bar struc- ture in the innermost layer of the resolution target could be distinguished. This means that a spatial resolution of 100 nm is achieved, which is also confirmed by the inten- sity profile shown in Fig. 7(d). From Fig. 7(d), it can be seen that a contrast of 0.28 is attained at the resolution of 100 nm. Fig. 3. Three kinds of sample illumination modes: (a) normal in- cidence with fine structure of sample 2Δr, (b) normal incidence with fine structure of sample Δr, and (c) inclined incidence with fine structure of sample Δr. Fig. 4. Schematic layout of the image magnification system. Fig. 5. Picture for the experimental setup: (a) the overall micro- scope, and (b) the nano-imaging system. COL 14(9), 093401(2016) CHINESE OPTICS LETTERS September 10, 2016 093401-3 The x ray detector is optically coupled to the scintillator and the objective lens worked in 1× mode, giving a theo- retical pixel size of approximately 43 nm. This means a spatial resolution better than 90 nm could be achieved in that case. As mentioned above, the zone plate used in the microscope has a potential resolution of 43 nm. To fulfill this goal, an x ray detector with a higher reso- lution should be used by making the objective lens work in the 2× mode. A full-field x ray microscope is designed and constructed at the SSRF BL13W1 beamline. The test result by a stan- dard Siemen star shows that a spatial resolution of 100 nm and an FOV of 50 μm × 50 μm can be achieved by the microscope. The image of the Siemen star shows that the contrast inside the FOV is isotropic and high enough for further experiments with real samples. The system is designed to have a potential resolution of 50 nm, which could be achieved by using a detector with a smaller effec- tive pixel size. By combining it with an equally sloped tomography[28–30], a typical nano-CT system will be developed based on the present microscope in the future. The successful develop- ment of such a user-oriented full-field x ray nanoscope would provide a powerful imaging tool for numerous research fields. The developed system also has the purpose of R&D for future x ray imaging beamlines. A dedicated FXNI beam- line based on a bending magnet is to be built, as included in the SSRF phase-II project. The beamline aims at the three-dimensional imaging of the nanoscale inner struc- tures. The photon energy range is 5–14 keV. Design goals with an FOV of 20 microns and a spatial resolution of 20 nm are proposed. The authors are grateful to their colleagues at the SSRF BL13W1 beamline for their help with the experiments. This work was supported by the National Natural Science Foundation of China under Grant Nos. U1532118, 11275257, 81430087, 11475248, 11405260, and U1232205."
+    },
+    "candidate_chunks": {
+      "abstract": [],
+      "introduction": [],
+      "method": [],
+      "experiment": [],
+      "conclusion": [],
+      "data": [],
+      "general": []
+    },
+    "language_hint": "en",
+    "section_sources": {
+      "abstract": "abstract",
+      "introduction": "",
+      "method": "",
+      "experiment": "",
+      "conclusion": "",
+      "data": "mixed"
+    },
+    "section_extraction_coverage": {
+      "coverage_status": "poor",
+      "recognized_sections": [
+        "preamble"
+      ],
+      "core_sections_found": [],
+      "missing_core_sections": [
+        "introduction",
+        "method",
+        "experiment"
+      ],
+      "section_text_chars": {
+        "preamble": 16306
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 5,
+      "text_max_pages": 32,
+      "text_pages_scanned": 5,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 4,
+      "section_stop_reason": "references",
+      "section_stop_page": 4
+    },
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "appendix_evidence": {
+      "ablation": [],
+      "implementation_details": [],
+      "dataset_details": [],
+      "extra_results": [],
+      "qualitative_examples": []
+    },
+    "quotes": [],
+    "extraction_failures": [
+      "section_coverage_poor"
+    ],
+    "evidence_quality": "low"
+  },
+  "summary": {
+    "paper_type": "AI_method",
+    "paper_type_rationale": "The paper is best treated as a method-focused technical paper.",
+    "datasets": [],
+    "metrics": [],
+    "mechanism_signals": [],
+    "ablation_signals": [],
+    "equation_candidates": [],
+    "section_keys": [
+      "preamble"
+    ],
+    "language_hint": "en",
+    "section_coverage_status": "poor",
+    "fallback_sections": [],
+    "pdf_coverage": {
+      "total_pages": 5,
+      "text_max_pages": 32,
+      "text_pages_scanned": 5,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 4,
+      "section_stop_reason": "references",
+      "section_stop_page": 4
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "pdf_used": true,
+    "candidate_chunk_sections": []
+  }
+}

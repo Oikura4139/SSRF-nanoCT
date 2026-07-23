@@ -1,0 +1,867 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3788/lop251906",
+  "decisions": [
+    {
+      "item_id": "figure:图 1",
+      "source_id": "图 1",
+      "kind": "figure",
+      "label": "图 1",
+      "caption": "BL18B 的总体布局图",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Schematic of the BL18B layout",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_002_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig 1](images/page_002_fig_fig_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_fig_1.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "BL18B 从弯铁源、光学棚到实验站 TXM 的布局图完整，部件位置和中英文题注清晰，无污染。"
+    },
+    {
+      "item_id": "figure:图 2",
+      "source_id": "图 2",
+      "kind": "figure",
+      "label": "图 2",
+      "caption": "纳米三维成像线站BL18B 的实验空间布局图",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Experimental hutch layout of the 3D nano-imaging beamline BL18B",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 3",
+      "source_id": "图 3",
+      "kind": "figure",
+      "label": "图 3",
+      "caption": "单毛细管椭球聚焦镜及振动装置",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Mono-capillary ellipsoidal condenser and vibration device",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 4",
+      "source_id": "图 4",
+      "kind": "figure",
+      "label": "图 4",
+      "caption": "基于EPICS 的控制与数据采集系统。",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "EPICS-based control and data acquisition system. (a) Interface for various motors; (b) interface and functions of the control and",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选是整页截图，控制界面图上下左右混入大量正文、页眉和章节内容。",
+      "skip_reason": "manual_visual_review_full_page_body_text_and_running_header_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig 4](images/page_005_fig_fig_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_005_fig_fig_4.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Fig 4 图体存在但只占页面下半部，周围含两栏正文和期刊页眉，不适合作为独立插图。"
+    },
+    {
+      "item_id": "figure:图 5",
+      "source_id": "图 5",
+      "kind": "figure",
+      "label": "图 5",
+      "caption": "不同成像方法协同框架图",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Synergistic framework diagram of different imaging methods",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现协同框架图顶部保留显著期刊运行页眉，候选不是干净独立裁图。",
+      "skip_reason": "manual_visual_review_running_header_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_006_fig_fig_5.png",
+      "relative_markdown_embed": "![Fig 5](images/page_006_fig_fig_5.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_5.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "方法协同图体和题注完整，但顶部整条期刊页眉污染明显，判定不直接物化。"
+    },
+    {
+      "item_id": "figure:图 6",
+      "source_id": "图 6",
+      "kind": "figure",
+      "label": "图 6",
+      "caption": "TXM 在不同分辨率模式下的分辨率靶透射成像结果",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "Transmission imaging results of TXM at different resolution modes",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现六面板图体完整，但中英文长题注在候选底部被明显截断，属于不完整裁图。",
+      "skip_reason": "manual_visual_review_caption_severely_truncated",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_fig_6.png",
+      "relative_markdown_embed": "![Fig 6](images/page_006_fig_fig_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_006_fig_fig_6.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "高/中分辨靶标、线剖面和 PSD 面板均可读，但题注多行被裁掉，候选完整性不足。"
+    },
+    {
+      "item_id": "figure:图 7",
+      "source_id": "图 7",
+      "kind": "figure",
+      "label": "图 7",
+      "caption": "两种分辨率模式下的高/低原子序数标准样品纳米成像结果",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "Nanoscale imaging results of high/low atomic number standard samples in two resolution modes[17]. (a) 2D slice image of high",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选是整页截图，六面板参考样品结果周围混入大量两栏正文、页眉和截断题注。",
+      "skip_reason": "manual_visual_review_full_page_body_text_and_caption_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_fig_7.png",
+      "relative_markdown_embed": "![Fig 7](images/page_007_fig_fig_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_007_fig_fig_7.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "目标六面板本体完整，但整页正文占比很高且题注下缘被截，不能独立插入。"
+    },
+    {
+      "item_id": "figure:图 8",
+      "source_id": "图 8",
+      "kind": "figure",
+      "label": "图 8",
+      "caption": "TXM-XANES 获得的NCM811 颗粒的Ni 元素的化学状态图分布图",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "Ni chemical state map distributions of NCM811 particles obtained using TXM-XANES. (a) XZ plane; (b) YZ plane; (c) the",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 9",
+      "source_id": "图 9",
+      "kind": "figure",
+      "label": "图 9",
+      "caption": "NCM811 颗粒的3D Ni 氧化态分布",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "3D Ni oxidation state distributions of the NCM811 particle",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 10",
+      "source_id": "图 10",
+      "kind": "figure",
+      "label": "图 10",
+      "caption": "Cu 组KES-CT 切片灰度分析",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Grayscale analysis of KES-CT slices in Cu group",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现候选是整页截图，Cu 组 KES-CT 图上下混入大量方法正文、页眉和截断题注。",
+      "skip_reason": "manual_visual_review_full_page_body_text_and_running_header_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_fig_10.png",
+      "relative_markdown_embed": "![Fig 10](images/page_009_fig_fig_10.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_009_fig_fig_10.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Cu 样品切片、灰度分布和线性拟合面板可读，但周围正文与页眉污染严重，图注亦不完整。"
+    },
+    {
+      "item_id": "figure:图 12",
+      "source_id": "图 12",
+      "kind": "figure",
+      "label": "图 12",
+      "caption": "双U-Net 纳米CT 自动配准方法流程图",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 12",
+      "source_id": "Fig 12",
+      "kind": "figure",
+      "label": "Fig 12",
+      "caption": "Flow chart of dual U-Net based automatic nano-CT alignment method",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_fig_12.png",
+      "relative_markdown_embed": "![Fig 12](images/page_010_fig_fig_12.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_12.png",
+      "materialization_status": "pending",
+      "manual_visual_observation": "双 U-Net 投影自动配准流程、掩膜、顶点波动信息、重建和三维输出完整，题注清晰，无污染。"
+    },
+    {
+      "item_id": "figure:图 11",
+      "source_id": "图 11",
+      "kind": "figure",
+      "label": "图 11",
+      "caption": "Ni 组KES-CT 切片灰度分析",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 11",
+      "source_id": "Fig 11",
+      "kind": "figure",
+      "label": "Fig 11",
+      "caption": "Grayscale analysis of KES-CT slices in Ni group",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Ni 组 KES-CT 图顶部保留期刊页眉，底部长题注被截断。",
+      "skip_reason": "manual_visual_review_running_header_and_caption_truncation",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_fig_11.png",
+      "relative_markdown_embed": "![Fig 11](images/page_010_fig_fig_11.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_010_fig_fig_11.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "Ni 样品切片、灰度分布和线性拟合面板完整，但页眉污染和底部题注截断不满足独立插图要求。"
+    },
+    {
+      "item_id": "figure:图 13",
+      "source_id": "图 13",
+      "kind": "figure",
+      "label": "图 13",
+      "caption": "XANES 配准方法示意图",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 13",
+      "source_id": "Fig 13",
+      "kind": "figure",
+      "label": "Fig 13",
+      "caption": "Schematic diagrams of the XANES registration method",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 14",
+      "source_id": "图 14",
+      "kind": "figure",
+      "label": "图 14",
+      "caption": "S-MXene 和S-SBM 薄膜表征",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 14",
+      "source_id": "Fig 14",
+      "kind": "figure",
+      "label": "Fig 14",
+      "caption": "Characterization of S-MXene and S-SBM films",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 16",
+      "source_id": "图 16",
+      "kind": "figure",
+      "label": "图 16",
+      "caption": "改性前后电池正极颗粒表征",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 16",
+      "source_id": "Fig 16",
+      "kind": "figure",
+      "label": "Fig 16",
+      "caption": "Characterization of cathode particles before and after modification",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 15",
+      "source_id": "图 15",
+      "kind": "figure",
+      "label": "图 15",
+      "caption": "不同电池中阴极颗粒的原位Ni 元素谱学TXM 成像",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 15",
+      "source_id": "Fig 15",
+      "kind": "figure",
+      "label": "Fig 15",
+      "caption": "In situ Ni spectroscopic TXM imaging of cathode particles in different batteries",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 17",
+      "source_id": "图 17",
+      "kind": "figure",
+      "label": "图 17",
+      "caption": "LMLE 和HMLE 结构和孔隙的CT 重建图像",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 17",
+      "source_id": "Fig 17",
+      "kind": "figure",
+      "label": "Fig 17",
+      "caption": "CT reconstruction images of the skeletal and porous structures of LMLE and HMLE",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 18",
+      "source_id": "图 18",
+      "kind": "figure",
+      "label": "图 18",
+      "caption": "LMLE 和HMLE 中Co 元素的谱学成像分析",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 18",
+      "source_id": "Fig 18",
+      "kind": "figure",
+      "label": "Fig 18",
+      "caption": "Spectroscopic imaging analysis of Co element in LMLE and HMLE",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:图 19",
+      "source_id": "图 19",
+      "kind": "figure",
+      "label": "图 19",
+      "caption": "Al-5Li 和Al-5Li@HTPB 粉末表征",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 19",
+      "source_id": "Fig 19",
+      "kind": "figure",
+      "label": "Fig 19",
+      "caption": "Characterization of Al-5Li and Al-5Li@HTPB powders",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:表 1",
+      "source_id": "表 1",
+      "kind": "table",
+      "label": "表 1",
+      "caption": "国际主流TXM 线站关键参数对比",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Key parameters of international TXM beamlines",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Table 1 顶部题注被裁切，表格下方串入大段双栏正文。",
+      "skip_reason": "manual_visual_review_caption_crop_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_002_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_002_fig_table_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_1.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "国际线站对比表体可读，但标题上缘缺失且表下包含两栏正文，候选越界明显。"
+    },
+    {
+      "item_id": "table:表 2",
+      "source_id": "表 2",
+      "kind": "table",
+      "label": "表 2",
+      "caption": "BL18B 线站主要技术指标",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Main technical parameters of BL18B",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:abstract",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_002_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_002_fig_table_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_002_fig_table_2.png"
+    },
+    {
+      "item_id": "table:表 3",
+      "source_id": "表 3",
+      "kind": "table",
+      "label": "表 3",
+      "caption": "两种椭球聚焦镜的物理参数",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "The parameter of ellipsoidal capillary",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "visual_defect",
+      "reason": "人工视觉复核发现 Table 3 顶部题注被裁切，表格下方串入 2.2.2 节标题及大段正文。",
+      "skip_reason": "manual_visual_review_caption_crop_section_heading_and_body_text_contamination",
+      "visual_quality_status": "manual_visual_defect",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_004_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_004_fig_table_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_3.png",
+      "materialization_status": "not_applicable",
+      "manual_visual_observation": "两种毛细管参数表体完整，但标题上缘被裁、表下正文污染面积大，不适合作为独立表图。"
+    },
+    {
+      "item_id": "table:表 4",
+      "source_id": "表 4",
+      "kind": "table",
+      "label": "表 4",
+      "caption": "两种X 射线成像探测器的参数",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Specifications of the two X-ray imaging detectors",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:abstract",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_004_fig_table_4.png",
+      "relative_markdown_embed": "![Table 4](images/page_004_fig_table_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/上海光源纳米三维成像线站方法学及应用研究进展特邀/images/page_004_fig_table_4.png"
+    }
+  ],
+  "summary": {
+    "total_items": 46,
+    "by_decision": {
+      "insert": 2,
+      "low_priority": 34,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 10
+    }
+  }
+}
