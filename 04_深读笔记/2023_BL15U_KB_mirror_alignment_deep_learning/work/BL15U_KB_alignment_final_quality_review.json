@@ -1,0 +1,19 @@
+{
+  "status": "passed_with_source_caveat",
+  "review_date": "2026-07-29",
+  "scope": [
+    "01_全文中文翻译_BL15U_KB镜失调深度学习估计.md",
+    "02_深读总结_BL15U_KB镜失调深度学习估计.md"
+  ],
+  "checks": {
+    "identity_and_metadata": true,
+    "full_available_body_translation_coverage": true,
+    "quantitative_claims_grounded": true,
+    "method_and_results_separated": true,
+    "limitations_explicit": true,
+    "application_inference_labeled": true,
+    "missing_figure_assets_disclosed": true,
+    "all_lint_gates_pass": true
+  },
+  "source_caveat": "用户提供的 PDF 是 ChinaXiv 英文机器翻译镜像，正文完整，但原图和部分表格内容仅保留“见原论文”占位。译文和深读笔记没有臆造缺失图表数据，并逐项标记了复核需求。"
+}

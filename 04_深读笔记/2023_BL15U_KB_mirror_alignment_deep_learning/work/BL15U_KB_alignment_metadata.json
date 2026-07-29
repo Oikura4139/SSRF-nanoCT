@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+  "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+  "title": "AI translation ・View original & related papers at",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "paper_id": "title:b4208097f5ca",
+  "identity_confidence": "low",
+  "identity_confidence_reasons": [
+    "first_page_title_used"
+  ],
+  "script": "collect_metadata.py"
+}

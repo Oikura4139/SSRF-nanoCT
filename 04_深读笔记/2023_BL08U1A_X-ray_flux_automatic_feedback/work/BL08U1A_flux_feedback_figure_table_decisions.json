@@ -1,0 +1,227 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3390/app13095456",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_figure_1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task_overview",
+      "source_image_filename": "page_004_fig_figure_2.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_figure_3.png",
+      "relative_markdown_embed": "![Figure 3](images/page_005_fig_figure_3.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_007_fig_figure_5.png",
+      "relative_markdown_embed": "![Figure 5](images/page_007_fig_figure_5.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_figure_6.png",
+      "relative_markdown_embed": "![Figure 6](images/page_008_fig_figure_6.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png"
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_figure_7.png",
+      "relative_markdown_embed": "![Figure 7](images/page_009_fig_figure_7.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_009_fig_figure_8.png",
+      "relative_markdown_embed": "![Figure 8](images/page_009_fig_figure_8.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png"
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_figure_9.png",
+      "relative_markdown_embed": "![Figure 9](images/page_010_fig_figure_9.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "The minimum threshold value for different incident X-ray energy.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_009_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_009_fig_table_1.png)",
+      "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png"
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 10
+    }
+  }
+}

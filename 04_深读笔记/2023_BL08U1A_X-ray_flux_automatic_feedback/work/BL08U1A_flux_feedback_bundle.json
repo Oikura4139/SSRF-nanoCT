@@ -1,0 +1,4470 @@
+{
+  "status": "ok",
+  "script": "build_synthesis_bundle.py",
+  "paper_id": "doi:10.3390/app13095456",
+  "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "paper_id": "doi:10.3390/app13095456",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "10.3390/app13095456",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+      "year": "",
+      "venue": "",
+      "source_url": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+      "doi": "10.3390/app13095456",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.3390/app13095456",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "doi:10.3390/app13095456"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+          "work_value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_resolve.json",
+      "metadata_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_metadata.json"
+    }
+  },
+  "metadata": {
+    "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+    "translated_title": "",
+    "authors": [],
+    "affiliations": [],
+    "year": "",
+    "venue": "",
+    "doi": "10.3390/app13095456",
+    "source_url": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+    "abstract": "",
+    "arxiv_id": "",
+    "zotero_key": "",
+    "metadata_sources": [
+      "local_pdf"
+    ],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ]
+  },
+  "evidence_quality": "medium",
+  "coverage": {
+    "language_hint": "en",
+    "section_extraction_coverage": {
+      "coverage_status": "good",
+      "recognized_sections": [
+        "preamble",
+        "introduction",
+        "method",
+        "experiment",
+        "conclusion",
+        "references"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "method",
+        "experiment"
+      ],
+      "missing_core_sections": [],
+      "section_text_chars": {
+        "preamble": 2569,
+        "introduction": 7125,
+        "method": 17224,
+        "experiment": 4202,
+        "conclusion": 3302,
+        "references": 8460
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 13,
+      "text_max_pages": null,
+      "text_pages_extracted": 13,
+      "text_pages_scanned": 13,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 12,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "source_coverage": {
+      "total_pages": 13,
+      "text_max_pages": null,
+      "text_pages_extracted": 13,
+      "text_pages_scanned": 13,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 12
+    },
+    "source_manifest": {
+      "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_raw_sections.jsonl",
+      "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_full_text.md",
+      "section_count": 6,
+      "page_count": 13,
+      "text_hash_sha256": "a3aeae57014c3cdc27521bf6e692cc9522923dd173504b86fdd92e8f02cc0e6f"
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "extraction_failures": [],
+    "asset_coverage": {
+      "total_pages": 13,
+      "asset_max_pages": 40,
+      "asset_pages_scanned": 13,
+      "truncated_due_to_asset_page_limit": false
+    },
+    "figure_quality_summary": {
+      "usable": 0,
+      "review": 0,
+      "reject": 13,
+      "unknown": 0
+    },
+    "truncation_warnings": [],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ]
+  },
+  "source_manifest": {
+    "paper_id": "doi:10.3390/app13095456",
+    "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+    "source_kind": "pdf_text",
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_full_text.md",
+    "pdf": {
+      "path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+      "total_pages": 13,
+      "text_pages_extracted": 13,
+      "text_max_pages": null,
+      "text_truncated": false
+    },
+    "coverage": {
+      "total_pages": 13,
+      "text_max_pages": null,
+      "text_pages_extracted": 13,
+      "text_pages_scanned": 13,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": 12
+    }
+  },
+  "source_index": {
+    "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_raw_sections.jsonl",
+    "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_full_text.md",
+    "sections": [
+      {
+        "section_id": "sec:preamble",
+        "kind": "preamble",
+        "title": "preamble",
+        "page_start": 1,
+        "page_end": 1,
+        "char_count": 2569,
+        "text_hash_sha256": "ea0b8ec91eff4595d5abbaed6ef74b55d1aab747bcb8eec869d0bf41a9fc083a"
+      },
+      {
+        "section_id": "sec:introduction",
+        "kind": "introduction",
+        "title": "1. Introduction",
+        "page_start": 1,
+        "page_end": 3,
+        "char_count": 7125,
+        "text_hash_sha256": "588a4f6b47d8e89e81dfcee2bc486392c5917d89c75897aec30721146ed95246"
+      },
+      {
+        "section_id": "sec:materials-and-methods",
+        "kind": "method",
+        "title": "2. Materials and Methods",
+        "page_start": 3,
+        "page_end": 9,
+        "char_count": 17224,
+        "text_hash_sha256": "9e989e7fd4b7f81a51c5007896b7117c68e237e0fedf0810d5fc2b58b4dd014e"
+      },
+      {
+        "section_id": "sec:results",
+        "kind": "experiment",
+        "title": "3. Results",
+        "page_start": 9,
+        "page_end": 11,
+        "char_count": 4202,
+        "text_hash_sha256": "341461eee90f3c0697ca725289187385f9188aa799c436072d14361f14e1face"
+      },
+      {
+        "section_id": "sec:discussion",
+        "kind": "conclusion",
+        "title": "4. Discussion",
+        "page_start": 11,
+        "page_end": 12,
+        "char_count": 3302,
+        "text_hash_sha256": "092e4d33263075c4c4d19576d08812cda50faddeab0ae6e56b9c4e263ce16a3c"
+      },
+      {
+        "section_id": "sec:references",
+        "kind": "references",
+        "title": "References",
+        "page_start": 12,
+        "page_end": 13,
+        "char_count": 8460,
+        "text_hash_sha256": "a2e764520d87fc3d905436c60dc98c765ceff0e7eb12b9259168a8994a68972d"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "char_count": 4330,
+        "section_ids": [
+          "sec:preamble",
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 2,
+        "char_count": 4717,
+        "section_ids": [
+          "sec:introduction"
+        ]
+      },
+      {
+        "page": 3,
+        "char_count": 3606,
+        "section_ids": [
+          "sec:introduction",
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 4,
+        "char_count": 3207,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 5,
+        "char_count": 2447,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 6,
+        "char_count": 3109,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 7,
+        "char_count": 2532,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 8,
+        "char_count": 2412,
+        "section_ids": [
+          "sec:materials-and-methods"
+        ]
+      },
+      {
+        "page": 9,
+        "char_count": 2656,
+        "section_ids": [
+          "sec:materials-and-methods",
+          "sec:results"
+        ]
+      },
+      {
+        "page": 10,
+        "char_count": 1155,
+        "section_ids": [
+          "sec:results"
+        ]
+      },
+      {
+        "page": 11,
+        "char_count": 4244,
+        "section_ids": [
+          "sec:results",
+          "sec:discussion"
+        ]
+      },
+      {
+        "page": 12,
+        "char_count": 6172,
+        "section_ids": [
+          "sec:discussion",
+          "sec:references"
+        ]
+      },
+      {
+        "page": 13,
+        "char_count": 2356,
+        "section_ids": [
+          "sec:references"
+        ]
+      }
+    ],
+    "captions": {
+      "figures": [
+        {
+          "id": "Figure 1",
+          "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:introduction"
+        },
+        {
+          "id": "Figure 2",
+          "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 3",
+          "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 4",
+          "caption": "illustrates that the gold mesh current signal reaches its optimal value along",
+          "page": 5,
+          "pages": [
+            5
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 4",
+          "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 5",
+          "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+          "page": 7,
+          "pages": [
+            7
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 6",
+          "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 7",
+          "caption": "shows the change in the position of SRL as the M2 moves in steps of 200 nm at",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 7",
+          "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 8",
+          "caption": "The “Beamline Monitor” panel in the top left corner provides current readings",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:materials-and-methods"
+        },
+        {
+          "id": "Figure 8",
+          "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "section_id": "sec:results"
+        },
+        {
+          "id": "Figure 9",
+          "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "section_id": "sec:results"
+        }
+      ],
+      "tables": [
+        {
+          "id": "Table 1",
+          "caption": "The minimum threshold value for different incident X-ray energy.",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:materials-and-methods"
+        }
+      ]
+    },
+    "math_index": [
+      {
+        "text": "at 244 eV and E/∆E = 6440, with a Slit 2 size of 50µm (horizontal) and 50 µm (vertical). The",
+        "section_id": "sec:introduction",
+        "page_start": 1,
+        "page_end": 3
+      },
+      {
+        "text": "SRL = SR −SL",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "difference between the maximum flux and the flux when SRL = 0, and to calibrate SRL",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "−13.5%, respectively. When the offset was set to zero, the light flux values of SRL = 0 at",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "the offset may be bigger than 10%, the flux of offset = 0 was almost the max flux on the",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "SV = abs",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      },
+      {
+        "text": "SV > V0.",
+        "section_id": "sec:materials-and-methods",
+        "page_start": 3,
+        "page_end": 9
+      }
+    ],
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "language_hint": "en",
+    "text_hash_sha256": "a3aeae57014c3cdc27521bf6e692cc9522923dd173504b86fdd92e8f02cc0e6f"
+  },
+  "references": {
+    "candidates": []
+  },
+  "figure_plan": {
+    "paper_id": "doi:10.3390/app13095456",
+    "figures": [
+      {
+        "id": "Figure 5",
+        "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_figure_5.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
+          "width": 1151,
+          "height": 804,
+          "size_bytes": 104115,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.239599,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.563086,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 356,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 5"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "logic",
+              "each",
+              "tunning",
+              "procedure",
+              "when"
+            ],
+            "snippet": "signal is activated and sent to the imaging or XAS end stations when the SV exceeds 30%. Figure 5 illustrates the procedure of the tunning loop. The user can set the step of the M2 motor,",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_01.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 23848
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_02.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 17702
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
+                "width": 1151,
+                "height": 804,
+                "size_bytes": 104115,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.239599,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.563086,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 356,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_007_fig_figure_5_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5_2.png",
+                "width": 1169,
+                "height": 276,
+                "size_bytes": 58654,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.083536,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2590,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 358,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "logic",
+              "each",
+              "when"
+            ],
+            "snippet": "Appl. Sci. 2023, 13, 5456 5 of 13 2.1.3. Feedback Logic The automatic feedback system is optimized under the condition that all beamline devices",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+                "width": 1063,
+                "height": 390,
+                "size_bytes": 54500
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+                "width": 1063,
+                "height": 389,
+                "size_bytes": 55685
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+                "width": 1054,
+                "height": 742,
+                "size_bytes": 201147,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.202688,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.468687,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 573,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "each",
+              "procedure",
+              "when"
+            ],
+            "snippet": "+ SL) after 200 nm. It can be observed that the relative change in the position of SRL in each motor step is approximately 0.0475; this is obtained by calculating the slope in the cent",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20715
+              },
+              {
+                "filename": "page_008_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+                "width": 1133,
+                "height": 889,
+                "size_bytes": 133351,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260563,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.614998,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
+                "width": 1169,
+                "height": 297,
+                "size_bytes": 74018,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.089845,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 932,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_figure_8.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
+          "width": 1653,
+          "height": 309,
+          "size_bytes": 81868,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected",
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.132542,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 696,
+            "table_body_rows": 0,
+            "caption_text_chars": 585,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "interface",
+              "online",
+              "automatic",
+              "feedback"
+            ],
+            "snippet": "ight Flux The browser user interface for the online automatic feedback system is shown in Figure 8. The “Beamline Monitor” panel in the top left corner provides current readings of E (ener",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_img_01.png",
+                "width": 1089,
+                "height": 828,
+                "size_bytes": 160082
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+                "width": 1120,
+                "height": 708,
+                "size_bytes": 147079,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.205344,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.482995,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 380,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 7"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+                "width": 1101,
+                "height": 276,
+                "size_bytes": 32117,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.078874,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1428,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_figure_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
+                "width": 1653,
+                "height": 309,
+                "size_bytes": 81868,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.132542,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 696,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 585,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "operation",
+              "interface",
+              "online",
+              "automatic",
+              "feedback"
+            ],
+            "snippet": "Appl. Sci. 2023, 13, 5456 10 of 13 Figure 8. Operation interface of the online automatic feedback system. Beamline Monitor panel disp",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_01.png",
+                "width": 1730,
+                "height": 1080,
+                "size_bytes": 285809
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_02.jpeg",
+                "width": 1305,
+                "height": 490,
+                "size_bytes": 55069
+              },
+              {
+                "filename": "page_010_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_03.png",
+                "width": 1305,
+                "height": 489,
+                "size_bytes": 75880
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_8.png",
+                "width": 1197,
+                "height": 834,
+                "size_bytes": 187650,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.258299,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.721126,
+                  "paragraph_text_chars": 593,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 346,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_010_fig_figure_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png",
+                "width": 1055,
+                "height": 777,
+                "size_bytes": 141285,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.212272,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.612413,
+                  "paragraph_text_chars": 2127,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 304,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 9"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "operation",
+              "online",
+              "automatic",
+              "feedback"
+            ],
+            "snippet": "investment from Sinopec, by 2025, the SSRF will have 35 beamlines and 50 end stations in operation, which will greatly expand the experimental capacity of the SSRF, making the resolution o",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+        "kind": "data_or_task_overview",
+        "section": "数据与任务定义",
+        "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+        "priority": 2,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png",
+          "width": 1055,
+          "height": 595,
+          "size_bytes": 110336,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.162426,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 0.464265,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 480,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 2"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "layout",
+              "hardware",
+              "connection",
+              "local",
+              "area"
+            ],
+            "snippet": "ndependently moving blades, Slit 2 can adjust the size and shape of the slit, as shown in Figure 2. From the beam incident direction, the left and right blades are installed in front of th",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_01.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 16894
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_02.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 12361
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_03.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 11294
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png",
+                "width": 1055,
+                "height": 595,
+                "size_bytes": 110336,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.162426,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.464265,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 480,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "layout",
+              "hardware"
+            ],
+            "snippet": "le and automatic light ﬂux adjustment. 2. Materials and Methods 2.1. System Design 2.1.1. Layout of the BL08U1A Beamline at the SSRF The BL08U1A beamline at the SSRF is a soft X-ray spec",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 11548
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 17609
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 16946
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+                "width": 1055,
+                "height": 419,
+                "size_bytes": 108842,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.114497,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.587291,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 375,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "hardware"
+            ],
+            "snippet": "he optimal X-ray ﬂux of the sample. This work provides a comprehensive description of the hardware composition, system implementation, feedback logic, function and software design, system",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_3.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+          "width": 1054,
+          "height": 742,
+          "size_bytes": 201147,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.202688,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.468687,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 573,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 3"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "measurement",
+              "slit",
+              "blade-edge",
+              "signals",
+              "position"
+            ],
+            "snippet": "ces on the optical path are optically aligned and the EPU gap and PGM angle are selected. Figure 3 shows the change in the four blade-edge voltage signals along with the position changes o",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+                "width": 1063,
+                "height": 390,
+                "size_bytes": 54500
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+                "width": 1063,
+                "height": 389,
+                "size_bytes": 55685
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+                "width": 1054,
+                "height": 742,
+                "size_bytes": 201147,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.202688,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.468687,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 573,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "slit",
+              "blade-edge",
+              "signals",
+              "position"
+            ],
+            "snippet": "itor the incident X-ray beam in real time by measuring the blade-edge signals of the exit slit and automatically adjust the elliptical cylindrical mirror parameters to achieve beam cal",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "slit",
+              "blade-edge",
+              "signals",
+              "position"
+            ],
+            "snippet": "n by simultaneously calculating the feedback signal of the blade-edge signals on the exit slit, thus contributing to maintaining the stability of photon ﬂux. The hardware composition,",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 11548
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 17609
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 16946
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+                "width": 1055,
+                "height": 419,
+                "size_bytes": 108842,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.114497,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.587291,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 375,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_4.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png",
+          "width": 1148,
+          "height": 709,
+          "size_bytes": 105066,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.210765,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.606331,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 275,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 4"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "measurement",
+              "left",
+              "right",
+              "blade",
+              "voltage"
+            ],
+            "snippet": "orizontal blade signals that is nearly 10 times stronger than the vertical blade signals. Figure 4 illustrates that the gold mesh current signal reaches its optimal value along with the ch",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+                "width": 1063,
+                "height": 390,
+                "size_bytes": 54500
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+                "width": 1063,
+                "height": 389,
+                "size_bytes": 55685
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+                "width": 1054,
+                "height": 742,
+                "size_bytes": 201147,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.202688,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.468687,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 573,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "measurement",
+              "left",
+              "right",
+              "blade",
+              "voltage"
+            ],
+            "snippet": "Appl. Sci. 2023, 13, 5456 6 of 13 Figure 4. The measurement results of the left and right blade voltage signals and gold mesh curren",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_01.png",
+                "width": 1694,
+                "height": 558,
+                "size_bytes": 22308
+              },
+              {
+                "filename": "page_006_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_02.png",
+                "width": 1694,
+                "height": 557,
+                "size_bytes": 24196
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png",
+                "width": 1148,
+                "height": 709,
+                "size_bytes": 105066,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.210765,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.606331,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 275,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 4"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "left",
+              "right",
+              "blade",
+              "voltage"
+            ],
+            "snippet": "imum signal difference between the left and right blade-edge voltage signals, as shown in Figure 4. This is because the signal of the gold mesh may not accurately represent the X-ray beam",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_01.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 23848
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_02.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 17702
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
+                "width": 1151,
+                "height": 804,
+                "size_bytes": 104115,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.239599,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.563086,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 356,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_007_fig_figure_5_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5_2.png",
+                "width": 1169,
+                "height": 276,
+                "size_bytes": 58654,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.083536,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2590,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 358,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "The minimum threshold value for different incident X-ray energy.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+          "width": 1101,
+          "height": 276,
+          "size_bytes": 32117,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_text_contamination_suspected",
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.078874,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1428,
+            "table_body_rows": 6,
+            "caption_text_chars": 73,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Table 1"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "minimum",
+              "threshold",
+              "value",
+              "incident"
+            ],
+            "snippet": "y tested the entire energy range and calculated the threshold values, which are listed in Table 1. In real experiments, V0 is set to 0.05 for simplicity and the automatic feedback procedu",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20715
+              },
+              {
+                "filename": "page_008_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+                "width": 1133,
+                "height": 889,
+                "size_bytes": 133351,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260563,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.614998,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
+                "width": 1169,
+                "height": 297,
+                "size_bytes": 74018,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.089845,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 932,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "minimum",
+              "threshold",
+              "value",
+              "different",
+              "incident"
+            ],
+            "snippet": "L changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05. Table 1. The minimum threshold value for different incident X-ray energy. Energy (eV) 300 460 700",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_img_01.png",
+                "width": 1089,
+                "height": 828,
+                "size_bytes": 160082
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+                "width": 1120,
+                "height": 708,
+                "size_bytes": 147079,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.205344,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.482995,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 380,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 7"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+                "width": 1101,
+                "height": 276,
+                "size_bytes": 32117,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.078874,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1428,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_figure_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
+                "width": 1653,
+                "height": 309,
+                "size_bytes": 81868,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.132542,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 696,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 585,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "minimum",
+              "value",
+              "incident"
+            ],
+            "snippet": "blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+                "width": 1063,
+                "height": 390,
+                "size_bytes": 54500
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+                "width": 1063,
+                "height": 389,
+                "size_bytes": 55685
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+                "width": 1054,
+                "height": 742,
+                "size_bytes": 201147,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.202688,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.468687,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 573,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 3"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_1.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+          "width": 1055,
+          "height": 419,
+          "size_bytes": 108842,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.114497,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 0.587291,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 375,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 1"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "layout",
+              "beamline",
+              "ssrf",
+              "elliptical",
+              "cylindrical"
+            ],
+            "snippet": "oft X-ray spectromicroscopy beamline with a 250–2000 eV energy range [16,17], as shown in Figure 1. An elliptically polarized undulator (EPU) was used to produce soft X-ray photons. Slit 1",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 11548
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 17609
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 16946
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+                "width": 1055,
+                "height": 419,
+                "size_bytes": 108842,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.114497,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.587291,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 375,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "beamline",
+              "ssrf",
+              "elliptical",
+              "cylindrical"
+            ],
+            "snippet": "Tai, R. Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility. Appl. Sci. 2023, 13, 5456. https://doi.org/10",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "layout",
+              "beamline",
+              "ssrf",
+              "elliptical",
+              "cylindrical"
+            ],
+            "snippet": "rent, which can be used as a reference index for the automatic feedback system. Figure 2. Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was hor",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_01.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 16894
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_02.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 12361
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_03.jpeg",
+                "width": 1091,
+                "height": 101,
+                "size_bytes": 11294
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png",
+                "width": 1055,
+                "height": 595,
+                "size_bytes": 110336,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.162426,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.464265,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 480,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 2"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_figure_6.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+          "width": 1133,
+          "height": 889,
+          "size_bytes": 133351,
+          "label": "Figure 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.260563,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.614998,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 579,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 6"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 6",
+              "calibrate",
+              "slit",
+              "signals",
+              "left"
+            ],
+            "snippet": "ig enough. Several calibration experiments were performed at energies of 540 eV (shown in Figure 6), 700 eV and 920 eV, and the offset values of SRL for the maximum PD light ﬂux were calcu",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_01.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 23848
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_02.png",
+                "width": 1385,
+                "height": 564,
+                "size_bytes": 17702
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_5.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
+                "width": 1151,
+                "height": 804,
+                "size_bytes": 104115,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.239599,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.563086,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 356,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_007_fig_figure_5_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5_2.png",
+                "width": 1169,
+                "height": 276,
+                "size_bytes": 58654,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.083536,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2590,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 358,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 5"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "figure 6",
+              "calibrate",
+              "slit",
+              "signals",
+              "using",
+              "left"
+            ],
+            "snippet": "Appl. Sci. 2023, 13, 5456 8 of 13 Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the ﬁrst",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20715
+              },
+              {
+                "filename": "page_008_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+                "width": 1133,
+                "height": 889,
+                "size_bytes": 133351,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260563,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.614998,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
+                "width": 1169,
+                "height": 297,
+                "size_bytes": 74018,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.089845,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 932,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "slit",
+              "signals",
+              "using"
+            ],
+            "snippet": "itor the incident X-ray beam in real time by measuring the blade-edge signals of the exit slit and automatically adjust the elliptical cylindrical mirror parameters to achieve beam cal",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_figure_7.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+          "width": 1120,
+          "height": 708,
+          "size_bytes": 147079,
+          "label": "Figure 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.205344,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.482995,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 380,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 7"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "figure 7",
+              "left",
+              "right",
+              "signals"
+            ],
+            "snippet": "M2 movement, should be tested so that the feedback system is only activated when SV > V0. Figure 7 shows the change in the position of SRL as the M2 moves in steps of 200 nm at an incident",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20715
+              },
+              {
+                "filename": "page_008_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+                "width": 1657,
+                "height": 568,
+                "size_bytes": 20730
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+                "width": 1133,
+                "height": 889,
+                "size_bytes": 133351,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.260563,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.614998,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_6_2.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
+                "width": 1169,
+                "height": 297,
+                "size_bytes": 74018,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.089845,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 932,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 579,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 6"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "figure 7",
+              "measurement",
+              "left",
+              "right",
+              "blade-edge",
+              "signals"
+            ],
+            "snippet": "Appl. Sci. 2023, 13, 5456 9 of 13 Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 posit",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_img_01.png",
+                "width": 1089,
+                "height": 828,
+                "size_bytes": 160082
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+                "width": 1120,
+                "height": 708,
+                "size_bytes": 147079,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.205344,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.482995,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 380,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 7"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_table_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+                "width": 1101,
+                "height": 276,
+                "size_bytes": 32117,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected",
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.078874,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1428,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Table 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_figure_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
+                "width": 1653,
+                "height": 309,
+                "size_bytes": 81868,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.132542,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 696,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 585,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "right",
+              "blade-edge",
+              "signals"
+            ],
+            "snippet": "23 March 2023 Revised: 23 April 2023 Accepted: 25 April 2023 Published: 27 April 2023 Copyright: © 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_figure_9.png",
+          "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png",
+          "width": 1055,
+          "height": 777,
+          "size_bytes": 141285,
+          "label": "Figure 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected",
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.212272,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.612413,
+            "paragraph_text_chars": 2127,
+            "table_body_rows": 0,
+            "caption_text_chars": 304,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 9"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "figure 9",
+              "experiments",
+              "using",
+              "measurement",
+              "absence",
+              "presence"
+            ],
+            "snippet": "of an Fe sample holder with and without the online automatic feedback system are shown in Figure 9. The intensity of the X-ray before the sample position during the experiment, which is co",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_01.png",
+                "width": 1730,
+                "height": 1080,
+                "size_bytes": 285809
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_02.jpeg",
+                "width": 1305,
+                "height": 490,
+                "size_bytes": 55069
+              },
+              {
+                "filename": "page_010_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_03.png",
+                "width": 1305,
+                "height": 489,
+                "size_bytes": 75880
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_8.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_8.png",
+                "width": 1197,
+                "height": 834,
+                "size_bytes": 187650,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.258299,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.721126,
+                  "paragraph_text_chars": 593,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 346,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_010_fig_figure_9.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png",
+                "width": 1055,
+                "height": 777,
+                "size_bytes": 141285,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected",
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.212272,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.612413,
+                  "paragraph_text_chars": 2127,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 304,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 9"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "experiments",
+              "using"
+            ],
+            "snippet": "e of effectively maintaining the optimal X-ray beam ﬂux for X-ray absorption spectroscopy experiments. Its success can provide valuable technique assistance for the design, construction and o",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+                "width": 500,
+                "height": 175,
+                "size_bytes": 6447
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 4513
+              },
+              {
+                "filename": "page_001_img_03.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+                "width": 355,
+                "height": 234,
+                "size_bytes": 12281
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "experiments",
+              "using"
+            ],
+            "snippet": "rimental results supported by the system, will be described in detail. The results of the experiments on the XAS conducted at the BL08U1A beamline of the SSRF show that the system meets the d",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 11548
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 17609
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+                "width": 1527,
+                "height": 96,
+                "size_bytes": 16946
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+                "width": 1055,
+                "height": 419,
+                "size_bytes": 108842,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.114497,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.587291,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 375,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 1"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  },
+  "figure_table_manifest": {
+    "decisions_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_figure_table_decisions.json",
+    "decisions": [
+      {
+        "item_id": "figure:Figure 1",
+        "source_id": "Figure 1",
+        "kind": "figure",
+        "label": "Figure 1",
+        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction",
+        "decision": "visual_defect",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_003_fig_figure_1.png",
+        "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png"
+      },
+      {
+        "item_id": "figure:Figure 2",
+        "source_id": "Figure 2",
+        "kind": "figure",
+        "label": "Figure 2",
+        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 2,
+        "target_section": "数据与任务定义",
+        "plan_kind": "data_or_task_overview",
+        "source_image_filename": "page_004_fig_figure_2.png",
+        "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png"
+      },
+      {
+        "item_id": "figure:Figure 3",
+        "source_id": "Figure 3",
+        "kind": "figure",
+        "label": "Figure 3",
+        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+        "pages": [
+          5
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_005_fig_figure_3.png",
+        "relative_markdown_embed": "![Figure 3](images/page_005_fig_figure_3.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png"
+      },
+      {
+        "item_id": "figure:Figure 4",
+        "source_id": "Figure 4",
+        "kind": "figure",
+        "label": "Figure 4",
+        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_006_fig_figure_4.png",
+        "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png"
+      },
+      {
+        "item_id": "figure:Figure 5",
+        "source_id": "Figure 5",
+        "kind": "figure",
+        "label": "Figure 5",
+        "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+        "pages": [
+          7
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 1,
+        "target_section": "机制流程",
+        "plan_kind": "method_overview",
+        "source_image_filename": "page_007_fig_figure_5.png",
+        "relative_markdown_embed": "![Figure 5](images/page_007_fig_figure_5.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png"
+      },
+      {
+        "item_id": "figure:Figure 6",
+        "source_id": "Figure 6",
+        "kind": "figure",
+        "label": "Figure 6",
+        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+        "pages": [
+          8
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_008_fig_figure_6.png",
+        "relative_markdown_embed": "![Figure 6](images/page_008_fig_figure_6.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png"
+      },
+      {
+        "item_id": "figure:Figure 7",
+        "source_id": "Figure 7",
+        "kind": "figure",
+        "label": "Figure 7",
+        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_009_fig_figure_7.png",
+        "relative_markdown_embed": "![Figure 7](images/page_009_fig_figure_7.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png"
+      },
+      {
+        "item_id": "figure:Figure 8",
+        "source_id": "Figure 8",
+        "kind": "figure",
+        "label": "Figure 8",
+        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+        "pages": [
+          10
+        ],
+        "section_id": "sec:results",
+        "decision": "visual_defect",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 1,
+        "target_section": "机制流程",
+        "plan_kind": "method_overview",
+        "source_image_filename": "page_009_fig_figure_8.png",
+        "relative_markdown_embed": "![Figure 8](images/page_009_fig_figure_8.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png"
+      },
+      {
+        "item_id": "figure:Figure 9",
+        "source_id": "Figure 9",
+        "kind": "figure",
+        "label": "Figure 9",
+        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+        "pages": [
+          10
+        ],
+        "section_id": "sec:results",
+        "decision": "visual_defect",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_010_fig_figure_9.png",
+        "relative_markdown_embed": "![Figure 9](images/page_010_fig_figure_9.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png"
+      },
+      {
+        "item_id": "table:Table 1",
+        "source_id": "Table 1",
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "The minimum threshold value for different incident X-ray energy.",
+        "pages": [
+          9
+        ],
+        "section_id": "sec:materials-and-methods",
+        "decision": "visual_defect",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "table_result",
+        "source_image_filename": "page_009_fig_table_1.png",
+        "relative_markdown_embed": "![Table 1](images/page_009_fig_table_1.png)",
+        "source_image_path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png"
+      }
+    ],
+    "caption_counts": {
+      "figures": 12,
+      "tables": 1
+    },
+    "planned_items": 10,
+    "requires_full_decision_table": true
+  },
+  "pdf_assets": {
+    "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility",
+    "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images",
+    "page_assets": [
+      {
+        "page_number": 1,
+        "searchable_text_chars": 4330,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 5,
+        "text_preview": "Citation: Zhang, C.; Liu, H.; Wang, C.; Guo, Z.; Zhang, X.; Xu, Z.; Zhen, X.; Wang, Y.; Tai, R. Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility. Appl. Sci."
+      },
+      {
+        "page_number": 2,
+        "searchable_text_chars": 4717,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 2 of 13 sources and free electron lasers (FEL). Similarly, maintaining optimal X-ray ﬂux is critical for beamline operation and achieving high-quality experimental results in synchrotron light sources. However, whe"
+      },
+      {
+        "page_number": 3,
+        "searchable_text_chars": 3606,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 4,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 3 of 13 be adjusted automatically in the horizontal direction by simultaneously calculating the feedback signal of the blade-edge signals on the exit slit, thus contributing to maintaining the stability of photon ﬂ"
+      },
+      {
+        "page_number": 4,
+        "searchable_text_chars": 3207,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 6,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 4 of 13 system that aligns the beamline and maintains the optimal X-ray light ﬂux in order to achieve enhanced experimental efﬁciency and results. 2.1.2. Hardware Composition The hardware of the automatic feedback "
+      },
+      {
+        "page_number": 5,
+        "searchable_text_chars": 2447,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 5 of 13 2.1.3. Feedback Logic The automatic feedback system is optimized under the condition that all beamline devices on the optical path are optically aligned and the EPU gap and PGM angle are selected. Figure 3 "
+      },
+      {
+        "page_number": 6,
+        "searchable_text_chars": 3109,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 6 of 13 Figure 4. The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equa"
+      },
+      {
+        "page_number": 7,
+        "searchable_text_chars": 2532,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 7 of 13 an alarm signal output is set in the program. An error signal is activated and sent to the imaging or XAS end stations when the SV exceeds 30%. Figure 5 illustrates the procedure of the tunning loop. The us"
+      },
+      {
+        "page_number": 8,
+        "searchable_text_chars": 2412,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 8 of 13 Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the ﬁrst M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value."
+      },
+      {
+        "page_number": 9,
+        "searchable_text_chars": 2656,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 9 of 13 Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were ﬁt"
+      },
+      {
+        "page_number": 10,
+        "searchable_text_chars": 1155,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 3,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 10 of 13 Figure 8. Operation interface of the online automatic feedback system. Beamline Monitor panel displays energy, M2 position, SL, SR, SU, SD, SV and I0; Conﬁg Panel is used to input M2 step, offset, V0 conﬁg"
+      },
+      {
+        "page_number": 11,
+        "searchable_text_chars": 4244,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 11 of 13 during the energy scan. However, with the feedback system, the intensity drops much slower and smoother. The normalized absorption coefﬁcient in the feedback on the spec- trum is also consistently higher t"
+      },
+      {
+        "page_number": 12,
+        "searchable_text_chars": 6172,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 12 of 13 References 1. Yin, L.; Tai, R.; Wang, D.; Zhao, Z. Progress and Future of Shanghai Synchrotron Radiation Facility. J. Vac. Soc. Jpn 2016, 59, 198–204. [CrossRef] 2. Owen, R.L.; Juanhuix, J.; Fuchs, M. Curr"
+      },
+      {
+        "page_number": 13,
+        "searchable_text_chars": 2356,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Appl. Sci. 2023, 13, 5456 13 of 13 26. Wang, Z.; Qian, Z.; Cao, Y.; Zhang, X.; Tai, R.; Dong, H.; Zhao, N.; Xu, J. Facile preparation of bridged silsesquioxane microspheres with interconnected multi-cavities and open holes. RSC Adv. 2016, 6"
+      }
+    ],
+    "image_assets": [
+      {
+        "page_number": 1,
+        "image_index": 1,
+        "xref": 32,
+        "filename": "page_001_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+        "ext": "png",
+        "width": 500,
+        "height": 175,
+        "colorspace": 3,
+        "size_bytes": 6447,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 2,
+        "xref": 47,
+        "filename": "page_001_img_02.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+        "ext": "png",
+        "width": 355,
+        "height": 234,
+        "colorspace": 4,
+        "size_bytes": 4513,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 3,
+        "xref": 48,
+        "filename": "page_001_img_03.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+        "ext": "png",
+        "width": 355,
+        "height": 234,
+        "colorspace": 4,
+        "size_bytes": 12281,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 4,
+        "xref": 49,
+        "filename": "page_001_img_04.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_04.png",
+        "ext": "png",
+        "width": 355,
+        "height": 234,
+        "colorspace": 4,
+        "size_bytes": 12395,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 1,
+        "image_index": 5,
+        "xref": 50,
+        "filename": "page_001_img_05.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_05.png",
+        "ext": "png",
+        "width": 355,
+        "height": 234,
+        "colorspace": 4,
+        "size_bytes": 779,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 1,
+        "xref": 107,
+        "filename": "page_003_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1527,
+        "height": 96,
+        "colorspace": 3,
+        "size_bytes": 11548,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 2,
+        "xref": 108,
+        "filename": "page_003_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 1527,
+        "height": 96,
+        "colorspace": 3,
+        "size_bytes": 17609,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 3,
+        "xref": 109,
+        "filename": "page_003_img_03.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+        "ext": "jpeg",
+        "width": 1527,
+        "height": 96,
+        "colorspace": 3,
+        "size_bytes": 16946,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 3,
+        "image_index": 4,
+        "xref": 110,
+        "filename": "page_003_img_04.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_04.jpeg",
+        "ext": "jpeg",
+        "width": 1527,
+        "height": 96,
+        "colorspace": 3,
+        "size_bytes": 13326,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 1,
+        "xref": 147,
+        "filename": "page_004_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 16894,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 2,
+        "xref": 148,
+        "filename": "page_004_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 12361,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 3,
+        "xref": 149,
+        "filename": "page_004_img_03.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_03.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 11294,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 4,
+        "xref": 150,
+        "filename": "page_004_img_04.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_04.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 10630,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 5,
+        "xref": 151,
+        "filename": "page_004_img_05.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_05.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 11542,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 6,
+        "xref": 152,
+        "filename": "page_004_img_06.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_06.jpeg",
+        "ext": "jpeg",
+        "width": 1091,
+        "height": 101,
+        "colorspace": 3,
+        "size_bytes": 7044,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 5,
+        "image_index": 1,
+        "xref": 202,
+        "filename": "page_005_img_01.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+        "ext": "jpeg",
+        "width": 1063,
+        "height": 390,
+        "colorspace": 3,
+        "size_bytes": 54500,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 5,
+        "image_index": 2,
+        "xref": 203,
+        "filename": "page_005_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 1063,
+        "height": 389,
+        "colorspace": 3,
+        "size_bytes": 55685,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 1,
+        "xref": 244,
+        "filename": "page_006_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_01.png",
+        "ext": "png",
+        "width": 1694,
+        "height": 558,
+        "colorspace": 1,
+        "size_bytes": 22308,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 6,
+        "image_index": 2,
+        "xref": 245,
+        "filename": "page_006_img_02.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_02.png",
+        "ext": "png",
+        "width": 1694,
+        "height": 557,
+        "colorspace": 1,
+        "size_bytes": 24196,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 7,
+        "image_index": 1,
+        "xref": 286,
+        "filename": "page_007_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_01.png",
+        "ext": "png",
+        "width": 1385,
+        "height": 564,
+        "colorspace": 1,
+        "size_bytes": 23848,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 7,
+        "image_index": 2,
+        "xref": 287,
+        "filename": "page_007_img_02.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_02.png",
+        "ext": "png",
+        "width": 1385,
+        "height": 564,
+        "colorspace": 1,
+        "size_bytes": 17702,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 8,
+        "image_index": 1,
+        "xref": 341,
+        "filename": "page_008_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+        "ext": "png",
+        "width": 1657,
+        "height": 568,
+        "colorspace": 1,
+        "size_bytes": 20715,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 8,
+        "image_index": 2,
+        "xref": 342,
+        "filename": "page_008_img_02.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+        "ext": "png",
+        "width": 1657,
+        "height": 568,
+        "colorspace": 1,
+        "size_bytes": 20730,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 9,
+        "image_index": 1,
+        "xref": 379,
+        "filename": "page_009_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_img_01.png",
+        "ext": "png",
+        "width": 1089,
+        "height": 828,
+        "colorspace": 3,
+        "size_bytes": 160082,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 10,
+        "image_index": 1,
+        "xref": 422,
+        "filename": "page_010_img_01.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_01.png",
+        "ext": "png",
+        "width": 1730,
+        "height": 1080,
+        "colorspace": 3,
+        "size_bytes": 285809,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 10,
+        "image_index": 2,
+        "xref": 456,
+        "filename": "page_010_img_02.jpeg",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_02.jpeg",
+        "ext": "jpeg",
+        "width": 1305,
+        "height": 490,
+        "colorspace": 3,
+        "size_bytes": 55069,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 10,
+        "image_index": 3,
+        "xref": 457,
+        "filename": "page_010_img_03.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_03.png",
+        "ext": "png",
+        "width": 1305,
+        "height": 489,
+        "colorspace": 3,
+        "size_bytes": 75880,
+        "extraction_level": "xref"
+      }
+    ],
+    "figure_assets": [
+      {
+        "filename": "page_003_fig_figure_1.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+        "page_number": 3,
+        "label": "Figure 1",
+        "kind": "figure",
+        "caption_text": "Figure 1. Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror colli- mates the X-ray and suppresses high-order harmonics. The M2 elliptical cylindrical mirror focuses the X-ray in both directions through Slit 2. The tunable X-ray energy is 200–2000 eV. A spectroscopic end station and two STXM end stations are located downstream of the beamline.",
+        "width": 1055,
+        "height": 419,
+        "size_bytes": 108842,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.114497,
+          "visual_rect_count": 4,
+          "visual_body_ratio": 0.587291,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 375,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 1"
+          ]
+        }
+      },
+      {
+        "filename": "page_004_fig_figure_2.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png",
+        "page_number": 4,
+        "label": "Figure 2",
+        "kind": "figure",
+        "caption_text": "Figure 2. Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was horizontally focused to the exit slit (Slit 2) by an elliptical cylindrical mirror. The four blade signals of Slit 2 were read out by an I–V convertor. The photon flux after Slit 2 was detected by a gold mesh and PD detector, and the signals were read out by a picoammeter. The signals of M2, Slit 2, gold mesh and PD are all connected into LAN and can be read out for control.",
+        "width": 1055,
+        "height": 595,
+        "size_bytes": 110336,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.162426,
+          "visual_rect_count": 6,
+          "visual_body_ratio": 0.464265,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 480,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 2"
+          ]
+        }
+      },
+      {
+        "filename": "page_005_fig_figure_3.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+        "page_number": 5,
+        "label": "Figure 3",
+        "kind": "figure",
+        "caption_text": "Figure 3. The measurement results of the Slit 2 blade-edge signals with M2 position changes at 920 eV. SL, SR, SU and SD represent the left, right, up and down blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right coordinate system is for SU and SD. The horizontal blades are illuminated over a larger range than the vertical blades, resulting in the horizontal blade signals that is nearly 10 times stronger than the vertical blade signals.",
+        "width": 1054,
+        "height": 742,
+        "size_bytes": 201147,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.202688,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.468687,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 573,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 3"
+          ]
+        }
+      },
+      {
+        "filename": "page_006_fig_figure_4.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png",
+        "page_number": 6,
+        "label": "Figure 4",
+        "kind": "figure",
+        "caption_text": "Figure 4. The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equal, the corresponding gold mesh signal is almost at the maximum value.",
+        "width": 1148,
+        "height": 709,
+        "size_bytes": 105066,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.210765,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.606331,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 275,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 4"
+          ]
+        }
+      },
+      {
+        "filename": "page_007_fig_figure_5.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
+        "page_number": 7,
+        "label": "Figure 5",
+        "kind": "figure",
+        "caption_text": "Figure 5. The logic of each tunning procedure. When the server gets a tunning request with threshold and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
+        "width": 1151,
+        "height": 804,
+        "size_bytes": 104115,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.239599,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.563086,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 356,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 5"
+          ]
+        }
+      },
+      {
+        "filename": "page_007_fig_figure_5_2.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5_2.png",
+        "page_number": 7,
+        "label": "Figure 5",
+        "kind": "figure",
+        "caption_text": "Figure 5. The logic of each tunning procedure. When the server gets a tunning request with thresh- old and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
+        "width": 1169,
+        "height": 276,
+        "size_bytes": 58654,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected",
+            "large_text_block_suspected",
+            "low_visual_body_ratio"
+          ],
+          "page_coverage_ratio": 0.083536,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 2590,
+          "table_body_rows": 0,
+          "caption_text_chars": 358,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 5"
+          ]
+        }
+      },
+      {
+        "filename": "page_008_fig_figure_6.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+        "page_number": 8,
+        "label": "Figure 6",
+        "kind": "figure",
+        "caption_text": "Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
+        "width": 1133,
+        "height": 889,
+        "size_bytes": 133351,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.260563,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.614998,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 579,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 6"
+          ]
+        }
+      },
+      {
+        "filename": "page_008_fig_figure_6_2.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
+        "page_number": 8,
+        "label": "Figure 6",
+        "kind": "figure",
+        "caption_text": "Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
+        "width": 1169,
+        "height": 297,
+        "size_bytes": 74018,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected",
+            "large_text_block_suspected",
+            "low_visual_body_ratio"
+          ],
+          "page_coverage_ratio": 0.089845,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 932,
+          "table_body_rows": 0,
+          "caption_text_chars": 579,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 6"
+          ]
+        }
+      },
+      {
+        "filename": "page_009_fig_figure_7.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+        "page_number": 9,
+        "label": "Figure 7",
+        "kind": "figure",
+        "caption_text": "Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were fitted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05.",
+        "width": 1120,
+        "height": 708,
+        "size_bytes": 147079,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.205344,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.482995,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 380,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 7"
+          ]
+        }
+      },
+      {
+        "filename": "page_009_fig_table_1.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+        "page_number": 9,
+        "label": "Table 1",
+        "kind": "table",
+        "caption_text": "Table 1. The minimum threshold value for different incident X-ray energy.",
+        "width": 1101,
+        "height": 276,
+        "size_bytes": 32117,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "table_text_contamination_suspected",
+            "multiple_caption_regions_suspected"
+          ],
+          "page_coverage_ratio": 0.078874,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 1428,
+          "table_body_rows": 6,
+          "caption_text_chars": 73,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Table 1"
+          ]
+        }
+      },
+      {
+        "filename": "page_009_fig_figure_8.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
+        "page_number": 9,
+        "label": "Figure 8",
+        "kind": "figure",
+        "caption_text": "Figure 8. The “Beamline Monitor” panel in the top left corner provides current readings of E (energy), M2, SL, SR, SU, SD, SV and I0. The “Config” panel in the bottom-left corner has inputs of M2 step, offset and V0, as well as a running button and export data function components. The main part of the interface on the right side is the chart area, which displays all signals with a maximum of 12 h of data. Each chart has a slider on the x-axis for observing smaller time scales. The signals in the chart area and in the Beamline Monitor panel are updated by the server every second.",
+        "width": 1653,
+        "height": 309,
+        "size_bytes": 81868,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "large_text_block_suspected",
+            "low_visual_body_ratio"
+          ],
+          "page_coverage_ratio": 0.132542,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 696,
+          "table_body_rows": 0,
+          "caption_text_chars": 585,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_010_fig_figure_8.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_8.png",
+        "page_number": 10,
+        "label": "Figure 8",
+        "kind": "figure",
+        "caption_text": "Figure 8. Operation interface of the online automatic feedback system. Beamline Monitor panel d plays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, configuration with a running button and data export components; the Chart Area on the right si displays all signals with a maximum time span of 12 h.",
+        "width": 1197,
+        "height": 834,
+        "size_bytes": 187650,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected",
+            "large_text_block_suspected"
+          ],
+          "page_coverage_ratio": 0.258299,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.721126,
+          "paragraph_text_chars": 593,
+          "table_body_rows": 0,
+          "caption_text_chars": 346,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 8"
+          ]
+        }
+      },
+      {
+        "filename": "page_010_fig_figure_9.png",
+        "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png",
+        "page_number": 10,
+        "label": "Figure 9",
+        "kind": "figure",
+        "caption_text": "Figure 9. XAS experiments using TEY measurement in the absence and presence of the feedback system. The normalized absorption coefficient has a higher signal quality when the feedback system is on. The top right figure shows that the X-ray flux with the feedback system on drops much slower and smoother.",
+        "width": 1055,
+        "height": 777,
+        "size_bytes": 141285,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "multiple_caption_regions_suspected",
+            "large_text_block_suspected"
+          ],
+          "page_coverage_ratio": 0.212272,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.612413,
+          "paragraph_text_chars": 2127,
+          "table_body_rows": 0,
+          "caption_text_chars": 304,
+          "other_caption_count": 1,
+          "other_caption_labels": [
+            "Figure 9"
+          ]
+        }
+      }
+    ],
+    "ocr_available": false
+  },
+  "writing_contract": {
+    "language": "zh-CN",
+    "contract_role": "manifest_quality_contract",
+    "canonical_source": "SKILL.md defines the workflow; scripts/contracts.py defines machine-checkable contract data.",
+    "must_include_sections": [
+      "核心信息",
+      "原文摘要翻译",
+      "创新点",
+      "一句话总结",
+      "研究问题",
+      "数据与任务定义",
+      "方法主线",
+      "关键结果",
+      "深度分析",
+      "局限",
+      "我的笔记",
+      "引用"
+    ],
+    "note_plan_contract": {
+      "required_fields": [
+        "paper_type",
+        "paper_type_rationale",
+        "dominant_domain",
+        "must_cover",
+        "key_numbers",
+        "real_comparisons",
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions",
+        "section_plan"
+      ],
+      "field_types": {
+        "paper_type": "string",
+        "paper_type_rationale": "string",
+        "dominant_domain": "string",
+        "must_cover": "array",
+        "key_numbers": "array",
+        "real_comparisons": "array",
+        "central_claims": "array",
+        "claim_boundaries": "array",
+        "negative_or_limiting_results": "array",
+        "mechanism_result_map": "array",
+        "comparative_positioning": "array",
+        "reuse_takeaways": "array",
+        "followup_questions": "array",
+        "section_plan": "array"
+      },
+      "required_field_checks": {
+        "string": {
+          "non_empty": true
+        },
+        "array": {
+          "non_empty": true
+        }
+      },
+      "artifact_preference": "short_json_planning_file",
+      "grounding_field": "section_plan[*].evidence_sources",
+      "analysis_coverage_field": "central_claims[*]"
+    },
+    "paper_type_selection": {
+      "source_of_truth": "note_plan.paper_type",
+      "suggested_paper_type_role": "none",
+      "allowed_paper_types": [
+        "AI_method",
+        "benchmark_or_dataset",
+        "clinical_or_psychology_empirical",
+        "humanities_or_social_science",
+        "survey_or_review"
+      ]
+    },
+    "contracts_by_paper_type": {
+      "AI_method": {
+        "paper_type": "AI_method",
+        "reader_lens": "面向能复现方法机制的技术读者",
+        "section_focus": [
+          "问题设置",
+          "方法机制",
+          "训练/推理流程",
+          "关键公式",
+          "比较基线",
+          "消融与失败边界"
+        ],
+        "required_checks": [
+          "需要说明机制流程、关键公式、实验设计、消融含义和失败边界。"
+        ],
+        "formula_rules": [
+          "仅保留理解方法必需的 1 到 3 个关键公式，并解释其工程含义。"
+        ],
+        "avoid_rules": [
+          "不要把非 AI_method 论文强行改写成模型架构。"
+        ],
+        "boundary_questions": [
+          "核心机制的收益由哪个实验或消融支撑，而不是只由主结果暗示？",
+          "哪些比较只能证明在当前数据、基线、算力或协议下有效，不能外推到通用场景？",
+          "论文是否给出失败、退化、不稳定或成本上升的证据；如果没有，结论边界是什么？"
+        ],
+        "section_semantics": {
+          "研究问题": "方法要解决的具体技术问题和现有方法短板。",
+          "数据与任务定义": "数据集、输入输出、评测任务和实验设置。",
+          "方法主线": "模型、算法、训练或推理机制。",
+          "关键结果": "主结果、强基线、消融和关键数字。",
+          "深度分析": "方法为什么有效、何处脆弱、复现和扩展代价。"
+        },
+        "recommended_subsections": {
+          "方法主线": [
+            "机制流程",
+            "模型结构",
+            "训练目标",
+            "推理与采样链路",
+            "关键实现细节"
+          ],
+          "关键结果": [
+            "主结果与强基线",
+            "消融到底说明了什么",
+            "失败或不稳定设置"
+          ],
+          "深度分析": [
+            "为什么有效",
+            "复杂度与扩展性",
+            "复现注意点"
+          ]
+        },
+        "mechanism_flow_contract": {
+          "apply_when_paper_type_in": [
+            "AI_method"
+          ],
+          "required_step_count": "3_to_4",
+          "required_step_fields": [
+            "input",
+            "operation",
+            "output_destination"
+          ]
+        }
+      },
+      "benchmark_or_dataset": {
+        "paper_type": "benchmark_or_dataset",
+        "reader_lens": "面向要判断 benchmark/dataset 可用性和偏差边界的研究者",
+        "section_focus": [
+          "任务拆分",
+          "数据来源与构建流程",
+          "标注协议",
+          "评测指标",
+          "覆盖范围与偏差",
+          "样本统计与数据开放限制"
+        ],
+        "required_checks": [
+          "需要说明数据来源、构建/标注流程、评测指标、基线表现、样本统计、数据开放或隐私限制和适用边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心评测指标、采样规则或划分定义。"
+        ],
+        "avoid_rules": [
+          "不要把数据构建流程写成模型 pipeline。"
+        ],
+        "boundary_questions": [
+          "这个 benchmark/dataset 实际测量的构念是什么，哪些能力只是间接近似？",
+          "任务、标签、采样、过滤或评测协议会引入哪些覆盖缺口或偏差？",
+          "基线结果证明了评测集有区分度，还是只证明某类模型适应该协议？",
+          "样本时长、语料长度、人口统计、类别分布、数据可访问性或隐私限制如何影响复现和外推？"
+        ],
+        "section_semantics": {
+          "研究问题": "这个 benchmark/dataset 想补足的评测或数据缺口。",
+          "数据与任务定义": "数据来源、任务拆分、标签/题目定义、样本范围。",
+          "方法主线": "数据构建、筛选、标注和评测协议，不写成模型 pipeline。",
+          "关键结果": "基线表现、难度分布、覆盖范围和偏差。",
+          "深度分析": "它真正测到了什么，以及不能代表什么。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "数据来源",
+            "任务拆分",
+            "标注/筛选协议"
+          ],
+          "方法主线": [
+            "构建流程",
+            "评测协议",
+            "Baseline 设置"
+          ],
+          "关键结果": [
+            "基线表现",
+            "难度分布",
+            "覆盖与偏差"
+          ],
+          "深度分析": [
+            "benchmark 真正测到了什么",
+            "适用边界"
+          ]
+        }
+      },
+      "clinical_or_psychology_empirical": {
+        "paper_type": "clinical_or_psychology_empirical",
+        "reader_lens": "面向关注临床/心理学样本、变量关系和外推边界的研究读者",
+        "section_focus": [
+          "样本来源",
+          "纳排标准",
+          "变量或量表",
+          "分析管线",
+          "效应量与不确定性",
+          "样本统计、伦理和数据可访问性"
+        ],
+        "required_checks": [
+          "需要区分相关、预测、组间差异和因果解释，说明样本统计、伦理/隐私约束与外推边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心统计模型、效应量、置信区间或量表定义。"
+        ],
+        "avoid_rules": [
+          "不要把相关性、预测性能或组间差异写成未经证明的因果结论。"
+        ],
+        "boundary_questions": [
+          "样本来源、纳排标准、测量工具和标注流程如何限制外推？",
+          "结果支持相关、预测、组间差异还是因果解释；不要越过论文设计能证明的范围。",
+          "临床或心理学意义是否依赖未观测混杂、量表阈值、文本/语音缺失或场景约束？",
+          "样本构成、数据缺失、隐私限制或材料不可公开会怎样限制复现与再分析？"
+        ],
+        "section_semantics": {
+          "研究问题": "临床、心理学或行为科学中的研究问题、假设或变量关系。",
+          "数据与任务定义": "样本来源、纳排标准、变量/量表、测量方式。",
+          "方法主线": "研究设计、分组、测量流程和统计分析路径。",
+          "关键结果": "主要效应、相关性、组间差异、不确定性或显著性。",
+          "深度分析": "结果解释、因果边界、临床/心理学意义和外推限制。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "样本与纳排标准",
+            "变量与量表",
+            "测量流程"
+          ],
+          "方法主线": [
+            "研究设计",
+            "分析模型",
+            "主要比较"
+          ],
+          "关键结果": [
+            "主要效应",
+            "不确定性与显著性",
+            "临床或心理学解释"
+          ],
+          "深度分析": [
+            "因果解释边界",
+            "外推限制"
+          ]
+        }
+      },
+      "humanities_or_social_science": {
+        "paper_type": "humanities_or_social_science",
+        "reader_lens": "面向关注理论框架、材料解释和论证结构的研究读者",
+        "section_focus": [
+          "研究对象",
+          "材料来源",
+          "理论框架",
+          "论证路径",
+          "概念贡献",
+          "解释边界"
+        ],
+        "required_checks": [
+          "需要区分作者论证、材料证据、规范性判断和实验事实。"
+        ],
+        "formula_rules": [
+          "通常不强行保留公式；仅保留核心形式化定义或编码规则。"
+        ],
+        "avoid_rules": [
+          "不要把规范性判断、文本解释或案例分析写成实验事实。"
+        ],
+        "boundary_questions": [
+          "作者的解释依赖哪些材料、案例或理论前提？",
+          "是否存在同样能解释材料的替代解释，论文如何排除或没有排除？",
+          "哪些结论是概念贡献或规范性判断，而不是可直接当作经验事实？"
+        ],
+        "section_semantics": {
+          "研究问题": "作者要解释的社会、文化、历史、制度或理论问题。",
+          "数据与任务定义": "材料、案例、文本、访谈、档案或语料范围，不写成 ML task。",
+          "方法主线": "理论框架、概念区分和论证路径。",
+          "关键结果": "核心解释性发现、概念贡献或对既有观点的修正。",
+          "深度分析": "论证强度、材料边界、解释替代性和可迁移性。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "材料范围",
+            "选择标准",
+            "案例或语料边界"
+          ],
+          "方法主线": [
+            "理论框架",
+            "概念区分",
+            "论证路径"
+          ],
+          "关键结果": [
+            "核心解释性发现",
+            "概念贡献"
+          ],
+          "深度分析": [
+            "论证强度",
+            "替代解释",
+            "材料边界"
+          ]
+        }
+      },
+      "survey_or_review": {
+        "paper_type": "survey_or_review",
+        "reader_lens": "面向需要梳理综述脉络、分类体系和证据边界的研究读者",
+        "section_focus": [
+          "综述范围",
+          "纳入排除标准",
+          "主题分类",
+          "方法谱系",
+          "共识与分歧",
+          "开放问题"
+        ],
+        "required_checks": [
+          "需要说明综述范围、文献选择、分类体系、共识分歧和开放问题。"
+        ],
+        "formula_rules": [
+          "仅保留分类轴、纳入排除准则、证据汇总规则或 meta-analysis 统计量。"
+        ],
+        "avoid_rules": [
+          "不要把综述中的代表性结论写成作者自己完成的单项实验结果。"
+        ],
+        "boundary_questions": [
+          "检索范围、纳入排除标准或分类轴会遗漏哪些研究路线？",
+          "综述给出的是领域共识、作者分类，还是尚未解决的分歧？",
+          "哪些趋势结论来自覆盖范围内的文献分布，不能直接当作技术成熟度判断？"
+        ],
+        "section_semantics": {
+          "研究问题": "综述试图整理的领域问题、争议或知识缺口。",
+          "数据与任务定义": "纳入文献范围、检索/筛选标准和综述对象。",
+          "方法主线": "分类体系、综述组织方式和证据综合逻辑，不写成单篇方法架构。",
+          "关键结果": "领域共识、分歧、趋势、代表性方向和开放问题。",
+          "深度分析": "综述覆盖的盲区、分类体系的解释力和未来研究机会。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "综述范围",
+            "纳入/排除标准",
+            "文献覆盖"
+          ],
+          "方法主线": [
+            "分类体系",
+            "方法谱系",
+            "证据组织方式"
+          ],
+          "关键结果": [
+            "代表性方向",
+            "共识与分歧",
+            "开放问题"
+          ],
+          "深度分析": [
+            "分类体系的局限",
+            "未覆盖区域",
+            "后续研究机会"
+          ]
+        }
+      }
+    },
+    "grounding_contract": {
+      "source_of_truth": "source_manifest",
+      "source_index_source_of_truth": "source_manifest",
+      "truncation_source_of_truth": "source_manifest.coverage_or_pdf",
+      "partial_reading_acceptance_owner": "note_plan_or_grounding",
+      "accepted_reference_forms": [
+        "section_id",
+        "pages"
+      ],
+      "required_sections": [
+        "研究问题",
+        "数据与任务定义",
+        "方法主线",
+        "关键结果",
+        "深度分析",
+        "局限"
+      ],
+      "note_plan_depth_requirements": {
+        "required_section_focus_min_chars": 20,
+        "required_section_focus_fields": [
+          "focus",
+          "reading_goal",
+          "purpose"
+        ],
+        "generic_focus_phrases": [
+          "use the raw source to explain",
+          "paper-specific role of",
+          "explain the paper-specific role",
+          "explain this section",
+          "summarize this section"
+        ]
+      },
+      "excluded_model_input_fields": [
+        "evidence",
+        "evidence_pack",
+        "candidate_chunks",
+        "section_texts",
+        "summary",
+        "summary_hints"
+      ],
+      "reject_old_references": [
+        "synthesis_bundle.evidence",
+        "bundle.evidence",
+        "synthesis_bundle.candidate_chunks",
+        "synthesis_bundle.section_texts",
+        "synthesis_bundle.summary",
+        "bundle.candidate_chunks",
+        "bundle.section_texts",
+        "bundle.summary"
+      ],
+      "lint_command": "scripts/lint_grounding.py --note-plan ... --source-manifest ... --bundle-json ... --figure-decisions ..."
+    },
+    "figure_table_contract": {
+      "placeholder_first": true,
+      "visual_quality_gate": "fail_closed",
+      "decision_table_required": true,
+      "decision_values": [
+        "insert",
+        "placeholder",
+        "low_priority",
+        "visual_defect",
+        "skip"
+      ],
+      "usable_insert_candidate": {
+        "kinds": [
+          "figure",
+          "table"
+        ],
+        "visual_quality_status": "usable_candidate",
+        "requires_source_image_path": true
+      },
+      "allowed_usable_placeholder_reasons": [
+        "visual_defect",
+        "materialization_blocked"
+      ],
+      "manual_visual_review_required_statuses": [
+        "usable_candidate",
+        "needs_visual_quality_check",
+        "review"
+      ],
+      "automatic_fail_closed_visual_statuses": [
+        "reject_visual_quality",
+        "asset_candidate_missing"
+      ],
+      "manual_review_claim_requires_image_inspection": true
+    },
+    "analysis_coverage_contract": {
+      "central_claim_fields": [
+        "claim",
+        "supporting_evidence",
+        "what_it_actually_proves",
+        "what_it_does_not_prove"
+      ],
+      "central_claim_field_types": {
+        "claim": "string",
+        "supporting_evidence": "array",
+        "what_it_actually_proves": "string",
+        "what_it_does_not_prove": "string"
+      },
+      "central_claim_required_field_checks": {
+        "string": {
+          "non_empty": true
+        },
+        "array": {
+          "non_empty": true
+        }
+      },
+      "required_plan_fields": [
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions"
+      ],
+      "final_quality_review_checks": [
+        "central_claims_are_supported_by_raw_sections_or_pages",
+        "key_experimental_settings_and_numbers_are_present",
+        "mechanisms_or_protocol_choices_are_mapped_to_results",
+        "comparisons_explain_positioning_against_alternatives",
+        "discussion_or_limitation_claims_are_explained_mechanistically",
+        "proven_claims_are_separated_from_unproven_or_unvalidated_claims",
+        "research_or_engineering_takeaways_are_specific_and_reusable",
+        "followup_questions_are_specific_to_replication_or_extension"
+      ]
+    }
+  }
+}

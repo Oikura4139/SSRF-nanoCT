@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "review_date": "2026-07-29",
+  "checks": {
+    "chinese_fluency": true,
+    "heading_hierarchy": true,
+    "terminology_consistency": true,
+    "formula_readability": true,
+    "placeholder_clarity": true,
+    "obsidian_compatibility": true
+  },
+  "terminology": {
+    "Kirkpatrick-Baez_mirror": "Kirkpatrick–Baez（KB）反射镜",
+    "misalignment": "失调",
+    "speckle": "散斑",
+    "fine_tuning": "微调"
+  }
+}

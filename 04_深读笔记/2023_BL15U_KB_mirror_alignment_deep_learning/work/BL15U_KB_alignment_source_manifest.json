@@ -1,0 +1,347 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "title:b4208097f5ca",
+  "title": "AI translation ・View original & related papers at",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_raw_sections.jsonl",
+  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_full_text.md",
+  "pdf": {
+    "path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+    "total_pages": 14,
+    "text_pages_extracted": 14,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 14,
+    "text_max_pages": null,
+    "text_pages_extracted": 14,
+    "text_pages_scanned": 14,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 292,
+      "text_hash_sha256": "d238fc3fa17789f99cabb11b6525e8b74654cacdc2a4e6c50ac3e59b8e41884e"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 3077,
+      "text_hash_sha256": "7cd6ab35a34ad9055073798dc3772be34f72ad19fc1e2f241b628589684d0092"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 4066,
+      "text_hash_sha256": "fb46b91545931c268d3e2edfc80b59b26467bc5ec6ed7b5d531685c7e6a2c66c"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "2. Method",
+      "page_start": 3,
+      "page_end": 10,
+      "char_count": 21758,
+      "text_hash_sha256": "1ff5cf5014e8afc8c896e85899f4bea471e105bb229adecb698499f4164535a4"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "5. Conclusion",
+      "page_start": 10,
+      "page_end": 11,
+      "char_count": 2756,
+      "text_hash_sha256": "fc8a8845496c435db5c366152461929e54d47f748b0b561bbc5f2e1db97a36b4"
+    },
+    {
+      "section_id": "sec:acknowledgments-the-authors-thank-yanan-fu-and-guohao-du-from-beam",
+      "kind": "acknowledgments",
+      "title": "Acknowledgments. The authors thank Yanan Fu and Guohao Du from Beam-",
+      "page_start": 11,
+      "page_end": 11,
+      "char_count": 111,
+      "text_hash_sha256": "6cba46d1f0dd4b9f5a8b3148e6238ba90d61d5f478e10c22080c28830de4cbf1"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 11,
+      "page_end": 14,
+      "char_count": 6432,
+      "text_hash_sha256": "4ddcc82f463de753714665c8ae7432e2d09a577e23953b4d191752417ee80cd7"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 1822,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 2654,
+      "section_ids": [
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3286,
+      "section_ids": [
+        "sec:introduction",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2755,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3216,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3221,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3261,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3228,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3425,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 3087,
+      "section_ids": [
+        "sec:method",
+        "sec:conclusion"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3031,
+      "section_ids": [
+        "sec:conclusion",
+        "sec:acknowledgments-the-authors-thank-yanan-fu-and-guohao-du-from-beam",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 2543,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2769,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 362,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "fined as 𝐽𝑖(𝑃1, 𝑃2) = ⟨𝑢(𝑃1, 𝑡)𝑢∗(𝑃2, 𝑡)⟩. After passing through a thin scatterer",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "𝐽𝑡(𝑃1, 𝑃2) = 𝑡(𝑃1)𝑡∗(𝑃2)𝐽𝑖(𝑃1, 𝑃2). The propagation of the mutual intensity",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "𝐽𝑡(𝑄1, 𝑄2) = ∫",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "Because only intensity information can be detected, we consider 𝐼(𝑄) = 𝐽(𝑄, 𝑄)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "field 𝐽𝑖(𝛼1, 𝛽1, 𝛼2, 𝛽2) = 𝐴(𝛼1, 𝛽1)𝐴(𝛼2, 𝛽2)𝜇(𝛼1 −𝛼2, 𝛽1 −𝛽2) and using the",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "𝐼(𝑥, 𝑦) = ∫",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "Forward propagation: 𝑧= 𝜑(𝑤𝑇𝑥+ 𝑏)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    },
+    {
+      "text": "𝜕𝑥= 𝜕𝐿",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 10
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "45f9c452cfb9082a7fd334e38b793a82eb765f8821a347ca787e98aa8616ba21",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "paper_id": "title:b4208097f5ca",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "AI translation ・View original & related papers at",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "AI translation ・View original & related papers at",
+      "year": "",
+      "venue": "",
+      "source_url": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+      "doi": "",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "title",
+        "value": "AI translation ・View original & related papers at",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "minor_title_variation_only",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "AI translation ・View original & related papers at",
+          "work_value": "AI translation ・View original & related papers at"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_resolve.json",
+      "metadata_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "AI translation ・View original & related papers at",
+    "year": "",
+    "venue": "",
+    "source_url": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
+    "doi": "",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "review_date": "2026-07-29",
+  "scope": [
+    "01_全文中文翻译_BL08U1A_X射线通量自动反馈系统.md",
+    "02_深读总结_BL08U1A_X射线通量自动反馈系统.md"
+  ],
+  "checks": {
+    "identity_and_metadata": true,
+    "full_body_translation_coverage": true,
+    "quantitative_claims_grounded": true,
+    "method_and_results_separated": true,
+    "limitations_explicit": true,
+    "application_inference_labeled": true,
+    "figures_handled_without_unsupported_insertion": true,
+    "all_lint_gates_pass": true
+  },
+  "notes": [
+    "译文覆盖论文正文、公式、表格、图注和声明性部分；参考文献条目保留在原 PDF 中。",
+    "深读总结将论文事实、分析判断和面向纳米 CT 智能化的迁移建议分开表述。",
+    "图像提取存在可读性缺陷，因此采用带来源页码的建议位置提示，不插入低质量资产。"
+  ]
+}
