@@ -3,22 +3,22 @@
   "script": "extract_source_text.py",
   "schema_version": 1,
   "paper_id": "title:b4208097f5ca",
-  "title": "AI translation ・View original & related papers at",
+  "title": "2023_BL15U_KB_mirror_alignment_deep_learning",
   "source_kind": "pdf_text",
-  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_raw_sections.jsonl",
-  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_full_text.md",
+  "raw_sections_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\BL15U_KB_alignment_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\BL15U_KB_alignment_full_text.md",
   "pdf": {
-    "path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-    "total_pages": 14,
-    "text_pages_extracted": 14,
+    "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\2023_BL15U_KB_mirror_alignment_deep_learning.pdf",
+    "total_pages": 11,
+    "text_pages_extracted": 11,
     "text_max_pages": null,
     "text_truncated": false
   },
   "coverage": {
-    "total_pages": 14,
+    "total_pages": 11,
     "text_max_pages": null,
-    "text_pages_extracted": 14,
-    "text_pages_scanned": 14,
+    "text_pages_extracted": 11,
+    "text_pages_scanned": 11,
     "text_truncated": false,
     "truncated_due_to_page_limit": false,
     "appendix_detected": false,
@@ -32,222 +32,348 @@
       "title": "preamble",
       "page_start": 1,
       "page_end": 1,
-      "char_count": 292,
-      "text_hash_sha256": "d238fc3fa17789f99cabb11b6525e8b74654cacdc2a4e6c50ac3e59b8e41884e"
+      "char_count": 593,
+      "text_hash_sha256": "bcb46348b94f1af899d04a8ae4af4adf468a2474f2893c8da3d3977d4aa9b4d1"
     },
     {
       "section_id": "sec:abstract",
       "kind": "abstract",
       "title": "Abstract",
       "page_start": 1,
-      "page_end": 2,
-      "char_count": 3077,
-      "text_hash_sha256": "7cd6ab35a34ad9055073798dc3772be34f72ad19fc1e2f241b628589684d0092"
+      "page_end": 1,
+      "char_count": 1153,
+      "text_hash_sha256": "e6b0cfb2582c7a2103824c8dff95ccb9283fb3f054e4aa032274c2290e1bdd4d"
     },
     {
       "section_id": "sec:introduction",
       "kind": "introduction",
-      "title": "1. Introduction",
-      "page_start": 2,
-      "page_end": 3,
-      "char_count": 4066,
-      "text_hash_sha256": "fb46b91545931c268d3e2edfc80b59b26467bc5ec6ed7b5d531685c7e6a2c66c"
+      "title": "1 Introduction",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 4921,
+      "text_hash_sha256": "73d5977b5f873d3819cc27e480397b369b2e72b446577f155ad4565948b3b47d"
     },
     {
       "section_id": "sec:method",
       "kind": "method",
-      "title": "2. Method",
-      "page_start": 3,
+      "title": "2 \u0007Method",
+      "page_start": 2,
+      "page_end": 5,
+      "char_count": 12458,
+      "text_hash_sha256": "370d340d8f71608a1a0f81ddb4782d0552a557105a15f188ec132fff0317e128"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 5,
       "page_end": 10,
-      "char_count": 21758,
-      "text_hash_sha256": "1ff5cf5014e8afc8c896e85899f4bea471e105bb229adecb698499f4164535a4"
+      "char_count": 15477,
+      "text_hash_sha256": "32bcb35e54199447f59a9b2ca64c1b08b23520d63c47ad5a3c7961e8800524a4"
     },
     {
       "section_id": "sec:conclusion",
       "kind": "conclusion",
-      "title": "5. Conclusion",
+      "title": "5 \u0007Conclusion",
       "page_start": 10,
-      "page_end": 11,
-      "char_count": 2756,
-      "text_hash_sha256": "fc8a8845496c435db5c366152461929e54d47f748b0b561bbc5f2e1db97a36b4"
+      "page_end": 10,
+      "char_count": 2602,
+      "text_hash_sha256": "0ca52b8338039c35778353315928884bb649b7064dd0f55b7c2bdce4bf7dbafa"
     },
     {
-      "section_id": "sec:acknowledgments-the-authors-thank-yanan-fu-and-guohao-du-from-beam",
+      "section_id": "sec:acknowledgements-the-authors-thank-ya-nan-fu-and-guo-hao-du",
       "kind": "acknowledgments",
-      "title": "Acknowledgments. The authors thank Yanan Fu and Guohao Du from Beam-",
-      "page_start": 11,
-      "page_end": 11,
-      "char_count": 111,
-      "text_hash_sha256": "6cba46d1f0dd4b9f5a8b3148e6238ba90d61d5f478e10c22080c28830de4cbf1"
+      "title": "Acknowledgements The authors thank Ya-Nan Fu and Guo-Hao Du",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 805,
+      "text_hash_sha256": "6e638fa7e462cd6f88b08659964c538f24dfb1035ad2d4080ed51beb311db716"
     },
     {
       "section_id": "sec:references",
       "kind": "references",
       "title": "References",
-      "page_start": 11,
-      "page_end": 14,
-      "char_count": 6432,
-      "text_hash_sha256": "4ddcc82f463de753714665c8ae7432e2d09a577e23953b4d191752417ee80cd7"
+      "page_start": 10,
+      "page_end": 11,
+      "char_count": 6848,
+      "text_hash_sha256": "94ad5e73c15a00aeca7de2bf397dbdb035f82bbb5a1e328f9e5ed61923826183"
     }
   ],
   "pages": [
     {
       "page": 1,
-      "char_count": 1822,
+      "char_count": 3993,
       "section_ids": [
         "sec:preamble",
-        "sec:abstract"
-      ]
-    },
-    {
-      "page": 2,
-      "char_count": 2654,
-      "section_ids": [
         "sec:abstract",
         "sec:introduction"
       ]
     },
     {
-      "page": 3,
-      "char_count": 3286,
+      "page": 2,
+      "char_count": 3623,
       "section_ids": [
         "sec:introduction",
         "sec:method"
       ]
     },
     {
+      "page": 3,
+      "char_count": 3146,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
       "page": 4,
-      "char_count": 2755,
+      "char_count": 4946,
       "section_ids": [
         "sec:method"
       ]
     },
     {
       "page": 5,
-      "char_count": 3216,
+      "char_count": 3940,
       "section_ids": [
-        "sec:method"
+        "sec:method",
+        "sec:dataset"
       ]
     },
     {
       "page": 6,
-      "char_count": 3221,
+      "char_count": 3736,
       "section_ids": [
-        "sec:method"
+        "sec:dataset"
       ]
     },
     {
       "page": 7,
-      "char_count": 3261,
+      "char_count": 4260,
       "section_ids": [
-        "sec:method"
+        "sec:dataset"
       ]
     },
     {
       "page": 8,
-      "char_count": 3228,
+      "char_count": 3015,
       "section_ids": [
-        "sec:method"
+        "sec:dataset"
       ]
     },
     {
       "page": 9,
-      "char_count": 3425,
+      "char_count": 3764,
       "section_ids": [
-        "sec:method"
+        "sec:dataset"
       ]
     },
     {
       "page": 10,
-      "char_count": 3087,
+      "char_count": 5340,
       "section_ids": [
-        "sec:method",
-        "sec:conclusion"
+        "sec:dataset",
+        "sec:conclusion",
+        "sec:acknowledgements-the-authors-thank-ya-nan-fu-and-guo-hao-du",
+        "sec:references"
       ]
     },
     {
       "page": 11,
-      "char_count": 3031,
-      "section_ids": [
-        "sec:conclusion",
-        "sec:acknowledgments-the-authors-thank-yanan-fu-and-guohao-du-from-beam",
-        "sec:references"
-      ]
-    },
-    {
-      "page": 12,
-      "char_count": 2543,
-      "section_ids": [
-        "sec:references"
-      ]
-    },
-    {
-      "page": 13,
-      "char_count": 2769,
-      "section_ids": [
-        "sec:references"
-      ]
-    },
-    {
-      "page": 14,
-      "char_count": 362,
+      "char_count": 5436,
       "section_ids": [
         "sec:references"
       ]
     }
   ],
   "captions": {
-    "figures": [],
-    "tables": []
+    "figures": [
+      {
+        "id": "Fig. 1",
+        "caption": "(Color online) Schematic of the experimental optical path using with the proposed method",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig. 2",
+        "caption": "(Color online) Schematic of the misalignment error esti- mation process. Dropout: drop- out layer. FC: fully connected layer. Conv: convolution layer",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 3",
+        "caption": "(Color online) Example simulated optical elements. a Simu- lated scatterer composed of Cu particles and b simulated figure error of the KB mirror. Scale bar: 20 μm",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 4",
+        "caption": "(Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 mm",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 5",
+        "caption": "(Color online) Results of training the network on the speckle data. a A detected image generated by the simula- tion. b The corresponding estimation. c The RMSE drop during the training process. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM cur- vature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 6",
+        "caption": "Knife-edge scan results at different pitch angles and foci. Both scans were performed in the horizontal direction; the results obtained for the vertical direction were similar. a Data were collected in the first experiment. b Data were collected in the second experiment",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 7",
+        "caption": "Training results for the misalignment error estimation model trained on four differ- ent experimental datasets. a, b Direct beam images from the first and second experiments, respectively. c, d Speckle images from the first and second experiments, respectively. e Line chart of estimated errors and ground truth corresponding to (d). f, g RMSE drop curves during the training process for speckle data from the first and second experiments, respec- tively. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM curvature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 8",
+        "caption": "RMSEs of different normalized errors between estimations, for the model trained on the simulation data as first guess and ground truth. Error indices are the same as in Fig. 7",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 9",
+        "caption": "(Color online) Feature maps of convolution layers of misalign- ment error estimation models trained on the experimental data. From a to e shown are feature maps from the first convolution layer, layer 1 of ResNet50, layer 2 of ResNet50, layer 3 of ResNet50, and layer",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 10",
+        "caption": "(Color online) Saliency maps for the misalignment error esti- mation models trained on the experimental data. a Input image and b the saliency map generated for this input image",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:dataset"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Estimated tolerances for six main alignment parameters",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Alignment parameters and ranges of misalignment errors in the simulations",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Summary of validation accuracies (RMSEs) of normalized misalignment error estimation models trained on the simulated data",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Ranges and estimation accuracy (RMSEs) of misalignment errors for the experimental data",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Summary of validation accuracies (RMSEs) of the normalized misalignment error estimation using the deep learning model trained on the experimental data",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:dataset"
+      }
+    ]
   },
   "math_index": [
     {
-      "text": "fined as 𝐽𝑖(𝑃1, 𝑃2) = ⟨𝑢(𝑃1, 𝑡)𝑢∗(𝑃2, 𝑡)⟩. After passing through a thin scatterer",
+      "text": "intensity can be defined as Ji(P1,P2) = u(P1,t)u*(P2,t). After",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "𝐽𝑡(𝑃1, 𝑃2) = 𝑡(𝑃1)𝑡∗(𝑃2)𝐽𝑖(𝑃1, 𝑃2). The propagation of the mutual intensity",
+      "text": ",P2) = t(P1)t*(P2)Ji(P1,P2). The propagation of the mutual",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "𝐽𝑡(𝑄1, 𝑄2) = ∫",
+      "text": "consider I(Q) = J(Q,Q) in the detector plane. Let (x,y) denote",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "Because only intensity information can be detected, we consider 𝐼(𝑄) = 𝐽(𝑄, 𝑄)",
+      "text": "(α1,β1,α2,β2) = A(α1,β1)A(α2,β2)μ(α1 − α2, β1 − β2) and using",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "field 𝐽𝑖(𝛼1, 𝛽1, 𝛼2, 𝛽2) = 𝐴(𝛼1, 𝛽1)𝐴(𝛼2, 𝛽2)𝜇(𝛼1 −𝛼2, 𝛽1 −𝛽2) and using the",
+      "text": ") = ∬S1 ∬S1",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "𝐼(𝑥, 𝑦) = ∫",
+      "text": "I(x, y) =",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "Forward propagation: 𝑧= 𝜑(𝑤𝑇𝑥+ 𝑏)",
+      "text": "z = 휑(wTx + b)",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     },
     {
-      "text": "𝜕𝑥= 𝜕𝐿",
+      "text": "휕x = 휕z",
       "section_id": "sec:method",
-      "page_start": 3,
-      "page_end": 10
+      "page_start": 2,
+      "page_end": 5
     }
   ],
   "appendix_index": {
@@ -258,90 +384,5 @@
     "table_captions": []
   },
   "language_hint": "en",
-  "text_hash_sha256": "45f9c452cfb9082a7fd334e38b793a82eb765f8821a347ca787e98aa8616ba21",
-  "identity_contract": {
-    "artifact_type": "canonical_identity",
-    "paper_id": "title:b4208097f5ca",
-    "identity_verdict": "accepted",
-    "work_level_identity": {
-      "title": "AI translation ・View original & related papers at",
-      "translated_title": "",
-      "authors": [],
-      "year": "",
-      "venue": "",
-      "doi": "",
-      "arxiv_id": "",
-      "zotero_key": ""
-    },
-    "source_manifestation": {
-      "source_kind": "local_pdf",
-      "title": "AI translation ・View original & related papers at",
-      "year": "",
-      "venue": "",
-      "source_url": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-      "pdf_url": "",
-      "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-      "doi": "",
-      "arxiv_id": "",
-      "zotero_key": ""
-    },
-    "selected_identity_evidence": [
-      {
-        "kind": "title",
-        "value": "AI translation ・View original & related papers at",
-        "trust": "metadata",
-        "source": "metadata"
-      },
-      {
-        "kind": "trusted_source_path",
-        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-        "trust": "strong",
-        "source": "source_manifestation"
-      },
-      {
-        "kind": "source_url",
-        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-        "trust": "source_manifestation",
-        "source": "metadata"
-      },
-      {
-        "kind": "source_url",
-        "value": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-        "trust": "source_manifestation",
-        "source": "source_manifestation"
-      }
-    ],
-    "equivalence_decision": {
-      "status": "equivalent",
-      "reason": "minor_title_variation_only",
-      "location_binding": "source_manifestation",
-      "evidence": [
-        {
-          "kind": "title_similarity",
-          "status": "match",
-          "score": 1.0,
-          "source_value": "AI translation ・View original & related papers at",
-          "work_value": "AI translation ・View original & related papers at"
-        }
-      ]
-    },
-    "warnings": [],
-    "repair_trace_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_identity_repair_trace.json",
-    "provenance": {
-      "resolve_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_resolve.json",
-      "metadata_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL15U_KB_mirror_alignment_deep_learning/work/BL15U_KB_alignment_metadata.json"
-    }
-  },
-  "source_manifestation": {
-    "source_kind": "local_pdf",
-    "title": "AI translation ・View original & related papers at",
-    "year": "",
-    "venue": "",
-    "source_url": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-    "pdf_url": "",
-    "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/06_BL15U_2023_CNN_KB_alignment.pdf",
-    "doi": "",
-    "arxiv_id": "",
-    "zotero_key": ""
-  }
+  "text_hash_sha256": "c18c517831427880ccb9053e312b82fb7c9e55f3f326b4bdbe13b517f44f4a47"
 }

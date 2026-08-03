@@ -1,0 +1,475 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.52202/079017-1427",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantly faster than other methods.",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "low_priority",
+      "reason": "封面式结果图与图6、图8的信息重复；全文翻译保留，深读总结不重复插入。",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_002_fig_figure_1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_002_fig_figure_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "A detection plane captures the atten- uation of X-rays emitted from different angles.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:related-work",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "We represent the scanned object as a set of radiative Gaussians. We optimize them using real X-ray projections and finally retrieve the density volume with voxelization.",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:preliminary",
+      "decision": "insert",
+      "reason": "该图直接说明辐射高斯表示、投影监督与体素化输出，是理解任务定义和表示方式的核心图。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_figure_3.png",
+      "relative_markdown_embed": "![Figure 3](images/page_004_fig_figure_3.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_004_fig_figure_3.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Training pipeline of R2-Gaussian. (a) Overall training pipeline. (b) X-ray rasterization for projection rendering. (c) Density voxelization for volume retrieval. (d) Modified adaptive control.",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_005_fig_figure_4.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_fig_figure_4.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Density incon- sistency in 3DGS.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "该图以最小二维到一维例子解释积分偏差与多视角密度不一致，是论文理论贡献的关键视觉证据。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "方法主线",
+      "plan_kind": "mechanism_detail",
+      "source_image_filename": "page_006_fig_figure_5.png",
+      "relative_markdown_embed": "![Figure 5](images/page_006_fig_figure_5.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_006_fig_figure_5.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Colorized slice examples of different methods with PSNR (dB) shown at the bottom right of each image. The first three rows are from the synthetic dataset and the last row is from the real-world dataset. Our method recovers more details and suppresses artifacts.",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "该图比较传统法、NeRF法与本文方法的典型切片，直接展示条纹、模糊、椒盐噪声和细节恢复差异。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_figure_6.png",
+      "relative_markdown_embed": "![Figure 6](images/page_008_fig_figure_6.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_fig_figure_6.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Results of X-3DGS and our method with PSNR (dB) indicated on each image. We show slices of X-3DGS queried from three viewing angles. Although X-3DGS can produce plausible X-ray projections, its reconstructed volume lacks view consistency and exhibits poor quality.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_009_fig_figure_7_clean.png",
+      "relative_markdown_embed": "![Figure 7](images/page_009_fig_figure_7_clean.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7_clean.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Results of NeRF-based methods and our R2-Gaussian at different iterations.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_figure_8.png",
+      "relative_markdown_embed": "![Figure 8](images/page_010_fig_figure_8.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_figure_8.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "Configuration of a cone-beam CT scanner.",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:references",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 10",
+      "source_id": "Figure 10",
+      "kind": "figure",
+      "label": "Figure 10",
+      "caption": "Datasets used for experiments. We show half volume and projection examples for each case.",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:references",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 11",
+      "source_id": "Figure 11",
+      "kind": "figure",
+      "label": "Figure 11",
+      "caption": "Reconstruction results of NeRF-based methods and our method on the synthetic dataset.",
+      "pages": [
+        17
+      ],
+      "section_id": "sec:references",
+      "decision": "low_priority",
+      "reason": "附录合成结果图与正文图6重复；全文翻译保留，深读总结以图6代表主定性结果。",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_017_fig_figure_11.png",
+      "relative_markdown_embed": "![Figure 11](images/page_017_fig_figure_11.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "source_id": "Figure 12",
+      "kind": "figure",
+      "label": "Figure 12",
+      "caption": "Reconstruction results on the real-world dataset.",
+      "pages": [
+        18
+      ],
+      "section_id": "sec:references",
+      "decision": "low_priority",
+      "reason": "附录真实结果图信息已由正文主结果和数值表覆盖；全文翻译保留，深读总结不重复插入。",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_018_fig_figure_12.png",
+      "relative_markdown_embed": "![Figure 12](images/page_018_fig_figure_12.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 13",
+      "source_id": "Figure 13",
+      "kind": "figure",
+      "label": "Figure 13",
+      "caption": "Qualitative comparison of X-3DGS and our method.",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "low_priority",
+      "reason": "与正文图7同属积分偏差定性比较；全文翻译保留，深读总结使用经过重裁的图7。",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_019_fig_figure_13.png",
+      "relative_markdown_embed": "![Figure 13](images/page_019_fig_figure_13.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_fig_figure_13.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 14",
+      "source_id": "Figure 14",
+      "kind": "figure",
+      "label": "Figure 14",
+      "caption": "Quantitative comparison of different components and parameters.",
+      "pages": [
+        20
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "low_priority",
+      "reason": "消融的核心数字在总结中重建为Markdown表格；全文翻译保留该视觉比较。",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_020_fig_figure_14.png",
+      "relative_markdown_embed": "![Figure 14](images/page_020_fig_figure_14.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_fig_figure_14.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 15",
+      "source_id": "Figure 15",
+      "kind": "figure",
+      "label": "Figure 15",
+      "caption": "PSNR-iteration and SSIM-iteration plots of case engine, 50-view.",
+      "pages": [
+        20
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 16",
+      "source_id": "Figure 16",
+      "kind": "figure",
+      "label": "Figure 16",
+      "caption": "Training time on the synthetic dataset.",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 17",
+      "source_id": "Figure 17",
+      "kind": "figure",
+      "label": "Figure 17",
+      "caption": "3DGS-based methods tend to introduce needle-like artifacts when there are insufficient amounts of images. PNSR (dB) is shown at the bottom right of each image.",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "insert",
+      "reason": "该图直接展示25视角下的针状伪影，是界定3DGS局部过拟合和极稀疏视角边界的关键负面证据。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "局限",
+      "plan_kind": "limitation_result",
+      "source_image_filename": "page_021_fig_figure_17_clean.png",
+      "relative_markdown_embed": "![Figure 17](images/page_021_fig_figure_17_clean.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_17_clean.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "figure:Figure 18",
+      "source_id": "Figure 18",
+      "kind": "figure",
+      "label": "Figure 18",
+      "caption": "Visualization of reconstruction results under limited-angle scenarios. PNSR (dB) is shown at the bottom right of each image.",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:methods-2",
+      "decision": "insert",
+      "reason": "该图展示有限角场景下已扫描区细节与未观测区模糊的权衡，是外推能力边界的关键负面结果。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "局限",
+      "plan_kind": "limitation_result",
+      "source_image_filename": "page_021_fig_figure_18.png",
+      "relative_markdown_embed": "![Figure 18](images/page_021_fig_figure_18.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_18.png",
+      "materialization_status": "materialized"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Quantitative results on sparse-view tomography. We colorize the best , second-best , and",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:method",
+      "decision": "skip",
+      "reason": "表中全部核心数值将在总结中重建为Markdown比较表，避免将小字号表格截图重复插入。",
+      "skip_reason": "reconstructed_as_markdown_table",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_007_fig_table_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_007_fig_table_1.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Quantitative results of X-3DGS and our method on the synthetic dataset.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:dataset",
+      "decision": "skip",
+      "reason": "表中全部积分偏差数值将在总结中重建为Markdown比较表；原候选底部混入下一节标题。",
+      "skip_reason": "reconstructed_as_markdown_table",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_009_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_009_fig_table_2.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Ablation results with our choices in bold.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:dataset",
+      "decision": "skip",
+      "reason": "候选裁图混入图8，表中全部消融数值改在总结中重建为Markdown表格。",
+      "skip_reason": "reconstructed_as_markdown_table",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_010_fig_table_3.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_table_3.png"
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Quantitative evaluation on limited-angle tomography. We colorize the best , second-best , and third-best numbers.",
+      "pages": [
+        18
+      ],
+      "section_id": "sec:references",
+      "decision": "skip",
+      "reason": "有限角结果的全部核心数值将在总结中重建为Markdown表格。",
+      "skip_reason": "reconstructed_as_markdown_table",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_018_fig_table_4.png",
+      "relative_markdown_embed": "![Table 4](images/page_018_fig_table_4.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+      "materialization_status": "pending"
+    }
+  ],
+  "summary": {
+    "total_items": 22,
+    "by_decision": {
+      "insert": 8,
+      "low_priority": 10,
+      "placeholder": 0,
+      "skip": 4,
+      "visual_defect": 0
+    }
+  }
+}

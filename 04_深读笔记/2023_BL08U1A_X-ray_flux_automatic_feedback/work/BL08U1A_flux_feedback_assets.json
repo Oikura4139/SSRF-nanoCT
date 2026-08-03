@@ -1,10 +1,10 @@
 {
   "status": "ok",
   "script": "extract_pdf_assets.py",
-  "paper_id": "doi:10.3390/app13095456",
-  "pdf_path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-  "asset_root": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility",
-  "images_dir": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images",
+  "paper_id": "local:bl08",
+  "pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\2023_BL08U1A_X-ray_flux_automatic_feedback.pdf",
+  "asset_root": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets",
+  "images_dir": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images",
   "page_assets": [
     {
       "page_number": 1,
@@ -72,7 +72,7 @@
       "text_extraction_method": "text",
       "ocr_used": false,
       "image_count": 2,
-      "figure_count": 2,
+      "figure_count": 1,
       "page_text": "Appl. Sci. 2023, 13, 5456 7 of 13 an alarm signal output is set in the program. An error signal is activated and sent to the imaging or XAS end stations when the SV exceeds 30%. Figure 5 illustrates the procedure of the tunning loop. The user can set the step of the M2 motor, offset and V0 in the browser user interface and operate the feedback system. When the system is turned on, a feedback request with the parameters of the step, offset and V0 is sent to the server. The server then immediately reads out all signals and checks the threshold value limitation. If the SV is greater than V0, M2 must move one step accordingly and ﬁnishes one feedback request. As long as the system is on, this procedure is repeated every three seconds, taking into consideration the motor’s moving speed and signal latency. Figure 5. The logic of each tunning procedure. When the server gets a tunning request with threshold and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call. 2.2. System Optimization and Commissioning 2.2.1. X-ray Light Flux Calibration The maximum X-ray beam ﬂux in the downstream optical path of Slit 2 is not an exact correspondence with the minimum signal difference between the left and right blade-edge voltage signals, as shown in Figure 4. This is because the signal of the gold mesh may not accurately represent the X-ray beam ﬂux at the sample position, depending on its mesh structure and the illuminated position. Therefore, a PD detector was installed in the STXM end station, which directly measures the X-ray intensity; this was used to determine the difference between the maximum ﬂux and the ﬂux when SRL = 0, and to calibrate SRL through offset if the difference was big enough. Several calibration experiments were performed at energies of 540 eV (shown in Figure 6), 700 eV and 920 eV, and the offset values of SRL for the maximum PD light ﬂux were calculated as −2.677%, −9.356%, and −13.5%, respectively. When the offset was set to zero, the light ﬂux values of SRL = 0 at 540 eV, 700 eV and 920 eV were 99.12%, 96.88%, and 98.50% of the maximum PD ﬂux, respectively. The maximum light ﬂux deviation was smaller than 3%. Therefore, although the offset may be bigger than 10%, the ﬂux of offset = 0 was almost the max ﬂux on the sample, and the offset was to zero in the automatic feedback procedure.",
       "text_preview": "Appl. Sci. 2023, 13, 5456 7 of 13 an alarm signal output is set in the program. An error signal is activated and sent to the imaging or XAS end stations when the SV exceeds 30%. Figure 5 illustrates the procedure of the tunning loop. The us"
     },
@@ -82,7 +82,7 @@
       "text_extraction_method": "text",
       "ocr_used": false,
       "image_count": 2,
-      "figure_count": 2,
+      "figure_count": 1,
       "page_text": "Appl. Sci. 2023, 13, 5456 8 of 13 Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the ﬁrst M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light ﬂux of the ﬁrst position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light ﬂuxes can be ignored; thus, the offset value is set to 0 in practical applications. 2.2.2. Threshold Value Limitation At the BL08U1A beamline of the SSRF, M2 is the main beamline mirror that affects the beam center during the Slit 2 during experiment, which is driven by a step motor with a minimum moving precision of 200 nm. Additionally, the return difference of the M2 motor also needs to be considered during it movement. In order to prevent the M2 position from vibrating around the optimal position due to return difference, a threshold value limitation is deﬁned as follows: SV = abs \u0012SR −SL SR + SL + o f f set \u0013 , (2) where the offset is a correcting value according to the gold mesh optimal signal value. A suitable threshold value V0, which measures the deviation in the slight signals due to M2 movement, should be tested so that the feedback system is only activated when SV > V0. Figure 7 shows the change in the position of SRL as the M2 moves in steps of 200 nm at an incident X-ray energy of 920 eV. The (SR −SL)/(SR + SL) is collected with the M2 change before the experiment and these data are ﬁtted with a straight line (see Figure 7). The slope of the ﬁtted straight line represents the percentage change of (SR −SL)/(SR + SL) after 1000 nm, and multiplying the slope by 0.2 gives the percent change of (SR −SL)/(SR + SL) after 200 nm. It can be observed that the relative change in the position of SRL in each motor step is approximately 0.0475; this is obtained by calculating the slope in the central linear area around the optimal M2 position. For the BL08U1A beamline, the incident X-ray energy ranges from 250 eV to 2000 eV. Therefore, we systematically tested the entire energy range and calculated the threshold values, which are listed in Table 1. In real experiments, V0 is set to 0.05 for simplicity and the automatic feedback procedure works very well.",
       "text_preview": "Appl. Sci. 2023, 13, 5456 8 of 13 Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the ﬁrst M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value."
     },
@@ -92,7 +92,7 @@
       "text_extraction_method": "text",
       "ocr_used": false,
       "image_count": 1,
-      "figure_count": 3,
+      "figure_count": 2,
       "page_text": "Appl. Sci. 2023, 13, 5456 9 of 13 Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were ﬁtted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05. Table 1. The minimum threshold value for different incident X-ray energy. Energy (eV) 300 460 700 920 1200 1500 1800 V0 0.0399 0.0467 0.0353 0.0475 0.0453 0.0431 0.0448 3. Results 3.1. Tunning for Optimal Light Flux The browser user interface for the online automatic feedback system is shown in Figure 8. The “Beamline Monitor” panel in the top left corner provides current readings of E (energy), M2, SL, SR, SU, SD, SV and I0. The “Conﬁg” panel in the bottom-left corner has inputs of M2 step, offset and V0, as well as a running button and export data function components. The main part of the interface on the right side is the chart area, which displays all signals with a maximum of 12 h of data. Each chart has a slider on the x-axis for observing smaller time scales. The signals in the chart area and in the Beamline Monitor panel are updated by the server every second. The automatic feedback system was tested for approximately 15 min via an energy scan from 690 eV to 730 eV. Various parameters, including an M2 step of 0.2 um, an offset of 0, and a threshold of 0.05, were set in the Conﬁg panel and the feedback system was started by pressing the start running button. Energy changes were recorded in the chart of E, along with the M2 position in the chart of M2, and the SRL was calculated in the chart of (SR −SL)/(SR + SL). During the energy change, SRL gradually decreased to −0.05 when M2 started moving step by step to make SRL larger. The automatic feedback procedure was thus proven to work well since SRL was maintained between ±0.05 in the whole test. 3.2. Tunning for XAS XAS is a widely used experimental technique that is performed at synchrotron ra- diation facilities for research in material science, chemistry, and biology [34]. The XAS experiment uses TEY measurements, which measure the absorption of X-rays by consider- ing a sample as a function of energy. During the experiment, along with the incident energy changes, the intensity of the X-ray before and after the sample are recorded and normalized to obtain the absorption coefﬁcient. The absorption spectrum provides information about the electronic and atomic structure of the sample, including oxidation state, coordination number, and bond length.",
       "text_preview": "Appl. Sci. 2023, 13, 5456 9 of 13 Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were ﬁt"
     },
@@ -143,7 +143,7 @@
       "image_index": 1,
       "xref": 32,
       "filename": "page_001_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_001_img_01.png",
       "ext": "png",
       "width": 500,
       "height": 175,
@@ -156,7 +156,7 @@
       "image_index": 2,
       "xref": 47,
       "filename": "page_001_img_02.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_02.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_001_img_02.png",
       "ext": "png",
       "width": 355,
       "height": 234,
@@ -169,7 +169,7 @@
       "image_index": 3,
       "xref": 48,
       "filename": "page_001_img_03.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_03.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_001_img_03.png",
       "ext": "png",
       "width": 355,
       "height": 234,
@@ -182,7 +182,7 @@
       "image_index": 4,
       "xref": 49,
       "filename": "page_001_img_04.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_04.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_001_img_04.png",
       "ext": "png",
       "width": 355,
       "height": 234,
@@ -195,7 +195,7 @@
       "image_index": 5,
       "xref": 50,
       "filename": "page_001_img_05.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_001_img_05.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_001_img_05.png",
       "ext": "png",
       "width": 355,
       "height": 234,
@@ -208,7 +208,7 @@
       "image_index": 1,
       "xref": 107,
       "filename": "page_003_img_01.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_01.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_img_01.jpeg",
       "ext": "jpeg",
       "width": 1527,
       "height": 96,
@@ -221,7 +221,7 @@
       "image_index": 2,
       "xref": 108,
       "filename": "page_003_img_02.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_02.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_img_02.jpeg",
       "ext": "jpeg",
       "width": 1527,
       "height": 96,
@@ -234,7 +234,7 @@
       "image_index": 3,
       "xref": 109,
       "filename": "page_003_img_03.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_03.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_img_03.jpeg",
       "ext": "jpeg",
       "width": 1527,
       "height": 96,
@@ -247,7 +247,7 @@
       "image_index": 4,
       "xref": 110,
       "filename": "page_003_img_04.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_img_04.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_img_04.jpeg",
       "ext": "jpeg",
       "width": 1527,
       "height": 96,
@@ -260,7 +260,7 @@
       "image_index": 1,
       "xref": 147,
       "filename": "page_004_img_01.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_01.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -273,7 +273,7 @@
       "image_index": 2,
       "xref": 148,
       "filename": "page_004_img_02.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_02.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_02.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -286,7 +286,7 @@
       "image_index": 3,
       "xref": 149,
       "filename": "page_004_img_03.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_03.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_03.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -299,7 +299,7 @@
       "image_index": 4,
       "xref": 150,
       "filename": "page_004_img_04.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_04.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_04.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -312,7 +312,7 @@
       "image_index": 5,
       "xref": 151,
       "filename": "page_004_img_05.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_05.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_05.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -325,7 +325,7 @@
       "image_index": 6,
       "xref": 152,
       "filename": "page_004_img_06.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_img_06.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_img_06.jpeg",
       "ext": "jpeg",
       "width": 1091,
       "height": 101,
@@ -338,7 +338,7 @@
       "image_index": 1,
       "xref": 202,
       "filename": "page_005_img_01.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_01.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
       "ext": "jpeg",
       "width": 1063,
       "height": 390,
@@ -351,7 +351,7 @@
       "image_index": 2,
       "xref": 203,
       "filename": "page_005_img_02.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_img_02.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_005_img_02.jpeg",
       "ext": "jpeg",
       "width": 1063,
       "height": 389,
@@ -364,7 +364,7 @@
       "image_index": 1,
       "xref": 244,
       "filename": "page_006_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_006_img_01.png",
       "ext": "png",
       "width": 1694,
       "height": 558,
@@ -377,7 +377,7 @@
       "image_index": 2,
       "xref": 245,
       "filename": "page_006_img_02.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_img_02.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_006_img_02.png",
       "ext": "png",
       "width": 1694,
       "height": 557,
@@ -390,7 +390,7 @@
       "image_index": 1,
       "xref": 286,
       "filename": "page_007_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_007_img_01.png",
       "ext": "png",
       "width": 1385,
       "height": 564,
@@ -403,7 +403,7 @@
       "image_index": 2,
       "xref": 287,
       "filename": "page_007_img_02.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_img_02.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_007_img_02.png",
       "ext": "png",
       "width": 1385,
       "height": 564,
@@ -416,7 +416,7 @@
       "image_index": 1,
       "xref": 341,
       "filename": "page_008_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_008_img_01.png",
       "ext": "png",
       "width": 1657,
       "height": 568,
@@ -429,7 +429,7 @@
       "image_index": 2,
       "xref": 342,
       "filename": "page_008_img_02.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_img_02.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_008_img_02.png",
       "ext": "png",
       "width": 1657,
       "height": 568,
@@ -442,7 +442,7 @@
       "image_index": 1,
       "xref": 379,
       "filename": "page_009_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_009_img_01.png",
       "ext": "png",
       "width": 1089,
       "height": 828,
@@ -455,7 +455,7 @@
       "image_index": 1,
       "xref": 422,
       "filename": "page_010_img_01.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_01.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_img_01.png",
       "ext": "png",
       "width": 1730,
       "height": 1080,
@@ -468,7 +468,7 @@
       "image_index": 2,
       "xref": 456,
       "filename": "page_010_img_02.jpeg",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_02.jpeg",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_img_02.jpeg",
       "ext": "jpeg",
       "width": 1305,
       "height": 490,
@@ -481,7 +481,7 @@
       "image_index": 3,
       "xref": 457,
       "filename": "page_010_img_03.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_img_03.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_img_03.png",
       "ext": "png",
       "width": 1305,
       "height": 489,
@@ -497,7 +497,7 @@
       "kind": "figure",
       "caption_text": "Figure 1. Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror colli- mates the X-ray and suppresses high-order harmonics. The M2 elliptical cylindrical mirror focuses the X-ray in both directions through Slit 2. The tunable X-ray energy is 200–2000 eV. A spectroscopic end station and two STXM end stations are located downstream of the beamline.",
       "filename": "page_003_fig_figure_1.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_003_fig_figure_1.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_fig_figure_1.png",
       "ext": "png",
       "width": 1055,
       "height": 419,
@@ -510,20 +510,16 @@
       "size_bytes": 108842,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.114497,
         "visual_rect_count": 4,
         "visual_body_ratio": 0.587291,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 375,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 1"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -532,7 +528,7 @@
       "kind": "figure",
       "caption_text": "Figure 2. Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was horizontally focused to the exit slit (Slit 2) by an elliptical cylindrical mirror. The four blade signals of Slit 2 were read out by an I–V convertor. The photon flux after Slit 2 was detected by a gold mesh and PD detector, and the signals were read out by a picoammeter. The signals of M2, Slit 2, gold mesh and PD are all connected into LAN and can be read out for control.",
       "filename": "page_004_fig_figure_2.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_004_fig_figure_2.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_fig_figure_2.png",
       "ext": "png",
       "width": 1055,
       "height": 595,
@@ -545,20 +541,16 @@
       "size_bytes": 110336,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.162426,
         "visual_rect_count": 6,
         "visual_body_ratio": 0.464265,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 480,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 2"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -567,7 +559,7 @@
       "kind": "figure",
       "caption_text": "Figure 3. The measurement results of the Slit 2 blade-edge signals with M2 position changes at 920 eV. SL, SR, SU and SD represent the left, right, up and down blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right coordinate system is for SU and SD. The horizontal blades are illuminated over a larger range than the vertical blades, resulting in the horizontal blade signals that is nearly 10 times stronger than the vertical blade signals.",
       "filename": "page_005_fig_figure_3.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_005_fig_figure_3.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_005_fig_figure_3.png",
       "ext": "png",
       "width": 1054,
       "height": 742,
@@ -580,20 +572,16 @@
       "size_bytes": 201147,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.202688,
         "visual_rect_count": 2,
         "visual_body_ratio": 0.468687,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 573,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 3"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -602,7 +590,7 @@
       "kind": "figure",
       "caption_text": "Figure 4. The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equal, the corresponding gold mesh signal is almost at the maximum value.",
       "filename": "page_006_fig_figure_4.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_006_fig_figure_4.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_006_fig_figure_4.png",
       "ext": "png",
       "width": 1148,
       "height": 709,
@@ -615,55 +603,16 @@
       "size_bytes": 105066,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.210765,
         "visual_rect_count": 2,
         "visual_body_ratio": 0.606331,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 275,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 4"
-        ]
-      }
-    },
-    {
-      "page_number": 7,
-      "label": "Figure 5",
-      "kind": "figure",
-      "caption_text": "Figure 5. The logic of each tunning procedure. When the server gets a tunning request with threshold and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
-      "filename": "page_007_fig_figure_5.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5.png",
-      "ext": "png",
-      "width": 1151,
-      "height": 804,
-      "bbox_pt": [
-        148.57029724121094,
-        205.07833862304688,
-        563.2782592773438,
-        494.6236267089844
-      ],
-      "size_bytes": 104115,
-      "extraction_level": "figure",
-      "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
-        "page_coverage_ratio": 0.239599,
-        "visual_rect_count": 2,
-        "visual_body_ratio": 0.563086,
-        "paragraph_text_chars": 0,
-        "table_body_rows": 0,
-        "caption_text_chars": 356,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 5"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -671,36 +620,30 @@
       "label": "Figure 5",
       "kind": "figure",
       "caption_text": "Figure 5. The logic of each tunning procedure. When the server gets a tunning request with thresh- old and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
-      "filename": "page_007_fig_figure_5_2.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_007_fig_figure_5_2.png",
+      "filename": "page_007_fig_figure_5.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_007_fig_figure_5.png",
       "ext": "png",
-      "width": 1169,
-      "height": 276,
+      "width": 1158,
+      "height": 829,
       "bbox_pt": [
-        146.50428771972656,
-        446.3435974121094,
-        567.52587890625,
-        545.7788696289062
+        148.50428771972656,
+        205.07833862304688,
+        565.52587890625,
+        503.7024230957031
       ],
-      "size_bytes": 58654,
+      "size_bytes": 108294,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected",
-          "large_text_block_suspected",
-          "low_visual_body_ratio"
-        ],
-        "page_coverage_ratio": 0.083536,
-        "visual_rect_count": 0,
-        "visual_body_ratio": 0.0,
-        "paragraph_text_chars": 2590,
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.24849,
+        "visual_rect_count": 2,
+        "visual_body_ratio": 0.542938,
+        "paragraph_text_chars": 91,
         "table_body_rows": 0,
         "caption_text_chars": 358,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 5"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -709,7 +652,7 @@
       "kind": "figure",
       "caption_text": "Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
       "filename": "page_008_fig_figure_6.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_008_fig_figure_6.png",
       "ext": "png",
       "width": 1133,
       "height": 889,
@@ -722,57 +665,16 @@
       "size_bytes": 133351,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.260563,
         "visual_rect_count": 2,
         "visual_body_ratio": 0.614998,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 579,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 6"
-        ]
-      }
-    },
-    {
-      "page_number": 8,
-      "label": "Figure 6",
-      "kind": "figure",
-      "caption_text": "Figure 6. Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
-      "filename": "page_008_fig_figure_6_2.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_008_fig_figure_6_2.png",
-      "ext": "png",
-      "width": 1169,
-      "height": 297,
-      "bbox_pt": [
-        153.2423858642578,
-        326.5439453125,
-        574.2070922851562,
-        433.5036315917969
-      ],
-      "size_bytes": 74018,
-      "extraction_level": "figure",
-      "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected",
-          "large_text_block_suspected",
-          "low_visual_body_ratio"
-        ],
-        "page_coverage_ratio": 0.089845,
-        "visual_rect_count": 0,
-        "visual_body_ratio": 0.0,
-        "paragraph_text_chars": 932,
-        "table_body_rows": 0,
-        "caption_text_chars": 579,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 6"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -781,7 +683,7 @@
       "kind": "figure",
       "caption_text": "Figure 7. The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were fitted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05.",
       "filename": "page_009_fig_figure_7.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_7.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_009_fig_figure_7.png",
       "ext": "png",
       "width": 1120,
       "height": 708,
@@ -794,20 +696,16 @@
       "size_bytes": 147079,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.205344,
         "visual_rect_count": 1,
         "visual_body_ratio": 0.482995,
         "paragraph_text_chars": 0,
         "table_body_rows": 0,
         "caption_text_chars": 380,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 7"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -816,66 +714,27 @@
       "kind": "table",
       "caption_text": "Table 1. The minimum threshold value for different incident X-ray energy.",
       "filename": "page_009_fig_table_1.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_table_1.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_009_fig_table_1.png",
       "ext": "png",
       "width": 1101,
-      "height": 276,
+      "height": 284,
       "bbox_pt": [
-        158.24221801757812,
-        352.08831787109375,
+        158.24166870117188,
+        349.51019287109375,
         554.8529052734375,
         451.7535400390625
       ],
-      "size_bytes": 32117,
+      "size_bytes": 32203,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "table_text_contamination_suspected",
-          "multiple_caption_regions_suspected"
-        ],
-        "page_coverage_ratio": 0.078874,
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.080914,
         "visual_rect_count": 0,
         "visual_body_ratio": 0.0,
-        "paragraph_text_chars": 1428,
+        "paragraph_text_chars": 178,
         "table_body_rows": 6,
         "caption_text_chars": 73,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Table 1"
-        ]
-      }
-    },
-    {
-      "page_number": 9,
-      "label": "Figure 8",
-      "kind": "figure",
-      "caption_text": "Figure 8. The “Beamline Monitor” panel in the top left corner provides current readings of E (energy), M2, SL, SR, SU, SD, SV and I0. The “Config” panel in the bottom-left corner has inputs of M2 step, offset and V0, as well as a running button and export data function components. The main part of the interface on the right side is the chart area, which displays all signals with a maximum of 12 h of data. Each chart has a slider on the x-axis for observing smaller time scales. The signals in the chart area and in the Beamline Monitor panel are updated by the server every second.",
-      "filename": "page_009_fig_figure_8.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_009_fig_figure_8.png",
-      "ext": "png",
-      "width": 1653,
-      "height": 309,
-      "bbox_pt": [
-        0.0,
-        443.7535400390625,
-        595.2760009765625,
-        555.339111328125
-      ],
-      "size_bytes": 81868,
-      "extraction_level": "figure",
-      "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "large_text_block_suspected",
-          "low_visual_body_ratio"
-        ],
-        "page_coverage_ratio": 0.132542,
-        "visual_rect_count": 0,
-        "visual_body_ratio": 0.0,
-        "paragraph_text_chars": 696,
-        "table_body_rows": 0,
-        "caption_text_chars": 585,
         "other_caption_count": 0,
         "other_caption_labels": []
       }
@@ -884,36 +743,31 @@
       "page_number": 10,
       "label": "Figure 8",
       "kind": "figure",
-      "caption_text": "Figure 8. Operation interface of the online automatic feedback system. Beamline Monitor panel d plays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, configuration with a running button and data export components; the Chart Area on the right si displays all signals with a maximum time span of 12 h.",
+      "caption_text": "Figure 8. Operation interface of the online automatic feedback system. Beamline Monitor panel displays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, V0 configuration with a running button and data export components; the Chart Area on the right side displays all signals with a maximum time span of 12 h.",
       "filename": "page_010_fig_figure_8.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_8.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_fig_figure_8.png",
       "ext": "png",
-      "width": 1197,
-      "height": 834,
+      "width": 1117,
+      "height": 858,
       "bbox_pt": [
-        164.286865234375,
+        162.0709991455078,
         92.98585510253906,
-        595.2760009765625,
-        393.3375244140625
+        564.400390625,
+        401.87060546875
       ],
-      "size_bytes": 187650,
+      "size_bytes": 186862,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected",
-          "large_text_block_suspected"
-        ],
-        "page_coverage_ratio": 0.258299,
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
+        "page_coverage_ratio": 0.247973,
         "visual_rect_count": 1,
-        "visual_body_ratio": 0.721126,
-        "paragraph_text_chars": 593,
+        "visual_body_ratio": 0.751155,
+        "paragraph_text_chars": 89,
         "table_body_rows": 0,
-        "caption_text_chars": 346,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 8"
-        ]
+        "caption_text_chars": 352,
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     },
     {
@@ -922,7 +776,7 @@
       "kind": "figure",
       "caption_text": "Figure 9. XAS experiments using TEY measurement in the absence and presence of the feedback system. The normalized absorption coefficient has a higher signal quality when the feedback system is on. The top right figure shows that the X-ray flux with the feedback system on drops much slower and smoother.",
       "filename": "page_010_fig_figure_9.png",
-      "path": "/home/zhenyu/tmp/DeepPaperNote/assets/Automatic_Feedback_System_for_X_ray_Flux_at_BL08U1A_Soft_X_ray_Spectromicroscopy_Beamline_of_Shanghai_Synchrotron_Radiation_Facility/images/page_010_fig_figure_9.png",
+      "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_fig_figure_9.png",
       "ext": "png",
       "width": 1055,
       "height": 777,
@@ -935,21 +789,16 @@
       "size_bytes": 141285,
       "extraction_level": "figure",
       "quality_signals": {
-        "visual_quality_status": "reject",
-        "quality_reason_codes": [
-          "multiple_caption_regions_suspected",
-          "large_text_block_suspected"
-        ],
+        "visual_quality_status": "usable",
+        "quality_reason_codes": [],
         "page_coverage_ratio": 0.212272,
         "visual_rect_count": 2,
         "visual_body_ratio": 0.612413,
-        "paragraph_text_chars": 2127,
+        "paragraph_text_chars": 1436,
         "table_body_rows": 0,
         "caption_text_chars": 304,
-        "other_caption_count": 1,
-        "other_caption_labels": [
-          "Figure 9"
-        ]
+        "other_caption_count": 0,
+        "other_caption_labels": []
       }
     }
   ],

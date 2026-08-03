@@ -2,7 +2,7 @@
   "status": "ok",
   "script": "extract_evidence.py",
   "paper_id": "doi:10.3390/app13095456",
-  "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+  "title": "2023_BL08U1A_X-ray_flux_automatic_feedback",
   "evidence_pack": {
     "paper_id": "doi:10.3390/app13095456",
     "problem_evidence": [
@@ -212,73 +212,55 @@
     "figure_captions": [
       {
         "id": "Figure 1",
-        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror colli- mates the X-ray and suppresses high-order harmonics. The M2 elliptical cylindrical mirror focuses the X-ray in both directions through Slit 2. The tunable X-ray energy is 200–2000 eV. A spectroscopic end station and two STXM end stations are located downstream of the beamline.",
         "page_hint": "p.3",
         "section_id": "sec:introduction"
       },
       {
         "id": "Figure 2",
-        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was horizontally focused to the exit slit (Slit 2) by an elliptical cylindrical mirror. The four blade signals of Slit 2 were read out by an I–V convertor. The photon flux after Slit 2 was detected by a gold mesh and PD detector, and the signals were read out by a picoammeter. The signals of M2, Slit 2, gold mesh and PD are all connected into LAN and can be read out for control.",
         "page_hint": "p.4",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 3",
-        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at 920 eV. SL, SR, SU and SD represent the left, right, up and down blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right coordinate system is for SU and SD. The horizontal blades are illuminated over a larger range than the vertical blades, resulting in the horizontal blade signals that is nearly 10 times stronger than the vertical blade signals.",
         "page_hint": "p.5",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 4",
-        "caption": "illustrates that the gold mesh current signal reaches its optimal value along",
-        "page_hint": "p.5",
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 4",
-        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equal, the corresponding gold mesh signal is almost at the maximum value.",
         "page_hint": "p.6",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 5",
-        "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+        "caption": "The logic of each tunning procedure. When the server gets a tunning request with thresh- old and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
         "page_hint": "p.7",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 6",
-        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
         "page_hint": "p.8",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 7",
-        "caption": "shows the change in the position of SRL as the M2 moves in steps of 200 nm at",
-        "page_hint": "p.8",
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 7",
-        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were fitted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05.",
         "page_hint": "p.9",
         "section_id": "sec:materials-and-methods"
       },
       {
         "id": "Figure 8",
-        "caption": "The “Beamline Monitor” panel in the top left corner provides current readings",
-        "page_hint": "p.9",
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 8",
-        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel displays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, V0 configuration with a running button and data export components; the Chart Area on the right side displays all signals with a maximum time span of 12 h.",
         "page_hint": "p.10",
         "section_id": "sec:results"
       },
       {
         "id": "Figure 9",
-        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback system. The normalized absorption coefficient has a higher signal quality when the feedback system is on. The top right figure shows that the X-ray flux with the feedback system on drops much slower and smoother.",
         "page_hint": "p.10",
         "section_id": "sec:results"
       }

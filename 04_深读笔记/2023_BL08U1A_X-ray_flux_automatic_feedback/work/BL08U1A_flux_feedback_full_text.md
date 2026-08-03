@@ -1,4 +1,4 @@
-# Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility
+# 2023_BL08U1A_X-ray_flux_automatic_feedback
 
 ## sec:preamble preamble
 _Pages 1-1_

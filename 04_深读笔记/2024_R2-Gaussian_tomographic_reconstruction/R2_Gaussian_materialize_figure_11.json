@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "script": "materialize_figure_asset.py",
+  "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+  "note_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\01_全文中文翻译_R2-Gaussian.md",
+  "source_image": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+  "dest_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\images\\page_017_fig_figure_11.png",
+  "absolute_markdown_embed": "![Figure 11](C:/Users/Howmu/Documents/我的文档/苏州国家实验室/SSRF-nanoCT/04_深读笔记/2024_R2-Gaussian_tomographic_reconstruction/images/page_017_fig_figure_11.png)",
+  "relative_markdown_embed": "![Figure 11](images/page_017_fig_figure_11.png)",
+  "label": "Figure 11",
+  "output_mode": "explicit_note_path",
+  "subdir": "未分类"
+}

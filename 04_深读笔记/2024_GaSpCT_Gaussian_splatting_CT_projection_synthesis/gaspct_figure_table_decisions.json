@@ -1,0 +1,155 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2404.03126",
+  "decisions": [
+    {
+      "item_id": "figure:Fig. 1",
+      "source_id": "Fig. 1",
+      "kind": "figure",
+      "label": "Fig. 1",
+      "caption": "Optimization of 3D Gaussians initialized as an ellipsoid. Using the camera poses extracted from the DICOM metadata, we can perform forward passes and backpropa- gation through the differential Gaussian rasterizer.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "目视核验确认该图完整展示 DICOM 位姿、椭球初始化、可微光栅化和梯度回传，属于核心方法总览。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "方法主线",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_003_fig_fig_1.png",
+      "relative_markdown_embed": "![Fig. 1](images/page_003_fig_fig_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    },
+    {
+      "item_id": "figure:Fig. 2",
+      "source_id": "Fig. 2",
+      "kind": "figure",
+      "label": "Fig. 2",
+      "caption": "Top row shows the original 3D voxel-based DICOM image retrieved from the PPMI dataset. This image is used as an input to the DRR algorithm to generate the projection image views. The bottom row shows the resulting projection views: 1) 0◦2) 90◦3) 180◦",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_005_fig_fig_2.png",
+      "relative_markdown_embed": "![Fig. 2](images/page_005_fig_fig_2.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    },
+    {
+      "item_id": "figure:Fig. 3",
+      "source_id": "Fig. 3",
+      "kind": "figure",
+      "label": "Fig. 3",
+      "caption": "Four different angular view a) 0◦b) 90◦c) 180◦d) 270◦. The top row contains the ground truth images, while the bottom row contains the rendered images for the equivalent camera poses.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "目视核验确认该图完整对比四个角度的真值与渲染投影，直接承载定性主结果。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "关键结果",
+      "plan_kind": "qualitative_result",
+      "source_image_filename": "page_006_fig_fig_3.png",
+      "relative_markdown_embed": "![Fig. 3](images/page_006_fig_fig_3.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    },
+    {
+      "item_id": "figure:Fig. 4",
+      "source_id": "Fig. 4",
+      "kind": "figure",
+      "label": "Fig. 4",
+      "caption": "Four different renderings for the same projection view when testing with a) 50% b) 25% c) 10% d) 5% of the total images.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:dataset",
+      "decision": "insert",
+      "reason": "目视核验确认该图完整展示同一视角在四种可见投影比例下的结果，适合解释稀疏视角退化。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "关键结果",
+      "plan_kind": "qualitative_result",
+      "source_image_filename": "page_006_fig_fig_4.png",
+      "relative_markdown_embed": "![Fig. 4](images/page_006_fig_fig_4.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Performance of GaSpCT for the brain CT dataset compared to other models using 50% of views from the training dataset.",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:results",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_007_fig_table_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_1.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Performance of GaSpCT for various percentages of hidden images for evalua- tion for the brain dataset.",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:results",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_007_fig_table_2.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+      "materialization_status": "written",
+      "manual_visual_review": "passed_identity_and_usability"
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "by_decision": {
+      "insert": 6,
+      "low_priority": 0,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}

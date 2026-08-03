@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "translation_path": "01_全文中文翻译_GaSpCT.md",
+  "canonical_source": "gaspct_raw_sections.jsonl",
+  "source_manifest": "gaspct_source_manifest.json",
+  "source_text_hash_sha256": "deda9eaa1a06c3352f49643863fbf740301f634051b003a095fc838c21a29fdf",
+  "source_pages": {
+    "expected": 10,
+    "extracted": 10,
+    "truncated": false
+  },
+  "covered_source_sections": [
+    {
+      "source_id": "sec:preamble",
+      "source_title": "preamble",
+      "translated_as": ["题目、作者与机构", "摘要", "关键词"]
+    },
+    {
+      "source_id": "sec:introduction",
+      "source_title": "Introduction",
+      "translated_as": ["1 引言"]
+    },
+    {
+      "source_id": "sec:methodology",
+      "source_title": "Methodology",
+      "translated_as": ["2.1 GaSpCT", "2.2 高斯泼溅", "全变分正则化", "Beta 分布正则化", "总损失函数"]
+    },
+    {
+      "source_id": "sec:experiments",
+      "source_title": "Experiments",
+      "translated_as": ["3 实验"]
+    },
+    {
+      "source_id": "sec:dataset",
+      "source_title": "Dataset",
+      "translated_as": ["3.1 数据集", "数字重建放射影像", "在 CT 图像上使用运动恢复结构的困难", "CT 图像的相机外参与内参", "3.2 实验设置"]
+    },
+    {
+      "source_id": "sec:results",
+      "source_title": "Results",
+      "translated_as": ["4 结果", "5 结论与未来工作"]
+    },
+    {
+      "source_id": "sec:acknowledgements",
+      "source_title": "Acknowledgements",
+      "translated_as": ["致谢"]
+    },
+    {
+      "source_id": "sec:references",
+      "source_title": "References",
+      "translated_as": ["参考文献（24 条书目信息按原文保留）"]
+    }
+  ],
+  "content_checks": {
+    "abstract_faithfully_translated": true,
+    "body_paragraphs_not_summarized_or_omitted": true,
+    "conclusion_and_future_work_translated": true,
+    "acknowledgements_translated": true,
+    "all_24_references_preserved": true,
+    "all_4_equations_preserved": true,
+    "all_4_figures_embedded_with_translated_captions": true,
+    "both_tables_embedded_and_reproduced_as_markdown": true,
+    "encoding_artifacts_found": false,
+    "template_running_headers_omitted_only": true
+  },
+  "figure_assets_reused_with_summary": [
+    "Fig. 1",
+    "Fig. 2",
+    "Fig. 3",
+    "Fig. 4",
+    "Table 1",
+    "Table 2"
+  ],
+  "known_source_ambiguities_preserved_or_flagged": [
+    "原文把式（3）称为负对数似然，但公式没有前导负号。",
+    "原文式（2）已含 lambda_TV，式（4）又对 L_TV 乘同名权重。",
+    "表 2 的表题写隐藏图像比例，而结果段落和图 4 按提供给模型的视图比例描述；译文依原表和正文保留该表述。"
+  ]
+}

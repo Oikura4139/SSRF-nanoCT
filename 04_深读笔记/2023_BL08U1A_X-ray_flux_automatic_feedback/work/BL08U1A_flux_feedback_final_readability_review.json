@@ -7,6 +7,8 @@
     "terminology_consistency": true,
     "formula_readability": true,
     "table_readability": true,
+    "image_caption_alignment": true,
+    "image_link_integrity": true,
     "obsidian_compatibility": true
   },
   "terminology": {

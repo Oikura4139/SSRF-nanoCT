@@ -4,6 +4,3443 @@
   "paper_id": "title:b4208097f5ca",
   "figure_plan": {
     "paper_id": "title:b4208097f5ca",
-    "figures": []
+    "figures": [
+      {
+        "id": "Fig. 2",
+        "caption": "(Color online) Schematic of the misalignment error esti- mation process. Dropout: drop- out layer. FC: fully connected layer. Conv: convolution layer",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_2.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_003_fig_fig_2.png",
+          "width": 1392,
+          "height": 417,
+          "size_bytes": 134100,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.160041,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 156,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "color",
+              "online",
+              "schematic",
+              "misalignment",
+              "error"
+            ],
+            "snippet": "variance. The backbone CNN in the present study was ResNet50 [28] (schematically shown in Fig. 2), which demonstrated good performance on vari- ous vision tasks and has been a popular ba",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_003_img_01.jpeg",
+                "width": 1500,
+                "height": 593,
+                "size_bytes": 50621
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_003_fig_fig_2.png",
+                "width": 1392,
+                "height": 417,
+                "size_bytes": 134100,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160041,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 156,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "schematic",
+              "misalignment",
+              "error"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "misalignment",
+              "error"
+            ],
+            "snippet": "uniform distribution. The range of the estimated errors was chosen to enlarge the Fig. 3 (Color online) Example simulated optical elements. a Simu- lated scatterer composed of Cu partic",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 5",
+        "caption": "(Color online) Results of training the network on the speckle data. a A detected image generated by the simula- tion. b The corresponding estimation. c The RMSE drop during the training process. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM cur- vature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_5.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_fig_fig_5.png",
+          "width": 1392,
+          "height": 709,
+          "size_bytes": 147543,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.271844,
+            "visual_rect_count": 12,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 319,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "color",
+              "online",
+              "training",
+              "speckle"
+            ],
+            "snippet": "ults are listed in Table 3, and the training results for the speckle dataset are shown in Fig. 5. The RMSEs between the ground truth and estimated align- ment errors for the test dataset",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "color",
+              "online",
+              "training",
+              "network",
+              "speckle"
+            ],
+            "snippet": "errors by the model, we also attempted to fine-tune the network trained on the simulated Fig. 5 (Color online) Results of training the network on the speckle data. a A detected image ge",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_img_01.png",
+                "width": 485,
+                "height": 451,
+                "size_bytes": 58657
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_fig_fig_5.png",
+                "width": 1392,
+                "height": 709,
+                "size_bytes": 147543,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271844,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 319,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "training",
+              "network",
+              "speckle"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 6",
+        "caption": "Knife-edge scan results at different pitch angles and foci. Both scans were performed in the horizontal direction; the results obtained for the vertical direction were similar. a Data were collected in the first experiment. b Data were collected in the second experiment",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_fig_6.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+          "width": 1398,
+          "height": 624,
+          "size_bytes": 189975,
+          "label": "Fig. 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.240546,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 277,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "knife-edge",
+              "scan",
+              "different",
+              "pitch",
+              "angles"
+            ],
+            "snippet": "measured using the knife-edge scan method at different foci and pitch angles are shown in Fig. 6. The network trained on the simulated data was used as the first guess for training on th",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_img_01.png",
+                "width": 485,
+                "height": 451,
+                "size_bytes": 58657
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_fig_fig_5.png",
+                "width": 1392,
+                "height": 709,
+                "size_bytes": 147543,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271844,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 319,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "knife-edge",
+              "scan",
+              "different",
+              "pitch",
+              "angles"
+            ],
+            "snippet": "his is because changes in the pitch and curvature induce more internal structural changes Fig. 6 Knife-edge scan results at different pitch angles and foci. Both scans were performed in",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "different",
+              "pitch",
+              "angles"
+            ],
+            "snippet": "connected layer for regression. 3 \u0007Simulation results Considering the sensitivity of the different alignment errors associated with KB mirrors, we focused on six main degrees of freedom: (",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 7",
+        "caption": "Training results for the misalignment error estimation model trained on four differ- ent experimental datasets. a, b Direct beam images from the first and second experiments, respectively. c, d Speckle images from the first and second experiments, respectively. e Line chart of estimated errors and ground truth corresponding to (d). f, g RMSE drop curves during the training process for speckle data from the first and second experiments, respec- tively. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM curvature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_7.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_fig_7.png",
+          "width": 1392,
+          "height": 1007,
+          "size_bytes": 291223,
+          "label": "Fig. 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.386296,
+            "visual_rect_count": 18,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 578,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "training",
+              "misalignment",
+              "error",
+              "estimation",
+              "model"
+            ],
+            "snippet": "cted images were divided into training and validation sets, at the 8:2 ratio. As shown in Fig. 7a and b, the images obtained in the first experiment had many more stripes than those obta",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "training",
+              "misalignment",
+              "error",
+              "estimation",
+              "model"
+            ],
+            "snippet": "he non-normalized misalignment error. This also shows that the ranges of the misalignment Fig. 7 Training results for the misalignment error estimation model trained on four differ- ent",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_img_01.jpeg",
+                "width": 1287,
+                "height": 195,
+                "size_bytes": 34652
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_fig_7.png",
+                "width": 1392,
+                "height": 1007,
+                "size_bytes": 291223,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.386296,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 578,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_table_4.png",
+                "width": 700,
+                "height": 553,
+                "size_bytes": 58566,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106749,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "training",
+              "misalignment",
+              "error",
+              "estimation",
+              "model"
+            ],
+            "snippet": "on the simulation data as first guess and ground truth. Error indices are the same as in Fig. 7 Fig. 9 (Color online) Feature maps of convolution layers of misalign- ment error estimati",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Estimated tolerances for six main alignment parameters",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+          "width": 693,
+          "height": 303,
+          "size_bytes": 30713,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.057981,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 5,
+            "caption_text_chars": 62,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "estimated",
+              "tolerances",
+              "main",
+              "alignment",
+              "parameters"
+            ],
+            "snippet": "ce field sampled from a uniform distribution, and the corresponding results are listed in Table 1. For better reliability and robustness, we also added devi- ations of other degrees of fr",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "estimated",
+              "alignment",
+              "parameters"
+            ],
+            "snippet": "1] range as the target value to avoid gradient explosion or imbalanced weights among the estimated errors. The loss function was the mean square error (MSE), commonly used in regression ta",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "main",
+              "alignment",
+              "parameters"
+            ],
+            "snippet": "taset with direct beam images. Among the six parameters, astigmatism and defocus were the main con- tributors to the RMSE of the alignment error. Because these two parameters spanned s",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_img_01.png",
+                "width": 485,
+                "height": 451,
+                "size_bytes": 58657
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_006_fig_fig_5.png",
+                "width": 1392,
+                "height": 709,
+                "size_bytes": 147543,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.271844,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 319,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Alignment parameters and ranges of misalignment errors in the simulations",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_table_2.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+          "width": 700,
+          "height": 624,
+          "size_bytes": 77678,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.12036,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 454,
+            "table_body_rows": 13,
+            "caption_text_chars": 81,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "alignment",
+              "parameters",
+              "ranges",
+              "misalignment",
+              "errors"
+            ],
+            "snippet": "ultiplication of the focus field. The alignment parameters and error ranges are listed in Table 2, where the errors were randomly drawn from a uniform distribution. The range of the estim",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "alignment",
+              "parameters",
+              "ranges",
+              "misalignment",
+              "errors"
+            ],
+            "snippet": "nline) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 mm Table 2 Alignment parameters and ranges of misalignment errors in the simulations FH refers to th",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "alignment",
+              "misalignment",
+              "errors"
+            ],
+            "snippet": "pitch angle error [12]; however, the scanning process is time-consuming, and the acquired alignment information is limited to the pitch angle and wavefront curvature. Another speckle analys",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Ranges and estimation accuracy (RMSEs) of misalignment errors for the experimental data",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_4.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_table_4.png",
+          "width": 700,
+          "height": 553,
+          "size_bytes": 58566,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.106749,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 8,
+            "caption_text_chars": 95,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "ranges",
+              "estimation",
+              "rmses",
+              "misalignment"
+            ],
+            "snippet": "the data to the CNN, the alignment errors were normalized, and their ranges are listed in Table 4. The RMSEs of the training results for the two experiments are listed in Table 5, indi- c",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "ranges",
+              "estimation",
+              "accuracy",
+              "rmses",
+              "misalignment"
+            ],
+            "snippet": "SE of normalized errors Epoch Training error Validation error (a) (b) (f) (d) (e) (c) (g) Table 4 Ranges and estimation accuracy (RMSEs) of misalignment errors for the experimental data A",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_img_01.jpeg",
+                "width": 1287,
+                "height": 195,
+                "size_bytes": 34652
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_fig_7.png",
+                "width": 1392,
+                "height": 1007,
+                "size_bytes": 291223,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.386296,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 578,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_table_4.png",
+                "width": 700,
+                "height": 553,
+                "size_bytes": 58566,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106749,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "ranges",
+              "estimation",
+              "misalignment"
+            ],
+            "snippet": "owing to the matrix multiplication of the focus field. The alignment parameters and error ranges are listed in Table 2, where the errors were randomly drawn from a uniform distribution.",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 1",
+        "caption": "(Color online) Schematic of the experimental optical path using with the proposed method",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_fig_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+          "width": 1392,
+          "height": 600,
+          "size_bytes": 309720,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.230309,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 95,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "color",
+              "online",
+              "schematic",
+              "experimental",
+              "optical"
+            ],
+            "snippet": "ulated data on the misalignment error estimation is also discussed. 2 \u0007Method As shown in Fig. 1, a thin scatterer was placed in the focal plane to generate speckles in the direct beam i",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "color",
+              "online",
+              "experimental",
+              "optical"
+            ],
+            "snippet": "eriment in beamline BL15U (more detailed information is provided in Sect. 4), as shown in Fig. 1. The simulation was conducted in 1D for horizontal and vertical focusing first, then comb",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "color",
+              "online",
+              "experimental"
+            ],
+            "snippet": "coarse-grained structural features. The saliency map of the network attention is shown in Fig. 10. The network extracted information from both the detected beam and speckles surrounding",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 10",
+        "caption": "(Color online) Saliency maps for the misalignment error esti- mation models trained on the experimental data. a Input image and b the saliency map generated for this input image",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_10.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_010_fig_fig_10.png",
+          "width": 689,
+          "height": 404,
+          "size_bytes": 318349,
+          "label": "Fig. 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.076762,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 185,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "color",
+              "online",
+              "saliency",
+              "maps",
+              "misalignment"
+            ],
+            "snippet": "coarse-grained structural features. The saliency map of the network attention is shown in Fig. 10. The network extracted information from both the detected beam and speckles surrounding t",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "color",
+              "online",
+              "saliency",
+              "maps",
+              "misalignment"
+            ],
+            "snippet": "f Shack-Hartmann Wavefront Sensing (SLACK Incorporated Thorofare, NJ, 2001), pp.S573–S577 Fig. 10 (Color online) Saliency maps for the misalignment error esti- mation models trained on th",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_010_img_01.jpeg",
+                "width": 969,
+                "height": 367,
+                "size_bytes": 37773
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_010_fig_fig_10.png",
+                "width": 689,
+                "height": 404,
+                "size_bytes": 318349,
+                "label": "Fig. 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.076762,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 185,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "misalignment"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 3",
+        "caption": "(Color online) Example simulated optical elements. a Simu- lated scatterer composed of Cu particles and b simulated figure error of the KB mirror. Scale bar: 20 μm",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_fig_3.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+          "width": 689,
+          "height": 440,
+          "size_bytes": 234070,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.083547,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 170,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "color",
+              "online",
+              "example",
+              "simulated",
+              "optical"
+            ],
+            "snippet": "imulated using five layers of randomly distributed 500-nm- size Cu particles, as shown in Fig. 3a. The particle sizes were drawn from a Gaussian distribution (mean, 500 nm; standard devi",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "simulated",
+              "optical"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "example",
+              "simulated"
+            ],
+            "snippet": "f both datasets, and the resultant performance was similar to that obtained using Fig. 4 (Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 m",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 4",
+        "caption": "(Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 mm",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_4.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+          "width": 1392,
+          "height": 269,
+          "size_bytes": 215175,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.103188,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 104,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "color",
+              "online",
+              "example",
+              "simulated"
+            ],
+            "snippet": "e generated using the simula- tion program for machine learning, one of which is shown in Fig. 4. Owing to the 1D simulation of the KB focusing process, the vertical and horizontal beam",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "color",
+              "online",
+              "example",
+              "simulated",
+              "speckle"
+            ],
+            "snippet": "ntages of both datasets, and the resultant performance was similar to that obtained using Fig. 4 (Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale b",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "simulated",
+              "speckle"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 8",
+        "caption": "RMSEs of different normalized errors between estimations, for the model trained on the simulation data as first guess and ground truth. Error indices are the same as in Fig. 7",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_8.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+          "width": 689,
+          "height": 622,
+          "size_bytes": 91071,
+          "label": "Fig. 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.11815,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 182,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "rmses",
+              "different",
+              "normalized",
+              "errors",
+              "between"
+            ],
+            "snippet": "timated by the net- work trained on the simulation data as the first estimate is shown in Fig. 8. According to the normalization, for the validation results of the model trained using th",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "rmses",
+              "different",
+              "normalized",
+              "errors",
+              "between"
+            ],
+            "snippet": "110 0.213 ± 0.115 Freeze conv ­2c 0.116 ± 0.101 0.140 ± 0.107 0.115 ± 0.059 0.061 ± 0.028 Fig. 8 RMSEs of different normalized errors between estimations, for the model trained on the si",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "different",
+              "errors",
+              "between"
+            ],
+            "snippet": "connected layer for regression. 3 \u0007Simulation results Considering the sensitivity of the different alignment errors associated with KB mirrors, we focused on six main degrees of freedom: (",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_img_01.jpeg",
+                "width": 969,
+                "height": 421,
+                "size_bytes": 49595
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_table_1.png",
+                "width": 693,
+                "height": 303,
+                "size_bytes": 30713,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.057981,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 62,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_004_fig_fig_3.png",
+                "width": 689,
+                "height": 440,
+                "size_bytes": 234070,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.083547,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 9",
+        "caption": "(Color online) Feature maps of convolution layers of misalign- ment error estimation models trained on the experimental data. From a to e shown are feature maps from the first convolution layer, layer 1 of ResNet50, layer 2 of ResNet50, layer 3 of ResNet50, and layer",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_fig_9.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+          "width": 1392,
+          "height": 393,
+          "size_bytes": 482446,
+          "label": "Fig. 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.150695,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.869789,
+            "paragraph_text_chars": 162,
+            "table_body_rows": 0,
+            "caption_text_chars": 274,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 9",
+              "color",
+              "online",
+              "feature",
+              "maps",
+              "convolution"
+            ],
+            "snippet": ", we drew feature maps of the networks extracted from one detected image and show them in Fig. 9. The first convolution layer was responsible for extracting related information from the",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "feature",
+              "convolution"
+            ],
+            "snippet": "from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_img_01.jpeg",
+                "width": 1500,
+                "height": 868,
+                "size_bytes": 73993
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_002_fig_fig_1.png",
+                "width": 1392,
+                "height": 600,
+                "size_bytes": 309720,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.230309,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "color",
+              "online",
+              "convolution"
+            ],
+            "snippet": "of 0.2 to mitigate the overfitting (3) z = 휑(wTx + b) , (4) 휕L 휕x = 휕z 휕x 휕L 휕z , Fig. 2 (Color online) Schematic of the misalignment error esti- mation process. Dropout: drop- out laye",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_003_img_01.jpeg",
+                "width": 1500,
+                "height": 593,
+                "size_bytes": 50621
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_003_fig_fig_2.png",
+                "width": 1392,
+                "height": 417,
+                "size_bytes": 134100,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.160041,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 156,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Summary of validation accuracies (RMSEs) of normalized misalignment error estimation models trained on the simulated data",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_table_3.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+          "width": 675,
+          "height": 350,
+          "size_bytes": 36189,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.065203,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 91,
+            "table_body_rows": 2,
+            "caption_text_chars": 129,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "summary",
+              "validation",
+              "accuracies",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "ckle and direct beam images in different channels for training. The results are listed in Table 3, and the training results for the speckle dataset are shown in Fig. 5. The RMSEs between",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "validation",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "the training, the model with the lowest RMSE on the verification set was selected. In the validation process, one estimation of the misalignment error took, on average, 0.13 s. The experimen",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "validation",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "(6) defocus 0 20 40 60 80 0.0 0.1 0.2 0.3 RMSE of normalized errors Epoch Training error Validation error 1 2 3 4 5 6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 Normalized error Error index Ground t",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_img_01.jpeg",
+                "width": 1287,
+                "height": 195,
+                "size_bytes": 34652
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_fig_7.png",
+                "width": 1392,
+                "height": 1007,
+                "size_bytes": 291223,
+                "label": "Fig. 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.386296,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 578,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_008_fig_table_4.png",
+                "width": 700,
+                "height": 553,
+                "size_bytes": 58566,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106749,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Summary of validation accuracies (RMSEs) of the normalized misalignment error estimation using the deep learning model trained on the experimental data",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_5.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+          "width": 980,
+          "height": 359,
+          "size_bytes": 62257,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.096939,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 1,
+            "caption_text_chars": 159,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "validation",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "isted in Table 4. The RMSEs of the training results for the two experiments are listed in Table 5, indi- cating that the normalized RMSE achieved the best accu- racy of approximately 4%.",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_img_01.png",
+                "width": 1772,
+                "height": 737,
+                "size_bytes": 285446
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_fig_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_007_fig_fig_6.png",
+                "width": 1398,
+                "height": 624,
+                "size_bytes": 189975,
+                "label": "Fig. 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240546,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 277,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "summary",
+              "validation",
+              "accuracies",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "to obtain the result, which can help us verify whether the network learned the mechanics Table 5 Summary of validation accuracies (RMSEs) of the normalized misalignment error estimation",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_01.png",
+                "width": 969,
+                "height": 694,
+                "size_bytes": 125357
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_img_02.jpeg",
+                "width": 1418,
+                "height": 309,
+                "size_bytes": 90682
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_5.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_table_5.png",
+                "width": 980,
+                "height": 359,
+                "size_bytes": 62257,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.096939,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 1,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_fig_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_8.png",
+                "width": 689,
+                "height": 622,
+                "size_bytes": 91071,
+                "label": "Fig. 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11815,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 182,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_fig_9.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_009_fig_fig_9.png",
+                "width": 1392,
+                "height": 393,
+                "size_bytes": 482446,
+                "label": "Fig. 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.150695,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.869789,
+                  "paragraph_text_chars": 162,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "summary",
+              "validation",
+              "accuracies",
+              "rmses",
+              "normalized"
+            ],
+            "snippet": "(mm) 2075 ± 100 VFM beam in/out error (μm) 0 ± 2 HFM beam in/out error (μm) 0 ± 2 Table 3 Summary of validation accuracies (RMSEs) of normalized misalignment error estimation models train",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_img_01.jpeg",
+                "width": 1418,
+                "height": 371,
+                "size_bytes": 31840
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_fig_4.png",
+                "width": 1392,
+                "height": 269,
+                "size_bytes": 215175,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103188,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 104,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_2.png",
+                "width": 700,
+                "height": 624,
+                "size_bytes": 77678,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.12036,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 454,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 81,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_005_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL15U_KB_mirror_alignment_deep_learning\\work\\pdf_assets\\images\\page_005_fig_table_3.png",
+                "width": 675,
+                "height": 350,
+                "size_bytes": 36189,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065203,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 91,
+                  "table_body_rows": 2,
+                  "caption_text_chars": 129,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
   }
 }

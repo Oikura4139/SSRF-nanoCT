@@ -3,12 +3,12 @@
   "script": "extract_source_text.py",
   "schema_version": 1,
   "paper_id": "doi:10.3390/app13095456",
-  "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
+  "title": "2023_BL08U1A_X-ray_flux_automatic_feedback",
   "source_kind": "pdf_text",
-  "raw_sections_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_raw_sections.jsonl",
-  "full_text_md_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_full_text.md",
+  "raw_sections_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\BL08U1A_flux_feedback_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\BL08U1A_flux_feedback_full_text.md",
   "pdf": {
-    "path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
+    "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\2023_BL08U1A_X-ray_flux_automatic_feedback.pdf",
     "total_pages": 13,
     "text_pages_extracted": 13,
     "text_max_pages": null,
@@ -183,7 +183,7 @@
     "figures": [
       {
         "id": "Figure 1",
-        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror collimates",
+        "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror colli- mates the X-ray and suppresses high-order harmonics. The M2 elliptical cylindrical mirror focuses the X-ray in both directions through Slit 2. The tunable X-ray energy is 200–2000 eV. A spectroscopic end station and two STXM end stations are located downstream of the beamline.",
         "page": 3,
         "pages": [
           3
@@ -192,7 +192,7 @@
       },
       {
         "id": "Figure 2",
-        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized",
+        "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was horizontally focused to the exit slit (Slit 2) by an elliptical cylindrical mirror. The four blade signals of Slit 2 were read out by an I–V convertor. The photon flux after Slit 2 was detected by a gold mesh and PD detector, and the signals were read out by a picoammeter. The signals of M2, Slit 2, gold mesh and PD are all connected into LAN and can be read out for control.",
         "page": 4,
         "pages": [
           4
@@ -201,7 +201,7 @@
       },
       {
         "id": "Figure 3",
-        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at",
+        "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at 920 eV. SL, SR, SU and SD represent the left, right, up and down blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right coordinate system is for SU and SD. The horizontal blades are illuminated over a larger range than the vertical blades, resulting in the horizontal blade signals that is nearly 10 times stronger than the vertical blade signals.",
         "page": 5,
         "pages": [
           5
@@ -210,16 +210,7 @@
       },
       {
         "id": "Figure 4",
-        "caption": "illustrates that the gold mesh current signal reaches its optimal value along",
-        "page": 5,
-        "pages": [
-          5
-        ],
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 4",
-        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current",
+        "caption": "The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equal, the corresponding gold mesh signal is almost at the maximum value.",
         "page": 6,
         "pages": [
           6
@@ -228,7 +219,7 @@
       },
       {
         "id": "Figure 5",
-        "caption": "The logic of each tunning procedure. When the server gets a tunning request with threshold",
+        "caption": "The logic of each tunning procedure. When the server gets a tunning request with thresh- old and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
         "page": 7,
         "pages": [
           7
@@ -237,7 +228,7 @@
       },
       {
         "id": "Figure 6",
-        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first",
+        "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
         "page": 8,
         "pages": [
           8
@@ -246,16 +237,7 @@
       },
       {
         "id": "Figure 7",
-        "caption": "shows the change in the position of SRL as the M2 moves in steps of 200 nm at",
-        "page": 8,
-        "pages": [
-          8
-        ],
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 7",
-        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position",
+        "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were fitted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05.",
         "page": 9,
         "pages": [
           9
@@ -264,16 +246,7 @@
       },
       {
         "id": "Figure 8",
-        "caption": "The “Beamline Monitor” panel in the top left corner provides current readings",
-        "page": 9,
-        "pages": [
-          9
-        ],
-        "section_id": "sec:materials-and-methods"
-      },
-      {
-        "id": "Figure 8",
-        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel",
+        "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel displays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, V0 configuration with a running button and data export components; the Chart Area on the right side displays all signals with a maximum time span of 12 h.",
         "page": 10,
         "pages": [
           10
@@ -282,7 +255,7 @@
       },
       {
         "id": "Figure 9",
-        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback",
+        "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback system. The normalized absorption coefficient has a higher signal quality when the feedback system is on. The top right figure shows that the X-ray flux with the feedback system on drops much slower and smoother.",
         "page": 10,
         "pages": [
           10
@@ -360,100 +333,5 @@
     "table_captions": []
   },
   "language_hint": "en",
-  "text_hash_sha256": "a3aeae57014c3cdc27521bf6e692cc9522923dd173504b86fdd92e8f02cc0e6f",
-  "identity_contract": {
-    "artifact_type": "canonical_identity",
-    "paper_id": "doi:10.3390/app13095456",
-    "identity_verdict": "accepted",
-    "work_level_identity": {
-      "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
-      "translated_title": "",
-      "authors": [],
-      "year": "",
-      "venue": "",
-      "doi": "10.3390/app13095456",
-      "arxiv_id": "",
-      "zotero_key": ""
-    },
-    "source_manifestation": {
-      "source_kind": "local_pdf",
-      "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
-      "year": "",
-      "venue": "",
-      "source_url": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-      "pdf_url": "",
-      "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-      "doi": "10.3390/app13095456",
-      "arxiv_id": "",
-      "zotero_key": ""
-    },
-    "selected_identity_evidence": [
-      {
-        "kind": "doi",
-        "value": "10.3390/app13095456",
-        "trust": "strong",
-        "source": "metadata"
-      },
-      {
-        "kind": "title",
-        "value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
-        "trust": "metadata",
-        "source": "metadata"
-      },
-      {
-        "kind": "trusted_source_path",
-        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-        "trust": "strong",
-        "source": "source_manifestation"
-      },
-      {
-        "kind": "source_url",
-        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-        "trust": "source_manifestation",
-        "source": "metadata"
-      },
-      {
-        "kind": "source_url",
-        "value": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-        "trust": "source_manifestation",
-        "source": "source_manifestation"
-      }
-    ],
-    "equivalence_decision": {
-      "status": "equivalent",
-      "reason": "shared_work_identifier",
-      "location_binding": "source_manifestation",
-      "evidence": [
-        {
-          "kind": "shared_identifier",
-          "value": "doi:10.3390/app13095456"
-        },
-        {
-          "kind": "title_similarity",
-          "status": "match",
-          "score": 1.0,
-          "source_value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
-          "work_value": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility"
-        }
-      ]
-    },
-    "warnings": [],
-    "repair_trace_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_identity_repair_trace.json",
-    "provenance": {
-      "resolve_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_resolve.json",
-      "metadata_artifact_path": "/home/zhenyu/PaperReading/上海光源纳米CT/04_深读笔记/2023_BL08U1A_X-ray_flux_automatic_feedback/work/BL08U1A_flux_feedback_metadata.json"
-    }
-  },
-  "source_manifestation": {
-    "source_kind": "local_pdf",
-    "title": "Automatic Feedback System for X-ray Flux at BL08U1A Soft X-ray Spectromicroscopy Beamline of Shanghai Synchrotron Radiation Facility",
-    "year": "",
-    "venue": "",
-    "source_url": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-    "pdf_url": "",
-    "local_pdf_path": "/home/zhenyu/PaperReading/详细调研/03_BL08U1A_2023_automatic_flux_feedback.pdf",
-    "doi": "10.3390/app13095456",
-    "arxiv_id": "",
-    "zotero_key": ""
-  }
+  "text_hash_sha256": "a3aeae57014c3cdc27521bf6e692cc9522923dd173504b86fdd92e8f02cc0e6f"
 }

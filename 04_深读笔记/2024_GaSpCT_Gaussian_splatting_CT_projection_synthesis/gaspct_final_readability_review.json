@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "reviewed_files": [
+    "01_全文中文翻译_GaSpCT.md",
+    "02_深读总结_GaSpCT.md"
+  ],
+  "quality_review_passed_before_readability_review": true,
+  "checks": {
+    "natural_chinese_prose": true,
+    "ordinary_english_phrases_rewritten": true,
+    "stable_proper_nouns_retained_only_when_useful": true,
+    "mechanical_translation_artifacts_absent": true,
+    "suspicious_mid_sentence_linebreaks_absent": true,
+    "figure_and_table_captions_translated": true,
+    "formulas_and_numbers_unchanged_during_language_review": true,
+    "translation_section_order_matches_source": true,
+    "summary_remains_analytically_detailed": true
+  },
+  "stable_terms_retained": [
+    "GaSpCT",
+    "Gaussian Splatting",
+    "DICOM",
+    "PPMI",
+    "Plastimatch",
+    "MedNeRF",
+    "MipNeRF360",
+    "PSNR",
+    "SSIM",
+    "LPIPS"
+  ],
+  "edits_applied_during_readability_review": false,
+  "rerun_lint_required": false
+}

@@ -1,0 +1,37 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+  "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+  "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+  "metadata_sources": [
+    "local_pdf",
+    "arxiv",
+    "openalex"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "arxiv_id": "2404.03126",
+  "paper_id": "arxiv:2404.03126",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "first_page_title_used",
+    "doi_present"
+  ],
+  "script": "collect_metadata.py",
+  "source": "arxiv",
+  "url": "http://arxiv.org/abs/2404.03126v1",
+  "abstract": "We present GaSpCT, a novel view synthesis and 3D scene representation method used to generate novel projection views for Computer Tomography (CT) scans. We adapt the Gaussian Splatting framework to enable novel view synthesis in CT based on limited sets of 2D image projections and without the need for Structure from Motion (SfM) methodologies. Therefore, we reduce the total scanning duration and the amount of radiation dose the patient receives during the scan. We adapted the loss function to our use-case by encouraging a stronger background and foreground distinction using two sparsity promoting regularizers: a beta loss and a total variation (TV) loss. Finally, we initialize the Gaussian locations across the 3D space using a uniform prior distribution of where the brain's positioning would be expected to be within the field of view. We evaluate the performance of our model using brain CT scans from the Parkinson's Progression Markers Initiative (PPMI) dataset and demonstrate that the rendered novel views closely match the original projection views of the simulated scan, and have better performance than other implicit 3D scene representations methodologies. Furthermore, we empirically observe reduced training time compared to neural network based image synthesis for sparse-view CT image reconstruction. Finally, the memory requirements of the Gaussian Splatting representations are reduced by 17% compared to the equivalent voxel grid image representations.",
+  "authors": [
+    "Emmanouil Nikolakakis",
+    "Utkarsh Gupta",
+    "Jonathan Vengosh",
+    "Justin Bui",
+    "Razvan Marinescu"
+  ],
+  "published": "2024-04-04T00:28:50Z",
+  "year": "2024",
+  "pdf_url": "https://arxiv.org/pdf/2404.03126v1",
+  "venue": "arXiv (Cornell University)",
+  "doi": "10.48550/arxiv.2404.03126"
+}
