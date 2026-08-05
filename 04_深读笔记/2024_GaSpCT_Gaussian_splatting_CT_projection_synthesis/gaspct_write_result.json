@@ -10,7 +10,11 @@
     "Fig. 3",
     "Fig. 4",
     "Table 1",
-    "Table 2"
+    "Table 2",
+    "背景图甲：三维高斯基元与规则体素",
+    "背景图乙：泼溅投影与透明度合成",
+    "背景图丙：空间纹理与球谐颜色",
+    "背景图丁：梯度回传与可微体素化"
   ],
   "recovery": {
     "reason": "write_obsidian_note.py honored an existing Research/Papers route instead of the user's exact target directory.",
@@ -23,5 +27,12 @@
     "all_note_lint_passes_true": true,
     "final_quality_review": "passed",
     "final_readability_review": "passed"
+  },
+  "revision_2026_08_05": {
+    "scope": "在开头补充 3DGS 背景知识及四张自绘 SVG，校正高斯基元、泼溅、球谐频带和可微体素化术语",
+    "background_section_line": 30,
+    "background_figure_lines": [64, 92, 109, 141],
+    "note_sha256": "D00EAAB04F588C4F72096129A5B25BE51946B67FA04C7ED317A16A931C9F2037",
+    "lint_rerun_after_review": true
   }
 }

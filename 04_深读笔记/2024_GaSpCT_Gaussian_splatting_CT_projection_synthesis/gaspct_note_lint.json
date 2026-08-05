@@ -1,11 +1,17 @@
 {
   "status": "ok",
   "script": "lint_note.py",
-  "paper_id": "arxiv:2404.03126",
+  "paper_id": "2404.03126",
   "input_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\02_深读总结_GaSpCT.md",
   "headers": [
     "GaSpCT：用于新颖 CT 投影视图合成的高斯泼溅",
     "核心信息",
+    "背景知识：怎样理解 3D Gaussian Splatting",
+    "“3D”指什么：一个边界柔和的三维椭球",
+    "“泼溅”指什么：把三维椭球印到二维像素上",
+    "颜色和纹理如何由球谐函数近似",
+    "为什么二维误差能反向传播到三维高斯",
+    "何时才真正出现“可微体素化”",
     "原文摘要翻译",
     "创新点",
     "一句话总结",

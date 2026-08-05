@@ -6,7 +6,14 @@
     "gaspct_source_manifest.json",
     "gaspct_raw_sections.jsonl",
     "gaspct_figure_table_decisions.json",
-    "gaspct_note_lint.json"
+    "gaspct_note_lint.json",
+    "3DGS相关论文/3DGS(SIGGRAPH2023).pdf",
+    "3DGS相关论文/R²-Gaussian.pdf",
+    "大组会-黎振宇-20251215-3DGS系列论文.pptx",
+    "images/background_3dgs_01_gaussian_primitive.svg",
+    "images/background_3dgs_02_splatting_projection.svg",
+    "images/background_3dgs_03_spherical_harmonics.svg",
+    "images/background_3dgs_04_gradient_voxelization.svg"
   ],
   "lint_passed_before_review": true,
   "checks": {
@@ -44,11 +51,27 @@
     },
     "key_formulas_are_present_and_renderable": {
       "passed": true,
-      "detail": "保留原始损失、TV/Beta 项、总损失和 CT 线积分解释；TeX 无双重转义或损坏定界符。"
+      "detail": "除原始损失、TV/Beta 项、总损失和 CT 线积分外，新增三维高斯、协方差分解、二维投影、alpha 合成、球谐颜色与 R² 体素查询公式；TeX 无双重转义或损坏定界符。"
+    },
+    "background_3dgs_mechanism_is_evidence_grounded": {
+      "passed": true,
+      "detail": "3D、splatting、球谐颜色和可微光栅化的解释已与原始 3DGS 第 3–8、13–14 页及演示文稿第 7–16 页交叉核对，并纠正了‘高斯体素’和‘最高 4 阶球谐’两处宽松表述。"
+    },
+    "gaussian_voxel_and_ct_physics_boundaries_are_explicit": {
+      "passed": true,
+      "detail": "明确区分标准 3DGS/GaSpCT 的连续高斯基元与 R²-Gaussian 的按需可微体素化，并区分自然图像 alpha 合成、GaSpCT 外观拟合和 R² 的 X 射线积分投影。"
+    },
+    "background_explainer_figures_are_scientifically_accurate": {
+      "passed": true,
+      "detail": "四张自绘图分别覆盖规则体素与连续高斯、局部 Jacobian 投影与带透过率的 alpha 合成、空间纹理与四个球谐频带、GaSpCT/R² 的梯度与体素化边界；已按原始 3DGS、GaSpCT 和 R²-Gaussian 逐图复核。"
+    },
+    "background_explainer_figures_pass_visual_review": {
+      "passed": true,
+      "detail": "四张 SVG 均以 1600 px 宽度在 Edge 中完整渲染，中文、数学符号、箭头、颜色图例和边界均无裁切或重叠；采用色盲友好的蓝、橙、绿、紫配色并同时使用文字和线型编码。"
     },
     "figure_table_contract_is_satisfied": {
       "passed": true,
-      "detail": "Fig. 1–4 与 Table 1–2 均经目视核验、物化并放在方法、数据或结果的相邻分析位置。"
+      "detail": "原论文 Fig. 1–4 与 Table 1–2 均经目视核验并物化；新增四张自绘背景图均登记为 author_drawn_synthesis，紧跟各自解释段落，未冒充论文原图。"
     }
   },
   "paper_specific_risks_explicitly_retained": [
@@ -57,7 +80,8 @@
     "同一三维模体生成训练和测试 DRR，存在逆犯罪风险",
     "逐病例优化并非跨患者模型",
     "二维投影相似性不等于三维重建或临床有效",
-    "损失公式存在符号和重复权重歧义"
+    "损失公式存在符号和重复权重歧义",
+    "GaSpCT 的颜色和不透明度不能直接解释为标定后的物理衰减系数"
   ],
   "edits_required_after_review": false
 }

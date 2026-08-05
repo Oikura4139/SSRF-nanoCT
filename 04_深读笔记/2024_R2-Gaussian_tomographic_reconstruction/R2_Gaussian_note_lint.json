@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "script": "lint_note.py",
-  "paper_id": "doi:10.52202/079017-1427",
+  "paper_id": "R2_Gaussian",
   "input_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\02_深读总结_R2-Gaussian.md",
   "headers": [
     "R²-Gaussian：面向断层重建的辐射高斯溅射校正",

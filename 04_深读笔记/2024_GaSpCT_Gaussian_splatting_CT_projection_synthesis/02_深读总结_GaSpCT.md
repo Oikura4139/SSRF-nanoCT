@@ -27,6 +27,122 @@ arxiv_id: 2404.03126
 - 数据 / 资源: PPMI 去标识脑部 CT；Plastimatch 生成数字重建放射影像
 - 论文类型: 医学成像人工智能方法论文
 
+## 背景知识：怎样理解 3D Gaussian Splatting
+
+> [!important] 先纠正一个容易混淆的术语
+> 演示文稿中的“3D 高斯体素”是便于讲解的宽松说法。标准 `3DGS` 的基本单元不是固定网格中的体素，而是散布在连续三维空间、数量可增减的**各向异性高斯基元**。`GaSpCT` 也直接优化这种高斯集合；本文所对照的 `R²-Gaussian` 等后续 CT 方法才额外提供“把连续高斯场按需采样成规则体素块”的可微体素化器。
+
+### “3D”指什么：一个边界柔和的三维椭球
+
+第 $i$ 个高斯基元可写成
+
+$$
+G_i(\mathbf{x})=
+\exp\!\left[-\frac{1}{2}
+(\mathbf{x}-\boldsymbol{\mu}_i)^\mathsf{T}
+\boldsymbol{\Sigma}_i^{-1}
+(\mathbf{x}-\boldsymbol{\mu}_i)\right],
+\qquad \mathbf{x},\boldsymbol{\mu}_i\in\mathbb{R}^3.
+$$
+
+其中，中心 $\boldsymbol{\mu}_i$ 决定它在三维世界中的位置；相同函数值的等值面是椭球。协方差通常参数化为
+
+$$
+\boldsymbol{\Sigma}_i
+=\mathbf{R}_i\mathbf{S}_i\mathbf{S}_i^\mathsf{T}\mathbf{R}_i^\mathsf{T},
+$$
+
+对角尺度矩阵 $\mathbf{S}_i$ 控制椭球三条主轴的长短，旋转矩阵 $\mathbf{R}_i$ 控制朝向。每个高斯还带有不透明度 $o_i$ 和颜色参数。因此，“3D”指的是**位置、大小和朝向都定义在三维坐标中，并可从任意相机方向投影**，而不是“一个三维像素”。
+
+| 参数 | 直观作用 |
+|---|---|
+| $\boldsymbol{\mu}_i$ | 把高斯移动到合适的三维位置 |
+| $\mathbf{S}_i,\mathbf{R}_i$ | 改变椭球的大小、扁长程度和朝向 |
+| $o_i$ | 调整该基元对图像的可见贡献 |
+| 球谐系数 $\boldsymbol{\beta}_i$ | 描述颜色随观察方向的平滑变化 |
+
+![背景图甲：三维高斯基元与规则体素的区别](images/background_3dgs_01_gaussian_primitive.svg)
+*背景图甲（自绘示意）。左侧规则体素拥有固定格点和离散单元；右侧高斯由中心 $\boldsymbol\mu_i$、尺度 $\mathbf S_i$ 和旋转 $\mathbf R_i$ 定义，权重随马氏距离连续衰减。图中的椭圆是三维椭球的二维示意，不表示硬材料边界。依据原始 3DGS 论文第 4 页式（4）—（6）。*
+
+### “泼溅”指什么：把三维椭球印到二维像素上
+
+“泼溅”（splatting）可理解为“盖软印章”：渲染器不是沿每条射线密集采样，而是把每个三维高斯**向前投影**为图像平面上的二维椭圆高斯足迹，并把它的贡献散布到足迹覆盖的多个像素；它既不是液体飞溅，也不是 X 射线散射。若 $\mathbf{W}$ 是世界到相机的变换，$\mathbf{J}$ 是透视投影在高斯中心处的雅可比矩阵，则屏幕空间协方差近似为
+
+$$
+\boldsymbol{\Sigma}^{2D}_i
+=\left[
+\mathbf{J}\mathbf{W}\boldsymbol{\Sigma}_i
+\mathbf{W}^{\mathsf T}\mathbf{J}^{\mathsf T}
+\right]_{2\times2}.
+$$
+
+高斯按深度排序后，由前向后进行 alpha 合成：
+
+$$
+\begin{aligned}
+\widehat{\mathbf C}(\mathbf p)
+&=\sum_i T_i(\mathbf p)a_i(\mathbf p)\mathbf c_i(\mathbf d),\\
+a_i(\mathbf p)&=o_iG_i^{2D}(\mathbf p),\\
+T_i(\mathbf p)&=\prod_{j<i}\left[1-a_j(\mathbf p)\right].
+\end{aligned}
+$$
+
+$a_i$ 表示第 $i$ 个高斯在像素 $\mathbf p$ 处的有效覆盖率，$T_i$ 表示光到达它之前尚未被前方高斯遮挡的比例。靠近椭圆中心、较不透明且位于前方的高斯通常贡献更大。这就是“高斯”与“泼溅”合起来生成一幅图像的过程。（依据原始 3DGS 论文第 3–6 页及 PPT 第 7–13、16 页。）
+
+![背景图乙：三维高斯的泼溅投影与透明度合成](images/background_3dgs_02_splatting_projection.svg)
+*背景图乙（自绘示意）。左侧把三维高斯通过相机投到图像平面，每个高斯形成跨越多个像素的二维软足迹；右侧展示同一像素处的重叠足迹如何按视空间深度由近到远合成。它不是沿射线密集采样，也不是 X 射线散射。依据原始 3DGS 论文第 3 页式（3）、第 4 页式（5）及第 6 页的光栅化流程。*
+
+### 颜色和纹理如何由球谐函数近似
+
+经典 3DGS 没有三角网格上的固定 `UV` 纹理图。每个高斯分别保存红、绿、蓝三组球谐系数，并根据单位观察方向 $\mathbf d$ 计算该方向下的颜色：
+
+$$
+\mathbf c_i(\mathbf d)=
+\sum_{\ell=0}^{L}\sum_{m=-\ell}^{\ell}
+\boldsymbol{\beta}_{i,\ell m}Y_\ell^m(\mathbf d).
+$$
+
+这些球面基函数是预先确定的，训练时只需学习展开系数。零阶项给出与方向无关的基础色，更高频带逐渐表达随视角平滑变化的亮度或高光。空间纹理主要来自**大量相邻高斯具有不同位置、尺度和基础色**；球谐函数主要补充视角依赖外观，并不能等同于完整材质模型。
+
+原始 3DGS 常用 $\ell=0,1,2,3$ 共四个频带，即最高次数为 `3`、每个颜色通道 `16` 个基函数；演示文稿所写“最高 4 阶”应理解为“四个频带”。`GaSpCT` 正文没有明确报告自己采用的球谐次数。（依据原始 3DGS 论文第 4、8 页及演示文稿第 14–15 页。）
+
+![背景图丙：空间纹理与球谐视角颜色](images/background_3dgs_03_spherical_harmonics.svg)
+*背景图丙（自绘示意）。左侧说明空间纹理主要由许多位置、尺度和基础色不同的高斯共同拼出；右侧固定同一个高斯的几何，只改变观察方向，球谐展开给出平滑变化的颜色。底部四个频带共含 $1+3+5+7=16$ 个基函数，所以是“最高次数 3”，不是“最高 4 阶”。依据原始 3DGS 论文第 4、8 页。*
+
+### 为什么二维误差能反向传播到三维高斯
+
+对连续参数而言，前向计算链是
+
+$$
+(\boldsymbol\mu,\mathbf S,\mathbf R,o,\boldsymbol\beta)
+\longrightarrow \text{二维投影}
+\longrightarrow G^{2D}
+\longrightarrow \text{alpha 合成}
+\longrightarrow \widehat{\mathbf I}
+\longrightarrow \mathcal L.
+$$
+
+高斯指数、协方差变换、球谐函数和 alpha 合成都有可计算的导数，所以梯度可沿相反方向更新颜色系数、不透明度、中心、尺度和旋转。`GaSpCT` 的梯度正是从二维投影损失穿过可微高斯光栅化器返回这些属性，**并没有先经过一个三维体素重建结果**。需要注意，深度排序、可见性裁剪以及 `clone/split/prune` 等增删高斯的密度控制属于离散或启发式步骤；可微的是固定当前集合后从高斯参数到像素值的主链路。（依据原始 3DGS 论文第 5–6、13–14 页及 `GaSpCT` 第 3–4 页。）
+
+### 何时才真正出现“可微体素化”
+
+`R²-Gaussian` 为 CT 重建额外定义了连续辐射密度场，去掉视角相关的彩色球谐系数，改用标量中心密度 $\rho_i$；它可在体素中心 $\mathbf x_v$ 查询
+
+$$
+V(\mathbf x_v)=\sum_i \rho_i
+\exp\!\left[-\frac12(\mathbf x_v-\mathbf p_i)^\mathsf T
+\boldsymbol\Sigma_i^{-1}(\mathbf x_v-\mathbf p_i)\right].
+$$
+
+体素块上的三维全变分损失可通过求和与高斯函数反传到中心密度 $\rho_i$、位置和协方差；体素网格在这里是**按需采样结果和正则化载体**，高斯集合仍是被优化的主表示。它的投影器也不再使用自然图像的遮挡式 alpha 合成，而是对高斯沿 X 射线积分后在探测器平面上累加。
+
+与之不同，`GaSpCT` 的 DICOM 体只是生成训练用 `DRR` 的数字模体，训练目标仍是二维投影外观。因而本文学到的“颜色”和“不透明度”应理解为拟合灰度投影的表示参数，不能直接当作经过标定的 X 射线线性衰减系数或真实材料纹理。（依据 `R²-Gaussian` 第 4–7 页及 `GaSpCT` 第 3–5 页。）
+
+![背景图丁：GaSpCT 与 R²-Gaussian 的梯度回传路径](images/background_3dgs_04_gradient_voxelization.svg)
+*背景图丁（自绘示意）。深灰箭头表示前向计算，蓝色箭头表示连续梯度。上路中，本文的二维投影误差直接经固定排序下的高斯光栅化返回高斯参数；下路中，`R²-Gaussian` 同时使用 X 射线投影损失和临时 $32^3$ 体素块上的三维全变分正则。依据 `GaSpCT` 第 3–4 页及 `R²-Gaussian` 第 4–7 页。*
+
+排序、候选筛选以及高斯的克隆、分裂和剪枝都是离散决策，不属于蓝色梯度链；体素块也不是主优化表示。
+
 ## 原文摘要翻译
 
 作者提出 `GaSpCT`，这是一种用于为计算机断层成像扫描生成新投影视图的新颖视图合成与三维场景表示方法。作者对高斯泼溅框架进行改造，使其能够在不依赖运动恢复结构方法的情况下，仅根据有限数量的二维图像投影完成 CT 新颖视图合成，从而减少总扫描时长以及患者在扫描过程中接受的辐射剂量。作者针对这一用途调整损失函数，采用两个促进稀疏性的正则项——`Beta` 损失和全变分损失——强化背景与前景的区分；并利用关于视野内脑部预期位置的均匀先验分布，在三维空间中初始化高斯位置。作者使用帕金森病进展标志物计划数据集中的脑部 CT 扫描评估模型，表明渲染的新视图与模拟扫描的原始投影视图高度一致，而且优于其他隐式三维场景表示方法。实验还观察到，与基于神经网络的稀疏视角 CT 图像重建合成相比，训练时间有所缩短。最后，与等效体素网格图像表示相比，高斯泼溅表示的内存需求降低了 `17%`。
@@ -292,6 +408,7 @@ $$
 
 - Nikolakakis, E., Gupta, U., Vengosh, J., Bui, J., & Marinescu, R. (2024). *GaSpCT: Gaussian Splatting for Novel CT Projection View Synthesis*. arXiv:2404.03126.
 - Kerbl, B., Kopanas, G., Leimkühler, T., & Drettakis, G. (2023). *3D Gaussian Splatting for Real-Time Radiance Field Rendering*. ACM Transactions on Graphics, 42(4).
+- Zha, R., Lin, T. J., Cai, Y., Cao, J., Zhang, Y., & Li, H. (2024). *R²-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction*. NeurIPS 2024.
 - Corona-Figueroa, A. et al. (2022). *MedNeRF: Medical Neural Radiance Fields for Reconstructing 3D-Aware CT-Projections from a Single X-ray*. EMBC 2022.
 - Barron, J. T. et al. (2022). *Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields*. CVPR 2022.
 - Gopalakrishnan, V., & Golland, P. (2022). *Fast Auto-Differentiable Digitally Reconstructed Radiographs for Solving Inverse Problems in Intraoperative Imaging*. CLIP Workshop.
