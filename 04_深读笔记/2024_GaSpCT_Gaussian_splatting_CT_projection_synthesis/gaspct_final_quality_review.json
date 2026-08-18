@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "reviewed_note": "02_深读总结_GaSpCT.md",
+  "reviewed_against": [
+    "gaspct_note_plan.json",
+    "gaspct_source_manifest.json",
+    "gaspct_raw_sections.jsonl",
+    "gaspct_figure_table_decisions.json",
+    "gaspct_note_lint.json",
+    "3DGS相关论文/3DGS(SIGGRAPH2023).pdf",
+    "3DGS相关论文/R²-Gaussian.pdf",
+    "大组会-黎振宇-20251215-3DGS系列论文.pptx",
+    "images/background_3dgs_01_gaussian_primitive.svg",
+    "images/background_3dgs_02_splatting_projection.svg",
+    "images/background_3dgs_03_spherical_harmonics.svg",
+    "images/background_3dgs_04_gradient_voxelization.svg"
+  ],
+  "lint_passed_before_review": true,
+  "checks": {
+    "central_claims_are_supported_by_raw_sections_or_pages": {
+      "passed": true,
+      "detail": "方法、数据、结果和结论均由 note_plan 中的 sec:methodology、sec:dataset、sec:results 等来源支撑。"
+    },
+    "key_experimental_settings_and_numbers_are_present": {
+      "passed": true,
+      "detail": "包含 20 例、每例 360 幅、1°、128×128、训练比例、20K 迭代、硬件、时间、参数量、文件大小及两张完整结果表。"
+    },
+    "mechanisms_or_protocol_choices_are_mapped_to_results": {
+      "passed": true,
+      "detail": "已把 DICOM 几何、椭球初始化、Beta/TV 正则和逐病例拟合分别对应到稳定位姿、搜索空间、平滑/稀疏性及高指标，并明确该解释缺少逐项消融。"
+    },
+    "comparisons_explain_positioning_against_alternatives": {
+      "passed": true,
+      "detail": "分别解释与原始 Gaussian Splatting、MedNeRF、MipNeRF360 及稀疏视角重建路线的输入、训练协议与目标差异。"
+    },
+    "discussion_or_limitation_claims_are_explained_mechanistically": {
+      "passed": true,
+      "detail": "针孔模型、弧形探测器、模拟 DRR、逆犯罪、强平滑对细结构的风险及真实物理失配均有机制说明。"
+    },
+    "proven_claims_are_separated_from_unproven_or_unvalidated_claims": {
+      "passed": true,
+      "detail": "明确区分同病例模拟角度插值与跨病例泛化、真实投影、三维体重建、诊断收益和剂量降低。"
+    },
+    "research_or_engineering_takeaways_are_specific_and_reusable": {
+      "passed": true,
+      "detail": "给出已知设备几何替代 SfM、形状先验初始化、下游重建验证和公平消融等可迁移建议，并单列同步辐射纳米 CT 适配条件。"
+    },
+    "followup_questions_are_specific_to_replication_or_extension": {
+      "passed": true,
+      "detail": "问题覆盖物理高斯投影器、跨病例预训练、主动视角选择、真实噪声与异常解剖。"
+    },
+    "key_formulas_are_present_and_renderable": {
+      "passed": true,
+      "detail": "除原始损失、TV/Beta 项、总损失和 CT 线积分外，新增三维高斯、协方差分解、二维投影、alpha 合成、球谐颜色与 R² 体素查询公式；TeX 无双重转义或损坏定界符。"
+    },
+    "background_3dgs_mechanism_is_evidence_grounded": {
+      "passed": true,
+      "detail": "3D、splatting、球谐颜色和可微光栅化的解释已与原始 3DGS 第 3–8、13–14 页及演示文稿第 7–16 页交叉核对，并纠正了‘高斯体素’和‘最高 4 阶球谐’两处宽松表述。"
+    },
+    "gaussian_voxel_and_ct_physics_boundaries_are_explicit": {
+      "passed": true,
+      "detail": "明确区分标准 3DGS/GaSpCT 的连续高斯基元与 R²-Gaussian 的按需可微体素化，并区分自然图像 alpha 合成、GaSpCT 外观拟合和 R² 的 X 射线积分投影。"
+    },
+    "background_explainer_figures_are_scientifically_accurate": {
+      "passed": true,
+      "detail": "四张自绘图分别覆盖规则体素与连续高斯、局部 Jacobian 投影与带透过率的 alpha 合成、空间纹理与四个球谐频带、GaSpCT/R² 的梯度与体素化边界；已按原始 3DGS、GaSpCT 和 R²-Gaussian 逐图复核。"
+    },
+    "background_explainer_figures_pass_visual_review": {
+      "passed": true,
+      "detail": "四张 SVG 均以 1600 px 宽度在 Edge 中完整渲染，中文、数学符号、箭头、颜色图例和边界均无裁切或重叠；采用色盲友好的蓝、橙、绿、紫配色并同时使用文字和线型编码。"
+    },
+    "figure_table_contract_is_satisfied": {
+      "passed": true,
+      "detail": "原论文 Fig. 1–4 与 Table 1–2 均经目视核验并物化；新增四张自绘背景图均登记为 author_drawn_synthesis，紧跟各自解释段落，未冒充论文原图。"
+    }
+  },
+  "paper_specific_risks_explicitly_retained": [
+    "组合修改无逐项消融",
+    "MipNeRF360 未充分收敛且基线协议不等价",
+    "同一三维模体生成训练和测试 DRR，存在逆犯罪风险",
+    "逐病例优化并非跨患者模型",
+    "二维投影相似性不等于三维重建或临床有效",
+    "损失公式存在符号和重复权重歧义",
+    "GaSpCT 的颜色和不透明度不能直接解释为标定后的物理衰减系数"
+  ],
+  "edits_required_after_review": false
+}

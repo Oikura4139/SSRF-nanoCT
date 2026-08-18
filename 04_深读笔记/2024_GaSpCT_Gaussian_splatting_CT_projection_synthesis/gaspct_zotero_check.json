@@ -1,0 +1,5 @@
+{
+  "status": "unavailable",
+  "checked_before_identity_resolution": true,
+  "detail": "当前工具列表中没有可调用的 Zotero MCP 工具；按技能规则继续使用用户提供的本地 PDF。"
+}

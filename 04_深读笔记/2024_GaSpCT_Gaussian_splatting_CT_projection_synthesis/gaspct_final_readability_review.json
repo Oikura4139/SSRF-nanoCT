@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "reviewed_files": [
+    "01_全文中文翻译_GaSpCT.md",
+    "02_深读总结_GaSpCT.md"
+  ],
+  "quality_review_passed_before_readability_review": true,
+  "checks": {
+    "natural_chinese_prose": true,
+    "ordinary_english_phrases_rewritten": true,
+    "stable_proper_nouns_retained_only_when_useful": true,
+    "mechanical_translation_artifacts_absent": true,
+    "suspicious_mid_sentence_linebreaks_absent": true,
+    "figure_and_table_captions_translated": true,
+    "formulas_and_numbers_unchanged_during_language_review": true,
+    "translation_section_order_matches_source": true,
+    "summary_remains_analytically_detailed": true,
+    "new_background_appears_before_abstract_and_reads_independently": true,
+    "voxel_and_gaussian_primitive_terminology_is_consistent": true,
+    "each_background_figure_immediately_follows_its_explanation": true,
+    "background_figure_captions_are_chinese_and_source_bounded": true,
+    "diagram_labels_remain_legible_at_note_width": true
+  },
+  "stable_terms_retained": [
+    "GaSpCT",
+    "Gaussian Splatting",
+    "DICOM",
+    "PPMI",
+    "Plastimatch",
+    "MedNeRF",
+    "MipNeRF360",
+    "PSNR",
+    "SSIM",
+    "LPIPS"
+  ],
+  "edits_applied_during_readability_review": true,
+  "readability_edits": [
+    "把 PPT 中的宽松术语统一改写为演示文稿中的教学性表述",
+    "把球谐说明拆成较短段落",
+    "补明 R²-Gaussian 的 X 射线积分投影与标准 alpha 合成不同",
+    "在四个背景小节分别插入高斯基元、泼溅、球谐和梯度路径示意图",
+    "把新增图注统一命名为背景图甲、乙、丙、丁，避免与论文 Fig. 1–4 混淆",
+    "根据视觉复核修正马氏距离、近似深度排序和透过率加权说明"
+  ],
+  "lint_rerun_after_review_edits": true,
+  "rerun_lint_required": false
+}

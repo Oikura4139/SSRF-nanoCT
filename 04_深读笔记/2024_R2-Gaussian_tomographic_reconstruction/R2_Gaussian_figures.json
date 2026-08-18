@@ -1,0 +1,2846 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.52202/079017-1427",
+  "figure_plan": {
+    "paper_id": "doi:10.52202/079017-1427",
+    "figures": [
+      {
+        "id": "Figure 4",
+        "caption": "Training pipeline of R2-Gaussian. (a) Overall training pipeline. (b) X-ray rasterization for projection rendering. (c) Density voxelization for volume retrieval. (d) Modified adaptive control.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_4.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_fig_figure_4.png",
+          "width": 1122,
+          "height": 838,
+          "size_bytes": 285726,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.25162,
+            "visual_rect_count": 225,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 634,
+            "table_body_rows": 0,
+            "caption_text_chars": 202,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "training",
+              "pipeline",
+              "gaussian",
+              "overall",
+              "x-ray"
+            ],
+            "snippet": "erlay between kernels. 4.2 Training radiative Gaussians Our training pipeline is shown in Fig. 4. Radiative Gaussians are first initialized from an FDK volume. We then rasterize projecti",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_img_01.jpeg",
+                "width": 521,
+                "height": 521,
+                "size_bytes": 95425
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_img_02.jpeg",
+                "width": 302,
+                "height": 336,
+                "size_bytes": 2509
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_img_03.jpeg",
+                "width": 124,
+                "height": 206,
+                "size_bytes": 5273
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_005_fig_figure_4.png",
+                "width": 1122,
+                "height": 838,
+                "size_bytes": 285726,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.25162,
+                  "visual_rect_count": 225,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 634,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 202,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "pipeline",
+              "gaussian",
+              "x-ray"
+            ],
+            "snippet": "thods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantl",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "gaussian",
+              "x-ray"
+            ],
+            "snippet": "results [19, 63, 1, 32, 33]. Supervised learning methods perform well in cases similar to training sets but suffer from poor genera- tion ability when applied to unseen data. To overcome t",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_01.jpeg",
+                "width": 474,
+                "height": 1419,
+                "size_bytes": 37317
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_02.jpeg",
+                "width": 1100,
+                "height": 1100,
+                "size_bytes": 120709
+              },
+              {
+                "filename": "page_003_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_03.png",
+                "width": 1578,
+                "height": 167,
+                "size_bytes": 2727
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_fig_figure_2.png",
+                "width": 532,
+                "height": 471,
+                "size_bytes": 67310,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.067118,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantly faster than other methods.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+          "width": 1125,
+          "height": 467,
+          "size_bytes": 475697,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.140736,
+            "visual_rect_count": 7,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 281,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "compare",
+              "method",
+              "state-of-the-art",
+              "nerf-based",
+              "methods"
+            ],
+            "snippet": "nutes, improving PSNR by 0.6 dB compared to SOTA methods. A visual comparison is shown in Fig. 1. Our contributions can be summarized as follows: (1) We discover a previously unknown int",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "compare",
+              "method",
+              "nerf-based",
+              "methods"
+            ],
+            "snippet": "GPU. D More qualitative results Main results We visualize more reconstruction results in Fig. 11 and Fig. 12. FDK and SART in- troduce notable streak artifacts, while ASD-POCS and Intra",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_01.jpeg",
+                "width": 200,
+                "height": 200,
+                "size_bytes": 10116
+              },
+              {
+                "filename": "page_016_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_02.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3128
+              },
+              {
+                "filename": "page_016_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_03.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3209
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_fig_figure_10.png",
+                "width": 1122,
+                "height": 679,
+                "size_bytes": 752569,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203773,
+                  "visual_rect_count": 73,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 170,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "method",
+              "nerf-based",
+              "methods"
+            ],
+            "snippet": "ion quality, it introduces needle-like artifacts, especially under the 25-view condition (Fig. 17). This suggests that some Gaussians may overfit specific X-rays. Similar artifacts are a",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_01.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9243510
+              },
+              {
+                "filename": "page_017_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_02.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9439875
+              },
+              {
+                "filename": "page_017_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_03.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 8135866
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_11.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+                "width": 1122,
+                "height": 1399,
+                "size_bytes": 1568847,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.419824,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 96,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Reconstruction results of NeRF-based methods and our method on the synthetic dataset.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_017_fig_figure_11.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+          "width": 1122,
+          "height": 1399,
+          "size_bytes": 1568847,
+          "label": "Figure 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.419824,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 96,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "reconstruction",
+              "nerf-based",
+              "methods",
+              "method",
+              "synthetic"
+            ],
+            "snippet": "GPU. D More qualitative results Main results We visualize more reconstruction results in Fig. 11 and Fig. 12. FDK and SART in- troduce notable streak artifacts, while ASD-POCS and IntraT",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_01.jpeg",
+                "width": 200,
+                "height": 200,
+                "size_bytes": 10116
+              },
+              {
+                "filename": "page_016_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_02.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3128
+              },
+              {
+                "filename": "page_016_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_03.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3209
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_fig_figure_10.png",
+                "width": 1122,
+                "height": 679,
+                "size_bytes": 752569,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203773,
+                  "visual_rect_count": 73,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 170,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 8,
+            "matched_terms": [
+              "figure 11",
+              "reconstruction",
+              "nerf-based",
+              "methods",
+              "method",
+              "synthetic"
+            ],
+            "snippet": "raTomo Ours SAX-NeRF NAF IntraTomo 75-view 50-view 25-view GT Ours SAX-NeRF NAF IntraTomo Figure 11: Reconstruction results of NeRF-based methods and our method on the synthetic dataset. wi",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_01.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9243510
+              },
+              {
+                "filename": "page_017_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_02.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9439875
+              },
+              {
+                "filename": "page_017_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_03.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 8135866
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_11.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+                "width": 1122,
+                "height": 1399,
+                "size_bytes": 1568847,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.419824,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 96,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "reconstruction",
+              "nerf-based",
+              "methods",
+              "method",
+              "synthetic"
+            ],
+            "snippet": "of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantly faster than other methods. Recently, 3D Gaussian splatting (",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Reconstruction results on the real-world dataset.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_018_fig_figure_12.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+          "width": 1121,
+          "height": 718,
+          "size_bytes": 1028257,
+          "label": "Figure 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.215606,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 60,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 12",
+              "reconstruction",
+              "real-world",
+              "dataset"
+            ],
+            "snippet": "qualitative results Main results We visualize more reconstruction results in Fig. 11 and Fig. 12. FDK and SART in- troduce notable streak artifacts, while ASD-POCS and IntraTomo blur str",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_01.jpeg",
+                "width": 200,
+                "height": 200,
+                "size_bytes": 10116
+              },
+              {
+                "filename": "page_016_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_02.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3128
+              },
+              {
+                "filename": "page_016_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_03.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3209
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_fig_figure_10.png",
+                "width": 1122,
+                "height": 679,
+                "size_bytes": 752569,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203773,
+                  "visual_rect_count": 73,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 170,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 18,
+            "score": 8,
+            "matched_terms": [
+              "figure 12",
+              "reconstruction",
+              "real-world",
+              "dataset"
+            ],
+            "snippet": "Ground Truth Ours SAX-NeRF NAF IntraTomo ASD-POCS SART FDK Figure 12: Reconstruction results on the real-world dataset. our method has slightly lower PSNR but",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_img_01.jpeg",
+                "width": 3112,
+                "height": 1738,
+                "size_bytes": 1258739
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_12.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+                "width": 1121,
+                "height": 718,
+                "size_bytes": 1028257,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.215606,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+                "width": 1137,
+                "height": 317,
+                "size_bytes": 76834,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096439,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.027806,
+                  "paragraph_text_chars": 385,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "reconstruction",
+              "real-world",
+              "dataset"
+            ],
+            "snippet": "of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantly faster than other methods. Recently, 3D Gaussian splatting (",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Qualitative comparison of X-3DGS and our method.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_019_fig_figure_13.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_fig_figure_13.png",
+          "width": 1122,
+          "height": 974,
+          "size_bytes": 1065986,
+          "label": "Figure 13",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.292317,
+            "visual_rect_count": 19,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 59,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 13",
+              "qualitative",
+              "comparison",
+              "method"
+            ],
+            "snippet": "eneous areas. Integration bias We show more qualitative comparisons of X-3DGS and ours in Fig. 13. Our method outperforms X-3DGS in both 2D rendering and 3D reconstruction. Components and",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_01.jpeg",
+                "width": 200,
+                "height": 200,
+                "size_bytes": 10116
+              },
+              {
+                "filename": "page_016_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_02.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3128
+              },
+              {
+                "filename": "page_016_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_03.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3209
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_fig_figure_10.png",
+                "width": 1122,
+                "height": 679,
+                "size_bytes": 752569,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203773,
+                  "visual_rect_count": 73,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 170,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 19,
+            "score": 8,
+            "matched_terms": [
+              "figure 13",
+              "qualitative",
+              "comparison",
+              "method"
+            ],
+            "snippet": "ructed Slices Rendered Projections (0°) Ground Truth Ours X-3DGS Ground Truth Ours X-3DGS Figure 13: Qualitative comparison of X-3DGS and our method. F Broader impacts Impacts on real-world",
+            "images": [
+              {
+                "filename": "page_019_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_img_01.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 37101
+              },
+              {
+                "filename": "page_019_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_img_02.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 62102
+              },
+              {
+                "filename": "page_019_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_img_03.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 52968
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_figure_13.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_019_fig_figure_13.png",
+                "width": 1122,
+                "height": 974,
+                "size_bytes": 1065986,
+                "label": "Figure 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.292317,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 59,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "comparison",
+              "method"
+            ],
+            "snippet": "ptimal results in 15 minutes, improving PSNR by 0.6 dB compared to SOTA methods. A visual comparison is shown in Fig. 1. Our contributions can be summarized as follows: (1) We discover a pre",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "Quantitative comparison of different components and parameters.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_figure_14.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_fig_figure_14.png",
+          "width": 956,
+          "height": 1115,
+          "size_bytes": 1473138,
+          "label": "Figure 14",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.285343,
+            "visual_rect_count": 5,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 74,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 14",
+              "comparison",
+              "different",
+              "components",
+              "parameters"
+            ],
+            "snippet": "ion. Components and parameters We visually compare different components and parameters in Fig. 14. Our newly introduced components improve the reconstruction quality. Our parameter settin",
+            "images": [
+              {
+                "filename": "page_016_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_01.jpeg",
+                "width": 200,
+                "height": 200,
+                "size_bytes": 10116
+              },
+              {
+                "filename": "page_016_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_02.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3128
+              },
+              {
+                "filename": "page_016_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_img_03.jpeg",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 3209
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_10.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_016_fig_figure_10.png",
+                "width": 1122,
+                "height": 679,
+                "size_bytes": 752569,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203773,
+                  "visual_rect_count": 73,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 170,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 100,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "figure 14",
+              "quantitative",
+              "comparison",
+              "different",
+              "components",
+              "parameters"
+            ],
+            "snippet": "= 0.15 𝜆!\" = 0.1 𝝀𝒕𝒗= 𝟎. 𝟎𝟓 𝜆!\" = 0.01 𝜆!\" = 0 Ground Truth 𝐷= 64 𝐷= 48 𝑫= 𝟑𝟐 𝐷= 16 𝐷= 8 Figure 14: Quantitative comparison of different components and parameters. Figure 15: PSNR-iteratio",
+            "images": [
+              {
+                "filename": "page_020_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_img_01.png",
+                "width": 3964,
+                "height": 1088,
+                "size_bytes": 355768
+              },
+              {
+                "filename": "page_020_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_img_02.jpeg",
+                "width": 2330,
+                "height": 569,
+                "size_bytes": 232406
+              },
+              {
+                "filename": "page_020_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_img_03.jpeg",
+                "width": 2330,
+                "height": 569,
+                "size_bytes": 256905
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_figure_14.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_fig_figure_14.png",
+                "width": 956,
+                "height": 1115,
+                "size_bytes": 1473138,
+                "label": "Figure 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.285343,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 74,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_figure_15.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_020_fig_figure_15.png",
+                "width": 1122,
+                "height": 376,
+                "size_bytes": 118814,
+                "label": "Figure 15",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113114,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.785059,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 75,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "different",
+              "parameters"
+            ],
+            "snippet": "ptimal results in 15 minutes, improving PSNR by 0.6 dB compared to SOTA methods. A visual comparison is shown in Fig. 1. Our contributions can be summarized as follows: (1) We discover a pre",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 18",
+        "caption": "Visualization of reconstruction results under limited-angle scenarios. PNSR (dB) is shown at the bottom right of each image.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_021_fig_figure_18.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_18.png",
+          "width": 1122,
+          "height": 989,
+          "size_bytes": 1260748,
+          "label": "Figure 18",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.296829,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 135,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 18,
+            "score": 8,
+            "matched_terms": [
+              "fig. 18",
+              "reconstruction",
+              "under",
+              "limited-angle"
+            ],
+            "snippet": "tly lower PSNR but higher SSIM than the NeRF-based method NAF. Visualiza- tion results in Fig. 18 indicate that our method recovers more details in scanned areas but exhibits blurred arti",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_img_01.jpeg",
+                "width": 3112,
+                "height": 1738,
+                "size_bytes": 1258739
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_12.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+                "width": 1121,
+                "height": 718,
+                "size_bytes": 1028257,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.215606,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+                "width": 1137,
+                "height": 317,
+                "size_bytes": 76834,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096439,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.027806,
+                  "paragraph_text_chars": 385,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 21,
+            "score": 8,
+            "matched_terms": [
+              "figure 18",
+              "visualization",
+              "reconstruction",
+              "under",
+              "limited-angle",
+              "scenarios"
+            ],
+            "snippet": "(dB) is shown at the bottom right of each image. Ground Truth Ours NAF ASD-POCS SART FDK Figure 18: Visualization of reconstruction results under limited-angle scenarios. PNSR (dB) is show",
+            "images": [
+              {
+                "filename": "page_021_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_img_01.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 49459
+              },
+              {
+                "filename": "page_021_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_img_02.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 48978
+              },
+              {
+                "filename": "page_021_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_img_03.jpeg",
+                "width": 391,
+                "height": 585,
+                "size_bytes": 43169
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_figure_16.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_16.png",
+                "width": 1122,
+                "height": 748,
+                "size_bytes": 451871,
+                "label": "Figure 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.224458,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 50,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_021_fig_figure_17.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_17.png",
+                "width": 1122,
+                "height": 1324,
+                "size_bytes": 1681286,
+                "label": "Figure 17",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.397387,
+                  "visual_rect_count": 11,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_021_fig_figure_18.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_021_fig_figure_18.png",
+                "width": 1122,
+                "height": 989,
+                "size_bytes": 1260748,
+                "label": "Figure 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.296829,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 135,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 3,
+            "matched_terms": [
+              "reconstruction",
+              "under",
+              "limited-angle"
+            ],
+            "snippet": "SAX-NeRF NAF IntraTomo 75-view 50-view 25-view GT Ours SAX-NeRF NAF IntraTomo Figure 11: Reconstruction results of NeRF-based methods and our method on the synthetic dataset. with large homogen",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_01.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9243510
+              },
+              {
+                "filename": "page_017_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_02.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 9439875
+              },
+              {
+                "filename": "page_017_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_img_03.jpeg",
+                "width": 6256,
+                "height": 11730,
+                "size_bytes": 8135866
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_11.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_017_fig_figure_11.png",
+                "width": 1122,
+                "height": 1399,
+                "size_bytes": 1568847,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.419824,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 96,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Results of X-3DGS and our method with PSNR (dB) indicated on each image. We show slices of X-3DGS queried from three viewing angles. Although X-3DGS can produce plausible X-ray projections, its reconstructed volume lacks view consistency and exhibits poor quality.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_figure_7.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7.png",
+          "width": 1123,
+          "height": 1677,
+          "size_bytes": 526926,
+          "label": "Figure 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.503915,
+            "visual_rect_count": 23,
+            "visual_body_ratio": 0.289355,
+            "paragraph_text_chars": 2942,
+            "table_body_rows": 0,
+            "caption_text_chars": 274,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "method",
+              "psnr",
+              "indicated",
+              "each",
+              "image"
+            ],
+            "snippet": "n bias benefits both 2D rendering (+3.15 dB PSNR) and 3D reconstruction (+17.77 dB PSNR). Fig. 7 visualize rendering and reconstruction results. While X-3DGS renders reasonable 2D projec",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_01.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 77294
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_02.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 76528
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_03.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 113952
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+                "width": 1033,
+                "height": 385,
+                "size_bytes": 56905,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106441,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 0.08996,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 80,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7.png",
+                "width": 1123,
+                "height": 1677,
+                "size_bytes": 526926,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.503915,
+                  "visual_rect_count": 23,
+                  "visual_body_ratio": 0.289355,
+                  "paragraph_text_chars": 2942,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "method",
+              "psnr",
+              "each",
+              "image"
+            ],
+            "snippet": ".45 dB, 792 min NAF 33.99 dB, 32 min IntraTomo 33.19 dB, 138 min Figure 1: We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "method",
+              "each",
+              "image"
+            ],
+            "snippet": "methods like filtered back projection (FBP) and its 3D variant FDK [13] produce results instantl",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_01.jpeg",
+                "width": 474,
+                "height": 1419,
+                "size_bytes": 37317
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_02.jpeg",
+                "width": 1100,
+                "height": 1100,
+                "size_bytes": 120709
+              },
+              {
+                "filename": "page_003_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_img_03.png",
+                "width": 1578,
+                "height": 167,
+                "size_bytes": 2727
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_003_fig_figure_2.png",
+                "width": 532,
+                "height": 471,
+                "size_bytes": 67310,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.067118,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 95,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Results of NeRF-based methods and our R2-Gaussian at different iterations.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_figure_8.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_figure_8.png",
+          "width": 550,
+          "height": 759,
+          "size_bytes": 535060,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.111751,
+            "visual_rect_count": 31,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 84,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "nerf-based",
+              "methods",
+              "gaussian",
+              "different",
+              "iterations"
+            ],
+            "snippet": "increases with TV volume size while the performance peaks at D = 32. Convergence analysis Fig. 8 compares the results of NeRF-based methods and our R2-Gaussian method at different iterat",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_01.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 77294
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_02.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 76528
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_03.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 113952
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+                "width": 1033,
+                "height": 385,
+                "size_bytes": 56905,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106441,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 0.08996,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 80,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7.png",
+                "width": 1123,
+                "height": 1677,
+                "size_bytes": 526926,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.503915,
+                  "visual_rect_count": 23,
+                  "visual_body_ratio": 0.289355,
+                  "paragraph_text_chars": 2942,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "nerf-based",
+              "methods",
+              "gaussian",
+              "different",
+              "iterations"
+            ],
+            "snippet": "min SAX-NeRF 36.90 dB, 793 min NAF 37.12 dB, 32 min IntraTomo 35.04 dB, 126 min ⋮ ⋮ ⋮ ⋮ ⋮ Figure 8: Results of NeRF-based methods and our R2-Gaussian at different iterations. further accel",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_01.png",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 28809
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_02.jpeg",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 61369
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_03.jpeg",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 55883
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_table_3.png",
+                "width": 1134,
+                "height": 765,
+                "size_bytes": 686300,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.232044,
+                  "visual_rect_count": 31,
+                  "visual_body_ratio": 0.796362,
+                  "paragraph_text_chars": 577,
+                  "table_body_rows": 22,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_010_fig_figure_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_figure_8.png",
+                "width": 550,
+                "height": 759,
+                "size_bytes": 535060,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111751,
+                  "visual_rect_count": 31,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 84,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "nerf-based",
+              "methods",
+              "gaussian",
+              "different"
+            ],
+            "snippet": "B, 32 min IntraTomo 33.19 dB, 138 min Figure 1: We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms of visual quality, PSNR (dB), a",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Quantitative results on sparse-view tomography. We colorize the best , second-best , and",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_007_fig_table_1.png",
+          "width": 1134,
+          "height": 698,
+          "size_bytes": 188711,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.211877,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 0.012656,
+            "paragraph_text_chars": 1129,
+            "table_body_rows": 18,
+            "caption_text_chars": 97,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "quantitative",
+              "sparse-view",
+              "tomography",
+              "colorize",
+              "best"
+            ],
+            "snippet": "Table 1: Quantitative results on sparse-view tomography. We colorize the best , second-best , and",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_007_fig_table_1.png",
+                "width": 1134,
+                "height": 698,
+                "size_bytes": 188711,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.211877,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.012656,
+                  "paragraph_text_chars": 1129,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "sparse-view",
+              "tomography",
+              "colorize",
+              "best"
+            ],
+            "snippet": "hree SOTA NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]). Tab. 1 reports the quantitative results on sparse-view tomography. Note that we do not report the running time for FDK as",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_img_01.jpeg",
+                "width": 6224,
+                "height": 3475,
+                "size_bytes": 3163489
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_img_02.jpeg",
+                "width": 6224,
+                "height": 3475,
+                "size_bytes": 3181267
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_fig_figure_6.png",
+                "width": 1122,
+                "height": 1047,
+                "size_bytes": 1272614,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.314181,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 271,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 18,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "tomography",
+              "colorize",
+              "best"
+            ],
+            "snippet": "synthesis. Readers may refer to [7, 14] for using 3DGS for X-ray view synthesis. Table 4: Quantitative evaluation on limited-angle tomography. We colorize the best , second-best , and third-be",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_img_01.jpeg",
+                "width": 3112,
+                "height": 1738,
+                "size_bytes": 1258739
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_12.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+                "width": 1121,
+                "height": 718,
+                "size_bytes": 1028257,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.215606,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+                "width": 1137,
+                "height": 317,
+                "size_bytes": 76834,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096439,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.027806,
+                  "paragraph_text_chars": 385,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Quantitative results of X-3DGS and our method on the synthetic dataset.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_2.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+          "width": 1033,
+          "height": 385,
+          "size_bytes": 56905,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.106441,
+            "visual_rect_count": 12,
+            "visual_body_ratio": 0.08996,
+            "paragraph_text_chars": 179,
+            "table_body_rows": 7,
+            "caption_text_chars": 80,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "quantitative",
+              "method",
+              "synthetic",
+              "dataset"
+            ],
+            "snippet": "Table 2: Quantitative results of X-3DGS and our method on the synthetic dataset. 75-view 50-view",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_01.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 77294
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_02.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 76528
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_03.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 113952
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+                "width": 1033,
+                "height": 385,
+                "size_bytes": 56905,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106441,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 0.08996,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 80,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7.png",
+                "width": 1123,
+                "height": 1677,
+                "size_bytes": 526926,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.503915,
+                  "visual_rect_count": 23,
+                  "visual_body_ratio": 0.289355,
+                  "paragraph_text_chars": 2942,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "method",
+              "synthetic",
+              "dataset"
+            ],
+            "snippet": ".45 dB, 792 min NAF 33.99 dB, 32 min IntraTomo 33.19 dB, 138 min Figure 1: We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_01.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 246264
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_02.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 314316
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_img_03.jpeg",
+                "width": 1564,
+                "height": 2338,
+                "size_bytes": 315975
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_002_fig_figure_1.png",
+                "width": 1125,
+                "height": 467,
+                "size_bytes": 475697,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.140736,
+                  "visual_rect_count": 7,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 281,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "method",
+              "synthetic",
+              "dataset"
+            ],
+            "snippet": "Table 1: Quantitative results on sparse-view tomography. We colorize the best , second-best , and third-best nu",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_007_fig_table_1.png",
+                "width": 1134,
+                "height": 698,
+                "size_bytes": 188711,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.211877,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.012656,
+                  "paragraph_text_chars": 1129,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Ablation results with our choices in bold.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_table_3.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_table_3.png",
+          "width": 1134,
+          "height": 765,
+          "size_bytes": 686300,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "multiple_caption_regions_suspected"
+            ],
+            "page_coverage_ratio": 0.232044,
+            "visual_rect_count": 31,
+            "visual_body_ratio": 0.796362,
+            "paragraph_text_chars": 577,
+            "table_body_rows": 22,
+            "caption_text_chars": 51,
+            "other_caption_count": 1,
+            "other_caption_labels": [
+              "Figure 8"
+            ]
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "ablation",
+              "choices",
+              "bold"
+            ],
+            "snippet": "Table 3: Ablation results with our choices in bold. Synthetic PSNR↑ SSIM↑ Time↓ Gau. Baseline (B)",
+            "images": [
+              {
+                "filename": "page_010_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_01.png",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 28809
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_02.jpeg",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 61369
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_img_03.jpeg",
+                "width": 800,
+                "height": 800,
+                "size_bytes": 55883
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_table_3.png",
+                "width": 1134,
+                "height": 765,
+                "size_bytes": 686300,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "multiple_caption_regions_suspected"
+                  ],
+                  "page_coverage_ratio": 0.232044,
+                  "visual_rect_count": 31,
+                  "visual_body_ratio": 0.796362,
+                  "paragraph_text_chars": 577,
+                  "table_body_rows": 22,
+                  "caption_text_chars": 51,
+                  "other_caption_count": 1,
+                  "other_caption_labels": [
+                    "Figure 8"
+                  ]
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_010_fig_figure_8.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_010_fig_figure_8.png",
+                "width": 550,
+                "height": 759,
+                "size_bytes": 535060,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111751,
+                  "visual_rect_count": 31,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 84,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 1,
+            "matched_terms": [
+              "ablation"
+            ],
+            "snippet": "SNR↑ 23.40 38.86 21.24 37.98 14.07 35.17 3D SSIM↑ 0.660 0.959 0.562 0.952 0.408 0.923 5.3 Ablation study Integration bias To demonstrate the impact of integration bias discussed in Sec. 4.",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_01.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 77294
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_02.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 76528
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_img_03.jpeg",
+                "width": 750,
+                "height": 1137,
+                "size_bytes": 113952
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_table_2.png",
+                "width": 1033,
+                "height": 385,
+                "size_bytes": 56905,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106441,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 0.08996,
+                  "paragraph_text_chars": 179,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 80,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_009_fig_figure_7.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_009_fig_figure_7.png",
+                "width": 1123,
+                "height": 1677,
+                "size_bytes": 526926,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.503915,
+                  "visual_rect_count": 23,
+                  "visual_body_ratio": 0.289355,
+                  "paragraph_text_chars": 2942,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 274,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Quantitative evaluation on limited-angle tomography. We colorize the best , second-best , and third-best numbers.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_018_fig_table_4.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+          "width": 1137,
+          "height": 317,
+          "size_bytes": 76834,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.096439,
+            "visual_rect_count": 3,
+            "visual_body_ratio": 0.027806,
+            "paragraph_text_chars": 385,
+            "table_body_rows": 7,
+            "caption_text_chars": 122,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 18,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "quantitative",
+              "evaluation",
+              "limited-angle",
+              "tomography",
+              "colorize"
+            ],
+            "snippet": "ew X-ray synthesis. Readers may refer to [7, 14] for using 3DGS for X-ray view synthesis. Table 4: Quantitative evaluation on limited-angle tomography. We colorize the best , second-best",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_img_01.jpeg",
+                "width": 3112,
+                "height": 1738,
+                "size_bytes": 1258739
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_12.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_figure_12.png",
+                "width": 1121,
+                "height": 718,
+                "size_bytes": 1028257,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.215606,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 60,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_table_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_018_fig_table_4.png",
+                "width": 1137,
+                "height": 317,
+                "size_bytes": 76834,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096439,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.027806,
+                  "paragraph_text_chars": 385,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 122,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "tomography",
+              "colorize"
+            ],
+            "snippet": "Table 1: Quantitative results on sparse-view tomography. We colorize the best , second-best , and third-best nu",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_007_fig_table_1.png",
+                "width": 1134,
+                "height": 698,
+                "size_bytes": 188711,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.211877,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.012656,
+                  "paragraph_text_chars": 1129,
+                  "table_body_rows": 18,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "quantitative",
+              "evaluation",
+              "tomography",
+              "colorize"
+            ],
+            "snippet": "hree SOTA NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]). Tab. 1 reports the quantitative results on sparse-view tomography. Note that we do not report the running time for FDK as",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_img_01.jpeg",
+                "width": 6224,
+                "height": 3475,
+                "size_bytes": 3163489
+              },
+              {
+                "filename": "page_008_img_02.jpeg",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_img_02.jpeg",
+                "width": 6224,
+                "height": 3475,
+                "size_bytes": 3181267
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_6.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\R2_Gaussian_Rectifying_Radiative_Gaussian_Splatting_for_Tomographic_Reconstruction\\images\\page_008_fig_figure_6.png",
+                "width": 1122,
+                "height": 1047,
+                "size_bytes": 1272614,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.314181,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 271,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

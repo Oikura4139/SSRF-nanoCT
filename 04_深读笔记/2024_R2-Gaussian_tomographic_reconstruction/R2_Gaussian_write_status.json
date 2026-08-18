@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "script_validation": "write_obsidian_note.py",
+  "paper_id": "doi:10.52202/079017-1427",
+  "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+  "requested_layout": "flat_paper_directory",
+  "canonical_directory": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction",
+  "canonical_files": [
+    "01_全文中文翻译_R2-Gaussian.md",
+    "02_深读总结_R2-Gaussian.md"
+  ],
+  "images_dir": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\images",
+  "validation": {
+    "lint_gate_passed": true,
+    "figure_decisions_verified": true,
+    "inserted_figure_assets_resolve": true,
+    "reference_hygiene_passed": true
+  },
+  "default_layout_reconciliation": {
+    "default_writer_created_nested_copy": true,
+    "nested_copy_was_not_canonical": true,
+    "nested_copy_recycled": true,
+    "recoverable_from_recycle_bin": true,
+    "empty_generated_parent_directories_removed": true,
+    "canonical_directory_untouched": true
+  }
+}

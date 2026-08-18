@@ -1,0 +1,13 @@
+{
+  "status": "ok",
+  "script": "materialize_figure_asset.py",
+  "title": "GaSpCT: Gaussian Splatting for Novel CT Projection View Synthesis",
+  "note_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\02_深读总结_GaSpCT.md",
+  "source_image": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+  "dest_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\images\\page_007_fig_table_2.png",
+  "absolute_markdown_embed": "![page_007_fig_table_2](C:/Users/Howmu/Documents/我的文档/苏州国家实验室/SSRF-nanoCT/04_深读笔记/2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis/images/page_007_fig_table_2.png)",
+  "relative_markdown_embed": "![page_007_fig_table_2](images/page_007_fig_table_2.png)",
+  "label": "page_007_fig_table_2",
+  "output_mode": "explicit_note_path",
+  "subdir": "机器学习"
+}

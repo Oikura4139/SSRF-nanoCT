@@ -1,0 +1,1356 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.52202/079017-1427",
+  "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_full_text.md",
+  "pdf": {
+    "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+    "total_pages": 28,
+    "text_pages_extracted": 28,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 28,
+    "text_max_pages": null,
+    "text_pages_extracted": 28,
+    "text_pages_scanned": 28,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 24,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 381,
+      "text_hash_sha256": "9ff1152c460548603e66fbeca1504b624666654da9eec3f07ebfbf57859127a7"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1209,
+      "text_hash_sha256": "98e24484352024cf599c0b86e822b3cbda11417bb8e8774907c169263c83c9bd"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 4962,
+      "text_hash_sha256": "f7bf76007fc4f21225c73d8e062fbe1c5930ccf5617d8f50cfa42a55473211c9"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related work",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 3364,
+      "text_hash_sha256": "2a79012bf92c77947c002fbdd07b3e8e5f067884126b1482a94368819489d28b"
+    },
+    {
+      "section_id": "sec:preliminary",
+      "kind": "introduction",
+      "title": "Preliminary",
+      "page_start": 3,
+      "page_end": 4,
+      "char_count": 3888,
+      "text_hash_sha256": "c7cb7a2ebb469456a0b2e3231365570d50508f2154372692f79e406f891e4d09"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 4,
+      "page_end": 7,
+      "char_count": 9445,
+      "text_hash_sha256": "b4d72868f3a89711f8fc194a490e33837b4fbd4241d9947a029c798e12f8f3c8"
+    },
+    {
+      "section_id": "sec:methods",
+      "kind": "method",
+      "title": "Methods",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 2220,
+      "text_hash_sha256": "6e93236838dccbf4c3b18ae318b8db144925e9e6cbae6d582d55a511ef8443be"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 7,
+      "page_end": 7,
+      "char_count": 25,
+      "text_hash_sha256": "4c177d2aef57f7e1a0f1af8651d0ff06f72af51b2a13bbe7bda15ab2b11da8f0"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 7,
+      "page_end": 10,
+      "char_count": 8158,
+      "text_hash_sha256": "92932a895d88491feef0ecbc0c732f3afd9ef37b7ceb92ab6327d2a60e0ddb22"
+    },
+    {
+      "section_id": "sec:discussion",
+      "kind": "conclusion",
+      "title": "Discussion",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 571,
+      "text_hash_sha256": "cf7fca0df738734483877936f16f3141c6a4b65e0433df747671aaa947db7baa"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "Conclusion",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 752,
+      "text_hash_sha256": "670a61270b45c6d7d4e3018279b1186f3f15f685735925dd67d60fa7ce4a2f5b"
+    },
+    {
+      "section_id": "sec:acknowledgments",
+      "kind": "acknowledgments",
+      "title": "Acknowledgments",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 112,
+      "text_hash_sha256": "34e7f3df2b9a8fbf05ceb3e88c8d7b10f8bdad8d96530f190d46051b101362a7"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 10,
+      "page_end": 18,
+      "char_count": 23635,
+      "text_hash_sha256": "4e121b79e3da602aa0884bfb30d3a53d016a0961b16e2d329820f900634e0c27"
+    },
+    {
+      "section_id": "sec:methods-2",
+      "kind": "method",
+      "title": "Methods",
+      "page_start": 18,
+      "page_end": 22,
+      "char_count": 3493,
+      "text_hash_sha256": "7ab7f47a70884afb7d24449a9f900e8bc61f74fece01819f22f521e3f8c8bf05"
+    },
+    {
+      "section_id": "sec:limitations",
+      "kind": "conclusion",
+      "title": "2. Limitations",
+      "page_start": 22,
+      "page_end": 24,
+      "char_count": 6582,
+      "text_hash_sha256": "48a6669ba1802213ce95b349b2845a335a59cf83d1521eec3559ac2a637d3f78"
+    },
+    {
+      "section_id": "sec:supplementary-material-to-reproduce-experimental-results",
+      "kind": "appendix",
+      "title": "supplementary material to reproduce experimental results.",
+      "page_start": 24,
+      "page_end": 24,
+      "char_count": 1616,
+      "text_hash_sha256": "51703b3bb47a1f99e2772696b34eb0de14cb61746e08b7588c70e2853da65522"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "results?",
+      "page_start": 24,
+      "page_end": 28,
+      "char_count": 11545,
+      "text_hash_sha256": "aa5cfb569a7ab5ee7c4555bd32b2433b63322515615a4e1393cd2f8c58289e39"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3180,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4153,
+      "section_ids": [
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 5175,
+      "section_ids": [
+        "sec:related-work",
+        "sec:preliminary"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3348,
+      "section_ids": [
+        "sec:preliminary",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3053,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4512,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3664,
+      "section_ids": [
+        "sec:method",
+        "sec:methods",
+        "sec:experiments",
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2278,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3489,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2853,
+      "section_ids": [
+        "sec:dataset",
+        "sec:discussion",
+        "sec:conclusion",
+        "sec:acknowledgments",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3729,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 4038,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 4157,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 2618,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3430,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 2568,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 1176,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 2278,
+      "section_ids": [
+        "sec:references",
+        "sec:methods-2"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 1009,
+      "section_ids": [
+        "sec:methods-2"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 404,
+      "section_ids": [
+        "sec:methods-2"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 642,
+      "section_ids": [
+        "sec:methods-2"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 3402,
+      "section_ids": [
+        "sec:methods-2",
+        "sec:limitations"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 3573,
+      "section_ids": [
+        "sec:limitations"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 3465,
+      "section_ids": [
+        "sec:limitations",
+        "sec:supplementary-material-to-reproduce-experimental-results",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 3209,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 3438,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 3159,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 726,
+      "section_ids": [
+        "sec:results"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "We compare our method to state-of-the-art NeRF-based methods (IntraTomo [66], NAF [67], SAX-NeRF [6]) in terms of visual quality, PSNR (dB), and training time (minute). Our method achieves the highest reconstruction quality and is significantly faster than other methods.",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "A detection plane captures the atten- uation of X-rays emitted from different angles.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "We represent the scanned object as a set of radiative Gaussians. We optimize them using real X-ray projections and finally retrieve the density volume with voxelization.",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preliminary"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Training pipeline of R2-Gaussian. (a) Overall training pipeline. (b) X-ray rasterization for projection rendering. (c) Density voxelization for volume retrieval. (d) Modified adaptive control.",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Density incon- sistency in 3DGS.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Colorized slice examples of different methods with PSNR (dB) shown at the bottom right of each image. The first three rows are from the synthetic dataset and the last row is from the real-world dataset. Our method recovers more details and suppresses artifacts.",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Results of X-3DGS and our method with PSNR (dB) indicated on each image. We show slices of X-3DGS queried from three viewing angles. Although X-3DGS can produce plausible X-ray projections, its reconstructed volume lacks view consistency and exhibits poor quality.",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Results of NeRF-based methods and our R2-Gaussian at different iterations.",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Configuration of a cone-beam CT scanner.",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Datasets used for experiments. We show half volume and projection examples for each case.",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Reconstruction results of NeRF-based methods and our method on the synthetic dataset.",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Reconstruction results on the real-world dataset.",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Qualitative comparison of X-3DGS and our method.",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:methods-2"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "Quantitative comparison of different components and parameters.",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:methods-2"
+      },
+      {
+        "id": "Figure 15",
+        "caption": "PSNR-iteration and SSIM-iteration plots of case engine, 50-view.",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:methods-2"
+      },
+      {
+        "id": "Figure 16",
+        "caption": "Training time on the synthetic dataset.",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:methods-2"
+      },
+      {
+        "id": "Figure 17",
+        "caption": "3DGS-based methods tend to introduce needle-like artifacts when there are insufficient amounts of images. PNSR (dB) is shown at the bottom right of each image.",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:methods-2"
+      },
+      {
+        "id": "Figure 18",
+        "caption": "Visualization of reconstruction results under limited-angle scenarios. PNSR (dB) is shown at the bottom right of each image.",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:methods-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Quantitative results on sparse-view tomography. We colorize the best , second-best , and",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Quantitative results of X-3DGS and our method on the synthetic dataset.",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Ablation results with our choices in bold.",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Quantitative evaluation on limited-angle tomography. We colorize the best , second-best , and third-best numbers.",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:references"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "they are very time-consuming (> 30 minutes) because a huge amount of points have to be sampled",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "Ours (iter=30k)",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "Ours (iter=10k)",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "(< 1 second) by solving the Radon transform and its inverse [46]. However, they introduce serious",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "text": "They successfully suppress artifacts but take longer time (< 10 minutes) and lose structure details.",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "text": "NeRF-based methods excel in per-case reconstruction, they are time-consuming (>30 minutes) due",
+      "section_id": "sec:related-work",
+      "page_start": 2,
+      "page_end": 3
+    },
+    {
+      "text": "WZO4Q+czx8bTo7e</latexit>tf",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "<latexit sha1_base64=\"t4wTtMGfDhK6mNM/tE0ot67e9Cw=\">AB8Xic",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "GedEpFUs1u1ApwxZOITOAMHLqAC1CFOhAQ8AjP8GIp68l6td5mrRlrPnMIf2C9/wB9pU2</l",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "atexit>I",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "A projection I ∈RH×W measures ray attenuation",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "ray r(t) = o + td ∈R3 with initial intensity I0 and",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "by: I′(r) = I0 exp(−",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "physics) at position x ∈R3. Tomography typically",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "I(r) = log I0 −log I′(r) =",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "mate the 3D distribution of σ(x), output as a discrete volume, with X-ray projections {Ii}i=1,··· ,N",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "3D Gaussian splatting [23] models the scene with a set of 3D Gaussian kernels G3 = {G3",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "i }i=1,··· ,M,",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "i (x) = ⇢i · e−1",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "2 (x−pi)>⌃−1",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "σ(x) =",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "Irgb ∈RH×W ×3 from these Gaussians, formulated as",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "Irgb = R(G3) = C ◦P ◦T (G3),",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "image plane: G2 = P(G3). The projected 2D Gaussian retains the same opacity and color as its",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "then rendered by compositing these 2D Gaussians using alpha-blending [45]: Irgb = C(G2). The",
+      "section_id": "sec:preliminary",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "As shown in Fig. 3, we represent the target object with a group of learnable 3D kernels G3 =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i }i=1,··· ,M that we term as radiative Gaussians. Each kernel G3",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i (x|ρi, pi, Σi) = ρi · exp",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "where ρi, pi ∈R3 and Σi ∈R3×3 are learnable parameters representing central density, position",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "covariance matrix Σi into the rotation matrix Ri and scale matrix Si: Σi = RiSiS⊤",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "overall density at position x ∈R3 is then computed by summing the density contribution of kernels:",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "σ(x) =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "YSNqKLM2GwKNgRv9eV10qUvWq52rgu1SpZHk4g3O4BA9uoAb3UIcmMEB4hld4cx6dF+fd+Vi25pxs5hT+wPn8AW0/jKg=</latexit>)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "⇢i(2⇡| ˜⌃i|/| ˆ⌃i|)1/2 = ˆ⇢i",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Ir(r) =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i (r(t)|ρi, pi, Σi)dt =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Ir(r) ≈",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "where ˜x = [x0, x1, x2]⊤is a point in ray space, ˜pi ∈R3 is the new Gaussian position obtained",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "through projective mapping ϕ, and ˜Σi ∈R3×3 is the new Gaussian covariance controlled by local",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Ir(r) ≈",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "where ˆx ∈R2, ˆp ∈R2, ˆΣ ∈R2×2 are obtained by dropping the third rows and columns of their",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Nahxta56CvyzOfwPytL8H</latexit>⇢= ˆ⇢/µ1 or ⇢= ˆ⇢/µ2 ?",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "7GuVhgXmlQfH4ARUgAlqoAGuQBO0Ab34BG8gFftQXvS3rT3eWtOW8wcgT+lfwANkmfMw=</latexit>µ2",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "factor µi = (2π| ˜Σi|/| ˆΣi|)1/2: ˆρi = µiρi, while 3DGS does not. This",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "central density ρ in 3D space with ρi = ˆρi/µj, we find different views",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "We develop a voxelizer V to efficiently query a density volume V ∈RX×Y ×Z from radiative",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Gaussians: V = V(G3). Inspired by voxelizers used in RGB tasks [57], our voxelizer first partitions",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "process (> 100 FPS) but also allows us to regularize radiative Gaussians with 3D priors.",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 7
+    },
+    {
+      "text": "Ours (iter=10k)",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "Ours (iter=30k)",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "Ours (iter=10k)",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "Ours (iter=30k)",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "density volume Vtv ∈RD×D×D (same spacing as the target output) and minimize its total variation.",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "Ltotal = L1(Ir, Im) + λssimLssim(Ir, Im) + λtvLtv(Vtv),",
+      "section_id": "sec:methods",
+      "page_start": 7,
+      "page_end": 7
+    },
+    {
+      "text": "0.1 of their initial values. Loss weights are λssim = 0.25 and λtv = 0.05. We initialize M = 50k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "Gaussians with a density threshold τ = 0.05 and scaling term k = 0.15. The TV volume size is",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D = 32. Adaptive control runs from 500 to 15k iterations with a gradient threshold of 0.00005.",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "of λtv = 0.05 improves reconstruction, but larger values can lead to degradation. The training time",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "increases with TV volume size while the performance peaks at D = 32.",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "M=5k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "M=10k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "M=50k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "M=100k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "M=200k",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "λtv=0",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "λtv=0.01",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "λtv=0.05",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "λtv=0.1",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "λtv=0.15",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D=8",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D=16",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D=32",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D=48",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "D=64",
+      "section_id": "sec:dataset",
+      "page_start": 7,
+      "page_end": 10
+    },
+    {
+      "text": "Representations, 2024. URL https://openreview.net/forum?id=UyNXMqnN3c.",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "FOVx = 2 · arctan( Dx",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "), FOYy = 2 · arctan( Dy",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "T =",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": ", W =",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": ", t =",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "˜pi = ϕ(p), ˜Σi = JiWΣiW⊤J⊤",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "vGWs4U4Besl2/i3pFw</latexit>y",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "𝑀= 200𝑘",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝑀= 100𝑘",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝑴= 𝟓𝟎𝒌",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝑀= 10𝑘",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝑀= 5𝑘",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝜆!\" = 0.15",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝜆!\" = 0.1",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝝀𝒕𝒗= 𝟎. 𝟎𝟓",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝜆!\" = 0.01",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝜆!\" = 0",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝐷= 64",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝐷= 48",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝑫= 𝟑𝟐",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝐷= 16",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    },
+    {
+      "text": "𝐷= 8",
+      "section_id": "sec:methods-2",
+      "page_start": 18,
+      "page_end": 22
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 24,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "591d281c7826ba6f1071dee302ede893c7c9936e76d9882c99efe0da439f386f",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "paper_id": "doi:10.52202/079017-1427",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+      "translated_title": "",
+      "authors": [
+        "Ruyi Zha",
+        "Tao Jun Lin",
+        "Yuanhao Cai",
+        "Jiwen Cao",
+        "Yanhao Zhang",
+        "Hongdong Li"
+      ],
+      "year": "2024",
+      "venue": "Advances in Neural Information Processing Systems 37",
+      "doi": "10.52202/079017-1427",
+      "arxiv_id": "2405.20693",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2405.20693v2",
+      "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+      "doi": "10.52202/079017-1427",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.52202/079017-1427",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2405.20693",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2405.20693v2",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "doi:10.52202/079017-1427"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+          "work_value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.20693v2",
+    "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+    "doi": "10.52202/079017-1427",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

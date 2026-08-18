@@ -1,0 +1,237 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.3390/app13095456",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Layout of the BL08U1A beamline at the SSRF. The M1 elliptical cylindrical mirror colli- mates the X-ray and suppresses high-order harmonics. The M2 elliptical cylindrical mirror focuses the X-ray in both directions through Slit 2. The tunable X-ray energy is 200–2000 eV. A spectroscopic end station and two STXM end stations are located downstream of the beamline.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_figure_1.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_003_fig_figure_1.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Layout of hardware connection by the local area network (LAN). The monochromatized X-ray was horizontally focused to the exit slit (Slit 2) by an elliptical cylindrical mirror. The four blade signals of Slit 2 were read out by an I–V convertor. The photon flux after Slit 2 was detected by a gold mesh and PD detector, and the signals were read out by a picoammeter. The signals of M2, Slit 2, gold mesh and PD are all connected into LAN and can be read out for control.",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task_overview",
+      "source_image_filename": "page_004_fig_figure_2.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_004_fig_figure_2.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "The measurement results of the Slit 2 blade-edge signals with M2 position changes at 920 eV. SL, SR, SU and SD represent the left, right, up and down blade-edge signals, respectively. The horizontal axis represents the M2 position, with a minimum moving step size of 200 nm. The left coordinate system is for SL and SR, while the right coordinate system is for SU and SD. The horizontal blades are illuminated over a larger range than the vertical blades, resulting in the horizontal blade signals that is nearly 10 times stronger than the vertical blade signals.",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_figure_3.png",
+      "relative_markdown_embed": "![Figure 3](images/page_005_fig_figure_3.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_005_fig_figure_3.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "The measurement results of the left and right blade voltage signals and gold mesh current signal I0, along with M2 position changes at 920 eV. When the signals of the left and right blade are equal, the corresponding gold mesh signal is almost at the maximum value.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_006_fig_figure_4.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The logic of each tunning procedure. When the server gets a tunning request with thresh- old and offset values, it will try to read out SL, SR, SU and SD and calculate Sv. If Sv is bigger than the threshold, the M2 motor will move one step (200 nm); otherwise, it will jump directly to the end of this tunning and waiting for the next tunning call.",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_007_fig_figure_5.png",
+      "relative_markdown_embed": "![Figure 5](images/page_007_fig_figure_5.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_007_fig_figure_5.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Calibrate slit signals using PD at 540 eV. The left dotted vertical line marks the first M2 position of SL = SR. The right dashed vertical line marks the second M2 position of the maximum PD value. For the second position, SRL is calculated to be −2.677%. However, the light flux of the first position is 99.12% of the second position. Considering that the M2 stepping motor with a 200 nm minimum step size cannot distinguish between the two positions, the difference in the two light fluxes can be ignored; thus, the offset value is set to 0 in practical applications.",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_figure_6.png",
+      "relative_markdown_embed": "![Figure 6](images/page_008_fig_figure_6.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_008_fig_figure_6.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "The measurement result of the left and right blade-edge signals, along with the M2 position changes at 920 eV. The minimum moving precision of the M2 motor is 200 nm. The experimental data were fitted with a straight line, and the linear area slope shows the position changes of SRL changes as M2 moves per 200 nm. It is found that the threshold value is less than 0.05.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_009_fig_figure_7.png",
+      "relative_markdown_embed": "![Figure 7](images/page_009_fig_figure_7.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_009_fig_figure_7.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Operation interface of the online automatic feedback system. Beamline Monitor panel displays energy, M2 position, SL, SR, SU, SD, SV and I0; Config Panel is used to input M2 step, offset, V0 configuration with a running button and data export components; the Chart Area on the right side displays all signals with a maximum time span of 12 h.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_010_fig_figure_8.png",
+      "relative_markdown_embed": "![Figure 8](images/page_010_fig_figure_8.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_fig_figure_8.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "XAS experiments using TEY measurement in the absence and presence of the feedback system. The normalized absorption coefficient has a higher signal quality when the feedback system is on. The top right figure shows that the X-ray flux with the feedback system on drops much slower and smoother.",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_010_fig_figure_9.png",
+      "relative_markdown_embed": "![Figure 9](images/page_010_fig_figure_9.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_010_fig_figure_9.png",
+      "materialization_status": "pending"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "The minimum threshold value for different incident X-ray energy.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:materials-and-methods",
+      "decision": "insert",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_009_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_009_fig_table_1.png)",
+      "source_image_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2023_BL08U1A_X-ray_flux_automatic_feedback\\work\\pdf_assets\\images\\page_009_fig_table_1.png",
+      "materialization_status": "pending"
+    }
+  ],
+  "summary": {
+    "total_items": 10,
+    "by_decision": {
+      "insert": 10,
+      "low_priority": 0,
+      "placeholder": 0,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}

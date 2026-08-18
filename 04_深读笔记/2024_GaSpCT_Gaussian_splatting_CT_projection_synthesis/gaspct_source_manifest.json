@@ -1,0 +1,389 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2404.03126",
+  "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_raw_sections.jsonl",
+  "full_text_md_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_full_text.md",
+  "pdf": {
+    "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+    "total_pages": 10,
+    "text_pages_extracted": 10,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 10,
+    "text_max_pages": null,
+    "text_pages_extracted": 10,
+    "text_pages_scanned": 10,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 9
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1914,
+      "text_hash_sha256": "ab3969b5db5c04c28f13623ede2ae1165e5997bf47818e31281c40a5e8e79cd2"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 1,
+      "page_end": 3,
+      "char_count": 5103,
+      "text_hash_sha256": "13ec47e9ef0e75f0dfd4158a3f11172af00c7ec0d199978a780ddca438c7c794"
+    },
+    {
+      "section_id": "sec:methodology",
+      "kind": "method",
+      "title": "Methodology",
+      "page_start": 3,
+      "page_end": 4,
+      "char_count": 2693,
+      "text_hash_sha256": "ab8aa137b0e30428211ad9e8f7319d1150698681c00b5e82b4dba5a858e90283"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 4,
+      "page_end": 4,
+      "char_count": 3,
+      "text_hash_sha256": "35efc6ded4e13f29a8d86e4f33294be0f59fcaaf3a56b538f9e34e60e3ae4f44"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 4,
+      "page_end": 6,
+      "char_count": 2946,
+      "text_hash_sha256": "5098e64ead424a0bd33194232e4721f07d5dfd3a7bf3ff7b15d6ff97ce210ee0"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 6,
+      "page_end": 8,
+      "char_count": 5754,
+      "text_hash_sha256": "b676abcf17005ad6cf7b286cf835986406ed2406104f0c5d7f2547dbd4fe3967"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 301,
+      "text_hash_sha256": "16609106fa3729e582305e8b02d5cff408b475c2f91de6bcbf4175c1af20255f"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 9,
+      "page_end": 10,
+      "char_count": 5180,
+      "text_hash_sha256": "d28bf97b4fabbdb9ae0c06b697bc240c9b32a767d7ff454b158176faa92ed65d"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2915,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3455,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1983,
+      "section_ids": [
+        "sec:introduction",
+        "sec:methodology"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2265,
+      "section_ids": [
+        "sec:methodology",
+        "sec:experiments",
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1690,
+      "section_ids": [
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 750,
+      "section_ids": [
+        "sec:dataset",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2815,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2920,
+      "section_ids": [
+        "sec:results",
+        "sec:acknowledgements"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3723,
+      "section_ids": [
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 1496,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig. 1",
+        "caption": "Optimization of 3D Gaussians initialized as an ellipsoid. Using the camera poses extracted from the DICOM metadata, we can perform forward passes and backpropa- gation through the differential Gaussian rasterizer.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig. 2",
+        "caption": "Top row shows the original 3D voxel-based DICOM image retrieved from the PPMI dataset. This image is used as an input to the DRR algorithm to generate the projection image views. The bottom row shows the resulting projection views: 1) 0◦2) 90◦3) 180◦",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 3",
+        "caption": "Four different angular view a) 0◦b) 90◦c) 180◦d) 270◦. The top row contains the ground truth images, while the bottom row contains the rendered images for the equivalent camera poses.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 4",
+        "caption": "Four different renderings for the same projection view when testing with a) 50% b) 25% c) 10% d) 5% of the total images.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:dataset"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Performance of GaSpCT for the brain CT dataset compared to other models using 50% of views from the training dataset.",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Performance of GaSpCT for various percentages of hidden images for evalua- tion for the brain dataset.",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "LOriginal = (1 −λ)L1 + λLD_SSIM",
+      "section_id": "sec:methodology",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "LT V = λT V",
+      "section_id": "sec:methodology",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "Lbeta = 1",
+      "section_id": "sec:methodology",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "LF inal = λ1L1 + λD_SSIMLD_SSIM + λbetaLbeta + λT V LT V",
+      "section_id": "sec:methodology",
+      "page_start": 3,
+      "page_end": 4
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "deda9eaa1a06c3352f49643863fbf740301f634051b003a095fc838c21a29fdf",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "paper_id": "arxiv:2404.03126",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+      "translated_title": "",
+      "authors": [
+        "Emmanouil Nikolakakis",
+        "Utkarsh Gupta",
+        "Jonathan Vengosh",
+        "Justin Bui",
+        "Razvan Marinescu"
+      ],
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2404.03126",
+      "arxiv_id": "2404.03126",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2404.03126v1",
+      "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+      "doi": "",
+      "arxiv_id": "2404.03126",
+      "zotero_key": ""
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2404.03126",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2404.03126",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2404.03126v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2404.03126"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+          "work_value": "GaSpCT: Gaussian Splatting for Novel CT Projection"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03126v1",
+    "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+    "doi": "",
+    "arxiv_id": "2404.03126",
+    "zotero_key": ""
+  }
+}

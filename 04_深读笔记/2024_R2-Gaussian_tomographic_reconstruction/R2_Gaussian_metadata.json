@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+  "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+  "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+  "metadata_sources": [
+    "local_pdf",
+    "crossref",
+    "openalex",
+    "arxiv"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.52202/079017-1427",
+  "paper_id": "doi:10.52202/079017-1427",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used",
+    "arxiv_id_present"
+  ],
+  "script": "collect_metadata.py",
+  "authors": [
+    "Ruyi Zha",
+    "Tao Jun Lin",
+    "Yuanhao Cai",
+    "Jiwen Cao",
+    "Yanhao Zhang",
+    "Hongdong Li"
+  ],
+  "venue": "Advances in Neural Information Processing Systems 37",
+  "source": "crossref",
+  "year": "2024",
+  "published": "2024",
+  "url": "http://arxiv.org/abs/2405.20693v2",
+  "arxiv_id": "2405.20693",
+  "abstract": "3D Gaussian splatting (3DGS) has shown promising results in image rendering and surface reconstruction. However, its potential in volumetric reconstruction tasks, such as X-ray computed tomography, remains under-explored. This paper introduces R$^2$-Gaussian, the first 3DGS-based framework for sparse-view tomographic reconstruction. By carefully deriving X-ray rasterization functions, we discover a previously unknown integration bias in the standard 3DGS formulation, which hampers accurate volume retrieval. To address this issue, we propose a novel rectification technique via refactoring the projection from 3D to 2D Gaussians. Our new method presents three key innovations: (1) introducing tailored Gaussian kernels, (2) extending rasterization to X-ray imaging, and (3) developing a CUDA-based differentiable voxelizer. Experiments on synthetic and real-world datasets demonstrate that our method outperforms state-of-the-art approaches in accuracy and efficiency. Crucially, it delivers high-quality results in 4 minutes, which is 12$\\times$ faster than NeRF-based methods and on par with traditional algorithms. Code and models are available on the project page https://github.com/Ruyi-Zha/r2_gaussian.",
+  "pdf_url": "https://arxiv.org/pdf/2405.20693v2"
+}

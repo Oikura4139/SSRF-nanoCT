@@ -1,0 +1,1255 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2404.03126",
+  "figure_plan": {
+    "paper_id": "arxiv:2404.03126",
+    "figures": [
+      {
+        "id": "Table 1",
+        "caption": "Performance of GaSpCT for the brain CT dataset compared to other models using 50% of views from the training dataset.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_1.png",
+          "width": 993,
+          "height": 248,
+          "size_bytes": 43316,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.065974,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 126,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "performance",
+              "gaspct",
+              "brain",
+              "dataset",
+              "compared"
+            ],
+            "snippet": "mage Patch Similarity (LPIPS) [23] using a VGG network. All metric scores can be found in Table 1. The optimization process took between 5 and 10 minutes for each of the scans. The total",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_1.png",
+                "width": 993,
+                "height": 248,
+                "size_bytes": 43316,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065974,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 126,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+                "width": 993,
+                "height": 251,
+                "size_bytes": 38485,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.06671,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 111,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "gaspct",
+              "brain",
+              "dataset"
+            ],
+            "snippet": "images and provide all used datasets to the medical imaging community. 2 Methodology 2.1 GaSpCT Our model is based on Gaussian Splatting, an implicit 3D scene representation model simil",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "dataset"
+            ],
+            "snippet": "e 5 Fig. 2: Top row shows the original 3D voxel-based DICOM image retrieved from the PPMI dataset. This image is used as an input to the DRR algorithm to generate the projection image vie",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15533
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15273
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+                "width": 982,
+                "height": 772,
+                "size_bytes": 138414,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203002,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.656379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 258,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Performance of GaSpCT for various percentages of hidden images for evalua- tion for the brain dataset.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_2.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+          "width": 993,
+          "height": 251,
+          "size_bytes": 38485,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.06671,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 111,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "performance",
+              "gaspct",
+              "various",
+              "percentages",
+              "hidden"
+            ],
+            "snippet": "99 ± 0.002 0.993 ± 0.0014 LPIPS ↓ 0.341 ± 0.031 0.9 ± 0.05 0.017 ± 0.0037 0.0059 ± 0.0015 Table 2: Performance of GaSpCT for various percentages of hidden images for evalua- tion for the",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_1.png",
+                "width": 993,
+                "height": 248,
+                "size_bytes": 43316,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065974,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 126,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+                "width": 993,
+                "height": 251,
+                "size_bytes": 38485,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.06671,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 111,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 1,
+            "matched_terms": [
+              "gaspct"
+            ],
+            "snippet": "images and provide all used datasets to the medical imaging community. 2 Methodology 2.1 GaSpCT Our model is based on Gaussian Splatting, an implicit 3D scene representation model simil",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "gaspct"
+            ],
+            "snippet": "RAM. After investigating the learning loss’s curve during training, we decided to run all GaSpCT tests for 20K iterations. 4 Results Fig. 3: Four different angular view a) 0◦b) 90◦c) 180",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6164
+              },
+              {
+                "filename": "page_006_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6050
+              },
+              {
+                "filename": "page_006_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14654
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+                "width": 982,
+                "height": 623,
+                "size_bytes": 229646,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.163982,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.693411,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 191,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+                "width": 982,
+                "height": 349,
+                "size_bytes": 139724,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.091756,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.619614,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 1",
+        "caption": "Optimization of 3D Gaussians initialized as an ellipsoid. Using the camera poses extracted from the DICOM metadata, we can perform forward passes and backpropa- gation through the differential Gaussian rasterizer.",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_fig_1.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+          "width": 982,
+          "height": 488,
+          "size_bytes": 88488,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.128492,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.670639,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 221,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "optimization",
+              "gaussians",
+              "initialized",
+              "ellipsoid",
+              "using"
+            ],
+            "snippet": "d brain structure seen in the training images. An overview of our model can be seen in 1. Fig. 1: Optimization of 3D Gaussians initialized as an ellipsoid. Using the camera poses extract",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "optimization",
+              "ellipsoid",
+              "using"
+            ],
+            "snippet": "milarity (LPIPS) [23] using a VGG network. All metric scores can be found in Table 1. The optimization process took between 5 and 10 minutes for each of the scans. The total number of paramete",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_1.png",
+                "width": 993,
+                "height": 248,
+                "size_bytes": 43316,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065974,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 126,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_007_fig_table_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_007_fig_table_2.png",
+                "width": 993,
+                "height": 251,
+                "size_bytes": 38485,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.06671,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 111,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 2,
+            "matched_terms": [
+              "optimization",
+              "using"
+            ],
+            "snippet": "bust feature extraction. Camera Extrinsics and Intrinsics of CT Images [H] Since gradient optimization for Gaussian Splatting requires the camera poses of the input images in the 3D scene, we",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15533
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15273
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+                "width": 982,
+                "height": 772,
+                "size_bytes": 138414,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203002,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.656379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 258,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 2",
+        "caption": "Top row shows the original 3D voxel-based DICOM image retrieved from the PPMI dataset. This image is used as an input to the DRR algorithm to generate the projection image views. The bottom row shows the resulting projection views: 1) 0◦2) 90◦3) 180◦",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_2.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+          "width": 982,
+          "height": 772,
+          "size_bytes": 138414,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.203002,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 0.656379,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 258,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "original",
+              "voxel-based",
+              "dicom",
+              "image",
+              "retrieved"
+            ],
+            "snippet": "Abbreviated paper title 5 Fig. 2: Top row shows the original 3D voxel-based DICOM image retrieved from the PPMI dataset. T",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15533
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15273
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+                "width": 982,
+                "height": 772,
+                "size_bytes": 138414,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203002,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.656379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 258,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "original",
+              "dicom",
+              "image"
+            ],
+            "snippet": "propa- gation through the differential Gaussian rasterizer. 2.2 Gaussian Splatting In the original Gaussian Splatting model, a 3D scene is encoded as 3D Gaussians (the splats). Each Gaussi",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "image"
+            ],
+            "snippet": "r different angular view a) 0◦b) 90◦c) 180◦d) 270◦. The top row contains the ground truth images, while the bottom row contains the rendered images for the equivalent camera poses. Fig.",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6164
+              },
+              {
+                "filename": "page_006_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6050
+              },
+              {
+                "filename": "page_006_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14654
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+                "width": 982,
+                "height": 623,
+                "size_bytes": 229646,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.163982,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.693411,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 191,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+                "width": 982,
+                "height": 349,
+                "size_bytes": 139724,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.091756,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.619614,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 3",
+        "caption": "Four different angular view a) 0◦b) 90◦c) 180◦d) 270◦. The top row contains the ground truth images, while the bottom row contains the rendered images for the equivalent camera poses.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_3.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+          "width": 982,
+          "height": 623,
+          "size_bytes": 229646,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.163982,
+            "visual_rect_count": 8,
+            "visual_body_ratio": 0.693411,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 191,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "four",
+              "different",
+              "angular",
+              "view",
+              "contains"
+            ],
+            "snippet": "s curve during training, we decided to run all GaSpCT tests for 20K iterations. 4 Results Fig. 3: Four different angular view a) 0◦b) 90◦c) 180◦d) 270◦. The top row contains the ground t",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6164
+              },
+              {
+                "filename": "page_006_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6050
+              },
+              {
+                "filename": "page_006_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14654
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+                "width": 982,
+                "height": 623,
+                "size_bytes": 229646,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.163982,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.693411,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 191,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+                "width": 982,
+                "height": 349,
+                "size_bytes": 139724,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.091756,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.619614,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "different",
+              "view"
+            ],
+            "snippet": "from the DICOM metadata, we can perform forward passes and backpropa- gation through the differential Gaussian rasterizer. 2.2 Gaussian Splatting In the original Gaussian Splatting model,",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 2,
+            "matched_terms": [
+              "angular",
+              "view"
+            ],
+            "snippet": "z) of each camera pose. The polar angle between poses increments in the same step as the angular resolution of the CT dataset, while the azimuth angle remains fixed at 0, given we set th",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15533
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15273
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+                "width": 982,
+                "height": 772,
+                "size_bytes": 138414,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203002,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.656379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 258,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig. 4",
+        "caption": "Four different renderings for the same projection view when testing with a) 50% b) 25% c) 10% d) 5% of the total images.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_fig_4.png",
+          "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+          "width": 982,
+          "height": 349,
+          "size_bytes": 139724,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.091756,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 0.619614,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 128,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "four",
+              "different",
+              "renderings",
+              "same",
+              "projection"
+            ],
+            "snippet": "mages, while the bottom row contains the rendered images for the equivalent camera poses. Fig. 4: Four different renderings for the same projection view when testing with a) 50% b) 25% c",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6164
+              },
+              {
+                "filename": "page_006_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 6050
+              },
+              {
+                "filename": "page_006_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14654
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_fig_3.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_3.png",
+                "width": 982,
+                "height": 623,
+                "size_bytes": 229646,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.163982,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.693411,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 191,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_fig_4.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_006_fig_fig_4.png",
+                "width": 982,
+                "height": 349,
+                "size_bytes": 139724,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.091756,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.619614,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 128,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "different",
+              "projection"
+            ],
+            "snippet": "from the DICOM metadata, we can perform forward passes and backpropa- gation through the differential Gaussian rasterizer. 2.2 Gaussian Splatting In the original Gaussian Splatting model,",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_img_01.png",
+                "width": 1738,
+                "height": 613,
+                "size_bytes": 89244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_fig_1.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_003_fig_fig_1.png",
+                "width": 982,
+                "height": 488,
+                "size_bytes": 88488,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128492,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.670639,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 221,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 2,
+            "matched_terms": [
+              "same",
+              "projection"
+            ],
+            "snippet": "oordinates (x, y, z) of each camera pose. The polar angle between poses increments in the same step as the angular resolution of the CT dataset, while the azimuth angle remains fixed a",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_01.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15533
+              },
+              {
+                "filename": "page_005_img_02.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_02.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 15273
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_img_03.png",
+                "width": 128,
+                "height": 128,
+                "size_bytes": 14490
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\GaSpCT_Gaussian_Splatting_for_Novel_CT_Projection\\images\\page_005_fig_fig_2.png",
+                "width": 982,
+                "height": 772,
+                "size_bytes": 138414,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.203002,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.656379,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 258,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

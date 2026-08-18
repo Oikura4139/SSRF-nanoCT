@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080" role="img" aria-labelledby="title desc">
+  <title id="title">GaSpCT 与 R²-Gaussian 的梯度回传路径</title>
+  <desc id="desc">上半部分展示 GaSpCT 从二维投影损失通过可微光栅化器回传到高斯参数；下半部分展示 R²-Gaussian 的投影损失与按需体素化三维正则双分支。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8FBFF"/><stop offset="1" stop-color="#EEF5FA"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#0F172A" flood-opacity="0.12"/></filter>
+    <marker id="forward" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#334155"/></marker>
+    <marker id="grad" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#0072B2"/></marker>
+    <marker id="discrete" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#E69F00"/></marker>
+    <style>
+      .title{font:700 42px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F2942}.subtitle{font:400 22px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569}
+      .laneTitle{font:700 27px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#17324D}.boxTitle{font:700 22px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#172033}
+      .label{font:600 20px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B}.small{font:400 18px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569}
+      .tiny{font:400 16px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569}.math{font:600 19px 'Cambria Math','Times New Roman',serif;fill:#17324D}
+    </style>
+  </defs>
+  <rect width="1600" height="1080" rx="28" fill="url(#bg)"/>
+  <text x="70" y="68" class="title">梯度回传：主表示始终是高斯，不是体素</text>
+  <text x="70" y="106" class="subtitle">GaSpCT 只有二维投影监督；R²-Gaussian 额外按需查询小体素块，为三维正则提供第二条梯度支路</text>
+
+  <!-- GaSpCT lane -->
+  <rect x="55" y="140" width="1490" height="350" rx="26" fill="#FFFFFF" stroke="#B6D7EA" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="55" y="140" width="210" height="52" rx="20" fill="#17324D"/>
+  <text x="160" y="174" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">GaSpCT</text>
+  <text x="300" y="176" class="laneTitle">二维投影损失经过可微光栅化器回到高斯属性</text>
+
+  <rect x="95" y="235" width="265" height="135" rx="20" fill="#F2EEFF" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="228" y="275" text-anchor="middle" class="boxTitle">高斯主表示 Θᴳ</text>
+  <text x="228" y="308" text-anchor="middle" class="small">中心 μ · 协方差 Σ</text>
+  <text x="228" y="337" text-anchor="middle" class="small">不透明度 o · 颜色/外观</text>
+  <rect x="142" y="383" width="172" height="34" rx="17" fill="#8B5CF6"/>
+  <text x="228" y="406" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">非体素参数</text>
+
+  <line x1="360" y1="302" x2="435" y2="302" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="445" y="220" width="445" height="190" rx="22" fill="#F8FAFC" stroke="#64748B" stroke-width="2.5"/>
+  <text x="668" y="255" text-anchor="middle" class="boxTitle">高斯光栅化器</text>
+  <rect x="475" y="273" width="175" height="94" rx="16" fill="#FFF6DB" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <text x="563" y="306" text-anchor="middle" class="label">tile 分桶 + 排序</text>
+  <text x="563" y="336" text-anchor="middle" class="tiny">不对排序决策求导</text>
+  <line x1="650" y1="320" x2="690" y2="320" stroke="#334155" stroke-width="3" marker-end="url(#forward)"/>
+  <rect x="700" y="273" width="160" height="94" rx="16" fill="#E7F7F3" stroke="#009E73" stroke-width="2.5"/>
+  <text x="780" y="306" text-anchor="middle" class="label">2D 高斯求值</text>
+  <text x="780" y="336" text-anchor="middle" class="tiny">固定顺序下 α 合成</text>
+
+  <line x1="890" y1="302" x2="965" y2="302" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="975" y="245" width="210" height="115" rx="20" fill="#EAF4FA" stroke="#0072B2" stroke-width="3"/>
+  <text x="1080" y="286" text-anchor="middle" class="boxTitle">渲染投影 Î</text>
+  <text x="1080" y="323" text-anchor="middle" class="small">二维灰度图像</text>
+  <line x1="1185" y1="302" x2="1250" y2="302" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="1260" y="235" width="230" height="135" rx="20" fill="#FFF1F2" stroke="#D55E00" stroke-width="3"/>
+  <text x="1375" y="274" text-anchor="middle" class="boxTitle">二维投影损失</text>
+  <text x="1375" y="307" text-anchor="middle" class="small">L1 + D-SSIM</text>
+  <text x="1375" y="337" text-anchor="middle" class="small">Beta + 2D-TV</text>
+
+  <path d="M1375 390 C1150 458 560 458 228 425" fill="none" stroke="#0072B2" stroke-width="6" marker-end="url(#grad)"/>
+  <text x="820" y="462" text-anchor="middle" class="label" fill="#0072B2">蓝色反向路径：∂L / ∂Θᴳ</text>
+
+  <!-- R2 lane -->
+  <rect x="55" y="520" width="1490" height="410" rx="26" fill="#FFFFFF" stroke="#C9D8E6" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="55" y="520" width="250" height="52" rx="20" fill="#17324D"/>
+  <text x="180" y="554" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="23" font-weight="700" fill="#FFFFFF">R²-Gaussian</text>
+  <text x="335" y="556" class="laneTitle">同一组辐射高斯产生两条连续梯度支路</text>
+
+  <rect x="90" y="635" width="250" height="138" rx="20" fill="#F2EEFF" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="215" y="674" text-anchor="middle" class="boxTitle">辐射高斯 Θᴿ</text>
+  <text x="215" y="707" text-anchor="middle" class="small">中心 p · 协方差 Σ</text>
+  <text x="215" y="738" text-anchor="middle" class="small">标量中心密度 ρ</text>
+  <text x="215" y="800" text-anchor="middle" class="tiny">无视角相关彩色 SH</text>
+
+  <!-- upper branch -->
+  <path d="M340 675 L440 625" fill="none" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="450" y="580" width="250" height="105" rx="18" fill="#E7F7F3" stroke="#009E73" stroke-width="2.5"/>
+  <text x="575" y="620" text-anchor="middle" class="boxTitle">X 射线投影器</text>
+  <text x="575" y="652" text-anchor="middle" class="small">线积分后的 2D 高斯求和</text>
+  <line x1="700" y1="633" x2="770" y2="633" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="780" y="580" width="210" height="105" rx="18" fill="#EAF4FA" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="885" y="620" text-anchor="middle" class="boxTitle">二维投影 Îᵣ</text>
+  <text x="885" y="652" text-anchor="middle" class="small">求和，不做自然光 α 合成</text>
+  <line x1="990" y1="633" x2="1055" y2="633" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="1065" y="580" width="230" height="105" rx="18" fill="#FFF1F2" stroke="#D55E00" stroke-width="2.5"/>
+  <text x="1180" y="620" text-anchor="middle" class="boxTitle">二维光度损失</text>
+  <text x="1180" y="652" text-anchor="middle" class="small">L1 + λₛₛᵢₘ Lₛₛᵢₘ</text>
+  <path d="M1180 690 C900 730 500 720 340 700" fill="none" stroke="#0072B2" stroke-width="5" marker-end="url(#grad)"/>
+
+  <!-- lower branch voxelizer -->
+  <path d="M340 735 L440 790" fill="none" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="450" y="746" width="205" height="112" rx="18" fill="#FFF6DB" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <text x="553" y="783" text-anchor="middle" class="label">候选高斯筛选</text>
+  <text x="553" y="813" text-anchor="middle" class="tiny">8³ tile · 离散索引</text>
+  <text x="553" y="839" text-anchor="middle" class="tiny">不对筛选决策求导</text>
+  <line x1="655" y1="802" x2="710" y2="802" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="720" y="746" width="220" height="112" rx="18" fill="#E7F7F3" stroke="#009E73" stroke-width="2.5"/>
+  <text x="830" y="783" text-anchor="middle" class="label">固定候选内求值</text>
+  <text x="830" y="815" text-anchor="middle" class="math">Vᵥ = Σᵢ Gᵢ(xᵥ)</text>
+  <text x="830" y="841" text-anchor="middle" class="tiny">可微求值与累加</text>
+  <line x1="940" y1="802" x2="995" y2="802" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+
+  <!-- voxel block icon -->
+  <rect x="990" y="742" width="225" height="122" rx="18" fill="#F1F5F9" stroke="#64748B" stroke-width="2.5"/>
+  <g transform="translate(1008 766)" stroke="#94A3B8" stroke-width="1.4" fill="none">
+    <rect x="0" y="0" width="58" height="58"/><rect x="20" y="-14" width="58" height="58"/><line x1="0" y1="0" x2="20" y2="-14"/><line x1="58" y1="0" x2="78" y2="-14"/><line x1="58" y1="58" x2="78" y2="44"/><line x1="0" y1="58" x2="20" y2="44"/>
+    <line x1="19" y1="0" x2="19" y2="58"/><line x1="38" y1="0" x2="38" y2="58"/><line x1="0" y1="19" x2="58" y2="19"/><line x1="0" y1="38" x2="58" y2="38"/>
+  </g>
+  <text x="1145" y="782" text-anchor="middle" class="label">临时体素块</text>
+  <text x="1145" y="814" text-anchor="middle" class="math">32³ 采样块</text>
+  <text x="1145" y="840" text-anchor="middle" class="tiny">派生张量，不是参数</text>
+  <line x1="1215" y1="802" x2="1250" y2="802" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/>
+  <rect x="1260" y="746" width="230" height="112" rx="18" fill="#FFF1F2" stroke="#D55E00" stroke-width="2.5"/>
+  <text x="1375" y="785" text-anchor="middle" class="boxTitle">三维 TV 正则</text>
+  <text x="1375" y="818" text-anchor="middle" class="math">λₜᵥ Lᵀⱽ³ᴰ</text>
+  <text x="1375" y="845" text-anchor="middle" class="tiny">体素梯度回到 ρ、p、Σ</text>
+  <path d="M1375 870 C1100 915 520 910 340 760" fill="none" stroke="#0072B2" stroke-width="5" marker-end="url(#grad)"/>
+
+  <!-- discrete density control strip -->
+  <rect x="120" y="964" width="1360" height="78" rx="22" fill="#FFF8E7" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="10 7"/>
+  <text x="800" y="994" text-anchor="middle" class="label" fill="#9A5B00">离散控制：clone / split / prune 改变高斯数量，本身不属于蓝色梯度链</text>
+  <text x="800" y="1025" text-anchor="middle" class="small">读取梯度或不透明度 / 密度统计作决策；操作完成后，下一轮迭代重新建立连续计算图</text>
+
+  <!-- legend -->
+  <line x1="1040" y1="78" x2="1105" y2="78" stroke="#334155" stroke-width="4" marker-end="url(#forward)"/><text x="1120" y="85" class="small">前向计算</text>
+  <line x1="1240" y1="78" x2="1305" y2="78" stroke="#0072B2" stroke-width="5" marker-end="url(#grad)"/><text x="1320" y="85" class="small">连续梯度</text>
+</svg>

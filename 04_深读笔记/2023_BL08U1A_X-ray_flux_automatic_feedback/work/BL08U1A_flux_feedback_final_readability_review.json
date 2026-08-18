@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "review_date": "2026-07-29",
+  "checks": {
+    "chinese_fluency": true,
+    "heading_hierarchy": true,
+    "terminology_consistency": true,
+    "formula_readability": true,
+    "table_readability": true,
+    "image_caption_alignment": true,
+    "image_link_integrity": true,
+    "obsidian_compatibility": true
+  },
+  "terminology": {
+    "beamline": "线站",
+    "exit_slit": "出口狭缝",
+    "knife_edge": "刀口",
+    "feedback": "反馈"
+  }
+}

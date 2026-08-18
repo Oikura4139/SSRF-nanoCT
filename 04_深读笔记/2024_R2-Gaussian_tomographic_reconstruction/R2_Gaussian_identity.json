@@ -1,0 +1,117 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 1,
+  "paper_id": "doi:10.52202/079017-1427",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+    "translated_title": "",
+    "authors": [
+      "Ruyi Zha",
+      "Tao Jun Lin",
+      "Yuanhao Cai",
+      "Jiwen Cao",
+      "Yanhao Zhang",
+      "Hongdong Li"
+    ],
+    "year": "2024",
+    "venue": "Advances in Neural Information Processing Systems 37",
+    "doi": "10.52202/079017-1427",
+    "arxiv_id": "2405.20693",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2405.20693v2",
+    "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+    "doi": "10.52202/079017-1427",
+    "arxiv_id": "",
+    "zotero_key": ""
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "doi",
+      "value": "10.52202/079017-1427",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "arxiv_id",
+      "value": "2405.20693",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2405.20693v2",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\R²-Gaussian.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "doi:10.52202/079017-1427"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction",
+        "work_value": "R$^2$-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_resolve.json",
+    "metadata_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_R2-Gaussian_tomographic_reconstruction\\R2_Gaussian_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used",
+      "arxiv_id_present"
+    ]
+  }
+}

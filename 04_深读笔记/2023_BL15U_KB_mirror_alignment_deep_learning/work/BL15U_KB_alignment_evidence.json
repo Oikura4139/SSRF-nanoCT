@@ -1,0 +1,1013 @@
+{
+  "status": "ok",
+  "script": "extract_evidence.py",
+  "paper_id": "title:b4208097f5ca",
+  "title": "2023_BL15U_KB_mirror_alignment_deep_learning",
+  "evidence_pack": {
+    "paper_id": "title:b4208097f5ca",
+    "problem_evidence": [
+      {
+        "claim": "A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan.",
+        "evidence": "A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution.",
+        "evidence": "The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings.",
+        "evidence": "Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings.",
+        "source_section": "introduction",
+        "page_hint": ""
+      },
+      {
+        "claim": "A speckle-based scanning method was also proposed to directly provide information on the pitch angle error [12]; however, the scanning process is time-consuming, and the acquired alignment information is limited to the pitch angle and wavefront curvature.",
+        "evidence": "A speckle-based scanning method was also proposed to directly provide information on the pitch angle error [12]; however, the scanning process is time-consuming, and the acquired alignment information is limited to the pitch angle and wavefront curvature.",
+        "source_section": "introduction",
+        "page_hint": ""
+      }
+    ],
+    "task_evidence": [
+      {
+        "claim": "Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment.",
+        "evidence": "Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "A convolutional neural network (CNN) was trained for estimating the Zernike coefficients of wavefront aberration using a pre-conditioner to increase the number of informative pixels in the detected image [14].",
+        "evidence": "A convolutional neural network (CNN) was trained for estimating the Zernike coefficients of wavefront aberration using a pre-conditioner to increase the number of informative pixels in the detected image [14].",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "In the telescope field, a CNN was used for determining the initial estimates of the Zernike coefficients from the PSF images [17] for further iterative refinement.",
+        "evidence": "In the telescope field, a CNN was used for determining the initial estimates of the Zernike coefficients from the PSF images [17] for further iterative refinement.",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "In the field of X-rays, neural networks have been used for screening macromolecular X-ray crystallographic diffraction images [21], classification of crystal structures [22], tomographic denoising [23], and Bragg peak analysis [24].",
+        "evidence": "In the field of X-rays, neural networks have been used for screening macromolecular X-ray crystallographic diffraction images [21], classification of crystal structures [22], tomographic denoising [23], and Bragg peak analysis [24].",
+        "source_section": "task",
+        "page_hint": ""
+      },
+      {
+        "claim": "Machine learning-based methods have also been applied to the diagnosis and tuning of accelerators [25, 26].",
+        "evidence": "Machine learning-based methods have also been applied to the diagnosis and tuning of accelerators [25, 26].",
+        "source_section": "task",
+        "page_hint": ""
+      }
+    ],
+    "data_evidence": [
+      {
+        "claim": "The results are listed in Table 3, and the training results for the speckle dataset are shown in Fig.",
+        "evidence": "The results are listed in Table 3, and the training results for the speckle dataset are shown in Fig.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "The RMSEs between the ground truth and estimated align- ment errors for the test datasets were 0.271 ± 0.126 for the combined dataset of speckle and direct beam images, 0.265 ± 0.122 for the dataset of speckle images, and 0.273 ± 0.126 for the dataset of direct beam images, while the corresponding RMSEs for the training datasets were 0.05, 0.045, and 0.047, respectively.",
+        "evidence": "The RMSEs between the ground truth and estimated align- ment errors for the test datasets were 0.271 ± 0.126 for the combined dataset of speckle and direct beam images, 0.265 ± 0.122 for the dataset of speckle images, and 0.273 ± 0.126 for the dataset of direct beam images, while the corresponding RMSEs for the training datasets were 0.05, 0.045, and 0.047, respectively.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "Overfitting occurred early during training, and the RMSE of the test dataset decreased slowly approximately from epoch 10, as shown in Fig.",
+        "evidence": "Overfitting occurred early during training, and the RMSE of the test dataset decreased slowly approximately from epoch 10, as shown in Fig.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "The best per- formance was obtained for the speckle dataset.",
+        "evidence": "The best per- formance was obtained for the speckle dataset.",
+        "source_section": "data",
+        "page_hint": ""
+      },
+      {
+        "claim": "Combin- ing the images from the speckle and direct beam datasets did not utilize the advantages of both datasets, and the resultant performance was similar to that obtained using Fig.",
+        "evidence": "Combin- ing the images from the speckle and direct beam datasets did not utilize the advantages of both datasets, and the resultant performance was similar to that obtained using Fig.",
+        "source_section": "data",
+        "page_hint": ""
+      }
+    ],
+    "method_evidence": [
+      {
+        "claim": "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them.",
+        "evidence": "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "1 (Color online) Schematic of the experimental optical path using with the proposed method Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 3 of 11 where λ represents the center wavelength of the narrowband beam, ri is the distance between Pi and Qi, and χ(θi) is the obliquity factor at position Pi.",
+        "evidence": "1 (Color online) Schematic of the experimental optical path using with the proposed method Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 3 of 11 where λ represents the center wavelength of the narrowband beam, ri is the distance between Pi and Qi, and χ(θi) is the obliquity factor at position Pi.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "By assuming a Schell model field Ji (α1,β1,α2,β2) = A(α1,β1)A(α2,β2)μ(α1 − α2, β1 − β2) and using the Fresnel approximation, we obtain the following simpli- fied expression: As indicated by the above equation, the scatterer perturbs the detected intensity.",
+        "evidence": "By assuming a Schell model field Ji (α1,β1,α2,β2) = A(α1,β1)A(α2,β2)μ(α1 − α2, β1 − β2) and using the Fresnel approximation, we obtain the following simpli- fied expression: As indicated by the above equation, the scatterer perturbs the detected intensity.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Using deep learning methods, we can extract the speckle difference owing to the scatterer by learning together the detected images with and without scattering.",
+        "evidence": "Using deep learning methods, we can extract the speckle difference owing to the scatterer by learning together the detected images with and without scattering.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Deep learning methods use backpropagation and gradient descent for optimizing the parameters of artificial neural networks.",
+        "evidence": "Deep learning methods use backpropagation and gradient descent for optimizing the parameters of artificial neural networks.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+        "evidence": "Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+        "source_section": "method",
+        "page_hint": ""
+      }
+    ],
+    "mechanism_evidence": [
+      {
+        "claim": "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them.",
+        "evidence": "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+        "evidence": "Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "The gradient of the loss function capturing the difference between the model predictions and ground truth is propagated backward through the network starting from the output layer, according to the backpropagation algorithm.",
+        "evidence": "The gradient of the loss function capturing the difference between the model predictions and ground truth is propagated backward through the network starting from the output layer, according to the backpropagation algorithm.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "where z indicates the output of a given layer, w and b repre- sent the weight and bias parameters of individual neurons of this layer, respectively, x is the input to this layer (also the output from the previous layer), L is the loss function reflecting the optimization objective, and constructs such as ∂L/∂x are backpropagation gradients formulated as Jacobian matrices.",
+        "evidence": "where z indicates the output of a given layer, w and b repre- sent the weight and bias parameters of individual neurons of this layer, respectively, x is the input to this layer (also the output from the previous layer), L is the loss function reflecting the optimization objective, and constructs such as ∂L/∂x are backpropagation gradients formulated as Jacobian matrices.",
+        "source_section": "method",
+        "page_hint": ""
+      },
+      {
+        "claim": "This happened because the randomness of the incident beam status and mirror figure strongly affected the features of the detected images; for one set of misalignment error parameters, the detected images generated in the simula- tions varied strongly in the case of different statuses of the incident beam and mirror figures.",
+        "evidence": "This happened because the randomness of the incident beam status and mirror figure strongly affected the features of the detected images; for one set of misalignment error parameters, the detected images generated in the simula- tions varied strongly in the case of different statuses of the incident beam and mirror figures.",
+        "source_section": "method",
+        "page_hint": ""
+      }
+    ],
+    "results_evidence": [
+      {
+        "claim": "Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s.",
+        "evidence": "Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s.",
+        "source_section": "experiment",
+        "page_hint": ""
+      }
+    ],
+    "ablation_evidence": [],
+    "limitations_evidence": [
+      {
+        "claim": "However, the error estimation of the network relies heavily on the layout of the beamline and calibration accuracy.",
+        "evidence": "However, the error estimation of the network relies heavily on the layout of the beamline and calibration accuracy.",
+        "source_section": "conclusion",
+        "page_hint": ""
+      },
+      {
+        "claim": "For further applications, the robustness, reliability, and generalization of machine learning methods in optical tasks should be improved.",
+        "evidence": "For further applications, the robustness, reliability, and generalization of machine learning methods in optical tasks should be improved.",
+        "source_section": "conclusion",
+        "page_hint": ""
+      },
+      {
+        "claim": "With the improvement of the analytical ability of neural networks and the development of adaptive optical techniques, we are hopeful that this method will eliminate the dependency on specific scenarios and will enable learning from a generalized beam-generating scheme, avoiding repetitive training on different optical layouts while providing better estimations.",
+        "evidence": "With the improvement of the analytical ability of neural networks and the development of adaptive optical techniques, we are hopeful that this method will eliminate the dependency on specific scenarios and will enable learning from a generalized beam-generating scheme, avoiding repetitive training on different optical layouts while providing better estimations.",
+        "source_section": "conclusion",
+        "page_hint": ""
+      }
+    ],
+    "equation_candidates": [],
+    "reference_candidates": [],
+    "figure_captions": [
+      {
+        "id": "Fig. 1",
+        "caption": "(Color online) Schematic of the experimental optical path using with the proposed method",
+        "page_hint": "p.2",
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig. 2",
+        "caption": "(Color online) Schematic of the misalignment error esti- mation process. Dropout: drop- out layer. FC: fully connected layer. Conv: convolution layer",
+        "page_hint": "p.3",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 3",
+        "caption": "(Color online) Example simulated optical elements. a Simu- lated scatterer composed of Cu particles and b simulated figure error of the KB mirror. Scale bar: 20 μm",
+        "page_hint": "p.4",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 4",
+        "caption": "(Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 mm",
+        "page_hint": "p.5",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Fig. 5",
+        "caption": "(Color online) Results of training the network on the speckle data. a A detected image generated by the simula- tion. b The corresponding estimation. c The RMSE drop during the training process. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM cur- vature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "page_hint": "p.6",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 6",
+        "caption": "Knife-edge scan results at different pitch angles and foci. Both scans were performed in the horizontal direction; the results obtained for the vertical direction were similar. a Data were collected in the first experiment. b Data were collected in the second experiment",
+        "page_hint": "p.7",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 7",
+        "caption": "Training results for the misalignment error estimation model trained on four differ- ent experimental datasets. a, b Direct beam images from the first and second experiments, respectively. c, d Speckle images from the first and second experiments, respectively. e Line chart of estimated errors and ground truth corresponding to (d). f, g RMSE drop curves during the training process for speckle data from the first and second experiments, respec- tively. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM curvature, (4) HFM curvature, (5) astigmatism, and (6) defocus",
+        "page_hint": "p.8",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 8",
+        "caption": "RMSEs of different normalized errors between estimations, for the model trained on the simulation data as first guess and ground truth. Error indices are the same as in Fig. 7",
+        "page_hint": "p.9",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 9",
+        "caption": "(Color online) Feature maps of convolution layers of misalign- ment error estimation models trained on the experimental data. From a to e shown are feature maps from the first convolution layer, layer 1 of ResNet50, layer 2 of ResNet50, layer 3 of ResNet50, and layer",
+        "page_hint": "p.9",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Fig. 10",
+        "caption": "(Color online) Saliency maps for the misalignment error esti- mation models trained on the experimental data. a Input image and b the saliency map generated for this input image",
+        "page_hint": "p.10",
+        "section_id": "sec:dataset"
+      }
+    ],
+    "table_captions": [
+      {
+        "id": "Table 1",
+        "caption": "Estimated tolerances for six main alignment parameters",
+        "page_hint": "p.4",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Alignment parameters and ranges of misalignment errors in the simulations",
+        "page_hint": "p.5",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Summary of validation accuracies (RMSEs) of normalized misalignment error estimation models trained on the simulated data",
+        "page_hint": "p.5",
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Ranges and estimation accuracy (RMSEs) of misalignment errors for the experimental data",
+        "page_hint": "p.8",
+        "section_id": "sec:dataset"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Summary of validation accuracies (RMSEs) of the normalized misalignment error estimation using the deep learning model trained on the experimental data",
+        "page_hint": "p.9",
+        "section_id": "sec:dataset"
+      }
+    ],
+    "sections": [
+      {
+        "name": "preamble",
+        "length": 593,
+        "preview": "Vol.:(0123456789) 1 3 Nuclear Science and Techniques (2023) 34:122 https://doi.org/10.1007/s41365-023-01282-4 Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors Jia‑Nan Xie1,2 · Hui Jiang1,3,4 · Ai‑Guo Li1,2,3,4 · Na‑X"
+      },
+      {
+        "name": "abstract",
+        "length": 1153,
+        "preview": "A deep learning-based automated Kirkpatrick–Baez mirror alignment method is proposed for synchrotron radiation. We trained a convolutional neural network (CNN) on simulated and experimental imaging data of a focusing system. Instead of lear"
+      },
+      {
+        "name": "introduction",
+        "length": 4921,
+        "preview": "Synchrotron micro- or nano-focused X-rays have been widely used to explore the microstructures of materials in the fields of energy [1] and material and life sciences [2]. For a coherent source, smaller focusing spots yield higher coherent "
+      },
+      {
+        "name": "method",
+        "length": 12458,
+        "preview": "As shown in Fig. 1, a thin scatterer was placed in the focal plane to generate speckles in the direct beam images on the detector as a modulation (pre-conditioner) for training the CNN. Unlike other image-based machine learning methods, we "
+      },
+      {
+        "name": "data",
+        "length": 15477,
+        "preview": "Speckles Direct beam Both VFM pitch angle 0.110 ± 0.078 0.114 ± 0.066 0.104 ± 0.060 HFM pitch angle 0.226 ± 0.146 0.205 ± 0.122 0.233 ± 0.146 VFM curvature 0.131 ± 0.080 0.132 ± 0.079 0.170 ± 0.108 HFM curvature 0.069 ± 0.050 0.087 ± 0.064 "
+      },
+      {
+        "name": "conclusion",
+        "length": 2602,
+        "preview": "A machine learning-based method was presented for estimating the KB mirror alignment error. Direct-beam and speckle-modulated images were captured by a detector for a CNN to estimate the alignment errors. In this study, we used simulations "
+      },
+      {
+        "name": "acknowledgments",
+        "length": 805,
+        "preview": "from Beamline 13HB for their assistance in testing the focusing system and verifying the method described in this paper. Author contributions All authors contributed to the study conception and design. Material preparation, data collection,"
+      },
+      {
+        "name": "references",
+        "length": 6848,
+        "preview": "1. P. Schöppe, C.S. Schnohr, M. Oertel et al., Improved Ga grading of sequentially produced Cu (In, Ga) Se2 solar cells studied by high resolution X-ray fluorescence. Appl. Phys. Lett. 106, 013909 (2015). https://​doi.​org/​10.​1063/1.​4905"
+      }
+    ],
+    "section_texts": {
+      "preamble": "Vol.:(0123456789) 1 3 Nuclear Science and Techniques (2023) 34:122 https://doi.org/10.1007/s41365-023-01282-4 Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors Jia‑Nan Xie1,2 · Hui Jiang1,3,4 · Ai‑Guo Li1,2,3,4 · Na‑Xi Tian1 · Shuai Yan1 · Dong‑Xu Liang1 · Jun Hu2 Received: 6 March 2023 / Revised: 15 April 2023 / Accepted: 5 May 2023 / Published online: 25 August 2023 © The Author(s), under exclusive licence to China Science Publishing & Media Ltd. (Science Press), Shanghai Institute of Applied Physics, the Chinese Academy of Sciences, Chinese Nuclear Society 2023",
+      "abstract": "A deep learning-based automated Kirkpatrick–Baez mirror alignment method is proposed for synchrotron radiation. We trained a convolutional neural network (CNN) on simulated and experimental imaging data of a focusing system. Instead of learning directly from bypass images, we use a scatterer for X-ray modulation and speckle generation for image feature enhancement. The smallest normalized root-mean-square error on the validation set was 4%. Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment. Single-shot misalignment error estimation only took 0.13 s, significantly outperforming conventional methods. We also demonstrated the effects of the beam quality and pretraining using experimental data. The proposed method exhibited strong robustness, can handle high-precision focusing systems with complex or dynamic wavefront errors, and provides an important basis for intelligent control of future synchrotron radiation beamlines. Keywords Deep learning · Synchrotron radiation · Optics alignment",
+      "introduction": "Synchrotron micro- or nano-focused X-rays have been widely used to explore the microstructures of materials in the fields of energy [1] and material and life sciences [2]. For a coherent source, smaller focusing spots yield higher coherent fluxes, improving the resolution of the recon- structed images. To meet the high demand for X-ray focus- ing systems, aberration-free focusing systems are desired for perfect wavefronts. The Kirkpatrick–Baez (KB) mirror pair is a typical X-ray focusing system [3, 4] consisting of two perpendicular mirrors with elliptical or parabolic shapes. To achieve an ideal focusing spot, in addition to the high- precision surface figure, KB mirrors must be placed accu- rately along the optical axis. Conventionally, a KB mirror is aligned by trial and error. A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan. The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution. Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings. Recently, a near-field speckle-tracking method [9] based on digital image correla- tion (DIC) was developed for extracting wavefront informa- tion, and relevant characteristics of this method, such as the This work was supported by the National Key Research and Development Program (No. 2021YFA1601000), National Natural Science Foundation of China (No. 12175294), and Natural Science Foundation of Shanghai, China (No. 21ZR1471500). * Hui Jiang jiangh@sari.ac.cn * Ai‑Guo Li liag@sari.ac.cn Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China ShanghaiTech University, Shanghai 201210, China Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China University of Chinese Academy of Sciences, Beijing 100049, China J.-N. Xie et al. 1 3 Page 2 of 11 effect of the diffuser grain size [10] and correlation subset size [11], were carefully explored. A speckle-based scanning method was also proposed to directly provide information on the pitch angle error [12]; however, the scanning process is time-consuming, and the acquired alignment information is limited to the pitch angle and wavefront curvature. Another speckle analysis method [13] based on coherent X-ray beams was developed for obtaining alignment error-related infor- mation in one shot based on the inverse relationship between the speckle and focusing spot sizes. A few more shots were required to attenuate the noise in this method. In recent years, the rapid development of deep learning has extended to the field of optical systems. A convolutional neural network (CNN) was trained for estimating the Zernike coefficients of wavefront aberration using a pre-conditioner to increase the number of informative pixels in the detected image [14]. A deep residual wavefront learning method was also proposed to extend the usable range of Lyot-based low- order wavefront sensors [15]. Instead of using images as the network input, Tchebichef moments were introduced to extract the features of point-spread functions (PSFs) and passed to a multiple neural network (MNN) [16]. In the telescope field, a CNN was used for determining the initial estimates of the Zernike coefficients from the PSF images [17] for further iterative refinement. In microscopic systems, deep learning has been used for autofocusing [18, 19] and denoising [20]. In the field of X-rays, neural networks have been used for screening macromolecular X-ray crystallographic diffraction images [21], classification of crystal structures [22], tomographic denoising [23], and Bragg peak analysis [24]. Machine learning-based methods have also been applied to the diagnosis and tuning of accelerators [25, 26]. However, relevant applications of deep learning in X-ray optics alignment and metrology remain lacking. In this study, we propose a single-exposure deep learning- based KB mirror alignment error estimation method. We use the detected images to train a CNN for estimating alignment errors. To improve the performance of the deep learning methods, we place a thin scatterer in the focal plane to modulate the direct beam and generate speckles in the detector plane, because these speckles can carry the wavefront error-related information of the focal plane. We first train the CNN using simulated data and then use experimental data to fine-tune the network. The influence of the beam quality and pre-training with simulated data on the misalignment error estimation is also discussed.",
+      "method": "As shown in Fig. 1, a thin scatterer was placed in the focal plane to generate speckles in the direct beam images on the detector as a modulation (pre-conditioner) for training the CNN. Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them. For a narrowband incident light wave, u(P,t), the mutual intensity can be defined as Ji(P1,P2) = u(P1,t)u*(P2,t). After passing through a thin scatterer with a complex transmit- tance function t(P), the exit mutual intensity becomes Jt(P1 ,P2) = t(P1)t*(P2)Ji(P1,P2). The propagation of the mutual intensity from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig. 1 (Color online) Schematic of the experimental optical path using with the proposed method Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 3 of 11 where λ represents the center wavelength of the narrowband beam, ri is the distance between Pi and Qi, and χ(θi) is the obliquity factor at position Pi. Because only the intensity information can be detected, we consider I(Q) = J(Q,Q) in the detector plane. Let (x,y) denote position Q in the detector plane, and let (α,β) denote position P in the scatterer plane. By assuming a Schell model field Ji (α1,β1,α2,β2) = A(α1,β1)A(α2,β2)μ(α1 − α2, β1 − β2) and using the Fresnel approximation, we obtain the following simpli- fied expression: As indicated by the above equation, the scatterer perturbs the detected intensity. Using deep learning methods, we can extract the speckle difference owing to the scatterer by learning together the detected images with and without scattering. Deep learning methods use backpropagation and gradient descent for optimizing the parameters of artificial neural networks. A typical artificial neural network contains many layers of neurons. Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions. The gradient of the loss function capturing the difference between the model predictions and ground truth is propagated backward through the network starting from the output layer, according to the backpropagation algorithm. Specifically, for a layer of neurons, the forward and backward propagation rules are as follows: (1) J(Q1, Q2 ) = ∬S1 ∬S1 (P1, P2 ) exp −j2휋 (r2 −r1 )]휒(휃1) 휆r1 휒(휃2) 휆r2 d휎1d휎2, (2) I(x, y) = (휆z)2 ∬S1 ∬S1 t(훼1, 훽1)t∗(훼2, 훽2)A 훼1, 훽1 훼2, 훽2 훼1 −훼2, 훽1 −훽2 exp −j 휋 (훼2 2 −훼2 1 + 훽2 2 −훽2 exp −j2휋 (x(훼1 −훼2) + y(훽1 −훽2))] d훼1d훼2d훽1d훽2. where z indicates the output of a given layer, w and b repre- sent the weight and bias parameters of individual neurons of this layer, respectively, x is the input to this layer (also the output from the previous layer), L is the loss function reflecting the optimization objective, and constructs such as ∂L/∂x are backpropagation gradients formulated as Jacobian matrices. For image processing, CNNs have become much more popular than vanilla multilayer neural networks, accord- ing to some recent advances in deep learning. Compared with conventional multilayer neural networks, CNNs lever- age the ideas of local connectivity, parameter sharing, and pooling of hidden units. Thus, they are more computation- ally efficient, exploit the 2D topology of image pixels, and account for translation invariance. The backbone CNN in the present study was ResNet50 [28] (schematically shown in Fig. 2), which demonstrated good performance on vari- ous vision tasks and has been a popular backbone network for many types of vision-related tasks. We added a dropout layer with a drop ratio of 0.2 to mitigate the overfitting (3) z = 휑(wTx + b) (4) 휕x = 휕z 휕z , Fig. 2 (Color online) Schematic of the misalignment error esti- mation process. Dropout: drop- out layer. FC: fully connected layer. Conv: convolution layer J.-N. Xie et al. 1 3 Page 4 of 11 problem; in addition, we added a fully connected layer for regression. 3 \u0007Simulation results Considering the sensitivity of the different alignment errors associated with KB mirrors, we focused on six main degrees of freedom: (1, 2) vertical and horizontal pitch angles, (3, 4) vertical and horizontal curvatures, (5) astigmatism, and (6) defocus. Single-micron focusing was pursued based on the experimental environment. First, a simulation was performed to verify the feasibil- ity of the proposed method. The optical layout and photon energy of 10 keV were the same as in the experiment in beamline BL15U (more detailed information is provided in Sect. 4), as shown in Fig. 1. The simulation was conducted in 1D for horizontal and vertical focusing first, then combined to form a 2D focus by shearing and matrix multiplication, and finally was propagated to the detector plane to reduce the computational complexity. The source was simulated using an array of point sources with a random phase sampled from a uniform distribution within a preset range. Based on the diffraction fringes generated by the source and the rela- tionship between the contrast of the fringes and coherence length of the Gauss–Schell model, the transverse coherence length values at the source position were measured as less than 3 μm horizontally and 42 μm vertically in simulations (averages over one thousand replicates). A thin scatterer was simulated using five layers of randomly distributed 500-nm- size Cu particles, as shown in Fig. 3a. The particle sizes were drawn from a Gaussian distribution (mean, 500 nm; standard deviation, 0.25 of the mean). The tangential figure of the KB mirrors was simulated using an elliptical curve with randomly added high- and low-frequency errors. High- frequency figure errors were drawn from a Gaussian distri- bution (root-mean-square (RMS), 0.2 nm; peak and valley (PV), 1 nm), while low-frequency figure errors were drawn using a sin function of a complete cycle with a 30-nm PV and a random initial phase. Medium- or low-frequency fig- ure errors yielded coherent stripes in far-field images, dif- ferent from lower-frequency alignment errors. To overcome a possible alignment error-related estimation bias intro- duced by figure errors, the mirror figure was not fixed in the simulations; for each generated figure, the simulation was repeated 10 times, and a new figure was generated and used. An example error curve is shown in Fig. 3b. The lengths of the horizontal focusing mirror (HFM) and vertical focusing mirror (VFM) were both 200 mm to simulate the KB mirrors used in experiments. The ideal focus size without alignment errors was approximately 1 μm in both directions. The tolerances for the six main misalignment parameters were estimated using the Strehl ratio based on the Marechal criterion, using the simulation results. The Strehl ratio averaged over 100 simulations with a random source field sampled from a uniform distribution, and the corresponding results are listed in Table 1. For better reliability and robustness, we also added devi- ations of other degrees of freedom to the simulations as experimental noise to avoid overfitting to an ideal environ- ment; these errors included the error of the detector position, roll angle error, and beam in-/out-axis error (the distance that the mirror moved from the optical axis in the tangential plane). We did not include the roll angle error in the estima- tion because the simulation program was unable to simu- late comprehensive 2D interaction of the beam and mirrors, which led to the focus insensitivity to the roll error, and the proposed experimental platform was unable to adjust the roll angle between mirrors. This perpendicularity error can be easily included in the estimation by adding a dimension to the output of the last FC layer, if required. The simulation was implemented according to the optical layout shown in Fig. 1, and 8000 samples were generated using the simula- tion program for machine learning, one of which is shown in Fig. 4. Owing to the 1D simulation of the KB focusing process, the vertical and horizontal beam propagations were decoupled, and there was an obvious correlation between the detected images for different directional points, owing to the matrix multiplication of the focus field. The alignment parameters and error ranges are listed in Table 2, where the errors were randomly drawn from a uniform distribution. The range of the estimated errors was chosen to enlarge the Fig. 3 (Color online) Example simulated optical elements. a Simu- lated scatterer composed of Cu particles and b simulated figure error of the KB mirror. Scale bar: 20 μm Table 1 Estimated tolerances for six main alignment parameters Mirrors Alignment parameters Pitch angle (μrad) Curvature ­(km−1) Astigma- tism (μm) Defocus (μm) VFM 9.5 1.2 × ­10−2 HFM 4.5 1.5 × ­10−2 Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 5 of 11 focal spot to approximately 10 μm; the range of the errors acting as noise was chosen to not visibly affect the size of the focal spots. We used the Adam optimizer [29] for training our CNN, because it generally converges faster than the stochastic gradient descent (SGD) method. The learning rate was ­10−4, with a rate of decrease at 0.978 per epoch. The batch size was 10, and the training was performed for 80 epochs. Gaussian noise with a signal-to-noise ratio (SNR) of 50 dB was added to the images to simulate a practical noise envi- ronment for further robustness. The misalignment errors were normalized to the [− 1, 1] range as the target value to avoid gradient explosion or imbalanced weights among the estimated errors. The loss function was the mean square error (MSE), commonly used in regression tasks. The method was implemented in PyTorch and executed on an NVDIA A100 GPU with 40 GB of VRAM. The training was performed using three different data- sets: speckles, direct beams, and both. We combined the speckle and direct beam images in different channels for training. The results are listed in Table 3, and the training results for the speckle dataset are shown in Fig. 5. The RMSEs between the ground truth and estimated align- ment errors for the test datasets were 0.271 ± 0.126 for the combined dataset of speckle and direct beam images, 0.265 ± 0.122 for the dataset of speckle images, and 0.273 ± 0.126 for the dataset of direct beam images, while the corresponding RMSEs for the training datasets were 0.05, 0.045, and 0.047, respectively. Overfitting occurred early during training, and the RMSE of the test dataset decreased slowly approximately from epoch 10, as shown in Fig. 5c. While the RMSE of the training error continued to decrease to 0.045 over the entire training process, the RMSE of the validation error stopped at approximately 0.3 and started to oscillate around it with a small amplitude. This happened because the randomness of the incident beam status and mirror figure strongly affected the features of the detected images; for one set of misalignment error parameters, the detected images generated in the simula- tions varied strongly in the case of different statuses of the incident beam and mirror figures. Increasing the amount of data or using a constant phase for the incident beams and mirror figures may relieve this problem. The best per- formance was obtained for the speckle dataset. Combin- ing the images from the speckle and direct beam datasets did not utilize the advantages of both datasets, and the resultant performance was similar to that obtained using Fig. 4 (Color online) Example simulated speckle (a) and direct beam (b) detector images. Scale bar: 1 mm Table 2 Alignment parameters and ranges of misalignment errors in the simulations FH refers to the focal length of the HFM, while FV refers to the focal length of the VFM Alignment terms Parameters Range of errors VFM pitch angle (mrad) ± 0.02 HFM pitch angle (mrad) ± 0.03 Astigmatism (mm) ± 3 Horizontal focus position (m) 0.270 ± 0.002 Vertical focus position (m) 0.517 ± 0.002 VFM curvature ­(km−1) 2.9 ± 0.15 HFM curvature ­(km−1) 5.7 ± 1.2 Roll angle (mrad) ± 0.05 Detector position (mm) ± 100 VFM beam in/out error (μm) ± 2 HFM beam in/out error (μm) ± 2 Table 3 Summary of validation accuracies (RMSEs) of normalized misalignment error estimation models trained on the simulated data Index Alignment parameters",
+      "data": "Speckles Direct beam Both VFM pitch angle 0.110 ± 0.078 0.114 ± 0.066 0.104 ± 0.060 HFM pitch angle 0.226 ± 0.146 0.205 ± 0.122 0.233 ± 0.146 VFM curvature 0.131 ± 0.080 0.132 ± 0.079 0.170 ± 0.108 HFM curvature 0.069 ± 0.050 0.087 ± 0.064 0.140 ± 0.120 Astigmatism 0.505 ± 0.286 0.526 ± 0.300 0.525 ± 0.300 Defocus 0.414 ± 0.243 0.424 ± 0.246 0.391 ± 0.224 J.-N. Xie et al. 1 3 Page 6 of 11 only the dataset with direct beam images. Among the six parameters, astigmatism and defocus were the main con- tributors to the RMSE of the alignment error. Because these two parameters spanned small ranges compared with the large depth of focus, the detected images had low sen- sitivity to changes. Compared with the estimation of the Zernike wavefront coefficient, the proposed method directly obtains informa- tion about the misalignment of KB mirrors rather than infer- ring the misalignment from the wavefront phase information provided by the Zernike coefficients and wavefront ampli- tude information calculated from the intensity information of the detected images. By using an end-to-end misalignment estimation model, this method introduces fewer calculation errors. 4 \u0007Experimental results and discussion The experiment was conducted at the beamline BL15U of the Shanghai Synchrotron Radiation Facility (SSRF), using photons with the energy of 10 keV. The secondary source aperture was 200 μm × 30 μm for improving the beam coher- ence, and the coherence lengths at aperture were 4.25 μm in the horizontal direction and 66.55 μm in the vertical direc- tion [30]. Bendable KB mirrors (active length, 200 mm) were pre-aligned with a silicon substrate at the beamline. The slope error along the optical axis of the KB mirrors was less than 0.5 μrad, and the roughness of the surfaces coated with Pt and Rh layers was at least 0.3 nm RMS. The ends of the mirrors were equipped with two bending rods above and below the surfaces, for applying the bending force, and two fixed rods were used to support and stabilize the mir- rors. The curvatures of the KB mirrors were adjusted using actuators attached to the benders. A thin sandpaper scat- terer was placed at the focus. A microscope objective lens system (Optique Peter) coupled to a complementary metal- oxide semiconductor (CMOS) camera (Hamamatsu) was placed 2075-mm downstream from the focus. The detector pixel size was 1.625 μm, and there were 2048 × 2048 pixels. To pass their values to our CNN, we cut the image from the beam center to reduce the space occupied by the back- ground and downsampled it to 500 × 500 pixels, considering the computational ability of the network. The position of the minimal spot size based on the knife-edge scan results was considered the zero-error position for the alignment. Although the theoretical focus area was 1.1 μm × 1.6 μm (H × V), which was calculated by ray tracing using Shadow VUI simulation program [31], owing to the optical degrada- tion from the upper stream, experimental noise, and knife- edge vibration, the measured focus spot was approximately 4 μm in both directions, which was much larger than the size used in simulations. The two sets of focus spots measured using the knife-edge scan method at different foci and pitch angles are shown in Fig. 6. The network trained on the simulated data was used as the first guess for training on the experimental data. To examine the extent to which the simulations helped for estimating experimental alignment errors by the model, we also attempted to fine-tune the network trained on the simulated Fig. 5 (Color online) Results of training the network on the speckle data. a A detected image generated by the simula- tion. b The corresponding estimation. c The RMSE drop during the training process. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM cur- vature, (4) HFM curvature, (5) astigmatism, and (6) defocus 0.0 0.1 0.2 0.3 0.4 0.5 0.6 RMSE of normalized errors Epoch Training error Validation error -0.6 -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 Normalized error Error index Ground truth Estimation (b) (c) Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 7 of 11 data using the experimental data, with the backbone CNN and parameters that were determined using the simulated data. We attempted to freeze the parameters of the full ResNet50 network, including only the convolution layers, and unfreeze the parameters of the last convolution layer of ResNet50. Because the simulation results slightly differed from the experimental results, owing to the simulation limitations and environmental differences between the source and optical characteristics of the experimental and simulation setups, estimating experimental alignment errors using the CNN trained on the simulated data directly could yield relatively large estimation errors. The learning rate was ­10−4 and the batch size was 10. The training was performed for 80 epochs on an NVDIA A100 GPU with 40 GB of VRAM, with one epoch taking on average less than 1 s. During the training, the model with the lowest RMSE on the verification set was selected. In the validation process, one estimation of the misalignment error took, on average, 0.13 s. The experiment was performed twice under different beam-quality conditions, and two sets of data were gener- ated. Overall, 1762 images and their corresponding align- ment parameters (selected from a regular grid) were col- lected; the collected images were divided into training and validation sets, at the 8:2 ratio. As shown in Fig. 7a and b, the images obtained in the first experiment had many more stripes than those obtained in the second experiment, indi- cating that the beam underwent serious phase modulation owing to the beryllium window. Before passing the data to the CNN, the alignment errors were normalized, and their ranges are listed in Table 4. The RMSEs of the training results for the two experiments are listed in Table 5, indi- cating that the normalized RMSE achieved the best accu- racy of approximately 4%. Example detected images from the validation set are shown in Fig. 7a–d, and the estima- tion results of the model trained with the full network cor- responding to Fig. 7d are shown in Fig. 7e. For the direct beam data, the defocus error term was zero because there was no sample at the focal spot for defocus detection. The astigmatism error was fixed because the distance between the HFM and VFM at the BL15U beamline was the same. Owing to the differences between the image characteristics of the simulated and experimental data, training the convolu- tion layers was necessary for improving the precision of the estimations, and training the last convolution block could substantially improve performance. For the training process with the full trainable network, overfitting was still remark- able for the data obtained in the first experiment, while the same phenomenon was much less likely to be observed for the training process using the data obtained in the second experiment, as can be seen from Fig. 7f–g. Comparing the learning processes of the two experiments, it is evident that the beam quality significantly affected the generalization capability of the neural network. Although it provided more features, the phase modulation noise made it more difficult for the network to recognize useful information for the esti- mation of alignment errors and caused the network to con- fuse different focus states; more training data are required for addressing this problem. A line chart of the different errors estimated by the net- work trained on the simulation data as the first estimate is shown in Fig. 8. According to the normalization, for the validation results of the model trained using the speckle data obtained in the first and second experiments, the RMSEs of the VFM pitch error estimation are listed in Table 4. Compared with the defocus errors, the pitch and curvature errors are more sensitive. This is because changes in the pitch and curvature induce more internal structural changes Fig. 6 Knife-edge scan results at different pitch angles and foci. Both scans were performed in the horizontal direction; the results obtained for the vertical direction were similar. a Data were collected in the first experiment. b Data were collected in the second experiment J.-N. Xie et al. 1 3 Page 8 of 11 in the images and are easier to extract and recognize as fea- tures. With respect to the simulation data, figure errors of the mirrors were randomly generated to alleviate their influ- ence on the misalignment error estimation. With respect to the experimental data, because the estimation model was specifically trained for a KB mirror focusing system in a fixed optical layout, the figure error was not considered separately because it would not change for a KB mirror. For further figure errors arising from in situ elements, the curva- ture and pitch angle errors caused by figure errors may even be compensated for by the estimated misalignment errors. The misalignment error estimation models trained on the data obtained in the first experiment performed even better than the models trained on the data that were obtained in the second experiment, when compared in terms of the RMSEs of non-normalized misalignment errors. This indicates that the deep learning method has the potential to overcome the effect of the beam noise, such as stripes. In addition to the explanation positing that more features were introduced by the noisy beam, another possible reason for the unusual per- formance reversal is the effect of the normalization range on the estimation accuracy. For a larger range of misalignment errors, there are larger intervals between different misalign- ment error data, which means that a much smaller estima- tion error of the normalized misalignment errors can cause a large estimation error of the non-normalized misalignment error. This also shows that the ranges of the misalignment Fig. 7 Training results for the misalignment error estimation model trained on four differ- ent experimental datasets. a, b Direct beam images from the first and second experiments, respectively. c, d Speckle images from the first and second experiments, respectively. e Line chart of estimated errors and ground truth corresponding to (d). f, g RMSE drop curves during the training process for speckle data from the first and second experiments, respec- tively. Error indices: (1) VFM pitch, (2) HFM pitch, (3) VFM curvature, (4) HFM curvature, (5) astigmatism, and (6) defocus 0.0 0.1 0.2 0.3 RMSE of normalized errors Epoch Training error Validation error -0.4 -0.2 0.0 0.2 0.4 0.6 0.8 1.0 Normalized error Error index Ground truth Estimation 0.0 0.1 0.2 0.3 RMSE of normalized errors Epoch Training error Validation error (a) (b) (f) (d) (e) (c) (g) Table 4 Ranges and estimation accuracy (RMSEs) of misalignment errors for the experimental data Alignment term 1st experiment 2nd experiment Error range Accuracy Error range Accuracy VFM pitch angle (μrad) ± 16 1.676 ± 80 4.255 HFM pitch angle (μrad) ± 16 1.017 ± 60 2.307 VFM curvature ­(km−1) ± 0.015 8.3 × ­10−4 ± 0.03 1.03 × ­10−3 HFM curvature ­(km−1) ± 0.015 6.2 × ­10−4 ± 0.03 1.08 × ­10−3 Astigmatism (mm) 0 (fixed) 1 (fixed) Defocus (mm) ± 4.5 1.605 ± 9 0.631 Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 9 of 11 errors we chose in the experiments were still far from the resolution limit of the neural network model we used. For smaller ranges, the network may still provide a relatively accurate estimation of the normalized misalignment errors, indicating that the network has the potential for more accu- rate estimation. Considering the overfitting problem, we assumed that the neural network model would perform bet- ter on larger datasets. We also attempted to train the net- work using experimental data without pre-training it on the simulated data. After a sufficiently long training process, the network achieved the performance comparable to that of the previously trained network. However, with a pretrained network, the training process was significantly shorter. To explore the training process of the neural network model for the estimation of the misalignment errors of KB mirrors more clearly, we drew feature maps of the networks extracted from one detected image and show them in Fig. 9. The first convolution layer was responsible for extracting related information from the input image and standardizing the format of the feature images. It mainly focused on high- intensity loci. The first layer of ResNet extracted texture- related information from the image and distinguished the speckles surrounding the center beam image and different texture patterns in the beam image. The second layer fur- ther extracted texture features, while the third layer sum- marized the features. As shown in Fig. 9d, both localized and global features were present in the feature maps of the third layer. The last convolution layer of ResNet extracted highly abstract information with a large field of view. Instead of fine textured features, this layer yielded coarse-grained structural features. The saliency map of the network attention is shown in Fig. 10. The network extracted information from both the detected beam and speckles surrounding the beam. It also successfully avoided positions with saturated intensity at the lower and right edges of the beam that did not contain any information. Using this technique with a well-trained neural network that can make accurate estimations, we can trace which features were captured by the network and how the features were processed to obtain the result, which can help us verify whether the network learned the mechanics Table 5 Summary of validation accuracies (RMSEs) of the normalized misalignment error estimation using the deep learning model trained on the experimental data a 1st experiment result, ‘experiment’ is omitted, same for the rest of this row b Freeze all convolution layers c Unfreeze the last Resblock, freeze all other convolution layers 1st direct ­beama 1st speckle 2nd direct beam 2nd speckle Train full net 0.097 ± 0.088 0.117 ± 0.105 0.062 ± 0.038 0.040 ± 0.024 Freeze ResNet 0.296 ± 0.165 0.204 ± 0.127 0.239 ± 0.110 0.223 ± 0.113 Freeze conv ­1b 0.222 ± 0.120 0.199 ± 0.118 0.234 ± 0.110 0.213 ± 0.115 Freeze conv ­2c 0.116 ± 0.101 0.140 ± 0.107 0.115 ± 0.059 0.061 ± 0.028 Fig. 8 RMSEs of different normalized errors between estimations, for the model trained on the simulation data as first guess and ground truth. Error indices are the same as in Fig. 7 Fig. 9 (Color online) Feature maps of convolution layers of misalign- ment error estimation models trained on the experimental data. From a to e shown are feature maps from the first convolution layer, layer 1 of ResNet50, layer 2 of ResNet50, layer 3 of ResNet50, and layer 4 (the last layer) of ResNet50; each picture contains 64 feature maps. For layers containing more than 64 feature maps, only the first 64 fea- ture maps are shown J.-N. Xie et al. 1 3 Page 10 of 11 correctly rather than simply fitting data by some tricky means. By careful examination and analysis of the feature processing and attention capabilities of the model, we can understand the structural relationship of input images to tar- get values and may find directions to explain the estimation process and establish the relationship between the detected phenomena and underlying factors.",
+      "conclusion": "A machine learning-based method was presented for estimating the KB mirror alignment error. Direct-beam and speckle-modulated images were captured by a detector for a CNN to estimate the alignment errors. In this study, we used simulations to predict the different performances of detected images under different alignment errors and scatterer conditions and generated training data for deep learning. We verified this method experimentally and estimated the effect of the beam quality. Both experiments exhibited good estimation accuracy, which proved the repeatability of this method. The results demonstrate the applicability of the proposed method. The proposed method can provide fast and relatively accurate alignment error estimation based on a single- exposure experiment, even under noisy beam conditions. Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s. Similar approaches can be applied to other machine learning-based beam diagnosis problems. By combining simulations and multiple experiments with related visualization technology, we aimed to provide a reliable, trustworthy, and traceable deep learning-based optical metrology approach. However, the error estimation of the network relies heavily on the layout of the beamline and calibration accuracy. The estimation becomes inaccurate if the beamline is modified because the network cannot learn the intrinsic relationship between the alignment error and beam propagation. In addition, different networks for different beamline layouts require large amounts of data and time to train. In future studies, we will optimize the light source model and elucidate the role of mirror figure errors in the beam propagation. A more accurate model will significantly improve the accuracy of the proposed method. For further applications, the robustness, reliability, and generalization of machine learning methods in optical tasks should be improved. This framework can be applied to a wide range of optical imaging systems involving the alignment of optical elements. With the improvement of the analytical ability of neural networks and the development of adaptive optical techniques, we are hopeful that this method will eliminate the dependency on specific scenarios and will enable learning from a generalized beam-generating scheme, avoiding repetitive training on different optical layouts while providing better estimations. This will be helpful for advancing toward a fully intelligent beamline control.",
+      "acknowledgments": "from Beamline 13HB for their assistance in testing the focusing system and verifying the method described in this paper. Author contributions All authors contributed to the study conception and design. Material preparation, data collection, and analysis were performed by Na-Xi Tian, Hui Jiang, Shuai Yan, Dong-Xu Liang, Ai-Guo Li, Jun Hu, and Jia-Nan Xie. The first draft of the manuscript was written by Jia-Nan Xie, Hui Jiang, Ai-Guo Li, and Jun Hu, and all authors commented on previous versions of the manuscript. All authors read and approved the final manuscript. Data availability The data that support the findings of this study are openly available in Science Data Bank at https://​www.​doi.​org/​10.​ 57760/​scien​cedb.​j00186.​00138 and https://​cstr.​cn/​31253.​11.​scien​cedb.​ j00186.​00138",
+      "references": "1. P. Schöppe, C.S. Schnohr, M. Oertel et al., Improved Ga grading of sequentially produced Cu (In, Ga) Se2 solar cells studied by high resolution X-ray fluorescence. Appl. Phys. Lett. 106, 013909 (2015). https://​doi.​org/​10.​1063/1.​49053​47 2. C. Sanchez-Cano, D. Gianolio, I. Romero-Canelon et al., Nano- focused synchrotron X-ray absorption studies of the intracellular redox state of an organometallic complex in cancer cells. Chem. Commun. 55, 7065–7068 (2019). https://​doi.​org/​10.​1039/​C9CC0​ 1675A 3. P. Kirkpatrick, A.V. Baez, Formation of optical images by X-rays. J. Opt. Soc. Am. 38, 766–774 (1948). https://​doi.​org/​10.​1364/​ JOSA.​38.​000766 4. D.-C. Zhu, J.-H. Yue, Y.-F. Sui et al., Performance of beam size monitor based on Kirkpatrick-Baez mirror at SSRF. Nucl. Sci. Tech. 29, 148 (2018). https://​doi.​org/​10.​1007/​s41365-​018-​0477-y 5. S. Handa, T. Kimura, H. Mimura et al., Extended knife-edge method for characterizing sub-10-nm X-ray beams. Nucl. Instrum. Methods Phys. Res. Sect A. 616, 246–250 (2010). https://​doi.​org/​ 10.​1016/j.​nima.​2009.​10.​131 6. B.C. Platt, R. Shack, History and Principles of Shack-Hartmann Wavefront Sensing (SLACK Incorporated Thorofare, NJ, 2001), pp.S573–S577 Fig. 10 (Color online) Saliency maps for the misalignment error esti- mation models trained on the experimental data. a Input image and b the saliency map generated for this input image Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 11 of 11 7. H. Wang, S. Berujon, K. Sawhney, Development of at-wavelength metrology using grating-based shearing interferometry at Dia- mond Light Source. J. Phys. Conf. Ser. 425, 052021 (2013). https://​doi.​org/​10.​1088/​1742-​6596/​425/5/​052021 8. T. Weitkamp, B. Nöhammer, A. Diaz et al., X-ray wavefront analy- sis and optics characterization with a grating interferometer. Appl. Phys. Lett. 86, 054101 (2005). https://​doi.​org/​10.​1063/1.​18570​66 9. S. Bérujon, E. Ziegler, R. Cerbino et al., Two-dimensional X-ray beam phase sensing. Phys. Rev. Lett. 108, 158102 (2012). https://​ doi.​org/​10.​1103/​PhysR​evLett.​108.​158102 10. N. Tian, H. Jiang, A. Li et al., Influence of diffuser grain size on the speckle tracking technique. J. Synchrotron Radiat. 27, 146– 157 (2020). https://​doi.​org/​10.​1107/​S1600​57751​90152​00 11. N. Tian, H. Jiang, A. Li et al., High-precision speckle-tracking x-ray imaging with adaptive subset size choices. Sci. Rep. 10, 1–12 (2020). https://​doi.​org/​10.​1038/​s41598-​020-​71158-9 12. T. Zhou, H. Wang, O. Fox et al., Auto-alignment of X-ray focus- ing mirrors with speckle-based at-wavelength metrology. Opt. Express. 26, 26961–26970 (2018). https://​doi.​org/​10.​1364/​OE.​ 26.​026961 13. T. Inoue, S. Matsuyama, J. Yamada et al., Generation of an X-ray nanobeam of a free-electron laser using reflective optics with speckle interferometry. J. Synchrotron Radiat. 27, 883–889 (2020). https://​doi.​org/​10.​1107/​S1600​57752​00069​80 14. Y. Nishizaki, M. Valdivia, R. Horisaki et al., Deep learning wave- front sensing. Opt. Express 27, 240–251 (2019). https://​doi.​org/​ 10.​1364/​OE.​27.​000240 15. G. Allan, I. Kang, E.S. Douglas et al., Deep residual learning for low-order wavefront sensing in high-contrast imaging systems. Opt. Express 28, 26267–26283 (2020). https://​doi.​org/​10.​1364/​ OE.​397790 16. G. Ju, X. Qi, H. Ma et al., Feature-based phase retrieval wave- front sensing approach using machine learning. Opt. Express 26, 31767–31783 (2018). https://​doi.​org/​10.​1364/​OE.​26.​031767 17. S.W. Paine, J.R. Fienup, Machine learning for improved image- based wavefront sensing. Opt. Lett. 43, 1235–1238 (2018). https://​ doi.​org/​10.​1364/​OL.​43.​001235 18. H. Ding, F. Li, Z. Meng et al., Auto-focusing and quantitative phase imaging using deep learning for the incoherent illumina- tion microscopy system. Opt. Express 29, 26385–26403 (2021). https://​doi.​org/​10.​1364/​OE.​434014 19. J. Liao, X. Chen, G. Ding et al., Deep learning-based single-shot autofocus method for digital microscopy. Biomed. Opt. Express. 13, 314–327 (2022). https://​doi.​org/​10.​1364/​BOE.​446928 20. S. Montresor, M. Tahon, P. Picart, Review of deep learning based de-noising algorithms for phase imaging and applications to high- speed coherent imaging, in OSA Imaging and Applied Optics Congress 2021 (3D, COSI, DH, ISA, pcAOP). (Optica Publishing Group, Washington, DC, 2021) 21. T.-W. Ke, A.S. Brewster, S.X. Yu et al., A convolutional neural network-based screening tool for X-ray serial crystallography. J. Synchrotron Radiat. 25, 655–670 (2018). https://​doi.​org/​10.​1107/​ S1600​57751​80048​73 22. S. Lolla, H. Liang, A.G. Kusne et al., A semi-supervised deep- learning approach for automatic crystal structure classification. J. Appl. Crystallogr. 55, 882–889 (2022). https://​doi.​org/​10.​1107/​ S1600​57672​20060​69 23. Y.-J. Ma, Y. Ren, P. Feng et al., Sinogram denoising via attention residual dense convolutional neural network for low-dose com- puted tomography. Nucl. Sci. Tech. 32, 41 (2021). https://​doi.​org/​ 10.​1007/​s41365-​021-​00874-2 24. Z. Liu, H. Sharma, J.-S. Park et al., BraggNN: fast X-ray Bragg peak analysis using deep learning. IUCrJ. 9, 104–113 (2022). https://​doi.​org/​10.​1107/​S2052​25252​10112​58 25. L.-Y. Zhou, H. Zha, J.-R. Shi et al., A non-invasive diagnostic method of cavity detuning based on a convolutional neural net- work. Nucl. Sci. Tech. 33, 94 (2022). https://​doi.​org/​10.​1007/​ s41365-​022-​01069-z 26. Y.-B. Yu, G.-F. Liu, W. Xu et al., Research on tune feedback of the Hefei Light Source II based on machine learning. Nucl. Sci. Tech. 33, 28 (2022). https://​doi.​org/​10.​1007/​s41365-​022-​01018-w 27. J.W. Goodman, Statistical Optics (John Wiley & Sons, Hoboken, 2015) 28. K. He, X. Zhang, S. Ren, et al., Deep residual learning for image recognition, in Proceedings of the IEEE conference on computer vision and pattern recognition (2016) 29. D.P. Kingma, J. Ba, Adam: a method for stochastic optimization, in 3rd International Conference on Learning Representations (San Diego, CA, USA, 2015) 30. H. Wang, S. Yan, F. Yan et al., Research on spatial coherence of undulator source in Shanghai synchrotron radiation facility. Acta Phys. Sin. 61, 144102 (2012). https://​doi.​org/​10.​7498/​aps.​ 61.​144102 31. L.L. Zhang, Y. Shuai, S. Jiang et al., Hard X-ray micro-focusing beamline at SSRF. Nucl. Sci. Tech. 26, 060101 (2015). https://​doi.​ org/​10.​13538/j.​1001-​8042/​nst.​26.​060101 Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law."
+    },
+    "candidate_chunks": {
+      "abstract": [
+        {
+          "text": "A deep learning-based automated Kirkpatrick–Baez mirror alignment method is proposed for synchrotron radiation. We trained a convolutional neural network (CNN) on simulated and experimental imaging data of a focusing system.",
+          "source_section": "abstract",
+          "page_hint": "",
+          "kind_hint": "abstract",
+          "actual_source_section": "abstract"
+        },
+        {
+          "text": "Instead of learning directly from bypass images, we use a scatterer for X-ray modulation and speckle generation for image feature enhancement. The smallest normalized root-mean-square error on the validation set was 4%.",
+          "source_section": "abstract",
+          "page_hint": "",
+          "kind_hint": "abstract",
+          "actual_source_section": "abstract"
+        },
+        {
+          "text": "Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment. Single-shot misalignment error estimation only took 0.13 s, significantly outperforming conventional methods.",
+          "source_section": "abstract",
+          "page_hint": "",
+          "kind_hint": "abstract",
+          "actual_source_section": "abstract"
+        },
+        {
+          "text": "We also demonstrated the effects of the beam quality and pretraining using experimental data. The proposed method exhibited strong robustness, can handle high-precision focusing systems with complex or dynamic wavefront errors, and provides an important basis for intelligent control of future synchrotron radiation beamlines.",
+          "source_section": "abstract",
+          "page_hint": "",
+          "kind_hint": "abstract",
+          "actual_source_section": "abstract"
+        },
+        {
+          "text": "Keywords Deep learning · Synchrotron radiation · Optics alignment",
+          "source_section": "abstract",
+          "page_hint": "",
+          "kind_hint": "abstract",
+          "actual_source_section": "abstract"
+        }
+      ],
+      "introduction": [
+        {
+          "text": "Synchrotron micro- or nano-focused X-rays have been widely used to explore the microstructures of materials in the fields of energy [1] and material and life sciences [2]. For a coherent source, smaller focusing spots yield higher coherent fluxes, improving the resolution of the recon- structed images.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "To meet the high demand for X-ray focus- ing systems, aberration-free focusing systems are desired for perfect wavefronts. The Kirkpatrick–Baez (KB) mirror pair is a typical X-ray focusing system [3, 4] consisting of two perpendicular mirrors with elliptical or parabolic shapes.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "To achieve an ideal focusing spot, in addition to the high- precision surface figure, KB mirrors must be placed accu- rately along the optical axis. Conventionally, a KB mirror is aligned by trial and error.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan. The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings. Recently, a near-field speckle-tracking method [9] based on digital image correla- tion (DIC) was developed for extracting wavefront informa- tion, and relevant characteristics of this method, such as the This work was supported by the National Key Research and Development Program (No.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "2021YFA1601000), National Natural Science Foundation of China (No. 12175294), and Natural Science Foundation of Shanghai, China (No.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "21ZR1471500). * Hui Jiang jiangh@sari.ac.cn * Ai‑Guo Li liag@sari.ac.cn Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China ShanghaiTech University, Shanghai 201210, China Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China University of Chinese Academy of Sciences, Beijing 100049, China J.-N.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Xie et al. 1 3 Page 2 of 11 effect of the diffuser grain size [10] and correlation subset size [11], were carefully explored.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A speckle-based scanning method was also proposed to directly provide information on the pitch angle error [12]; however, the scanning process is time-consuming, and the acquired alignment information is limited to the pitch angle and wavefront curvature. Another speckle analysis method [13] based on coherent X-ray beams was developed for obtaining alignment error-related infor- mation in one shot based on the inverse relationship between the speckle and focusing spot sizes.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A few more shots were required to attenuate the noise in this method. In recent years, the rapid development of deep learning has extended to the field of optical systems.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "A convolutional neural network (CNN) was trained for estimating the Zernike coefficients of wavefront aberration using a pre-conditioner to increase the number of informative pixels in the detected image [14]. A deep residual wavefront learning method was also proposed to extend the usable range of Lyot-based low- order wavefront sensors [15].",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        },
+        {
+          "text": "Instead of using images as the network input, Tchebichef moments were introduced to extract the features of point-spread functions (PSFs) and passed to a multiple neural network (MNN) [16]. In the telescope field, a CNN was used for determining the initial estimates of the Zernike coefficients from the PSF images [17] for further iterative refinement.",
+          "source_section": "introduction",
+          "page_hint": "",
+          "kind_hint": "problem",
+          "actual_source_section": "introduction"
+        }
+      ],
+      "method": [
+        {
+          "text": "As shown in Fig. 1, a thin scatterer was placed in the focal plane to generate speckles in the direct beam images on the detector as a modulation (pre-conditioner) for training the CNN.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them. For a narrowband incident light wave, u(P,t), the mutual intensity can be defined as Ji(P1,P2) = u(P1,t)u*(P2,t).",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "After passing through a thin scatterer with a complex transmit- tance function t(P), the exit mutual intensity becomes Jt(P1 ,P2) = t(P1)t*(P2)Ji(P1,P2). The propagation of the mutual intensity from the scatterer surface ­S1 to the detector surface ­S2 can be written as [27] Fig.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "1 (Color online) Schematic of the experimental optical path using with the proposed method Deep learning for estimation of Kirkpatrick–Baez mirror alignment errors﻿ 1 3 Page 3 of 11 where λ represents the center wavelength of the narrowband beam, ri is the distance between Pi and Qi, and χ(θi) is the obliquity factor at position Pi. Because only the intensity information can be detected, we consider I(Q) = J(Q,Q) in the detector plane.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "Let (x,y) denote position Q in the detector plane, and let (α,β) denote position P in the scatterer plane. By assuming a Schell model field Ji (α1,β1,α2,β2) = A(α1,β1)A(α2,β2)μ(α1 − α2, β1 − β2) and using the Fresnel approximation, we obtain the following simpli- fied expression: As indicated by the above equation, the scatterer perturbs the detected intensity.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "Using deep learning methods, we can extract the speckle difference owing to the scatterer by learning together the detected images with and without scattering. Deep learning methods use backpropagation and gradient descent for optimizing the parameters of artificial neural networks.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "A typical artificial neural network contains many layers of neurons. Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "The gradient of the loss function capturing the difference between the model predictions and ground truth is propagated backward through the network starting from the output layer, according to the backpropagation algorithm. Specifically, for a layer of neurons, the forward and backward propagation rules are as follows: (1) J(Q1, Q2 ) = ∬S1 ∬S1 (P1, P2 ) exp −j2휋 (r2 −r1 )]휒(휃1) 휆r1 휒(휃2) 휆r2 d휎1d휎2, (2) I(x, y) = (휆z)2 ∬S1 ∬S1 t(훼1, 훽1)t∗(훼2, 훽2)A 훼1, 훽1 훼2, 훽2 훼1 −훼2, 훽1 −훽2 exp −j 휋 (훼2 2 −훼2 1 + 훽2 2 −훽2 exp...",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "where z indicates the output of a given layer, w and b repre- sent the weight and bias parameters of individual neurons of this layer, respectively, x is the input to this layer (also the output from the previous layer), L is the loss function reflecting the optimization objective, and constructs such as ∂L/∂x are backpropagation gradients formulated as Jacobian matrices. For image processing, CNNs have become much more popular than vanilla multilayer neural networks, accord- ing to some recent advances in deep...",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "Compared with conventional multilayer neural networks, CNNs lever- age the ideas of local connectivity, parameter sharing, and pooling of hidden units. Thus, they are more computation- ally efficient, exploit the 2D topology of image pixels, and account for translation invariance.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "The backbone CNN in the present study was ResNet50 [28] (schematically shown in Fig. 2), which demonstrated good performance on vari- ous vision tasks and has been a popular backbone network for many types of vision-related tasks.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        },
+        {
+          "text": "We added a dropout layer with a drop ratio of 0.2 to mitigate the overfitting (3) z = 휑(wTx + b) (4) 휕x = 휕z 휕z , Fig. 2 (Color online) Schematic of the misalignment error esti- mation process.",
+          "source_section": "method",
+          "page_hint": "",
+          "kind_hint": "method",
+          "actual_source_section": "method"
+        }
+      ],
+      "experiment": [
+        {
+          "text": "A machine learning-based method was presented for estimating the KB mirror alignment error. Direct-beam and speckle-modulated images were captured by a detector for a CNN to estimate the alignment errors.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "In this study, we used simulations to predict the different performances of detected images under different alignment errors and scatterer conditions and generated training data for deep learning. We verified this method experimentally and estimated the effect of the beam quality.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Both experiments exhibited good estimation accuracy, which proved the repeatability of this method. The results demonstrate the applicability of the proposed method.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The proposed method can provide fast and relatively accurate alignment error estimation based on a single- exposure experiment, even under noisy beam conditions. Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Similar approaches can be applied to other machine learning-based beam diagnosis problems. By combining simulations and multiple experiments with related visualization technology, we aimed to provide a reliable, trustworthy, and traceable deep learning-based optical metrology approach.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "However, the error estimation of the network relies heavily on the layout of the beamline and calibration accuracy. The estimation becomes inaccurate if the beamline is modified because the network cannot learn the intrinsic relationship between the alignment error and beam propagation.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "In addition, different networks for different beamline layouts require large amounts of data and time to train. In future studies, we will optimize the light source model and elucidate the role of mirror figure errors in the beam propagation.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "A more accurate model will significantly improve the accuracy of the proposed method. For further applications, the robustness, reliability, and generalization of machine learning methods in optical tasks should be improved.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "This framework can be applied to a wide range of optical imaging systems involving the alignment of optical elements. With the improvement of the analytical ability of neural networks and the development of adaptive optical techniques, we are hopeful that this method will eliminate the dependency on specific scenarios and will enable learning from a generalized beam-generating scheme, avoiding repetitive training on different optical layouts while providing better estimations.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "This will be helpful for advancing toward a fully intelligent beamline control.",
+          "source_section": "experiment",
+          "page_hint": "",
+          "kind_hint": "results",
+          "actual_source_section": "conclusion"
+        }
+      ],
+      "conclusion": [
+        {
+          "text": "A machine learning-based method was presented for estimating the KB mirror alignment error. Direct-beam and speckle-modulated images were captured by a detector for a CNN to estimate the alignment errors.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "In this study, we used simulations to predict the different performances of detected images under different alignment errors and scatterer conditions and generated training data for deep learning. We verified this method experimentally and estimated the effect of the beam quality.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Both experiments exhibited good estimation accuracy, which proved the repeatability of this method. The results demonstrate the applicability of the proposed method.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "The proposed method can provide fast and relatively accurate alignment error estimation based on a single- exposure experiment, even under noisy beam conditions. Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "Similar approaches can be applied to other machine learning-based beam diagnosis problems. By combining simulations and multiple experiments with related visualization technology, we aimed to provide a reliable, trustworthy, and traceable deep learning-based optical metrology approach.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "However, the error estimation of the network relies heavily on the layout of the beamline and calibration accuracy. The estimation becomes inaccurate if the beamline is modified because the network cannot learn the intrinsic relationship between the alignment error and beam propagation.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "In addition, different networks for different beamline layouts require large amounts of data and time to train. In future studies, we will optimize the light source model and elucidate the role of mirror figure errors in the beam propagation.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "A more accurate model will significantly improve the accuracy of the proposed method. For further applications, the robustness, reliability, and generalization of machine learning methods in optical tasks should be improved.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "This framework can be applied to a wide range of optical imaging systems involving the alignment of optical elements. With the improvement of the analytical ability of neural networks and the development of adaptive optical techniques, we are hopeful that this method will eliminate the dependency on specific scenarios and will enable learning from a generalized beam-generating scheme, avoiding repetitive training on different optical layouts while providing better estimations.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        },
+        {
+          "text": "This will be helpful for advancing toward a fully intelligent beamline control.",
+          "source_section": "conclusion",
+          "page_hint": "",
+          "kind_hint": "limitations",
+          "actual_source_section": "conclusion"
+        }
+      ],
+      "data": [
+        {
+          "text": "A deep learning-based automated Kirkpatrick–Baez mirror alignment method is proposed for synchrotron radiation. We trained a convolutional neural network (CNN) on simulated and experimental imaging data of a focusing system.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "Instead of learning directly from bypass images, we use a scatterer for X-ray modulation and speckle generation for image feature enhancement. The smallest normalized root-mean-square error on the validation set was 4%.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment. Single-shot misalignment error estimation only took 0.13 s, significantly outperforming conventional methods.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "We also demonstrated the effects of the beam quality and pretraining using experimental data. The proposed method exhibited strong robustness, can handle high-precision focusing systems with complex or dynamic wavefront errors, and provides an important basis for intelligent control of future synchrotron radiation beamlines.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "Keywords Deep learning · Synchrotron radiation · Optics alignment Synchrotron micro- or nano-focused X-rays have been widely used to explore the microstructures of materials in the fields of energy [1] and material and life sciences [2]. For a coherent source, smaller focusing spots yield higher coherent fluxes, improving the resolution of the recon- structed images.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "To meet the high demand for X-ray focus- ing systems, aberration-free focusing systems are desired for perfect wavefronts. The Kirkpatrick–Baez (KB) mirror pair is a typical X-ray focusing system [3, 4] consisting of two perpendicular mirrors with elliptical or parabolic shapes.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "To achieve an ideal focusing spot, in addition to the high- precision surface figure, KB mirrors must be placed accu- rately along the optical axis. Conventionally, a KB mirror is aligned by trial and error.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan. The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings. Recently, a near-field speckle-tracking method [9] based on digital image correla- tion (DIC) was developed for extracting wavefront informa- tion, and relevant characteristics of this method, such as the This work was supported by the National Key Research and Development Program (No.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "2021YFA1601000), National Natural Science Foundation of China (No. 12175294), and Natural Science Foundation of Shanghai, China (No.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "21ZR1471500). * Hui Jiang jiangh@sari.ac.cn * Ai‑Guo Li liag@sari.ac.cn Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China ShanghaiTech University, Shanghai 201210, China Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China University of Chinese Academy of Sciences, Beijing 100049, China J.-N.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        },
+        {
+          "text": "Xie et al. 1 3 Page 2 of 11 effect of the diffuser grain size [10] and correlation subset size [11], were carefully explored.",
+          "source_section": "data",
+          "page_hint": "",
+          "kind_hint": "data",
+          "actual_source_section": "data"
+        }
+      ],
+      "general": [
+        {
+          "text": "A deep learning-based automated Kirkpatrick–Baez mirror alignment method is proposed for synchrotron radiation. We trained a convolutional neural network (CNN) on simulated and experimental imaging data of a focusing system.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Instead of learning directly from bypass images, we use a scatterer for X-ray modulation and speckle generation for image feature enhancement. The smallest normalized root-mean-square error on the validation set was 4%.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Compared with conventional alignment methods based on motor scanning and analyzer setups, the present method simplified the optical layout and estimated alignment errors using a single-exposure experiment. Single-shot misalignment error estimation only took 0.13 s, significantly outperforming conventional methods.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "We also demonstrated the effects of the beam quality and pretraining using experimental data. The proposed method exhibited strong robustness, can handle high-precision focusing systems with complex or dynamic wavefront errors, and provides an important basis for intelligent control of future synchrotron radiation beamlines.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Keywords Deep learning · Synchrotron radiation · Optics alignment Synchrotron micro- or nano-focused X-rays have been widely used to explore the microstructures of materials in the fields of energy [1] and material and life sciences [2]. For a coherent source, smaller focusing spots yield higher coherent fluxes, improving the resolution of the recon- structed images.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "To meet the high demand for X-ray focus- ing systems, aberration-free focusing systems are desired for perfect wavefronts. The Kirkpatrick–Baez (KB) mirror pair is a typical X-ray focusing system [3, 4] consisting of two perpendicular mirrors with elliptical or parabolic shapes.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "To achieve an ideal focusing spot, in addition to the high- precision surface figure, KB mirrors must be placed accu- rately along the optical axis. Conventionally, a KB mirror is aligned by trial and error.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "A knife-edge scan [5] is the sim- plest method for measuring the focusing spot size; however, it can only provide one-dimensional (1D) intensity profile information in one scan. The Hartmann wavefront sensor [6] can provide two-dimensional (2D) wavefront informa- tion directly in one shot; however, the device is expensive and has a relatively low spatial resolution.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Grating-based shearing interferometry [7, 8] is another approach to obtain- ing 2D wavefront information; however, these measure- ments require accurate alignment of interferometers and nearly perfect fabrication of gratings. Recently, a near-field speckle-tracking method [9] based on digital image correla- tion (DIC) was developed for extracting wavefront informa- tion, and relevant characteristics of this method, such as the This work was supported by the National Key Research and Development Program (No.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "2021YFA1601000), National Natural Science Foundation of China (No. 12175294), and Natural Science Foundation of Shanghai, China (No.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "21ZR1471500). * Hui Jiang jiangh@sari.ac.cn * Ai‑Guo Li liag@sari.ac.cn Shanghai Synchrotron Radiation Facility, Shanghai Advanced Research Institute, Chinese Academy of Sciences, Shanghai 201204, China ShanghaiTech University, Shanghai 201210, China Shanghai Institute of Applied Physics, Chinese Academy of Sciences, Shanghai 201800, China University of Chinese Academy of Sciences, Beijing 100049, China J.-N.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        },
+        {
+          "text": "Xie et al. 1 3 Page 2 of 11 effect of the diffuser grain size [10] and correlation subset size [11], were carefully explored.",
+          "source_section": "general",
+          "page_hint": "",
+          "kind_hint": "general",
+          "actual_source_section": "mixed"
+        }
+      ]
+    },
+    "language_hint": "en",
+    "section_sources": {
+      "abstract": "abstract",
+      "introduction": "introduction",
+      "method": "method",
+      "experiment": "conclusion",
+      "conclusion": "conclusion",
+      "data": "data"
+    },
+    "section_extraction_coverage": {
+      "coverage_status": "partial",
+      "recognized_sections": [
+        "preamble",
+        "abstract",
+        "introduction",
+        "method",
+        "data",
+        "conclusion",
+        "acknowledgments",
+        "references"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "method"
+      ],
+      "missing_core_sections": [
+        "experiment"
+      ],
+      "section_text_chars": {
+        "preamble": 593,
+        "abstract": 1153,
+        "introduction": 4921,
+        "method": 12458,
+        "data": 15477,
+        "conclusion": 2602,
+        "acknowledgments": 805,
+        "references": 6848
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 11,
+      "text_max_pages": null,
+      "text_pages_extracted": 11,
+      "text_pages_scanned": 11,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "appendix_evidence": {
+      "ablation": [],
+      "implementation_details": [],
+      "dataset_details": [],
+      "extra_results": [],
+      "qualitative_examples": []
+    },
+    "quotes": [],
+    "extraction_failures": [],
+    "evidence_quality": "medium"
+  },
+  "summary": {
+    "paper_type": "AI_method",
+    "paper_type_rationale": "The paper is best treated as a method-focused technical paper.",
+    "datasets": [
+      "The",
+      "Table",
+      "Fig",
+      "The RMSEs",
+      "RMSEs",
+      "Overfitting",
+      "RMSE",
+      "Combin"
+    ],
+    "metrics": [
+      "Compared with the existing methods, the proposed method is much faster and more robust and can make estimations with the best normalized RMSE accuracy of 4% on average taking 0.13 s."
+    ],
+    "mechanism_signals": [
+      "Unlike other image-based machine learning methods, we used both direct beam and speckle-modulated images for training the network to extract the features of the detected images and compared the performance of the network on them.",
+      "Each layer receives the output of the previous layer as input and feeds processed input to the next layer; the last layer outputs the model predictions.",
+      "The gradient of the loss function capturing the difference between the model predictions and ground truth is propagated backward through the network starting from the output layer, according to the backpropagation algorithm.",
+      "where z indicates the output of a given layer, w and b repre- sent the weight and bias parameters of individual neurons of this layer, respectively, x is the input to this layer (also the output from the previous layer), L is the loss function reflecting the optimization objective, and constructs such as ∂L/∂x are backpropagation gradients formulated as Jacobian matrices.",
+      "This happened because the randomness of the incident beam status and mirror figure strongly affected the features of the detected images; for one set of misalignment error parameters, the detected images generated in the simula- tions varied strongly in the case of different statuses of the incident beam and mirror figures."
+    ],
+    "ablation_signals": [],
+    "equation_candidates": [],
+    "section_keys": [
+      "preamble",
+      "abstract",
+      "introduction",
+      "method",
+      "data",
+      "conclusion",
+      "acknowledgments",
+      "references"
+    ],
+    "language_hint": "en",
+    "section_coverage_status": "partial",
+    "fallback_sections": [],
+    "pdf_coverage": {
+      "total_pages": 11,
+      "text_max_pages": null,
+      "text_pages_extracted": 11,
+      "text_pages_scanned": 11,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "pdf_used": false,
+    "source_corpus_used": true,
+    "candidate_chunk_sections": [
+      "abstract",
+      "conclusion",
+      "data",
+      "experiment",
+      "general",
+      "introduction",
+      "method"
+    ]
+  }
+}

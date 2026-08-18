@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "review_date": "2026-07-29",
+  "scope": [
+    "01_全文中文翻译_BL15U_KB镜失调深度学习估计.md",
+    "02_深读总结_BL15U_KB镜失调深度学习估计.md"
+  ],
+  "checks": {
+    "identity_and_metadata": true,
+    "full_available_body_translation_coverage": true,
+    "quantitative_claims_grounded": true,
+    "method_and_results_separated": true,
+    "limitations_explicit": true,
+    "application_inference_labeled": true,
+    "reader_questions_coverage": true,
+    "paper_reported_vs_unreported_boundaries": true,
+    "original_pdf_source_verified": true,
+    "figure_identity_and_visual_quality_verified": true,
+    "translation_and_summary_figure_consistency": true,
+    "all_lint_gates_pass": true
+  },
+  "figure_review": "已改用用户提供的 11 页 Springer 原始 PDF，逐项核验并插入 Figure 1–10；侧置图注的 Figure 1/2、双栏 Figure 3 以及 Figure 10 的重复正文引用均通过人工视觉复核。",
+  "reader_question_review": "已将失调参数编号、图 5/7 曲线语义、两次实验差异、数据采集与划分、仿真含义和散射调制创新整理为独立章节；精确报告值、合理解释与论文未披露事项已明确区分。"
+}

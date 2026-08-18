@@ -1,0 +1,123 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "arxiv:2404.03126",
+  "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+  "pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+  "pdf_url": "",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "paper_id": "arxiv:2404.03126",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+      "translated_title": "",
+      "authors": [
+        "Emmanouil Nikolakakis",
+        "Utkarsh Gupta",
+        "Jonathan Vengosh",
+        "Justin Bui",
+        "Razvan Marinescu"
+      ],
+      "year": "2024",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2404.03126",
+      "arxiv_id": "2404.03126",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+      "year": "",
+      "venue": "",
+      "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2404.03126v1",
+      "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+      "doi": "",
+      "arxiv_id": "2404.03126",
+      "zotero_key": ""
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2404.03126",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2404.03126",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2404.03126v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2404.03126"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+          "work_value": "GaSpCT: Gaussian Splatting for Novel CT Projection"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_resolve.json",
+      "metadata_artifact_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2024_GaSpCT_Gaussian_splatting_CT_projection_synthesis\\gaspct_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "GaSpCT: Gaussian Splatting for Novel CT Projection",
+    "year": "",
+    "venue": "",
+    "source_url": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2404.03126v1",
+    "local_pdf_path": "C:\\Users\\Howmu\\Documents\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\GaSpCT.pdf",
+    "doi": "",
+    "arxiv_id": "2404.03126",
+    "zotero_key": ""
+  }
+}

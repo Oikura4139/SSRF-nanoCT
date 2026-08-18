@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">三维高斯基元与规则体素的区别</title>
+  <desc id="desc">左侧为固定规则体素网格，右侧为连续空间中的各向异性高斯椭球，标注中心、尺度、旋转和连续衰减。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EEF5FA"/>
+    </linearGradient>
+    <radialGradient id="gauss" cx="48%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#0072B2" stop-opacity="0.92"/>
+      <stop offset="0.42" stop-color="#56B4E9" stop-opacity="0.60"/>
+      <stop offset="0.78" stop-color="#56B4E9" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#56B4E9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#CBD5E1"/>
+      <stop offset="1" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#0072B2"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 z" fill="#E69F00"/>
+    </marker>
+    <style>
+      .title{font:700 42px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F2942}
+      .subtitle{font:400 23px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569}
+      .panelTitle{font:700 28px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#17324D}
+      .label{font:600 23px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B}
+      .small{font:400 20px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569}
+      .math{font:600 24px 'Cambria Math','Times New Roman',serif;fill:#0F2942}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+  <text x="70" y="72" class="title">“3D”指连续三维空间中边界柔和的椭球</text>
+  <text x="70" y="112" class="subtitle">标准 3DGS 是无结构的高斯基元集合，不是固定网格中的一个个方块</text>
+
+  <!-- Left comparison panel: voxels -->
+  <rect x="60" y="150" width="430" height="650" rx="26" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" filter="url(#shadow)"/>
+  <text x="275" y="205" text-anchor="middle" class="panelTitle">规则体素网格（对照）</text>
+  <rect x="142" y="229" width="266" height="46" rx="23" fill="#FEE2E2"/>
+  <text x="275" y="260" text-anchor="middle" class="label" fill="#B91C1C">不是标准 3DGS 的基元</text>
+
+  <!-- Isometric voxel grid -->
+  <g transform="translate(115 335)">
+    <g stroke="#64748B" stroke-width="1.5">
+      <g transform="translate(0 0)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(70 0)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(140 0)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(210 0)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(35 80)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(105 80)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+      <g transform="translate(175 80)"><polygon points="0,20 34,0 68,20 34,40" fill="url(#cubeTop)"/><polygon points="0,20 34,40 34,78 0,58" fill="#94A3B8"/><polygon points="68,20 34,40 34,78 68,58" fill="#64748B"/></g>
+    </g>
+  </g>
+  <g>
+    <circle cx="134" cy="612" r="6" fill="#64748B"/><text x="155" y="620" class="small">位置被限制在固定格点</text>
+    <circle cx="134" cy="658" r="6" fill="#64748B"/><text x="155" y="666" class="small">单元边界离散、排列规则</text>
+    <circle cx="134" cy="704" r="6" fill="#64748B"/><text x="155" y="712" class="small">分辨率由网格间距决定</text>
+  </g>
+
+  <!-- Right panel: Gaussian primitive -->
+  <rect x="525" y="150" width="1015" height="650" rx="26" fill="#FFFFFF" stroke="#B6D7EA" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1032" y="205" text-anchor="middle" class="panelTitle">各向异性三维高斯基元</text>
+  <text x="1032" y="242" text-anchor="middle" class="small">中心与协方差定义在世界坐标中；等值面是椭球</text>
+
+  <!-- coordinate axes -->
+  <g stroke-linecap="round">
+    <line x1="1000" y1="560" x2="1392" y2="560" stroke="#0072B2" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <line x1="1000" y1="560" x2="1000" y2="300" stroke="#0072B2" stroke-width="5" marker-end="url(#arrowBlue)"/>
+    <line x1="1000" y1="560" x2="875" y2="700" stroke="#0072B2" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  </g>
+  <text x="1410" y="570" class="math">x</text><text x="985" y="286" class="math">z</text><text x="845" y="727" class="math">y</text>
+  <text x="1330" y="610" class="small" fill="#0072B2">蓝色：世界坐标轴</text>
+
+  <!-- main Gaussian ellipse and falloff contours -->
+  <g transform="rotate(-18 1000 485)">
+    <ellipse cx="1000" cy="485" rx="315" ry="145" fill="url(#gauss)"/>
+    <ellipse cx="1000" cy="485" rx="260" ry="118" fill="none" stroke="#0072B2" stroke-opacity="0.42" stroke-width="3" stroke-dasharray="10 9"/>
+    <ellipse cx="1000" cy="485" rx="185" ry="82" fill="none" stroke="#0072B2" stroke-opacity="0.62" stroke-width="3" stroke-dasharray="8 7"/>
+    <line x1="1000" y1="485" x2="1265" y2="485" stroke="#E69F00" stroke-width="6" marker-end="url(#arrowOrange)"/>
+    <line x1="1000" y1="485" x2="1000" y2="370" stroke="#E69F00" stroke-width="6" marker-end="url(#arrowOrange)"/>
+    <line x1="1000" y1="485" x2="900" y2="550" stroke="#E69F00" stroke-width="6" marker-end="url(#arrowOrange)"/>
+    <text x="1225" y="470" class="math" fill="#9A5B00">u₁ / s₁</text>
+    <text x="1015" y="388" class="math" fill="#9A5B00">u₂ / s₂</text>
+    <text x="875" y="580" class="math" fill="#9A5B00">u₃ / s₃</text>
+  </g>
+  <circle cx="1000" cy="485" r="11" fill="#D55E00" stroke="#FFFFFF" stroke-width="4"/>
+  <line x1="1014" y1="476" x2="1165" y2="335" stroke="#D55E00" stroke-width="3"/>
+  <rect x="1160" y="288" width="255" height="78" rx="16" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <text x="1288" y="320" text-anchor="middle" class="label">中心 μᵢ</text>
+  <text x="1288" y="350" text-anchor="middle" class="small">决定三维位置</text>
+
+  <line x1="1235" y1="415" x2="1260" y2="430" stroke="#E69F00" stroke-width="3"/>
+  <rect x="1260" y="388" width="245" height="86" rx="16" fill="#FFFBEB" stroke="#F5C44E" stroke-width="2"/>
+  <text x="1382" y="420" text-anchor="middle" class="label">尺度 Sᵢ</text>
+  <text x="1382" y="452" text-anchor="middle" class="small">控制局部主轴 s₁、s₂、s₃</text>
+
+  <path d="M720 450 A180 180 0 0 1 815 320" fill="none" stroke="#CC79A7" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <rect x="585" y="288" width="260" height="82" rx="16" fill="#FDF2F8" stroke="#E9A8CD" stroke-width="2"/>
+  <text x="715" y="320" text-anchor="middle" class="label">旋转 Rᵢ</text>
+  <text x="715" y="352" text-anchor="middle" class="small">控制椭球朝向</text>
+
+  <line x1="745" y1="570" x2="690" y2="614" stroke="#0072B2" stroke-width="3"/>
+  <rect x="560" y="610" width="300" height="86" rx="16" fill="#EFF8FD" stroke="#8ECAE6" stroke-width="2"/>
+  <text x="710" y="642" text-anchor="middle" class="label">连续衰减</text>
+  <text x="710" y="674" text-anchor="middle" class="small">按马氏距离衰减；各轴尺度不同</text>
+
+  <rect x="310" y="828" width="980" height="50" rx="25" fill="#0F2942"/>
+  <text x="800" y="862" text-anchor="middle" font-family="'Segoe UI','Microsoft YaHei',sans-serif" font-size="23" font-weight="600" fill="#FFFFFF">一个高斯 = 中心 μᵢ + 尺度 Sᵢ + 旋转 Rᵢ + 不透明度 oᵢ + 颜色系数 βᵢ</text>
+</svg>
