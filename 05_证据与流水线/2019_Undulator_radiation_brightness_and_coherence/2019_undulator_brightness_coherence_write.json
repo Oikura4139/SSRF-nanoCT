@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "2019_undulator_brightness_coherence",
+  "title": "Undulator radiation brightness and coherence near the diffraction limit",
+  "note_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\2019_Undulator_radiation_brightness_and_coherence.md",
+  "subdir": "2019_Undulator_radiation_brightness_and_coherence",
+  "images_dir": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images",
+  "materialized_figures": [
+    {
+      "source_id": "FIG 2",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_2_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_004_fig_fig_2_review_repair1.png",
+      "relative_markdown_path": "images/page_004_fig_fig_2_review_repair1.png",
+      "reviewed_asset_sha256": "28dcecc9bd3a7e8cece597a819e6ebf42a3748672e330fce4c9d9b93ed0f21fa"
+    },
+    {
+      "source_id": "FIG 1",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_1_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_004_fig_fig_1_review_repair1.png",
+      "relative_markdown_path": "images/page_004_fig_fig_1_review_repair1.png",
+      "reviewed_asset_sha256": "d12a03748c2502a9af5984e345816431d72f476ec0c1d0fa2fc2f2055ef91c39"
+    },
+    {
+      "source_id": "FIG 3",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_3_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_005_fig_fig_3_review_repair1.png",
+      "relative_markdown_path": "images/page_005_fig_fig_3_review_repair1.png",
+      "reviewed_asset_sha256": "4f8580c1ebddd292647bcc949250a3786a0827f5e5b97e54c863f283bbefb0ce"
+    },
+    {
+      "source_id": "FIG 10",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_008_fig_fig_10_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_008_fig_fig_10_review_repair1.png",
+      "relative_markdown_path": "images/page_008_fig_fig_10_review_repair1.png",
+      "reviewed_asset_sha256": "f67e79b53d89891f22dfc75970b1c0b7dbc671b8fe3f466903add36e44d26817"
+    },
+    {
+      "source_id": "FIG 13",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_010_fig_fig_13_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_010_fig_fig_13_review_repair1.png",
+      "relative_markdown_path": "images/page_010_fig_fig_13_review_repair1.png",
+      "reviewed_asset_sha256": "248b3c9ee7cee95ed35f3e62cecea08a55354b7d7cde9ee323fbd76e768e9ada"
+    },
+    {
+      "source_id": "FIG 16",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_011_fig_fig_16_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2019_Undulator_radiation_brightness_and_coherence\\images\\page_011_fig_fig_16_review_repair1.png",
+      "relative_markdown_path": "images/page_011_fig_fig_16_review_repair1.png",
+      "reviewed_asset_sha256": "2ea12262a47d0c84aecb00f0040c44963378a6606d908ec67cd4c00833efccdb"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记",
+  "vault": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记"
+}

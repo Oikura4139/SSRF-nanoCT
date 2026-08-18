@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.1103/PhysRevAccelBeams.22.050704",
+  "checks": {
+    "section_flow": "pass：12 个固定一级章节由问题和指标定义，经四步方法流程进入单变量、联合效应、beta 匹配、局限和应用建议。",
+    "terminology": "pass：发射度、能散、Wigner 亮度、峰值/平均亮度、总体相干度与 beta 匹配均在上下文中定义。",
+    "sentence_quality": "pass：无断裂句、机械翻译痕迹或异常中英混排；长计算链被拆成可追踪步骤。",
+    "tables_and_lists": "pass：模型定义和关键数值用表格呈现，机制流程和实践建议用有限列表呈现。",
+    "math_rendering": "pass：所有数学定界符配对，关键公式和参数有邻接解释。",
+    "figure_placement": "pass：6 幅深读图和 16 幅译稿图均位于相应结果附近并带中文图注。",
+    "reader_takeaway": "pass：读者可理解为什么发射度和能散必须联合考察，以及为什么峰值亮度不能代替相干度。"
+  },
+  "edits_made": [],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_reference_hygiene_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

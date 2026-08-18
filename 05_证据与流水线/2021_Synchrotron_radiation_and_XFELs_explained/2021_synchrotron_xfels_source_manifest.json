@@ -1,0 +1,918 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_raw_sections.jsonl",
+  "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_full_text.md",
+  "pdf": {
+    "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+    "total_pages": 16,
+    "text_pages_extracted": 16,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 16,
+    "text_max_pages": null,
+    "text_pages_extracted": 16,
+    "text_pages_scanned": 16,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 13,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1429,
+      "text_hash_sha256": "e27b4cce0e83fdbdcb285c810551d4dbebaabb58f253bae41d86669fca83b4e3"
+    },
+    {
+      "section_id": "sec:background",
+      "kind": "introduction",
+      "title": "1. Background",
+      "page_start": 1,
+      "page_end": 12,
+      "char_count": 56417,
+      "text_hash_sha256": "25b9ced1e6002934c74088adff589b04e1a44ffee4fc8285aedddc8118efa7ca"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "experiments",
+      "page_start": 12,
+      "page_end": 13,
+      "char_count": 924,
+      "text_hash_sha256": "a77e8323abb72f180af4f1d433ed8273b73af2b08469136f4037d63cd1f9d45c"
+    },
+    {
+      "section_id": "sec:appendix-a",
+      "kind": "appendix",
+      "title": "APPENDIX A",
+      "page_start": 13,
+      "page_end": 13,
+      "char_count": 823,
+      "text_hash_sha256": "e078becf66d3b18399b4fdabed7507843ec6139a66e82431860d9ab3a7944b76"
+    },
+    {
+      "section_id": "sec:appendix-b",
+      "kind": "appendix",
+      "title": "APPENDIX B",
+      "page_start": 13,
+      "page_end": 13,
+      "char_count": 757,
+      "text_hash_sha256": "de5a353ea6f7c6913e8592e296c5be40c2de60cd8945ff59119fa3cc11b2c359"
+    },
+    {
+      "section_id": "sec:appendix-c",
+      "kind": "appendix",
+      "title": "APPENDIX C",
+      "page_start": 13,
+      "page_end": 14,
+      "char_count": 3556,
+      "text_hash_sha256": "1c44598bafa0cf46ef8e1119d75aa8cee4d3b7878069bbc0c303cfbc813b16e8"
+    },
+    {
+      "section_id": "sec:appendix-d",
+      "kind": "appendix",
+      "title": "APPENDIX D",
+      "page_start": 14,
+      "page_end": 15,
+      "char_count": 1184,
+      "text_hash_sha256": "5881438213b3e2ec9d0e5fb450787dfcb482355381416869ffd56f86c7b4f5bc"
+    },
+    {
+      "section_id": "sec:appendix-e",
+      "kind": "appendix",
+      "title": "APPENDIX E",
+      "page_start": 15,
+      "page_end": 15,
+      "char_count": 970,
+      "text_hash_sha256": "23be04cbd1ce31438005f2d4b9a5137b485d002517600885015433f41e3324fe"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 15,
+      "page_end": 16,
+      "char_count": 9217,
+      "text_hash_sha256": "8ea8695b5b3e5962b178b087480d1d0a23ee94813c1cbd9b396dc2a150dc28f9"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3173,
+      "section_ids": [
+        "sec:preamble",
+        "sec:background"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4912,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4251,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 5576,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4912,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4658,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4018,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 6262,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 4663,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 4225,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 5885,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 5883,
+      "section_ids": [
+        "sec:background",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 4085,
+      "section_ids": [
+        "sec:experiments",
+        "sec:appendix-a",
+        "sec:appendix-b",
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3120,
+      "section_ids": [
+        "sec:appendix-c",
+        "sec:appendix-d"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 6399,
+      "section_ids": [
+        "sec:appendix-d",
+        "sec:appendix-e",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3841,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "(a) Generic mechanism for the emission of electromagnetic radiation,",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "(a) Generic scheme of a synchrotron radiation facility with its accelerator",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "An ‘undulator’, a series of magnets of period P in the longitudinal",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Top views explaining the emission bandwidths of undulators and wigglers.",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The notion of ‘brightness’ or ‘brilliance’. (a) A fireplace does not have",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Polarization of synchrotron radiation. Top: a bending magnet causes the",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "The notion of coherence, introduced using pinhole diffraction. (a) A",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Top: the parameters used to define the ‘coherent power factor’ of",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "The ‘ponderomotive’ forces fp, whose magnitudes are formally equivalent",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "The main components of an X-FEL: (a) linear accelerator (LINAC) that",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "As the electrons enter and then travel along the wiggler (top), after a",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "The ‘diffraction limit’: when trying to obtain a small-area source using a",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Analysis of the relativistic ‘beaming’.",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:appendix-c"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "other, whose magnitudes are related by Ew = cBw (c = speed",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "w = E 2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "w=c 2).",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "1 \u0002 v 2=c 2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "Þ1=2 ;",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "Note that \u00020 = P/\u0004 is the wavelength in the electron R0-",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "mass: m = \u0004m0. Therefore, the most famous of Einstein’s",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "equations, energy = mc 2, implies that \u0004 = energy/(m0c 2),",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "contraction of equation (5) is a big effect: for example, \u0004 =",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "constant magnetic field, \u0002 = 2\u0003c/!. For a non-relativistic",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "centripetal acceleration !v = |evBx|/m0. Thus, ! = |eBx|/m0,",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "example, Bx = 1 T gives \u0002 ’ 1 cm.",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "Note, however, that \u00044 = [energy/(m0c 2)]4: the emission is",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0007pz ¼ @ h=\u0002",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "have \u00022/\u0004\u0002 > \u0002, or",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0002 < 1:",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0006 > 1:",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0005 < \u0007x ¼ \u0002D",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0003\u00052=4",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "Þ=D2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "ð\u0003=4Þ=D2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "\u0002D=\u0006",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "v < c. Taking into account this difference (Margaritondo &",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "¼ 1 \u0002 v=c",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "¼ 1 \u0002 v=c",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "Þ 1 þ v=c",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "1 þ v=c",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "’ 1 \u0002 v2=c2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "¼ P=2",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "nential function of time and therefore of z = vt ’ ct, self-",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "LG / B \u00022=3",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "P \u00021=3:",
+      "section_id": "sec:background",
+      "page_start": 1,
+      "page_end": 12
+    },
+    {
+      "text": "simply z = z 0 + vt. But there is a problem: divided by t, this",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "equation gives z/t = z 0/t + v, so the velocity of an object",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "would give c = c 0 + v, in conflict with the first postulate of",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "t 0 þ ðv=c 2Þ z 0 ¼",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "z 0=t 0 þ v",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1 þ ðv=c 2Þðz 0=t 0Þ ;",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1 þ ðv=c 2Þ c ¼ c;",
+      "section_id": "sec:appendix-a",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "\u0002 c\u0004 t 0 þ vz 0=c 2",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "\u0002 ¼ \u00020 1 \u0002 v=c",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1 þ v=c",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "\u00051=2",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "¼ \u00020 1 \u0002 v 2=c 2",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1=2",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1 þ v=c",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "1 þ v=c ;",
+      "section_id": "sec:appendix-b",
+      "page_start": 13,
+      "page_end": 13
+    },
+    {
+      "text": "where pT = \u0004movT is the transverse momentum. In terms of",
+      "section_id": "sec:appendix-c",
+      "page_start": 13,
+      "page_end": 14
+    },
+    {
+      "text": "momentum pL = \u0004movL one must take into account that the",
+      "section_id": "sec:appendix-c",
+      "page_start": 13,
+      "page_end": 14
+    },
+    {
+      "text": "c2 = c2",
+      "section_id": "sec:appendix-d",
+      "page_start": 14,
+      "page_end": 15
+    },
+    {
+      "text": "1=2",
+      "section_id": "sec:appendix-d",
+      "page_start": 14,
+      "page_end": 15
+    },
+    {
+      "text": "\u00051=2",
+      "section_id": "sec:appendix-d",
+      "page_start": 14,
+      "page_end": 15
+    },
+    {
+      "text": "since for a wave Ew/c = Bw, this result proves the presence of",
+      "section_id": "sec:appendix-e",
+      "page_start": 15,
+      "page_end": 15
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 13,
+    "sections": [
+      {
+        "title": "z 0 þ vt 0",
+        "page": 13
+      },
+      {
+        "title": "t 0 þ ðv=c 2Þ z 0 ¼",
+        "page": 13
+      },
+      {
+        "title": "z 0=t 0 þ v",
+        "page": 13
+      },
+      {
+        "title": "c þ v",
+        "page": 13
+      },
+      {
+        "title": "J. Synchrotron Rad. (2021). 28, 1014–1029",
+        "page": 13
+      },
+      {
+        "title": "T is simply K2c 2/(2\u00042).",
+        "page": 14
+      },
+      {
+        "title": "f L ¼ evT B ¼ \u0002e Kc",
+        "page": 14
+      },
+      {
+        "title": "v \u0002 K 2c",
+        "page": 14
+      },
+      {
+        "title": "a photon in a near-transverse direction close to x 0 when",
+        "page": 14
+      },
+      {
+        "title": "x + c2",
+        "page": 14
+      },
+      {
+        "title": "z ’ c2",
+        "page": 14
+      },
+      {
+        "title": "x + v2, so",
+        "page": 14
+      },
+      {
+        "title": "v ’ c2 \u0002 v2",
+        "page": 14
+      },
+      {
+        "title": "a longitudinal (‘ponderomotive’) force of magnitude given by",
+        "page": 15
+      },
+      {
+        "title": "N. Y., Shih, C. T., Lim, J. H., Lim, J., Je, J. H., Kohmura, Y., Ishikawa,",
+        "page": 15
+      },
+      {
+        "title": "G. & Lapeyre, G. (2015). Synchrotron Radiat. News, 28(4), 20–23.",
+        "page": 16
+      },
+      {
+        "title": "M. E., Fukami, K., Hatsui, T., Hara, T., Kameshima, T., Kitamura,",
+        "page": 16
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Figure 13",
+        "caption": "Analysis of the relativistic ‘beaming’.",
+        "page_hint": "p.14"
+      }
+    ],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "ee3f334c17bb0f14c2057fb64c999d1fee5f8758396960632daa6c37ce88c7d6",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.1107/s1600577521003325",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "10.1107/S1600577521003325",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+      "year": "",
+      "venue": "",
+      "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "doi": "10.1107/S1600577521003325",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "doi": "10.1107/S1600577521003325",
+      "paper_id": "doi:10.1107/s1600577521003325",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "doi_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1107/s1600577521003325"
+        }
+      },
+      "doi": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1107/s1600577521003325"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1107/s1600577521003325"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1107/s1600577521003325"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.1107/S1600577521003325",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "doi:10.1107/s1600577521003325"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+          "work_value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_resolve.json",
+      "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+    "year": "",
+    "venue": "",
+    "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+    "doi": "10.1107/S1600577521003325",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

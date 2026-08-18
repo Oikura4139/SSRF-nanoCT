@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "review_type": "final_readability_review",
+  "paper_id": "doi:10.1107/S1600577521003325",
+  "checks": {
+    "section_flow": "pass：12 个固定一级章节由用户问题、最小物理工具箱和四步机制进入性能结论、误读边界与可复用提问框架。",
+    "terminology": "pass：波荡器、摆动器、亮度、发射度、横向/纵向相干、微束团、增益长度和 SASE 均在首次进入主线时解释。",
+    "beginner_scaffolding": "pass：开头先给因果主线、单位表和六组基础概念，正文难点就地解释，末尾以问答复习卡收束；附录另给分层阅读路线。",
+    "sentence_quality": "pass：无断裂句、机械翻译痕迹或异常中英混排；长推导由小标题和公式拆分。",
+    "math_rendering": "pass：所有数学定界符配对，公式前后均有变量或物理含义说明。",
+    "figure_placement": "pass：8 幅深读图和 13 幅译稿图均紧邻相关论述与中文图注，无残余图桶。",
+    "reader_takeaway": "pass：非专业读者可据此区分同步辐射与 X-FEL，并理解亮度、相干性、峰值与平均值的关系。"
+  },
+  "edits_made": [
+    "把抽象公式补成先直觉、再数量级、最后说明实验含义的解释。",
+    "将‘纵向相对论质量’标注为教学说法，并补充现代动量导数表述，避免概念误解。",
+    "将 SASE、峰值/平均亮度和衍射极限的常见误读改写为边界明确的提示框。"
+  ],
+  "decision": "pass_after_final_lint",
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_reference_hygiene_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

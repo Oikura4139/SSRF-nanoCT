@@ -1,0 +1,2301 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "figure_plan": {
+    "paper_id": "doi:10.1107/s1600577521003325",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "(a) Generic mechanism for the emission of electromagnetic radiation,",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_1.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+          "width": 189,
+          "height": 325,
+          "size_bytes": 26322,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.071508,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.926374,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 538,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "generic",
+              "mechanism",
+              "emission",
+              "electromagnetic",
+              "radiation"
+            ],
+            "snippet": "mission of electromagnetic radiation in a given (‘longitudinal’) direction [the z-axis in Fig. 1(a)] is caused by the acceleration of electrically charged particles in a (‘trans- verse’)",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "emission",
+              "electromagnetic",
+              "radiation"
+            ],
+            "snippet": "s and wigglers, there exists a third class of synchrotron sources: the ‘bending magnets’ [Fig. 1(c)]. These are dipole magnets that keep the electrons in closed orbits around the storage",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_img_01.jpeg",
+                "width": 952,
+                "height": 551,
+                "size_bytes": 38485
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4.png",
+                "width": 239,
+                "height": 141,
+                "size_bytes": 14019,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039374,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.891918,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 695,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_fig_4.png",
+                "width": 812,
+                "height": 97,
+                "size_bytes": 29162,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092208,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2725,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "emission",
+              "electromagnetic",
+              "radiation"
+            ],
+            "snippet": "the solid angular spread \u0002 with the ‘beaming’. Note, however, that for a bending magnet [Fig. 1(c)] the spread is small only in the vertical direction, whereas in the horizontal directi",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "The ‘ponderomotive’ forces fp, whose magnitudes are formally equivalent",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_figure_10.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_fig_figure_10.png",
+          "width": 704,
+          "height": 161,
+          "size_bytes": 62307,
+          "label": "Figure 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.131907,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.441253,
+            "paragraph_text_chars": 1613,
+            "table_body_rows": 0,
+            "caption_text_chars": 472,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "ponderomotive",
+              "forces",
+              "whose",
+              "magnitudes",
+              "formally"
+            ],
+            "snippet": "omplex mathematics. But we can grasp some basic facts with simpliﬁed arguments. Consider (Fig. 10) a wave emitted after the electron bunch enters the wiggler, with its (transverse) electr",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_img_01.jpeg",
+                "width": 1145,
+                "height": 801,
+                "size_bytes": 108647
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_img_02.jpeg",
+                "width": 1166,
+                "height": 521,
+                "size_bytes": 48751
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_9.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_fig_figure_9.png",
+                "width": 704,
+                "height": 246,
+                "size_bytes": 95462,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.201352,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.452519,
+                  "paragraph_text_chars": 782,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 479,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_009_fig_figure_10.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_fig_figure_10.png",
+                "width": 704,
+                "height": 161,
+                "size_bytes": 62307,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.131907,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.441253,
+                  "paragraph_text_chars": 1613,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 472,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "forces",
+              "whose",
+              "magnitudes"
+            ],
+            "snippet": "Elementary mechanics: the energy changes are related to the work and to the power of the forces. In particular, a magnetic ﬁeld applies to a moving electron a ‘Lorentz force’ perpendicu",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "ponderomotive",
+              "forces",
+              "whose"
+            ],
+            "snippet": "apparent puzzle is solved in part by considering that the shifts of the electrons by the ‘ponderomotive’ micro- bunching forces depend on the relevant electron mass, i.e. the longitudinal relat",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_img_01.jpeg",
+                "width": 1020,
+                "height": 244,
+                "size_bytes": 13765
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_fig_figure_12.png",
+                "width": 703,
+                "height": 91,
+                "size_bytes": 30845,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.074806,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.416362,
+                  "paragraph_text_chars": 1993,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 229,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "As the electrons enter and then travel along the wiggler (top), after a",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_figure_11.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_fig_figure_11.png",
+          "width": 252,
+          "height": 226,
+          "size_bytes": 15015,
+          "label": "Figure 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.066409,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.932644,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 249,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "electrons",
+              "enter",
+              "then",
+              "travel",
+              "along"
+            ],
+            "snippet": "ential increase of the wave intensity I with the distance z along the wiggler, as seen in Fig. 11, I ¼ Io exp z LG \u0004 \u0005 ; ð14Þ where LG is the so-called ‘gain length’. But eventually this",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_img_01.jpeg",
+                "width": 1385,
+                "height": 1261,
+                "size_bytes": 73972
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_11.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_fig_figure_11.png",
+                "width": 252,
+                "height": 226,
+                "size_bytes": 15015,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.066409,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.932644,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 249,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "electrons",
+              "then",
+              "along"
+            ],
+            "snippet": "on is proportional to the force divided by the mass. Therefore, a synchrotron source uses electrons (or positrons), since their mass is small. The difﬁculty of speciﬁcally producing X-rays",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "electrons",
+              "travel",
+              "along"
+            ],
+            "snippet": "dic longitudinal series of magnets (Fig. 3) that apply Lorentz forces to the relativistic electrons. Such forces cause the electrons to slightly oscillate in a transverse direction. The rel",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_01.jpeg",
+                "width": 1143,
+                "height": 766,
+                "size_bytes": 78055
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_02.jpeg",
+                "width": 1153,
+                "height": 412,
+                "size_bytes": 45281
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+                "width": 704,
+                "height": 242,
+                "size_bytes": 69022,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198388,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.440008,
+                  "paragraph_text_chars": 442,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 419,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+                "width": 287,
+                "height": 109,
+                "size_bytes": 21960,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.036595,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.869122,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 392,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "The ‘diffraction limit’: when trying to obtain a small-area source using a",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_figure_12.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_fig_figure_12.png",
+          "width": 703,
+          "height": 91,
+          "size_bytes": 30845,
+          "label": "Figure 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.074806,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.416362,
+            "paragraph_text_chars": 1993,
+            "table_body_rows": 0,
+            "caption_text_chars": 229,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "fig. 12",
+              "diffraction",
+              "limit",
+              "when",
+              "trying",
+              "obtain"
+            ],
+            "snippet": "a,b), a property that can be explained in simple terms. Consider the ‘brute force’ way of Fig. 12 to obtain a source with small size and high lateral coherence: radiation from a large-siz",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_img_01.jpeg",
+                "width": 1020,
+                "height": 244,
+                "size_bytes": 13765
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_fig_figure_12.png",
+                "width": 703,
+                "height": 91,
+                "size_bytes": 30845,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.074806,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.416362,
+                  "paragraph_text_chars": 1993,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 229,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "diffraction",
+              "limit",
+              "when",
+              "obtain"
+            ],
+            "snippet": "hysics, X-rays (like visible light) can produce wave-like effects such as interference or diffraction. But these phenomena are rarely observed in everyday life. Why? Because to produce them t",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "when",
+              "obtain"
+            ],
+            "snippet": "ere \u0004 ¼ 1 1 \u0002 v 2=c 2 ð Þ1=2 ; note the second of equations (2): the time is not the same when measured in the two reference frames, contrary to what happens in classical physics. (See",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_01.jpeg",
+                "width": 1143,
+                "height": 766,
+                "size_bytes": 78055
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_02.jpeg",
+                "width": 1153,
+                "height": 412,
+                "size_bytes": 45281
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+                "width": 704,
+                "height": 242,
+                "size_bytes": 69022,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198388,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.440008,
+                  "paragraph_text_chars": 442,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 419,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+                "width": 287,
+                "height": 109,
+                "size_bytes": 21960,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.036595,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.869122,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 392,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Analysis of the relativistic ‘beaming’.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_figure_13.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_fig_figure_13.png",
+          "width": 252,
+          "height": 136,
+          "size_bytes": 22283,
+          "label": "Figure 13",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.039948,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.882686,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 49,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "fig. 13",
+              "analysis",
+              "relativistic",
+              "beaming"
+            ],
+            "snippet": "2 2 \u0004 \u0005 ; in agreement with equations (6) and (7). APPENDIX D Doppler ‘beaming’ Suppose (Fig. 13) that an electron moving at speed v ’ c emits a photon in a near-transverse direction clo",
+            "images": [
+              {
+                "filename": "page_014_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_img_01.jpeg",
+                "width": 1385,
+                "height": 718,
+                "size_bytes": 57085
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_figure_13.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_fig_figure_13.png",
+                "width": 252,
+                "height": 136,
+                "size_bytes": 22283,
+                "label": "Figure 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039948,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.882686,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 49,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "analysis",
+              "relativistic",
+              "beaming"
+            ],
+            "snippet": "a non-relativistic wavelength of 0.5 cm to \u00041.6 A˚ . 3. Undulators: refinements The above analysis can be improved. The \u0004-factor in equation (5) corresponds to the energy associated with t",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_img_01.jpeg",
+                "width": 952,
+                "height": 551,
+                "size_bytes": 38485
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4.png",
+                "width": 239,
+                "height": 141,
+                "size_bytes": 14019,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039374,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.891918,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 695,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_fig_4.png",
+                "width": 812,
+                "height": 97,
+                "size_bytes": 29162,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092208,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2725,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "relativistic",
+              "beaming"
+            ],
+            "snippet": "experiment can detect a relative motion at constant velocity of two reference frames. The relativistic properties relevant to synchrotron sources do not need to be known in advance of our pres",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "(a) Generic scheme of a synchrotron radiation facility with its accelerator",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_2.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+          "width": 704,
+          "height": 242,
+          "size_bytes": 69022,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.198388,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.440008,
+            "paragraph_text_chars": 442,
+            "table_body_rows": 0,
+            "caption_text_chars": 419,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "generic",
+              "synchrotron",
+              "radiation",
+              "facility"
+            ],
+            "snippet": "c electrons, plus macroscopic devices that accelerate them in transverse directions – see Fig. 2(a). In the early years of this domain, the accelerators were synchrotrons, hence the name",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "generic",
+              "scheme",
+              "synchrotron",
+              "radiation",
+              "facility"
+            ],
+            "snippet": "Hwu and Margaritondo \u0003 SR and X-FELs explained J. Synchrotron Rad. (2021). 28, 1014–1029 Figure 2 (a) Generic scheme of a synchrotron radiation facility with its accelerator (storage ring",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_01.jpeg",
+                "width": 1143,
+                "height": 766,
+                "size_bytes": 78055
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_02.jpeg",
+                "width": 1153,
+                "height": 412,
+                "size_bytes": 45281
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+                "width": 704,
+                "height": 242,
+                "size_bytes": 69022,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198388,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.440008,
+                  "paragraph_text_chars": 442,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 419,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+                "width": 287,
+                "height": 109,
+                "size_bytes": 21960,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.036595,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.869122,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 392,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "synchrotron",
+              "radiation"
+            ],
+            "snippet": "teaching and education 1014 https://doi.org/10.1107/S1600577521003325 J. Synchrotron Rad. (2021). 28, 1014–1029 Received 8 September 2020 Accepted 29 March 2021 Edited by M.",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_01.jpeg",
+                "width": 1197,
+                "height": 787,
+                "size_bytes": 67778
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_02.jpeg",
+                "width": 211,
+                "height": 208,
+                "size_bytes": 27159
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "An ‘undulator’, a series of magnets of period P in the longitudinal",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_3.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+          "width": 287,
+          "height": 109,
+          "size_bytes": 21960,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.036595,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.869122,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 392,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "undulator",
+              "series",
+              "magnets",
+              "period",
+              "longitudinal"
+            ],
+            "snippet": "yze a speciﬁc example: an ‘undulator’. This is a periodic longitudinal series of magnets (Fig. 3) that apply Lorentz forces to the relativistic electrons. Such forces cause the electrons",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_01.jpeg",
+                "width": 1143,
+                "height": 766,
+                "size_bytes": 78055
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_02.jpeg",
+                "width": 1153,
+                "height": 412,
+                "size_bytes": 45281
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+                "width": 704,
+                "height": 242,
+                "size_bytes": 69022,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198388,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.440008,
+                  "paragraph_text_chars": 442,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 419,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+                "width": 287,
+                "height": 109,
+                "size_bytes": 21960,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.036595,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.869122,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 392,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 6,
+            "matched_terms": [
+              "fig. 3",
+              "undulator"
+            ],
+            "snippet": "polarized (Fig. 6, middle). Likewise, one can realize that a planar undulator as that of Fig. 3 also produces linearly polarized waves. An observer at an angle off the horizontal plane",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "undulator",
+              "series",
+              "magnets",
+              "longitudinal"
+            ],
+            "snippet": "ctromagnetic waves there is a similar reduction, but relativity makes it very strong: the undulator wavelength of equation (4) is divided by \u00042\u0004 (see Appendix B: ‘Doppler shift’), becoming",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_img_01.jpeg",
+                "width": 952,
+                "height": 551,
+                "size_bytes": 38485
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4.png",
+                "width": 239,
+                "height": 141,
+                "size_bytes": 14019,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039374,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.891918,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 695,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_fig_4.png",
+                "width": 812,
+                "height": 97,
+                "size_bytes": 29162,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092208,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2725,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Top views explaining the emission bandwidths of undulators and wigglers.",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_4.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4.png",
+          "width": 239,
+          "height": 141,
+          "size_bytes": 14019,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.039374,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.891918,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 695,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "views",
+              "explaining",
+              "emission",
+              "bandwidths",
+              "undulators"
+            ],
+            "snippet": "f wavelengths around this value. The bandwidth is quite narrow, as we can understand from Fig. 4 – showing the top view of the capture of a narrow undulator beam by a small-area detector",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_img_01.jpeg",
+                "width": 952,
+                "height": 551,
+                "size_bytes": 38485
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4.png",
+                "width": 239,
+                "height": 141,
+                "size_bytes": 14019,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.039374,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.891918,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 695,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_fig_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_fig_4.png",
+                "width": 812,
+                "height": 97,
+                "size_bytes": 29162,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.092208,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 2725,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 97,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 6,
+            "matched_terms": [
+              "fig. 4",
+              "emission"
+            ],
+            "snippet": "2 as in equations (5) and (6), shifting \u0002 to the X-ray range. With an analysis similar to Fig. 4, we can realize that the electron-ﬂashlight passing through a bending magnet produces a s",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_img_01.jpeg",
+                "width": 1385,
+                "height": 1327,
+                "size_bytes": 63858
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_5.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5.png",
+                "width": 237,
+                "height": 227,
+                "size_bytes": 25336,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.06283,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.911474,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 562,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "emission",
+              "undulators"
+            ],
+            "snippet": "to slightly oscillate in a transverse direction. The related acceleration results in the emission of radiation, whose wavelength is related to the undulator period P. But this relation is",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_01.jpeg",
+                "width": 1143,
+                "height": 766,
+                "size_bytes": 78055
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_img_02.jpeg",
+                "width": 1153,
+                "height": 412,
+                "size_bytes": 45281
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2.png",
+                "width": 704,
+                "height": 242,
+                "size_bytes": 69022,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198388,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.440008,
+                  "paragraph_text_chars": 442,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 419,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_003_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3.png",
+                "width": 287,
+                "height": 109,
+                "size_bytes": 21960,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.036595,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.869122,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 392,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The notion of ‘brightness’ or ‘brilliance’. (a) A fireplace does not have",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_5.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5.png",
+          "width": 237,
+          "height": 227,
+          "size_bytes": 25336,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.06283,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.911474,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 562,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "notion",
+              "brightness",
+              "brilliance",
+              "does"
+            ],
+            "snippet": "he capacity to bring a high radiation power into the area of utilization. Let us compare (Fig. 5) a ﬁreplace with a ﬂashlight (or a laser pointer). The ﬁreplace may emit a large ﬂux F, b",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_img_01.jpeg",
+                "width": 1385,
+                "height": 1327,
+                "size_bytes": 63858
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_5.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5.png",
+                "width": 237,
+                "height": 227,
+                "size_bytes": 25336,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.06283,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.911474,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 562,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "notion",
+              "does"
+            ],
+            "snippet": "iffraction pattern with a bright central zone surrounded by fainter circular fringes. The notion of coherence emerges if, instead of a single wavelength \u0002, the source emits a wavelength",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "notion",
+              "does"
+            ],
+            "snippet": "s may wash out the fringes, making diffraction impossible to detect. This leads us to the notion of ‘time coherence’ or ‘longitudinal coherence’. Time coherence is not the only property",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_img_01.jpeg",
+                "width": 1073,
+                "height": 848,
+                "size_bytes": 82544
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_8.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8.png",
+                "width": 282,
+                "height": 225,
+                "size_bytes": 67787,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074201,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.916808,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 208,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Polarization of synchrotron radiation. Top: a bending magnet causes the",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_6.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+          "width": 610,
+          "height": 223,
+          "size_bytes": 47363,
+          "label": "Figure 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.15826,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.717225,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 438,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 6",
+              "polarization",
+              "synchrotron",
+              "radiation",
+              "bending",
+              "magnet"
+            ],
+            "snippet": "sed by the magnetic device that induces the transverse electron accel- eration. Consider (Fig. 6, top) a bending magnet that deﬂects an electron in the horizontal plane, forcing it to mo",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "synchrotron",
+              "radiation",
+              "magnet"
+            ],
+            "snippet": "teaching and education 1014 https://doi.org/10.1107/S1600577521003325 J. Synchrotron Rad. (2021). 28, 1014–1029 Received 8 September 2020 Accepted 29 March 2021 Edited by M.",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_01.jpeg",
+                "width": 1197,
+                "height": 787,
+                "size_bytes": 67778
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_02.jpeg",
+                "width": 211,
+                "height": 208,
+                "size_bytes": 27159
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_001_img_03.jpeg",
+                "width": 735,
+                "height": 98,
+                "size_bytes": 11362
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "synchrotron",
+              "radiation",
+              "bending",
+              "magnet"
+            ],
+            "snippet": "e cultural heritage and several other disciplines. Let us now discuss the notion of using synchrotron sources and X-FELs as ‘magic boxes’, without understanding how they work. This is – unfor",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "The notion of coherence, introduced using pinhole diffraction. (a) A",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "notion",
+              "coherence",
+              "introduced",
+              "using",
+              "pinhole"
+            ],
+            "snippet": "ke phenomenon – for example, the diffraction by a circular pinhole of diameter \u0005 shown in Fig. 7. Fig. 7(a) illustrates the extreme case of a point-like source that emits only one wavele",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_01.jpeg",
+                "width": 869,
+                "height": 752,
+                "size_bytes": 37895
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_img_02.jpeg",
+                "width": 1385,
+                "height": 1552,
+                "size_bytes": 86260
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6.png",
+                "width": 610,
+                "height": 223,
+                "size_bytes": 47363,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.15826,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.717225,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "notion",
+              "coherence",
+              "using",
+              "pinhole"
+            ],
+            "snippet": "herence’. Time coherence is not the only property required to see wave-like phenomena. In Fig. 7(a), we assumed that the source is point-like, i.e. inﬁnitely small. But, in general, a so",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_img_01.jpeg",
+                "width": 1073,
+                "height": 848,
+                "size_bytes": 82544
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_8.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8.png",
+                "width": 282,
+                "height": 225,
+                "size_bytes": 67787,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074201,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.916808,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 208,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "notion",
+              "introduced",
+              "using"
+            ],
+            "snippet": "cal research, the cultural heritage and several other disciplines. Let us now discuss the notion of using synchrotron sources and X-FELs as ‘magic boxes’, without understanding how they",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Top: the parameters used to define the ‘coherent power factor’ of",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_figure_8.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8.png",
+          "width": 282,
+          "height": 225,
+          "size_bytes": 67787,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.074201,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.916808,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 208,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "parameters",
+              "used",
+              "coherent",
+              "power"
+            ],
+            "snippet": "ucing wave-like phenomena, \u0005 < \u0007x ¼ \u0002D \u0006 : ð10Þ We can elaborate on this result assuming (Fig. 8, top) that the source emits radiation within a solid angle \u0002. Only the portion passing th",
+            "images": [
+              {
+                "filename": "page_007_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_img_01.jpeg",
+                "width": 1073,
+                "height": 848,
+                "size_bytes": 82544
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_8.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8.png",
+                "width": 282,
+                "height": 225,
+                "size_bytes": 67787,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074201,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.916808,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 208,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "parameters",
+              "used",
+              "coherent",
+              "power"
+            ],
+            "snippet": "improvements. And equation (8) shows that it affects the brightness through the geometric parameters \u0002 and \u0003. Many advanced synchrotron sources are now reaching the ‘diffraction limit’ for s",
+            "images": [
+              {
+                "filename": "page_011_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_img_01.jpeg",
+                "width": 1020,
+                "height": 244,
+                "size_bytes": 13765
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_fig_figure_12.png",
+                "width": 703,
+                "height": 91,
+                "size_bytes": 30845,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.074806,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.416362,
+                  "paragraph_text_chars": 1993,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 229,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 2,
+            "score": 2,
+            "matched_terms": [
+              "used",
+              "power"
+            ],
+            "snippet": "romagnetic radiation in a given (‘longitudinal’) direction [the z-axis in Fig. 1(a)] is caused by the acceleration of electrically charged particles in a (‘trans- verse’) direction per",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_img_01.jpeg",
+                "width": 1385,
+                "height": 2480,
+                "size_bytes": 117411
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1.png",
+                "width": 189,
+                "height": 325,
+                "size_bytes": 26322,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.071508,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.926374,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 538,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

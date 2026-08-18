@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.1103/PhysRevAccelBeams.22.050704",
+  "reviewed_artifacts": [
+    "2019_undulator_brightness_coherence_source_manifest.json",
+    "2019_undulator_brightness_coherence_full_text.md",
+    "2019_undulator_brightness_coherence_note_plan.json",
+    "2019_undulator_brightness_coherence_figure_table_decisions.json",
+    "2019_undulator_brightness_coherence_draft.md",
+    "2019_undulator_brightness_coherence_note_lint.json",
+    "2019_Undulator_radiation_brightness_and_coherence_全文中文翻译.md"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：题名、作者、期刊、年份、卷文号和 DOI 均和论文一致。",
+    "full_text_coverage": "pass：摘要、正文 I—IX、公式 (1)—(18)、表 I—II、图 1—16 与参考文献均进入全文译稿；12/12 页证据覆盖，无截断。",
+    "method_fidelity": "pass：高斯近似、Wigner 亮度、平均亮度、总体相干度、能散卷积和发射度卷积的关系均按原文区分。",
+    "metric_boundaries": "pass：峰值亮度、平均亮度和总体相干度不被混用；衍射极限发射度不被等同于完全相干。",
+    "numerical_claims": "pass：10 keV、2 m 波荡器、10 pm、0.1%/0.3%、17% 和 2.5 pm 等核心参数与结论均保留限定条件。",
+    "formula_integrity": "pass：译稿和深读笔记的 TeX 定界符均配对，辐射发射度、相干度和卷积公式中的括号与分母已逐项复核。",
+    "figure_evidence": "pass：译稿含原文 16 幅图；深读笔记插入 6 幅人工核验合格的关键结果图，其余按视觉缺陷、占位或低优先级留痕。",
+    "link_integrity": "pass：译稿 16 个、深读笔记 6 个图片链接全部指向现存本地图像。"
+  },
+  "edits_made": [
+    "修复表 I、式 (3)、式 (6)、式 (13) 与概率密度表达式中的数学定界符和分母括号。",
+    "为全文翻译独立裁切并人工检查 16 幅原文图。",
+    "将论文的联合参数扫描重组为发射度、能散、beta 匹配和指标选择四条解释主线。"
+  ],
+  "remaining_known_risks": [
+    "数值扫描围绕 PETRA IV 示例参数展开，不能无条件外推到所有波荡器和谐波。",
+    "高斯近似用于快速估算，但论文已显示其在低发射度和非零能散区域可能出现接近因子 2 的偏差。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_reference_hygiene_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

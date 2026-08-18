@@ -1,0 +1,162 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "Undulator radiation brightness and coherence near the diffraction limit",
+    "translated_title": "",
+    "authors": [],
+    "year": "",
+    "venue": "",
+    "doi": "10.1103/PhysRevAccelBeams.22.050704",
+    "arxiv_id": "",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Undulator radiation brightness and coherence near the diffraction limit",
+    "year": "",
+    "venue": "",
+    "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "doi": "10.1103/PhysRevAccelBeams.22.050704",
+    "arxiv_id": "",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "title": "Undulator radiation brightness and coherence near the diffraction limit",
+    "metadata_sources": [
+      "local_pdf"
+    ],
+    "local_pdf_title_source": "pdf_metadata_title_used",
+    "doi": "10.1103/PhysRevAccelBeams.22.050704",
+    "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ],
+    "script": "resolve_paper.py"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    }
+  ],
+  "accepted_observations": [],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1103/physrevaccelbeams.22.050704"
+      }
+    },
+    "doi": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1103/physrevaccelbeams.22.050704"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1103/physrevaccelbeams.22.050704"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1103/physrevaccelbeams.22.050704"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "doi",
+      "value": "10.1103/PhysRevAccelBeams.22.050704",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "Undulator radiation brightness and coherence near the diffraction limit",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "doi:10.1103/physrevaccelbeams.22.050704"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "Undulator radiation brightness and coherence near the diffraction limit",
+        "work_value": "Undulator radiation brightness and coherence near the diffraction limit"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_resolve.json",
+    "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "doi_present",
+      "pdf_metadata_title_used"
+    ]
+  }
+}

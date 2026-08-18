@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+  "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+  "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "doi": "10.1107/S1600577521003325",
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "doi_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": []
+}

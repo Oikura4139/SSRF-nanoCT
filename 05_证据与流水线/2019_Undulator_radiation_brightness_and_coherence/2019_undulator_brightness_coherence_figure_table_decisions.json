@@ -1,0 +1,788 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+  "decisions": [
+    {
+      "item_id": "figure:FIG 2",
+      "source_id": "FIG 2",
+      "kind": "figure",
+      "label": "FIG 2",
+      "caption": "Peak brightness (×1023, blue line), average brightness",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_fig_2_review_repair1.png",
+      "relative_markdown_embed": "![FIG 2](images/page_004_fig_fig_2_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_2_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "28dcecc9bd3a7e8cece597a819e6ebf42a3748672e330fce4c9d9b93ed0f21fa",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_2_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_004.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 4,
+        "caption": "Peak brightness (×1023, blue line), average brightness",
+        "bbox_pt": [
+          306.0,
+          498.96,
+          550.8,
+          685.08
+        ],
+        "normalized_bbox": [
+          0.5,
+          0.63,
+          0.9,
+          0.865
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "28dcecc9bd3a7e8cece597a819e6ebf42a3748672e330fce4c9d9b93ed0f21fa",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.5,
+          0.63,
+          0.9,
+          0.865
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 1",
+      "source_id": "FIG 1",
+      "kind": "figure",
+      "label": "FIG 1",
+      "caption": "Brightness distributions at various detunings, NΔω=ω1 ¼ −1 (left), 0 (center), and þ1 (right), normalized to unity in each case.",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_004_fig_fig_1_review_repair1.png",
+      "relative_markdown_embed": "![FIG 1](images/page_004_fig_fig_1_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_1_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d12a03748c2502a9af5984e345816431d72f476ec0c1d0fa2fc2f2055ef91c39",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_004_fig_fig_1_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_004.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 4,
+        "caption": "Brightness distributions at various detunings, NΔω=ω1 ¼ −1 (left), 0 (center), and þ1 (right), normalized to unity in each case.",
+        "bbox_pt": [
+          45.9,
+          43.56,
+          569.16,
+          186.12
+        ],
+        "normalized_bbox": [
+          0.075,
+          0.055,
+          0.93,
+          0.235
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "d12a03748c2502a9af5984e345816431d72f476ec0c1d0fa2fc2f2055ef91c39",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.075,
+          0.055,
+          0.93,
+          0.235
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 3",
+      "source_id": "FIG 3",
+      "kind": "figure",
+      "label": "FIG 3",
+      "caption": "Spatial (left) and angular (right) distributions of the brightness function; 1D sections (blue line), sections of the 2D projected",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_005_fig_fig_3_review_repair1.png",
+      "relative_markdown_embed": "![FIG 3](images/page_005_fig_fig_3_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_3_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "4f8580c1ebddd292647bcc949250a3786a0827f5e5b97e54c863f283bbefb0ce",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_3_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_005.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 5,
+        "caption": "Spatial (left) and angular (right) distributions of the brightness function; 1D sections (blue line), sections of the 2D projected",
+        "bbox_pt": [
+          48.96,
+          43.56,
+          550.8,
+          213.84
+        ],
+        "normalized_bbox": [
+          0.08,
+          0.055,
+          0.9,
+          0.27
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "4f8580c1ebddd292647bcc949250a3786a0827f5e5b97e54c863f283bbefb0ce",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.08,
+          0.055,
+          0.9,
+          0.27
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 4",
+      "source_id": "FIG 4",
+      "kind": "figure",
+      "label": "FIG 4",
+      "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the detuning obtained from 1D sections (blue",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_fig_4_review_repair1.png",
+      "relative_markdown_embed": "![FIG 4](images/page_005_fig_fig_4_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_4_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "a80aa56c75422d616f0d50563493e5d20f2a6f352c9abf553988e08df31bcbd5",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_4_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_005.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 5,
+        "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the detuning obtained from 1D sections (blue",
+        "bbox_pt": [
+          48.96,
+          312.84,
+          538.56,
+          498.96
+        ],
+        "normalized_bbox": [
+          0.08,
+          0.395,
+          0.88,
+          0.63
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "a80aa56c75422d616f0d50563493e5d20f2a6f352c9abf553988e08df31bcbd5",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.08,
+          0.395,
+          0.88,
+          0.63
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 5",
+      "source_id": "FIG 5",
+      "kind": "figure",
+      "label": "FIG 5",
+      "caption": "Data from Fig. 4 expressed as emittance (left) and beta values (right) in relative units.",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_005_fig_fig_5_review_repair1.png",
+      "relative_markdown_embed": "![FIG 5](images/page_005_fig_fig_5_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_5_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "40d05fd2208f81677b4a10e9bc1599b75ea8409cd464e4acfbb1dc48ef5ffd5f",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_005_fig_fig_5_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_005.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 5,
+        "caption": "Data from Fig. 4 expressed as emittance (left) and beta values (right) in relative units.",
+        "bbox_pt": [
+          61.2,
+          530.64,
+          544.68,
+          712.8
+        ],
+        "normalized_bbox": [
+          0.1,
+          0.67,
+          0.89,
+          0.9
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "40d05fd2208f81677b4a10e9bc1599b75ea8409cd464e4acfbb1dc48ef5ffd5f",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.1,
+          0.67,
+          0.89,
+          0.9
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 7",
+      "source_id": "FIG 7",
+      "kind": "figure",
+      "label": "FIG 7",
+      "caption": "Peak brightness (blue line), average brightness (red",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:FIG 6",
+      "source_id": "FIG 6",
+      "kind": "figure",
+      "label": "FIG 6",
+      "caption": "Brightness distributions. Left: σE ¼ 0.001, εx ¼ εy ¼ 0; middle: σE ¼ 0, εx ¼ εy ¼ 10 pm, βx ¼ βy ¼ 2; right: σE ¼ 0.001,",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:FIG 9",
+      "source_id": "FIG 9",
+      "kind": "figure",
+      "label": "FIG 9",
+      "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the energy spread obtained from 1D sections (blue",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:FIG 8",
+      "source_id": "FIG 8",
+      "kind": "figure",
+      "label": "FIG 8",
+      "caption": "3D projected distributions along the x (left) and x0 (right) axes for rms energy spread varying between zero (blue line)",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:model",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:FIG 10",
+      "source_id": "FIG 10",
+      "kind": "figure",
+      "label": "FIG 10",
+      "caption": "Radiation beta value (βR) obtained from 3D projec-",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_008_fig_fig_10_review_repair1.png",
+      "relative_markdown_embed": "![FIG 10](images/page_008_fig_fig_10_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_008_fig_fig_10_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "f67e79b53d89891f22dfc75970b1c0b7dbc671b8fe3f466903add36e44d26817",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_008_fig_fig_10_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_008.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 8,
+        "caption": "Radiation beta value (βR) obtained from 3D projec-",
+        "bbox_pt": [
+          324.36,
+          47.52,
+          550.8,
+          225.72
+        ],
+        "normalized_bbox": [
+          0.53,
+          0.06,
+          0.9,
+          0.285
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "f67e79b53d89891f22dfc75970b1c0b7dbc671b8fe3f466903add36e44d26817",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.53,
+          0.06,
+          0.9,
+          0.285
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 11",
+      "source_id": "FIG 11",
+      "kind": "figure",
+      "label": "FIG 11",
+      "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the emittance, with εx ¼ εy, βx ¼ βy ¼ 2,",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_fig_11_review_repair1.png",
+      "relative_markdown_embed": "![FIG 11](images/page_009_fig_fig_11_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_009_fig_fig_11_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "5e769582df1f9960ffde37656b25448e6b253bd3c5ad35feead4dabaadcdb69f",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_009_fig_fig_11_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_009.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 9,
+        "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the emittance, with εx ¼ εy, βx ¼ βy ¼ 2,",
+        "bbox_pt": [
+          48.96,
+          43.56,
+          544.68,
+          225.72
+        ],
+        "normalized_bbox": [
+          0.08,
+          0.055,
+          0.89,
+          0.285
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "5e769582df1f9960ffde37656b25448e6b253bd3c5ad35feead4dabaadcdb69f",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.08,
+          0.055,
+          0.89,
+          0.285
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 12",
+      "source_id": "FIG 12",
+      "kind": "figure",
+      "label": "FIG 12",
+      "caption": "Left: Peak brightness (blue) and average brightness (red); right: degree of coherence (blue) as a function of the emittance,",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_fig_12_review_repair1.png",
+      "relative_markdown_embed": "![FIG 12](images/page_009_fig_fig_12_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_009_fig_fig_12_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "2dbb67c3505bfafece668638f7596e3cdae9c5490e2c1892f3dc884e8da4b0b5",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_009_fig_fig_12_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_009.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 9,
+        "caption": "Left: Peak brightness (blue) and average brightness (red); right: degree of coherence (blue) as a function of the emittance,",
+        "bbox_pt": [
+          48.96,
+          277.2,
+          550.8,
+          467.28
+        ],
+        "normalized_bbox": [
+          0.08,
+          0.35,
+          0.9,
+          0.59
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "2dbb67c3505bfafece668638f7596e3cdae9c5490e2c1892f3dc884e8da4b0b5",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.08,
+          0.35,
+          0.9,
+          0.59
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 13",
+      "source_id": "FIG 13",
+      "kind": "figure",
+      "label": "FIG 13",
+      "caption": "Peak brightness (left), average brightness (middle), and degree of coherence (right) as a function of the emittance with",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_fig_13_review_repair1.png",
+      "relative_markdown_embed": "![FIG 13](images/page_010_fig_fig_13_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_010_fig_fig_13_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "248b3c9ee7cee95ed35f3e62cecea08a55354b7d7cde9ee323fbd76e768e9ada",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_010_fig_fig_13_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_010.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 10,
+        "caption": "Peak brightness (left), average brightness (middle), and degree of coherence (right) as a function of the emittance with",
+        "bbox_pt": [
+          33.66,
+          39.6,
+          569.16,
+          186.12
+        ],
+        "normalized_bbox": [
+          0.055,
+          0.05,
+          0.93,
+          0.235
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "248b3c9ee7cee95ed35f3e62cecea08a55354b7d7cde9ee323fbd76e768e9ada",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.055,
+          0.05,
+          0.93,
+          0.235
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 14",
+      "source_id": "FIG 14",
+      "kind": "figure",
+      "label": "FIG 14",
+      "caption": "Relative effect of energy spread on the peak brightness",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_fig_14_review_repair1.png",
+      "relative_markdown_embed": "![FIG 14](images/page_010_fig_fig_14_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_010_fig_fig_14_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "19fbda3b44a712ec2c2dc330e85d0d7f07dfa39443f4723d8fd122a6cc32e163",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_010_fig_fig_14_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_010.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 10,
+        "caption": "Relative effect of energy spread on the peak brightness",
+        "bbox_pt": [
+          36.72,
+          479.16,
+          269.28,
+          685.08
+        ],
+        "normalized_bbox": [
+          0.06,
+          0.605,
+          0.44,
+          0.865
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "19fbda3b44a712ec2c2dc330e85d0d7f07dfa39443f4723d8fd122a6cc32e163",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.06,
+          0.605,
+          0.44,
+          0.865
+        ]
+      }
+    },
+    {
+      "item_id": "figure:FIG 15",
+      "source_id": "FIG 15",
+      "kind": "figure",
+      "label": "FIG 15",
+      "caption": "Ratio of the degree of coherence to the approximation",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:model",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:FIG 16",
+      "source_id": "FIG 16",
+      "kind": "figure",
+      "label": "FIG 16",
+      "caption": "Relative variation in the peak brightness (blue line) and degree of coherence (red line) as a function of the electron beam beta",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_011_fig_fig_16_review_repair1.png",
+      "relative_markdown_embed": "![FIG 16](images/page_011_fig_fig_16_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_011_fig_fig_16_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "2ea12262a47d0c84aecb00f0040c44963378a6606d908ec67cd4c00833efccdb",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\images\\page_011_fig_fig_16_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Undulator_radiation_brightness_and_coherence_near_the_diffraction_limit\\page_previews\\page_011.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "source_page": 11,
+        "caption": "Relative variation in the peak brightness (blue line) and degree of coherence (red line) as a function of the electron beam beta",
+        "bbox_pt": [
+          36.72,
+          39.6,
+          575.28,
+          186.12
+        ],
+        "normalized_bbox": [
+          0.06,
+          0.05,
+          0.94,
+          0.235
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "2ea12262a47d0c84aecb00f0040c44963378a6606d908ec67cd4c00833efccdb",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.06,
+          0.05,
+          0.94,
+          0.235
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 16,
+    "by_decision": {
+      "insert": 6,
+      "low_priority": 4,
+      "placeholder": 1,
+      "review_pending": 0,
+      "skip": 0,
+      "visual_defect": 5
+    }
+  }
+}

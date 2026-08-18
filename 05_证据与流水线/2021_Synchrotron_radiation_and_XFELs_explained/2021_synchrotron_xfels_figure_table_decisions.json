@@ -1,0 +1,632 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "(a) Generic mechanism for the emission of electromagnetic radiation,",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_002_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_002_fig_figure_1_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "424c56e03b0aa8819ac735bba28ff54cd617dd34139cd0781ba02a65a97f8b54",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_002.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 2,
+        "caption": "(a) Generic mechanism for the emission of electromagnetic radiation,",
+        "bbox_pt": [
+          372.49798583984375,
+          419.8919677734375,
+          514.29296875,
+          663.9269409179688
+        ],
+        "normalized_bbox": [
+          0.610978,
+          0.52903,
+          0.843553,
+          0.836495
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "424c56e03b0aa8819ac735bba28ff54cd617dd34139cd0781ba02a65a97f8b54",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "(a) Generic scheme of a synchrotron radiation facility with its accelerator",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_figure_2_review_repair1.png",
+      "relative_markdown_embed": "![Figure 2](images/page_003_fig_figure_2_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "cdd24b0519b4432d573bbf2ef2369251b597a4b597b2729d20f53045f16bfd5d",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_003.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 3,
+        "caption": "(a) Generic scheme of a synchrotron radiation facility with its accelerator",
+        "bbox_pt": [
+          36.580499,
+          59.527574,
+          310.934244,
+          242.078802
+        ],
+        "normalized_bbox": [
+          0.06,
+          0.075,
+          0.51,
+          0.305
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "cdd24b0519b4432d573bbf2ef2369251b597a4b597b2729d20f53045f16bfd5d",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.06,
+          0.075,
+          0.51,
+          0.305
+        ]
+      }
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "An ‘undulator’, a series of magnets of period P in the longitudinal",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_003_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_003_fig_figure_3_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "1bda653701941f2c2d98c21d3caa0122b3ab8c43178758cbfd080d1cc5a12735",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_003.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 3,
+        "caption": "An ‘undulator’, a series of magnets of period P in the longitudinal",
+        "bbox_pt": [
+          62.61399841308594,
+          595.5280151367188,
+          278.1669921875,
+          677.6820068359375
+        ],
+        "normalized_bbox": [
+          0.102701,
+          0.750318,
+          0.456255,
+          0.853825
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "1bda653701941f2c2d98c21d3caa0122b3ab8c43178758cbfd080d1cc5a12735",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Top views explaining the emission bandwidths of undulators and wigglers.",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_004_fig_figure_4_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "6e03c900b5c1743f23e8fddddcadc26e2bea74e40942aa0373085efab192e484",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_004.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 4,
+        "caption": "Top views explaining the emission bandwidths of undulators and wigglers.",
+        "bbox_pt": [
+          349.6510009765625,
+          69.30298614501953,
+          529.0339965820312,
+          175.51673889160156
+        ],
+        "normalized_bbox": [
+          0.573504,
+          0.087316,
+          0.867731,
+          0.221137
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "6e03c900b5c1743f23e8fddddcadc26e2bea74e40942aa0373085efab192e484",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The notion of ‘brightness’ or ‘brilliance’. (a) A fireplace does not have",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_005_fig_figure_5_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "188ec8ef4724bba001db27f4fc200535cf52ebcc6ab5380019bf7d5a3e9631d2",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_005.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 5,
+        "caption": "The notion of ‘brightness’ or ‘brilliance’. (a) A fireplace does not have",
+        "bbox_pt": [
+          351.35198974609375,
+          69.30300903320312,
+          529.4309692382812,
+          240.03334045410156
+        ],
+        "normalized_bbox": [
+          0.576294,
+          0.087316,
+          0.868382,
+          0.302423
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "188ec8ef4724bba001db27f4fc200535cf52ebcc6ab5380019bf7d5a3e9631d2",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Polarization of synchrotron radiation. Top: a bending magnet causes the",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:background",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "repair_limit_exhausted",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_006_fig_figure_6_review_repair1.png",
+      "relative_markdown_embed": "![Figure 6](images/page_006_fig_figure_6_review_repair1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6_review_repair1.png",
+      "materialization_status": "not_applicable",
+      "source_image_sha256": "d5664d3e7ed295bb68e360cac5891c5bddc2c646b08768befc0b463bbfb07018",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_006_fig_figure_6_review_repair1.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_006.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 6,
+        "caption": "Polarization of synchrotron radiation. Top: a bending magnet causes the",
+        "bbox_pt": [
+          36.580499,
+          500.031623,
+          304.837494,
+          686.551355
+        ],
+        "normalized_bbox": [
+          0.06,
+          0.63,
+          0.5,
+          0.865
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "d5664d3e7ed295bb68e360cac5891c5bddc2c646b08768befc0b463bbfb07018",
+        "preserved_scientific_elements": [
+          "主体曲线或示意结构"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "一次受限重裁后仍混入外部图注或邻近正文；依据视觉质量门停止再次重裁，在深读笔记中不作为真实图片插入。",
+        "failure_reason": "repair_limit_exhausted",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.06,
+          0.63,
+          0.5,
+          0.865
+        ]
+      }
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "The notion of coherence, introduced using pinhole diffraction. (a) A",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:background",
+      "decision": "placeholder",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Top: the parameters used to define the ‘coherent power factor’ of",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_007_fig_figure_8_review.png",
+      "relative_markdown_embed": "![Figure 8](images/page_007_fig_figure_8_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "cddfec41140172330deefa0f68c6bd2d8d5daf9f0c3b123f5684c52d13efbb36",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_007.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 7,
+        "caption": "Top: the parameters used to define the ‘coherent power factor’ of",
+        "bbox_pt": [
+          335.875,
+          534.97900390625,
+          547.969970703125,
+          704.27099609375
+        ],
+        "normalized_bbox": [
+          0.550908,
+          0.674031,
+          0.89879,
+          0.887325
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "cddfec41140172330deefa0f68c6bd2d8d5daf9f0c3b123f5684c52d13efbb36",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 10",
+      "source_id": "Figure 10",
+      "kind": "figure",
+      "label": "Figure 10",
+      "caption": "The ‘ponderomotive’ forces fp, whose magnitudes are formally equivalent",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:background",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_009_fig_figure_10.png",
+      "relative_markdown_embed": "![Figure 10](images/page_009_fig_figure_10.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_009_fig_figure_10.png"
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "The main components of an X-FEL: (a) linear accelerator (LINAC) that",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 11",
+      "source_id": "Figure 11",
+      "kind": "figure",
+      "label": "Figure 11",
+      "caption": "As the electrons enter and then travel along the wiggler (top), after a",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:background",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_figure_11_review.png",
+      "relative_markdown_embed": "![Figure 11](images/page_010_fig_figure_11_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_fig_figure_11_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7071467b687b694490c9d1f2aefdf3d8599563bde6f836a86ae97880a4d7b483",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_fig_figure_11_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_010.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 10,
+        "caption": "As the electrons enter and then travel along the wiggler (top), after a",
+        "bbox_pt": [
+          75.02999877929688,
+          67.71600341796875,
+          264.447998046875,
+          237.3688507080078
+        ],
+        "normalized_bbox": [
+          0.123066,
+          0.085317,
+          0.433752,
+          0.299066
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "7071467b687b694490c9d1f2aefdf3d8599563bde6f836a86ae97880a4d7b483",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "source_id": "Figure 12",
+      "kind": "figure",
+      "label": "Figure 12",
+      "caption": "The ‘diffraction limit’: when trying to obtain a small-area source using a",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:background",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_011_fig_figure_12.png",
+      "relative_markdown_embed": "![Figure 12](images/page_011_fig_figure_12.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_011_fig_figure_12.png"
+    },
+    {
+      "item_id": "figure:Figure 13",
+      "source_id": "Figure 13",
+      "kind": "figure",
+      "label": "Figure 13",
+      "caption": "Analysis of the relativistic ‘beaming’.",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:appendix-c",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_014_fig_figure_13_review.png",
+      "relative_markdown_embed": "![Figure 13](images/page_014_fig_figure_13_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_fig_figure_13_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "221aaf056e7db459a50beec7c4ae7ef66ccda71f926d2da289a3038aa2527b50",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_fig_figure_13_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\page_previews\\page_014.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+        "source_page": 14,
+        "caption": "Analysis of the relativistic ‘beaming’.",
+        "bbox_pt": [
+          344.0379943847656,
+          624.7809448242188,
+          533.4559936523438,
+          726.8349609375
+        ],
+        "normalized_bbox": [
+          0.564297,
+          0.787174,
+          0.874984,
+          0.915754
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "221aaf056e7db459a50beec7c4ae7ef66ccda71f926d2da289a3038aa2527b50",
+        "preserved_scientific_elements": [
+          "完整科学图体",
+          "坐标轴与刻度（如适用）",
+          "图例、色标与面板标记（如适用）"
+        ],
+        "omitted_scientific_elements": [
+          "无"
+        ],
+        "notes": "已逐项对照候选裁图与完整来源页；图号一致，图体完整可读，未混入外部图注或邻栏正文。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 13,
+    "by_decision": {
+      "insert": 8,
+      "low_priority": 1,
+      "placeholder": 1,
+      "review_pending": 0,
+      "skip": 0,
+      "visual_defect": 3
+    }
+  }
+}

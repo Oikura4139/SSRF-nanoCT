@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "2021_synchrotron_xfels",
+  "title": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+  "note_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_Synchrotron_radiation_and_XFELs_explained.md",
+  "subdir": "2021_Synchrotron_radiation_and_XFELs_explained",
+  "images_dir": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_002_fig_figure_1_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_002_fig_figure_1_review.png",
+      "relative_markdown_path": "images/page_002_fig_figure_1_review.png",
+      "reviewed_asset_sha256": "424c56e03b0aa8819ac735bba28ff54cd617dd34139cd0781ba02a65a97f8b54"
+    },
+    {
+      "source_id": "Figure 2",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_2_review_repair1.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_003_fig_figure_2_review_repair1.png",
+      "relative_markdown_path": "images/page_003_fig_figure_2_review_repair1.png",
+      "reviewed_asset_sha256": "cdd24b0519b4432d573bbf2ef2369251b597a4b597b2729d20f53045f16bfd5d"
+    },
+    {
+      "source_id": "Figure 3",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_003_fig_figure_3_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_003_fig_figure_3_review.png",
+      "relative_markdown_path": "images/page_003_fig_figure_3_review.png",
+      "reviewed_asset_sha256": "1bda653701941f2c2d98c21d3caa0122b3ab8c43178758cbfd080d1cc5a12735"
+    },
+    {
+      "source_id": "Figure 4",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_004_fig_figure_4_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_004_fig_figure_4_review.png",
+      "relative_markdown_path": "images/page_004_fig_figure_4_review.png",
+      "reviewed_asset_sha256": "6e03c900b5c1743f23e8fddddcadc26e2bea74e40942aa0373085efab192e484"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_005_fig_figure_5_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_005_fig_figure_5_review.png",
+      "relative_markdown_path": "images/page_005_fig_figure_5_review.png",
+      "reviewed_asset_sha256": "188ec8ef4724bba001db27f4fc200535cf52ebcc6ab5380019bf7d5a3e9631d2"
+    },
+    {
+      "source_id": "Figure 8",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_007_fig_figure_8_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_007_fig_figure_8_review.png",
+      "relative_markdown_path": "images/page_007_fig_figure_8_review.png",
+      "reviewed_asset_sha256": "cddfec41140172330deefa0f68c6bd2d8d5daf9f0c3b123f5684c52d13efbb36"
+    },
+    {
+      "source_id": "Figure 11",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_010_fig_figure_11_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_010_fig_figure_11_review.png",
+      "relative_markdown_path": "images/page_010_fig_figure_11_review.png",
+      "reviewed_asset_sha256": "7071467b687b694490c9d1f2aefdf3d8599563bde6f836a86ae97880a4d7b483"
+    },
+    {
+      "source_id": "Figure 13",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Synchrotron_radiation_and_X_ray_free_electron_lasers_X_FELs_explained_to_all_users_active_and_potential\\images\\page_014_fig_figure_13_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2021_Synchrotron_radiation_and_XFELs_explained\\images\\page_014_fig_figure_13_review.png",
+      "relative_markdown_path": "images/page_014_fig_figure_13_review.png",
+      "reviewed_asset_sha256": "221aaf056e7db459a50beec7c4ae7ef66ccda71f926d2da289a3038aa2527b50"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记",
+  "vault": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记"
+}

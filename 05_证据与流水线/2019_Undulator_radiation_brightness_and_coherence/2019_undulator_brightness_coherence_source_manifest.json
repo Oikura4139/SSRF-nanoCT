@@ -1,0 +1,954 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+  "title": "Undulator radiation brightness and coherence near the diffraction limit",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_raw_sections.jsonl",
+  "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_full_text.md",
+  "pdf": {
+    "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "total_pages": 12,
+    "text_pages_extracted": 12,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 12,
+    "text_max_pages": null,
+    "text_pages_extracted": 12,
+    "text_pages_scanned": 12,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1192,
+      "text_hash_sha256": "5f1efb2d1a42fdf87ac57cdff6d8768852c3f66f0c89f2e7aad97a9cb071c0af"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "I. INTRODUCTION",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 7267,
+      "text_hash_sha256": "a7a49d089a471a82fe3d2f6b527cf204a73c295bfc8c3fd227a38ee62d94f4f9"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 2,
+      "page_end": 11,
+      "char_count": 25676,
+      "text_hash_sha256": "9467940daaa1b780d76379eac735fe16e3453d4535e006719413289591c70bb7"
+    },
+    {
+      "section_id": "sec:conclusions",
+      "kind": "conclusion",
+      "title": "IX. CONCLUSIONS",
+      "page_start": 11,
+      "page_end": 12,
+      "char_count": 8386,
+      "text_hash_sha256": "57122afd3ec39bfe809defd44664d4d4feb7a2f74439ca59a244a178bdc1a20b"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4380,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4465,
+      "section_ids": [
+        "sec:introduction",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3773,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2995,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 1235,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4288,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 1741,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 4185,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 2486,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2876,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 4623,
+      "section_ids": [
+        "sec:model",
+        "sec:conclusions"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 5571,
+      "section_ids": [
+        "sec:conclusions"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "FIG 2",
+        "caption": "Peak brightness (×1023, blue line), average brightness",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 1",
+        "caption": "Brightness distributions at various detunings, NΔω=ω1 ¼ −1 (left), 0 (center), and þ1 (right), normalized to unity in each case.",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 3",
+        "caption": "Spatial (left) and angular (right) distributions of the brightness function; 1D sections (blue line), sections of the 2D projected",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 4",
+        "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the detuning obtained from 1D sections (blue",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 5",
+        "caption": "Data from Fig. 4 expressed as emittance (left) and beta values (right) in relative units.",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "shows the peak brightness, average brightness,",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 6",
+        "caption": "Brightness distributions. Left: σE ¼ 0.001, εx ¼ εy ¼ 0; middle: σE ¼ 0, εx ¼ εy ¼ 10 pm, βx ¼ βy ¼ 2; right: σE ¼ 0.001,",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 9",
+        "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the energy spread obtained from 1D sections (blue",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 8",
+        "caption": "3D projected distributions along the x (left) and x0 (right) axes for rms energy spread varying between zero (blue line)",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 7",
+        "caption": "Peak brightness (blue line), average brightness (red",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "incudes the rms values derived from Eq. (13)",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 10",
+        "caption": "Radiation beta value (βR) obtained from 3D projec-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "shows the various measures of rms size and",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 12",
+        "caption": "Left: Peak brightness (blue) and average brightness (red); right: degree of coherence (blue) as a function of the emittance,",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "shows the peak and average brightness, and",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 11",
+        "caption": "rms beam sizes (left) and divergences (right) in relative units as a function of the emittance, with εx ¼ εy, βx ¼ βy ¼ 2,",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 13",
+        "caption": "Peak brightness (left), average brightness (middle), and degree of coherence (right) as a function of the emittance with",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 14",
+        "caption": "Relative effect of energy spread on the peak brightness",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 15",
+        "caption": "Ratio of the degree of coherence to the approximation",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "FIG 16",
+        "caption": "Relative variation in the peak brightness (blue line) and degree of coherence (red line) as a function of the electron beam beta",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:model"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "taken to mean ε ∼λ=4π, where λ is the radiation wavelength.",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "RÞ1=2;",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "RÞ1=2;",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "R0Þ1=2;",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "R0Þ1=2;",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "2469-9888=19=22(5)=050704(12)",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "is usually assumed to be λ=4π, since this is the appropriate",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "therefore Bo ¼ F=ðλ=2Þ2 and, since a Gaussian mode is",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "ðλ=4πÞ2",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "values (βR ¼ σR=σR0). The significance of the beta value is",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "(βx;y ¼ σx;y=σx0;y0) equal the radiation beta value; i.e., the",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "emittance in this case is λ=2π, Eq. (3) would give (in the limit",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "ðλ=2Þ2 :",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "λ=L",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "L=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=2L",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "L=2π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=2L",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "=2π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=2π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "L=π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=4L",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "=2π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=4π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "L=π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "value of εR ¼ λ=4π. In other words, for Eq. (1) to give",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "B ¼ Bo expð−x2=2Σ2xÞ expð−x02=2Σ2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "× expð−y2=2Σ2yÞ expð−y02=2Σ2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "and ζ ¼ ðλ=4πÞ2=ΣxΣx0ΣyΣy0. The use of the definitions of",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "the photon emittance εR ¼ λ=4π, we will answer the",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "ð1 þ K2=2Þ2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "4ð1 þ K2=2Þ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "4ð1 þ K2=2Þ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "EðθÞ ¼ sinðNπω=ω1Þ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "ðNπω=ω1Þ ;",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "ω1 ¼ 4πcγ2=λoð1 þ K2=2Þ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "the “detuning” NΔω=ω1, and relative electron energy",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "deviation δ ¼ Δγ=γ, the argument of the line-shape func-",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "2λ=L þ N",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "intensities, dF=dS¼",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "Bðx;x0;y;y0Þdx0dy0 and dF=dΩ ¼",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "2πðdF=dSÞmax",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "\u00031=2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "2πðdF=dΩÞmax",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "\u00031=2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "of interest, e.g., dF=dx ¼",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "Bdx0dy0dy and dF=dx0 ¼",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "Brightness distributions at various detunings, NΔω=ω1 ¼ −1 (left), 0 (center), and þ1 (right), normalized to unity in each case.",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "emittance is therefore λ=8π, in agreement with Ref. [12],",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "whereas the projections give an emittance of λ=2π. Thus,",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "emittance of λ=4π. In other words, the phase-space widths",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "unity, in relative units, i.e., βR ¼ L=π. We conclude,",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "not with the required value of λ=4π, 0.5 in relative units).",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "where the relative energy deviation δ ¼ ΔE=E is assumed",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "exp −ðδ2=2σ2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "EÞ=",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "−1 þ expð−2x2Þ þ ð2πÞ1=2erfð21=2xÞ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "\u00071=2",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "Qaðx=4Þ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "\u00072=3",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "λ=2L",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "that of Ref. [19]) σR0 ¼ ðλ=2πÞ=σR0",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "ðσRσR0Þfit ¼ λ=4πffiffiζ",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "and using the beta value (σR=σR0) derived from the",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "F=4",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "L=π",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "where PðzÞ ¼ exp −ðz2=2σ2zÞ=",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "emittance of 10 pm (for εx ≥10 pm). Also shown are the",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "∼1.5 m, whereas the GA peaks at βx;y ¼ L=π ¼ 1.26 m.",
+      "section_id": "sec:model",
+      "page_start": 2,
+      "page_end": 11
+    },
+    {
+      "text": "to be needed to reach the diffraction limit, ε ¼ λ=4π, which",
+      "section_id": "sec:conclusions",
+      "page_start": 11,
+      "page_end": 12
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "deb1d6d0a50f8ccaca9885f8a3e93555af613f128c387a6a5d9bf5bfc3891968",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Undulator radiation brightness and coherence near the diffraction limit",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "10.1103/PhysRevAccelBeams.22.050704",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Undulator radiation brightness and coherence near the diffraction limit",
+      "year": "",
+      "venue": "",
+      "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "doi": "10.1103/PhysRevAccelBeams.22.050704",
+      "arxiv_id": "",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+      "title": "Undulator radiation brightness and coherence near the diffraction limit",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "doi": "10.1103/PhysRevAccelBeams.22.050704",
+      "paper_id": "doi:10.1103/physrevaccelbeams.22.050704",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "doi_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1103/physrevaccelbeams.22.050704"
+        }
+      },
+      "doi": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1103/physrevaccelbeams.22.050704"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1103/physrevaccelbeams.22.050704"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "doi:10.1103/physrevaccelbeams.22.050704"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.1103/PhysRevAccelBeams.22.050704",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Undulator radiation brightness and coherence near the diffraction limit",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "doi:10.1103/physrevaccelbeams.22.050704"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Undulator radiation brightness and coherence near the diffraction limit",
+          "work_value": "Undulator radiation brightness and coherence near the diffraction limit"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_resolve.json",
+      "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2019_Undulator_radiation_brightness_and_coherence\\2019_undulator_brightness_coherence_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Undulator radiation brightness and coherence near the diffraction limit",
+    "year": "",
+    "venue": "",
+    "source_url": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2019_Walker_Undulator_radiation_brightness_and_coherence.pdf",
+    "doi": "10.1103/PhysRevAccelBeams.22.050704",
+    "arxiv_id": "",
+    "zotero_key": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "review_type": "final_quality_review",
+  "paper_id": "doi:10.1107/S1600577521003325",
+  "reviewed_artifacts": [
+    "2021_synchrotron_xfels_source_manifest.json",
+    "2021_synchrotron_xfels_full_text.md",
+    "2021_synchrotron_xfels_note_plan.json",
+    "2021_synchrotron_xfels_figure_table_decisions.json",
+    "2021_synchrotron_xfels_draft.md",
+    "2021_synchrotron_xfels_note_lint.json",
+    "2021_Synchrotron_radiation_and_XFELs_explained_全文中文翻译.md"
+  ],
+  "checks": {
+    "identity_and_metadata": "pass：题名、作者、期刊、年份、卷页与 DOI 均和论文一致。",
+    "full_text_coverage": "pass：正文第 1—7 节、附录 A—E、图 1—13、公式与参考文献均进入全文译稿；16/16 页证据覆盖，无截断。",
+    "explanatory_fidelity": "pass：相对论波长压缩、波荡器/摆动器、亮度、相干性、微束团和 X-FEL 增益均按原文物理链条表述。",
+    "audience_fit": "pass：译稿新增大学物理速查、17 个就地物理补充框和一页复习卡；按直觉、公式、用途三级解释相对论、波荡器、亮度、相干性与 FEL 增益。",
+    "supplement_boundary": "pass：新增内容全部以‘物理补充’标题或提示框标识，文首明确声明其不属于论文原文，未把解释性推论伪装成作者结论。",
+    "numerical_sanity": "pass：1 埃与 12.4 千电子伏换算、2 千兆电子伏电子的相对论因子、厘米周期到埃波长、增益长度和束射角示例均通过数量级复核。",
+    "formula_integrity": "pass：译稿和深读笔记的 TeX 定界符均配对，关键公式中的括号和分母已逐项复核。",
+    "figure_evidence": "pass：译稿含原文 13 幅图；深读笔记仅插入 8 幅人工核验合格的高价值图，其余按视觉缺陷或低优先级留痕。",
+    "link_integrity": "pass：译稿 13 个、深读笔记 8 个图片链接全部指向现存本地图像；新增 Walker 译稿相对链接有效。"
+  },
+  "edits_made": [
+    "修复公式转写时产生的嵌套数学定界符，并复核所有含分母的关键关系式。",
+    "为全文翻译独立裁切并人工检查 13 幅原文图，避免沿用不完整的自动裁图。",
+    "将亮度、相干性和 X-FEL 机制重组为面向普通用户的可迁移解释框架。",
+    "为遗忘大学物理知识的读者补充波与相位、Lorentz 力、相对论因子、发射度、微束团和指数反馈知识，并明确原文/补充边界。"
+  ],
+  "remaining_known_risks": [
+    "论文是入门性教程，部分数量级推导有意采用近似，不能替代装置设计计算。"
+  ],
+  "final_lint_gate": {
+    "passes_basic_structure": true,
+    "passes_style_gate": true,
+    "passes_math_gate": true,
+    "passes_figure_gate": true,
+    "passes_reference_hygiene_gate": true,
+    "passes_plan_gate": true,
+    "passes_substantive_content": true,
+    "warnings": []
+  },
+  "lint_rerun_required": false
+}

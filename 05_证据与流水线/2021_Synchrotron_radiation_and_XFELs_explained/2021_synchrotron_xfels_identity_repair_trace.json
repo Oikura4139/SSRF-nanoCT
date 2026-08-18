@@ -1,0 +1,114 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "artifact_type": "identity_repair_trace",
+  "schema_version": 2,
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "repair_attempts": [],
+  "accepted_observations": [],
+  "rejected_observations": [],
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    }
+  ],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1107/s1600577521003325"
+      }
+    },
+    "doi": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1107/s1600577521003325"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1107/s1600577521003325"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "doi:10.1107/s1600577521003325"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "doi",
+      "value": "10.1107/S1600577521003325",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\02_支撑文献PDF\\2021_Hwu_Margaritondo_Synchrotron_radiation_and_XFELs_explained.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "doi:10.1107/s1600577521003325"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential",
+        "work_value": "Synchrotron radiation and X-ray free-electron lasers (X-FELs) explained to all users, active and potential"
+      }
+    ]
+  },
+  "warnings": [],
+  "unresolved_risks": [],
+  "failure_summary": "",
+  "provenance": {
+    "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_resolve.json",
+    "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\2021_Synchrotron_radiation_and_XFELs_explained\\2021_synchrotron_xfels_metadata.json"
+  }
+}

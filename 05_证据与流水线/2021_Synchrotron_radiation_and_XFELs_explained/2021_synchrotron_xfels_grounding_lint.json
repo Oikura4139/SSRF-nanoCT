@@ -1,0 +1,89 @@
+{
+  "status": "ok",
+  "script": "lint_grounding.py",
+  "paper_id": "doi:10.1107/s1600577521003325",
+  "issues": [
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 1"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 1"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 2"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 2"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 3"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 3"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 4"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 4"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 5"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 5"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 8"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 8"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 11"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 11"
+    },
+    {
+      "code": "figure_visual_review_invalid",
+      "severity": "error",
+      "source_id": "Figure 13"
+    },
+    {
+      "code": "figure_visual_review_stale",
+      "severity": "error",
+      "source_id": "Figure 13"
+    }
+  ],
+  "warnings": [],
+  "passes_grounding": false
+}
