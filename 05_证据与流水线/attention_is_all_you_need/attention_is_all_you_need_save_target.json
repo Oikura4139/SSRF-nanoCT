@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "script": "write_obsidian_note.py",
+  "paper_id": "arxiv:1706.03762",
+  "title": "Attention Is All You Need",
+  "note_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\2017_Attention_Is_All_You_Need.md",
+  "subdir": "04_深读笔记",
+  "images_dir": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images",
+  "materialized_figures": [
+    {
+      "source_id": "Figure 1",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+      "relative_markdown_path": "images/page_003_fig_figure_1_review.png",
+      "reviewed_asset_sha256": "0b750d28c56eec9a560a711063b250c67d4c19f4b51ffdb2bc28642f73beb8ea"
+    },
+    {
+      "source_id": "Figure 2",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+      "relative_markdown_path": "images/page_004_fig_figure_2_review.png",
+      "reviewed_asset_sha256": "9c9d4818d8dd803ea02337509ea6ecd061fe33630549fca709d3f7d1cd18c222"
+    },
+    {
+      "source_id": "Figure 3",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+      "relative_markdown_path": "images/page_013_fig_figure_3_review.png",
+      "reviewed_asset_sha256": "04d2bcd8a8e15ae3a8add08133ca91b266640d1ddbc308d319ebe3d6e37df585"
+    },
+    {
+      "source_id": "Figure 4",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+      "relative_markdown_path": "images/page_014_fig_figure_4_review.png",
+      "reviewed_asset_sha256": "d58973fcdd911676194e31ff38ba77d7687c91976a35cc86328de2dd4c7528b1"
+    },
+    {
+      "source_id": "Figure 5",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+      "relative_markdown_path": "images/page_015_fig_figure_5_review.png",
+      "reviewed_asset_sha256": "0e998a2f6e23821c36c0670c0e23a2fcd92e9e81f0859300542145e435204a02"
+    },
+    {
+      "source_id": "Table 2",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+      "relative_markdown_path": "images/page_008_fig_table_2_review.png",
+      "reviewed_asset_sha256": "30fd409a21f04beb8722e8004eb793f999415bea4c5542549b86b362c41d8423"
+    },
+    {
+      "source_id": "Table 3",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+      "relative_markdown_path": "images/page_009_fig_table_3_review.png",
+      "reviewed_asset_sha256": "ff7cbdebeb26b81ab7b9314d92b9653610d6087bd443e776b731b7185b46db83"
+    },
+    {
+      "source_id": "Table 4",
+      "source_image": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+      "dest_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\04_深读笔记\\2017_Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+      "relative_markdown_path": "images/page_010_fig_table_4_review.png",
+      "reviewed_asset_sha256": "e681234883c31c35983d635b585f8a5208f68dbfca50c3e3b787d0de391ce79c"
+    }
+  ],
+  "output_mode": "obsidian",
+  "base_output_root": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT",
+  "vault": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT"
+}

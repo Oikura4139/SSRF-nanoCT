@@ -1,0 +1,1004 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:1706.03762",
+  "title": "Attention Is All You Need",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_raw_sections.jsonl",
+  "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_full_text.md",
+  "pdf": {
+    "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+    "total_pages": 15,
+    "text_pages_extracted": 15,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 15,
+    "text_max_pages": null,
+    "text_pages_extracted": 15,
+    "text_pages_scanned": 15,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 589,
+      "text_hash_sha256": "4ed907cac71d5fe24a21ec56daf613ef1532b92902d50526acb1af49cc0be903"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 2256,
+      "text_hash_sha256": "f965ade79c1dd7d46a02e84a02b5d61b0194328dbe9eef110c8afbed1ed86854"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 1905,
+      "text_hash_sha256": "dbb352ffbc14567151a3375966064c152f7867292005ade52e32868e62bd99b9"
+    },
+    {
+      "section_id": "sec:background",
+      "kind": "introduction",
+      "title": "Background",
+      "page_start": 2,
+      "page_end": 8,
+      "char_count": 16802,
+      "text_hash_sha256": "d420518930133529b996b66936ca8c580b5780831356f000f08e762411fd7833"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 986,
+      "text_hash_sha256": "352baf1a33fff85455db7b125f89edb460bc19613562393a442c75e20d4db3a1"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 8,
+      "page_end": 10,
+      "char_count": 6101,
+      "text_hash_sha256": "c4971ecfef7b660c26ef01944ee4ab774113f21183ef275977bd21e64176431a"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "Conclusion",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 1087,
+      "text_hash_sha256": "c2148ab4c4dbf9678531dc2422d371077a7a34353394ad477e03e1e1d5e870e9"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 111,
+      "text_hash_sha256": "73a918a86f89fbdd93401b17a5075188717e7398097cf10017344047c09ce14c"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 10,
+      "page_end": 15,
+      "char_count": 9082,
+      "text_hash_sha256": "ad361b5593a53e207d33965da870ccab27e9235c7e6bdd57528f58a027d8e9d2"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2855,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4255,
+      "section_ids": [
+        "sec:abstract",
+        "sec:introduction",
+        "sec:background"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 1826,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2507,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3192,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3472,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3320,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3193,
+      "section_ids": [
+        "sec:background",
+        "sec:model",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 2972,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 3111,
+      "section_ids": [
+        "sec:results",
+        "sec:conclusion",
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3215,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3213,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 793,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 777,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 780,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "The Transformer - model architecture.",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "An example of the attention mechanism following long-distance dependencies in the",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:references"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Table 2",
+        "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Table 4",
+        "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:results"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "of continuous representations z = (z1, ..., zn). Given z, the decoder then generates an output",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "The encoder is composed of a stack of N = 6 identical layers. Each layer has two",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "layers, produce outputs of dimension dmodel = 512.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "The decoder is also composed of a stack of N = 6 identical layers. In addition to the two",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "Attention(Q, K, V ) = softmax(QKT",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "variables with mean 0 and variance 1. Then their dot product, q · k = Pdk",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "i=1 qiki, has mean 0 and variance dk.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "MultiHead(Q, K, V ) = Concat(head1, ..., headh)W O",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "where headi = Attention(QW Q",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "∈Rdmodel×dk, W K",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "∈Rdmodel×dk, W V",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "∈Rdmodel×dv",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "and W O ∈Rhdv×dmodel.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "In this work we employ h = 8 parallel attention layers, or heads. For each of these we use",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "FFN(x) = max(0, xW1 + b1)W2 + b2",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "dff = 2048.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(n2 · d)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(1)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(1)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(n · d2)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(n)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(n)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(k · n · d2)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(1)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(logk(n))",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(r · n · d)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(1)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "O(n/r)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "PE(pos,2i) = sin(pos/100002i/dmodel)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "PE(pos,2i+1) = cos(pos/100002i/dmodel)",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "(x1, ..., xn) to another sequence of equal length (z1, ..., zn), with xi, zi ∈Rd, such as a hidden",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "path length to O(n/r). We plan to investigate this approach further in future work.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "A single convolutional layer with kernel width k < n does not connect all pairs of input and output",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "positions. Doing so requires a stack of O(n/k) convolutional layers in the case of contiguous kernels,",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "or O(logk(n)) in the case of dilated convolutions [18], increasing the length of the longest paths",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "considerably, to O(k · n · d + n · d2). Even with k = n, however, the complexity of a separable",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "We used the Adam optimizer [20] with β1 = 0.9, β2 = 0.98 and ϵ = 10−9. We varied the learning",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "lrate = d−0.5",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "warmup_steps = 4000.",
+      "section_id": "sec:background",
+      "page_start": 2,
+      "page_end": 8
+    },
+    {
+      "text": "Pdrop = 0.1.",
+      "section_id": "sec:model",
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "text": "During training, we employed label smoothing of value ϵls = 0.1 [36]. This",
+      "section_id": "sec:model",
+      "page_start": 8,
+      "page_end": 8
+    },
+    {
+      "text": "dropout rate Pdrop = 0.1, instead of 0.3.",
+      "section_id": "sec:results",
+      "page_start": 8,
+      "page_end": 10
+    },
+    {
+      "text": "used beam search with a beam size of 4 and length penalty α = 0.6 [38]. These hyperparameters",
+      "section_id": "sec:results",
+      "page_start": 8,
+      "page_end": 10
+    },
+    {
+      "text": "We trained a 4-layer transformer with dmodel = 1024 on the Wall Street Journal (WSJ) portion of the",
+      "section_id": "sec:results",
+      "page_start": 8,
+      "page_end": 10
+    },
+    {
+      "text": "increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3",
+      "section_id": "sec:results",
+      "page_start": 8,
+      "page_end": 10
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<EOS>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    },
+    {
+      "text": "<pad>",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 15
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "9ff74efe2d339c2bb9a53c066d1598db28886ca5ed2eda837b8d1c573abf1157",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:1706.03762",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Attention Is All You Need",
+      "translated_title": "",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": "2017",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "arxiv_url",
+      "title": "Attention Is All You Need",
+      "year": "",
+      "venue": "",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "local_pdf_path": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "arxiv_url",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "arxiv_id": "1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "metadata_sources": [
+        "arxiv_url",
+        "arxiv"
+      ],
+      "paper_id": "arxiv:1706.03762",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present"
+      ],
+      "zotero_lookup": {
+        "mode": "auto",
+        "status": "error",
+        "match_kind": "arxiv_url",
+        "error": {
+          "code": "zotero_timeout",
+          "message": "Timed out while connecting to the Zotero Local API.",
+          "retryable": true
+        }
+      },
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/1706.03762v7",
+      "title": "Attention Is All You Need",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "published": "2017-06-12T17:57:34Z",
+      "year": "2017"
+    },
+    "bound_sources": [
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "provider": "arxiv_url",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762v7",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "arxiv_id": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "source_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "title": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "1706.03762",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Attention Is All You Need",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:1706.03762"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_resolve.json",
+      "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "arxiv_url",
+    "title": "Attention Is All You Need",
+    "year": "",
+    "venue": "",
+    "source_url": "https://arxiv.org/abs/1706.03762",
+    "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+    "local_pdf_path": "",
+    "doi": "",
+    "arxiv_id": "1706.03762",
+    "zotero_key": ""
+  }
+}

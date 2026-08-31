@@ -1,0 +1,223 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "arxiv:1706.03762",
+  "title": "Attention Is All You Need",
+  "pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+  "pdf_source": "downloaded",
+  "source_url": "https://arxiv.org/abs/1706.03762",
+  "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+  "file_size": 2215244,
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:1706.03762",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Attention Is All You Need",
+      "translated_title": "",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": "2017",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "arxiv_url",
+      "title": "Attention Is All You Need",
+      "year": "",
+      "venue": "",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "local_pdf_path": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "arxiv_url",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "arxiv_id": "1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "metadata_sources": [
+        "arxiv_url",
+        "arxiv"
+      ],
+      "paper_id": "arxiv:1706.03762",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present"
+      ],
+      "zotero_lookup": {
+        "mode": "auto",
+        "status": "error",
+        "match_kind": "arxiv_url",
+        "error": {
+          "code": "zotero_timeout",
+          "message": "Timed out while connecting to the Zotero Local API.",
+          "retryable": true
+        }
+      },
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/1706.03762v7",
+      "title": "Attention Is All You Need",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "published": "2017-06-12T17:57:34Z",
+      "year": "2017"
+    },
+    "bound_sources": [
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "provider": "arxiv_url",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762v7",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "arxiv_id": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "source_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "title": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "1706.03762",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Attention Is All You Need",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:1706.03762"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_resolve.json",
+      "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "arxiv_url",
+    "title": "Attention Is All You Need",
+    "year": "",
+    "venue": "",
+    "source_url": "https://arxiv.org/abs/1706.03762",
+    "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+    "local_pdf_path": "",
+    "doi": "",
+    "arxiv_id": "1706.03762",
+    "zotero_key": ""
+  }
+}

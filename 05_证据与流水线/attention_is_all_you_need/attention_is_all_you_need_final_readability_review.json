@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "paper_id": "arxiv:1706.03762",
+  "review_stage": "final_readability_review",
+  "checks": {
+    "full_note_reread": true,
+    "natural_chinese_prose": true,
+    "ordinary_english_leftovers_removed": true,
+    "stable_proper_nouns_preserved": true,
+    "headings_and_tables_are_scannable": true,
+    "figure_captions_are_adjacent": true,
+    "no_new_facts_added_during_polish": true,
+    "lint_rerun_after_edits": true
+  },
+  "review_notes": [
+    "将 token、word-piece、dropout 等普通术语统一改写为自然中文，保留 Transformer、WMT、BLEU 等稳定名称。",
+    "拆分过长的作者贡献、数据和公式说明段落，避免中英混排与句中断行。",
+    "八个插图均有相邻中文图注；全文翻译与深读分析之间的重复仅保留在必要公式和结果处。",
+    "最终脚本校验无 warning，全部 passes_* 字段为 true。"
+  ]
+}

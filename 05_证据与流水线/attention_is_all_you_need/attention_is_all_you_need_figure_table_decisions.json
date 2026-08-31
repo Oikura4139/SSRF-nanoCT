@@ -1,0 +1,463 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:1706.03762",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "The Transformer - model architecture.",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_003_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0b750d28c56eec9a560a711063b250c67d4c19f4b51ffdb2bc28642f73beb8ea",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_003.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 3,
+        "caption": "The Transformer - model architecture.",
+        "bbox_pt": [
+          192.5590057373047,
+          68.00198364257812,
+          419.43902587890625,
+          398.4179992675781
+        ],
+        "normalized_bbox": [
+          0.314639,
+          0.085861,
+          0.685358,
+          0.503053
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "9c9d4818d8dd803ea02337509ea6ecd061fe33630549fca709d3f7d1cd18c222",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_004.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 4,
+        "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+        "bbox_pt": [
+          143.7830047607422,
+          67.19947814941406,
+          471.0119934082031,
+          271.29498291015625
+        ],
+        "normalized_bbox": [
+          0.23494,
+          0.084848,
+          0.769627,
+          0.342544
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "An example of the attention mechanism following long-distance dependencies in the",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:references",
+      "decision": "review_pending",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_013_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_013_fig_figure_3_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "04d2bcd8a8e15ae3a8add08133ca91b266640d1ddbc308d319ebe3d6e37df585",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_013.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 13,
+        "caption": "An example of the attention mechanism following long-distance dependencies in the",
+        "bbox_pt": [
+          104.0,
+          56.62104797363281,
+          508.72137451171875,
+          306.05999755859375
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.071491,
+          0.831244,
+          0.386439
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:references",
+      "decision": "review_pending",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_014_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_014_fig_figure_4_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d58973fcdd911676194e31ff38ba77d7687c91976a35cc86328de2dd4c7528b1",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_014.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 14,
+        "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+        "bbox_pt": [
+          104.0,
+          91.59576416015625,
+          507.7409973144531,
+          607.9539794921875
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.115651,
+          0.829642,
+          0.767619
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:references",
+      "decision": "review_pending",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_015_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_015_fig_figure_5_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0e998a2f6e23821c36c0670c0e23a2fcd92e9e81f0859300542145e435204a02",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_015.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 15,
+        "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+        "bbox_pt": [
+          102.76576232910156,
+          105.8309097290039,
+          503.3510437011719,
+          601.3233032226562
+        ],
+        "normalized_bbox": [
+          0.167918,
+          0.133625,
+          0.822469,
+          0.759247
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:background",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_006_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_006_fig_table_1.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_table_2_review.png",
+      "relative_markdown_embed": "![Table 2](images/page_008_fig_table_2_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "30fd409a21f04beb8722e8004eb793f999415bea4c5542549b86b362c41d8423",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_008.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 8,
+        "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+        "bbox_pt": [
+          130.67098999023438,
+          93.07107543945312,
+          481.3241882324219,
+          246.54806518554688
+        ],
+        "normalized_bbox": [
+          0.213515,
+          0.117514,
+          0.786477,
+          0.311298
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_009_fig_table_3_review.png",
+      "relative_markdown_embed": "![Table 3](images/page_009_fig_table_3_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ff7cbdebeb26b81ab7b9314d92b9653610d6087bd443e776b731b7185b46db83",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_009.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 9,
+        "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+        "bbox_pt": [
+          110.46800231933594,
+          125.48249816894531,
+          508.7594299316406,
+          389.1080627441406
+        ],
+        "normalized_bbox": [
+          0.180503,
+          0.158437,
+          0.831306,
+          0.491298
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_table_4_review.png",
+      "relative_markdown_embed": "![Table 4](images/page_010_fig_table_4_review.png)",
+      "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "e681234883c31c35983d635b585f8a5208f68dbfca50c3e3b787d0de391ce79c",
+      "review_evidence": {
+        "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+        "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_010.png",
+        "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+        "source_page": 10,
+        "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+        "bbox_pt": [
+          145.02699279785156,
+          93.07107543945312,
+          466.9724426269531,
+          241.49710083007812
+        ],
+        "normalized_bbox": [
+          0.236972,
+          0.117514,
+          0.763027,
+          0.304921
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "review_pending": 8,
+      "skip": 0,
+      "visual_defect": 1
+    }
+  }
+}

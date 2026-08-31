@@ -1,0 +1,3894 @@
+{
+  "status": "ok",
+  "script": "build_synthesis_bundle.py",
+  "paper_id": "arxiv:1706.03762",
+  "title": "Attention Is All You Need",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:1706.03762",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Attention Is All You Need",
+      "translated_title": "",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": "2017",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "arxiv_url",
+      "title": "Attention Is All You Need",
+      "year": "",
+      "venue": "",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "local_pdf_path": "",
+      "doi": "",
+      "arxiv_id": "1706.03762",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "arxiv_url",
+      "source_url": "https://arxiv.org/abs/1706.03762",
+      "arxiv_id": "1706.03762",
+      "pdf_url": "https://arxiv.org/pdf/1706.03762.pdf",
+      "metadata_sources": [
+        "arxiv_url",
+        "arxiv"
+      ],
+      "paper_id": "arxiv:1706.03762",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present"
+      ],
+      "zotero_lookup": {
+        "mode": "auto",
+        "status": "error",
+        "match_kind": "arxiv_url",
+        "error": {
+          "code": "zotero_timeout",
+          "message": "Timed out while connecting to the Zotero Local API.",
+          "retryable": true
+        }
+      },
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/1706.03762v7",
+      "title": "Attention Is All You Need",
+      "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Lukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "published": "2017-06-12T17:57:34Z",
+      "year": "2017"
+    },
+    "bound_sources": [
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "provider": "arxiv_url",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762v7",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "arxiv_id": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "source_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv_url",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:1706.03762"
+        }
+      },
+      "title": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "1706.03762"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "1706.03762",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Attention Is All You Need",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/1706.03762.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/1706.03762",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:1706.03762"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_resolve.json",
+      "metadata_artifact_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_metadata.json"
+    }
+  },
+  "metadata": {
+    "title": "Attention Is All You Need",
+    "translated_title": "",
+    "authors": [
+      "Ashish Vaswani",
+      "Noam Shazeer",
+      "Niki Parmar",
+      "Jakob Uszkoreit",
+      "Llion Jones",
+      "Aidan N. Gomez",
+      "Lukasz Kaiser",
+      "Illia Polosukhin"
+    ],
+    "affiliations": [],
+    "year": "2017",
+    "venue": "",
+    "doi": "",
+    "source_url": "https://arxiv.org/abs/1706.03762",
+    "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.",
+    "arxiv_id": "1706.03762",
+    "zotero_key": "",
+    "metadata_sources": [
+      "arxiv_url",
+      "arxiv"
+    ],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present"
+    ]
+  },
+  "evidence_quality": "high",
+  "coverage": {
+    "language_hint": "en",
+    "section_extraction_coverage": {
+      "coverage_status": "good",
+      "recognized_sections": [
+        "preamble",
+        "abstract",
+        "introduction",
+        "method",
+        "experiment",
+        "conclusion",
+        "acknowledgments",
+        "references"
+      ],
+      "core_sections_found": [
+        "introduction",
+        "method",
+        "experiment"
+      ],
+      "missing_core_sections": [],
+      "section_text_chars": {
+        "preamble": 589,
+        "abstract": 2256,
+        "introduction": 18708,
+        "method": 986,
+        "experiment": 6101,
+        "conclusion": 1087,
+        "acknowledgments": 111,
+        "references": 9082
+      },
+      "fallback_sections": []
+    },
+    "pdf_coverage": {
+      "total_pages": 15,
+      "text_max_pages": null,
+      "text_pages_extracted": 15,
+      "text_pages_scanned": 15,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null,
+      "section_stop_reason": "",
+      "section_stop_page": null
+    },
+    "source_coverage": {
+      "total_pages": 15,
+      "text_max_pages": null,
+      "text_pages_extracted": 15,
+      "text_pages_scanned": 15,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    },
+    "source_manifest": {
+      "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_raw_sections.jsonl",
+      "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_full_text.md",
+      "section_count": 9,
+      "page_count": 15,
+      "text_hash_sha256": "9ff74efe2d339c2bb9a53c066d1598db28886ca5ed2eda837b8d1c573abf1157"
+    },
+    "appendix_evidence_counts": {
+      "ablation": 0,
+      "implementation_details": 0,
+      "dataset_details": 0,
+      "extra_results": 0,
+      "qualitative_examples": 0
+    },
+    "extraction_failures": [],
+    "asset_coverage": {
+      "total_pages": 15,
+      "asset_max_pages": 40,
+      "asset_pages_scanned": 15,
+      "truncated_due_to_asset_page_limit": false
+    },
+    "figure_quality_summary": {
+      "usable": 8,
+      "review": 0,
+      "reject": 1,
+      "unknown": 0
+    },
+    "truncation_warnings": [],
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present"
+    ]
+  },
+  "source_manifest": {
+    "paper_id": "arxiv:1706.03762",
+    "title": "Attention Is All You Need",
+    "source_kind": "pdf_text",
+    "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_raw_sections.jsonl",
+    "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_full_text.md",
+    "pdf": {
+      "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+      "total_pages": 15,
+      "text_pages_extracted": 15,
+      "text_max_pages": null,
+      "text_truncated": false
+    },
+    "coverage": {
+      "total_pages": 15,
+      "text_max_pages": null,
+      "text_pages_extracted": 15,
+      "text_pages_scanned": 15,
+      "text_truncated": false,
+      "truncated_due_to_page_limit": false,
+      "appendix_detected": false,
+      "appendix_start_page": null,
+      "references_start_page": null
+    }
+  },
+  "source_index": {
+    "raw_sections_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_raw_sections.jsonl",
+    "full_text_md_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_full_text.md",
+    "sections": [
+      {
+        "section_id": "sec:preamble",
+        "kind": "preamble",
+        "title": "preamble",
+        "page_start": 1,
+        "page_end": 1,
+        "char_count": 589,
+        "text_hash_sha256": "4ed907cac71d5fe24a21ec56daf613ef1532b92902d50526acb1af49cc0be903"
+      },
+      {
+        "section_id": "sec:abstract",
+        "kind": "abstract",
+        "title": "Abstract",
+        "page_start": 1,
+        "page_end": 2,
+        "char_count": 2256,
+        "text_hash_sha256": "f965ade79c1dd7d46a02e84a02b5d61b0194328dbe9eef110c8afbed1ed86854"
+      },
+      {
+        "section_id": "sec:introduction",
+        "kind": "introduction",
+        "title": "Introduction",
+        "page_start": 2,
+        "page_end": 2,
+        "char_count": 1905,
+        "text_hash_sha256": "dbb352ffbc14567151a3375966064c152f7867292005ade52e32868e62bd99b9"
+      },
+      {
+        "section_id": "sec:background",
+        "kind": "introduction",
+        "title": "Background",
+        "page_start": 2,
+        "page_end": 8,
+        "char_count": 16802,
+        "text_hash_sha256": "d420518930133529b996b66936ca8c580b5780831356f000f08e762411fd7833"
+      },
+      {
+        "section_id": "sec:model",
+        "kind": "method",
+        "title": "Model",
+        "page_start": 8,
+        "page_end": 8,
+        "char_count": 986,
+        "text_hash_sha256": "352baf1a33fff85455db7b125f89edb460bc19613562393a442c75e20d4db3a1"
+      },
+      {
+        "section_id": "sec:results",
+        "kind": "experiment",
+        "title": "Results",
+        "page_start": 8,
+        "page_end": 10,
+        "char_count": 6101,
+        "text_hash_sha256": "c4971ecfef7b660c26ef01944ee4ab774113f21183ef275977bd21e64176431a"
+      },
+      {
+        "section_id": "sec:conclusion",
+        "kind": "conclusion",
+        "title": "Conclusion",
+        "page_start": 10,
+        "page_end": 10,
+        "char_count": 1087,
+        "text_hash_sha256": "c2148ab4c4dbf9678531dc2422d371077a7a34353394ad477e03e1e1d5e870e9"
+      },
+      {
+        "section_id": "sec:acknowledgements",
+        "kind": "acknowledgments",
+        "title": "Acknowledgements",
+        "page_start": 10,
+        "page_end": 10,
+        "char_count": 111,
+        "text_hash_sha256": "73a918a86f89fbdd93401b17a5075188717e7398097cf10017344047c09ce14c"
+      },
+      {
+        "section_id": "sec:references",
+        "kind": "references",
+        "title": "References",
+        "page_start": 10,
+        "page_end": 15,
+        "char_count": 9082,
+        "text_hash_sha256": "ad361b5593a53e207d33965da870ccab27e9235c7e6bdd57528f58a027d8e9d2"
+      }
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "char_count": 2855,
+        "section_ids": [
+          "sec:preamble",
+          "sec:abstract"
+        ]
+      },
+      {
+        "page": 2,
+        "char_count": 4255,
+        "section_ids": [
+          "sec:abstract",
+          "sec:introduction",
+          "sec:background"
+        ]
+      },
+      {
+        "page": 3,
+        "char_count": 1826,
+        "section_ids": [
+          "sec:background"
+        ]
+      },
+      {
+        "page": 4,
+        "char_count": 2507,
+        "section_ids": [
+          "sec:background"
+        ]
+      },
+      {
+        "page": 5,
+        "char_count": 3192,
+        "section_ids": [
+          "sec:background"
+        ]
+      },
+      {
+        "page": 6,
+        "char_count": 3472,
+        "section_ids": [
+          "sec:background"
+        ]
+      },
+      {
+        "page": 7,
+        "char_count": 3320,
+        "section_ids": [
+          "sec:background"
+        ]
+      },
+      {
+        "page": 8,
+        "char_count": 3193,
+        "section_ids": [
+          "sec:background",
+          "sec:model",
+          "sec:results"
+        ]
+      },
+      {
+        "page": 9,
+        "char_count": 2972,
+        "section_ids": [
+          "sec:results"
+        ]
+      },
+      {
+        "page": 10,
+        "char_count": 3111,
+        "section_ids": [
+          "sec:results",
+          "sec:conclusion",
+          "sec:acknowledgements",
+          "sec:references"
+        ]
+      },
+      {
+        "page": 11,
+        "char_count": 3215,
+        "section_ids": [
+          "sec:references"
+        ]
+      },
+      {
+        "page": 12,
+        "char_count": 3213,
+        "section_ids": [
+          "sec:references"
+        ]
+      },
+      {
+        "page": 13,
+        "char_count": 793,
+        "section_ids": [
+          "sec:references"
+        ]
+      },
+      {
+        "page": 14,
+        "char_count": 777,
+        "section_ids": [
+          "sec:references"
+        ]
+      },
+      {
+        "page": 15,
+        "char_count": 780,
+        "section_ids": [
+          "sec:references"
+        ]
+      }
+    ],
+    "captions": {
+      "figures": [
+        {
+          "id": "Figure 1",
+          "caption": "The Transformer - model architecture.",
+          "page": 3,
+          "pages": [
+            3
+          ],
+          "section_id": "sec:background"
+        },
+        {
+          "id": "Figure 2",
+          "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+          "page": 4,
+          "pages": [
+            4
+          ],
+          "section_id": "sec:background"
+        },
+        {
+          "id": "Figure 3",
+          "caption": "An example of the attention mechanism following long-distance dependencies in the",
+          "page": 13,
+          "pages": [
+            13
+          ],
+          "section_id": "sec:references"
+        },
+        {
+          "id": "Figure 4",
+          "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+          "page": 14,
+          "pages": [
+            14
+          ],
+          "section_id": "sec:references"
+        },
+        {
+          "id": "Figure 5",
+          "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+          "page": 15,
+          "pages": [
+            15
+          ],
+          "section_id": "sec:references"
+        }
+      ],
+      "tables": [
+        {
+          "id": "Table 1",
+          "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+          "page": 6,
+          "pages": [
+            6
+          ],
+          "section_id": "sec:background"
+        },
+        {
+          "id": "Table 2",
+          "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+          "page": 8,
+          "pages": [
+            8
+          ],
+          "section_id": "sec:background"
+        },
+        {
+          "id": "Table 3",
+          "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+          "page": 9,
+          "pages": [
+            9
+          ],
+          "section_id": "sec:results"
+        },
+        {
+          "id": "Table 4",
+          "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+          "page": 10,
+          "pages": [
+            10
+          ],
+          "section_id": "sec:results"
+        }
+      ]
+    },
+    "math_index": [
+      {
+        "text": "of continuous representations z = (z1, ..., zn). Given z, the decoder then generates an output",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "The encoder is composed of a stack of N = 6 identical layers. Each layer has two",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "layers, produce outputs of dimension dmodel = 512.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "The decoder is also composed of a stack of N = 6 identical layers. In addition to the two",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "Attention(Q, K, V ) = softmax(QKT",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "variables with mean 0 and variance 1. Then their dot product, q · k = Pdk",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "i=1 qiki, has mean 0 and variance dk.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "MultiHead(Q, K, V ) = Concat(head1, ..., headh)W O",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "where headi = Attention(QW Q",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "∈Rdmodel×dk, W K",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "∈Rdmodel×dk, W V",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "∈Rdmodel×dv",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "and W O ∈Rhdv×dmodel.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "In this work we employ h = 8 parallel attention layers, or heads. For each of these we use",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "FFN(x) = max(0, xW1 + b1)W2 + b2",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "dff = 2048.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(n2 · d)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(1)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(1)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(n · d2)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(n)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(n)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(k · n · d2)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(1)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(logk(n))",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(r · n · d)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(1)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "O(n/r)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "PE(pos,2i) = sin(pos/100002i/dmodel)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "PE(pos,2i+1) = cos(pos/100002i/dmodel)",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "(x1, ..., xn) to another sequence of equal length (z1, ..., zn), with xi, zi ∈Rd, such as a hidden",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "path length to O(n/r). We plan to investigate this approach further in future work.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "A single convolutional layer with kernel width k < n does not connect all pairs of input and output",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "positions. Doing so requires a stack of O(n/k) convolutional layers in the case of contiguous kernels,",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "or O(logk(n)) in the case of dilated convolutions [18], increasing the length of the longest paths",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "considerably, to O(k · n · d + n · d2). Even with k = n, however, the complexity of a separable",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "We used the Adam optimizer [20] with β1 = 0.9, β2 = 0.98 and ϵ = 10−9. We varied the learning",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "lrate = d−0.5",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "warmup_steps = 4000.",
+        "section_id": "sec:background",
+        "page_start": 2,
+        "page_end": 8
+      },
+      {
+        "text": "Pdrop = 0.1.",
+        "section_id": "sec:model",
+        "page_start": 8,
+        "page_end": 8
+      },
+      {
+        "text": "During training, we employed label smoothing of value ϵls = 0.1 [36]. This",
+        "section_id": "sec:model",
+        "page_start": 8,
+        "page_end": 8
+      },
+      {
+        "text": "dropout rate Pdrop = 0.1, instead of 0.3.",
+        "section_id": "sec:results",
+        "page_start": 8,
+        "page_end": 10
+      },
+      {
+        "text": "used beam search with a beam size of 4 and length penalty α = 0.6 [38]. These hyperparameters",
+        "section_id": "sec:results",
+        "page_start": 8,
+        "page_end": 10
+      },
+      {
+        "text": "We trained a 4-layer transformer with dmodel = 1024 on the Wall Street Journal (WSJ) portion of the",
+        "section_id": "sec:results",
+        "page_start": 8,
+        "page_end": 10
+      },
+      {
+        "text": "increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3",
+        "section_id": "sec:results",
+        "page_start": 8,
+        "page_end": 10
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<EOS>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      },
+      {
+        "text": "<pad>",
+        "section_id": "sec:references",
+        "page_start": 10,
+        "page_end": 15
+      }
+    ],
+    "appendix_index": {
+      "appendix_detected": false,
+      "start_page": null,
+      "sections": [],
+      "figure_captions": [],
+      "table_captions": []
+    },
+    "language_hint": "en",
+    "text_hash_sha256": "9ff74efe2d339c2bb9a53c066d1598db28886ca5ed2eda837b8d1c573abf1157"
+  },
+  "references": {
+    "candidates": []
+  },
+  "figure_plan": {
+    "paper_id": "arxiv:1706.03762",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "The Transformer - model architecture.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_1.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+          "width": 302,
+          "height": 440,
+          "size_bytes": 37309,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.154661,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.941381,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 47,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "transformer",
+              "model",
+              "architecture"
+            ],
+            "snippet": "Figure 1: The Transformer - model architecture. The Transformer follows this overall architecture",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+                "width": 1520,
+                "height": 2239,
+                "size_bytes": 121244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+                "width": 302,
+                "height": 440,
+                "size_bytes": 37309,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154661,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.941381,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "transformer",
+              "model",
+              "architecture"
+            ],
+            "snippet": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-Germa",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+                "width": 467,
+                "height": 204,
+                "size_bytes": 26333,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111031,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 81,
+                  "table_body_rows": 12,
+                  "caption_text_chars": 192,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "transformer",
+              "model",
+              "architecture"
+            ],
+            "snippet": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are o",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+                "width": 531,
+                "height": 351,
+                "size_bytes": 32474,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.216627,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 283,
+                  "table_body_rows": 23,
+                  "caption_text_chars": 323,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_3.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+          "width": 531,
+          "height": 351,
+          "size_bytes": 32474,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.216627,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 283,
+            "table_body_rows": 23,
+            "caption_text_chars": 323,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "variations",
+              "transformer",
+              "architecture",
+              "values"
+            ],
+            "snippet": "e-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously publ",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+                "width": 467,
+                "height": 204,
+                "size_bytes": 26333,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111031,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 81,
+                  "table_body_rows": 12,
+                  "caption_text_chars": 192,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "variations",
+              "transformer",
+              "architecture",
+              "unlisted",
+              "values"
+            ],
+            "snippet": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of th",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+                "width": 531,
+                "height": 351,
+                "size_bytes": 32474,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.216627,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 283,
+                  "table_body_rows": 23,
+                  "caption_text_chars": 323,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 5,
+            "matched_terms": [
+              "table 3"
+            ],
+            "snippet": "dings [9] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version because it may allow the model to extrapolate t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088732,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_1.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png",
+          "width": 816,
+          "height": 93,
+          "size_bytes": 526,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.088732,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 285,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "maximum",
+              "path",
+              "lengths",
+              "per-layer",
+              "complexity"
+            ],
+            "snippet": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations f",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088732,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "complexity"
+            ],
+            "snippet": "feed-forward network with a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_01.png",
+                "width": 445,
+                "height": 884,
+                "size_bytes": 19215
+              },
+              {
+                "filename": "page_004_img_02.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_02.png",
+                "width": 835,
+                "height": 1282,
+                "size_bytes": 43491
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+                "width": 436,
+                "height": 272,
+                "size_bytes": 25889,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.137787,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.454503,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 1,
+            "matched_terms": [
+              "maximum"
+            ],
+            "snippet": "hese hyperparameters were chosen after experimentation on the development set. We set the maximum output length during inference to input length + 50, but terminate early when possible [3",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+                "width": 467,
+                "height": 204,
+                "size_bytes": 26333,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111031,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 81,
+                  "table_body_rows": 12,
+                  "caption_text_chars": 192,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_2.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+          "width": 467,
+          "height": 204,
+          "size_bytes": 26333,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.111031,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 81,
+            "table_body_rows": 12,
+            "caption_text_chars": 192,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "transformer",
+              "achieves",
+              "better",
+              "bleu",
+              "scores"
+            ],
+            "snippet": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+                "width": 467,
+                "height": 204,
+                "size_bytes": 26333,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.111031,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 81,
+                  "table_body_rows": 12,
+                  "caption_text_chars": 192,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "transformer",
+              "better",
+              "bleu"
+            ],
+            "snippet": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are o",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+                "width": 531,
+                "height": 351,
+                "size_bytes": 32474,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.216627,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 283,
+                  "table_body_rows": 23,
+                  "caption_text_chars": 323,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 2,
+            "matched_terms": [
+              "transformer",
+              "better"
+            ],
+            "snippet": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ) Parse",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4.png",
+                "width": 429,
+                "height": 197,
+                "size_bytes": 25223,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.098586,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 628,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 108,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_table_4.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4.png",
+          "width": 429,
+          "height": 197,
+          "size_bytes": 25223,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.098586,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 628,
+            "table_body_rows": 13,
+            "caption_text_chars": 108,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "transformer",
+              "generalizes",
+              "well",
+              "english",
+              "constituency"
+            ],
+            "snippet": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4.png",
+                "width": 429,
+                "height": 197,
+                "size_bytes": 25223,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.098586,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 628,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 108,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "transformer",
+              "english",
+              "constituency"
+            ],
+            "snippet": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are o",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+                "width": 531,
+                "height": 351,
+                "size_bytes": 32474,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.216627,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 283,
+                  "table_body_rows": 23,
+                  "caption_text_chars": 323,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "transformer",
+              "well"
+            ],
+            "snippet": "Figure 1: The Transformer - model architecture. The Transformer follows this overall architecture using stacked sel",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+                "width": 1520,
+                "height": 2239,
+                "size_bytes": 121244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+                "width": 302,
+                "height": 440,
+                "size_bytes": 37309,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154661,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.941381,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+          "width": 436,
+          "height": 272,
+          "size_bytes": 25889,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.137787,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.454503,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 133,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "left",
+              "scaled",
+              "dot-product",
+              "attention",
+              "right"
+            ],
+            "snippet": "Scaled Dot-Product Attention Multi-Head Attention Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several at",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_01.png",
+                "width": 445,
+                "height": 884,
+                "size_bytes": 19215
+              },
+              {
+                "filename": "page_004_img_02.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_02.png",
+                "width": 835,
+                "height": 1282,
+                "size_bytes": 43491
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+                "width": 436,
+                "height": 272,
+                "size_bytes": 25889,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.137787,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.454503,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "left",
+              "attention",
+              "right"
+            ],
+            "snippet": "ion and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively. 3.1 Encoder and Decoder Stacks Encoder: The e",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+                "width": 1520,
+                "height": 2239,
+                "size_bytes": 121244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+                "width": 302,
+                "height": 440,
+                "size_bytes": 37309,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154661,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.941381,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "attention"
+            ],
+            "snippet": "is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention. Layer Type Complexity per Layer Sequential Maximum Path Length Operations Self-Attention",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088732,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "An example of the attention mechanism following long-distance dependencies in the",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_013_fig_figure_3.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3.png",
+          "width": 539,
+          "height": 332,
+          "size_bytes": 24889,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.208278,
+            "visual_rect_count": 92,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 377,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 13,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "example",
+              "attention",
+              "mechanism",
+              "following",
+              "long-distance"
+            ],
+            "snippet": "registration or voting process more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> Figure 3: An example of the attention mechanism following long-distance dependencies in the encode",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3.png",
+                "width": 539,
+                "height": 332,
+                "size_bytes": 24889,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.208278,
+                  "visual_rect_count": 92,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 377,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 2,
+            "matched_terms": [
+              "attention",
+              "mechanism"
+            ],
+            "snippet": "model architecture. The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the lef",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+                "width": 1520,
+                "height": 2239,
+                "size_bytes": 121244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+                "width": 302,
+                "height": 440,
+                "size_bytes": 37309,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154661,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.941381,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "attention",
+              "mechanism"
+            ],
+            "snippet": "Scaled Dot-Product Attention Multi-Head Attention Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head At",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_01.png",
+                "width": 445,
+                "height": 884,
+                "size_bytes": 19215
+              },
+              {
+                "filename": "page_004_img_02.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_02.png",
+                "width": 835,
+                "height": 1282,
+                "size_bytes": 43491
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+                "width": 436,
+                "height": 272,
+                "size_bytes": 25889,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.137787,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.454503,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_figure_4.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4.png",
+          "width": 538,
+          "height": 688,
+          "size_bytes": 99033,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.430108,
+            "visual_rect_count": 1009,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 266,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "attention",
+              "heads",
+              "also",
+              "layer",
+              "apparently"
+            ],
+            "snippet": "ts application should be just - this is what we are missing , in my opinion . <EOS> <pad> Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. T",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_figure_4.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4.png",
+                "width": 538,
+                "height": 688,
+                "size_bytes": 99033,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.430108,
+                  "visual_rect_count": 1009,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 266,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "attention",
+              "also",
+              "layer"
+            ],
+            "snippet": "model architecture. The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the lef",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+                "width": 1520,
+                "height": 2239,
+                "size_bytes": 121244
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_1.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+                "width": 302,
+                "height": 440,
+                "size_bytes": 37309,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154661,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.941381,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 47,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "attention",
+              "also",
+              "layer"
+            ],
+            "snippet": "Scaled Dot-Product Attention Multi-Head Attention Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head At",
+            "images": [
+              {
+                "filename": "page_004_img_01.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_01.png",
+                "width": 445,
+                "height": 884,
+                "size_bytes": 19215
+              },
+              {
+                "filename": "page_004_img_02.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_02.png",
+                "width": 835,
+                "height": 1282,
+                "size_bytes": 43491
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+                "width": 436,
+                "height": 272,
+                "size_bytes": 25889,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.137787,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.454503,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 133,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_figure_5.png",
+          "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5.png",
+          "width": 534,
+          "height": 660,
+          "size_bytes": 139712,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.409501,
+            "visual_rect_count": 916,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 269,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "many",
+              "attention",
+              "heads",
+              "exhibit",
+              "behaviour"
+            ],
+            "snippet": "ts application should be just - this is what we are missing , in my opinion . <EOS> <pad> Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_figure_5.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5.png",
+                "width": 534,
+                "height": 660,
+                "size_bytes": 139712,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.409501,
+                  "visual_rect_count": 916,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "many",
+              "attention",
+              "heads"
+            ],
+            "snippet": "e-head attention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads. In Table 3 rows (B), we observe that reducing the attention key size dk hurts mode",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+                "width": 531,
+                "height": 351,
+                "size_bytes": 32474,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.216627,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 283,
+                  "table_body_rows": 23,
+                  "caption_text_chars": 323,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 13,
+            "score": 3,
+            "matched_terms": [
+              "many",
+              "attention",
+              "heads"
+            ],
+            "snippet": "anism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing th",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_figure_3.png",
+                "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3.png",
+                "width": 539,
+                "height": 332,
+                "size_bytes": 24889,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.208278,
+                  "visual_rect_count": 92,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 377,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  },
+  "figure_table_manifest": {
+    "decisions_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\05_证据与流水线\\attention_is_all_you_need\\attention_is_all_you_need_figure_table_decisions.json",
+    "decisions": [
+      {
+        "item_id": "figure:Figure 1",
+        "source_id": "Figure 1",
+        "kind": "figure",
+        "label": "Figure 1",
+        "caption": "The Transformer - model architecture.",
+        "pages": [
+          3
+        ],
+        "section_id": "sec:background",
+        "decision": "review_pending",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 1,
+        "target_section": "机制流程",
+        "plan_kind": "method_overview",
+        "source_image_filename": "page_003_fig_figure_1_review.png",
+        "relative_markdown_embed": "![Figure 1](images/page_003_fig_figure_1_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "0b750d28c56eec9a560a711063b250c67d4c19f4b51ffdb2bc28642f73beb8ea",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_003.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 3,
+          "caption": "The Transformer - model architecture.",
+          "bbox_pt": [
+            192.5590057373047,
+            68.00198364257812,
+            419.43902587890625,
+            398.4179992675781
+          ],
+          "normalized_bbox": [
+            0.314639,
+            0.085861,
+            0.685358,
+            0.503053
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "figure:Figure 2",
+        "source_id": "Figure 2",
+        "kind": "figure",
+        "label": "Figure 2",
+        "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+        "pages": [
+          4
+        ],
+        "section_id": "sec:background",
+        "decision": "review_pending",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_004_fig_figure_2_review.png",
+        "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "9c9d4818d8dd803ea02337509ea6ecd061fe33630549fca709d3f7d1cd18c222",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_004.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 4,
+          "caption": "(left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several",
+          "bbox_pt": [
+            143.7830047607422,
+            67.19947814941406,
+            471.0119934082031,
+            271.29498291015625
+          ],
+          "normalized_bbox": [
+            0.23494,
+            0.084848,
+            0.769627,
+            0.342544
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "figure:Figure 3",
+        "source_id": "Figure 3",
+        "kind": "figure",
+        "label": "Figure 3",
+        "caption": "An example of the attention mechanism following long-distance dependencies in the",
+        "pages": [
+          13
+        ],
+        "section_id": "sec:references",
+        "decision": "review_pending",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_013_fig_figure_3_review.png",
+        "relative_markdown_embed": "![Figure 3](images/page_013_fig_figure_3_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "04d2bcd8a8e15ae3a8add08133ca91b266640d1ddbc308d319ebe3d6e37df585",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_013.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 13,
+          "caption": "An example of the attention mechanism following long-distance dependencies in the",
+          "bbox_pt": [
+            104.0,
+            56.62104797363281,
+            508.72137451171875,
+            306.05999755859375
+          ],
+          "normalized_bbox": [
+            0.169935,
+            0.071491,
+            0.831244,
+            0.386439
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "figure:Figure 4",
+        "source_id": "Figure 4",
+        "kind": "figure",
+        "label": "Figure 4",
+        "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+        "pages": [
+          14
+        ],
+        "section_id": "sec:references",
+        "decision": "review_pending",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_014_fig_figure_4_review.png",
+        "relative_markdown_embed": "![Figure 4](images/page_014_fig_figure_4_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "d58973fcdd911676194e31ff38ba77d7687c91976a35cc86328de2dd4c7528b1",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_014.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 14,
+          "caption": "Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top:",
+          "bbox_pt": [
+            104.0,
+            91.59576416015625,
+            507.7409973144531,
+            607.9539794921875
+          ],
+          "normalized_bbox": [
+            0.169935,
+            0.115651,
+            0.829642,
+            0.767619
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "figure:Figure 5",
+        "source_id": "Figure 5",
+        "kind": "figure",
+        "label": "Figure 5",
+        "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+        "pages": [
+          15
+        ],
+        "section_id": "sec:references",
+        "decision": "review_pending",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 3,
+        "target_section": "深度分析",
+        "plan_kind": "supporting_figure",
+        "source_image_filename": "page_015_fig_figure_5_review.png",
+        "relative_markdown_embed": "![Figure 5](images/page_015_fig_figure_5_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "0e998a2f6e23821c36c0670c0e23a2fcd92e9e81f0859300542145e435204a02",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_015.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 15,
+          "caption": "Many of the attention heads exhibit behaviour that seems related to the structure of the",
+          "bbox_pt": [
+            102.76576232910156,
+            105.8309097290039,
+            503.3510437011719,
+            601.3233032226562
+          ],
+          "normalized_bbox": [
+            0.167918,
+            0.133625,
+            0.822469,
+            0.759247
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "table:Table 1",
+        "source_id": "Table 1",
+        "kind": "table",
+        "label": "Table 1",
+        "caption": "Maximum path lengths, per-layer complexity and minimum number of sequential operations",
+        "pages": [
+          6
+        ],
+        "section_id": "sec:background",
+        "decision": "visual_defect",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "skip_reason": "visual_quality_gate_rejected_candidate",
+        "visual_quality_status": "reject_visual_quality",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "table_result",
+        "source_image_filename": "page_006_fig_table_1.png",
+        "relative_markdown_embed": "![Table 1](images/page_006_fig_table_1.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png"
+      },
+      {
+        "item_id": "table:Table 2",
+        "source_id": "Table 2",
+        "kind": "table",
+        "label": "Table 2",
+        "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+        "pages": [
+          8
+        ],
+        "section_id": "sec:background",
+        "decision": "review_pending",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_008_fig_table_2_review.png",
+        "relative_markdown_embed": "![Table 2](images/page_008_fig_table_2_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "30fd409a21f04beb8722e8004eb793f999415bea4c5542549b86b362c41d8423",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_008.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 8,
+          "caption": "The Transformer achieves better BLEU scores than previous state-of-the-art models on the",
+          "bbox_pt": [
+            130.67098999023438,
+            93.07107543945312,
+            481.3241882324219,
+            246.54806518554688
+          ],
+          "normalized_bbox": [
+            0.213515,
+            0.117514,
+            0.786477,
+            0.311298
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "table:Table 3",
+        "source_id": "Table 3",
+        "kind": "table",
+        "label": "Table 3",
+        "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+        "pages": [
+          9
+        ],
+        "section_id": "sec:results",
+        "decision": "review_pending",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 1,
+        "target_section": "机制流程",
+        "plan_kind": "method_overview",
+        "source_image_filename": "page_009_fig_table_3_review.png",
+        "relative_markdown_embed": "![Table 3](images/page_009_fig_table_3_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "ff7cbdebeb26b81ab7b9314d92b9653610d6087bd443e776b731b7185b46db83",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_009.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 9,
+          "caption": "Variations on the Transformer architecture. Unlisted values are identical to those of the base",
+          "bbox_pt": [
+            110.46800231933594,
+            125.48249816894531,
+            508.7594299316406,
+            389.1080627441406
+          ],
+          "normalized_bbox": [
+            0.180503,
+            0.158437,
+            0.831306,
+            0.491298
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      },
+      {
+        "item_id": "table:Table 4",
+        "source_id": "Table 4",
+        "kind": "table",
+        "label": "Table 4",
+        "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+        "pages": [
+          10
+        ],
+        "section_id": "sec:results",
+        "decision": "review_pending",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "skip_reason": "",
+        "visual_quality_status": "usable_candidate",
+        "priority": 2,
+        "target_section": "关键结果",
+        "plan_kind": "main_result",
+        "source_image_filename": "page_010_fig_table_4_review.png",
+        "relative_markdown_embed": "![Table 4](images/page_010_fig_table_4_review.png)",
+        "source_image_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+        "materialization_status": "pending",
+        "source_image_sha256": "e681234883c31c35983d635b585f8a5208f68dbfca50c3e3b787d0de391ce79c",
+        "review_evidence": {
+          "candidate_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4_review.png",
+          "page_preview_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\page_previews\\page_010.png",
+          "source_pdf_path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\pdfs\\Attention_Is_All_You_Need.pdf",
+          "source_page": 10,
+          "caption": "The Transformer generalizes well to English constituency parsing (Results are on Section 23",
+          "bbox_pt": [
+            145.02699279785156,
+            93.07107543945312,
+            466.9724426269531,
+            241.49710083007812
+          ],
+          "normalized_bbox": [
+            0.236972,
+            0.117514,
+            0.763027,
+            0.304921
+          ],
+          "render_dpi": 300
+        },
+        "visual_review": {
+          "status": "pending",
+          "reviewed_asset_sha256": "",
+          "preserved_scientific_elements": [],
+          "omitted_scientific_elements": [],
+          "notes": "",
+          "failure_reason": "",
+          "repair_attempts": 0,
+          "revised_bbox": []
+        }
+      }
+    ],
+    "caption_counts": {
+      "figures": 5,
+      "tables": 4
+    },
+    "planned_items": 9,
+    "requires_full_decision_table": true
+  },
+  "pdf_assets": {
+    "asset_root": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need",
+    "images_dir": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images",
+    "page_assets": [
+      {
+        "page_number": 1,
+        "searchable_text_chars": 2855,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. Attention Is All You Need Ashish Vaswani∗ Google Brain avaswani@go"
+      },
+      {
+        "page_number": 2,
+        "searchable_text_chars": 4255,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "1 Introduction Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as "
+      },
+      {
+        "page_number": 3,
+        "searchable_text_chars": 1826,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 1,
+        "text_preview": "Figure 1: The Transformer - model architecture. The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Fi"
+      },
+      {
+        "page_number": 4,
+        "searchable_text_chars": 2507,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 2,
+        "text_preview": "Scaled Dot-Product Attention Multi-Head Attention Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel. of the values, where the weight assigned to each value i"
+      },
+      {
+        "page_number": 5,
+        "searchable_text_chars": 3192,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "output values. These are concatenated and once again projected, resulting in the final values, as depicted in Figure 2. Multi-head attention allows the model to jointly attend to information from different representation subspaces at differ"
+      },
+      {
+        "page_number": 6,
+        "searchable_text_chars": 3472,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of t"
+      },
+      {
+        "page_number": 7,
+        "searchable_text_chars": 3320,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [38] and byte-pair [31] representations. To"
+      },
+      {
+        "page_number": 8,
+        "searchable_text_chars": 3193,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost. Model BLEU Training Cost (FLOPs) EN-DE EN-FR EN"
+      },
+      {
+        "page_number": 9,
+        "searchable_text_chars": 2972,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, accord"
+      },
+      {
+        "page_number": 10,
+        "searchable_text_chars": 3111,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ) Parser Training WSJ 23 F1 Vinyals & Kaiser el al. (2014) [37] WSJ only, discriminative 88.3 Petrov et al. (2006) [29] WSJ only, dis"
+      },
+      {
+        "page_number": 11,
+        "searchable_text_chars": 3215,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014. [6] Franc"
+      },
+      {
+        "page_number": 12,
+        "searchable_text_chars": 3213,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "[25] Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. Building a large annotated corpus of english: The penn treebank. Computational linguistics, 19(2):313–330, 1993. [26] David McClosky, Eugene Charniak, and Mark Johnson."
+      },
+      {
+        "page_number": 13,
+        "searchable_text_chars": 793,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "Attention Visualizations It is in this spirit that a majority of American governments have passed new laws since 2009 making the registration or voting process more difficult . <EOS> <pad> <pad> <pad> <pad> <pad> <pad> It is in this spirit "
+      },
+      {
+        "page_number": 14,
+        "searchable_text_chars": 777,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> <pad> The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion "
+      },
+      {
+        "page_number": 15,
+        "searchable_text_chars": 780,
+        "text_extraction_method": "text",
+        "ocr_used": false,
+        "image_count": 0,
+        "text_preview": "The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion . <EOS> <pad> The Law will never be perfect , but its application should be just - this is what we are missing , in my opinion "
+      }
+    ],
+    "image_assets": [
+      {
+        "page_number": 3,
+        "image_index": 1,
+        "xref": 128,
+        "filename": "page_003_img_01.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_img_01.png",
+        "ext": "png",
+        "width": 1520,
+        "height": 2239,
+        "colorspace": 3,
+        "size_bytes": 121244,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 1,
+        "xref": 182,
+        "filename": "page_004_img_01.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_01.png",
+        "ext": "png",
+        "width": 445,
+        "height": 884,
+        "colorspace": 3,
+        "size_bytes": 19215,
+        "extraction_level": "xref"
+      },
+      {
+        "page_number": 4,
+        "image_index": 2,
+        "xref": 183,
+        "filename": "page_004_img_02.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_img_02.png",
+        "ext": "png",
+        "width": 835,
+        "height": 1282,
+        "colorspace": 3,
+        "size_bytes": 43491,
+        "extraction_level": "xref"
+      }
+    ],
+    "figure_assets": [
+      {
+        "filename": "page_003_fig_figure_1.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_003_fig_figure_1.png",
+        "page_number": 3,
+        "label": "Figure 1",
+        "kind": "figure",
+        "caption_text": "Figure 1: The Transformer - model architecture.",
+        "width": 302,
+        "height": 440,
+        "size_bytes": 37309,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.154661,
+          "visual_rect_count": 1,
+          "visual_body_ratio": 0.941381,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 47,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_004_fig_figure_2.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_004_fig_figure_2.png",
+        "page_number": 4,
+        "label": "Figure 2",
+        "kind": "figure",
+        "caption_text": "Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.",
+        "width": 436,
+        "height": 272,
+        "size_bytes": 25889,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.137787,
+          "visual_rect_count": 2,
+          "visual_body_ratio": 0.454503,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 133,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_006_fig_table_1.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_006_fig_table_1.png",
+        "page_number": 6,
+        "label": "Table 1",
+        "kind": "table",
+        "caption_text": "Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.",
+        "width": 816,
+        "height": 93,
+        "size_bytes": 526,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "reject",
+          "quality_reason_codes": [
+            "table_body_missing",
+            "caption_only_suspected"
+          ],
+          "page_coverage_ratio": 0.088732,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 285,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_008_fig_table_2.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_008_fig_table_2.png",
+        "page_number": 8,
+        "label": "Table 2",
+        "kind": "table",
+        "caption_text": "Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.",
+        "width": 467,
+        "height": 204,
+        "size_bytes": 26333,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.111031,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 81,
+          "table_body_rows": 12,
+          "caption_text_chars": 192,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_009_fig_table_3.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_009_fig_table_3.png",
+        "page_number": 9,
+        "label": "Table 3",
+        "kind": "table",
+        "caption_text": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.",
+        "width": 531,
+        "height": 351,
+        "size_bytes": 32474,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.216627,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 283,
+          "table_body_rows": 23,
+          "caption_text_chars": 323,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_010_fig_table_4.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_010_fig_table_4.png",
+        "page_number": 10,
+        "label": "Table 4",
+        "kind": "table",
+        "caption_text": "Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)",
+        "width": 429,
+        "height": 197,
+        "size_bytes": 25223,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.098586,
+          "visual_rect_count": 0,
+          "visual_body_ratio": 0.0,
+          "paragraph_text_chars": 628,
+          "table_body_rows": 13,
+          "caption_text_chars": 108,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_013_fig_figure_3.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_013_fig_figure_3.png",
+        "page_number": 13,
+        "label": "Figure 3",
+        "kind": "figure",
+        "caption_text": "Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.",
+        "width": 539,
+        "height": 332,
+        "size_bytes": 24889,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.208278,
+          "visual_rect_count": 92,
+          "visual_body_ratio": 1.0,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 377,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_014_fig_figure_4.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_014_fig_figure_4.png",
+        "page_number": 14,
+        "label": "Figure 4",
+        "kind": "figure",
+        "caption_text": "Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.",
+        "width": 538,
+        "height": 688,
+        "size_bytes": 99033,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.430108,
+          "visual_rect_count": 1009,
+          "visual_body_ratio": 1.0,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 266,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      },
+      {
+        "filename": "page_015_fig_figure_5.png",
+        "path": "D:\\Document\\我的文档\\苏州国家实验室\\SSRF-nanoCT\\tmp\\DeepPaperNote\\assets\\Attention_Is_All_You_Need\\images\\page_015_fig_figure_5.png",
+        "page_number": 15,
+        "label": "Figure 5",
+        "kind": "figure",
+        "caption_text": "Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.",
+        "width": 534,
+        "height": 660,
+        "size_bytes": 139712,
+        "extraction_level": "figure",
+        "quality_signals": {
+          "visual_quality_status": "usable",
+          "quality_reason_codes": [],
+          "page_coverage_ratio": 0.409501,
+          "visual_rect_count": 916,
+          "visual_body_ratio": 1.0,
+          "paragraph_text_chars": 0,
+          "table_body_rows": 0,
+          "caption_text_chars": 269,
+          "other_caption_count": 0,
+          "other_caption_labels": []
+        }
+      }
+    ],
+    "ocr_available": false
+  },
+  "writing_contract": {
+    "language": "zh-CN",
+    "contract_role": "manifest_quality_contract",
+    "canonical_source": "SKILL.md defines the workflow; scripts/contracts.py defines machine-checkable contract data.",
+    "must_include_sections": [
+      "核心信息",
+      "原文摘要翻译",
+      "创新点",
+      "一句话总结",
+      "研究问题",
+      "数据与任务定义",
+      "方法主线",
+      "关键结果",
+      "深度分析",
+      "局限",
+      "我的笔记",
+      "引用"
+    ],
+    "note_plan_contract": {
+      "required_fields": [
+        "paper_type",
+        "paper_type_rationale",
+        "dominant_domain",
+        "must_cover",
+        "key_numbers",
+        "real_comparisons",
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions",
+        "section_plan"
+      ],
+      "field_types": {
+        "paper_type": "string",
+        "paper_type_rationale": "string",
+        "dominant_domain": "string",
+        "must_cover": "array",
+        "key_numbers": "array",
+        "real_comparisons": "array",
+        "central_claims": "array",
+        "claim_boundaries": "array",
+        "negative_or_limiting_results": "array",
+        "mechanism_result_map": "array",
+        "comparative_positioning": "array",
+        "reuse_takeaways": "array",
+        "followup_questions": "array",
+        "section_plan": "array"
+      },
+      "required_field_checks": {
+        "string": {
+          "non_empty": true
+        },
+        "array": {
+          "non_empty": true
+        }
+      },
+      "artifact_preference": "short_json_planning_file",
+      "grounding_field": "section_plan[*].evidence_sources",
+      "analysis_coverage_field": "central_claims[*]"
+    },
+    "paper_type_selection": {
+      "source_of_truth": "note_plan.paper_type",
+      "suggested_paper_type_role": "none",
+      "allowed_paper_types": [
+        "AI_method",
+        "benchmark_or_dataset",
+        "clinical_or_psychology_empirical",
+        "humanities_or_social_science",
+        "survey_or_review"
+      ]
+    },
+    "contracts_by_paper_type": {
+      "AI_method": {
+        "paper_type": "AI_method",
+        "reader_lens": "面向能复现方法机制的技术读者",
+        "section_focus": [
+          "问题设置",
+          "方法机制",
+          "训练/推理流程",
+          "关键公式",
+          "比较基线",
+          "消融与失败边界"
+        ],
+        "required_checks": [
+          "需要说明机制流程、关键公式、实验设计、消融含义和失败边界。"
+        ],
+        "formula_rules": [
+          "仅保留理解方法必需的 1 到 3 个关键公式，并解释其工程含义。"
+        ],
+        "avoid_rules": [
+          "不要把非 AI_method 论文强行改写成模型架构。"
+        ],
+        "boundary_questions": [
+          "核心机制的收益由哪个实验或消融支撑，而不是只由主结果暗示？",
+          "哪些比较只能证明在当前数据、基线、算力或协议下有效，不能外推到通用场景？",
+          "论文是否给出失败、退化、不稳定或成本上升的证据；如果没有，结论边界是什么？"
+        ],
+        "section_semantics": {
+          "研究问题": "方法要解决的具体技术问题和现有方法短板。",
+          "数据与任务定义": "数据集、输入输出、评测任务和实验设置。",
+          "方法主线": "模型、算法、训练或推理机制。",
+          "关键结果": "主结果、强基线、消融和关键数字。",
+          "深度分析": "方法为什么有效、何处脆弱、复现和扩展代价。"
+        },
+        "recommended_subsections": {
+          "方法主线": [
+            "机制流程",
+            "模型结构",
+            "训练目标",
+            "推理与采样链路",
+            "关键实现细节"
+          ],
+          "关键结果": [
+            "主结果与强基线",
+            "消融到底说明了什么",
+            "失败或不稳定设置"
+          ],
+          "深度分析": [
+            "为什么有效",
+            "复杂度与扩展性",
+            "复现注意点"
+          ]
+        },
+        "mechanism_flow_contract": {
+          "apply_when_paper_type_in": [
+            "AI_method"
+          ],
+          "required_step_count": "3_to_4",
+          "required_step_fields": [
+            "input",
+            "operation",
+            "output_destination"
+          ]
+        }
+      },
+      "benchmark_or_dataset": {
+        "paper_type": "benchmark_or_dataset",
+        "reader_lens": "面向要判断 benchmark/dataset 可用性和偏差边界的研究者",
+        "section_focus": [
+          "任务拆分",
+          "数据来源与构建流程",
+          "标注协议",
+          "评测指标",
+          "覆盖范围与偏差",
+          "样本统计与数据开放限制"
+        ],
+        "required_checks": [
+          "需要说明数据来源、构建/标注流程、评测指标、基线表现、样本统计、数据开放或隐私限制和适用边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心评测指标、采样规则或划分定义。"
+        ],
+        "avoid_rules": [
+          "不要把数据构建流程写成模型 pipeline。"
+        ],
+        "boundary_questions": [
+          "这个 benchmark/dataset 实际测量的构念是什么，哪些能力只是间接近似？",
+          "任务、标签、采样、过滤或评测协议会引入哪些覆盖缺口或偏差？",
+          "基线结果证明了评测集有区分度，还是只证明某类模型适应该协议？",
+          "样本时长、语料长度、人口统计、类别分布、数据可访问性或隐私限制如何影响复现和外推？"
+        ],
+        "section_semantics": {
+          "研究问题": "这个 benchmark/dataset 想补足的评测或数据缺口。",
+          "数据与任务定义": "数据来源、任务拆分、标签/题目定义、样本范围。",
+          "方法主线": "数据构建、筛选、标注和评测协议，不写成模型 pipeline。",
+          "关键结果": "基线表现、难度分布、覆盖范围和偏差。",
+          "深度分析": "它真正测到了什么，以及不能代表什么。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "数据来源",
+            "任务拆分",
+            "标注/筛选协议"
+          ],
+          "方法主线": [
+            "构建流程",
+            "评测协议",
+            "Baseline 设置"
+          ],
+          "关键结果": [
+            "基线表现",
+            "难度分布",
+            "覆盖与偏差"
+          ],
+          "深度分析": [
+            "benchmark 真正测到了什么",
+            "适用边界"
+          ]
+        }
+      },
+      "clinical_or_psychology_empirical": {
+        "paper_type": "clinical_or_psychology_empirical",
+        "reader_lens": "面向关注临床/心理学样本、变量关系和外推边界的研究读者",
+        "section_focus": [
+          "样本来源",
+          "纳排标准",
+          "变量或量表",
+          "分析管线",
+          "效应量与不确定性",
+          "样本统计、伦理和数据可访问性"
+        ],
+        "required_checks": [
+          "需要区分相关、预测、组间差异和因果解释，说明样本统计、伦理/隐私约束与外推边界。"
+        ],
+        "formula_rules": [
+          "仅保留核心统计模型、效应量、置信区间或量表定义。"
+        ],
+        "avoid_rules": [
+          "不要把相关性、预测性能或组间差异写成未经证明的因果结论。"
+        ],
+        "boundary_questions": [
+          "样本来源、纳排标准、测量工具和标注流程如何限制外推？",
+          "结果支持相关、预测、组间差异还是因果解释；不要越过论文设计能证明的范围。",
+          "临床或心理学意义是否依赖未观测混杂、量表阈值、文本/语音缺失或场景约束？",
+          "样本构成、数据缺失、隐私限制或材料不可公开会怎样限制复现与再分析？"
+        ],
+        "section_semantics": {
+          "研究问题": "临床、心理学或行为科学中的研究问题、假设或变量关系。",
+          "数据与任务定义": "样本来源、纳排标准、变量/量表、测量方式。",
+          "方法主线": "研究设计、分组、测量流程和统计分析路径。",
+          "关键结果": "主要效应、相关性、组间差异、不确定性或显著性。",
+          "深度分析": "结果解释、因果边界、临床/心理学意义和外推限制。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "样本与纳排标准",
+            "变量与量表",
+            "测量流程"
+          ],
+          "方法主线": [
+            "研究设计",
+            "分析模型",
+            "主要比较"
+          ],
+          "关键结果": [
+            "主要效应",
+            "不确定性与显著性",
+            "临床或心理学解释"
+          ],
+          "深度分析": [
+            "因果解释边界",
+            "外推限制"
+          ]
+        }
+      },
+      "humanities_or_social_science": {
+        "paper_type": "humanities_or_social_science",
+        "reader_lens": "面向关注理论框架、材料解释和论证结构的研究读者",
+        "section_focus": [
+          "研究对象",
+          "材料来源",
+          "理论框架",
+          "论证路径",
+          "概念贡献",
+          "解释边界"
+        ],
+        "required_checks": [
+          "需要区分作者论证、材料证据、规范性判断和实验事实。"
+        ],
+        "formula_rules": [
+          "通常不强行保留公式；仅保留核心形式化定义或编码规则。"
+        ],
+        "avoid_rules": [
+          "不要把规范性判断、文本解释或案例分析写成实验事实。"
+        ],
+        "boundary_questions": [
+          "作者的解释依赖哪些材料、案例或理论前提？",
+          "是否存在同样能解释材料的替代解释，论文如何排除或没有排除？",
+          "哪些结论是概念贡献或规范性判断，而不是可直接当作经验事实？"
+        ],
+        "section_semantics": {
+          "研究问题": "作者要解释的社会、文化、历史、制度或理论问题。",
+          "数据与任务定义": "材料、案例、文本、访谈、档案或语料范围，不写成 ML task。",
+          "方法主线": "理论框架、概念区分和论证路径。",
+          "关键结果": "核心解释性发现、概念贡献或对既有观点的修正。",
+          "深度分析": "论证强度、材料边界、解释替代性和可迁移性。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "材料范围",
+            "选择标准",
+            "案例或语料边界"
+          ],
+          "方法主线": [
+            "理论框架",
+            "概念区分",
+            "论证路径"
+          ],
+          "关键结果": [
+            "核心解释性发现",
+            "概念贡献"
+          ],
+          "深度分析": [
+            "论证强度",
+            "替代解释",
+            "材料边界"
+          ]
+        }
+      },
+      "survey_or_review": {
+        "paper_type": "survey_or_review",
+        "reader_lens": "面向需要梳理综述脉络、分类体系和证据边界的研究读者",
+        "section_focus": [
+          "综述范围",
+          "纳入排除标准",
+          "主题分类",
+          "方法谱系",
+          "共识与分歧",
+          "开放问题"
+        ],
+        "required_checks": [
+          "需要说明综述范围、文献选择、分类体系、共识分歧和开放问题。"
+        ],
+        "formula_rules": [
+          "仅保留分类轴、纳入排除准则、证据汇总规则或 meta-analysis 统计量。"
+        ],
+        "avoid_rules": [
+          "不要把综述中的代表性结论写成作者自己完成的单项实验结果。"
+        ],
+        "boundary_questions": [
+          "检索范围、纳入排除标准或分类轴会遗漏哪些研究路线？",
+          "综述给出的是领域共识、作者分类，还是尚未解决的分歧？",
+          "哪些趋势结论来自覆盖范围内的文献分布，不能直接当作技术成熟度判断？"
+        ],
+        "section_semantics": {
+          "研究问题": "综述试图整理的领域问题、争议或知识缺口。",
+          "数据与任务定义": "纳入文献范围、检索/筛选标准和综述对象。",
+          "方法主线": "分类体系、综述组织方式和证据综合逻辑，不写成单篇方法架构。",
+          "关键结果": "领域共识、分歧、趋势、代表性方向和开放问题。",
+          "深度分析": "综述覆盖的盲区、分类体系的解释力和未来研究机会。"
+        },
+        "recommended_subsections": {
+          "数据与任务定义": [
+            "综述范围",
+            "纳入/排除标准",
+            "文献覆盖"
+          ],
+          "方法主线": [
+            "分类体系",
+            "方法谱系",
+            "证据组织方式"
+          ],
+          "关键结果": [
+            "代表性方向",
+            "共识与分歧",
+            "开放问题"
+          ],
+          "深度分析": [
+            "分类体系的局限",
+            "未覆盖区域",
+            "后续研究机会"
+          ]
+        }
+      }
+    },
+    "grounding_contract": {
+      "source_of_truth": "source_manifest",
+      "source_index_source_of_truth": "source_manifest",
+      "truncation_source_of_truth": "source_manifest.coverage_or_pdf",
+      "partial_reading_acceptance_owner": "note_plan_or_grounding",
+      "accepted_reference_forms": [
+        "section_id",
+        "pages"
+      ],
+      "required_sections": [
+        "研究问题",
+        "数据与任务定义",
+        "方法主线",
+        "关键结果",
+        "深度分析",
+        "局限"
+      ],
+      "note_plan_depth_requirements": {
+        "required_section_focus_min_chars": 20,
+        "required_section_focus_fields": [
+          "focus",
+          "reading_goal",
+          "purpose"
+        ],
+        "generic_focus_phrases": [
+          "use the raw source to explain",
+          "paper-specific role of",
+          "explain the paper-specific role",
+          "explain this section",
+          "summarize this section"
+        ]
+      },
+      "excluded_model_input_fields": [
+        "evidence",
+        "evidence_pack",
+        "candidate_chunks",
+        "section_texts",
+        "summary",
+        "summary_hints"
+      ],
+      "reject_old_references": [
+        "synthesis_bundle.evidence",
+        "bundle.evidence",
+        "synthesis_bundle.candidate_chunks",
+        "synthesis_bundle.section_texts",
+        "synthesis_bundle.summary",
+        "bundle.candidate_chunks",
+        "bundle.section_texts",
+        "bundle.summary"
+      ],
+      "lint_command": "scripts/lint_grounding.py --note-plan ... --source-manifest ... --bundle-json ... --figure-decisions ..."
+    },
+    "figure_table_contract": {
+      "placeholder_first": true,
+      "visual_quality_gate": "fail_closed",
+      "decision_table_required": true,
+      "decision_values": [
+        "review_pending",
+        "insert",
+        "placeholder",
+        "low_priority",
+        "visual_defect",
+        "skip"
+      ],
+      "usable_insert_candidate": {
+        "kinds": [
+          "figure",
+          "table"
+        ],
+        "visual_quality_status": "usable_candidate",
+        "requires_source_image_path": true
+      },
+      "allowed_usable_placeholder_reasons": [
+        "visual_defect",
+        "materialization_blocked"
+      ],
+      "manual_visual_review_required_statuses": [
+        "usable_candidate",
+        "needs_visual_quality_check",
+        "review"
+      ],
+      "automatic_fail_closed_visual_statuses": [
+        "reject_visual_quality",
+        "asset_candidate_missing"
+      ],
+      "manual_review_claim_requires_image_inspection": true,
+      "visual_review": {
+        "selected_render_dpi": 300,
+        "page_preview_dpi": 96,
+        "review_fields": [
+          "status",
+          "reviewed_asset_sha256",
+          "preserved_scientific_elements",
+          "omitted_scientific_elements",
+          "notes",
+          "failure_reason",
+          "repair_attempts",
+          "revised_bbox"
+        ],
+        "review_status_values": [
+          "pending",
+          "pass",
+          "fail",
+          "repair_requested"
+        ],
+        "repair_limit": 1,
+        "asset_sha256_bound": true,
+        "caption_free_visual_body_required": true,
+        "decision_freeze_before": "note_plan",
+        "review_evidence_fields": [
+          "candidate_path",
+          "page_preview_path",
+          "source_pdf_path",
+          "source_page",
+          "caption",
+          "bbox_pt",
+          "normalized_bbox",
+          "render_dpi"
+        ],
+        "repairable_failure_reasons": [
+          "caption_contamination",
+          "surrounding_prose_contamination",
+          "scientific_content_clipped",
+          "insufficient_safety_margin"
+        ],
+        "terminal_failure_reasons": [
+          "identity_mismatch",
+          "caption_inseparable",
+          "ambiguous_visual_body",
+          "unreadable_source",
+          "scientific_content_missing",
+          "repair_limit_exhausted"
+        ]
+      }
+    },
+    "analysis_coverage_contract": {
+      "central_claim_fields": [
+        "claim",
+        "supporting_evidence",
+        "what_it_actually_proves",
+        "what_it_does_not_prove"
+      ],
+      "central_claim_field_types": {
+        "claim": "string",
+        "supporting_evidence": "array",
+        "what_it_actually_proves": "string",
+        "what_it_does_not_prove": "string"
+      },
+      "central_claim_required_field_checks": {
+        "string": {
+          "non_empty": true
+        },
+        "array": {
+          "non_empty": true
+        }
+      },
+      "required_plan_fields": [
+        "central_claims",
+        "claim_boundaries",
+        "negative_or_limiting_results",
+        "mechanism_result_map",
+        "comparative_positioning",
+        "reuse_takeaways",
+        "followup_questions"
+      ],
+      "final_quality_review_checks": [
+        "central_claims_are_supported_by_raw_sections_or_pages",
+        "key_experimental_settings_and_numbers_are_present",
+        "mechanisms_or_protocol_choices_are_mapped_to_results",
+        "comparisons_explain_positioning_against_alternatives",
+        "discussion_or_limitation_claims_are_explained_mechanistically",
+        "proven_claims_are_separated_from_unproven_or_unvalidated_claims",
+        "research_or_engineering_takeaways_are_specific_and_reusable",
+        "followup_questions_are_specific_to_replication_or_extension"
+      ]
+    }
+  }
+}
