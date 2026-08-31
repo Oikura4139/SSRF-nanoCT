@@ -1,0 +1,166 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "论文提出的是基础 GUI 智能体的系统级方法：核心贡献同时覆盖环境基础设施、统一动作空间、数据飞轮、SFT/Action RL/Online RL 训练与 harness 编排，并通过多领域交互基准和行为分析验证。",
+  "dominant_domain": "真实设备与跨平台 GUI 智能体、Computer Use、强化学习",
+  "must_cover": [
+    "统一多通道观测与 GUI/CLI/API/批量动作形式化",
+    "10,000 并发沙箱、100+ 真实手机、150+ 应用及虚拟屏幕运行时",
+    "AutoResearch 风格数据飞轮与任务—环境—验证器合成",
+    "SFT、Action RL、Online RL 的互补训练机制",
+    "MobileWorld-Real、OSWorld、WebArena、DeepSearch、GUI grounding 的关键结果",
+    "主动服务与跨平台 harness，以及安全确认边界",
+    "真实设备失败、GUI—CLI 协作及 RL 前后行为变化"
+  ],
+  "key_numbers": [
+    "MobileWorld 82.1%，MobileWorld-Real 92.2%，AndroidDaily 97.5%",
+    "OSWorld-Verified 79.5%，OSWorld-v2 部分进度 40.0%、二元完成 13.9%",
+    "WebArena 73.6%，BrowseComp/BrowseComp-ZH 64.1%/75.0%",
+    "ScreenSpot-Pro 放大设置 81.5%",
+    "最多 10,000 个并发沙箱，真实设备集群 100+ 手机、150+ 应用，虚拟屏幕使吞吐约提升 20 倍",
+    "Online RL 支持超过 100 步轨迹；自动合成约 10,000 个已验证任务—验证器对",
+    "AutoJudge 在 666 条确定样本中 618 条一致，总体 92.8%",
+    "Action RL 使总体成功率提高超过 7%，推理 token 减少 21.3%，交互步骤增加 8.4%"
+  ],
+  "real_comparisons": [
+    "Qwen-UI-Agent 与前沿闭源通用模型和专用 GUI 智能体在移动、桌面、网页与定位基准上的比较",
+    "真实设备 MobileWorld-Real 与可控沙箱 MobileWorld/高频 AndroidDaily 的比较",
+    "GUI-only、CLI-only 与混合 GUI+CLI 执行的角色分工和批量动作统计",
+    "Action RL 前后错误模式专项测试与长尾动作奖励",
+    "Online RL 前后验证、自我纠正、跨模态协作和长时程约束保持"
+  ],
+  "central_claims": [
+    {
+      "claim": "以真实世界为中心、共同设计环境、动作空间、训练和 harness，可构建跨移动端、桌面、网页和 DeepSearch 的强基础 GUI 智能体。",
+      "supporting_evidence": [
+        {"section_id": "sec:introduction-2", "pages": {"start": 3, "end": 8}},
+        {"section_id": "sec:data-3", "pages": {"start": 12, "end": 20}},
+        {"section_id": "sec:experiments-2", "pages": {"start": 20, "end": 22}},
+        {"section_id": "sec:models", "pages": {"start": 29, "end": 39}}
+      ],
+      "what_it_actually_proves": "在论文报告的 27B/35B-A3B/4B 变体和指定评测协议下，27B 在移动端与浏览器基准领先，并在桌面、DeepSearch、定位及通用智能体任务上达到领先或竞争性结果。",
+      "what_it_does_not_prove": "不能据此推出对任意应用、账号状态、长期开放世界任务或未报告设备生态都可靠，也不能消除基准修订与自动评判带来的不确定性。"
+    },
+    {
+      "claim": "混合 GUI+CLI 与批量动作能在长时程计算机任务中兼顾执行能力和效率。",
+      "supporting_evidence": [
+        {"section_id": "sec:model-4", "pages": {"start": 25, "end": 25}},
+        {"section_id": "sec:model-5", "pages": {"start": 25, "end": 27}},
+        {"section_id": "sec:models", "pages": {"start": 29, "end": 39}}
+      ],
+      "what_it_actually_proves": "OSWorld 两项基准上 CLI 覆盖绝大多数任务、约 40% 以上动作采用批量形式；案例显示 CLI 压缩结构化操作、GUI 提供视觉反馈，OSWorld-v2 平均步骤低于多种开源权重基线。",
+      "what_it_does_not_prove": "论文没有提供关闭 CLI、关闭批量动作的严格端到端消融，也未隔离模型规模、数据和评测协议的贡献，因此无法把全部性能增益归因于动作设计。"
+    },
+    {
+      "claim": "Action RL 与 Online RL 分别纠正局部动作错误和轨迹级长时程决策。",
+      "supporting_evidence": [
+        {"section_id": "sec:data-3", "pages": {"start": 12, "end": 20}},
+        {"section_id": "sec:model-8", "pages": {"start": 39, "end": 42}}
+      ],
+      "what_it_actually_proves": "Action RL 在五类专项错误上均改善，并提升长尾动作奖励；Online RL 后验证动作、GUI+Bash 协作和约束满足比例上升，错误停止率下降。",
+      "what_it_does_not_prove": "行为分析主要是相关性统计和代表性案例，缺少多随机种子置信区间及完整组件消融，不能把所有轨迹变化唯一归因于单一 RL 阶段。"
+    },
+    {
+      "claim": "AutoJudge 可作为大规模真实设备轨迹评测的实用替代方案。",
+      "supporting_evidence": [
+        {"section_id": "sec:experiments-2", "pages": {"start": 20, "end": 22}},
+        {"section_id": "sec:appendix", "pages": {"start": 52, "end": 52}},
+        {"section_id": "sec:model-9", "pages": {"start": 52, "end": 56}}
+      ],
+      "what_it_actually_proves": "在 666 条具有确定人工标签的轨迹上，AutoJudge 总体一致率为 92.8%，且对通过类达到 96.2%。",
+      "what_it_does_not_prove": "模型失败与环境错误的一致率较低；自动评判仍可能给真实设备排行榜引入小幅偏差，也不能替代所有安全或因果审计。"
+    }
+  ],
+  "claim_boundaries": [
+    "主要 27B 结果来自作者设定或修正后的评测环境，部分基线是复现值而非同一官方榜单快照。",
+    "35B-A3B 的 CUA 和 DeepSearch 训练在报告发布时尚未完成，相应结果缺失。",
+    "真实设备结果依赖 AutoJudge；环境错误从成功率分母排除，因此需连同错误率与原始轨迹审计。",
+    "数据飞轮是 agent-driven 而非 fully autonomous，仍需大量人工监督和纠错。",
+    "没有公开完整训练数据、模型权重、真实设备运行栈或训练成本，当前难以端到端独立复现。"
+  ],
+  "negative_or_limiting_results": [
+    "Qwen-UI-Agent 在 OSWorld-Verified 低于 Claude Opus 4.8，在 OSWorld-v2 的部分进度和二元完成均低于 Claude Opus 4.8。",
+    "BrowseComp 64.1% 明显落后 GPT-5.5、Seed 2.1 Pro、Gemini 3.1 Pro 和 Claude Opus 4.8。",
+    "WebArena 73.6% 仍低于论文引用的人类表现 78.2%。",
+    "AutoJudge 对环境错误类的一致率仅 76.0%，模型失败类为 85.7%。",
+    "完全自动化能力开发尚不可靠；高保真合成环境尚未纳入报告模型训练。"
+  ],
+  "mechanism_result_map": [
+    "真实设备运行时提供动态应用/账号/网络经验，对应 MobileWorld-Real 92.2% 与真实设备失败模式减少。",
+    "统一 GUI+CLI 与批量动作减少不必要观测—推理循环，对应 OSWorld 中约 40% 批量动作以及 GUI/CLI 的互补案例。",
+    "步骤级 Action RL 针对六类反复错误与长尾动作，对应五个专项测试集全部提升和循环错误提升 9.5 个百分点。",
+    "验证器引导的 Online RL 与模型自适应课程优化终止奖励，对应验证行为增加、错误停止下降和长时程约束满足提高。",
+    "Harness 把通知、事务记忆、规划和设备寻址结合，对应主动行程恢复与跨平台收据/餐厅工作流示例。"
+  ],
+  "comparative_positioning": [
+    "相较纯截图到动作的 GUI 策略，Qwen-UI-Agent 强调真实设备、CLI/API 和 harness 的系统协同。",
+    "相较只在沙箱运行的移动智能体，本文用真实设备集群和 MobileWorld-Real 显式处理权限、弹窗、账号与网络不稳定。",
+    "相较纯 GUI 的桌面智能体，CLI 适合精确结构化处理，GUI 适合视觉定位和结果验证，二者形成手—眼闭环。",
+    "相较被动响应式助手，通知驱动 harness 将任务起点提前，但以用户确认约束付款、预订和消息发送。"
+  ],
+  "reuse_takeaways": [
+    "GUI 智能体工程应把模型、环境、验证器、调度与用户控制作为一个系统共同设计。",
+    "长时程任务应显式加入中间验证、状态跟踪和失败恢复，而不是只优化单步点击正确率。",
+    "把可预测的局部动作成批执行，把结构化操作交给 CLI，把视觉语义与后置条件检查交给 GUI。",
+    "真实设备评测必须区分模型失败与环境失败，保留完整轨迹并报告自动评判器误差。",
+    "主动服务应先做低风险准备，再由用户确认具有外部后果的动作，并让用户控制长期记忆。"
+  ],
+  "followup_questions": [
+    "在相同训练数据和模型规模下，移除真实设备数据、CLI、批量动作、Action RL、Online RL 或 harness 各会损失多少？",
+    "真实设备环境错误率、每类应用覆盖、连续运行稳定性和跨时间版本漂移是多少？",
+    "训练数据量、设备小时、rollout token、算力与能耗成本是多少，10,000 并发的边际收益如何？",
+    "主动服务如何评估误触发、打扰率、敏感信息泄露和用户长期信任？",
+    "模型权重、训练数据、任务—验证器对及环境合成方法何时开放，第三方能否复现关键结果？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "解释模拟基准与真实效用之间的差距，以及六项系统转变。",
+      "evidence_sources": [{"section_id": "sec:introduction-2", "pages": {"start": 3, "end": 8}}]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "说明多环境任务、三通道观测、单动作/批量动作，以及沙箱和真实设备任务来源。",
+      "evidence_sources": [
+        {"section_id": "sec:introduction-2", "pages": {"start": 3, "end": 8}},
+        {"section_id": "sec:evaluation", "pages": {"start": 8, "end": 12}}
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "重建环境、数据飞轮、SFT/Action RL/Online RL、harness 的端到端机制。",
+      "evidence_sources": [
+        {"section_id": "sec:evaluation", "pages": {"start": 8, "end": 12}},
+        {"section_id": "sec:data-3", "pages": {"start": 12, "end": 20}}
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "用移动、桌面、网页、DeepSearch、定位和通用智能体表格呈现优势与负结果。",
+      "evidence_sources": [
+        {"section_id": "sec:experiments-2", "pages": {"start": 20, "end": 22}},
+        {"section_id": "sec:model-2", "pages": {"start": 22, "end": 23}},
+        {"section_id": "sec:model-3", "pages": {"start": 23, "end": 25}},
+        {"section_id": "sec:model-5", "pages": {"start": 25, "end": 27}},
+        {"section_id": "sec:model-7", "pages": {"start": 27, "end": 29}},
+        {"section_id": "sec:models", "pages": {"start": 29, "end": 39}}
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "分析真实设备经验、GUI—CLI 手眼分工和两级 RL 的行为证据及因果边界。",
+      "evidence_sources": [
+        {"section_id": "sec:models", "pages": {"start": 29, "end": 39}},
+        {"section_id": "sec:model-8", "pages": {"start": 39, "end": 42}}
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "覆盖 AutoJudge 误差、缺失实验、自动化不完全、复现与安全边界。",
+      "evidence_sources": [
+        {"section_id": "sec:limitations", "pages": {"start": 44, "end": 46}},
+        {"section_id": "sec:appendix", "pages": {"start": 52, "end": 52}},
+        {"section_id": "sec:model-9", "pages": {"start": 52, "end": 56}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "论文主轴是开放权重基础 GUI 智能体的完整方法与系统：环境落地数据飞轮、SFT+在线 RL、上下文内演示机制和可部署 App；OSWorkerBench 是验证该方法并测量演示价值的重要配套贡献。",
+  "dominant_domain": "多模态计算机使用智能体、长时程 GUI 自动化与演示引导执行",
+  "must_cover": [
+    "训练瓶颈与交互瓶颈的双问题设定",
+    "环境落地数据飞轮和可验证任务包",
+    "SFT、异步 GRPO、决策轮中心化与可选 PCM",
+    "DemoCUA 的子任务工作流表示和实时截图否决机制",
+    "OSWorkerBench 的 self-demo 与 variant-demo 区分",
+    "OSWorld、WAA、OSWorkerBench 和三个 DemoCUA 子集结果",
+    "部署延迟、失败模式、负迁移和证据边界"
+  ],
+  "key_numbers": [
+    "UI-Mate-27B 在 OSWorld-Verified 得 77.0%，在 WindowsAgentArena 得 66.2%",
+    "OSWorkerBench 含 100 个任务、41 个应用、67 个 Long-Memory 与 49 个 Multi-App 任务",
+    "UI-Mate-27B 在 OSWorkerBench 严格成功 41.00%、进度 76.86%",
+    "33 任务 self-demo 子集上进度 67.85%→81.14%，严格成功 17.17%→35.35%",
+    "OSWorld-Subset30 上 40.27%→65.75%，但 4/30 任务出现负迁移",
+    "GameDev 上分数 76.76%→81.15%，平均步数 303.6→253.1",
+    "App 中 27B 服务单步中位延迟 3030 ms，其中模型调用 2108 ms"
+  ],
+  "real_comparisons": [
+    "UI-Mate 与同规模 Qwen3.5/Qwen3.6 基座的端到端差异",
+    "UI-Mate 与开放权重专用 CUA、超大通用模型和闭源前沿模型的系统级比较",
+    "相同目标、环境、预算、验证器下 No-Demo 与 self-demo 的成对比较",
+    "Multi-App、Long-Memory、总体任务表现与进度—严格成功差距",
+    "训练时稀疏关键动作指导与推理时完整动作序列指导",
+    "异步课程/PCM 的收敛效率收益与最终性能无稳定增益"
+  ],
+  "central_claims": [
+    {
+      "claim": "环境落地的数据与训练栈能把开放权重 GUI 智能体提升到强通用系统附近，并显著优于同规模基座。",
+      "supporting_evidence": [
+        {"section_id": "sec:evaluations-2", "pages": {"start": 23, "end": 24}},
+        {"section_id": "sec:model-3", "pages": {"start": 24, "end": 27}}
+      ],
+      "what_it_actually_proves": "在作者采用的完整 agent harness、训练数据、评测配置和公开/内部环境组合下，UI-Mate-9B/27B 的端到端成绩显著高于对应 Qwen 基座，并在两项公共桌面基准达到开放权重领先。",
+      "what_it_does_not_prove": "不能把增益单独归因于数据飞轮、RL、模型权重或 harness 中任一组件，也不能证明在所有应用、分辨率和交互协议下保持领先。"
+    },
+    {
+      "claim": "一条同任务多模态演示可显著提高欠明确、长时程 GUI 任务的完成度与一致性。",
+      "supporting_evidence": [
+        {"section_id": "sec:results-2", "pages": {"start": 29, "end": 30}},
+        {"section_id": "sec:data-3", "pages": {"start": 30, "end": 35}},
+        {"section_id": "sec:appendix", "pages": {"start": 42, "end": 50}}
+      ],
+      "what_it_actually_proves": "在 GameDev、挑选的 OSWorld-Subset30 和 OSWorkerBench self-demo 33 任务上，固定目标条件下添加成功同任务演示可提高平均任务分数，且在后两者增益很大。",
+      "what_it_does_not_prove": "定量实验不是跨变体程序迁移；OSWorld 子集按无演示失败且强智能体可解来筛选，不能把增益外推到完整 OSWorld 或任意用户演示。"
+    },
+    {
+      "claim": "把演示表示成可验证子任务工作流，并让实时截图具有否决权，比僵硬轨迹回放更适合变化界面。",
+      "supporting_evidence": [
+        {"section_id": "sec:analysis", "pages": {"start": 9, "end": 23}},
+        {"section_id": "sec:results-2", "pages": {"start": 29, "end": 30}}
+      ],
+      "what_it_actually_proves": "论文给出形式化表示、反捷径训练类别、推理工作流和两个案例；演示条件运行能在相似视觉操作中选对底层对象或正确控制文档视口。",
+      "what_it_does_not_prove": "没有直接消融比较坐标回放、完整轨迹提示、子任务工作流和不同演示压缩方案，机制优越性仍主要由设计论证与案例支撑。"
+    },
+    {
+      "claim": "OSWorkerBench 能暴露现有 GUI 智能体在长记忆、跨应用信息流和端到端收尾上的缺口。",
+      "supporting_evidence": [
+        {"section_id": "sec:analysis", "pages": {"start": 19, "end": 23}},
+        {"section_id": "sec:model-3", "pages": {"start": 24, "end": 27}}
+      ],
+      "what_it_actually_proves": "100 任务具有长决策轮分布、跨应用要求和稠密检查点；多数模型进度显著高于严格成功，失败集中在晚期遗漏和信息保持。",
+      "what_it_does_not_prove": "任务使用 mock/受控应用和单一评测设置，未建立与真实企业生产力、经济价值或安全风险之间的外部效度。"
+    }
+  ],
+  "claim_boundaries": [
+    "全部汇总 DemoCUA 结果使用 self-demo，不是 variant-demo；同任务演示不能证明程序迁移。",
+    "OSWorld-Subset30 是有意选择 UI-Mate 无演示失败但强参考智能体可解的任务，存在选择条件。",
+    "系统比较是模型、训练、harness 和动作批处理共同作用的端到端结果，不是参数量受控消融。",
+    "历史推理、课程采样和 PCM 的结论多为训练观察，论文未公开完整超参数、方差与逐组件消融矩阵。",
+    "Windows bridge 仍在开发；App 的低延迟数字依赖特定 8-GPU 设备、量化和推测解码。"
+  ],
+  "negative_or_limiting_results": [
+    "OSWorld-Subset30 有 4 个任务因演示而退化，其中 multi-03 从 100% 降到 0%。",
+    "OSWorkerBench self-demo 的 33 个任务中也有若干任务分数下降，演示并非单调有益。",
+    "进度 76.86% 与严格成功 41.00% 相差 35.86 点，暴露晚期遗漏和未完成收尾。",
+    "课程采样与 PCM 主要减少更新次数，没有持续提高最终成功率。",
+    "把历史推理用于 RL rollout 会加快熵下降并损害探索与最终表现。",
+    "variant-demo 的十任务先导仍不稳定，45 对没有系统汇总结果。",
+    "工作流放在上下文开头会使子任务更新破坏 KV-cache 前缀复用。"
+  ],
+  "mechanism_result_map": [
+    "能力树诊断并再平衡长尾覆盖；作者报告 Multi-App 训练成绩相对无能力采样提高 15.5 点，但证据为相关性而非完全因果隔离。",
+    "任务—验证器包和独立正负探针减少错位奖励；作者审计发现仅靠执行不变量仍约有 18% 评估器语义错位。",
+    "子任务指针、完成准则和实时截图否决把演示从动作脚本改为程序先验；self-demo 在两个困难子集产生 13.29 与 25.48 点进度增益。",
+    "训练时省略中间动作阻止复制捷径，推理时恢复完整动作序列以提供更多信息；论文给出经验结论但缺少完整消融数值。",
+    "决策轮中心化和 token 归一化针对长失败轨迹的权重偏差；异步 GRPO 用 IcePop/SeqClip 过滤陈旧策略 token。"
+  ],
+  "comparative_positioning": [
+    "相较仅指令基础 CUA，UI-Mate 把用户程序偏好作为可选多模态条件显式引入。",
+    "相较 RPA 固定回放，它使用无坐标子任务工作流并允许实时截图覆盖演示。",
+    "相较 ShowUI-Aloha，UI-Mate 同时支持人类/智能体演示、self/variant 两种协议和开放权重基础智能体训练。",
+    "相较只扩大轨迹数量的路线，它用能力树、真实资源环境和任务—验证器联合构建强调覆盖与可验证性。",
+    "相较只给最终二值奖励，PCM 尝试定位过程信用，但当前主要收益是更快收敛。"
+  ],
+  "reuse_takeaways": [
+    "演示系统应把用户意图压缩为带完成准则的工作流，而不是保存像素坐标脚本。",
+    "实时环境观测必须有权否决演示，训练中应显式加入一致、错位和无关三类条件。",
+    "长流程评测应同时报告严格成功、部分进度、轨迹长度和负迁移，而不能只报均值。",
+    "可验证任务生成必须用困难负例与替代正例审计奖励语义，单一黄金状态自洽不够。",
+    "实际部署需要把模型服务、agent harness、桌面 bridge 和用户审计界面分层解耦。"
+  ],
+  "followup_questions": [
+    "在完整 45 任务 variant-demo 上，哪些结构匹配度指标能够预测演示有益、无效或有害？",
+    "坐标轨迹、完整动作列表、关键动作、子任务工作流之间的受控消融结果如何？",
+    "演示来源质量、错误步骤、界面版本变化和恶意指令会怎样影响安全性？",
+    "数据飞轮、SFT、RL、PCM、历史推理和 harness 各自贡献多少，方差和计算成本如何？",
+    "进度高但严格失败的最后 10% 工作流能否用验证器驱动的尾部检查或终止前自审解决？",
+    "OSWorkerBench 的 mock 应用成绩与真实办公软件、真实组织流程之间有多强相关性？"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "解释 GUI 智能体既受环境与可验证数据不足限制，也受用户程序细节无法完整写入提示限制，并说明两者为何分别需要训练与交互层解法。",
+      "evidence_sources": [{"section_id": "sec:introduction-2", "pages": {"start": 4, "end": 9}}]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "区分通用与演示引导任务形式，定义决策轮、验证器、子任务工作流，并梳理 OSWorkerBench 的任务、标签、演示集合和指标。",
+      "evidence_sources": [{"section_id": "sec:analysis", "pages": {"start": 9, "end": 23}}]
+    },
+    {
+      "section": "方法主线",
+      "focus": "重建从能力诊断、任务与环境生成、SFT、在线 GRPO 到 DemoCUA 推理与 App 部署的端到端机制，保留决定性公式与信用分配边界。",
+      "evidence_sources": [
+        {"section_id": "sec:analysis", "pages": {"start": 9, "end": 23}},
+        {"section_id": "sec:model-3", "pages": {"start": 24, "end": 27}},
+        {"section_id": "sec:model-5", "pages": {"start": 35, "end": 36}}
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "同时呈现公共基准、OSWorkerBench 主结果、三个 self-demo 子集、负迁移、轨迹长度和部署延迟，并严格区分总体基准与筛选子集。",
+      "evidence_sources": [
+        {"section_id": "sec:evaluations-2", "pages": {"start": 23, "end": 24}},
+        {"section_id": "sec:model-3", "pages": {"start": 24, "end": 27}},
+        {"section_id": "sec:results-2", "pages": {"start": 29, "end": 30}},
+        {"section_id": "sec:data-3", "pages": {"start": 30, "end": 35}}
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "分析演示为何帮助欠明确任务、为何会负迁移、进度与严格成功为何分离，并评价证据是否足以支持机制、泛化和开放权重领先主张。",
+      "evidence_sources": [
+        {"section_id": "sec:data-2", "pages": {"start": 30, "end": 30}},
+        {"section_id": "sec:data-3", "pages": {"start": 30, "end": 35}},
+        {"section_id": "sec:related-work-2", "pages": {"start": 36, "end": 38}}
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "界定 self-demo 选择条件、variant-demo 空缺、组件消融不足、受控应用外部效度、演示安全和跨平台部署未完成等结论边界。",
+      "evidence_sources": [
+        {"section_id": "sec:related-work-2", "pages": {"start": 36, "end": 38}},
+        {"section_id": "sec:appendix", "pages": {"start": 42, "end": 50}}
+      ]
+    }
+  ]
+}
