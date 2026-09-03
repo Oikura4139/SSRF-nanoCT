@@ -149,6 +149,72 @@ $$
 
 其中，$\bar r$ 和 $\sigma_r$ 分别是组内奖励 $\{r_1,\dots,r_G\}$ 的均值和标准差，$\delta$ 是用于数值稳定的小正数，$y_{i,u}$ 是第 $i$ 条轨迹的第 $u$ 个活动 token，$h_{i,u}$ 是其上下文（任务、之前的交互历史，以及折叠后仍可见的截图）。SAPO 不把 $\rho_{i,u}$ 截断在固定区间内，而是让该比率通过一个平滑、由温度控制的门函数：近似同策略的 token 几乎不受影响，而明显离策略的 token 被连续衰减。门温度是不对称的，负优势更新比正优势更新衰减更快；我们发现，这对本文的长多模态轨迹和混合专家骨干十分重要。梯度只通过模型生成的推理和工具调用 token 传播；任务指令、截图和环境响应只作为上下文，不纳入损失。完整目标见附录 C.2。
 
+> [!note] 译者补充：SAPO 相比 GRPO 改变了什么？
+>
+> **1. GRPO 的基本原理。** 组相对策略优化（Group Relative Policy Optimization，GRPO）可以看成一种不训练价值模型（critic）的 PPO 式策略优化方法。对同一个任务，用旧策略 $\pi_{\theta_{\mathrm{old}}}$ 采样 $G$ 条轨迹，获得奖励 $r_1,\ldots,r_G$，再用组内均值和标准差构造相对优势
+> $$
+> \hat A_i=\frac{r_i-\bar r}{\sigma_r+\delta}.
+> $$
+> 奖励高于同组平均值的轨迹具有正优势，低于平均值的轨迹具有负优势；由于组均值本身充当基线，GRPO 不需要额外学习一个价值网络。对于轨迹 $i$ 的活动 token $u$，定义重要性比率
+> $$
+> \rho_{i,u}(\theta)=
+> \frac{\pi_\theta(y_{i,u}\mid h_{i,u})}
+>      {\pi_{\theta_{\mathrm{old}}}(y_{i,u}\mid h_{i,u})}.
+> $$
+> 忽略不同实现中可选的参考策略 KL 正则项，一个典型的 token 级 GRPO 代理目标为
+> $$
+> \mathcal J_{\mathrm{GRPO}}(\theta)
+> =\mathbb E\!\left[
+> \frac{1}{G}\sum_{i=1}^{G}
+> \frac{1}{|\mathcal M_i|}\sum_{u\in\mathcal M_i}
+> \min\!\left(
+> \rho_{i,u}\hat A_i,
+> \operatorname{clip}(\rho_{i,u},1-\epsilon,1+\epsilon)\hat A_i
+> \right)
+> \right].
+> $$
+> 这里的硬裁剪限制策略一次更新离旧策略过远。具体而言：当 $\hat A_i>0$ 且 $\rho_{i,u}>1+\epsilon$ 时，继续提高该 token 概率不再产生策略梯度；当 $\hat A_i<0$ 且 $\rho_{i,u}<1-\epsilon$ 时，继续降低其概率也不再产生策略梯度。裁剪边界内则保留普通重要性加权策略梯度。换言之，GRPO 的“组相对”解决优势基线和免 critic 问题，PPO 式 `clip` 则负责约束策略更新幅度。
+>
+> **2. SAPO 保留组相对优势，但用软门替代硬裁剪。** 本文中的 SAPO 仍使用同一个 $\hat A_i$ 和同一个 token 级比率 $\rho_{i,u}$；因此，它与 GRPO 的主要差别不在奖励归一化或信用分配，而在如何处理离策略 token。SAPO 定义
+> $$
+> f_\tau(\rho)=\frac{4}{\tau}\,
+> \sigma\!\left(\tau(\rho-1)\right),
+> \qquad
+> \tau=
+> \begin{cases}
+> \tau_{\mathrm{pos}}, & \hat A_i>0,\\
+> \tau_{\mathrm{neg}}, & \hat A_i\le 0,
+> \end{cases}
+> $$
+> 并用 $f_\tau(\rho_{i,u})\hat A_i$ 代替 GRPO 中的裁剪代理项。其梯度可写为
+> $$
+> \nabla_\theta\mathcal J_{\mathrm{SAPO}}
+> \propto
+> w_\tau(\rho_{i,u})\,
+> \rho_{i,u}\hat A_i\,
+> \nabla_\theta\log\pi_\theta(y_{i,u}\mid h_{i,u}),
+> $$
+> 其中
+> $$
+> w_\tau(\rho)=4p(1-p),
+> \qquad
+> p=\sigma\!\left(\tau(\rho-1)\right).
+> $$
+> 在同策略点 $\rho=1$，有 $p=1/2$、$w_\tau(1)=1$，所以 SAPO 与未裁剪策略梯度局部一致；随着 $\rho$ 偏离 1，有效权重连续衰减。它不会像 GRPO 那样在 $1\pm\epsilon$ 处突然把相应方向的梯度变成零，而是形成平滑的软信赖域。
+>
+> **3. 公式层面的核心差异。** 若忽略 KL 项并只看策略梯度，GRPO 的有效门可以概括为分段常数
+> $$
+> m_{\mathrm{GRPO}}(\rho,\hat A)=
+> \begin{cases}
+> 0, & \hat A>0\ \text{且}\ \rho>1+\epsilon,\\
+> 0, & \hat A<0\ \text{且}\ \rho<1-\epsilon,\\
+> 1, & \text{其他情况},
+> \end{cases}
+> $$
+> 而 SAPO 使用连续门 $m_{\mathrm{SAPO}}=w_\tau(\rho)$。此外，标准 GRPO 通常用同一组裁剪阈值 $1\pm\epsilon$；SAPO 则通过 $\tau_{\mathrm{pos}}$ 与 $\tau_{\mathrm{neg}}$ 显式区分正、负优势。本文设置 $\tau_{\mathrm{neg}}>\tau_{\mathrm{pos}}$，使负优势 token 偏离旧策略后衰减得更快，因为压低一个已采样 token 会把概率质量分散给大量替代 token，在长轨迹和混合专家模型中更容易引起不稳定。
+>
+> 因而可以把两者的关系概括为：**SAPO 保留了 GRPO 的“同任务多轨迹采样、组内标准化优势、无需 critic”框架，但把 PPO/GRPO 的硬裁剪更新改造成了平滑且正负不对称的软门更新。** 典型 GRPO 还常加入相对参考策略的 KL 正则；本文附录 C.2 展示的 SAPO 目标没有显式写出该项，但这属于本文目标和具体实现的差别，不是 SAPO 与所有 GRPO 实现之间必然存在的定义性差异。
+
 **训练—推理一致性与奖励复用。** RL 使用与推理阶段相同的确定性折叠历史表示（第 2.2 节）。因此，一个只在终点获得奖励的回合可以产生多个上下文受限的优化单元，让不同交互阶段的活动 token 获得梯度，而不必引入人工设计的逐步奖励。附录 C 给出完整目标、轨迹采样构造、优化配置和分布式训练设置。
 
 ### 3.4 迭代式智能体训练
