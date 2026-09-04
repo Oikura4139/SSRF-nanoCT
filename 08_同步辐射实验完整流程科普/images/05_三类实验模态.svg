@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">衍射散射、谱学与成像三类同步辐射实验模态</title>
+  <desc id="desc">三块面板分别展示衍射散射通过角度或动量空间图样回答结构问题，谱学通过扫描能量和测量响应回答元素与化学态问题，成像通过位置分辨投影和重建回答结构在哪里的问题。</desc>
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2f7"/></linearGradient>
+    <filter id="sh5"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183153" flood-opacity="0.14"/></filter>
+    <marker id="ar5" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#475569"/></marker>
+    <style>
+      .sans { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .title { font-size: 34px; font-weight: 750; fill: #17324d; }
+      .sub { font-size: 18px; fill: #52677b; }
+      .h { font-size: 25px; font-weight: 750; fill: #17324d; }
+      .q { font-size: 19px; font-weight: 700; fill: #334155; }
+      .b { font-size: 16px; fill: #29465f; }
+      .s { font-size: 14px; fill: #52677b; }
+    </style>
+  </defs>
+  <rect width="1400" height="820" rx="26" fill="url(#bg5)"/>
+  <text x="68" y="68" class="sans title">同一束 X 射线，三类“提问方式”</text>
+  <text x="68" y="102" class="sans sub">分类按主要观测维度理解：动量 / 角度、能量、位置；真实实验经常把它们组合起来。</text>
+
+  <g filter="url(#sh5)">
+    <rect x="55" y="148" width="410" height="595" rx="24" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+    <rect x="495" y="148" width="410" height="595" rx="24" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <rect x="935" y="148" width="410" height="595" rx="24" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  </g>
+
+  <!-- Diffraction -->
+  <text x="80" y="193" class="sans h">衍射 / 散射</text>
+  <text x="80" y="227" class="sans q">问：原子与结构如何排列？</text>
+  <line x1="84" y1="316" x2="190" y2="316" stroke="#f59e0b" stroke-width="7" marker-end="url(#ar5)"/>
+  <rect x="197" y="281" width="40" height="70" rx="6" fill="#64748b"/>
+  <path d="M237 316 L294 260 M237 316 L303 289 M237 316 L303 344 M237 316 L294 374" stroke="#0284c7" stroke-width="4"/>
+  <rect x="308" y="241" width="113" height="153" rx="10" fill="#0f2740"/>
+  <g fill="none" stroke="#7dd3fc" stroke-width="3"><circle cx="364" cy="318" r="22"/><circle cx="364" cy="318" r="45"/><circle cx="364" cy="318" r="67"/></g>
+  <g fill="#f8fafc"><circle cx="348" cy="295" r="5"/><circle cx="389" cy="334" r="5"/><circle cx="329" cy="352" r="5"/><circle cx="401" cy="276" r="5"/></g>
+  <text x="80" y="431" class="sans b">典型 raw：</text>
+  <text x="80" y="461" class="sans b">二维散射图、衍射峰、事件计数</text>
+  <text x="80" y="503" class="sans b">常见处理：</text>
+  <text x="80" y="533" class="sans b">几何校正 → 方位积分 → 峰拟合</text>
+  <text x="80" y="563" class="sans b">或相位恢复 / 相关函数分析</text>
+  <text x="80" y="609" class="sans b">高层结果：</text>
+  <text x="80" y="639" class="sans b">晶格、相组成、应变、尺度、动力学</text>
+  <rect x="80" y="674" width="350" height="42" rx="12" fill="#fff" stroke="#0284c7"/>
+  <text x="255" y="701" text-anchor="middle" class="sans s">类似“从频域图样反推生成它的结构”</text>
+
+  <!-- Spectroscopy -->
+  <text x="520" y="193" class="sans h">谱学</text>
+  <text x="520" y="227" class="sans q">问：有哪些元素，处于什么状态？</text>
+  <line x1="548" y1="386" x2="855" y2="386" stroke="#64748b" stroke-width="3" marker-end="url(#ar5)"/>
+  <line x1="548" y1="386" x2="548" y2="266" stroke="#64748b" stroke-width="3" marker-end="url(#ar5)"/>
+  <path d="M551 366 C596 365 621 361 650 357 C685 352 691 349 708 346 L716 293 C731 317 745 316 760 310 C786 300 798 328 820 316 C839 305 848 310 860 302" fill="none" stroke="#d97706" stroke-width="6"/>
+  <line x1="716" y1="276" x2="716" y2="386" stroke="#ef4444" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="728" y="285" class="sans s" fill="#b91c1c">吸收边</text>
+  <text x="829" y="413" class="sans s">能量 E</text>
+  <text x="524" y="270" class="sans s">响应</text>
+  <text x="520" y="461" class="sans b">典型 raw：</text>
+  <text x="520" y="491" class="sans b">I0、透射 / 荧光计数随能量变化</text>
+  <text x="520" y="533" class="sans b">常见处理：</text>
+  <text x="520" y="563" class="sans b">能量标定 → 归一化 → 去背景</text>
+  <text x="520" y="593" class="sans b">→ 参考谱拟合 / 物理模型拟合</text>
+  <text x="520" y="639" class="sans b">高层结果：</text>
+  <text x="520" y="669" class="sans b">元素、价态、配位与电子结构</text>
+  <rect x="520" y="674" width="350" height="42" rx="12" fill="#fff" stroke="#d97706"/>
+  <text x="695" y="701" text-anchor="middle" class="sans s">类似“扫描频率，读取系统的响应曲线”</text>
+
+  <!-- Imaging -->
+  <text x="960" y="193" class="sans h">成像 / 断层成像</text>
+  <text x="960" y="227" class="sans q">问：结构和性质在哪里？</text>
+  <line x1="970" y1="320" x2="1045" y2="320" stroke="#f59e0b" stroke-width="7" marker-end="url(#ar5)"/>
+  <circle cx="1094" cy="320" r="47" fill="#f3e8ff" stroke="#7c3aed" stroke-width="4"/>
+  <path d="M1083 281 C1125 305 1061 333 1110 358" fill="none" stroke="#6d28d9" stroke-width="7"/>
+  <line x1="1142" y1="320" x2="1207" y2="320" stroke="#7c3aed" stroke-width="5" marker-end="url(#ar5)"/>
+  <rect x="1220" y="245" width="76" height="150" rx="8" fill="#1e1b4b"/>
+  <g stroke="#a78bfa" stroke-width="3"><line x1="1236" y1="255" x2="1236" y2="385"/><line x1="1252" y1="255" x2="1252" y2="385"/><line x1="1268" y1="255" x2="1268" y2="385"/><line x1="1284" y1="255" x2="1284" y2="385"/></g>
+  <path d="M1236 280 C1252 300 1268 345 1290 365" fill="none" stroke="#f5d0fe" stroke-width="5"/>
+  <text x="960" y="431" class="sans b">典型 raw：</text>
+  <text x="960" y="461" class="sans b">二维投影、扫描点计数、平暗场</text>
+  <text x="960" y="503" class="sans b">常见处理：</text>
+  <text x="960" y="533" class="sans b">归一化 → 配准 → 相位检索</text>
+  <text x="960" y="563" class="sans b">→ 断层重建 / 拼接</text>
+  <text x="960" y="609" class="sans b">高层结果：</text>
+  <text x="960" y="639" class="sans b">二维图、三维体、分割与形貌统计</text>
+  <rect x="960" y="674" width="350" height="42" rx="12" fill="#fff" stroke="#7c3aed"/>
+  <text x="1135" y="701" text-anchor="middle" class="sans s">类似“多视角观测 + 逆问题求解”</text>
+
+  <text x="700" y="782" text-anchor="middle" class="sans" font-size="16" font-weight="700" fill="#475569">边界会交叉：例如谱学成像、衍射成像、散射断层，都是多维坐标的组合采样。</text>
+</svg>

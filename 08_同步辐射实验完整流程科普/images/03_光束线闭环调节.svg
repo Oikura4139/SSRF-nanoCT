@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">光束线闭环调节与安全边界</title>
+  <desc id="desc">实验需求被转换为光束目标，配方和控制器驱动狭缝、单色器、反射镜和聚焦元件；光束位置、通量、光斑等传感器数据反馈给控制器。安全联锁可否决动作，在线实验质量检查只能提出受限补采或复位请求。</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eff6ff"/></linearGradient>
+    <filter id="sh3"><feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#16324c" flood-opacity="0.15"/></filter>
+    <marker id="ar3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#36536f"/></marker>
+    <marker id="ag3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#d97706"/></marker>
+    <marker id="ared3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#dc2626"/></marker>
+    <style>
+      .sans { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .title { font-size: 34px; font-weight: 750; fill: #17324d; }
+      .sub { font-size: 18px; fill: #52677b; }
+      .h { font-size: 22px; font-weight: 700; fill: #17324d; }
+      .b { font-size: 16px; fill: #29465f; }
+      .s { font-size: 14px; fill: #52677b; }
+    </style>
+  </defs>
+  <rect width="1400" height="820" rx="26" fill="url(#bg3)"/>
+  <text x="68" y="68" class="sans title">光束线自动调节：一个有硬约束的闭环控制问题</text>
+  <text x="68" y="102" class="sans sub">“自动”是传感器—控制器—执行器闭环，不是算法可以任意移动所有设备。</text>
+
+  <!-- Top flow -->
+  <g filter="url(#sh3)">
+    <rect x="60" y="160" width="235" height="165" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <rect x="335" y="160" width="235" height="165" rx="20" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+    <rect x="610" y="160" width="325" height="165" rx="20" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+    <rect x="975" y="160" width="365" height="165" rx="20" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  </g>
+  <text x="82" y="198" class="sans h">① 实验意图</text>
+  <text x="82" y="235" class="sans b">样品、科学问题、剂量预算</text>
+  <text x="82" y="266" class="sans b">空间、能量与时间分辨率</text>
+  <text x="82" y="297" class="sans b">允许的风险与运行边界</text>
+
+  <text x="357" y="198" class="sans h">② 光束目标向量</text>
+  <text x="357" y="235" class="sans b">能量、带宽、通量</text>
+  <text x="357" y="266" class="sans b">光斑、位置、相干性</text>
+  <text x="357" y="297" class="sans b">稳定度、剂量与时间</text>
+
+  <text x="632" y="198" class="sans h">③ 配方与受限控制器</text>
+  <text x="632" y="235" class="sans b">规则 / 物理模型 / 历史配方</text>
+  <text x="632" y="266" class="sans b">状态机 / PID / 有约束优化</text>
+  <text x="632" y="297" class="sans b">只输出白名单内的小范围动作</text>
+
+  <text x="997" y="198" class="sans h">④ 光学链与实验站</text>
+  <text x="997" y="235" class="sans b">光闸 → 狭缝 → 滤片 → 反射镜</text>
+  <text x="997" y="266" class="sans b">单色器 → 聚焦元件 → 样品</text>
+  <text x="997" y="297" class="sans b">探测器记录光与样品作用后的信号</text>
+
+  <path d="M296 242 H326" stroke="#36536f" stroke-width="5" marker-end="url(#ar3)"/>
+  <path d="M571 242 H601" stroke="#36536f" stroke-width="5" marker-end="url(#ar3)"/>
+  <path d="M936 242 H966" stroke="#36536f" stroke-width="5" marker-end="url(#ar3)"/>
+
+  <!-- Sensors -->
+  <g filter="url(#sh3)">
+    <rect x="760" y="410" width="580" height="175" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <rect x="60" y="410" width="630" height="175" rx="20" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+  </g>
+  <text x="782" y="448" class="sans h">⑤ 传感器与读回：系统实际发生了什么？</text>
+  <text x="782" y="486" class="sans b">光子束：I0 / 通量、XBPM 位置、二维光斑、波前、能量标定</text>
+  <text x="782" y="519" class="sans b">设备：编码器、真空、温度、水冷、马达状态、探测器饱和</text>
+  <text x="782" y="552" class="sans b">实验：投影质量、信噪比、漂移、掉帧、重建预览与剂量累计</text>
+
+  <text x="82" y="448" class="sans h">执行器：系统能改变什么？</text>
+  <g class="sans b">
+    <rect x="82" y="478" width="120" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="142" y="505" text-anchor="middle">狭缝开口</text>
+    <rect x="218" y="478" width="120" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="278" y="505" text-anchor="middle">滤片 / 衰减</text>
+    <rect x="354" y="478" width="142" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="425" y="505" text-anchor="middle">单色器角度</text>
+    <rect x="512" y="478" width="142" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="583" y="505" text-anchor="middle">反射镜姿态</text>
+    <rect x="82" y="535" width="156" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="160" y="562" text-anchor="middle">聚焦元件位置</text>
+    <rect x="254" y="535" width="156" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="332" y="562" text-anchor="middle">样品台 / 探测器</text>
+    <rect x="426" y="535" width="228" height="42" rx="12" fill="#fff" stroke="#64748b"/><text x="540" y="562" text-anchor="middle">曝光、增益、采集序列</text>
+  </g>
+
+  <!-- Feedback arrows -->
+  <path d="M1135 326 V401" stroke="#36536f" stroke-width="5" marker-end="url(#ar3)"/>
+  <path d="M759 500 C701 500 711 349 772 334" fill="none" stroke="#d97706" stroke-width="5" stroke-dasharray="10 7" marker-end="url(#ag3)"/>
+  <text x="685" y="389" class="sans" font-size="15" font-weight="700" fill="#b45309">观测误差反馈</text>
+  <path d="M691 495 C731 468 710 359 771 334" fill="none" stroke="#36536f" stroke-width="4" marker-end="url(#ar3)"/>
+
+  <!-- Safety floor -->
+  <rect x="60" y="656" width="1280" height="104" rx="19" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="85" y="695" class="sans" font-size="22" font-weight="750" fill="#991b1b">不可绕过的安全底座：人员安全系统 / 设备保护 / PLC / 硬限位 / 碰撞包络 / 真空与温度联锁</text>
+  <text x="85" y="731" class="sans" font-size="17" fill="#7f1d1d">它们拥有否决权。优化器或智能体只能在已批准的动作集合、步长、剂量、次数和恢复方案内工作。</text>
+  <path d="M775 650 V604" stroke="#dc2626" stroke-width="5" marker-end="url(#ared3)"/>
+  <text x="794" y="633" class="sans" font-size="15" font-weight="700" fill="#b91c1c">越界即阻断</text>
+</svg>

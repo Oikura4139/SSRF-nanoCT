@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">从原始数据到科学结论的数据成熟度阶梯</title>
+  <desc id="desc">原始数据经校正、重建或降维、定量分析和跨模态证据融合形成更高语义层次的数据。阶梯高度表示语义抽象程度，不代表质量自动提高。每一层都要保留输入、参数、软件版本、质量控制和不确定度。</desc>
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef6f2"/></linearGradient>
+    <filter id="sh6"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183153" flood-opacity="0.15"/></filter>
+    <marker id="ar6" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0 L0 6 L9 3z" fill="#475569"/></marker>
+    <style>
+      .sans { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .title { font-size: 34px; font-weight: 750; fill: #17324d; }
+      .sub { font-size: 18px; fill: #52677b; }
+      .lh { font-size: 22px; font-weight: 750; fill: #fff; }
+      .lb { font-size: 15px; fill: #edf6ff; }
+      .b { font-size: 16px; fill: #29465f; }
+      .s { font-size: 14px; fill: #52677b; }
+    </style>
+  </defs>
+  <rect width="1400" height="820" rx="26" fill="url(#bg6)"/>
+  <text x="67" y="67" class="sans title">从 raw 到 high-level：语义越来越接近科学问题</text>
+  <text x="67" y="101" class="sans sub">本文的 L0–L4 是教学分层，不是所有光源统一采用的官方等级。</text>
+
+  <!-- Stair blocks -->
+  <g filter="url(#sh6)">
+    <path d="M70 650 H315 V560 H560 V455 H805 V345 H1050 V225 H1318 V690 H70 Z" fill="#e2e8f0" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="70" y="560" width="245" height="130" fill="#334155"/>
+    <rect x="315" y="455" width="245" height="235" fill="#2563eb"/>
+    <rect x="560" y="345" width="245" height="345" fill="#0891b2"/>
+    <rect x="805" y="225" width="245" height="465" fill="#7c3aed"/>
+    <rect x="1050" y="135" width="268" height="555" fill="#16a34a"/>
+  </g>
+
+  <text x="92" y="599" class="sans lh">L0 原始记录</text>
+  <text x="92" y="632" class="sans lb">探测器帧、事件、时间戳</text>
+  <text x="92" y="658" class="sans lb">坐标、环境、标定、日志</text>
+
+  <text x="337" y="494" class="sans lh">L1 校正数据</text>
+  <text x="337" y="527" class="sans lb">暗场 / 平场 / I0</text>
+  <text x="337" y="553" class="sans lb">坏像素、几何、能量标定</text>
+  <text x="337" y="585" class="sans lb">仍接近测量空间</text>
+
+  <text x="582" y="384" class="sans lh">L2 重建 / 降维</text>
+  <text x="582" y="417" class="sans lb">一维曲线、归一化谱</text>
+  <text x="582" y="443" class="sans lb">二维图、三维体、相关函数</text>
+  <text x="582" y="475" class="sans lb">已经依赖算法与参数</text>
+
+  <text x="827" y="264" class="sans lh">L3 定量结果</text>
+  <text x="827" y="297" class="sans lb">峰位、相分数、价态</text>
+  <text x="827" y="323" class="sans lb">孔隙率、裂纹、粒径</text>
+  <text x="827" y="355" class="sans lb">包含拟合、分割或模型</text>
+
+  <text x="1072" y="174" class="sans lh">L4 科学证据</text>
+  <text x="1072" y="207" class="sans lb">跨模态配准与统计检验</text>
+  <text x="1072" y="233" class="sans lb">图表、结论、可发布数据集</text>
+  <text x="1072" y="265" class="sans lb">最接近“回答了什么”</text>
+
+  <!-- Arrows and pipeline labels -->
+  <path d="M270 528 H344" stroke="#475569" stroke-width="4" marker-end="url(#ar6)"/>
+  <text x="300" y="512" class="sans s">校正</text>
+  <path d="M515 422 H589" stroke="#475569" stroke-width="4" marker-end="url(#ar6)"/>
+  <text x="545" y="406" class="sans s">逆问题</text>
+  <path d="M760 312 H834" stroke="#475569" stroke-width="4" marker-end="url(#ar6)"/>
+  <text x="784" y="296" class="sans s">定量</text>
+  <path d="M1005 192 H1079" stroke="#475569" stroke-width="4" marker-end="url(#ar6)"/>
+  <text x="1023" y="176" class="sans s">融合</text>
+
+  <!-- Complementary data branch -->
+  <rect x="785" y="477" width="230" height="103" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="805" y="512" class="sans" font-size="18" font-weight="700" fill="#9a3412">补充表征平台数据</text>
+  <text x="805" y="543" class="sans s" fill="#9a3412">电镜、拉曼、力学、化学分析…</text>
+  <path d="M1017 509 C1083 493 1098 400 1112 279" fill="none" stroke="#ea580c" stroke-width="4" stroke-dasharray="8 7" marker-end="url(#ar6)"/>
+  <text x="1050" y="457" class="sans s" style="fill:#fff7ed">按样品 / ROI 关联</text>
+
+  <!-- Quality rail -->
+  <rect x="70" y="724" width="1248" height="55" rx="17" fill="#fff" stroke="#dc2626" stroke-width="2"/>
+  <text x="694" y="758" text-anchor="middle" class="sans" font-size="17" font-weight="700" fill="#991b1b">每一级都要保留：输入 → 参数 → 软件 / 模型版本 → 输出 → QC → 不确定度 → 责任人；否则“更高层”可能只是更难发现错误。</text>
+
+  <rect x="882" y="74" width="436" height="43" rx="15" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="1100" y="102" text-anchor="middle" class="sans" font-size="16" font-weight="750" fill="#991b1b">阶梯高度 = 语义抽象度　≠　质量分数</text>
+</svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">同步辐射实验从电子束到科学结论的全流程</title>
+  <desc id="desc">共享加速器产生同步辐射光，多条光束线调制光束，实验站采集探测器与环境数据，计算平台生成可追溯的高层数据，并将在线质量检查反馈给采集与调束系统。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#eef3f8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#183153" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#36536f"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d97706"/>
+    </marker>
+    <style>
+      .sans { font-family: "Noto Sans CJK SC", "Microsoft YaHei", "PingFang SC", sans-serif; }
+      .title { font-size: 34px; font-weight: 750; fill: #17324d; }
+      .subtitle { font-size: 18px; fill: #52677b; }
+      .stage { font-size: 24px; font-weight: 700; fill: #15324a; }
+      .body { font-size: 17px; fill: #29465f; }
+      .small { font-size: 15px; fill: #52677b; }
+      .pill { font-size: 14px; font-weight: 700; fill: white; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="820" rx="26" fill="url(#bg)"/>
+  <text x="70" y="68" class="sans title">同步辐射实验：从共享光源到可验证的科学结论</text>
+  <text x="70" y="101" class="sans subtitle">物理主链向右，控制与数据反馈构成闭环；箭头表示依赖关系，不代表实际尺寸。</text>
+
+  <!-- Stage cards -->
+  <g filter="url(#shadow)">
+    <rect x="55" y="155" width="230" height="390" rx="22" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="315" y="155" width="240" height="390" rx="22" fill="#cffafe" stroke="#0891b2" stroke-width="2"/>
+    <rect x="585" y="155" width="240" height="390" rx="22" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    <rect x="855" y="155" width="220" height="390" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <rect x="1105" y="155" width="240" height="390" rx="22" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  </g>
+
+  <!-- Card 1 -->
+  <rect x="76" y="178" width="70" height="27" rx="13" fill="#2563eb"/>
+  <text x="111" y="197" text-anchor="middle" class="sans pill">步骤 1</text>
+  <text x="76" y="246" class="sans stage">加速器复合体</text>
+  <ellipse cx="170" cy="330" rx="70" ry="49" fill="none" stroke="#2563eb" stroke-width="10"/>
+  <circle cx="231" cy="307" r="9" fill="#f59e0b"/>
+  <path d="M226 307 C246 299,259 290,275 276" fill="none" stroke="#f59e0b" stroke-width="5" marker-end="url(#arrowOrange)"/>
+  <text x="76" y="420" class="sans body">稳定高能电子束</text>
+  <text x="76" y="452" class="sans body">在选定光源点发光</text>
+  <text x="76" y="492" class="sans small">电子留在储存环内</text>
+  <text x="76" y="518" class="sans small">引出的是光子束</text>
+
+  <!-- Card 2 -->
+  <rect x="336" y="178" width="70" height="27" rx="13" fill="#0891b2"/>
+  <text x="371" y="197" text-anchor="middle" class="sans pill">步骤 2</text>
+  <text x="336" y="246" class="sans stage">光束线 × N</text>
+  <path d="M350 300 H518" stroke="#0891b2" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M350 348 H518" stroke="#0891b2" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M350 396 H518" stroke="#0891b2" stroke-width="6" marker-end="url(#arrow)"/>
+  <circle cx="390" cy="300" r="11" fill="#fff" stroke="#0891b2" stroke-width="4"/>
+  <polygon points="435,287 448,300 435,313 422,300" fill="#fff" stroke="#0891b2" stroke-width="4"/>
+  <rect x="476" y="286" width="24" height="28" rx="4" fill="#fff" stroke="#0891b2" stroke-width="4"/>
+  <text x="336" y="450" class="sans body">选能、准直、聚焦</text>
+  <text x="336" y="482" class="sans body">监测并稳定光束质量</text>
+  <text x="336" y="518" class="sans small">每条线是独立的光学管线</text>
+
+  <!-- Card 3 -->
+  <rect x="606" y="178" width="70" height="27" rx="13" fill="#ea580c"/>
+  <text x="641" y="197" text-anchor="middle" class="sans pill">步骤 3</text>
+  <text x="606" y="246" class="sans stage">实验站与样品</text>
+  <circle cx="705" cy="330" r="43" fill="#fff7ed" stroke="#ea580c" stroke-width="5"/>
+  <path d="M617 330 H660 M750 330 H802" stroke="#f59e0b" stroke-width="7"/>
+  <rect x="665" y="302" width="80" height="56" rx="10" fill="#fed7aa" stroke="#ea580c" stroke-width="3"/>
+  <path d="M688 316 L722 344 M722 316 L688 344" stroke="#c2410c" stroke-width="4"/>
+  <text x="606" y="420" class="sans body">衍射 / 散射 / 谱学 / 成像</text>
+  <text x="606" y="452" class="sans body">同步采集原位环境数据</text>
+  <text x="606" y="492" class="sans small">探测器帧 + 坐标 + 标定</text>
+  <text x="606" y="518" class="sans small">共同构成一次 Run</text>
+
+  <!-- Card 4 -->
+  <rect x="876" y="178" width="70" height="27" rx="13" fill="#7c3aed"/>
+  <text x="911" y="197" text-anchor="middle" class="sans pill">原始数据</text>
+  <text x="876" y="246" class="sans stage">数据包</text>
+  <rect x="900" y="286" width="128" height="36" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+  <rect x="900" y="336" width="128" height="36" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+  <rect x="900" y="386" width="128" height="36" rx="8" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+  <text x="964" y="310" text-anchor="middle" class="sans small">detector array</text>
+  <text x="964" y="360" text-anchor="middle" class="sans small">metadata</text>
+  <text x="964" y="410" text-anchor="middle" class="sans small">calibration</text>
+  <text x="876" y="465" class="sans body">不可变原始记录</text>
+  <text x="876" y="497" class="sans body">时间、身份与校验和</text>
+
+  <!-- Card 5 -->
+  <rect x="1126" y="178" width="70" height="27" rx="13" fill="#16a34a"/>
+  <text x="1161" y="197" text-anchor="middle" class="sans pill">步骤 4</text>
+  <text x="1126" y="246" class="sans stage">计算与分析</text>
+  <path d="M1140 300 H1308" stroke="#16a34a" stroke-width="4" marker-end="url(#arrow)"/>
+  <circle cx="1160" cy="300" r="17" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+  <circle cx="1210" cy="300" r="17" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+  <circle cx="1260" cy="300" r="17" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+  <path d="M1150 390 L1185 350 L1220 375 L1260 325 L1305 345" fill="none" stroke="#16a34a" stroke-width="6"/>
+  <text x="1126" y="430" class="sans body">校正 → 重建 → 拟合</text>
+  <text x="1126" y="462" class="sans body">定量 → 不确定度 → 结论</text>
+  <text x="1126" y="502" class="sans small">高层不等于天然高质量</text>
+  <text x="1126" y="528" class="sans small">必须可追溯、可复算</text>
+
+  <!-- Physical flow arrows -->
+  <path d="M286 350 H307" stroke="#36536f" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M556 350 H577" stroke="#36536f" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M826 350 H847" stroke="#36536f" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M1076 350 H1097" stroke="#36536f" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <!-- Data spine -->
+  <rect x="55" y="603" width="1290" height="111" rx="18" fill="#17324d"/>
+  <text x="83" y="638" class="sans" font-size="20" font-weight="700" fill="#fff">贯穿全流程的数据主键与证据链</text>
+  <text x="83" y="675" class="sans" font-size="17" fill="#dbeafe">proposal_id　sample_id　recipe_id　beam_state_epoch　run_id　timestamp　software_version　checksum　provenance</text>
+  <text x="83" y="703" class="sans" font-size="15" fill="#a8c5de">没有这些关联字段，图像仍能“看”，但很难判断它在什么条件下产生、能否复算、是否可信。</text>
+
+  <!-- Feedback -->
+  <path d="M1225 568 C1225 760,704 768,704 557" fill="none" stroke="#d97706" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrowOrange)"/>
+  <rect x="833" y="735" width="305" height="38" rx="19" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <text x="985" y="760" text-anchor="middle" class="sans" font-size="16" font-weight="700" fill="#b45309">在线质量检查触发受限补采或复位</text>
+</svg>
