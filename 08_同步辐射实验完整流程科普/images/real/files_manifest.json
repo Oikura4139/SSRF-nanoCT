@@ -1,0 +1,58 @@
+[
+  {
+    "file": "01_ssrf_storage_ring.jpg",
+    "bytes": 210796,
+    "width": 600,
+    "height": 374,
+    "sha256": "de2f88ada3b408fb7cf335b781b3892538d0e80c80e769dc50d5e7c42f222f96"
+  },
+  {
+    "file": "02_ssrf_news.jpg",
+    "bytes": 33550,
+    "width": 557,
+    "height": 329,
+    "sha256": "319bc0048b2e67fe67ebb34da8beadb9c7d119a22ca62ce38f2f823c11107002"
+  },
+  {
+    "file": "03_bl18b_layout.jpg",
+    "bytes": 24651,
+    "width": 692,
+    "height": 309,
+    "sha256": "ba74cddd408c9e110f367471c25df6cd69b5221134ffa5c267e9ef27b996ac69"
+  },
+  {
+    "file": "04_bl18b_endstation.jpg",
+    "bytes": 81723,
+    "width": 692,
+    "height": 393,
+    "sha256": "dd6f3fb321dcbd8cb0fe8344f74bd3ba9043bd9fcbbe20fd56a668887d4cbbc1"
+  },
+  {
+    "file": "05_xrt_focus.png",
+    "bytes": 15044,
+    "width": 652,
+    "height": 416,
+    "sha256": "8b406b269f90fc273873aeef998164b1c097bd276d006737091b70242a994f3c"
+  },
+  {
+    "file": "06_tomoscan.png",
+    "bytes": 1491973,
+    "width": 1394,
+    "height": 1764,
+    "sha256": "b9497f3fb029c40f95118ffa5cdc02ba3f7992e2c186fd0d330025c0798d1a83"
+  },
+  {
+    "file": "07_nanoct_reference.jpg",
+    "bytes": 99891,
+    "width": 692,
+    "height": 434,
+    "sha256": "d6e27f2bba853b5c7ee0e778af1fad2658a2bff057d529f923d5b4cce9d7c833"
+  },
+  {
+    "file": "08_nanoct_battery.jpg",
+    "bytes": 94796,
+    "width": 692,
+    "height": 253,
+    "sha256": "74ad49185dbdae4a12d32b39d2c01f219afc092bb8b453f6d6d44f84ea6de746"
+  }
+]
